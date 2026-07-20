@@ -1,0 +1,186 @@
+<h1
+id="from-declaration-to-evidence-research-provenance-card-as-version-bound-infrastructure-for-ai-involved-research">From
+Declaration to Evidence: Research Provenance Card as Version-Bound
+Infrastructure for AI-Involved Research</h1>
+<p>Jan Nehyba<br />
+Faculty of Education, Masaryk University, Brno<br />
+ORCID: 0000-0003-4159-5576</p>
+<p>Preprint, version 2 (July 2026). Not peer reviewed.</p>
+<h2 id="abstract">Abstract</h2>
+<p>Current AI disclosure in research is often reduced to one generic
+sentence: AI was used in manuscript preparation. Such wording cannot
+distinguish language polishing from core intellectual work, is not
+machine-auditable, and is not bound to a concrete file version. This
+paper proposes the Research Provenance Card (RPC), a small but practical
+infrastructure component for AI-involved scholarship. RPC records roles
+instead of unverifiable percentages, assigns each process claim to a
+four-level evidence ladder (declared, artifact linked, independently
+attested, reproduced), binds all checks to SHA-256 content fingerprints,
+and separates provenance records from truth certification. The model
+introduces a compensation principle for opaque systems: lower process
+transparency requires stronger output verification. The paper situates
+RPC in the ecosystem of publisher policies, reporting guidelines,
+integrity hubs, AI transparency regulation, and emerging cross-publisher
+standardization efforts. The manuscript also applies the method
+reflexively by publishing its own first RPC card.</p>
+<p>Keywords: research integrity, provenance, AI-generated research,
+scholarly communication, metadata standards, attestation</p>
+<h2 id="introduction">1. Introduction</h2>
+<p>The current disclosure sentence fails in four structural ways.</p>
+<p>First, it is semantically weak. It does not distinguish grammar
+assistance from experimental design, source selection, statistical
+processing, or interpretation.</p>
+<p>Second, it collapses declaration and evidence. A self-report is
+treated as a record even when no artifact or reproducible trace
+exists.</p>
+<p>Third, verification can float. Checks are commonly tied to a
+manuscript label, not to immutable content; a file can change while
+prior verification claims remain visible.</p>
+<p>Fourth, there is an authorship gap in fully autonomous outputs. AI
+cannot be an author under dominant accountability frameworks, while a
+human with no substantial intellectual contribution may fail authorship
+criteria.</p>
+<p>RPC addresses these issues with version-bound process metadata,
+evidence levels, and explicit actor-role records.</p>
+<h2 id="landscape">2. Landscape</h2>
+<p>Publisher policies exist but are fragmented. Some allow only
+language-level assistance in writing sections; others permit broader
+generative use if disclosed in methods. This creates a multi-policy
+burden for authors.</p>
+<p>Integrity infrastructure is strong at detecting suspicious
+submissions but weaker at representing positive, auditable provenance
+for legitimate AI-assisted work.</p>
+<p>Regulatory transparency expectations are increasing, including
+machine-readable disclosures for generative systems. Journal-level
+provenance records can complement, but not replace, model-provider
+obligations.</p>
+<p>In parallel, international standardization efforts are defining
+practical disclosure taxonomies and archival expectations for prompts,
+logs, and verification responsibilities. RPC is designed as an
+implementation profile for this emerging consensus.</p>
+<p>Reporting-guideline traditions in medicine and related fields (for
+example PRISMA, CONSORT, SPIRIT, TRIPOD families) demonstrate that
+checklists improve reporting quality. RPC is not a replacement for
+domain checklists; it is a cross-domain machine-readable carrier for
+process claims and evidence levels.</p>
+<p>Backward AI-text detection has known limitations and false-positive
+risks. Provenance-by-design is a forward approach: record process traces
+at creation time instead of inferring hidden process from final
+text.</p>
+<p>Persistent identifiers matter: ORCID for people, organizational
+identifiers for institutions, and optional agent identifiers for AI
+agents.</p>
+<h2 id="design-principles">3. Design Principles</h2>
+<h3 id="roles-not-percentages">3.1 Roles, Not Percentages</h3>
+<p>RPC records role assignments using CRediT-compatible and RPC
+extension roles. It avoids percentages of intellectual contribution
+because such percentages are not operationally measurable or
+auditable.</p>
+<h3 id="evidence-ladder">3.2 Evidence Ladder</h3>
+<p>Each activity claim uses exactly one level:</p>
+<ol type="1">
+<li>declared</li>
+<li>artifact_linked</li>
+<li>independently_attested</li>
+<li>reproduced</li>
+</ol>
+<p>The ladder exposes absence of evidence explicitly; it does not hide
+uncertainty.</p>
+<h3 id="version-binding-by-content-hash">3.3 Version Binding by Content
+Hash</h3>
+<p><code>paper.pdf_sha256</code> is mandatory. Every check and
+attestation includes <code>subject_sha256</code>. If content changes,
+the hash changes, and old claims are visibly tied to older content.</p>
+<h3 id="provenance-is-not-truth-certification">3.4 Provenance Is Not
+Truth Certification</h3>
+<p>RPC does not compute a global truth score, quality score, or
+acceptance verdict. It records process claims and evidence states
+only.</p>
+<h3 id="compensation-principle">3.5 Compensation Principle</h3>
+<p>When process internals are not fully disclosed for legitimate
+reasons, stronger independent output verification should be required
+proportionally.</p>
+<h3 id="reference-resolution-vs-claim-support">3.6 Reference Resolution
+vs Claim Support</h3>
+<p>Automated reference checks can verify discoverability and metadata
+consistency. They cannot, by themselves, guarantee that a citation
+supports a specific scientific claim. RPC keeps these notions
+separate.</p>
+<h3 id="agent-identity-continuity">3.7 Agent Identity Continuity</h3>
+<p>An optional agent identifier can persist while concrete model
+snapshots evolve over time. The card stores concrete system details per
+work instance.</p>
+<h2 id="rpc-card-structure-and-author-workflow">4. RPC Card Structure
+and Author Workflow</h2>
+<p>An RPC card is one JSON document with these major blocks:</p>
+<ul>
+<li>paper</li>
+<li>human_guarantor</li>
+<li>ai_systems</li>
+<li>activities</li>
+<li>artifacts (optional)</li>
+<li>checks (optional)</li>
+<li>attestations (optional)</li>
+</ul>
+<p>Artifacts can be public, embargoed, on request, restricted, or not
+retained, with mandatory rationale for all non-public states.</p>
+<p>Practical workflow:</p>
+<ol type="1">
+<li>Collect process traces already created during work (logs, prompts,
+code, data records).</li>
+<li>Fill card fields manually or semi-automatically.</li>
+<li>Validate against schema.</li>
+<li>Generate outlet-specific disclosure text from templates.</li>
+<li>Submit manuscript with card reference.</li>
+</ol>
+<p>The design goal is to make honest reporting operationally cheaper
+than ambiguous disclosure.</p>
+<h2 id="deployment-strategy">5. Deployment Strategy</h2>
+<p>A two-track deployment strategy is useful.</p>
+<p>Permissive track: pilot in a community context to measure usability,
+completion time, missing fields, and reader comprehension.</p>
+<p>Strict track: high-integrity venue requiring empirical grounding,
+explicit run-count disclosure policies, and stricter reproducibility
+gates.</p>
+<p>Predefined stop criteria are important: if evidence levels collapse
+mostly to declared without practical uplift, effort should shift toward
+tooling usability and interoperability first.</p>
+<h2 id="limitations">6. Limitations</h2>
+<p>RPC does not prevent dishonest declarations at level declared.</p>
+<p>Independent attestation quality depends on attestor credibility.</p>
+<p>Run-selection bias remains a risk without stronger protocol
+controls.</p>
+<p>Provenance does not detect training-data contamination by itself.</p>
+<p>Adoption can fail if workflow cost is perceived as extra
+bureaucracy.</p>
+<p>Standard alignment can evolve; mapping layers are required over
+time.</p>
+<h2 id="discussion">7. Discussion</h2>
+<p>If successful, the key cultural question shifts from Was AI used? to
+What evidence level supports each process claim?</p>
+<p>Institutionally, RPC can help represent autonomous and mixed
+workflows while preserving human accountability boundaries.</p>
+<p>Machine-readable provenance is increasingly relevant for AI-assisted
+literature synthesis and review pipelines, where process metadata can
+influence automated trust routing without claiming scientific truth.</p>
+<h2 id="conclusion">8. Conclusion</h2>
+<p>A single disclosure sentence is insufficient for auditable AI-era
+scholarship. A minimal infrastructure response is a version-bound,
+evidence-graded provenance card that records who did what and what was
+evidenced, without pretending to certify truth. RPC aims to be
+practical, open, and interoperable with emerging disclosure standards
+while remaining explicit about its limits.</p>
+<h2 id="ai-use-statement">AI Use Statement</h2>
+<p>This manuscript was developed through extensive human-AI
+collaboration. AI systems supported conceptual exploration, drafting
+support, and iterative refinement. Final responsibility, framing
+decisions, and accountability remain with the human guarantor.</p>
+<h2 id="data-and-code-availability">Data and Code Availability</h2>
+<p>RPC specification, schema, validator, reference-resolution utility,
+disclosure generator, and registry implementation are available in the
+project repository under permissive licenses.</p>
+<h2 id="appendix-a-rpc-card-for-this-manuscript">Appendix A: RPC Card
+for This Manuscript</h2>
+<p>The manuscript includes an RPC card in the repository registry.
+Status values indicate process evidence states and do not represent a
+truth certificate.</p>

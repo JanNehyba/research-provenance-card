@@ -1,14 +1,14 @@
 {
   "rpc_version": "0.1",
   "paper": {
-    "title": "Od deklarace k dukazu: Karta provenience vyzkumu jako verzovana infrastruktura pro vyzkum s podilem AI",
-    "version": "preprint-v2-cs",
+    "title": "From Declaration to Evidence: Research Provenance Card as Version-Bound Infrastructure for AI-Involved Research",
+    "version": "preprint-v2-en",
     "venue": "Preprint",
-    "venue_paper_id": "rpc_preprint_cs_md",
-    "pdf_sha256": "2a92fd037f1b1ae684e943161740778506b91c8b49cf87f74830b5b1d0081ee6"
+    "venue_paper_id": "rpc_preprint_en_pdf",
+    "pdf_sha256": "f4aa8c33486bb48789b0011f44f82ee08b7a36d68797e909af7da93e773066d6"
   },
   "human_guarantor": {
-    "orcid": "0000-0000-0000-0000",
+    "orcid": "0000-0003-4159-5576",
     "name": "Jan Nehyba",
     "assertion_timestamp": "2026-07-20T08:27:13Z"
   },
@@ -19,13 +19,13 @@
       "model_family": "Claude",
       "model_version_or_snapshot": "2026-07",
       "interface": "chat",
-      "operator_orcid": "0000-0000-0000-0000"
+      "operator_orcid": "0000-0003-4159-5576"
     }
   ],
   "activities": [
     {
       "role_id": "credit:conceptualization",
-      "actor_id": "human:0000-0000-0000-0000",
+      "actor_id": "human:0000-0003-4159-5576",
       "evidence_level": "declared"
     },
     {
@@ -54,12 +54,12 @@
     },
     {
       "role_id": "credit:writing_review_editing",
-      "actor_id": "human:0000-0000-0000-0000",
+      "actor_id": "human:0000-0003-4159-5576",
       "evidence_level": "declared"
     },
     {
       "role_id": "credit:supervision",
-      "actor_id": "human:0000-0000-0000-0000",
+      "actor_id": "human:0000-0003-4159-5576",
       "evidence_level": "declared"
     }
   ],
@@ -68,18 +68,9 @@
       "id": "log1",
       "type": "log",
       "access_status": "on_request",
-      "restriction_reason": "Pracovni sezeni obsahuji nepublikovany material projektu"
+      "restriction_reason": "Working sessions contain unpublished project material"
     }
   ],
-  "checks": [
-    {
-      "check_type": "version_binding_note",
-      "result": "partial",
-      "details": "Current hash is bound to canonical source file docs/rpc_preprint_cs.md until a final PDF artifact is published.",
-      "tool": "manual",
-      "subject_sha256": "2a92fd037f1b1ae684e943161740778506b91c8b49cf87f74830b5b1d0081ee6",
-      "timestamp": "2026-07-20T08:27:13Z"
-    }
-  ],
+  "checks": [],
   "attestations": []
 }
