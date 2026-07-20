@@ -1,0 +1,10 @@
+AI Disclosure (Springer Nature-style draft)
+
+In manuscript "{{paper_title}}" ({{paper_version}}), AI tools were used and documented in an RPC provenance record.
+
+Human guarantor: {{guarantor_name}} (ORCID: {{guarantor_orcid}})
+AI systems: {{ai_systems}}
+Documented contribution roles: {{roles}}
+Version binding hash (SHA-256): {{pdf_sha256}}
+
+The provenance record captures process evidence and does not replace scientific peer review.

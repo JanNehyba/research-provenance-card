@@ -1,0 +1,28 @@
+{
+  "rpc_version": "0.1",
+  "paper": {
+    "title": "Broken",
+    "version": "v1"
+  },
+  "human_guarantor": {
+    "orcid": "0000-0001-2345-6789",
+    "name": "Jan Nehyba",
+    "assertion_timestamp": "2026-07-20T08:00:00Z"
+  },
+  "ai_systems": [
+    {
+      "id": "ai1",
+      "provider": "Anthropic",
+      "model_family": "Claude",
+      "model_version_or_snapshot": "2026-07",
+      "interface": "chat"
+    }
+  ],
+  "activities": [
+    {
+      "role_id": "credit:conceptualization",
+      "actor_id": "human:0000-0001-2345-6789",
+      "evidence_level": "declared"
+    }
+  ]
+}

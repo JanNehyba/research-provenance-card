@@ -1,0 +1,10 @@
+AI Disclosure (Elsevier-style draft)
+
+For manuscript "{{paper_title}}" ({{paper_version}}), the authors report AI system use in support tasks only as described in the provenance card.
+
+Human guarantor: {{guarantor_name}} (ORCID: {{guarantor_orcid}})
+AI systems: {{ai_systems}}
+Declared roles: {{roles}}
+Version binding (SHA-256): {{pdf_sha256}}
+
+This disclosure references the RPC card and does not imply a global truth or quality certification.
