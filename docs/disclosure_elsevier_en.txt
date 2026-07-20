@@ -1,0 +1,10 @@
+AI Disclosure (Elsevier-style draft)
+
+For manuscript "From Declaration to Evidence: Research Provenance Card as Version-Bound Infrastructure for AI-Involved Research" (preprint-v2-en), the authors report AI system use in support tasks only as described in the provenance card.
+
+Human guarantor: Jan Nehyba (ORCID: 0000-0003-4159-5576)
+AI systems: Anthropic Claude (2026-07)
+Declared roles: credit:conceptualization, credit:supervision, credit:writing_original_draft, credit:writing_review_editing, rpc:source_retrieval
+Version binding (SHA-256): f4aa8c33486bb48789b0011f44f82ee08b7a36d68797e909af7da93e773066d6
+
+This disclosure references the RPC card and does not imply a global truth or quality certification.

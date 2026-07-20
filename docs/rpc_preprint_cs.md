@@ -1,5 +1,17 @@
 # Od deklarace k důkazu: Karta provenience výzkumu jako verzovaná infrastruktura pro výzkum s podílem AI
 
+## Metadata (CS + EN)
+
+| Field | Czech (CS) | English (EN) |
+|---|---|---|
+| Title | Od deklarace k dukazu: Karta provenience vyzkumu jako verzovana infrastruktura pro vyzkum s podilem AI | From Declaration to Evidence: Research Provenance Card as Version-Bound Infrastructure for AI-Involved Research |
+| Manuscript file | docs/rpc_preprint_cs.md | docs/rpc_preprint_en.md |
+| PDF artifact | n/a in this source file | docs/rpc_preprint_en.pdf |
+| Language status | Translation source | Canonical manuscript |
+| RPC binding | Informational | Bound in registry/2026/rpc-2026-0001.json |
+
+Canonical record for submission and provenance binding is the English manuscript and its PDF artifact.
+
 **Jan Nehyba**
 Pedagogická fakulta, Masarykova univerzita, Brno
 ORCID: [0000-…] · Kontakt: [e-mail]
@@ -185,7 +197,7 @@ Standard u jedné venue je interní pravidlo; u dvou nezávislých venue s opač
 
 *Kolej přísná:* plánovaná venue pro agentně prováděný výzkum s kartou povinnou a důkazně orientovaným designem: požadavek empirických dat (čistá syntéza z parametrické paměti modelu nestačí); desk reject při jediné nedohledatelné referenci; **povinné přiznání počtu běhů a pravidla výběru** publikovaného výstupu — poučení ze Sakany: nepřiznaný cherry-picking se stává definovaným porušením integrity, přiznaný legitimní metodou; dráha *registrovaných zpráv*, kde se protokol (otázka, data, prompty, pipeline) zamkne před spuštěním, takže selektivní vykazování je vyloučeno konstrukčně; dvoukolejná recenze — integrita procesu (oborově nezávislá, z velké části automatická) odděleně od oborového posouzení (vyžádaní experti, publikované posudky); a kompenzační princip §3.5 pro utajené systémy. Očekávaná propustnost je poctivě nízká — jednotky až nízké desítky prací ročně při dnešním rozložení kvality; to je definice vlajkové venue, ne její vada.
 
-P�edem stanovená rozhodovací kritéria drží projekt na uzdě vůči vlastnímu optimismu: pokud v pilotu úrovně důkazu zkolabují prakticky jen na „deklarováno", důkazní vrstva přidává náklad bez rozlišovací síly — a úsilí se přesměruje čistě k nástrojové vrstvě (generátor deklarací má hodnotu i sám o sobě).
+P�edem stanovená rozhodovací kritéria drží projekt na uzdě vůči vlastnímu optimismu: pokud v pilotu úrovně důkazu zkolabují prakticky jen na „deklarováno", důkazní vrstva přidává náklad bez rozlišovací síly — a úsilí se přesměruje čistě k nástrojové vrstvě (generátor deklarací má hodnotu i sám o sobě).
 
 ## 6. Co karta neumí (a říkáme to nahlas)
 
