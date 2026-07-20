@@ -1,76 +1,76 @@
 {
-  "rpc_version": "0.1",
-  "paper": {
-    "title": "From Declaration to Evidence: Research Provenance Card as Version-Bound Infrastructure for AI-Involved Research",
-    "version": "preprint-v2-en",
-    "venue": "Preprint",
-    "venue_paper_id": "rpc_preprint_en_pdf",
-    "pdf_sha256": "f4aa8c33486bb48789b0011f44f82ee08b7a36d68797e909af7da93e773066d6"
-  },
-  "human_guarantor": {
-    "orcid": "0000-0003-4159-5576",
-    "name": "Jan Nehyba",
-    "assertion_timestamp": "2026-07-20T08:27:13Z"
-  },
-  "ai_systems": [
-    {
-      "id": "ai1",
-      "provider": "Anthropic",
-      "model_family": "Claude",
-      "model_version_or_snapshot": "2026-07",
-      "interface": "chat",
-      "operator_orcid": "0000-0003-4159-5576"
-    }
-  ],
-  "activities": [
-    {
-      "role_id": "credit:conceptualization",
-      "actor_id": "human:0000-0003-4159-5576",
-      "evidence_level": "declared"
+    "rpc_version": "0.1",
+    "paper": {
+        "title": "From Declaration to Evidence: Research Provenance Card as Version-Bound Infrastructure for AI-Involved Research",
+        "version": "preprint-v2-en",
+        "venue": "Preprint",
+        "venue_paper_id": "rpc_preprint_en_pdf",
+        "pdf_sha256": "f4aa8c33486bb48789b0011f44f82ee08b7a36d68797e909af7da93e773066d6"
     },
-    {
-      "role_id": "credit:conceptualization",
-      "actor_id": "ai1",
-      "evidence_level": "artifact_linked",
-      "artifact_refs": [
-        "log1"
-      ]
+    "human_guarantor": {
+        "orcid": "0000-0003-4159-5576",
+        "name": "Jan Nehyba",
+        "assertion_timestamp": "2026-07-20T08:27:13Z"
     },
-    {
-      "role_id": "rpc:source_retrieval",
-      "actor_id": "ai1",
-      "evidence_level": "artifact_linked",
-      "artifact_refs": [
-        "log1"
-      ]
-    },
-    {
-      "role_id": "credit:writing_original_draft",
-      "actor_id": "ai1",
-      "evidence_level": "artifact_linked",
-      "artifact_refs": [
-        "log1"
-      ]
-    },
-    {
-      "role_id": "credit:writing_review_editing",
-      "actor_id": "human:0000-0003-4159-5576",
-      "evidence_level": "declared"
-    },
-    {
-      "role_id": "credit:supervision",
-      "actor_id": "human:0000-0003-4159-5576",
-      "evidence_level": "declared"
-    }
-  ],
-  "artifacts": [
-    {
-      "id": "log1",
-      "type": "log",
-      "access_status": "on_request",
-      "restriction_reason": "Working sessions contain unpublished project material"
-    }
-  ],
-  "checks": [],
-  "attestations": []
+    "ai_systems": [
+        {
+            "id": "ai1",
+            "provider": "Anthropic",
+            "model_family": "Claude",
+            "model_version_or_snapshot": "2026-07",
+            "interface": "chat",
+            "operator_orcid": "0000-0003-4159-5576"
+        }
+    ],
+    "activities": [
+        {
+            "role_id": "credit:conceptualization",
+            "actor_id": "human:0000-0003-4159-5576",
+            "evidence_level": "declared"
+        },
+        {
+            "role_id": "credit:conceptualization",
+            "actor_id": "ai1",
+            "evidence_level": "artifact_linked",
+            "artifact_refs": [
+                "log1"
+            ]
+        },
+        {
+            "role_id": "rpc:source_retrieval",
+            "actor_id": "ai1",
+            "evidence_level": "artifact_linked",
+            "artifact_refs": [
+                "log1"
+            ]
+        },
+        {
+            "role_id": "credit:writing_original_draft",
+            "actor_id": "ai1",
+            "evidence_level": "artifact_linked",
+            "artifact_refs": [
+                "log1"
+            ]
+        },
+        {
+            "role_id": "credit:writing_review_editing",
+            "actor_id": "human:0000-0003-4159-5576",
+            "evidence_level": "declared"
+        },
+        {
+            "role_id": "credit:supervision",
+            "actor_id": "human:0000-0003-4159-5576",
+            "evidence_level": "declared"
+        }
+    ],
+    "artifacts": [
+        {
+            "id": "log1",
+            "type": "log",
+            "access_status": "on_request",
+            "restriction_reason": "Working sessions contain unpublished project material"
+        }
+    ],
+    "checks": [],
+    "attestations": []
 }
