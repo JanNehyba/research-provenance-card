@@ -1,12 +1,12 @@
-# Consultation Round 2: Submission (trimmed version)
+# Consultation Round 2: Submission
 
 **Towards a Global Reporting Standard for AI Disclosure in Research ("Vancouver Standard")**
 Focus Track of WCRI 2026 · ISC · WCRIF · COPE · STM · GYA
-Submission deadline: **16 October 2026** · Webform: <https://council.science/AIdisclosure>
+Deadline: **16 October 2026** · Webform: <https://council.science/AIdisclosure>
 
 ---
 
-**About this version.** This is a trimmed submission derived from the full text in [`round2-submission-en.md`](./round2-submission-en.md). It keeps the five proposals that stand on their own and removes the earlier implementation work, its framing and its attachments. Before submitting, open the webform in a browser and check that the questions and options still match those of 29 July 2026. The recommended tick-box answers are marked ▶ so the whole submission can be transferred in one pass.
+**About this version.** This is written in plain English on purpose. The answer in 1A(c) argues that the standard must not be harder to follow for researchers who do not write in English. A submission that argues this in dense prose would undercut its own point. Before submitting, open the webform in a browser and check that the questions still match those of 29 July 2026. Recommended tick-box answers are marked ▶.
 
 ## Respondent
 
@@ -16,47 +16,86 @@ Submission deadline: **16 October 2026** · Webform: <https://council.science/AI
 | Role | Assistant Professor, Faculty of Education, Masaryk University, Brno, Czechia |
 | ORCID | 0000-0003-4159-5576 |
 | Capacity | Personal perspectives of a natural person |
-| Discipline | Educational research / social sciences (qualitative methods) |
+| Discipline | Educational research, social sciences, qualitative methods |
 | Country | Czechia |
 | Contact | *[institutional e-mail: fill in before submitting]* |
 
-**Basis of this response.** The answers below are not a position paper. They are the perspective of a qualitative researcher currently studying how people introduce, sign and label AI-assisted texts across genres: research articles, emails and chat messages, teaching and internal materials, and software projects. That work looks at the wording of disclosure statements and at which components of responsibility the wording actually carries. Nothing below rests on a formal implementation or on pilot findings; where an example is drawn from my own practice, it is marked as such.
+**Where this comes from.** I am a qualitative researcher. I am currently studying how people introduce, sign and label texts written with AI, and how this differs by genre: research articles, emails and messages, teaching and internal materials, software projects, theses, and social media. That study asks what a real disclosure actually says, not what a standard says it should say. Nothing below rests on findings from it. It has no results yet.
+
+### How this submission was produced
+
+I wrote this answer with AI assistance. I am reporting that here in the row format this submission asks the standard to adopt, because a submission that argues for disclosure and does not disclose itself is not worth reading. It also demonstrates the blind spot described in 1B(3). The third row below is a real use that no text-based disclosure rule would ever catch.
+
+| Task | Actor | What was checked, and by whom | Trace | What could not be checked |
+|---|---|---|---|---|
+| Drafting and rewriting the text | Claude (Anthropic), Opus 5, September 2026 | Read in full by me. Every recommendation was kept only if I would defend it myself. | Public git history of the repository below | Whether the model shaped the wording of arguments I agreed with, in ways I did not notice |
+| Literature search and checking | Same | Each source opened in the original. Sources I could not find are marked as not found. | `docs/reserse.md` in the same repository, public | Three sources were checked from the abstract only, not the full text |
+| Shaping the argument | Me, using the model as a critic instructed to attack my framing | Not independently checked | **None. The exchange left no durable record.** | How much of the framing came from that exchange. I cannot reconstruct it. |
+
+Repository: <https://github.com/JanNehyba/research-provenance-card>
+
+I hold responsibility for every claim in this submission.
 
 ---
 
-## 0: Summary: five proposals
+## 0: Summary: six proposals
 
 | # | Proposal | Question |
 |---|---|---|
-| **P1** | Give every taxonomy category a **stable, machine-readable identifier** (slug, not ordinal) and version the taxonomy itself, with a deprecation/replacement policy. The precedent is CRediT as ANSI/NISO Z39.104-2022. Without stable IDs, "machine-readable" cannot be delivered downstream. | 3 |
-| **P2** | Make the unit of disclosure a **row, not a sentence**: one row per (task × actor × what-was-checked × trace). Narrative prose can accompany a row; it cannot replace it if disclosures are to be comparable. | 3 |
-| **P3** | Add an **evidence/verification level** to every row, from a closed list. Round 1's criteria and the Focus Track's own "verification ladder" (attestation → review → audit → replication) already point here; a closed list is what makes it machine-readable. | 5 |
-| **P4** | **Bind the disclosure to the version it describes** via a content hash (SHA-256) of the accepted file. Disclosures and verification claims currently attach to a title, not to a state of a file, so they survive silent replacement of content. | 4, 5 |
-| **P5** | Add **three missing categories**: *orchestration / agent operation* (the human act of configuring, prompting and directing the system; covers AI that shapes the work while leaving no trace in the output); *verification performed by AI* (AI-run checking, recordable as checking rather than hidden inside production categories); *selection among multiple runs or outputs* (which run was reported, out of how many, under what selection rule). | 3 |
+| **P1** | Give every taxonomy category a **stable machine-readable identifier**, a slug rather than a number, and version the taxonomy itself, with rules for retiring and replacing a category. CRediT did this as ANSI/NISO Z39.104-2022. Without stable identifiers, nobody downstream can deliver "machine-readable". | 3 |
+| **P2** | Make the unit of disclosure a **row, not a sentence**. One row per task, actor, check and trace. Prose can accompany a row. It cannot replace one, if disclosures are meant to be comparable. | 3 |
+| **P3** | Give every row a **verification level** from a closed list. Round 1's criteria and the Focus Track's own ladder (attestation, review, audit, replication) already point this way. A closed list is what makes it machine-readable. | 5 |
+| **P4** | **Tie the disclosure to the version it describes**, using a content hash (SHA-256) of the accepted file. Today a disclosure is attached to a title, not to a state of a file. That is why it survives a silent change of content. | 4, 5 |
+| **P5** | Add **three missing categories**: orchestration (configuring and directing the system), verification performed by AI, and selection among several runs or outputs. | 3 |
+| **P6** | **Keep at least one required field that a machine cannot fill on its own.** A record that an agent can generate in full, and another agent can check, may be complete, well-formed and empty. | 5 |
+
+### Why the proposals look like this
+
+A useful distinction comes from a nearby field. Corbin, Dawson and Liu (2025) describe two kinds of change to assessment.[^1] **Discursive** changes work only by telling people what they should do. **Structural** changes alter how a task must be completed. Their argument is that instructions alone do not hold, because people stay free to ignore them.
+
+The same split applies here. A standard that prescribes a sentence authors should write is discursive. A standard that defines a record, with required fields and a closed list of verification levels, is structural. All six proposals are attempts to move this standard from the first kind towards the second.
+
+[^1]: Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: why structural assessment changes are needed for a time of GenAI. *Assessment & Evaluation in Higher Education*, 50(7), 1087-1097. That paper is about student assessment, not about disclosure. I am borrowing the distinction, not the findings.
 
 ---
 
 ## 1: Which AI use should be disclosed? (Thresholds)
 
-### 1A. Views on the proposed disclosure threshold
+### 1A. Views on the proposed threshold
 
-**I support the proposed qualitative threshold as written, including the explicit rejection of quantitative thresholds.** The footnote's reasoning is correct and worth stating even more firmly in the final standard: there is no unit, no instrument and no audit procedure for "percentage of AI contribution". Percentages invite two failure modes: authors guessing, and third-party detectors producing numbers ("this manuscript is 40% AI") that can be neither confirmed nor refuted. A role-based, task-based claim is a different kind of statement: it can be confronted with code, logs, outputs and named checkers.
+**I support the qualitative threshold as written, including the decision not to use quantitative thresholds.** The reasoning in the footnote is right, and the final standard should say it even more plainly. There is no unit for "percentage of AI contribution". No instrument measures it and no procedure audits it.
 
-I also support criterion (1), that delegated or AI-shaped judgement is disclosure-worthy **even if a human later validated the result**. This is the single most important sentence in the draft, because it blocks the most common evasion ("I checked it, so it's mine").
+Percentages go wrong in two ways. Authors guess. And detectors produce numbers such as "this manuscript is 40% AI" that nobody can confirm or refute. A claim about roles and tasks is a different kind of claim. You can hold it up against code, logs, outputs, and named people.
 
-Three refinements:
+I also support criterion (1): AI-shaped judgement should be disclosed **even when a human validated the result afterwards**. This is the most important sentence in the draft. It blocks the most common way out, which is "I checked it, so it is mine".
 
-**(a) Do not let the threshold carry the whole burden.** A binary threshold with a uniform reporting cost above it creates a cliff: the author who crosses it pays full price, the author just below pays nothing, and the incentive at the margin is to argue oneself below. Pair the threshold with a **graded record** (P3), so a marginal use can be honestly reported in one cheap row at the lowest evidence level, and a heavy, well-documented use can be reported as such. What should be proportionate is not *whether* one discloses but *how much evidence the record carries*.
+Three refinements.
 
-**(b) "Substantive" needs discipline-level exemplars, not a better definition.** The reviewer/reader test is the right formulation, and further abstract refinement will not help. What will help is a small, growing, citable set of worked examples per domain (a dozen per discipline, maintained as part of the living standard), the way reporting-guideline networks accumulate exemplars. I can contribute educational-research examples.
+**(a) Do not make the threshold carry everything.** A single line, with the same reporting cost for everyone above it, creates a cliff. Cross the line and you pay the full price. Stay just below and you pay nothing. So an author near the line has every reason to argue they are below it.
 
-**(c) Equity: language work must not be taxed by first language.** Category 17 (Translation) and the language part of category 18 create a structural asymmetry. A Czech, Ukrainian or Indonesian researcher who thinks and drafts in their own language and uses AI to produce English prose is doing the *same intellectual work* as an anglophone colleague, but under a literal reading of the threshold they must disclose more. Round 1 concluded the standard must not be harder to follow for less-resourced communities; this is where that principle bites. My proposed wording: **translation of the author's own content, with meaning preserved and verified by the author, is a technical use below the threshold and is disclosed only where the journal requires it; AI-generated *content* in any language is above the threshold regardless of which language it was generated in.** The line is authorship of the content, not the language of production.
+Pair the threshold with a **graded record** (P3). Then a small use can be reported honestly, in one cheap row at the lowest level. A large, well-documented use can be reported as that. What should scale is not *whether* you disclose. It is *how much evidence the record carries*.
+
+**(b) "Substantive" needs examples, not a better definition.** The reviewer test is the right test, and more abstract refinement will not help. What will help is a small set of worked examples for each field, perhaps a dozen each, kept and cited as part of the living standard. Reporting-guideline networks build up exemplars this way. I can contribute examples from educational research.
+
+**(c) Language work must not be taxed by the author's first language.** Category 17 (Translation), and the language part of category 18, create an imbalance.
+
+A Czech, Ukrainian or Indonesian researcher thinks and drafts in their own language, then uses AI to produce English prose. The intellectual work is the same as an anglophone colleague's. But read the threshold literally and they must disclose more. Round 1 concluded that the standard must not be harder for less-resourced communities. This is where that promise is tested.
+
+Proposed wording: **translating the author's own content, with the meaning preserved and checked by the author, is a technical use below the threshold. AI-generated content is above the threshold, in any language.** The line is who wrote the content, not which language it was produced in.
 
 ### 1B. Three examples from my field (educational research, qualitative methods)
 
-1. **Requires disclosure.** An LLM performs first-pass thematic coding of interview transcripts; the researcher reviews, adjudicates and revises the codes. Judgement that would normally be expert-human was delegated; later human validation does not remove the disclosure duty (criterion 1). Taxonomy: *qualitative data analysis*.
-2. **Does not require disclosure.** Spelling and punctuation correction plus reference-list reformatting of a text the author wrote and argued themselves. No effect on meaning, interpretation or substance.
-3. **Doubtful, and I argue it is above the threshold.** Sustained use of an LLM as an adversarial sparring partner during conceptual design: the model is instructed to attack the author's framing, and the framing changes as a result. **No sentence and no code from the model reaches the manuscript**, so every text-centred disclosure rule reports nothing, yet the design of the work was shaped by the exchange. This is drawn from my own practice: I work this way, and the framing of the work genuinely changes in the process. Under criteria (1) and (3) this is disclosable, but no existing category expresses it well; the gap is the one the proposed *orchestration* category in 3B (P5) fills. I flag it as the case where current disclosure practice is most systematically blind, precisely because the AI's contribution is invisible in the output.
+1. **Needs disclosure.** An LLM does the first pass of thematic coding on interview transcripts. The researcher then reviews, decides and revises. Judgement that a trained human would normally make was handed over. Checking it afterwards does not remove the duty to disclose (criterion 1). Category: qualitative data analysis.
+
+2. **Does not need disclosure.** Fixing spelling and punctuation, and reformatting a reference list, in a text the author wrote and argued themselves. Nothing about the meaning changes.
+
+3. **Unclear, and I argue it is above the threshold.** An author uses an LLM over a long period as a sparring partner while designing the work. The model is told to attack the author's framing. The framing changes as a result.
+
+   **Not one sentence from the model reaches the manuscript.** So every rule that looks at the text reports nothing. Yet the design of the work was shaped by the exchange.
+
+   This is how I work, and the framing of my work does change this way. See the third row of the table above. I disclosed this use, and I could not reconstruct how much of my framing came from it. Under criteria (1) and (3) it should be disclosed, but no category fits it. The *orchestration* category proposed in 3B (P5) is meant to fill that gap.
+
+   I flag this as the case where current practice is most systematically blind, and the reason is simple. The AI's contribution is invisible in the output.
 
 ### 1C. Agreement with statements
 
@@ -77,48 +116,60 @@ Three refinements:
 
 ### 2B. Which locations for which kinds of information
 
-Three tiers, with a single source of truth:
+Three tiers, with one source of truth behind them.
 
-1. **Methods and figure captions (narrative):** *why* AI was used, how it fit the design, what its use means for interpreting the results. This is methodological transparency and belongs where the method is described. It cannot be standardised beyond a controlled vocabulary, and should not be.
-2. **A separate structured statement (comparable, machine-readable):** the rows (task, actor, verification level, trace, access conditions). Published next to author-contribution and COI statements, and available as data, not only as rendered prose. This is what makes cross-article comparison, editorial screening and automated screening possible.
-3. **A repository record (evidence):** prompts, logs, code, outputs, with persistent identifiers, hashes and access status. Not in the article; referenced from it.
+1. **Methods and figure captions, in prose.** Why AI was used, how it fitted the design, and what that means for reading the results. This is methodological transparency and it belongs where the method is described. It cannot be standardised beyond a controlled vocabulary, and it should not be.
 
-**Critical implementation detail:** tiers 1 and 2 must be generated from one record, not written twice. Two hand-written descriptions of the same facts diverge, and a divergence between them is indistinguishable from misconduct. Recommendation for the standard: define the record, then define the renderings.
+2. **A separate structured statement, comparable and machine-readable.** The rows: task, actor, verification level, trace, access conditions. Published next to the author-contribution and conflict-of-interest statements, and available as data, not only as rendered prose. This is what makes comparison across articles, and screening at scale, possible at all.
+
+3. **A repository record, holding the evidence.** Prompts, logs, code, outputs, with persistent identifiers, hashes, and an access status. Not in the article. Referenced from it.
+
+**One implementation detail matters more than it looks.** Tiers 1 and 2 must be generated from one record. They must not be written twice. Two hand-written descriptions of the same facts drift apart, and a reader cannot tell drift from misconduct. So define the record first, then define how it is displayed.
 
 ### 2C. Other comments on placement
 
-The "may increase article length" objection is real and is solved by tier 2 being **data attached to the article rather than words in it**; the structured statement should not consume word count, exactly as a COI statement or a data-availability statement does not.
+The objection that this will make articles longer is real, and tier 2 answers it. The structured statement is **data attached to the article, not words inside it**. It should not count towards the word limit, in the same way a conflict-of-interest statement does not.
 
-The stigmatisation objection deserves a direct answer: a separate statement singles out AI *today*, and will look transitional in ten years. That is acceptable. Author-contribution statements were also once a novelty motivated by a specific integrity problem. Design the record so it can be absorbed into a general contributorship record later (P1, P2) rather than avoiding it now.
+The objection about stigma deserves a direct answer. Yes, a separate statement singles out AI today, and in ten years it will look like a transitional measure. That is acceptable. Author-contribution statements were once new too, and they were introduced to solve one specific integrity problem. Design the record so it can later be folded into a general contributorship record (P1, P2), rather than avoiding it now.
 
 ---
 
 ## 3: How should AI disclosure be structured? (Taxonomy)
 
-### 3A. Adequacy of the proposed 18-category taxonomy
+### 3A. Is the proposed 18-category taxonomy adequate?
 
 ▶ **Mostly adequate.**
 
-### 3B. Views on the proposed taxonomy
+### 3B. Views on the taxonomy
 
-The granularity is broadly right. Splitting *quantitative* from *qualitative* data analysis (12/13) and *data visualization* from *figure or image generation* (14/15) are both correct calls; both prevent real confusions about what the AI did.
+The level of detail is broadly right. Splitting quantitative from qualitative data analysis (12 and 13) is correct. So is splitting data visualization from figure or image generation (14 and 15). Both prevent real confusion about what the AI actually did.
 
-**Ambiguity and overlap to resolve.**
+**Overlaps to resolve.**
 
-- 8 *Data collection (operations)* vs 9 *Data creation*: "creation" reads as synthetic/simulated data generation, but can be read as collection. Rename 9 to *Synthetic or simulated data generation* and define both.
-- 4 *Literature summarization* vs 16 *Drafting text*: an AI-written literature-review section is both. State the rule (classify by the task, allow multiple categories per use).
-- 18 bundles *editing/rewriting* with *reference lists*. Reference handling has a specific, checkable failure mode (non-resolving citations) and deserves separation from prose editing.
-- 5/6/7 as `Design > …` sub-entries is good; make the parent/child relation explicit and machine-readable, otherwise implementers will flatten it inconsistently.
+- 8 *Data collection (operations)* against 9 *Data creation*. "Creation" reads as generating synthetic or simulated data, but it can also be read as collection. Rename 9 to *Synthetic or simulated data generation*, and define both.
+- 4 *Literature summarization* against 16 *Drafting text*. An AI-written literature review section is both. State the rule: classify by the task, and allow more than one category per use.
+- 18 puts editing and rewriting together with reference lists. Reference handling has its own failure mode that anyone can check, namely citations that do not resolve. It deserves to be separate from editing prose.
+- Treating 5, 6 and 7 as children of *Design* is good. Make the parent-child relation explicit and machine-readable, or implementers will flatten it in different ways.
 
-**Structural recommendations (the part that decides whether "machine-readable" is real).**
+**Structural recommendations. This is the part that decides whether "machine-readable" is real.**
 
-1. **Stable identifiers, slug-based, not ordinals** (P1). `vs:literature-search`, not "category 3". Ordinals break the moment a category is inserted or retired. Publish the list as a versioned machine-readable vocabulary (JSON/SKOS) with `deprecated` and `replaced_by`. CRediT's route via ANSI/NISO Z39.104-2022 is the precedent, and the reason CRediT is usable in metadata today.
-2. **Rows, not sentences** (P2). A category alone does not carry a disclosure. The minimum row is: *task* (category ID) · *actor* (which AI system / which human) · *what was checked and by whom* · *trace* (what record exists and how it can be accessed). This is exactly the structure Round 1 asked for: a consistent core with room for free description.
-3. **Note that the taxonomy classifies tasks, and disclosure needs one more axis.** The draft says this ("merely a classification of research tasks"). I agree, and that is precisely the point: without the verification axis (§5), the taxonomy tells a reader what AI touched but not what anyone did about it.
-4. **Three missing categories** (P5). All 18 proposed categories describe a research task the AI performed. Three acts with distinct integrity properties fall outside them:
-   - **Orchestration / agent operation.** The human act of configuring, prompting and directing the system, including a supervisory agent selecting specialist agents. This is where AI can substantively shape the work while leaving no trace in the output (the adversarial-critique case in 1B); no output-centred category can express it, and the only artefact is usually the prompt or protocol, which is precisely why it should be disclosable.
-   - **Verification performed by AI.** AI-run checking (reference resolution, claim-support assessment, statistical audit, code review) is a distinct act from producing research material, with different integrity properties. Categories 10 and 11 smuggle it in as "auditing"; it needs to be recordable as what it is, carrying its own evidence level (P3).
-   - **Selection among multiple runs or outputs.** Which run was reported, out of how many, under what selection rule. Undisclosed selection of the best of many runs is invisible in every disclosure scheme I know of, including this draft, and it is a matter of integrity, not of implementation. A category makes disclosure possible; making it mandatory for agentic pipelines is a separate policy choice, which I would support.
+1. **Use stable identifiers, slugs rather than numbers** (P1). `vs:literature-search`, not "category 3". Numbers break as soon as a category is added or retired. Publish the list as a versioned machine-readable vocabulary, in JSON or SKOS, with `deprecated` and `replaced_by` fields. CRediT went through ANSI/NISO Z39.104-2022, and that is why CRediT works in metadata today.
+
+   **The same applies to actors, not only to categories.** "We used GPT-4" is not an identifier. A row should name the provider, the model family, the version or snapshot, and the interface, and where possible point to a stable identifier for that system. Work on identifiers for AI systems has begun (AICID, Vidal and Monperrus, arXiv 2606.28756).
+
+   To be clear: I am not proposing that an AI system be treated as an author. COPE has settled that question and I agree with it. I am proposing that the **tool that acted** be identified as precisely as the human who is accountable for it.
+
+2. **Rows, not sentences** (P2). A category on its own does not carry a disclosure. The smallest useful row is: task (category ID), actor (which AI system, or which human), what was checked and by whom, and trace (what record exists and how to reach it). This is the structure Round 1 asked for: a consistent core, with room for free description.
+
+3. **The taxonomy classifies tasks, and disclosure needs one more axis.** The draft says this itself, calling the list "merely a classification of research tasks". I agree, and that is the point. Without the verification axis in section 5, the taxonomy tells a reader what the AI touched. It does not tell them what anyone did about it.
+
+4. **Three missing categories** (P5). All 18 categories describe a research task the AI performed. Three acts with different integrity properties fall outside them.
+
+   - **Orchestration, or operating an agent.** The human act of configuring, prompting and directing the system, including a supervising agent that picks specialist agents. This is where AI can shape the work substantially while leaving no trace in the output, as in the example in 1B(3). No category that looks at the output can express it. The only artefact is usually the prompt or the protocol, which is exactly why it should be disclosable.
+
+   - **Verification performed by AI.** Checking done by AI: resolving references, judging whether a claim is supported, auditing statistics, reviewing code. This is a different act from producing research material and it has different integrity properties. Categories 10 and 11 smuggle it in as "auditing". It should be recordable as what it is, and carry its own evidence level (P3).
+
+   - **Selection among several runs or outputs.** Which run was reported, out of how many, and under what rule. Undisclosed selection of the best of many runs is invisible in every disclosure scheme I know of, including this draft. It is a question of integrity, not of implementation. A category makes disclosure possible. Making it mandatory for agentic pipelines is a separate policy decision, and I would support it.
 
 ---
 
@@ -131,16 +182,21 @@ The granularity is broadly right. Splitting *quantitative* from *qualitative* da
 | Journals should require authors to include a non-empty disclosure (including a negative disclosure when they have not substantively used AI). | ▶ **Strongly agree** |
 | Agreement with a publisher policy on AI disclosure is convincing enough to trust that AI reporting was accurate. | ▶ **Strongly disagree** |
 
-### 4B. View on mandatory non-empty disclosure and "null" declarations
+### 4B. View on mandatory non-empty disclosure and null declarations
 
-**Support, for a reason that is not the usual one.** The culture-change argument is fine but soft. The strong argument is evidentiary: silence cannot be falsified, whereas a null declaration is a **specific, dated, attributable assertion**. If evidence later shows substantive undisclosed AI use, silence yields an argument about interpretation ("nobody asked"), while a null declaration yields a documented false statement with a named author and a timestamp. Mandatory non-empty disclosure does not prevent dishonesty; it converts fog into a paper trail. That is a large gain for a one-line cost.
+**I support it, for a reason that is not the usual one.** The culture-change argument is fine but soft. The strong argument is about evidence.
 
-Two conditions, without which the null declaration becomes exactly the empty sentence the standard is replacing:
+Silence cannot be proved false. A null declaration is a specific, dated statement by a named person. If evidence later shows substantial undisclosed AI use, silence gives you an argument about interpretation, along the lines of "nobody asked". A null declaration gives you a documented false statement, with a name and a date on it.
 
-1. **Bind it to the accepted version** (P4). A declaration made at submission and never re-affirmed is a claim about a file that no longer exists. Require re-affirmation at acceptance, attached to the accepted manuscript's content hash. This closes the *dangling-attestation* problem: a check that outlives what it checked. It is cheap, a SHA-256 hash costs a second to compute and anyone can verify it, and it is the single most under-used mechanism available to this standard.
-2. **Do not let the tick-box substitute for it.** Consenting to a publisher policy at submission is invisible to readers and unfalsifiable in retrospect. The declaration must be published with the article.
+Mandatory non-empty disclosure does not stop dishonesty. It turns fog into a paper trail. That is a large gain for the cost of one line.
 
-**On stigmatisation:** the risk is real but is mostly a function of wording. A null declaration phrased as an absence of *threshold-meeting* use, in the same block as the COI statement, normalises rather than singles out. The greater stigma risk today is the opposite one: that honest disclosers appear worse than silent non-disclosers.
+Two conditions. Without them the null declaration becomes exactly the empty sentence the standard is trying to replace.
+
+1. **Tie it to the accepted version** (P4). A declaration made at submission, and never repeated, is a claim about a file that no longer exists. Require it to be re-affirmed at acceptance, attached to the content hash of the accepted manuscript. This closes a problem I would call a **dangling attestation**: a check that outlives the thing it checked. A SHA-256 hash takes a second to compute and anyone can verify it. It is the most under-used mechanism available to this standard.
+
+2. **Do not let a tick-box stand in for it.** Agreeing to a publisher policy at submission is invisible to readers and cannot be checked afterwards. The declaration has to be published with the article.
+
+**On stigma.** The risk is real, but it depends mostly on wording. A null declaration written as the absence of *threshold-meeting* use, placed in the same block as the conflict-of-interest statement, normalises rather than singles out. The bigger stigma risk today is the opposite one. Honest disclosers look worse than people who said nothing.
 
 ---
 
@@ -152,42 +208,60 @@ Two conditions, without which the null declaration becomes exactly the empty sen
 
 ### 5B. View on general responsibility statements
 
-Include it, but do not let it stand alone, and make it **attributable rather than collective**. "The authors take full responsibility" is true of every paper ever published and therefore carries no information; the box-ticking objection is correct as applied to that wording. What does carry information is a named person with a persistent identifier accepting responsibility for a specific AI use at a specific time: one guarantor per disclosed row where AI use was substantive, comparable to a corresponding-author role. It costs the author nothing they do not already know.
+Include it, but do not let it stand alone, and make it **attributable rather than collective**.
 
-So: keep the default sentence for the general case, and require **named oversight per substantive use** (see 5E, last row, which I rate Essential).
+"The authors take full responsibility" is true of every paper ever published. It therefore tells the reader nothing, and the box-ticking objection is correct about that wording. What does tell the reader something is a named person, with a persistent identifier, accepting responsibility for a specific AI use at a specific time. One guarantor per disclosed row where the AI use was substantial, much like the corresponding-author role. It costs the author nothing they do not already know.
 
-**A perspective from genres the standard does not cover.** A disclosure is also a language act: its wording can be decomposed into who sends the text, who chose the words, and who vouches for the content. These components combine differently in genres outside the research article. An email that opens with "Here is an AI summary" tells the recipient something no article-style statement says; a slide deck signed with a name only claims authorship and accountability at once; a `Co-Authored-By:` trailer in a commit message (an established convention in git and in AI coding tools) credits an AI system with a share of the authorship while assigning it none of the accountability; a thesis statement page does it in a form prescribed by an institution. A standard written for research articles will not cover emails, teaching materials or internal documents, where the same responsibility is handled by other means (signatures, review conventions, naming rules). I suggest the standard state its genre scope explicitly, and not imply that an article-style statement is the model for all communication.
+So keep the default sentence for the general case, and require **named oversight for each substantial use**. See 5E, last row, which I rate Essential.
+
+**A note about genres this standard does not cover.** A disclosure is also a language act. Its wording can be broken into who sends the text, who chose the words, and who vouches for the content. Those parts combine differently outside the research article.
+
+An email that opens with "Here is an AI summary" tells the reader something no article-style statement says. A slide deck signed with a name alone claims authorship and accountability at the same time. A `Co-Authored-By:` trailer in a commit message, an established convention in git and in AI coding tools, gives an AI system a share of the authorship and none of the accountability. A thesis declaration page does all of this in a form the university prescribed.
+
+A standard written for research articles will not cover emails, teaching materials or internal documents, where the same responsibility is handled by other means: signatures, review conventions, naming rules. I suggest the standard state its genre scope openly, and avoid implying that an article-style statement is the model for all communication.
 
 ### 5C. What information about verification and oversight should authors disclose
 
-**Structured, not narrative, with a narrative slot.** The example statements in the preparatory reading illustrate the problem: the "generic" example ("the authors reviewed and edited all AI-generated content") is unfalsifiable, and the "rigorous" and "descriptive" examples are excellent but cannot be compared across articles, screened at scale, or checked for internal consistency. A five-slot row per disclosed use is feasible in minutes and is comparable:
+**Structured, not narrative, but with a slot for narrative.** The example statements in the preparatory reading show the problem. The generic example, "the authors reviewed and edited all AI-generated content", cannot be proved false. The rigorous and descriptive examples are good, but you cannot compare them across articles, screen them at scale, or check them for internal consistency.
+
+A five-slot row per disclosed use takes minutes to fill and can be compared.
 
 | Slot | Content | Why |
 |---|---|---|
-| 1. Task | taxonomy category ID | comparability |
-| 2. Actor | which AI system (provider, model family, **version/snapshot**, interface) or which human | "we used an LLM" is not a description of a tool; a dated version is |
-| 3. What was checked, by whom | closed list: *not checked* · *read-through by author* · *sampled (state fraction)* · *fully re-executed / recomputed* · *cross-checked against primary sources* · *checked by a named third party* · *independently reproduced* | this is the axis that turns disclosure into accountability |
-| 4. Trace | what record exists (prompt/log/code/output), its identifier and hash, and its access status: *public · embargoed · on request · restricted · not retained*, with a reason whenever it is not public | prompts and logs frequently cannot be published (personal data, licensed text, third-party material); an unpublishable record can still be *hash-referenced*, which makes later substitution detectable |
-| 5. What could not be checked | short free text, **required** | the most informative field in the whole record, and the first one that will be dropped if it is optional |
+| 1. Task | Category ID from the taxonomy | So rows can be compared |
+| 2. Actor | Which AI system: provider, model family, **version or snapshot**, interface. Or which human. | "We used an LLM" does not describe a tool. A dated version does. |
+| 3. What was checked, and by whom | Closed list: *not checked* · *read through by the author* · *sampled, say what fraction* · *fully re-run or recomputed* · *cross-checked against primary sources* · *checked by a named third party* · *independently reproduced* | This is the axis that turns a disclosure into accountability |
+| 4. Trace | What record exists (prompt, log, code, output), its identifier and hash, and its access status: *public · embargoed · on request · restricted · not retained*, with a reason whenever it is not public | Prompts and logs often cannot be published, because of personal data, licensed text or third-party material. An unpublishable record can still be referenced by its hash, which makes a later swap detectable. |
+| 5. What could not be checked | Short free text, **required** | The most informative field in the record, and the first one that will be dropped if it is optional |
 
-**The closed list in slot 3 is a ladder, and the Focus Track has already drawn it.** Session 4.B proposed attestation → review → audit → replication. Two axes are hiding in it, and the difference is instructive: Perkins's ladder grades **the strength of the checking act**, and a complementary axis grades **what a third party can still verify about the claim**. Both are needed, because "I inspected the output" with no surviving trace is, evidentially, a bare assertion:
+**P6: keep at least one field a machine cannot fill.** The consultation criteria ask for records that are machine-readable and machine-generatable. Both are useful. Together they carry a risk worth naming.
+
+The more structured a record is, the more easily an agent produces it. If an agent can write the whole disclosure, and another agent can check it, then a complete, well-formed, entirely empty record becomes the cheapest thing in the pipeline. It looks finished, it asserts nothing, and it moves the work of discovering that to the reader.
+
+The protection already exists in the design above. It should be stated as a principle rather than left to chance: **every record must contain at least one required field that cannot be completed honestly unless a human did something.** In this proposal there are two. Slot 5 is required free text about what was not checked. And the named guarantor is a person with an identifier who can be asked.
+
+The same logic runs through the list in slot 3. A machine can write "not checked", or "read through by the author", without anyone reading anything. It cannot write "checked by a named third party" or "independently reproduced" without naming someone or producing something. The upper rungs resist automation. The lower ones do not, and that is fine, because the value of the lower rungs is that they are honest.
+
+**The closed list in slot 3 is a ladder, and the Focus Track has already drawn it.** Session 4.B proposed attestation, review, audit, replication. Two different axes are hiding inside it. Perkins's ladder grades **how strong the checking act was**. A second axis grades **what a third party can still verify**. Both are needed, because "I inspected the output", with no surviving record, is just a claim.
 
 | Session 4.B ladder | What it asserts | What a third party can verify |
 |---|---|---|
-| Attestation, "I take responsibility" | responsibility | the claim itself, visibly unverified |
-| Review, "I inspected the output" | self-check | nothing, unless the review left a durable trace |
-| Audit, "I checked process and evidence" | process check | a trace if author-run; a named third party's check with stated scope |
-| Replication, "I reproduced or cross-checked" | re-execution | the reproduction |
+| Attestation, "I take responsibility" | Responsibility | The claim itself, visibly unverified |
+| Review, "I inspected the output" | A self-check | Nothing, unless the review left a lasting record |
+| Audit, "I checked process and evidence" | A process check | A record, if the author ran it; or a named third party's check, with a stated scope |
+| Replication, "I reproduced or cross-checked" | Re-execution | The reproduction |
 
-One consequence worth putting in the standard explicitly: **the existence of a log does not by itself strengthen a claim about the work.** A log may be incomplete or about something else. A trace shows that something was recorded; only a named external checker or a re-execution shows that the claim was examined.
+One consequence is worth putting in the standard in so many words. **Having a log does not by itself make a claim about the work any stronger.** A log can be incomplete, or about something else. A trace shows that something was recorded. Only a named external checker, or a re-run, shows that the claim was examined.
 
 ### 5D. Where should verification and oversight information be findable?
 
 ▶ Tick: **In a separate statement in the article** · **In a repository, as complementary materials** · **Available on demand for reviewers, readers, journal**
 
-Not "main content only" (not comparable), and not "recorded but inaccessible" (an unverifiable record is not evidence). The three-tier answer from 2B applies: pointer in the article, record in a repository, restricted artefacts on request, with **hashes published even for artefacts that are not**, so that restricted evidence is still tamper-evident.
+Not "main content only", because that cannot be compared. And not "recorded but inaccessible", because a record nobody can reach is not evidence.
 
-### 5E. Desirability of specific information
+The three tiers from 2B apply: a pointer in the article, the record in a repository, restricted material on request. Publish **the hashes even of material that stays restricted**, so that restricted evidence can still show whether it has been changed.
+
+### 5E. How desirable is each kind of information?
 
 | Item | Rating |
 |---|---|
@@ -198,21 +272,33 @@ Not "main content only" (not comparable), and not "recorded but inaccessible" (a
 | Whether records of AI interactions, prompts, logs, or audit trails were retained, and under what conditions they are accessible | ▶ **Essential** |
 | Who (which human) was responsible for oversight and verification of each AI use | ▶ **Essential** |
 
-*Note on the first row.* I rate risk-mitigation narratives lower than the other five deliberately, and it is the only rating where I expect disagreement. Generic risk prose is the most easily produced and least checkable part of any disclosure; it will converge on boilerplate within one publication cycle. The other five items are all statements someone can be confronted with. Keep the risk field, make it optional and prompt it with the specific risks, but do not let it become the field authors fill in *instead of* the checkable ones.
+*A note on the first row.* I rate risk narratives lower than the other five on purpose, and this is the only rating where I expect disagreement.
 
-### 5F. What the Reporting Standard should advise on making verification and oversight transparent
+Generic prose about risk is the easiest part of any disclosure to produce and the hardest to check. Within one publication cycle it will settle into boilerplate. The other five items are all statements someone can be confronted with. Keep the risk field, make it optional, and prompt it with the specific risks. Just do not let it become the field authors fill in **instead of** the ones that can be checked.
 
-1. **Advise recording the absence of verification as explicitly as its presence.** A standard whose only positive signals are "checked" will be filled in with "checked". The value of a graded record is symmetric: it makes a missing check *legible* instead of *invisible*. Practically: an author who declares five substantive AI uses of which two were never independently checked has produced a more informative and more trustworthy document than one who asserts blanket review of everything.
-2. **Advise binding every verification claim to a content hash** (P4). This is the one recommendation I would keep if forced to drop all others. A verification claim that names a file state cannot be inherited by a later, different file state. Without it, "verified" is a claim about a title.
-3. **Do not certify.** A structured verification record invites an aggregate score ("provenance quality: 8/10"). I recommend the standard state explicitly that no field or combination of fields constitutes a quality or truth judgement about the research. Certification carries liability a reporting standard cannot bear, aggregate scores get optimised rather than satisfied, and venues legitimately differ in what they require. Record who did what and what was evidenced; stop there.
+### 5F. What should the standard advise about making verification transparent?
+
+1. **Advise recording the absence of a check as plainly as its presence.** A standard whose only positive signal is "checked" will be filled in with "checked" everywhere. A graded record works in both directions. It makes a missing check **visible** instead of invisible.
+
+   In practice: an author who declares five substantial AI uses, and says that two of them were never independently checked, has written a more informative and more trustworthy document than one who claims to have reviewed everything.
+
+2. **Advise tying every verification claim to a content hash** (P4). If I had to drop every other recommendation, I would keep this one. A verification claim that names a file state cannot be inherited by a later, different file state. Without it, "verified" is a claim about a title.
+
+3. **Do not certify.** A structured record invites someone to add up a score, such as "provenance quality: 8 out of 10". The standard should say plainly that no field, and no combination of fields, is a judgement about the quality or the truth of the research.
+
+   Certification carries liability that a reporting standard cannot bear. Aggregate scores get optimised rather than met. And venues differ, legitimately, in what they require. Record who did what, and what evidence exists. Stop there.
 
 ---
 
 ## 6: Summary and other feedback
 
-**Where this response comes from.** It is informed by ongoing qualitative work on how people word AI disclosures across genres: research articles, emails and chat messages, teaching and internal materials, and software projects. Among the questions that pilot asks: which components a real disclosure actually carries (role of the AI, share of the work, what the human did, accountability, certainty, state of the output, expectations of the recipient, placement), and how much of the wording is publisher template rather than author voice. Validated findings from that pilot can be offered for Round 3.
+**Where this response comes from.** It is written from ongoing qualitative work on how people word AI disclosures across genres: research articles, emails and messages, teaching and internal materials, software projects, theses, and social media.
 
-On process: the three-round design and the published preparatory reading have made this consultation unusually easy to engage with substantively. One suggestion: publish the round-2 outcome as a **versioned, machine-readable draft** (vocabulary file plus example records), not only as prose, so implementers can respond in Round 3 with running code instead of comments.
+The questions that work asks are: which parts a real disclosure actually carries, and how much of the wording is a publisher template rather than the author's own voice. The parts I am tracking are the role of the AI, the share of the work, what the human did, accountability, certainty, the state of the output, what is expected of the reader, and where the statement sits.
+
+There are no findings yet. If the pilot produces results that hold up, I can offer them for Round 3.
+
+**On process.** The three-round design and the published preparatory reading have made this consultation unusually easy to engage with. One suggestion: publish the Round 2 outcome as a **versioned, machine-readable draft**, a vocabulary file plus example records, and not only as prose. Then implementers can answer in Round 3 with working code instead of comments.
 
 ---
 
@@ -223,12 +309,3 @@ On process: the three-round design and the published preparatory reading have ma
 - **How I found out about this round:** ▶ Other → *"Following the Focus Track publicly (ISC website); researching how people word AI disclosures across genres."*
 - **Relationship with AI systems:** ▶ Professional-heavy AI user
 - **Role/career stage:** ▶ Active researcher (with PhD or equivalent) · ▶ Researcher with a permanent contract
-
----
-
-*Prepared for submission via <https://council.science/AIdisclosure> by 16 October 2026. Sources for process facts are listed in [`README.md`](./README.md).*
-
-
-
-
-

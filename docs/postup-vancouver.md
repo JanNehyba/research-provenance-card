@@ -39,3 +39,65 @@ personally through the web form; this stream sends nothing.
 
 - The submission cannot be reviewed by whoever writes it. Someone else, the
   author or another instance, must read it before it is submitted.
+
+## 2026-09-16 - all five changes made
+
+Both language versions rewritten. Structure mirrors section by section.
+
+**Plain English.** Mean sentence length is now 13.4 words, median 12, with five
+sentences over 35 words and all of those inside tables or lists. The reason is
+stated in the header note, so a reader can see the choice was deliberate.
+
+**How this submission was produced.** A new block after the respondent table,
+written as three rows in the format the submission proposes. The third row
+records the use described in 1B(3), the one no text-based rule would catch, and
+reports honestly that it left no durable trace and that the author cannot
+reconstruct how much of his framing came from it. 1B(3) now points at that row,
+so the submission demonstrates its own argument rather than only stating it.
+
+**AI actor identifier.** Added to 3B recommendation 1, as an extension of P1
+from categories to actors. AICID (Vidal & Monperrus, arXiv 2606.28756) is cited
+as prior art. The paragraph says explicitly that this is not a proposal to treat
+an AI system as an author, and that COPE has settled that question.
+
+An AI ORCID was considered and rejected. ORCID's terms define registrants as
+natural persons, and COPE, a partner in this consultation, has published that AI
+cannot be an author. Proposing one would have put the submission against a
+partner's published position in its first substantive paragraph.
+
+**P6, against full automation.** New sixth proposal, expanded in 5C. The
+argument: the consultation asks for records that are machine-readable and
+machine-generatable; the more structured a record is, the more easily an agent
+produces it; a fully generated record is complete, well-formed and empty, and it
+moves the work of noticing that to the reader. The principle proposed is that
+every record must contain at least one required field that cannot be completed
+honestly unless a human did something. Two such fields already exist in the
+proposal: slot 5 and the named guarantor. The paragraph also notes that the
+verification ladder resists automation at the top and not at the bottom, and
+that this is acceptable.
+
+**Structural versus discursive.** Added as the framing for all six proposals, in
+a new subsection of section 0.
+
+### Verification
+
+- Corbin, Dawson & Liu (2025), *Assessment & Evaluation in Higher Education*,
+  50(7), 1087-1097, DOI 10.1080/02602938.2025.2503964. **Abstract verified**
+  from the ERIC, Macquarie and Deakin records; the publisher page returns 403.
+  The footnote states that the paper is about student assessment and that only
+  the distinction is borrowed.
+- AICID, arXiv 2606.28756, Vidal & Monperrus, June 2026. **Abstract verified.**
+- ORCID terms and the COPE position on AI authorship: **verified** via search,
+  not from the primary policy documents. Check the COPE position statement
+  directly before relying on that sentence in public.
+- No em dash in either file. No occurrence of RPC, validator, crosswalk or
+  Zenodo in the English version. Section structure identical in both files.
+
+### Open for the author
+
+- **This text needs a reader who did not write it.** That is the same objection
+  the submission itself makes about review that leaves no trace.
+- Fill in the institutional e-mail.
+- Open the webform and check the questions against the 29 July 2026 state.
+- Two meta passages, the header note and the repository link, are for the
+  repository. Skip them when pasting into the form.
