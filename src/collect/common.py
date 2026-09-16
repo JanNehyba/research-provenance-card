@@ -35,20 +35,59 @@ GENRES = (
     "social_media",
 )
 
-# Wordings that publishers hand authors. A formulation that contains one of
-# these is a template fill-in, not the author's own sentence. This flag is the
-# main explanatory variable of the study, so it is computed here rather than
-# left to the coder.
-TEMPLATE_MARKERS = (
-    "during the preparation of this work",
-    "during the preparation of this manuscript",
-    "the author(s) used",
-    "after using this tool/service",
-    "after using this tool or service",
-    "take(s) full responsibility for the content of the publication",
-    "take full responsibility for the content of the publication",
-    "reviewed and edited the content as needed",
-    "generative ai and ai-assisted technologies in the writing process",
+# Publisher boilerplate, grouped by family. A formulation that contains one of
+# these markers is a template fill-in, not the author's own sentence. The
+# matched family is stored on the item, not just a yes/no flag, because
+# `templated` is the study's main explanatory variable and a false negative or
+# a muddled family is worse than anywhere else in the pipeline.
+#
+# Springer and Nature are one publisher group handing authors the same
+# statement, so they share a family. Springer Nature is checked before
+# Elsevier because their wordings overlap heavily and Springer Nature's is the
+# superset. Frontiers is checked first because its wording is the most
+# distinctive.
+TEMPLATE_FAMILIES: dict[str, tuple[str, ...]] = {
+    "frontiers": (
+        "was used in the creation of this manuscript",
+    ),
+    "springer_nature": (
+        "generative ai and ai-assisted technologies in the writing process",
+        "after using this tool or service",
+    ),
+    "wiley": (
+        "in the course of preparing this work",
+        "in the course of preparing this manuscript",
+    ),
+    "elsevier": (
+        "during the preparation of this work",
+        "during the preparation of this manuscript",
+        "after using this tool/service",
+        "reviewed and edited the content as needed",
+        "take full responsibility for the content of the publication",
+        "takes full responsibility for the content of the publication",
+        "the author(s) used",
+    ),
+}
+
+# Where a disclosure ends. The forward cut of the extraction window stops at
+# any of these section headings instead of at a character count, so an item
+# cannot drag the next section in with it.
+SECTION_BREAKS = (
+    "footnotes",
+    "references",
+    "acknowledgement",
+    "acknowledgment",
+    "data availability",
+    "author contribution",
+    "competing interest",
+    "conflict of interest",
+    "abbreviations",
+    "backmatter",
+    "publisher's note",
+    "additional information",
+    "consent for publication",
+    "ethics approval",
+    "supplementary information",
 )
 
 EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
@@ -69,12 +108,16 @@ class Item:
     context_note: str = ""
     license_note: str = ""
     templated: bool = False
+    template_family: str = ""
+    trigger_phrase: str = ""
     collected_at: str = ""
     id: str = field(default="")
 
     def finalise(self) -> "Item":
         self.text_verbatim = normalise_ws(self.text_verbatim)
-        self.templated = is_templated(self.text_verbatim)
+        family = template_family_of(self.text_verbatim)
+        self.templated = family != ""
+        self.template_family = family
         self.collected_at = self.collected_at or time.strftime("%Y-%m-%d")
         self.id = self.id or item_id(self.text_verbatim, self.source_url)
         return self
@@ -92,6 +135,12 @@ class Item:
             bad.append("source_url is not a public URL")
         if EMAIL_RE.search(self.text_verbatim) or EMAIL_RE.search(self.context_note):
             bad.append("contains an email address")
+        first_letter = next((ch for ch in self.text_verbatim if ch.isalpha()), "")
+        if first_letter and first_letter.islower():
+            bad.append("starts mid-sentence, first letter is lower case")
+        if self.trigger_phrase:
+            if self.text_verbatim.lower().count(self.trigger_phrase.lower()) > 1:
+                bad.append("the same trigger phrase appears more than once")
         return bad
 
 
@@ -99,9 +148,14 @@ def normalise_ws(text: str) -> str:
     return " ".join(text.replace(" ", " ").split())
 
 
-def is_templated(text: str) -> bool:
+def template_family_of(text: str) -> str:
+    """Publisher family whose boilerplate this wording follows, "" if none."""
     low = text.lower()
-    return any(marker in low for marker in TEMPLATE_MARKERS)
+    for family, markers in TEMPLATE_FAMILIES.items():
+        for marker in markers:
+            if marker in low:
+                return family
+    return ""
 
 
 def item_id(text: str, url: str) -> str:
@@ -142,22 +196,57 @@ def strip_tags(xml: str) -> str:
     return normalise_ws(text)
 
 
-def window_around(text: str, needle: str, before: int = 40, after: int = 520) -> str:
+def sentence_start(text: str, idx: int, max_back: int = 600) -> int:
+    """Index where the sentence holding `idx` begins, or -1 if unknown.
+
+    Walks back to the nearest sentence boundary instead of assuming one sits
+    within 40 characters. When the whole prefix up to the start of the text has
+    no boundary either, the sentence starts at position 0.
+    """
+    lo = max(0, idx - max_back)
+    for i in range(idx - 2, lo - 1, -1):
+        if text[i] in ".!?":
+            if i + 1 < len(text) and text[i + 1] == " ":
+                return i + 2
+    return 0 if lo == 0 else -1
+
+
+def window_around(text: str, needle: str, before: int = 600, after: int = 900) -> str:
     """Pull the formulation out of a document.
 
-    Starts at the sentence the trigger phrase sits in and runs forward to the
-    end of the disclosure, capped so a bad match cannot drag half a paper in.
+    Starts at the beginning of the sentence the trigger phrase sits in and runs
+    forward to the end of the disclosure: stops before the next section heading,
+    before a repeated trigger (a squashed merge lists every sub-commit), and
+    failing those at the last complete sentence before the cap. Returns "" when
+    no sentence start can be found, so a mid-sentence fragment cannot pass.
     """
-    idx = text.lower().find(needle.lower())
+    low_text = text.lower()
+    low_needle = needle.lower()
+    idx = low_text.find(low_needle)
     if idx < 0:
         return ""
-    start = idx
-    back = text.rfind(". ", max(0, idx - before), idx)
-    if back != -1:
-        start = back + 2
-    end = min(len(text), idx + after)
-    tail = text.rfind(". ", idx, end)
-    if tail != -1 and tail > idx + 60:
+
+    start = sentence_start(text, idx, before)
+    if start < 0:
+        return ""
+
+    end_cap = min(len(text), idx + after)
+    second = low_text.find(low_needle, idx + len(low_needle))
+    if second != -1:
+        end_cap = min(end_cap, second)
+    tail_low = low_text[idx:end_cap]
+    for marker in SECTION_BREAKS:
+        pos = tail_low.find(marker)
+        if pos > 20:
+            end_cap = min(end_cap, idx + pos)
+
+    end = end_cap
+    tail = max(
+        text.rfind(". ", idx, end_cap),
+        text.rfind("! ", idx, end_cap),
+        text.rfind("? ", idx, end_cap),
+    )
+    if tail != -1 and tail > idx + 40:
         end = tail + 1
     return normalise_ws(text[start:end])
 
