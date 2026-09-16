@@ -346,3 +346,31 @@ contribution. The evidence base is 67 effect sizes over 25,208 participants plus
 a 47-study systematic review, and Prajod et al. already ran the obvious
 experiment. Card sorting is the cheaper and uncrowded option. Revisit after the
 pilot, not before.
+
+### Genre set settled (2026-09-16)
+
+The genre question had been raised twice and answered only in passing, without
+being recorded anywhere. Now settled and written into docs/zadani.md.
+
+**Six genres:** research articles and preprints, emails and messages, teaching
+and internal materials, software and public projects, theses, social media.
+Twelve cells (6 x 2 languages), target 300 items.
+
+Reasoning: the original four covered only the middle of the template axis.
+Theses are the most templated end (wording prescribed by the university, signed
+by a student, read by the person grading them) and the richest public Czech
+source. Social media is the free end, where a disclosure often works as self-
+presentation rather than as a warning to the recipient.
+
+**News was considered and rejected**, because journalism is by far the most
+studied genre (the Licenji & Hoxha review alone covers 47 studies) and adding it
+means competing where the field is already crowded.
+
+**LinkedIn is excluded** from the social media genre: its terms of use forbid
+automated collection and it blocks it technically. Bluesky and Mastodon are used
+instead. This must appear in the limitations of any write-up, because the
+professional self-presentation register is then not covered.
+
+Also recorded: collection can be scripted for some cells and not others, and
+curation (deciding which sentence is a disclosure) cannot be fully automated in
+any cell.

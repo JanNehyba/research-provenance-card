@@ -65,9 +65,9 @@ published Czech translation of the work exists.
 |---|---|
 | Goal | Pilot first, then decide between an article, a handbook, and a grant. |
 | Vancouver | Submit a trimmed consultation input without the RPC by 2026-10-16. |
-| Genres | All four: research articles, emails and messages, teaching and internal materials, software and public projects. |
+| Genres | Six: research articles and preprints, emails and messages, teaching and internal materials, software and public projects, theses, social media. Decided 2026-09-16 after the first four proved to cover only the middle of the template axis. |
 | Data languages | Czech and English. |
-| Corpus | 200 items, target 25 per cell (4 genres x 2 languages). |
+| Corpus | 300 items, target 25 per cell (6 genres x 2 languages = 12 cells). Minimum 10 per cell; a thin or empty cell is reported, not hidden. |
 | Data sources | Public data only. Instead of private mail, use publicly archived mailing lists and forums. |
 | Ethics | Pilot without an ethics board, because all data is public. A board will be needed only for a possible experiment or interviews. |
 | Method | Qualitative coding along the eight components plus room for bottom-up categories. A decision about an experiment or card sorting comes only after the pilot. |
@@ -85,13 +85,34 @@ published Czech translation of the work exists.
    not about the author. Every corpus item must therefore carry a `templated`
    flag. This is likely one of the main findings: the genre determines how much
    freedom the formulation has at all.
-2. **Weak cells.** The eight cells cannot be filled equally easily. Czech
-   research articles with an AI statement are rare, Czech public discussion
-   forums with this content are rare too, and Czech software projects with an
-   AI policy are almost nonexistent. On the other hand, Czech theses
-   (theses.cz, IS MUNI) contain AI use statements and are public, which is the
+2. **Weak cells, and how collectable each one is.** The twelve cells cannot be
+   filled equally easily, and they differ in whether collection can be scripted
+   at all.
+   - **Scriptable:** English research articles (OpenAlex, Europe PMC, arXiv),
+     GitHub in both languages (Search API).
+   - **Semi-scriptable:** Czech research articles, theses in both languages
+     (theses.cz and IS MUNI for Czech, OpenAIRE and institutional repositories
+     for English; check the terms of use before harvesting), English mailing
+     lists and forums (Hacker News and Discourse have APIs, list archives do
+     not).
+   - **Manual:** teaching and internal materials in both languages, scattered
+     across university websites as PDFs and pages; Czech mailing lists and
+     forums, where no usable public archive was found.
+   - **LinkedIn is excluded.** Its terms of use forbid automated collection and
+     it blocks it technically. The social media genre is collected from Bluesky
+     and Mastodon, which have open APIs. This is a constraint, not a judgement
+     about relevance, and it belongs in the limitations of any write-up: the
+     professional self-presentation register that LinkedIn represents is not
+     covered.
+   Czech research articles with an AI statement are rare and Czech software
+   projects with an AI policy are almost nonexistent; Czech theses are the
    richest Czech source. The target is 25 per cell, the minimum is 10, and an
    empty or thin cell must be reported, not hidden.
+   **Collection can be automated; curation cannot.** Fetching documents is
+   scriptable. Deciding which sentence in a document is a disclosure is a
+   separate step, run as pattern matching plus an LLM filter, and it needs spot
+   checks by hand to confirm the filter is not discarding the interesting
+   cases.
 3. **The control sample cannot be skipped.** The author decides its size only
    after the first run, but the selection rule is fixed in advance, otherwise
    it would be post hoc data selection.
