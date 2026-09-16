@@ -48,6 +48,57 @@ def redact_emails(text: str) -> tuple[str, bool]:
     return redacted, count > 0
 
 
+def prose_from_markdown(body: str) -> str:
+    """Markdown to prose, with headings turned into sentence breaks.
+
+    A README heading is navigation, not part of a formulation. Left in place
+    it leaks into the extracted window, so each heading line becomes a period
+    and the window then starts after it.
+    """
+    parts = []
+    for line in body.splitlines():
+        stripped = line.strip()
+        parts.append("." if stripped.startswith("#") else line)
+    return normalise_ws(" ".join(parts))
+
+
+def trim_to_trigger_sentence(text: str, phrase: str) -> str:
+    """Keep only the sentence that holds the trigger.
+
+    What follows a disclosure sentence in a README is usually credits,
+    guidelines or technical notes, and it sometimes carries personal names,
+    which must never enter the corpus.
+    """
+    low = text.lower()
+    idx = low.find(phrase.lower())
+    if idx < 0:
+        return ""
+    ends = [e for e in (text.find(". ", idx), text.find("! ", idx), text.find("? ", idx)) if e != -1]
+    end = min(ends) if ends else len(text)
+    return text[: end + 1] if end < len(text) else text
+
+
+def cut_at_bullet(text: str, phrase: str) -> str:
+    """Stop at the next sub-commit bullet.
+
+    A squashed merge lists every sub-commit as "* subject" lines; what comes
+    after the trigger bullet is not part of its formulation.
+    """
+    low = text.lower()
+    idx = low.find(phrase.lower())
+    if idx < 0:
+        return text
+    cut = text.find(" * ", idx + len(phrase))
+    return text[:cut] if cut != -1 else text
+
+
+def strip_markdown(text: str) -> str:
+    """Drop markdown decoration; formatting is not part of the wording."""
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"\*\*?([^*]+)\*\*?", r"\1", text)
+    return text.lstrip("*-#>`|~ .").rstrip("*-#>`|~ ")
+
+
 def gh_search(endpoint: str, query: str, per_page: int = 5) -> list[dict]:
     """Call the GitHub search API through the gh CLI.
 
@@ -93,6 +144,7 @@ def collect_commits(per_phrase: int = 4) -> list[Item]:
             text = window_around(message, phrase)
             if not text:
                 continue
+            text = cut_at_bullet(text, phrase)
             text, was_redacted = redact_emails(text)
             note = f"found via phrase: {phrase}"
             if was_redacted:
@@ -129,9 +181,13 @@ def collect_code(per_phrase: int = 4) -> list[Item]:
             time.sleep(0.4)
             if not body:
                 continue
-            text = window_around(normalise_ws(body), phrase)
+            text = window_around(prose_from_markdown(body), phrase)
             if not text:
                 continue
+            text = trim_to_trigger_sentence(text, phrase)
+            if not text:
+                continue
+            text = strip_markdown(text)
             text, was_redacted = redact_emails(text)
             note = f"file: {path}; found via phrase: {phrase}"
             if was_redacted:
