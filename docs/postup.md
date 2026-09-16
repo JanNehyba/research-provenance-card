@@ -374,3 +374,20 @@ professional self-presentation register is then not covered.
 Also recorded: collection can be scripted for some cells and not others, and
 curation (deciding which sentence is a disclosure) cannot be fully automated in
 any cell.
+
+---
+
+## Log split, 2026-09-16
+
+From here the work runs in three parallel streams on separate branches, with no
+shared files. Each stream keeps its own log, so that this file stops being a
+merge conflict:
+
+- `docs/postup-vancouver.md` - the round 2 submission (branch `vancouver/round2-trimmed`)
+- `docs/postup-korpus.md` - collectors and corpus (branch `corpus/collectors`)
+- `docs/postup-literatura.md` - the literature review (branch `lit/reserse`)
+
+This file stays as the record of everything up to the split. Do not append to it.
+
+**File ownership.** A stream edits only the files it owns. `docs/zadani.md` has a
+single owner, the author, and no stream edits it without being asked to.
