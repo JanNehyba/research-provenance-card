@@ -1,0 +1,30 @@
+# AI use statement
+
+**Work:** "{{work_title}}" ({{work_version}})
+**Version binding (SHA-256):** {{work_sha256}}
+**Guarantor:** {{guarantor}}, asserted {{guarantor_timestamp}}
+**Task vocabulary:** {{taxonomy}}
+
+## Structured statement
+
+{{disclosure_table}}
+
+## Narrative for the Methods section
+
+{{disclosure_narrative}}
+
+## Null declaration
+
+{{null_declaration}}
+
+{{null_declaration_scope}}
+
+## Responsibility
+
+{{responsibility_statement}}
+
+---
+
+{{no_certification}}
+
+Both sections above are generated from `{{source_file}}` by `tools/render_vs_statement.py`. The record is the source of truth; these are two renderings of it, not two descriptions of it.

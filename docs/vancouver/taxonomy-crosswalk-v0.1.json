@@ -1,0 +1,218 @@
+{
+  "crosswalk_version": "0.1",
+  "created": "2026-07-29",
+  "purpose": "Machine-readable crosswalk between the 18 research-task categories proposed in Consultation Round 2 of the Global Reporting Standard for AI Disclosure in Research ('Vancouver Standard') and the role vocabulary of the Research Provenance Card (RPC) v0.1 implementation profile. Submitted as supporting material for question 3B.",
+  "source": {
+    "name": "Global Reporting Standard for AI Disclosure in Research - Consultation Round 2 proposed taxonomy",
+    "document": "https://council.science/wp-content/uploads/2026/07/WCRI2026FT_PrepReadingRound2_v45.pdf",
+    "document_version": "v4.5, published 8 July 2026",
+    "status": "proposal under consultation; identifiers below are suggested by this submission, not by the core team"
+  },
+  "target": {
+    "name": "Research Provenance Card (RPC) v0.1 role vocabulary",
+    "repository": "https://github.com/JanNehyba/research-provenance-card",
+    "vocabulary": "spec/roles.md",
+    "basis": "CRediT (ANSI/NISO Z39.104-2022) with rpc:* AI extensions"
+  },
+  "identifier_recommendation": {
+    "form": "slug",
+    "example": "vs:literature-search",
+    "avoid": "ordinal-based identifiers such as 'category 3'",
+    "reason": "Ordinals break whenever a category is inserted or retired. A living standard needs stable slugs plus 'deprecated' and 'replaced_by' fields, published as a versioned machine-readable vocabulary (JSON or SKOS). CRediT's route to ANSI/NISO Z39.104-2022 is the precedent."
+  },
+  "status_values": {
+    "exact": "one-to-one match with an existing RPC role",
+    "coarse_in_rpc": "the proposed category is finer-grained than the RPC role it maps to; RPC should adopt the finer split",
+    "gap_in_rpc": "no RPC role covers this category; RPC v0.2 will add one",
+    "rename_suggested": "mapping is clear but the proposed category label is ambiguous",
+    "proposed_addition": "no proposed category covers this; this submission proposes adding one"
+  },
+  "categories": [
+    {
+      "number": 1,
+      "label": "Idea generation",
+      "suggested_id": "vs:idea-generation",
+      "maps_to": ["credit:conceptualization"],
+      "status": "coarse_in_rpc",
+      "note": "Categories 1 and 2 collapse into a single CRediT role. The proposed split is useful and RPC will express it as a sub-role."
+    },
+    {
+      "number": 2,
+      "label": "Hypothesis development",
+      "suggested_id": "vs:hypothesis-development",
+      "maps_to": ["credit:conceptualization"],
+      "status": "coarse_in_rpc",
+      "note": "See category 1."
+    },
+    {
+      "number": 3,
+      "label": "Literature search",
+      "suggested_id": "vs:literature-search",
+      "maps_to": ["rpc:source_retrieval"],
+      "status": "exact",
+      "note": "Exact match. Retrieval is the task where automated verification of the result (reference resolution) is cheapest and most valuable."
+    },
+    {
+      "number": 4,
+      "label": "Literature summarization",
+      "suggested_id": "vs:literature-summarization",
+      "maps_to": [],
+      "status": "gap_in_rpc",
+      "planned_rpc_role": "rpc:literature_synthesis",
+      "note": "Overlaps category 16 when an AI-written literature review reaches the manuscript. The standard should state that a single use may carry more than one category."
+    },
+    {
+      "number": 5,
+      "label": "Design > Study design / experiment design",
+      "suggested_id": "vs:design-study",
+      "maps_to": ["credit:methodology"],
+      "status": "coarse_in_rpc",
+      "note": "Make the parent/child relation of 5-7 explicit and machine-readable, otherwise implementers will flatten it inconsistently."
+    },
+    {
+      "number": 6,
+      "label": "Design > Data collection methodology",
+      "suggested_id": "vs:design-data-collection",
+      "maps_to": ["credit:methodology"],
+      "status": "coarse_in_rpc",
+      "note": "See category 5."
+    },
+    {
+      "number": 7,
+      "label": "Design > Data analysis plan",
+      "suggested_id": "vs:design-analysis-plan",
+      "maps_to": ["credit:methodology"],
+      "status": "coarse_in_rpc",
+      "note": "See category 5."
+    },
+    {
+      "number": 8,
+      "label": "Data collection (operations / activities)",
+      "suggested_id": "vs:data-collection",
+      "maps_to": ["credit:investigation"],
+      "status": "exact",
+      "note": "Ambiguous against category 9 as currently labelled."
+    },
+    {
+      "number": 9,
+      "label": "Data creation",
+      "suggested_id": "vs:synthetic-data-generation",
+      "maps_to": [],
+      "status": "rename_suggested",
+      "planned_rpc_role": "rpc:data_generation",
+      "note": "'Creation' can be read as collection. Recommend 'Synthetic or simulated data generation' with a definition, and a definition for 8 that excludes generation."
+    },
+    {
+      "number": 10,
+      "label": "Computer code generation/refinement/auditing",
+      "suggested_id": "vs:code-generation",
+      "maps_to": ["credit:software", "rpc:code_generation"],
+      "status": "exact",
+      "note": "'Auditing' is a verification act, not a production act. Recommend moving it to proposed addition B so that checking is recordable as checking."
+    },
+    {
+      "number": 11,
+      "label": "Data cleaning/preprocessing/auditing",
+      "suggested_id": "vs:data-preparation",
+      "maps_to": ["credit:data_curation"],
+      "status": "exact",
+      "note": "See category 10 on 'auditing'."
+    },
+    {
+      "number": 12,
+      "label": "Quantitative data analysis",
+      "suggested_id": "vs:quantitative-analysis",
+      "maps_to": ["credit:formal_analysis"],
+      "status": "coarse_in_rpc",
+      "note": "The proposed split of 12 and 13 is better than the RPC collapse into one CRediT role."
+    },
+    {
+      "number": 13,
+      "label": "Qualitative data analysis",
+      "suggested_id": "vs:qualitative-analysis",
+      "maps_to": ["credit:formal_analysis"],
+      "status": "coarse_in_rpc",
+      "planned_rpc_role": "rpc:qualitative_analysis",
+      "note": "RPC will adopt this split. Delegated first-pass coding of qualitative material is a paradigm case of judgement delegation that later human adjudication does not neutralise."
+    },
+    {
+      "number": 14,
+      "label": "Data visualization",
+      "suggested_id": "vs:data-visualization",
+      "maps_to": ["credit:visualization"],
+      "status": "coarse_in_rpc",
+      "note": "Plotting existing data. Distinct from category 15."
+    },
+    {
+      "number": 15,
+      "label": "Figure or image generation",
+      "suggested_id": "vs:image-generation",
+      "maps_to": ["credit:visualization"],
+      "status": "coarse_in_rpc",
+      "planned_rpc_role": "rpc:image_generation",
+      "note": "RPC will adopt this split. Integrity-critical: generated imagery in a research article has a different failure mode from a generated plot of real data."
+    },
+    {
+      "number": 16,
+      "label": "Drafting manuscript or abstract text",
+      "suggested_id": "vs:drafting-text",
+      "maps_to": ["credit:writing_original_draft", "rpc:text_generation"],
+      "status": "exact",
+      "note": "Overlaps category 4; see note there."
+    },
+    {
+      "number": 17,
+      "label": "Translation",
+      "suggested_id": "vs:translation",
+      "maps_to": [],
+      "status": "gap_in_rpc",
+      "planned_rpc_role": "rpc:translation",
+      "note": "Equity: translation of the author's own verified content should sit below the disclosure threshold, otherwise the standard imposes a heavier disclosure load on non-anglophone researchers for identical intellectual work. The line is authorship of the content, not the language of production."
+    },
+    {
+      "number": 18,
+      "label": "Editing or rewriting including of reference lists",
+      "suggested_id": "vs:editing-rewriting",
+      "maps_to": ["credit:writing_review_editing"],
+      "status": "exact",
+      "note": "Recommend separating reference handling from prose editing: non-resolving citations are a specific, machine-checkable failure mode and deserve their own category."
+    }
+  ],
+  "proposed_additions": [
+    {
+      "id": "vs:orchestration",
+      "label": "Orchestration / agent operation",
+      "maps_to": ["rpc:prompt_orchestration", "rpc:agent_operation"],
+      "status": "proposed_addition",
+      "rationale": "All 18 proposed categories describe a research task the AI performed. None describes the human act of configuring, prompting and directing the system, and none describes a supervisory agent selecting specialist agents. This covers the case where AI substantively shapes the work while leaving no trace in the output - for example sustained adversarial critique of a research design - which no output-centred category can express.",
+      "evidence_note": "The only artefact for this role is usually the prompt or protocol, which is why it should be publishable and hash-referenced."
+    },
+    {
+      "id": "vs:ai-verification",
+      "label": "Verification performed by AI",
+      "maps_to": ["recorded in RPC as machine 'checks' with a subject hash, not as activities"],
+      "status": "proposed_addition",
+      "rationale": "Categories 10 and 11 smuggle 'auditing' into production categories. AI-run checking - reference resolution, claim-support assessment, statistical audit, code review, review by specialised AI agents - is a distinct act with distinct integrity properties and must be recordable as checking.",
+      "required_distinction": [
+        "references resolved (machine: the cited source exists and its metadata match)",
+        "claim support assessed (report with method and stated confidence)",
+        "claim support attested (named human, bounded scope)"
+      ]
+    },
+    {
+      "id": "vs:output-selection",
+      "label": "Selection among multiple runs or outputs",
+      "maps_to": ["proposed rpc:run_selection"],
+      "status": "proposed_addition",
+      "rationale": "Which run was reported, out of how many, under what selection rule. Undisclosed selection of the best run across many attempts is a known driver of inflated apparent quality in agentic research, and it is invisible in every disclosure scheme we know of, including this draft. A category makes disclosure possible; making it mandatory for agentic pipelines is a separate policy choice this submission supports."
+    }
+  ],
+  "rpc_v0_2_actions": [
+    "Add roles: rpc:literature_synthesis, rpc:data_generation, rpc:qualitative_analysis, rpc:image_generation, rpc:translation, rpc:run_selection.",
+    "Carry the Vancouver category identifier alongside the RPC role on every activity, so the card is readable in both vocabularies.",
+    "Add the 'curation' object for redacted evidence (raw hash, published hash, curation rule, kinds of material removed).",
+    "Add a controlled 'verification' field per activity, aligned with the session 4.B ladder (attestation, review, audit, replication) and mapped to the four RPC evidence levels.",
+    "Keep 'references resolved' and 'claim support' as separate check types; never emit a combined 'citations verified' label."
+  ],
+  "license": "CC BY 4.0"
+}

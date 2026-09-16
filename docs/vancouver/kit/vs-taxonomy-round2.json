@@ -1,0 +1,309 @@
+{
+  "vocabulary": "Proposed research-task taxonomy, Consultation Round 2, Global Reporting Standard for AI Disclosure in Research",
+  "vocabulary_version": "round2-proposal, rendering 0.1",
+  "provenance": {
+    "status": "UNOFFICIAL RENDERING OF A PROPOSAL UNDER PUBLIC CONSULTATION. This file is not published, endorsed or reviewed by the core team of the Global Reporting Standard for AI Disclosure in Research. It exists so that implementers can test the proposal against running code during Consultation Round 2, and it has no standing of any kind.",
+    "source_document": "WCRI2026FT_PrepReadingRound2_v45.pdf",
+    "source_url": "https://council.science/wp-content/uploads/2026/07/WCRI2026FT_PrepReadingRound2_v45.pdf",
+    "source_document_version": "v4.5, published 8 July 2026",
+    "source_retrieved": "2026-07-29",
+    "rendered_by": "Research Provenance Card (RPC) implementation profile, https://github.com/JanNehyba/research-provenance-card",
+    "rendered_on": "2026-07-31",
+    "contact": "Jan Nehyba, ORCID 0000-0003-4159-5576, via https://github.com/JanNehyba/research-provenance-card/issues",
+    "handover_offer": "If the core team wants a machine-readable vocabulary file, this one is offered for adoption, amendment or replacement without conditions, and this rendering will be withdrawn on request.",
+    "consultation_deadline": "2026-10-16",
+    "caveat": "Category labels are transcribed from the source document. Definitions are deliberately absent: the source document states that definitions are still to be drafted, and inventing them here would put words into the proposal."
+  },
+  "rights": {
+    "category_labels": "Quoted from the consultation document. Rights in that wording rest with the initiative (ISC, WCRIF, COPE, STM, GYA); quoted here for the purpose of public consultation, and will be removed or relicensed on request.",
+    "structure_identifiers_and_notes": "The file structure, the suggested identifiers, the implementer notes and the proposed additions are the work of this project and are licensed CC BY 4.0.",
+    "no_claim": "Nothing here licenses the underlying proposal, and no part of this file should be read as the initiative's own text apart from the quoted labels."
+  },
+  "identifier_policy": {
+    "form": "slug",
+    "example": "vs:literature-search",
+    "avoid": "ordinal identifiers such as 'category 3'",
+    "reason": "Ordinals break the moment a category is inserted or retired, and downstream records then silently mean something different. A living standard needs stable slugs plus deprecation metadata. CRediT's route to ANSI/NISO Z39.104-2022 is the precedent.",
+    "note": "The `vs:` prefix is a placeholder chosen by this rendering, not a proposal about the standard's eventual namespace."
+  },
+  "deprecation_policy": {
+    "purpose": "Demonstrates the minimum metadata a versioned vocabulary needs, so that a record written against taxonomy v1 is still interpretable under v2.",
+    "fields": {
+      "deprecated": "boolean; true once a category is retired. Retired categories are never deleted from the file and never reused for a different meaning.",
+      "replaced_by": "identifier of the successor category, or null when a category is retired without a successor.",
+      "since_version": "vocabulary version in which the category first appeared.",
+      "deprecated_in_version": "vocabulary version in which it was retired, or null."
+    },
+    "rule": "Consumers must treat an unknown identifier as unresolvable rather than as absence of disclosure, and must record the vocabulary version alongside every disclosure row."
+  },
+  "groups": [
+    {
+      "suggested_id": "vs:design",
+      "label": "Design",
+      "origin": "implementer-proposal",
+      "implementer_note": "Categories 5-7 appear in the source document as 'Design > ...' sub-entries. The parent is named here so the hierarchy is machine-readable; without it, implementers will flatten the three children inconsistently."
+    }
+  ],
+  "categories": [
+    {
+      "number": 1,
+      "label": "Idea generation",
+      "suggested_id": "vs:idea-generation",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Categories 1 and 2 collapse into a single CRediT role (conceptualization). The proposed split is useful and this profile will express it as a sub-role."
+    },
+    {
+      "number": 2,
+      "label": "Hypothesis development",
+      "suggested_id": "vs:hypothesis-development",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "See category 1."
+    },
+    {
+      "number": 3,
+      "label": "Literature search",
+      "suggested_id": "vs:literature-search",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Exact match with rpc:source_retrieval. Retrieval is the task where automated verification of the result (reference resolution) is cheapest and most valuable."
+    },
+    {
+      "number": 4,
+      "label": "Literature summarization",
+      "suggested_id": "vs:literature-summarization",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Gap in this profile's vocabulary; rpc:literature_synthesis is planned. Overlaps category 16 when an AI-written literature review reaches the manuscript, so the standard should state that a single use may carry more than one category."
+    },
+    {
+      "number": 5,
+      "label": "Design > Study design / experiment design",
+      "suggested_id": "vs:design-study",
+      "definition": null,
+      "parent": "vs:design",
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Maps to credit:methodology, which is coarser than the proposed 5/6/7 split."
+    },
+    {
+      "number": 6,
+      "label": "Design > Data collection methodology",
+      "suggested_id": "vs:design-data-collection",
+      "definition": null,
+      "parent": "vs:design",
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "See category 5."
+    },
+    {
+      "number": 7,
+      "label": "Design > Data analysis plan",
+      "suggested_id": "vs:design-analysis-plan",
+      "definition": null,
+      "parent": "vs:design",
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "See category 5."
+    },
+    {
+      "number": 8,
+      "label": "Data collection (operations / activities)",
+      "suggested_id": "vs:data-collection",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Maps to credit:investigation. Ambiguous against category 9 as currently labelled; a definition that excludes generation would resolve it."
+    },
+    {
+      "number": 9,
+      "label": "Data creation",
+      "suggested_id": "vs:synthetic-data-generation",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Rename suggested. 'Creation' can be read as collection; 'Synthetic or simulated data generation' would be unambiguous. Gap in this profile's vocabulary; rpc:data_generation is planned. The suggested_id already reflects the proposed reading and would change if the label stands."
+    },
+    {
+      "number": 10,
+      "label": "Computer code generation/refinement/auditing",
+      "suggested_id": "vs:code-generation",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Maps to credit:software and rpc:code_generation. 'Auditing' is a verification act, not a production act; this rendering proposes moving it to vs:ai-verification so that checking is recordable as checking."
+    },
+    {
+      "number": 11,
+      "label": "Data cleaning/preprocessing/auditing",
+      "suggested_id": "vs:data-preparation",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Maps to credit:data_curation. See category 10 on 'auditing'."
+    },
+    {
+      "number": 12,
+      "label": "Quantitative data analysis",
+      "suggested_id": "vs:quantitative-analysis",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "The proposed split of 12 and 13 is finer than credit:formal_analysis and is the better call."
+    },
+    {
+      "number": 13,
+      "label": "Qualitative data analysis",
+      "suggested_id": "vs:qualitative-analysis",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "This profile will adopt the split (rpc:qualitative_analysis planned). Delegated first-pass coding of qualitative material is a paradigm case of judgement delegation that later human adjudication does not neutralise."
+    },
+    {
+      "number": 14,
+      "label": "Data visualization",
+      "suggested_id": "vs:data-visualization",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Plotting existing data. Distinct from category 15."
+    },
+    {
+      "number": 15,
+      "label": "Figure or image generation",
+      "suggested_id": "vs:image-generation",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "This profile will adopt the split (rpc:image_generation planned). Integrity-critical: generated imagery in a research article has a different failure mode from a generated plot of real data."
+    },
+    {
+      "number": 16,
+      "label": "Drafting manuscript or abstract text",
+      "suggested_id": "vs:drafting-text",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Maps to credit:writing_original_draft and rpc:text_generation. Overlaps category 4; see note there."
+    },
+    {
+      "number": 17,
+      "label": "Translation",
+      "suggested_id": "vs:translation",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Gap in this profile's vocabulary; rpc:translation is planned. Equity: translation of the author's own verified content should sit below the disclosure threshold, otherwise the standard imposes a heavier disclosure load on non-anglophone researchers for identical intellectual work. The line is authorship of the content, not the language of production."
+    },
+    {
+      "number": 18,
+      "label": "Editing or rewriting including of reference lists",
+      "suggested_id": "vs:editing-rewriting",
+      "definition": null,
+      "parent": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "since_version": "round2-proposal",
+      "deprecated_in_version": null,
+      "implementer_note": "Maps to credit:writing_review_editing. Reference handling has a specific, machine-checkable failure mode (non-resolving citations) and deserves separation from prose editing."
+    }
+  ],
+  "proposed_additions": [
+    {
+      "suggested_id": "vs:orchestration",
+      "label": "Orchestration / agent operation",
+      "origin": "implementer-proposal",
+      "definition": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "maps_to": ["rpc:prompt_orchestration", "rpc:agent_operation"],
+      "rationale": "All 18 proposed categories describe a research task the AI performed. None describes the human act of configuring, prompting and directing the system, and none describes a supervisory agent selecting specialist agents. This covers the case where AI substantively shapes the work while leaving no trace in the output - for example sustained adversarial critique of a research design - which no output-centred category can express.",
+      "evidence_note": "The only artefact for this role is usually the prompt or protocol, which is why it should be publishable and hash-referenced."
+    },
+    {
+      "suggested_id": "vs:ai-verification",
+      "label": "Verification performed by AI",
+      "origin": "implementer-proposal",
+      "definition": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "maps_to": ["recorded in RPC as machine 'checks' with a subject hash, not as activities"],
+      "rationale": "Categories 10 and 11 place 'auditing' inside production categories. AI-run checking - reference resolution, claim-support assessment, statistical audit, code review, review by specialised AI agents - is a distinct act with distinct integrity properties and must be recordable as checking.",
+      "required_distinction": [
+        "references resolved (machine: the cited source exists and its metadata match)",
+        "claim support assessed (report with method and stated confidence)",
+        "claim support attested (named human, bounded scope)"
+      ]
+    },
+    {
+      "suggested_id": "vs:output-selection",
+      "label": "Selection among multiple runs or outputs",
+      "origin": "implementer-proposal",
+      "definition": null,
+      "deprecated": false,
+      "replaced_by": null,
+      "maps_to": ["proposed rpc:run_selection"],
+      "rationale": "Which run was reported, out of how many, under what selection rule. Undisclosed selection of the best run across many attempts is a known driver of inflated apparent quality in agentic research, and it is invisible in every disclosure scheme we know of, including this draft. A category makes disclosure possible; making it mandatory for agentic pipelines is a separate policy choice this submission supports."
+    }
+  ],
+  "related_files": {
+    "crosswalk": "../taxonomy-crosswalk-v0.1.json",
+    "draft_schema": "./vs-disclosure-draft.schema.json",
+    "submission": "../round2-submission-en.md"
+  },
+  "license": "CC BY 4.0 for the structure, identifiers, notes and proposed additions; see `rights` for the quoted labels."
+}

@@ -10,7 +10,7 @@
     "human_guarantor": {
         "orcid": "0000-0003-4159-5576",
         "name": "Jan Nehyba",
-        "assertion_timestamp": "2026-07-20T08:27:13Z"
+        "assertion_timestamp": "2026-07-31T15:28:04Z"
     },
     "ai_systems": [
         {
@@ -26,49 +26,38 @@
         {
             "role_id": "credit:conceptualization",
             "actor_id": "human:0000-0003-4159-5576",
-            "evidence_level": "declared"
+            "evidence_level": "declared",
+            "description": "Framing of the problem, the decision to treat provenance as version-bound infrastructure rather than as a disclosure sentence, and final selection among competing designs."
         },
         {
             "role_id": "credit:conceptualization",
             "actor_id": "ai1",
-            "evidence_level": "artifact_linked",
-            "artifact_refs": [
-                "log1"
-            ]
+            "evidence_level": "declared",
+            "description": "Sustained adversarial critique of the author's framing during conceptual design, and proposal of design alternatives. Working-session logs exist but contain third-party unpublished material and personal data and are not releasable, so no artifact is referenced and the claim stays at the lowest level."
         },
         {
             "role_id": "rpc:source_retrieval",
             "actor_id": "ai1",
-            "evidence_level": "artifact_linked",
-            "artifact_refs": [
-                "log1"
-            ]
+            "evidence_level": "declared",
+            "description": "Retrieval and screening of candidate sources on publisher AI policies, reporting guidelines and provenance standards. Retrieved items were checked by the guarantor before use; the retrieval sessions themselves are not releasable."
         },
         {
             "role_id": "credit:writing_original_draft",
             "actor_id": "ai1",
-            "evidence_level": "artifact_linked",
-            "artifact_refs": [
-                "log1"
-            ]
+            "evidence_level": "declared",
+            "description": "Drafting of manuscript prose from the author's outline and decisions, across several revision rounds. The drafting sessions are part of the same non-releasable working log."
         },
         {
             "role_id": "credit:writing_review_editing",
             "actor_id": "human:0000-0003-4159-5576",
-            "evidence_level": "declared"
+            "evidence_level": "declared",
+            "description": "Read-through of the full manuscript, rewriting of claims, and removal of statements the guarantor could not stand behind."
         },
         {
             "role_id": "credit:supervision",
             "actor_id": "human:0000-0003-4159-5576",
-            "evidence_level": "declared"
-        }
-    ],
-    "artifacts": [
-        {
-            "id": "log1",
-            "type": "log",
-            "access_status": "on_request",
-            "restriction_reason": "Working sessions contain unpublished project material"
+            "evidence_level": "declared",
+            "description": "Accountability for the manuscript and for this card, including the decision to lower the evidence level of three activities when the referenced log turned out not to be releasable."
         }
     ],
     "checks": [],

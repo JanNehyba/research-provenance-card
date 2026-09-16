@@ -1,0 +1,40 @@
+{
+  "disclosure_format": {
+    "name": "vs-disclosure-draft",
+    "version": "0.1"
+  },
+  "taxonomy": {
+    "vocabulary": "Proposed research-task taxonomy, Consultation Round 2, Global Reporting Standard for AI Disclosure in Research",
+    "version": "round2-proposal, rendering 0.1"
+  },
+  "work": {
+    "title": "Example of an incomplete disclosure",
+    "version": "v1"
+  },
+  "guarantor": {
+    "name": "Example Author",
+    "timestamp": "2026-07-31T00:00:00Z"
+  },
+  "disclosures": [
+    {
+      "task": "vs:drafting-text",
+      "description": "The authors used an AI tool and reviewed and edited all AI-generated content.",
+      "actor": {
+        "kind": "ai",
+        "provider": "Example Provider",
+        "model_family": "Example Model",
+        "model_version_or_snapshot": "unspecified",
+        "interface": "chat"
+      }
+    }
+  ],
+  "null_declaration": {
+    "no_other_threshold_meeting_use": true,
+    "threshold_version": "Consultation Round 2 proposed threshold, preparatory reading v4.5 (8 July 2026)",
+    "taxonomy_version": "round2-proposal, rendering 0.1"
+  },
+  "responsibility_statement": {
+    "text": "The authors take full responsibility.",
+    "accepted_by": "Example Author"
+  }
+}

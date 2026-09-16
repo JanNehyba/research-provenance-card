@@ -26,3 +26,8 @@ jobs:
       - name: Validate registry cards
         run: |
           python tools/validate.py "registry/**/*.json" || if ls registry/**/*.json 1> /dev/null 2>&1; then exit 1; else echo "No registry cards yet"; fi
+
+      - name: Validate Vancouver kit example
+        run: |
+          python tools/validate.py "docs/vancouver/kit/examples/example-disclosure.json" \
+            --schema docs/vancouver/kit/vs-disclosure-draft.schema.json

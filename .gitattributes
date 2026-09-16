@@ -1,0 +1,6 @@
+# The rendered statement in the Vancouver kit is compared byte-for-byte against the
+# output of tools/render_vs_statement.py (tests/test_vs_kit.py). Pin its line endings,
+# and those of the template it is rendered from, so the check means the same thing on
+# every platform.
+tools/templates/vs_statement.txt text eol=lf
+docs/vancouver/kit/examples/example-statement.md text eol=lf
