@@ -24,13 +24,16 @@ Deadline: **16 October 2026** · Webform: <https://council.science/AIdisclosure>
 
 ### How this submission was produced
 
-I wrote this answer with AI assistance. I am reporting that here in the row format this submission asks the standard to adopt, because a submission that argues for disclosure and does not disclose itself is not worth reading. It also demonstrates the blind spot described in 1B(3). The third row below is a real use that no text-based disclosure rule would ever catch.
+**This text was written by AI.** Not "with some AI assistance" in the usual sense of that phrase. Large language models drafted every section of it, over several working sessions, and the wording is theirs throughout. I set the direction, decided what went in and what came out, and I am accountable for all of it.
+
+I am reporting this in the row format this submission asks the standard to adopt. A submission that argues for disclosure and hides its own production would not be worth reading. It also demonstrates the blind spot described in 1B(3): the third row is a real use that no text-based disclosure rule would ever catch.
 
 | Task | Actor | What was checked, and by whom | Trace | What could not be checked |
 |---|---|---|---|---|
-| Drafting and rewriting the text | Claude (Anthropic), Opus 5, September 2026 | Read in full by me. Every recommendation was kept only if I would defend it myself. | Public git history of the repository below | Whether the model shaped the wording of arguments I agreed with, in ways I did not notice |
-| Literature search and checking | Same | Each source opened in the original. Sources I could not find are marked as not found. | `docs/reserse.md` in the same repository, public | Three sources were checked from the abstract only, not the full text |
-| Shaping the argument | Me, using the model as a critic instructed to attack my framing | Not independently checked | **None. The exchange left no durable record.** | How much of the framing came from that exchange. I cannot reconstruct it. |
+| Drafting and rewriting every section | Claude (Anthropic), Opus 5, September 2026; earlier drafts by other models | Read by me, and reviewed at the level of arguments and decisions. Every recommendation is one I hold. | Public git history of the repository below | Whether the models shaped the wording of arguments I agreed with, in ways I did not notice |
+| Literature search and checking | Same | Each source opened in the original, and the verification status of each is recorded. | `docs/reserse.md` in the same repository, public | Three sources were checked from the abstract only, not the full text |
+| Shaping the argument | Me, using a model as a critic instructed to attack my framing | Not independently checked | **None. The exchange left no durable record.** | How much of the framing came from that exchange. I cannot reconstruct it. |
+| Deciding what to include and what to cut | Me | Not independently checked | The same git history | Nothing. These were my decisions and I stand behind them. |
 
 Repository: <https://github.com/JanNehyba/research-provenance-card>
 
@@ -38,7 +41,7 @@ I hold responsibility for every claim in this submission.
 
 ---
 
-## 0: Summary: six proposals
+## 0: Summary: seven proposals
 
 | # | Proposal | Question |
 |---|---|---|
@@ -48,12 +51,13 @@ I hold responsibility for every claim in this submission.
 | **P4** | **Tie the disclosure to the version it describes**, using a content hash (SHA-256) of the accepted file. Today a disclosure is attached to a title, not to a state of a file. That is why it survives a silent change of content. | 4, 5 |
 | **P5** | Add **three missing categories**: orchestration (configuring and directing the system), verification performed by AI, and selection among several runs or outputs. | 3 |
 | **P6** | **Keep at least one required field that a machine cannot fill on its own.** A record that an agent can generate in full, and another agent can check, may be complete, well-formed and empty. | 5 |
+| **P7** | **Create a persistent identifier for the AI systems themselves**, on the model of RRID rather than of authorship. A named, versioned, citable identifier for a tool is what makes "which model, which version" a checkable fact instead of a phrase. | 3, 5 |
 
 ### Why the proposals look like this
 
 A useful distinction comes from a nearby field. Corbin, Dawson and Liu (2025) describe two kinds of change to assessment.[^1] **Discursive** changes work only by telling people what they should do. **Structural** changes alter how a task must be completed. Their argument is that instructions alone do not hold, because people stay free to ignore them.
 
-The same split applies here. A standard that prescribes a sentence authors should write is discursive. A standard that defines a record, with required fields and a closed list of verification levels, is structural. All six proposals are attempts to move this standard from the first kind towards the second.
+The same split applies here. A standard that prescribes a sentence authors should write is discursive. A standard that defines a record, with required fields and a closed list of verification levels, is structural. All seven proposals are attempts to move this standard from the first kind towards the second.
 
 [^1]: Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: why structural assessment changes are needed for a time of GenAI. *Assessment & Evaluation in Higher Education*, 50(7), 1087-1097. That paper is about student assessment, not about disclosure. I am borrowing the distinction, not the findings.
 
@@ -155,9 +159,15 @@ The level of detail is broadly right. Splitting quantitative from qualitative da
 
 1. **Use stable identifiers, slugs rather than numbers** (P1). `vs:literature-search`, not "category 3". Numbers break as soon as a category is added or retired. Publish the list as a versioned machine-readable vocabulary, in JSON or SKOS, with `deprecated` and `replaced_by` fields. CRediT went through ANSI/NISO Z39.104-2022, and that is why CRediT works in metadata today.
 
-   **The same applies to actors, not only to categories.** "We used GPT-4" is not an identifier. A row should name the provider, the model family, the version or snapshot, and the interface, and where possible point to a stable identifier for that system. Work on identifiers for AI systems has begun (AICID, Vidal and Monperrus, arXiv 2606.28756).
+   **The same applies to actors, not only to categories** (P7). "We used GPT-4" is not an identifier. A row should name the provider, the model family, the version or snapshot, and the interface. Better still, it should point to a persistent identifier for that system.
 
-   To be clear: I am not proposing that an AI system be treated as an author. COPE has settled that question and I agree with it. I am proposing that the **tool that acted** be identified as precisely as the human who is accountable for it.
+   **There is already a precedent, and it is not authorship.** Research Resource Identifiers (RRIDs) give antibodies, cell lines, model organisms, software tools and databases a persistent, machine-readable identifier that never changes and is consistent across publishers. None of those resources is an author. The identifier exists so that a reader or a tool can find every paper that used the same resource, and so that "we used a commercial antibody" becomes a checkable statement.
+
+   An AI model is a research resource of exactly that kind. It has a producer, a version, and behaviour that changes between versions. I propose that the standard call for **persistent identifiers for AI systems, along RRID lines**, and that the disclosure row carry one.
+
+   To be clear about what this is not. I am not proposing that an AI system be treated as an author. COPE has settled that, and I agree with it. Identification is not authorship: a dataset has a DOI and is not an author, and an antibody has an RRID and is not an author. Work that does frame AI systems as authors exists (AICID, Vidal and Monperrus, arXiv 2606.28756), and I am deliberately proposing the weaker and more useful version. The point is that the **tool that acted** should be identified as precisely as the human who is accountable for it.
+
+   Without this, "machine-readable" stops at the category and never reaches the actor, which is the field a reader most often wants to check.
 
 2. **Rows, not sentences** (P2). A category on its own does not carry a disclosure. The smallest useful row is: task (category ID), actor (which AI system, or which human), what was checked and by whom, and trace (what record exists and how to reach it). This is the structure Round 1 asked for: a consistent core, with room for free description.
 
@@ -296,7 +306,7 @@ Generic prose about risk is the easiest part of any disclosure to produce and th
 
 The questions that work asks are: which parts a real disclosure actually carries, and how much of the wording is a publisher template rather than the author's own voice. The parts I am tracking are the role of the AI, the share of the work, what the human did, accountability, certainty, the state of the output, what is expected of the reader, and where the statement sits.
 
-There are no findings yet. If the pilot produces results that hold up, I can offer them for Round 3.
+There are no findings yet, and I am not offering any for Round 3. These proposals are submitted to be used or discarded on their own merits, and they need no follow-up from me.
 
 **On process.** The three-round design and the published preparatory reading have made this consultation unusually easy to engage with. One suggestion: publish the Round 2 outcome as a **versioned, machine-readable draft**, a vocabulary file plus example records, and not only as prose. Then implementers can answer in Round 3 with working code instead of comments.
 
@@ -305,7 +315,7 @@ There are no findings yet. If the pilot produces results that hold up, I can off
 ## Attribution and contact preferences
 
 - **Optional attribution:** *Jan Nehyba, Assistant Professor, Faculty of Education, Masaryk University (Czechia)*, willing for open-text comments to be attributed.
-- **Contact after submission:** ▶ Yes, contact me about my answers · ▶ Yes, invite me for the 3rd Consultation Round · ▶ Yes, keep me updated on the final result
+- **Contact after submission:** ▶ No, do not contact me about my answers · ▶ No, do not invite me for the 3rd Consultation Round · ▶ No, no further updates needed
 - **How I found out about this round:** ▶ Other → *"Following the Focus Track publicly (ISC website); researching how people word AI disclosures across genres."*
 - **Relationship with AI systems:** ▶ Professional-heavy AI user
 - **Role/career stage:** ▶ Active researcher (with PhD or equivalent) · ▶ Researcher with a permanent contract

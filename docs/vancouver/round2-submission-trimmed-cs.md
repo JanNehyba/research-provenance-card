@@ -28,13 +28,16 @@ Uzávěrka: **16. října 2026** · Formulář: <https://council.science/AIdiscl
 
 ### Jak tento podnět vznikl
 
-Tuhle odpověď jsem psal s pomocí AI. Uvádím to tady ve formátu řádku, který sám v podnětu navrhuji, protože podnět, který se zastává přiznávání a sám se nepřizná, nestojí za čtení. Zároveň to ukazuje slepé místo, které popisuji v 1B(3). Třetí řádek níže je reálné užití, které by žádné pravidlo založené na textu nezachytilo.
+**Tento text napsala AI.** Ne „s určitou pomocí AI" v tom obvyklém smyslu. Velké jazykové modely napsaly každý jeho oddíl, během několika pracovních sezení, a znění je jejich. Já jsem určoval směr, rozhodoval, co v textu bude a co ne, a ručím za všechno, co v něm stojí.
+
+Uvádím to tady ve formátu řádku, který sám v podnětu navrhuji. Podnět, který se zastává přiznávání a svůj vlastní vznik zamlčí, by nestál za čtení. Zároveň to ukazuje slepé místo popsané v 1B(3): třetí řádek je reálné užití, které by žádné pravidlo založené na textu nezachytilo.
 
 | Činnost | Aktér | Co bylo zkontrolováno a kým | Stopa | Co zkontrolovat nešlo |
 |---|---|---|---|---|
-| Psaní a přepisování textu | Claude (Anthropic), Opus 5, září 2026 | Přečetl jsem celé. Každé doporučení jsem nechal jen tehdy, když bych ho sám obhájil. | Veřejná historie commitů v repozitáři níže | Jestli model neovlivnil znění argumentů, se kterými jsem souhlasil, způsobem, kterého jsem si nevšiml |
-| Hledání a ověřování literatury | Totéž | Každý zdroj otevřen v originále. Zdroje, které se nepodařilo najít, jsou označeny jako nenalezené. | `docs/reserse.md` v témže repozitáři, veřejné | Tři zdroje byly ověřeny jen z abstraktu, ne z plného textu |
+| Psaní a přepisování všech oddílů | Claude (Anthropic), Opus 5, září 2026; dřívější verze jiné modely | Přečetl jsem to a zkontroloval na úrovni argumentů a rozhodnutí. Za každým doporučením stojím. | Veřejná historie commitů v repozitáři níže | Jestli modely neovlivnily znění argumentů, se kterými jsem souhlasil, způsobem, kterého jsem si nevšiml |
+| Hledání a ověřování literatury | Totéž | Každý zdroj otevřen v originále a u každého je zaznamenáno, jak byl ověřen. | `docs/reserse.md` v témže repozitáři, veřejné | Tři zdroje byly ověřeny jen z abstraktu, ne z plného textu |
 | Utváření argumentu | Já, s modelem v roli kritika, který měl za úkol napadat mé zarámování | Nezávisle nezkontrolováno | **Žádná. Ta výměna po sobě nenechala trvalý záznam.** | Jak velká část zarámování z té výměny vzešla. Nedokážu to zpětně zrekonstruovat. |
+| Rozhodování, co zahrnout a co vyškrtnout | Já | Nezávisle nezkontrolováno | Tatáž historie commitů | Nic. Byla to moje rozhodnutí a stojím si za nimi. |
 
 Repozitář: <https://github.com/JanNehyba/research-provenance-card>
 
@@ -42,7 +45,7 @@ Za každé tvrzení v tomto podnětu ručím.
 
 ---
 
-## 0: Přehled: šest návrhů
+## 0: Přehled: sedm návrhů
 
 | # | Návrh | Otázka |
 |---|---|---|
@@ -52,12 +55,13 @@ Za každé tvrzení v tomto podnětu ručím.
 | **P4** | **Svázat deklaraci s verzí, o níž mluví**, otiskem obsahu (SHA-256) přijatého souboru. Dnes se deklarace váže k názvu, ne ke stavu souboru. Proto přežije tichou výměnu obsahu. | 4, 5 |
 | **P5** | Doplnit **tři chybějící kategorie**: orchestraci (konfigurace a řízení systému), ověřování prováděné AI, a výběr mezi více běhy či výstupy. | 3 |
 | **P6** | **Ponechat aspoň jedno povinné pole, které stroj sám nevyplní.** Záznam, který celý vygeneruje agent a zkontroluje druhý agent, může být úplný, správně tvarovaný a prázdný. | 5 |
+| **P7** | **Zavést trvalý identifikátor pro samotné systémy AI**, po vzoru RRID, ne po vzoru autorství. Pojmenovaný, verzovaný a citovatelný identifikátor nástroje je to, co z otázky „který model a která verze" udělá ověřitelný údaj místo fráze. | 3, 5 |
 
 ### Proč návrhy vypadají takhle
 
 Užitečné rozlišení přichází z blízkého oboru. Corbin, Dawson a Liu (2025) popisují dva druhy změn v hodnocení.[^1] **Diskurzivní** změny fungují jen tím, že lidem říkají, co mají dělat. **Strukturální** změny mění to, jak musí být úkol proveden. Jejich argument je, že samotné instrukce neobstojí, protože lidé je mohou ignorovat.
 
-Totéž platí tady. Standard, který předepíše větu, kterou má autor napsat, je diskurzivní. Standard, který definuje záznam s povinnými poli a uzavřeným seznamem úrovní ověření, je strukturální. Všech šest návrhů se snaží posunout tenhle standard od prvního druhu ke druhému.
+Totéž platí tady. Standard, který předepíše větu, kterou má autor napsat, je diskurzivní. Standard, který definuje záznam s povinnými poli a uzavřeným seznamem úrovní ověření, je strukturální. Všech sedm návrhů se snaží posunout tenhle standard od prvního druhu ke druhému.
 
 [^1]: Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: why structural assessment changes are needed for a time of GenAI. *Assessment & Evaluation in Higher Education*, 50(7), 1087-1097. Ten článek je o hodnocení studentů, ne o přiznávání AI. Přebírám to rozlišení, ne jeho zjištění.
 
@@ -159,9 +163,15 @@ Míra podrobnosti je v zásadě správná. Oddělení kvantitativní a kvalitati
 
 1. **Používejte stabilní identifikátory, slugy místo čísel** (P1). `vs:literature-search`, ne „kategorie 3". Čísla se rozbijí, jakmile se kategorie přidá nebo zruší. Publikujte seznam jako verzovaný strojově čitelný slovník, v JSON nebo SKOS, s poli `deprecated` a `replaced_by`. CRediT šel cestou ANSI/NISO Z39.104-2022 a právě proto dnes CRediT v metadatech funguje.
 
-   **Totéž platí pro aktéry, nejen pro kategorie.** „Použili jsme GPT-4" není identifikátor. Řádek má uvést poskytovatele, rodinu modelu, verzi nebo snapshot a rozhraní, a pokud to jde, odkázat na stabilní identifikátor toho systému. Práce na identifikátorech pro systémy AI už začala (AICID, Vidal a Monperrus, arXiv 2606.28756).
+   **Totéž platí pro aktéry, nejen pro kategorie** (P7). „Použili jsme GPT-4" není identifikátor. Řádek má uvést poskytovatele, rodinu modelu, verzi nebo snapshot a rozhraní. A ještě lépe má odkázat na trvalý identifikátor toho systému.
 
-   Aby bylo jasno: nenavrhuji, aby se systém AI považoval za autora. COPE tuhle otázku uzavřelo a souhlasím s ním. Navrhuji, aby **nástroj, který jednal**, byl označen stejně přesně jako člověk, který za něj odpovídá.
+   **Precedent už existuje a není to autorství.** Research Resource Identifiers (RRID) dávají protilátkám, buněčným liniím, modelovým organismům, softwarovým nástrojům a databázím trvalý strojově čitelný identifikátor, který se nikdy nemění a je stejný napříč vydavateli. Žádný z těch zdrojů není autor. Identifikátor existuje proto, aby čtenář nebo nástroj našel všechny články, které použily tentýž zdroj, a aby se z „použili jsme komerční protilátku" stal ověřitelný údaj.
+
+   Model AI je přesně takový výzkumný zdroj. Má výrobce, má verzi a jeho chování se mezi verzemi mění. Navrhuji, aby standard vyzval k **trvalým identifikátorům pro systémy AI po vzoru RRID** a aby je řádek deklarace nesl.
+
+   Aby bylo jasné, co to není. Nenavrhuji, aby se systém AI považoval za autora. COPE tuhle otázku uzavřelo a souhlasím s ním. Identifikace není autorství: datová sada má DOI a autorem není, protilátka má RRID a autorem není. Práce, která systémy AI jako autory rámuje, existuje (AICID, Vidal a Monperrus, arXiv 2606.28756), a já záměrně navrhuji tu slabší a užitečnější verzi. Jde o to, aby **nástroj, který jednal**, byl označen stejně přesně jako člověk, který za něj odpovídá.
+
+   Bez toho se „strojová čitelnost" zastaví u kategorie a nikdy nedojde k aktérovi, což je přitom údaj, který chce čtenář ověřit nejčastěji.
 
 2. **Řádky, ne věty** (P2). Samotná kategorie deklaraci nenese. Nejmenší užitečný řádek je: činnost (ID kategorie), aktér (který systém AI, nebo který člověk), co bylo zkontrolováno a kým, a stopa (jaký záznam existuje a jak se k němu dostat). To je přesně ta struktura, o kterou žádalo 1. kolo: pevné jádro a místo pro volný popis.
 
@@ -300,7 +310,7 @@ Obecný text o rizicích se ze všech částí přiznání vyrábí nejsnáz a n
 
 Ta práce se ptá, které složky reálné přiznání doopravdy nese a jak velká část znění je šablona vydavatele, ne autorův vlastní hlas. Složky, které sleduji, jsou role AI, podíl práce, co udělal člověk, ručení, jistota, stav výstupu, co se čeká od čtenáře, a kde prohlášení stojí.
 
-Zatím žádná zjištění nejsou. Pokud pilot přinese výsledky, které obstojí, můžu je nabídnout do 3. kola.
+Zatím žádná zjištění nejsou a do 3. kola žádná nenabízím. Tyhle návrhy se podávají k tomu, aby se použily nebo zahodily podle vlastní hodnoty, a žádnou návaznou práci ode mě nepotřebují.
 
 **K procesu.** Uspořádání do tří kol a publikovaný přípravný materiál udělaly z téhle konzultace něco, do čeho se dá nezvykle snadno věcně zapojit. Jeden návrh: zveřejněte výstup 2. kola jako **verzovaný, strojově čitelný návrh**, tedy soubor se slovníkem plus ukázkové záznamy, ne jen jako text. Implementátoři pak můžou ve 3. kole odpovědět funkčním kódem místo komentářů.
 
@@ -309,7 +319,7 @@ Zatím žádná zjištění nejsou. Pokud pilot přinese výsledky, které obsto
 ## Uvedení autorství a kontakt
 
 - **Volitelné uvedení autorství:** *Jan Nehyba, odborný asistent, Pedagogická fakulta, Masarykova univerzita (Česko)*, souhlasím s uvedením u volných odpovědí.
-- **Kontakt po odeslání:** ▶ Ano, kontaktujte mě ohledně mých odpovědí · ▶ Ano, pozvěte mě do 3. kola · ▶ Ano, informujte mě o konečném výsledku
+- **Kontakt po odeslání:** ▶ Ne, nekontaktujte mě ohledně mých odpovědí · ▶ Ne, nezvěte mě do 3. kola · ▶ Ne, další informace nepotřebuji
 - **Jak jsem se o kole dozvěděl:** ▶ Jinak → *„Sleduji Focus Track veřejně (web ISC); zkoumám, jak lidé formulují přiznání AI napříč žánry."*
 - **Vztah k systémům AI:** ▶ Profesionální, intenzivní uživatel AI
 - **Role a fáze kariéry:** ▶ Aktivní výzkumník (s PhD nebo ekvivalentem) · ▶ Výzkumník se stálou smlouvou
