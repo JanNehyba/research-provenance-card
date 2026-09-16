@@ -305,3 +305,25 @@ the recipient. A proposed replacement wording is in `docs/reserse.md` section 1.
 - Supply the n = 415 reference or drop that source.
 - Decide on the genre set: adding theses as a separate genre and social media
   as a second genre was discussed but not decided.
+
+### Correction, same day
+
+The first pass claimed the Schilke/Purcell disagreement was unaddressed in the
+literature. The author pushed back, saying he had read counterexamples. He was
+right. A second search found:
+
+- Licenji & Hoxha (2026), Frontiers in Artificial Intelligence, a systematic
+  review of 47 studies on provenance and disclosure cues in journalism. No
+  consistent AI penalty; effects conditional on topic, baseline trust, source
+  cues and whether human oversight was signalled; moderators include cue
+  wording, placement and framing.
+- Prajod et al. (2026), FAccT, arXiv 2601.09620: trust drops only for detailed
+  disclosures, while source-checking rises.
+- Cheong et al. (2025), arXiv 2507.01418: 1,970 human and 2,520 LLM raters,
+  both penalise disclosed AI use.
+
+docs/reserse.md section 3.4 was added, section 1 and section 4.6 were rewritten.
+Consequence for the project: the effects literature is crowded and further along
+than this project will be, so the contribution is the descriptive cross-genre
+corpus, not an experiment. The systematic review independently validates three
+of the eight components (what the human did, accountability, placement).

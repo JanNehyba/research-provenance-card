@@ -20,9 +20,16 @@ The brief said: *"No one has systematically described which introductory formula
 
 Proposed replacement:
 
-> Normative schemes for what an AI disclosure should contain are proliferating: AID, DAISY, the STM classification, the faceted attribution model, the Vancouver Standard itself. Descriptive work on what people actually write is far thinner, and every existing study sits inside a single genre: medical education journals, Australian government documents, digital humanities. No study compares the wording across genres, and none asks whether the components of a disclosure behave differently in an email than in an article. Three components that existing component models omit entirely are accountability (who vouches for the content), the state of the output (finished, draft, raw), and what is expected of the recipient. These become visible only when a disclosure is treated as a language act addressed to someone, rather than as a record of a process.
+> **Two literatures, at very different stages.** The literature on the *effects* of AI disclosure is large and mature: dozens of experiments, a systematic review of 47 studies in journalism, and meta-analytic work. It has already established that the effect is contingent rather than uniform, and that three of the things it is contingent on are the wording of the cue, its placement, and whether human oversight is signalled. The literature on *what people actually write* is thin, and every descriptive study sits inside a single genre: medical education journals, Australian government documents, digital humanities.
+>
+> The gap is the asymmetry between them. Experiments have established that the wording matters, and they establish it using wordings the experimenters invented. Nobody has catalogued the wordings that exist. No study compares them across genres, and no component model covers accountability (who vouches for the content), the state of the output (finished, draft, raw), or what is expected of the recipient. Those three become visible only when a disclosure is treated as a language act addressed to someone, rather than as a record of a process.
 
-**What this changes for the project.** The contribution is no longer "a typology of components". Component models exist. The contribution is (a) the cross-genre comparison, (b) the three components nobody has modelled, and (c) an empirical test of a claim currently asserted for one field only, that disclosure is performative rather than informative. The `templated` flag stops being housekeeping and becomes the main independent variable.
+**What this changes for the project.**
+
+1. **Do not claim novelty in the effects literature.** It is crowded, well powered and further along than this project will be. An experiment should not be the main contribution, and any experiment run later has to justify itself against the 47 studies already reviewed.
+2. **The contribution is descriptive and cross-genre.** The corpus is the deliverable. Its justification is now external and strong: a systematic review concludes that cue wording and oversight signalling moderate trust, so an inventory of real wordings is a prerequisite for the next generation of experiments, and it does not exist.
+3. **Three components remain unmodelled:** accountability, state of the output, expectations of the recipient.
+4. **"Trust" is the wrong single outcome, and the literature already shows it.** Prajod et al. found that detailed disclosure lowered trust while *increasing* source-checking. A project about responsibility should not collapse into a project about trust.
 
 ---
 
@@ -45,6 +52,10 @@ Proposed replacement:
 | 9 | AI disclosure in medical education journals | **New, abstract verified** | Closest existing work; see 3.1 |
 | 10 | Australian government AI transparency statements | **New, abstract verified** | See 3.2 |
 | 11 | Xexéo, faceted attribution proposal | **New, abstract verified** | See 3.3 |
+| 12 | Licenji & Hoxha 2026, systematic review of provenance cues in journalism | **New, abstract verified** | 47 studies; the most important source found. See 3.4 |
+| 13 | Prajod et al. 2026, level of detail in disclosure | **New, abstract verified** | Closest experiment to the project's question. See 3.4 |
+| 14 | Cheong et al. 2025, penalizing transparency | **New, abstract verified** | n = 1,970 human and 2,520 LLM raters. See 3.4 |
+| 15 | Meta-analysis of AI identity disclosure and user responses | **Listing only** | Record seen, not retrieved. See 5 |
 
 ---
 
@@ -73,6 +84,39 @@ Geraldo Xexéo, *A Faceted Proposal for Transparent Attribution of AI-Assisted T
 **Why it matters here.** This is the nearest competitor to the eight-component scheme. It is a **proposal, not an empirical study**: no corpus, and the only worked example is the article itself.
 
 Overlap with the eight components: Generation covers roughly components 1 and 2 (role and share of AI), Evaluation covers 3 and 5 (what the human did, certainty), Traceability covers evidence. **Not covered: accountability, state of the output, expectations of the recipient.** Those three follow from treating a disclosure as an utterance with an addressee, which is the Goffman angle, and they are where this project is not duplicating anyone.
+
+### 3.4 The effects literature is mature, and it already points at wording
+
+This was missed in the first pass and corrects an overstatement made earlier in the project: the disagreement between Schilke & Reimann and Purcell et al. is **not** unaddressed. It has been mapped.
+
+**Licenji, L., & Hoxha, J. (2026).** *When news is "written by artificial intelligence": a systematic review of provenance and disclosure cues in journalism and their effects on credibility and trust.* Frontiers in Artificial Intelligence, 5 May 2026. DOI 10.3389/frai.2026.1815243. **47 studies**, published 2018 to 2026.
+
+Findings that matter here:
+
+- **No consistent "AI penalty" for credibility.** Most extractable results showed no difference between AI-attributed and human-attributed news.
+- Effects were "typically conditional on topic, baseline trust, outlet/source cues, and **whether human oversight was signalled**."
+- "Scepticism appeared more likely when disclosures implied full automation without accompanying accountability or oversight information."
+- Moderators include **cue design specifics: wording ("AI-generated" versus "AI-assisted"), placement, and framing**.
+- Concluding position: audience responses are "contingent, varying by design, context, and measurement target," and "transparency should be treated as a design and communication problem, not a binary decision."
+
+**Why this is the most important source found so far.** A systematic review of 47 studies concludes that what moderates the effect is oversight signalling, wording and placement. Those are components 3, 4 and 8 of this project's scheme. The review supplies external validation for the component framework, and its closing sentence is close to this project's own thesis, arrived at independently and in a different genre. It also constrains the project: the effects question is taken, the descriptive question is not.
+
+**Prajod, P., et al. (2026).** *Full Disclosure, Less Trust? How the Level of Detail about AI Use in News Writing Affects Readers' Trust.* arXiv 2601.09620, ACM FAccT 2026, DOI 10.1145/3805689.3812386. A 3x2x2 mixed factorial design, 40 participants: three levels of disclosure (none, one-line, detailed) by news type (politics, lifestyle) by AI involvement (low, high).
+
+- Trust declined **only for detailed disclosures**; a one-line disclosure did not reduce trust.
+- Source-checking behaviour **increased** with detailed disclosure.
+- About two thirds of participants said they preferred detailed disclosures.
+- Conclusion: "not all AI disclosures lead to a transparency dilemma."
+
+**Why it matters.** This is the closest existing experiment to the project's question, because it varies the *amount of detail in the wording* rather than presence versus absence. Its result is non-monotonic and it splits the outcome: detail costs trust and buys verification behaviour. Any later experiment in this project has to start here. It is also a direct counterexample to reading Schilke & Reimann as "disclosure always erodes trust". Note the sample: 40 participants, so it is suggestive rather than settled.
+
+**Cheong, I., Guo, A., Lee, M., Liao, Z., Kadoma, K., Go, D., Chang, J. C., Henderson, P., Naaman, M., & Zhang, A. X. (2025).** *Penalizing Transparency? How AI Disclosure and Author Demographics Shape Human and AI Judgments About Writing.* arXiv 2507.01418. Human raters n = 1,970, LLM raters n = 2,520. Both penalise disclosed AI use. LLM raters favoured articles attributed to women or Black authors when no disclosure was present, and that advantage disappeared once AI assistance was revealed; human raters showed no such interaction.
+
+**Why it matters.** Supports Schilke on the main effect, in a writing-evaluation setting, at large scale. Also relevant to this project's own method: if LLM raters judge disclosed text differently, an LLM coder may not be neutral toward the accountability and `templated` components either. That belongs in the limitations of the pilot.
+
+**Other moderator work found but not yet retrieved:** a meta-analysis on AI identity disclosure and user responses; *Superhuman Game AI Disclosure: Expertise and Context Moderate Effects on Trust and Fairness* (arXiv 2503.15514); *The effect of source disclosure on evaluation of AI-generated messages* (arXiv 2311.15544); marketing work reporting moderation by content type, AI literacy, cultural context and disclosure framing.
+
+---
 
 ---
 
@@ -126,14 +170,18 @@ The finding is more precise than the brief suggests, and more useful. AI labels 
 
 **Why this is central to the project.** This is the strongest existing evidence that a disclosure changes what a text says about its sender, not just how much it is believed. That is the "who vouches for this" component, measured. It is also the paper closest to the project's theoretical core.
 
-### 4.6 A contradiction in the literature worth building on
+### 4.6 The trust literature disagrees, and the disagreement is already mapped
 
-Two well-powered studies disagree:
+Two well-powered studies appear to contradict each other:
 
 - Schilke & Reimann (2025), thirteen studies: disclosure erodes trust, across six framings, robustly.
 - Purcell, Jakesch, Dong, Nussberger & Köbis (2025), *Writing with AI boosts trust-building efficiency*, iScience, PubMed 41492389: two preregistered experiments, N = 1,637, incentivised trust games with communication. **AI assistance had minimal impact on trust regardless of disclosure**, and the efficiency advantage persisted when AI use was disclosed. Linguistic analysis: AI-assisted messages were slightly less authentic but warmer, more complex and higher in clout.
 
-These are not easily reconciled. One candidate moderator is the setting: Schilke's stimuli are evaluative (a job applicant, a supervisor, an analyst, that is, contexts where the reader is judging the sender), while Purcell's are transactional (a trust game where the reader is deciding whether to cooperate). **Genre and communicative situation are a plausible explanation for the disagreement, and that is this project's territory.** Worth stating as a motivation rather than leaving the two studies side by side.
+**Correction to an earlier claim made in this project:** this contradiction is not unaddressed. See 3.4. Licenji & Hoxha (2026) review 47 studies and conclude there is no consistent AI penalty, with effects conditional on topic, baseline trust, source cues and oversight signalling. Prajod et al. (2026) show the effect depends on the level of detail in the disclosure rather than on its presence. Moderator work exists in marketing and in game contexts too.
+
+What remains true, and is the usable point: the setting plausibly explains part of the disagreement. Schilke's stimuli are evaluative, a job applicant, a supervisor, an analyst, where the reader is judging the sender. Purcell's are transactional, a trust game where the reader decides whether to cooperate. Genre and communicative situation are a candidate moderator, and the journalism review independently reaches the same structural conclusion, that transparency is a design and communication problem rather than a binary.
+
+**How to use this in the article:** not as "nobody has resolved this", which is false, but as "the effects literature has established that wording, placement and oversight signalling moderate the effect, and it established this using wordings the experimenters wrote. The inventory of wordings people actually use does not exist."
 
 ### 4.7 Remaining sources, verified
 
@@ -151,4 +199,6 @@ These are not easily reconciled. One candidate moderator is the setting: Schilke
 3. **Check the national library catalogue** for a Czech *Forms of Talk* before asserting there is none.
 4. **Check the ACM record** for the El Ali author list.
 5. **Search two areas not yet covered:** disclosure wording in teaching materials and university policy documents, and disclosure conventions in software projects (commit trailers, AI policy files). The gap check covered research articles, news, government and workplace communication. Those two genres were not searched.
-6. **Reconcile Schilke and Purcell** in the eventual article rather than citing both as if they agreed.
+6. **Reconcile Schilke and Purcell** in the eventual article rather than citing both as if they agreed, and cite Licenji & Hoxha when doing so rather than presenting the disagreement as open.
+7. **Retrieve the remaining moderator work:** the meta-analysis on AI identity disclosure, arXiv 2503.15514, arXiv 2311.15544, and the marketing review. The effects literature is larger than this review currently reflects, and the risk now runs the other way: understating it would look like not having read it.
+8. **Reconsider whether a later experiment is worth running at all.** Prajod et al. (2026) already vary the level of detail in the wording, which was the obvious experiment this project would have run. If an experiment happens, it needs a question those 47 studies do not already answer. The card sort is the cheaper and less crowded option.
