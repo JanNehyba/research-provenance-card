@@ -327,3 +327,22 @@ Consequence for the project: the effects literature is crowded and further along
 than this project will be, so the contribution is the descriptive cross-genre
 corpus, not an experiment. The systematic review independently validates three
 of the eight components (what the human did, accountability, placement).
+
+### Moderator literature completed (same day)
+
+Retrieved the rest of the effects literature at the authors request:
+
+- Meta-analysis, Information Technology & People 2026, DOI 10.1108/ITP-06-2025-0813:
+  33 articles, 44 studies, 67 effect sizes, N = 25,208. Small but significant
+  negative effect of AI identity disclosure, HIGH HETEROGENEITY, nine moderators,
+  no publication bias. This is the single most useful number found.
+- Lim & Schmaelzle, arXiv 2311.15544: disclosure shifted ratings but not rankings.
+- Chua, Wang & Yao, arXiv 2503.15514: expertise and context moderate; N = 32.
+
+Written up as section 3.5 of docs/reserse.md.
+
+Recommendation recorded in open item 8: do NOT plan an experiment as the main
+contribution. The evidence base is 67 effect sizes over 25,208 participants plus
+a 47-study systematic review, and Prajod et al. already ran the obvious
+experiment. Card sorting is the cheaper and uncrowded option. Revisit after the
+pilot, not before.

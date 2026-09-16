@@ -55,7 +55,9 @@ Proposed replacement:
 | 12 | Licenji & Hoxha 2026, systematic review of provenance cues in journalism | **New, abstract verified** | 47 studies; the most important source found. See 3.4 |
 | 13 | Prajod et al. 2026, level of detail in disclosure | **New, abstract verified** | Closest experiment to the project's question. See 3.4 |
 | 14 | Cheong et al. 2025, penalizing transparency | **New, abstract verified** | n = 1,970 human and 2,520 LLM raters. See 3.4 |
-| 15 | Meta-analysis of AI identity disclosure and user responses | **Listing only** | Record seen, not retrieved. See 5 |
+| 15 | Meta-analysis of AI identity disclosure, Information Technology & People 2026 | **Abstract verified** | 67 effect sizes, N = 25,208. See 3.5 |
+| 16 | Lim & Schmälzle, source disclosure and message evaluation | **Abstract verified** | See 3.5 |
+| 17 | Chua, Wang & Yao 2025, expertise and context moderate disclosure | **Abstract verified** | N = 32, see 3.5 |
 
 ---
 
@@ -115,6 +117,24 @@ Findings that matter here:
 **Why it matters.** Supports Schilke on the main effect, in a writing-evaluation setting, at large scale. Also relevant to this project's own method: if LLM raters judge disclosed text differently, an LLM coder may not be neutral toward the accountability and `templated` components either. That belongs in the limitations of the pilot.
 
 **Other moderator work found but not yet retrieved:** a meta-analysis on AI identity disclosure and user responses; *Superhuman Game AI Disclosure: Expertise and Context Moderate Effects on Trust and Fairness* (arXiv 2503.15514); *The effect of source disclosure on evaluation of AI-generated messages* (arXiv 2311.15544); marketing work reporting moderation by content type, AI literacy, cultural context and disclosure framing.
+
+---
+
+### 3.5 How big is the effect, and how much does it vary
+
+Added after the author pointed out that counterexamples exist. They do, and the quantitative picture is now clear enough to state in one sentence: **the effect is real, small, and highly heterogeneous.**
+
+**The meta-analysis.** *Does AI identity disclosure stimulate user responses? An exploration based on meta-analysis.* Information Technology & People, 2026, DOI 10.1108/ITP-06-2025-0813. 33 articles, 44 independent studies, **67 effect sizes, N = 25,208 participants**, three-level random-effects model. Result: **a small but statistically significant negative overall effect** of AI identity disclosure on user responses. Nine moderators across four dimensions were tested. **High heterogeneity, no significant publication bias.**
+
+**Why the heterogeneity is the useful number, not the effect size.** High heterogeneity across 67 effect sizes means the studies are not measuring one stable thing. Statistically, that is what "it depends on the wording, the context and the genre" looks like. The meta-analysis establishes that moderators matter without being able to say which wordings people actually encounter, because every included study used stimuli the researchers wrote. This is the strongest available argument for a descriptive corpus, and it is not this project's own claim.
+
+**Lim, S., & Schmälzle, R.** *The effect of source disclosure on evaluation of AI-generated messages: A two-part study.* arXiv 2311.15544 (November 2023). Vaping prevention messages. Source disclosure significantly affected message *evaluation* but **did not change message rankings**. A slight bias against AI-generated messages once disclosed, moderated by participants' negative attitudes toward AI.
+
+**Chua, J., Wang, C., & Yao, L.** *Superhuman Game AI Disclosure: Expertise and Context Moderate Effects on Trust and Fairness.* arXiv 2503.15514 (January 2025, revised April 2025). N = 32, StarCraft II scenarios with synthetic personas. Disclosure was "double-edged": it reduced suspicion but produced frustration and strategic defeatism in novices and overreliance in competitive contexts. Conclusion: disclosure has to be "tailored to user characteristics, domain norms, and specific fairness objectives". Small sample, treat as illustrative.
+
+**Also located, not retrieved:** Shi, Y., & Jiang, Z. (2026), *Consumer Responses to AI Disclosure Labels: The Role of Novelty and Authenticity*, Sage; *The Effects of AI Identity Disclosure on User Responses* (Chen & Sun), Decision Support Systems; and advertising work on AI involvement disclosure in the Journal of Research in Interactive Marketing.
+
+**A pattern worth naming.** Three independent studies now split the outcome measure: Prajod et al. (trust down, source-checking up), Lim & Schmälzle (ratings shift, rankings do not), Schilke & Reimann (trust down, and hiring intention down with it). Whether disclosure "hurts" depends on what is measured. A project about who vouches for a text should not adopt "trust" as its single dependent variable, and if it ever runs an experiment, the outcome should be something like attributed responsibility or verification behaviour.
 
 ---
 
@@ -200,5 +220,5 @@ What remains true, and is the usable point: the setting plausibly explains part 
 4. **Check the ACM record** for the El Ali author list.
 5. **Search two areas not yet covered:** disclosure wording in teaching materials and university policy documents, and disclosure conventions in software projects (commit trailers, AI policy files). The gap check covered research articles, news, government and workplace communication. Those two genres were not searched.
 6. **Reconcile Schilke and Purcell** in the eventual article rather than citing both as if they agreed, and cite Licenji & Hoxha when doing so rather than presenting the disagreement as open.
-7. **Retrieve the remaining moderator work:** the meta-analysis on AI identity disclosure, arXiv 2503.15514, arXiv 2311.15544, and the marketing review. The effects literature is larger than this review currently reflects, and the risk now runs the other way: understating it would look like not having read it.
-8. **Reconsider whether a later experiment is worth running at all.** Prajod et al. (2026) already vary the level of detail in the wording, which was the obvious experiment this project would have run. If an experiment happens, it needs a question those 47 studies do not already answer. The card sort is the cheaper and less crowded option.
+7. **Mostly done, see 3.5.** Still to retrieve: Shi & Jiang (2026), Chen & Sun (Decision Support Systems), and the advertising disclosure work. Retrieve the meta-analysis full text for the nine moderators, since if genre or communicative context is already one of them, that must be cited rather than claimed as new.
+8. **Recommendation on a later experiment: do not plan one as the main contribution.** The evidence base is now 67 effect sizes over 25,208 participants plus a 47-study systematic review, and Prajod et al. have already run the obvious experiment (varying the level of detail in the wording). An experiment from this project would be underpowered by comparison and would answer a question that is taken. The card sort is cheaper, uncrowded, and answers something the experiments cannot: whether the components researchers use to describe disclosures match the ones ordinary readers actually distinguish. Revisit this after the pilot, not before.
