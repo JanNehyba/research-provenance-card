@@ -142,3 +142,73 @@ start now.
   and options still match those of 29 July 2026; fill in the institutional
   e-mail in the respondent table.
 
+## 2026-09-16 — Step 2 audit applied (author's review of the trimmed submission)
+
+### What the audit found
+
+The author confirmed `5f5e119` on GitHub, clean tree, `main` untouched, and
+raised three findings (two to fix, one decision) plus two notes without
+required action.
+
+### What was changed
+
+- **Finding 1 (fixed, both languages).** 1B example 3 ended with a dangling
+  reference to "the manuscript underlying this response" and the count "seven
+  design reversals" — a manuscript the trimming had removed, contradicting the
+  basis statement ("Nothing below rests on a formal implementation or on pilot
+  findings"). The passage now says the example is drawn from the author's own
+  practice and that the framing of the work changes in the process. No
+  manuscript reference, no count.
+- **Finding 2 (returned, both languages).** The three missing taxonomy
+  categories from the former P7 — *orchestration / agent operation*,
+  *verification performed by AI*, *selection among multiple runs or outputs* —
+  are back in 3B as the fifth proposal P5, with no implementation mapping. They
+  do not rest on the implementation; the run-selection category in particular
+  is an integrity point. Applied consistently: section 0 now says "five
+  proposals" and has a P5 row, the "About this version" note says five
+  proposals, 1B.3 points to the proposed orchestration category, and the 3A
+  answer stays "Mostly adequate", which now reads exactly as intended
+  (adequate, with three categories missing). Wording follows the rationales in
+  `taxonomy-crosswalk-v0.1.json`, single-author voice, no empirical claims
+  beyond what the full version already carried.
+- **Finding 3 (fixed, both languages).** The invented "Generated-with:" commit
+  trailer in 5B is replaced with the real `Co-Authored-By:` convention
+  (established in git and in AI coding tools), described by what it actually
+  does: it credits an AI system with a share of the authorship while assigning
+  it none of the accountability.
+- **Czech typo (fixed).** "artikulové prohlášení" (2x in 5B) replaced with
+  "prohlášení psané pro vědecký článek".
+- **Majority vote in `docs/zadani.md`.** "Synthesizing agent" / "synthesis"
+  replaced in all four places with aggregation by majority vote (two of three;
+  items with no majority are flagged for human adjudication, not resolved
+  silently; kappa is reported human versus the majority vote and human versus
+  each model). NOTE: the author's prepared wording for this change had not
+  arrived when this edit was made; the wording was drafted from the author's
+  description and awaits the author's confirmation or replacement.
+- `docs/vancouver/README.md` file table updated to five proposals (P1-P5).
+
+### What was verified and how
+
+- `grep -i -E "RPC|kit|schema|validator|registry|crosswalk|zenodo|preprint"`
+  over the trimmed English file still returns nothing.
+- `grep` for "Generated-with", "manuscript underlying" and "seven design
+  reversals" in both trimmed files: no hits.
+- `grep "artikulové"` in the Czech file: no hits.
+- `grep "—"` over both trimmed files: no hits. `grep -P "[\x{0400}-\x{04FF}]"`:
+  no hits.
+- Both files still mirror each other section by section (234 lines each after
+  the additions).
+- `grep "synthesizing agent\|versus synthesis" docs/zadani.md`: no hits.
+
+### Notes left without action
+
+- The Round-3 offer in section 6 ("Validated findings from that pilot can be
+  offered for Round 3") is left as a conscious commitment by the author.
+
+### Open items for the author
+
+- Confirm or replace the drafted majority-vote wording in `docs/zadani.md`
+  with the prepared version.
+- Review the Czech translation of the new P5 passage and the reworked 1B.3
+  sentence.
+

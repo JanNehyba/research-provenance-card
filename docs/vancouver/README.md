@@ -7,7 +7,7 @@ Working folder for the project's input to the **Global Reporting Standard for AI
 | File | What it is |
 |---|---|
 | [`round2-submission-en.md`](./round2-submission-en.md) | **Full submission.** Paste-ready, question by question (1A–6), with recommended tick-box answers marked ▶ and three appendices. References the RPC implementation throughout; kept as the record of what was prepared first. |
-| [`round2-submission-trimmed-en.md`](./round2-submission-trimmed-en.md) | **Trimmed submission for sending.** Keeps only the four proposals that stand on their own (P1, P2, P3, P4), drops the RPC framing and all appendices, and adds a genre perspective to question 5. This is the version to paste into the webform. |
+| [`round2-submission-trimmed-en.md`](./round2-submission-trimmed-en.md) | **Trimmed submission for sending.** Keeps the five proposals that stand on their own (P1–P5; P5 adds the three missing taxonomy categories), drops the RPC framing and all appendices, and adds a genre perspective to question 5. This is the version to paste into the webform. |
 | [`round2-submission-trimmed-cs.md`](./round2-submission-trimmed-cs.md) | Czech working translation of the trimmed submission, for the author's review. Not for submission, the consultation runs in English. |
 | [`round2-submission-cs.md`](./round2-submission-cs.md) | Czech working translation, for the author's review. Not for submission — the consultation runs in English. |
 | [`taxonomy-crosswalk-v0.1.json`](./taxonomy-crosswalk-v0.1.json) | Machine-readable crosswalk: the proposed 18 categories ↔ RPC roles, with gaps flagged in both directions and three proposed additions. Supporting material for question 3B. |

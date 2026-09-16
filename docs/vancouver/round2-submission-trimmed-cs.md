@@ -6,7 +6,7 @@ Uzávěrka podání: **16. říjen 2026** · Webový formulář: <https://counci
 
 ---
 
-**O této verzi.** Seškrtaný podnět odvozený z plného textu v souboru [`round2-submission-en.md`](./round2-submission-en.md). Zachovává čtyři návrhy, které obstojí samy o sobě, a odstraňuje dřívější implementační práci, její rámcování a její přílohy. Před odesláním je potřeba otevřít webový formulář v prohlížeči a ověřit, že otázky a možnosti stále odpovídají stavu z 29. července 2026. Doporučené odpovědi u výběrových položek jsou označeny ▶, aby šel celý podnět přenést do formuláře v jednom průchodu. Toto je pracovní překlad pro autorskou kontrolu; podává se anglická verze [`round2-submission-trimmed-en.md`](./round2-submission-trimmed-en.md).
+**O této verzi.** Seškrtaný podnět odvozený z plného textu v souboru [`round2-submission-en.md`](./round2-submission-en.md). Zachovává pět návrhů, které obstojí samy o sobě, a odstraňuje dřívější implementační práci, její rámcování a její přílohy. Před odesláním je potřeba otevřít webový formulář v prohlížeči a ověřit, že otázky a možnosti stále odpovídají stavu z 29. července 2026. Doporučené odpovědi u výběrových položek jsou označeny ▶, aby šel celý podnět přenést do formuláře v jednom průchodu. Toto je pracovní překlad pro autorskou kontrolu; podává se anglická verze [`round2-submission-trimmed-en.md`](./round2-submission-trimmed-en.md).
 
 ## Respondent
 
@@ -24,7 +24,7 @@ Uzávěrka podání: **16. říjen 2026** · Webový formulář: <https://counci
 
 ---
 
-## 0: Přehled: čtyři návrhy
+## 0: Přehled: pět návrhů
 
 | # | Návrh | Otázka |
 |---|---|---|
@@ -32,6 +32,7 @@ Uzávěrka podání: **16. říjen 2026** · Webový formulář: <https://counci
 | **P2** | Učinit jednotkou deklarace **řádek, nikoli větu**: jeden řádek na (úlohu × aktéra × co bylo zkontrolováno × stopu). Narativní próza může řádek doprovázet; nemůže jej nahradit, mají-li být deklarace srovnatelné. | 3 |
 | **P3** | Přidat ke každému řádku **úroveň důkazu/ověření** z uzavřeného seznamu. Kritéria 1. kola i vlastní „ověřovací žebřík“ Focus Tracku (attestation → review → audit → replication) už tímto směrem míří; uzavřený seznam je to, co z něj dělá strojově čitelné. | 5 |
 | **P4** | **Svázat deklaraci s verzí, kterou popisuje**, obsahovým hashem (SHA-256) přijatého souboru. Deklarace a tvrzení o ověření se dnes vážou na titul, nikoli na stav souboru, a přežívají proto tichou výměnu obsahu. | 4, 5 |
+| **P5** | Doplnit **tři chybějící kategorie**: *orchestrace / řízení agentů* (lidský úkon konfigurace, promptování a řízení systému; pokrývá AI, která utváří práci, aniž by zanechala stopu ve výstupu); *ověřování prováděné AI* (kontrola prováděná AI, zaznamenatelná jako kontrola, nikoli skrytá v produkčních kategoriích); *výběr mezi více běhy či výstupy* (který běh byl reportován, z kolika, podle jakého pravidla výběru). | 3 |
 
 ---
 
@@ -55,7 +56,7 @@ Tři upřesnění:
 
 1. **Vyžaduje deklaraci.** LLM provede první průchod tematickým kódováním přepisů rozhovorů; výzkumník kódy kontroluje, rozhoduje o nich a reviduje je. Úsudek, který by jinak vykonával expert-člověk, byl delegován; pozdější lidská validace povinnost deklarace neruší (kritérium 1). Taxonomie: *qualitative data analysis*.
 2. **Nevyžaduje deklaraci.** Oprava pravopisu a interpunkce a přeformátování referencí textu, který autor sám napsal a sám obhájil. Žádný vliv na význam, interpretaci ani podstatu.
-3. **Sporné, a tvrdím, že jde nad práh.** Dlouhodobé využívání LLM jako adversariálního sparing partnera během koncepčního návrhu: model dostane instrukci napadat autorovo zarámování a zarámování se v důsledku mění. **Do rukopisu se nedostane jediné slovo ani řádek kódu z modelu**, takže každé pravidlo orientované na text nehlásí nic, přestože výměna utvářela návrh práce. Není to hypotetické: takto vznikal rukopis, který za tímto podnětem stojí, a sedm obratů v designu se k tomu dá dohledat. Podle kritérií (1) a (3) jde o užití podléhající deklaraci, ale žádná existující kategorie je nevystihuje dobře. Označuji to za případ, kde je současná praxe deklarace nejsystematičtěji slepá, právě proto, že přínos AI je ve výstupu neviditelný.
+3. **Sporné, a tvrdím, že jde nad práh.** Dlouhodobé využívání LLM jako adversariálního sparing partnera během koncepčního návrhu: model dostane instrukci napadat autorovo zarámování a zarámování se v důsledku mění. **Do rukopisu se nedostane jediné slovo ani řádek kódu z modelu**, takže každé pravidlo orientované na text nehlásí nic, přestože výměna utvářela návrh práce. Toto je z mé vlastní praxe: takto pracuji a zarámování práce se při tom skutečně mění. Podle kritérií (1) a (3) jde o užití podléhající deklaraci, ale žádná existující kategorie je nevystihuje dobře; tu mezeru vyplňuje navrhovaná kategorie *orchestrace* v 3B (P5). Označuji to za případ, kde je současná praxe deklarace nejsystematičtěji slepá, právě proto, že přínos AI je ve výstupu neviditelný.
 
 ### 1C. Míra souhlasu s tvrzeními
 
@@ -114,6 +115,10 @@ Granularita je v zásadě správná. Oddělení *kvantitativní* od *kvalitativn
 1. **Stabilní identifikátory, slugové, ne pořadová čísla** (P1). `vs:literature-search`, ne „kategorie 3“. Pořadová čísla se rozbijí ve chvíli, kdy je kategorie vložena nebo zrušena. Publikovat seznam jako verzovaný strojově čitelný slovník (JSON/SKOS) s `deprecated` a `replaced_by`. Cesta CRediT přes ANSI/NISO Z39.104-2022 je precedent a důvod, proč je CRediT dnes v metadatech použitelný.
 2. **Řádky, ne věty** (P2). Samotná kategorie deklaraci nese. Minimální řádek je: *úloha* (ID kategorie) · *aktér* (který AI systém / který člověk) · *co bylo zkontrolováno a kým* · *stopa* (jaký záznam existuje a jak k němu lze přistoupit). To je přesně struktura, o kterou 1. kolo žádalo: konzistentní jádro s prostorem pro volný popis.
 3. **Poznamenejte, že taxonomie klasifikuje úlohy a deklarace potřebuje ještě jednu osu.** Návrh to říká („merely a classification of research tasks“). Souhlasím, a právě to je pointa: bez ověřovací osy (§5) řekne taxonomie čtenáři, čeho se AI dotkla, ale ne, co s tím kdo udělal.
+4. **Tři chybějící kategorie** (P5). Všech 18 navržených kategorií popisuje výzkumnou úlohu, kterou AI vykonala. Tři úkony s odlišnými vlastnostmi pro integritu se do nich nevejdou:
+   - **Orchestrace / řízení agentů.** Lidský úkon konfigurace, promptování a řízení systému, včetně supervizního agentu vybírajícího specialistické agenty. Tady může AI substancičně utvářet práci, aniž by zanechala stopu ve výstupu (případ adversariální kritiky v 1B); žádná kategorie orientovaná na výstup to nevyjádří a jediným artefaktem bývá prompt nebo protokol, a právě proto by to mělo být deklarovatelné.
+   - **Ověřování prováděné AI.** Kontrola prováděná AI (dohledávání referencí, posuzování podpory tvrzení, statistický audit, kontrola kódu) je odlišný úkon od produkování výzkumného materiálu a má jiné vlastnosti pro integritu. Kategorie 10 a 11 ji pašují jako „auditing“; má být zaznamenatelná jako to, čím je: kontrola nesoucí vlastní úroveň důkazu (P3).
+   - **Výběr mezi více běhy či výstupy.** Který běh byl reportován, z kolika, podle jakého pravidla výběru. Nepřiznaný výběr nejlepšího z mnoha běhů je neviditelný v každém schématu deklarace, které znám, včetně tohoto návrhu, a jde o integritu, ne o implementační detail. Kategorie umožňuje deklaraci; její povinnost pro agentní pipeline je samostatné politické rozhodnutí, které bych podpořil.
 
 ---
 
@@ -151,7 +156,7 @@ Zahrnout jej, ale nenechat jej stát samotné, a formulovat jej **přičitateln�
 
 Takže: ponechat výchozí větu pro obecný případ a vyžadovat **pojmenovaný dohled u každého substantivního užití** (viz 5E, poslední řádek, který hodnotím jako zásadní).
 
-**Perspektiva žánrů, které standard nepokrývá.** Deklarace je zároveň jazykový akt: její znění lze rozložit na to, kdo text posílá, kdo vybral slova a kdo za obsah ručí. Tyto složky se v žánrech mimo vědecký článek kombinují jinak. E-mail, který začíná „Zde je shrnutí od AI“, říká příjemci něco, co artikulové prohlášení neřekne; prezentace podepsaná jen jménem si nárokuje autorství i ručení naráz; trailer v commit message („Generated-with: …“) je rozděluje zase jinak; stránka s prohlášením u závěrečné práce to dělá ve formě předepsané institucí. Standard psaný pro vědecké články nepokryje e-maily, výukové materiály ani interní podklady, kde se táž odpovědnost řeší jinými prostředky (podpisy, kontrola, konvence pojmenování). Navrhuji, aby standard svůj žánrový rozsah uvedl explicitně a nevytvářel dojem, že artikulové prohlášení je vzorem pro veškerou komunikaci.
+**Perspektiva žánrů, které standard nepokrývá.** Deklarace je zároveň jazykový akt: její znění lze rozložit na to, kdo text posílá, kdo vybral slova a kdo za obsah ručí. Tyto složky se v žánrech mimo vědecký článek kombinují jinak. E-mail, který začíná „Zde je shrnutí od AI“, říká příjemci něco, co prohlášení psané pro vědecký článek neřekne; prezentace podepsaná jen jménem si nárokuje autorství i ručení naráz; trailer `Co-Authored-By:` v commit message (zavedená konvence v gitu a v nástrojích pro psaní kódu s AI) připisuje AI systému podíl na autorství, aniž by jí přidělil jakoukoli odpovědnost; stránka s prohlášením u závěrečné práce to dělá ve formě předepsané institucí. Standard psaný pro vědecké články nepokryje e-maily, výukové materiály ani interní podklady, kde se táž odpovědnost řeší jinými prostředky (podpisy, kontrola, konvence pojmenování). Navrhuji, aby standard svůj žánrový rozsah uvedl explicitně a nevytvářel dojem, že prohlášení psané pro vědecký článek je vzorem pro veškerou komunikaci.
 
 ### 5C. Jaké informace o ověření a dohledu mají autoři uvádět
 

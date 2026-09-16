@@ -73,7 +73,7 @@ published Czech translation of the work exists.
 | Method | Qualitative coding along the eight components plus room for bottom-up categories. A decision about an experiment or card sorting comes only after the pilot. |
 | Who codes | An LLM as coder (three different models), a human validates a control sample. |
 | Control sample size | Decided after the first run based on disagreement between models. The selection rule is fixed in advance (see the first run step). |
-| Tools | Own script in this repository. The design pattern (three independent coders on different models, a synthesizing agent, kappa against a human sample) is reimplemented from scratch; no code is copied from QualReAI, which stays a private project of the author. Data as files in git. |
+| Tools | Own script in this repository. The design pattern (three independent coders on different models, aggregation by majority vote, kappa against a human sample) is reimplemented from scratch; no code is copied from QualReAI, which stays a private project of the author. Data as files in git. |
 | Author time | As little as possible, automate the maximum. |
 | Repository | RPC archived in a branch, `main` rewritten for the new project, repository renamed on GitHub. |
 
@@ -121,14 +121,16 @@ published Czech translation of the work exists.
    lists including a "not stated" value, examples, and boundary decisions. Free
    field `novel_note` for bottom-up categories. Versioned; a change means the
    whole run is repeated.
-7. Machine coding, `src/code/`. Three independent coders on different models
-   plus a synthesizing agent. The pattern is reimplemented from scratch, no
-   code is copied from the author's private project QualReAI. Output in
+7. Machine coding, `src/code/`. Three independent coders on different models,
+   aggregated by majority vote (two of three); items with no majority are
+   flagged for human adjudication, not resolved silently. The pattern is
+   reimplemented from scratch, no code is copied from the author's private
+   project QualReAI. Output in
    `data/coded/run-<date>-<book version>/`.
 8. First run and the control sample decision. Fleiss kappa per component
    between the three models, a stratified random part plus a targeted part
    from disagreement items, blind human coding, Cohen kappa human versus
-   synthesis and human versus each model.
+   the majority vote and human versus each model.
 9. Pilot evaluation, `docs/pilot-report.md`, ending with a recommendation:
    extend the corpus, card sorting with participants, or an experiment.
 
@@ -161,5 +163,6 @@ published Czech translation of the work exists.
 7. A coding run on twenty items must pass before the full 200. The output is
    valid JSON per the code book schema and the three models really ran
    separately.
-8. Cohen kappa human versus synthesis is computed and reported for each of the
-   eight components separately, including components where it turns out bad.
+8. Cohen kappa human versus the majority vote is computed and reported for
+   each of the eight components separately, including components where it
+   turns out bad.

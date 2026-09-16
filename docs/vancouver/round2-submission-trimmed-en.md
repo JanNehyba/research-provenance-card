@@ -6,7 +6,7 @@ Submission deadline: **16 October 2026** · Webform: <https://council.science/AI
 
 ---
 
-**About this version.** This is a trimmed submission derived from the full text in [`round2-submission-en.md`](./round2-submission-en.md). It keeps the four proposals that stand on their own and removes the earlier implementation work, its framing and its attachments. Before submitting, open the webform in a browser and check that the questions and options still match those of 29 July 2026. The recommended tick-box answers are marked ▶ so the whole submission can be transferred in one pass.
+**About this version.** This is a trimmed submission derived from the full text in [`round2-submission-en.md`](./round2-submission-en.md). It keeps the five proposals that stand on their own and removes the earlier implementation work, its framing and its attachments. Before submitting, open the webform in a browser and check that the questions and options still match those of 29 July 2026. The recommended tick-box answers are marked ▶ so the whole submission can be transferred in one pass.
 
 ## Respondent
 
@@ -24,7 +24,7 @@ Submission deadline: **16 October 2026** · Webform: <https://council.science/AI
 
 ---
 
-## 0: Summary: four proposals
+## 0: Summary: five proposals
 
 | # | Proposal | Question |
 |---|---|---|
@@ -32,6 +32,7 @@ Submission deadline: **16 October 2026** · Webform: <https://council.science/AI
 | **P2** | Make the unit of disclosure a **row, not a sentence**: one row per (task × actor × what-was-checked × trace). Narrative prose can accompany a row; it cannot replace it if disclosures are to be comparable. | 3 |
 | **P3** | Add an **evidence/verification level** to every row, from a closed list. Round 1's criteria and the Focus Track's own "verification ladder" (attestation → review → audit → replication) already point here; a closed list is what makes it machine-readable. | 5 |
 | **P4** | **Bind the disclosure to the version it describes** via a content hash (SHA-256) of the accepted file. Disclosures and verification claims currently attach to a title, not to a state of a file, so they survive silent replacement of content. | 4, 5 |
+| **P5** | Add **three missing categories**: *orchestration / agent operation* (the human act of configuring, prompting and directing the system; covers AI that shapes the work while leaving no trace in the output); *verification performed by AI* (AI-run checking, recordable as checking rather than hidden inside production categories); *selection among multiple runs or outputs* (which run was reported, out of how many, under what selection rule). | 3 |
 
 ---
 
@@ -55,7 +56,7 @@ Three refinements:
 
 1. **Requires disclosure.** An LLM performs first-pass thematic coding of interview transcripts; the researcher reviews, adjudicates and revises the codes. Judgement that would normally be expert-human was delegated; later human validation does not remove the disclosure duty (criterion 1). Taxonomy: *qualitative data analysis*.
 2. **Does not require disclosure.** Spelling and punctuation correction plus reference-list reformatting of a text the author wrote and argued themselves. No effect on meaning, interpretation or substance.
-3. **Doubtful, and I argue it is above the threshold.** Sustained use of an LLM as an adversarial sparring partner during conceptual design: the model is instructed to attack the author's framing, and the framing changes as a result. **No sentence and no code from the model reaches the manuscript**, so every text-centred disclosure rule reports nothing, yet the design of the work was shaped by the exchange. This is not hypothetical: it is how the manuscript underlying this response was developed, and seven design reversals are traceable to it. Under criteria (1) and (3) this is disclosable, but no existing category expresses it well. I flag it as the case where current disclosure practice is most systematically blind, precisely because the AI's contribution is invisible in the output.
+3. **Doubtful, and I argue it is above the threshold.** Sustained use of an LLM as an adversarial sparring partner during conceptual design: the model is instructed to attack the author's framing, and the framing changes as a result. **No sentence and no code from the model reaches the manuscript**, so every text-centred disclosure rule reports nothing, yet the design of the work was shaped by the exchange. This is drawn from my own practice: I work this way, and the framing of the work genuinely changes in the process. Under criteria (1) and (3) this is disclosable, but no existing category expresses it well; the gap is the one the proposed *orchestration* category in 3B (P5) fills. I flag it as the case where current disclosure practice is most systematically blind, precisely because the AI's contribution is invisible in the output.
 
 ### 1C. Agreement with statements
 
@@ -114,6 +115,10 @@ The granularity is broadly right. Splitting *quantitative* from *qualitative* da
 1. **Stable identifiers, slug-based, not ordinals** (P1). `vs:literature-search`, not "category 3". Ordinals break the moment a category is inserted or retired. Publish the list as a versioned machine-readable vocabulary (JSON/SKOS) with `deprecated` and `replaced_by`. CRediT's route via ANSI/NISO Z39.104-2022 is the precedent, and the reason CRediT is usable in metadata today.
 2. **Rows, not sentences** (P2). A category alone does not carry a disclosure. The minimum row is: *task* (category ID) · *actor* (which AI system / which human) · *what was checked and by whom* · *trace* (what record exists and how it can be accessed). This is exactly the structure Round 1 asked for: a consistent core with room for free description.
 3. **Note that the taxonomy classifies tasks, and disclosure needs one more axis.** The draft says this ("merely a classification of research tasks"). I agree, and that is precisely the point: without the verification axis (§5), the taxonomy tells a reader what AI touched but not what anyone did about it.
+4. **Three missing categories** (P5). All 18 proposed categories describe a research task the AI performed. Three acts with distinct integrity properties fall outside them:
+   - **Orchestration / agent operation.** The human act of configuring, prompting and directing the system, including a supervisory agent selecting specialist agents. This is where AI can substantively shape the work while leaving no trace in the output (the adversarial-critique case in 1B); no output-centred category can express it, and the only artefact is usually the prompt or protocol, which is precisely why it should be disclosable.
+   - **Verification performed by AI.** AI-run checking (reference resolution, claim-support assessment, statistical audit, code review) is a distinct act from producing research material, with different integrity properties. Categories 10 and 11 smuggle it in as "auditing"; it needs to be recordable as what it is, carrying its own evidence level (P3).
+   - **Selection among multiple runs or outputs.** Which run was reported, out of how many, under what selection rule. Undisclosed selection of the best of many runs is invisible in every disclosure scheme I know of, including this draft, and it is a matter of integrity, not of implementation. A category makes disclosure possible; making it mandatory for agentic pipelines is a separate policy choice, which I would support.
 
 ---
 
@@ -151,7 +156,7 @@ Include it, but do not let it stand alone, and make it **attributable rather tha
 
 So: keep the default sentence for the general case, and require **named oversight per substantive use** (see 5E, last row, which I rate Essential).
 
-**A perspective from genres the standard does not cover.** A disclosure is also a language act: its wording can be decomposed into who sends the text, who chose the words, and who vouches for the content. These components combine differently in genres outside the research article. An email that opens with "Here is an AI summary" tells the recipient something no article-style statement says; a slide deck signed with a name only claims authorship and accountability at once; a commit message trailer ("Generated-with: …") allocates them differently again; a thesis statement page does it in a form prescribed by an institution. A standard written for research articles will not cover emails, teaching materials or internal documents, where the same responsibility is handled by other means (signatures, review conventions, naming rules). I suggest the standard state its genre scope explicitly, and not imply that an article-style statement is the model for all communication.
+**A perspective from genres the standard does not cover.** A disclosure is also a language act: its wording can be decomposed into who sends the text, who chose the words, and who vouches for the content. These components combine differently in genres outside the research article. An email that opens with "Here is an AI summary" tells the recipient something no article-style statement says; a slide deck signed with a name only claims authorship and accountability at once; a `Co-Authored-By:` trailer in a commit message (an established convention in git and in AI coding tools) credits an AI system with a share of the authorship while assigning it none of the accountability; a thesis statement page does it in a form prescribed by an institution. A standard written for research articles will not cover emails, teaching materials or internal documents, where the same responsibility is handled by other means (signatures, review conventions, naming rules). I suggest the standard state its genre scope explicitly, and not imply that an article-style statement is the model for all communication.
 
 ### 5C. What information about verification and oversight should authors disclose
 
