@@ -62,7 +62,10 @@ def gh_search(endpoint: str, query: str, per_page: int = 5) -> list[dict]:
     ]
     for attempt in range(2):
         try:
-            out = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+            out = subprocess.run(
+                cmd, capture_output=True, timeout=90,
+                encoding="utf-8", errors="replace",
+            )
         except (OSError, subprocess.TimeoutExpired) as exc:
             print(f"[github] {endpoint} search failed: {exc}")
             return []
