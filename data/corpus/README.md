@@ -8,12 +8,18 @@ individual. Collectors redact email addresses before an item is written, and
 
 ## Fields
 
-`id` `text_verbatim` `lang` `genre` `templated` `source_type` `source_url`
-`source_date` `collected_at` `placement` `context_note` `license_note`
+`id` `text_verbatim` `lang` `genre` `templated` `template_family` `trigger_phrase`
+`source_type` `source_url` `source_date` `collected_at` `placement`
+`context_note` `license_note`
 
 `templated` marks a formulation that reuses publisher boilerplate. It is the
-study's main explanatory variable, so it is computed at collection time from
-`common.TEMPLATE_MARKERS` rather than left to the coder.
+study's main explanatory variable, so it is computed at collection time rather
+than left to the coder. `template_family` records which publisher's wording the
+item follows (`frontiers`, `springer_nature`, `wiley`, `elsevier`), or is empty
+when the wording is the author's own. Springer and Nature are one publisher
+group and share a family. `trigger_phrase` is the phrase the collector found
+the item with, and an item is refused if that phrase occurs more than once
+inside it, which is how squashed merge commits get dropped.
 
 ## Running a collector
 

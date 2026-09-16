@@ -71,6 +71,35 @@ def section_title_before(xml: str, phrase: str) -> str:
     return strip_tags(titles[-1].group(1))[:120]
 
 
+# Section names the disclosure commonly sits in, used as a fallback when the
+# XML has no <title> before the phrase (4 of 21 article items had no placement).
+FALLBACK_SECTIONS = (
+    "declaration",
+    "acknowledgement",
+    "acknowledgment",
+    "author contribution",
+    "backmatter",
+    "competing interest",
+    "conflict of interest",
+    "funding",
+    "data availability",
+)
+
+
+def placement_in_plain(plain: str, phrase: str) -> str:
+    """Fallback placement: nearest known section name preceding the phrase."""
+    idx = plain.lower().find(phrase.lower())
+    if idx < 0:
+        return ""
+    prefix = plain[:idx].lower()
+    best, best_pos = "", -1
+    for name in FALLBACK_SECTIONS:
+        pos = prefix.rfind(name)
+        if pos > best_pos:
+            best, best_pos = name, pos
+    return best
+
+
 def collect(per_phrase: int = 4, pause: float = 0.4) -> list[Item]:
     items: list[Item] = []
     for phrase, why in TRIGGERS:
@@ -81,8 +110,12 @@ def collect(per_phrase: int = 4, pause: float = 0.4) -> list[Item]:
             time.sleep(pause)
             if not xml:
                 continue
-            placement = section_title_before(xml, phrase)
-            text = window_around(strip_tags(xml), phrase)
+            plain = strip_tags(xml)
+            placement = (
+                section_title_before(xml, phrase)
+                or placement_in_plain(plain, phrase)
+            )
+            text = window_around(plain, phrase)
             if not text:
                 continue
             items.append(
@@ -96,6 +129,7 @@ def collect(per_phrase: int = 4, pause: float = 0.4) -> list[Item]:
                     placement=placement,
                     context_note=f"journal: {hit['journal']}; found via phrase: {phrase}",
                     license_note="open access full text via Europe PMC",
+                    trigger_phrase=phrase,
                 )
             )
     return items

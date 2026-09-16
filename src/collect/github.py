@@ -49,24 +49,35 @@ def redact_emails(text: str) -> tuple[str, bool]:
 
 
 def gh_search(endpoint: str, query: str, per_page: int = 5) -> list[dict]:
-    """Call the GitHub search API through the gh CLI."""
+    """Call the GitHub search API through the gh CLI.
+
+    The search API has an undocumented secondary limit that answers 403 after
+    only a couple of queries, so on a rate-limit refusal we wait a minute and
+    try the query once more instead of losing it.
+    """
     cmd = [
         "gh", "api", "-X", "GET", f"search/{endpoint}",
         "-f", f"q={query}",
         "-f", f"per_page={per_page}",
     ]
-    try:
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
-    except (OSError, subprocess.TimeoutExpired) as exc:
-        print(f"[github] {endpoint} search failed: {exc}")
-        return []
-    if out.returncode != 0:
+    for attempt in range(2):
+        try:
+            out = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            print(f"[github] {endpoint} search failed: {exc}")
+            return []
+        if out.returncode == 0:
+            try:
+                return json.loads(out.stdout).get("items", [])
+            except ValueError:
+                return []
+        if "rate limit" in out.stderr.lower() and attempt == 0:
+            print("[github] rate limited, waiting 60 s and retrying once")
+            time.sleep(60)
+            continue
         print(f"[github] {endpoint} search failed: {out.stderr.strip()[:200]}")
         return []
-    try:
-        return json.loads(out.stdout).get("items", [])
-    except ValueError:
-        return []
+    return []
 
 
 def collect_commits(per_phrase: int = 4) -> list[Item]:
@@ -76,7 +87,9 @@ def collect_commits(per_phrase: int = 4) -> list[Item]:
         print(f"[github] commits {phrase!r}: {len(hits)} hits")
         for hit in hits:
             message = normalise_ws(hit.get("commit", {}).get("message", ""))
-            text = window_around(message, phrase) or message
+            text = window_around(message, phrase)
+            if not text:
+                continue
             text, was_redacted = redact_emails(text)
             note = f"found via phrase: {phrase}"
             if was_redacted:
@@ -92,9 +105,10 @@ def collect_commits(per_phrase: int = 4) -> list[Item]:
                     placement="commit message",
                     context_note=note,
                     license_note="public repository",
+                    trigger_phrase=phrase,
                 )
             )
-        time.sleep(2)  # search API allows 30 requests per minute
+        time.sleep(30)  # the search API's secondary limit bites well before the 30/min primary one
     return items
 
 
@@ -129,9 +143,10 @@ def collect_code(per_phrase: int = 4) -> list[Item]:
                     placement=path,
                     context_note=note,
                     license_note="public repository",
+                    trigger_phrase=phrase,
                 )
             )
-        time.sleep(2)
+        time.sleep(30)
     return items
 
 
