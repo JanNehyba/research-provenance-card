@@ -47,3 +47,34 @@ Repository state, checked with read-only git commands (`git status`,
 ### Open items for the author
 
 - Confirm `docs/zadani.md` or request changes.
+
+## 2026-09-16 (later, after independent review)
+
+The author independently verified the repository state and the brief, and
+reported three findings. All were applied:
+
+1. **Genre fix (substantive).** The genre row said "emails and reports"; the
+   author's decision is Czech "e-maily a zprávy", where "zprávy" means short
+   chat messages (Teams, Slack), not reports. Changed to
+   "emails and messages". Without this fix, corpus collectors would have
+   looked for reports instead of chat communication.
+2. **Local path removed.** The tools row carried a local filesystem path to the
+   QualReAI clone. Replaced with the repository URL
+   `https://github.com/JanNehyba/QualReAI`, as instructed by the author.
+   Verification note: on 2026-09-16 this URL returned HTTP 404 both on the
+   web page and via the GitHub API when accessed anonymously (a public control
+   URL of this repository returned 200, so the check worked). This usually
+   means the QualReAI repository is private. The author should check its
+   visibility before the link is relied on.
+3. **Cosmetic fixes.** The decisions heading said "final" while the document
+   header said "draft awaiting author confirmation"; changed to "settled".
+   The Goffman paragraph stated the production format as fact; added a
+   sentence that the reading is verified in the literature review step,
+   including whether a published Czech translation exists.
+
+### Open items for the author
+
+- Confirm `docs/zadani.md` (now with the three fixes above) or request
+  further changes.
+- Check whether the QualReAI repository is public; if not, either make it
+  public or decide how to reference it.

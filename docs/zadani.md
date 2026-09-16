@@ -56,14 +56,16 @@ Goffman (1981, *Forms of talk*) distinguishes three roles in an utterance: the
 one who delivers or sends it (animator), the one who chose the words (author),
 and the one who stands behind the content (principal). The project uses
 simplified questions: Who sends this? Who chose the words? Who stands behind it?
+This reading is verified in the literature review step, including whether a
+published Czech translation of the work exists.
 
-## Decisions made by the author (final, do not change without instruction)
+## Decisions made by the author (settled, do not change without instruction)
 
 | Area | Decision |
 |---|---|
 | Goal | Pilot first, then decide between an article, a handbook, and a grant. |
 | Vancouver | Submit a trimmed consultation input without the RPC by 2026-10-16. |
-| Genres | All four: research articles, emails and reports, teaching and internal materials, software and public projects. |
+| Genres | All four: research articles, emails and messages, teaching and internal materials, software and public projects. |
 | Data languages | Czech and English. |
 | Corpus | 200 items, target 25 per cell (4 genres x 2 languages). |
 | Data sources | Public data only. Instead of private mail, use publicly archived mailing lists and forums. |
@@ -71,7 +73,7 @@ simplified questions: Who sends this? Who chose the words? Who stands behind it?
 | Method | Qualitative coding along the eight components plus room for bottom-up categories. A decision about an experiment or card sorting comes only after the pilot. |
 | Who codes | An LLM as coder (three different models), a human validates a control sample. |
 | Control sample size | Decided after the first run based on disagreement between models. The selection rule is fixed in advance (see the first run step). |
-| Tools | Own script in this repository, borrowing modules from QualReAI (local clone: `C:\Users\Nehyba\qualitative-analysis`). Data as files in git. |
+| Tools | Own script in this repository, borrowing modules from QualReAI (<https://github.com/JanNehyba/QualReAI>). Data as files in git. |
 | Author time | As little as possible, automate the maximum. |
 | Repository | RPC archived in a branch, `main` rewritten for the new project, repository renamed on GitHub. |
 
