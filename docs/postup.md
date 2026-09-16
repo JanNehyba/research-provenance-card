@@ -257,3 +257,51 @@ into the form.
   original state and that nothing was lost from `main` except deletions
   recoverable from history.
 
+
+## 2026-09-16 (step 4, first pass: verified literature review)
+
+Done by the reviewing model directly, because source verification is the step
+where a model most easily confirms instead of checking.
+
+### What was done
+
+- Created `docs/reserse.md`. Every source carries a verification status
+  (full text read / abstract verified / listing only / not identified).
+- Ran the mandatory gap check required by the brief.
+
+### Result of the gap check
+
+**The gap as worded in `docs/zadani.md` is false and must be rewritten.**
+Three studies found that the brief did not know about:
+
+1. AI-use disclosure statements in 24 medical education journals, content
+   analysis of 51 statements (Perspectives on Medical Education, PubMed
+   41800434). Conclusion: disclosure is "safe" and performative.
+2. Government AI transparency statements in Australia, 101 documents
+   (arXiv 2604.26075).
+3. A faceted attribution model with six facets (arXiv 2604.25346). A proposal,
+   not an empirical study.
+
+The gap survives in a narrower form: no cross-genre comparison exists, and no
+component model covers accountability, state of the output, or expectations of
+the recipient. A proposed replacement wording is in `docs/reserse.md` section 1.
+
+### Corrections to the brief's source list
+
+- Schilke & Reimann: fully confirmed from the full text, including that Study 9
+  used a job applicant letter and tested six framings.
+- arXiv 2509.09645 is Khadpe et al.; the sample is 399, not 415.
+- The n = 415 news label experiment could not be identified. It stays out until
+  the author supplies the reference.
+- AID Framework is by Kari D. Weaver; the claim of "14 categories" is not
+  confirmed and must not be cited yet.
+- No Czech translation of Goffman's *Forms of Talk* was found. Czech renderings
+  of animator / author / principal are the project's own translation.
+
+### Open items for the author
+
+- Decide whether to rewrite the gap statement in `docs/zadani.md` to match
+  `docs/reserse.md` section 1.
+- Supply the n = 415 reference or drop that source.
+- Decide on the genre set: adding theses as a separate genre and social media
+  as a second genre was discussed but not decided.
