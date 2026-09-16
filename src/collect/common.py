@@ -11,6 +11,7 @@ a public URL, never a name or an email address.
 from __future__ import annotations
 
 import hashlib
+import html
 import io
 import json
 import os
@@ -193,6 +194,7 @@ def fetch(url: str, retries: int = 3, pause: float = 1.0) -> str:
 def strip_tags(xml: str) -> str:
     text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", xml, flags=re.S | re.I)
     text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
     return normalise_ws(text)
 
 
