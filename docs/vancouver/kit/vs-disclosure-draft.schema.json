@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JanNehyba/research-provenance-card/docs/vancouver/kit/vs-disclosure-draft.schema.json",
+  "title": "Draft AI disclosure record (Vancouver Standard Consultation Round 2, unofficial implementer rendering)",
+  "description": "A deliberately small record built from the concepts proposed in Consultation Round 2 of the Global Reporting Standard for AI Disclosure in Research, plus one axis this submission argues is missing (verification). It is NOT the Research Provenance Card schema and not a competing standard: it is a testable rendering offered so that the round-2 proposal can be tried against running code before it is finalised. Every property carries an `x-origin` annotation stating whether the concept comes from the round-2 proposal or is proposed by this implementer. Validators ignore unknown keywords, so the annotations cost nothing.",
+  "type": "object",
+  "required": [
+    "disclosure_format",
+    "taxonomy",
+    "work",
+    "guarantor",
+    "disclosures",
+    "null_declaration",
+    "responsibility_statement"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "disclosure_format": {
+      "x-origin": "implementer-proposal",
+      "description": "Identifier and version of the record format itself, so that a record remains interpretable when the format changes.",
+      "type": "object",
+      "required": ["name", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {"const": "vs-disclosure-draft"},
+        "version": {"const": "0.1"}
+      }
+    },
+    "taxonomy": {
+      "x-origin": "implementer-proposal",
+      "description": "Which task vocabulary the `task` identifiers below are drawn from. Recording this is what makes a disclosure written under one taxonomy version still readable under the next (proposal P1).",
+      "type": "object",
+      "required": ["vocabulary", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "vocabulary": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "source": {"type": "string", "minLength": 1}
+      }
+    },
+    "work": {
+      "x-origin": "round2-proposal",
+      "description": "The output the disclosure is about.",
+      "type": "object",
+      "required": ["title", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "title": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "doi": {"type": "string", "minLength": 1},
+        "pdf_sha256": {
+          "x-origin": "implementer-proposal",
+          "description": "Content hash of the file the disclosure describes. Optional here on purpose: the round-2 proposal does not require it, and this rendering does not pretend that it does. Proposal P4 argues it should become required at acceptance, because a verification claim bound to a title survives silent replacement of content.",
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        }
+      }
+    },
+    "guarantor": {
+      "x-origin": "round2-proposal",
+      "description": "The named human who accepts responsibility for this record. Round 2 asks about responsibility statements (question 5); making the responsible person an identified field rather than a sentence is proposal P-5B.",
+      "type": "object",
+      "required": ["name", "timestamp"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "orcid": {
+          "x-origin": "implementer-proposal",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$"
+        },
+        "timestamp": {"type": "string", "format": "date-time"}
+      }
+    },
+    "disclosures": {
+      "x-origin": "round2-proposal",
+      "description": "One row per disclosed use: task x actor x what was checked x what trace exists. May be empty when no use met the threshold - in that case the record is still non-empty, because `null_declaration` is required (question 4).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["task", "actor", "verification", "not_verified"],
+        "additionalProperties": false,
+        "properties": {
+          "task": {
+            "x-origin": "round2-proposal",
+            "description": "Identifier of a research-task category, e.g. `vs:qualitative-analysis`. Slug form rather than ordinal (proposal P1).",
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "x-origin": "round2-proposal",
+            "description": "Free-text description of the nature and extent of the use. Round 1 asked for a consistent core with room for free description; this is the room.",
+            "type": "string"
+          },
+          "actor": {
+            "x-origin": "round2-proposal",
+            "type": "object",
+            "required": ["kind"],
+            "additionalProperties": false,
+            "properties": {
+              "kind": {"type": "string", "enum": ["ai", "human"]},
+              "provider": {"type": "string", "minLength": 1},
+              "model_family": {"type": "string", "minLength": 1},
+              "model_version_or_snapshot": {
+                "description": "A dated version or snapshot. 'We used an LLM' is not a description of a tool.",
+                "type": "string",
+                "minLength": 1
+              },
+              "interface": {"type": "string", "minLength": 1},
+              "orcid": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$"
+              }
+            },
+            "allOf": [
+              {
+                "if": {"properties": {"kind": {"const": "ai"}}, "required": ["kind"]},
+                "then": {"required": ["provider", "model_family", "model_version_or_snapshot", "interface"]}
+              }
+            ]
+          },
+          "verification": {
+            "x-origin": "implementer-proposal",
+            "description": "What was checked and by whom, from a closed list (answer 5C, slot 3). This is the axis that turns disclosure into accountability; the round-2 proposal describes it in prose but does not make it a controlled field. Values are ordered from weakest to strongest but are NOT a score: `not_checked` is a legitimate, informative answer.",
+            "type": "string",
+            "enum": [
+              "not_checked",
+              "read_through",
+              "sampled",
+              "recomputed",
+              "cross_checked_primary_sources",
+              "checked_by_named_third_party",
+              "independently_reproduced"
+            ]
+          },
+          "verification_detail": {
+            "x-origin": "implementer-proposal",
+            "description": "Required qualifier for the values that are meaningless without one: the sampled fraction, or who the named third party was.",
+            "type": "string",
+            "minLength": 1
+          },
+          "oversight_orcid": {
+            "x-origin": "implementer-proposal",
+            "description": "The human responsible for oversight of THIS use, where it differs from the guarantor (answer 5E, last row: rated Essential).",
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$"
+          },
+          "not_verified": {
+            "x-origin": "implementer-proposal",
+            "description": "What could not be checked. Required on every row, including rows with the strongest verification value, because it is the most informative field in the record and the first one that would be dropped if optional. Use 'nothing material' only when that is true.",
+            "type": "string",
+            "minLength": 1
+          },
+          "trace": {
+            "x-origin": "round2-proposal",
+            "description": "The record that exists for this use, if any. Absence of a trace is expressed by omitting this object, not by inventing one.",
+            "type": "object",
+            "required": ["type", "access_status"],
+            "additionalProperties": false,
+            "properties": {
+              "type": {"type": "string", "enum": ["prompt", "log", "protocol", "code", "dataset", "model_output", "other"]},
+              "uri_or_pid": {"type": "string", "minLength": 1},
+              "sha256": {
+                "x-origin": "implementer-proposal",
+                "description": "Hash of the retained record. Publishable even when the record itself is not: an unpublishable trace can still be made tamper-evident.",
+                "type": "string",
+                "pattern": "^[a-fA-F0-9]{64}$"
+              },
+              "access_status": {
+                "type": "string",
+                "enum": ["public", "embargoed", "on_request", "restricted", "not_retained"]
+              },
+              "restriction_reason": {"type": "string", "minLength": 1},
+              "curation": {
+                "x-origin": "implementer-proposal",
+                "description": "The two-hash rule (Appendix B of the submission). Required whenever a published trace is an edited version of a larger raw record: a curated log is weaker evidence the more it was curated, and only the curation rule makes that assessable.",
+                "type": "object",
+                "required": ["raw_sha256", "rule", "removed_kinds"],
+                "additionalProperties": false,
+                "properties": {
+                  "raw_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+                  "raw_access_status": {
+                    "type": "string",
+                    "enum": ["public", "embargoed", "on_request", "restricted", "not_retained"]
+                  },
+                  "rule": {"type": "string", "minLength": 1},
+                  "removed_kinds": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {"type": "string", "minLength": 1}
+                  }
+                }
+              }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "access_status": {"enum": ["embargoed", "on_request", "restricted", "not_retained"]}
+                  },
+                  "required": ["access_status"]
+                },
+                "then": {"required": ["restriction_reason"]}
+              }
+            ]
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "verification": {"enum": ["sampled", "checked_by_named_third_party"]}
+              },
+              "required": ["verification"]
+            },
+            "then": {"required": ["verification_detail"]}
+          }
+        ]
+      }
+    },
+    "null_declaration": {
+      "x-origin": "round2-proposal",
+      "description": "Mandatory non-empty disclosure (question 4). Scoped to the threshold version, the taxonomy version and - where available - the file it was asserted about, so that it stays assessable after the threshold moves (proposal P9).",
+      "type": "object",
+      "required": ["no_other_threshold_meeting_use", "threshold_version", "taxonomy_version"],
+      "additionalProperties": false,
+      "properties": {
+        "no_other_threshold_meeting_use": {"type": "boolean"},
+        "threshold_version": {"type": "string", "minLength": 1},
+        "taxonomy_version": {"type": "string", "minLength": 1},
+        "subject_sha256": {
+          "x-origin": "implementer-proposal",
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        },
+        "statement": {"type": "string", "minLength": 1}
+      }
+    },
+    "responsibility_statement": {
+      "x-origin": "round2-proposal",
+      "description": "The general responsibility statement (question 5A), kept as a field so that it is published with the record rather than agreed to invisibly in a submission form.",
+      "type": "object",
+      "required": ["text", "accepted_by"],
+      "additionalProperties": false,
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "accepted_by": {"type": "string", "minLength": 1},
+        "accepted_by_orcid": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$"
+        }
+      }
+    },
+    "no_certification": {
+      "x-origin": "implementer-proposal",
+      "description": "Fixed notice. No field or combination of fields in this record is a quality or truth judgement about the research (answer 5F.5).",
+      "const": "This record documents process and evidence. It is not a quality, accuracy or truth certification of the work."
+    }
+  }
+}

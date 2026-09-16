@@ -1,0 +1,141 @@
+{
+  "disclosure_format": {
+    "name": "vs-disclosure-draft",
+    "version": "0.1"
+  },
+  "taxonomy": {
+    "vocabulary": "Proposed research-task taxonomy, Consultation Round 2, Global Reporting Standard for AI Disclosure in Research",
+    "version": "round2-proposal, rendering 0.1",
+    "source": "docs/vancouver/kit/vs-taxonomy-round2.json; rows using an implementer-proposed category say so in their description"
+  },
+  "work": {
+    "title": "From Declaration to Evidence: Research Provenance Card as Version-Bound Infrastructure for AI-Involved Research",
+    "version": "preprint-v2-en",
+    "pdf_sha256": "f4aa8c33486bb48789b0011f44f82ee08b7a36d68797e909af7da93e773066d6"
+  },
+  "guarantor": {
+    "name": "Jan Nehyba",
+    "orcid": "0000-0003-4159-5576",
+    "timestamp": "2026-07-31T15:28:04Z"
+  },
+  "disclosures": [
+    {
+      "task": "vs:idea-generation",
+      "description": "Sustained use of the model as an adversarial sparring partner during conceptual design: it was instructed to attack the author's framing, and the framing changed as a result. No sentence from the model reaches the manuscript.",
+      "actor": {
+        "kind": "ai",
+        "provider": "Anthropic",
+        "model_family": "Claude",
+        "model_version_or_snapshot": "2026-07",
+        "interface": "chat"
+      },
+      "verification": "read_through",
+      "not_verified": "Whether the resulting design changes are improvements cannot be verified from the record; only that every change was adjudicated by the author. This is the case the submission argues is least visible to output-centred disclosure rules.",
+      "trace": {
+        "type": "log",
+        "access_status": "restricted",
+        "restriction_reason": "The working sessions contain third-party unpublished material, personal notes and personal data, and cannot be released as-is. No hash was computed at the time of use, so the record is not tamper-evident and the corresponding RPC card records this activity at the lowest evidence level."
+      }
+    },
+    {
+      "task": "vs:literature-search",
+      "description": "Retrieval and screening of candidate sources on publisher AI policies, reporting guidelines, provenance standards and AI transparency regulation.",
+      "actor": {
+        "kind": "ai",
+        "provider": "Anthropic",
+        "model_family": "Claude",
+        "model_version_or_snapshot": "2026-07",
+        "interface": "chat"
+      },
+      "verification": "read_through",
+      "not_verified": "The manuscript's own bibliography has not yet been run through automated reference resolution, so non-resolving citations would not have been detected; no third party re-ran the searches, so nothing is known about what the retrieval missed.",
+      "trace": {
+        "type": "log",
+        "access_status": "restricted",
+        "restriction_reason": "Part of the same non-releasable working-session record."
+      }
+    },
+    {
+      "task": "vs:literature-summarization",
+      "description": "Drafting of the landscape section as a synthesis of the retrieved sources, from the author's outline.",
+      "actor": {
+        "kind": "ai",
+        "provider": "Anthropic",
+        "model_family": "Claude",
+        "model_version_or_snapshot": "2026-07",
+        "interface": "chat"
+      },
+      "verification": "read_through",
+      "not_verified": "Individual statements in the landscape section were not traced back to page-level locations in the cited sources. This row and the drafting row below overlap, which is the category-overlap problem reported in the submission.",
+      "trace": {
+        "type": "log",
+        "access_status": "restricted",
+        "restriction_reason": "Part of the same non-releasable working-session record."
+      }
+    },
+    {
+      "task": "vs:drafting-text",
+      "description": "Drafting of manuscript prose from the author's outline and decisions, across several revision rounds.",
+      "actor": {
+        "kind": "ai",
+        "provider": "Anthropic",
+        "model_family": "Claude",
+        "model_version_or_snapshot": "2026-07",
+        "interface": "chat"
+      },
+      "verification": "read_through",
+      "not_verified": "The author read and rewrote the full text, but no independent reader checked it before this record was written, and no record exists of which passages were rewritten and which were accepted as drafted.",
+      "trace": {
+        "type": "log",
+        "access_status": "restricted",
+        "restriction_reason": "Part of the same non-releasable working-session record."
+      }
+    },
+    {
+      "task": "vs:translation",
+      "description": "Production of the English canonical version from Czech working material, and of the Czech version from the English text.",
+      "actor": {
+        "kind": "ai",
+        "provider": "Anthropic",
+        "model_family": "Claude",
+        "model_version_or_snapshot": "2026-07",
+        "interface": "chat"
+      },
+      "verification": "read_through",
+      "not_verified": "Neither language version was independently back-translated or checked by a second reader. Under the equity argument in the submission this use is a technical one and would sit below the threshold; it is disclosed here because the row costs nothing.",
+      "trace": {
+        "type": "log",
+        "access_status": "restricted",
+        "restriction_reason": "Part of the same non-releasable working-session record."
+      }
+    },
+    {
+      "task": "vs:orchestration",
+      "description": "PROPOSED CATEGORY A, not in the round-2 list: the human act of configuring, prompting and directing the system, including the adversarial-critique protocol that drove the idea-generation row above.",
+      "actor": {
+        "kind": "human",
+        "orcid": "0000-0003-4159-5576"
+      },
+      "verification": "not_checked",
+      "not_verified": "The prompts and the protocol that directed the model are not published, so a reader cannot tell what the model was asked to do. Writing the protocol down after the fact would produce a description, not a record - which is the retrospective-provenance finding reported in the submission.",
+      "trace": {
+        "type": "prompt",
+        "access_status": "not_retained",
+        "restriction_reason": "No prompt archive was exported at the time of use. This is the single clearest instance of the cost asymmetry the submission reports: capturing it would have cost seconds, reconstructing it now is not possible."
+      }
+    }
+  ],
+  "null_declaration": {
+    "no_other_threshold_meeting_use": true,
+    "threshold_version": "Consultation Round 2 proposed threshold, preparatory reading v4.5 (8 July 2026)",
+    "taxonomy_version": "round2-proposal, rendering 0.1",
+    "subject_sha256": "f4aa8c33486bb48789b0011f44f82ee08b7a36d68797e909af7da93e773066d6",
+    "statement": "Apart from the uses disclosed above, the author did not use AI meeting the disclosure threshold proposed in Consultation Round 2 in the preparation of this work."
+  },
+  "responsibility_statement": {
+    "text": "The author is responsible for the content of this work, including all AI-assisted parts, and for the accuracy of this disclosure record.",
+    "accepted_by": "Jan Nehyba",
+    "accepted_by_orcid": "0000-0003-4159-5576"
+  },
+  "no_certification": "This record documents process and evidence. It is not a quality, accuracy or truth certification of the work."
+}
