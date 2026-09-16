@@ -1,6 +1,6 @@
 # Project Brief: How People Frame AI-Assisted Output Across Genres
 
-Status: draft awaiting author confirmation
+Status: confirmed by the author on 2026-09-16
 Date: 2026-09-16
 
 This brief records the agreed direction of the project. The original Research
@@ -73,7 +73,7 @@ published Czech translation of the work exists.
 | Method | Qualitative coding along the eight components plus room for bottom-up categories. A decision about an experiment or card sorting comes only after the pilot. |
 | Who codes | An LLM as coder (three different models), a human validates a control sample. |
 | Control sample size | Decided after the first run based on disagreement between models. The selection rule is fixed in advance (see the first run step). |
-| Tools | Own script in this repository, borrowing modules from QualReAI (<https://github.com/JanNehyba/QualReAI>). Data as files in git. |
+| Tools | Own script in this repository. The design pattern (three independent coders on different models, a synthesizing agent, kappa against a human sample) is reimplemented from scratch; no code is copied from QualReAI, which stays a private project of the author. Data as files in git. |
 | Author time | As little as possible, automate the maximum. |
 | Repository | RPC archived in a branch, `main` rewritten for the new project, repository renamed on GitHub. |
 
@@ -122,8 +122,9 @@ published Czech translation of the work exists.
    field `novel_note` for bottom-up categories. Versioned; a change means the
    whole run is repeated.
 7. Machine coding, `src/code/`. Three independent coders on different models
-   plus a synthesizing agent, borrowing mechanisms from QualReAI, not its
-   pipeline. Output in `data/coded/run-<date>-<book version>/`.
+   plus a synthesizing agent. The pattern is reimplemented from scratch, no
+   code is copied from the author's private project QualReAI. Output in
+   `data/coded/run-<date>-<book version>/`.
 8. First run and the control sample decision. Fleiss kappa per component
    between the three models, a stratified random part plus a targeted part
    from disagreement items, blind human coding, Cohen kappa human versus

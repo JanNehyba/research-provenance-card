@@ -78,3 +78,67 @@ reported three findings. All were applied:
   further changes.
 - Check whether the QualReAI repository is public; if not, either make it
   public or decide how to reference it.
+
+## 2026-09-16 (step 2)
+
+The author confirmed the brief and decided two things: (1) QualReAI stays
+private and no code is copied from it. What is taken over is the design
+pattern, not a library: three coders on different models plus a synthesis plus
+kappa against a human sample. The pattern will be reimplemented from scratch in
+this repository, which avoids maintaining two copies and unclear licence
+status for copied files. (2) Step 2, the trimmed Vancouver submission, should
+start now.
+
+### What was done
+
+- `docs/zadani.md`: status changed to "confirmed by the author on 2026-09-16";
+  the tools row and workflow step 7 rewritten to reflect the QualReAI decision
+  (no URL, no code copying, the repository stays private).
+- Created `docs/vancouver/round2-submission-trimmed-en.md`, derived from
+  `round2-submission-en.md`:
+  - kept: the four proposals that stand on their own (P1 stable
+    machine-readable category identifiers, P2 rows instead of sentences, P3
+    closed list of verification levels, P4 binding the declaration to the
+    version hash), the threshold support with three refinements, the three 1B
+    examples, the three-tier placement answer, the taxonomy overlap fixes, the
+    mandatory non-empty disclosure support, the five-slot row, the session 4.B
+    ladder, the 5E ratings and the tick-box answers;
+  - dropped: the RPC framing ("implementation profile"), the repository URL and
+    all implementation claims, the kit, the schema, the validator, the
+    crosswalk, the usage-report findings (former proposals P5 to P9), and all
+    three appendices;
+  - added: a paragraph in 5B stating that a disclosure is a language act
+    decomposable into who sends, who chose the words and who vouches, and that
+    a standard written for research articles will not cover emails, teaching
+    materials or internal documents, where the same responsibility is handled
+    by other means;
+  - reworked the basis section: the response now stands on the ongoing
+    qualitative work on disclosure wording across genres, with no
+    implementation or pilot claims.
+- Created `docs/vancouver/round2-submission-trimmed-cs.md`, a Czech working
+  translation of the trimmed submission for the author's review, using the
+  terminology of the existing full Czech translation (deklarace, užití AI,
+  práh).
+- Updated the file table in `docs/vancouver/README.md`: the full submission is
+  now marked as the record of what was prepared first, the trimmed version is
+  marked as the one to paste into the webform.
+
+### What was verified and how
+
+- `grep -i -E "RPC|kit|schema|validator|registry|provenance card|zenodo|preprint"`
+  over the trimmed English file returns nothing.
+- `grep "—"` over both new files returns nothing (no em dash in new text).
+- `grep -P "[\x{0400}-\x{04FF}]"` over the Czech file returns nothing (no
+  Cyrillic characters accidentally typed).
+- Both files have 229 lines and mirror each other section by section.
+
+### Open items for the author
+
+- Review the trimmed submission (the Czech working translation is for this
+  purpose), especially the new 5B paragraph and the 3A answer ("Mostly
+  adequate", changed from "Mostly adequate, but a few categories are missing"
+  after dropping the missing-categories proposal P7).
+- Before submitting: open the webform in a browser and check that the questions
+  and options still match those of 29 July 2026; fill in the institutional
+  e-mail in the respondent table.
+
