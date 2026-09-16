@@ -212,3 +212,48 @@ required action.
 - Review the Czech translation of the new P5 passage and the reworked 1B.3
   sentence.
 
+## 2026-09-16 — Author's audit of the fixes; Czech wording in P5 corrected
+
+### What the audit confirmed
+
+All three findings fixed and verified independently; commit `695e52c` on
+GitHub, `main` still at `b2eba51`, clean tree, both language versions 234
+lines, no residue of the removed strings. The author confirmed the drafted
+majority-vote wording in `docs/zadani.md` matches the prepared version
+(two of three; items with no majority go to human adjudication) — no change
+needed. The author endorsed two additions he had not asked for: the
+cross-reference from 1B.3 to P5, and "invisible in every disclosure scheme I
+know of" instead of an uncited empirical claim about inflated quality.
+The submission is final from the author's side.
+
+### What was changed
+
+- Czech wording in the new P5 block, per the author's list: "substancičně" →
+  "podstatně"; "specialistické agenty" → "specializované agenty";
+  "supervizního agentu" → "supervizního agenta" (genitive);
+  "reportován" → "uveden" (2x, table row P5 and the run-selection bullet);
+  "samostatné politické rozhodnutí" → "samostatné koncepční rozhodnutí"
+  (sounds like party politics otherwise).
+
+### Instruction for pasting into the webform (from the author)
+
+The document has two internal meta passages that are dead links outside the
+repository: the "About this version" note (links to the full version) and the
+footer "Sources for process facts are listed in README.md". When pasting,
+skip both; only the answers to questions 1-6 and the respondent table go
+into the form.
+
+### Open items for the author
+
+- Institutional e-mail in the respondent table.
+- Open the webform in a browser well before the deadline (structure verified
+  as of 29 July 2026 may have shifted); deadline 16 October 2026, target
+  10 October 2026.
+- Step 4 (verified literature review) can start before submission; it is the
+  longest and riskiest part of the project and does not depend on the
+  submission.
+- Step 3 (repository rebuild) only after submission and the author's
+  approval; the author will audit that `archive/rpc-v0.1` holds the entire
+  original state and that nothing was lost from `main` except deletions
+  recoverable from history.
+
