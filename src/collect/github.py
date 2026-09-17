@@ -62,6 +62,41 @@ def prose_from_markdown(body: str) -> str:
     return normalise_ws(" ".join(parts))
 
 
+def ends_sentence(text: str) -> bool:
+    return bool(text) and text[-1] in ".!?)]\"'"
+
+
+def extract_from_markdown(body: str, phrase: str) -> str:
+    """The formulation is the markdown line the trigger sits in.
+
+    A README line is the semantic unit of the source: what sits on earlier
+    lines is credits, navigation or installation steps, and it regularly
+    identifies individuals, which the corpus must never contain. If the
+    sentence runs over a line break, the next line is appended until the
+    sentence closes. Falls back to the paragraph window when the phrase
+    itself spans a line break.
+    """
+    low_phrase = phrase.lower()
+    lines = body.splitlines()
+    for i, line in enumerate(lines):
+        if low_phrase not in line.lower():
+            continue
+        text = normalise_ws(line)
+        j = i
+        while not ends_sentence(text) and j + 1 < len(lines) and j - i < 3:
+            nxt = normalise_ws(lines[j + 1])
+            if not nxt or nxt.startswith("#"):
+                break
+            text += " " + nxt
+            j += 1
+        return strip_markdown(text)
+    fallback = window_around(prose_from_markdown(body), phrase)
+    if fallback:
+        fallback = trim_to_trigger_sentence(fallback, phrase)
+        return strip_markdown(fallback)
+    return ""
+
+
 def trim_to_trigger_sentence(text: str, phrase: str) -> str:
     """Keep only the sentence that holds the trigger.
 
@@ -181,13 +216,9 @@ def collect_code(per_phrase: int = 4) -> list[Item]:
             time.sleep(0.4)
             if not body:
                 continue
-            text = window_around(prose_from_markdown(body), phrase)
+            text = extract_from_markdown(body, phrase)
             if not text:
                 continue
-            text = trim_to_trigger_sentence(text, phrase)
-            if not text:
-                continue
-            text = strip_markdown(text)
             text, was_redacted = redact_emails(text)
             note = f"file: {path}; found via phrase: {phrase}"
             if was_redacted:
