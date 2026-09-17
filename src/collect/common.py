@@ -95,6 +95,9 @@ SECTION_BREAKS = (
     "supplementary information",
     "supplementary data",
     "supplementary material",
+    "funding statement",
+    "disclaimer",
+    "authorship contribution statement",
     "correction",
     "erratum",
 )
@@ -200,10 +203,18 @@ def fetch(url: str, retries: int = 3, pause: float = 1.0) -> str:
 
 
 def strip_tags(xml: str) -> str:
+    """Tag-free text with paragraph breaks kept as newlines.
+
+    A paragraph break carries real information: a disclosure lives inside one
+    paragraph, and the extraction window must not run across the break into
+    the next section's prose.
+    """
     text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", xml, flags=re.S | re.I)
+    text = re.sub(r"</p\s*>", "\n", text)
     text = re.sub(r"<[^>]+>", " ", text)
     text = html.unescape(text)
-    return normalise_ws(text)
+    lines = [re.sub(r"[^\S\n]+", " ", ln).strip() for ln in text.split("\n")]
+    return "\n".join(ln for ln in lines if ln)
 
 
 def sentence_start(text: str, idx: int, max_back: int = 600) -> int:
@@ -215,6 +226,8 @@ def sentence_start(text: str, idx: int, max_back: int = 600) -> int:
     """
     lo = max(0, idx - max_back)
     for i in range(idx - 2, lo - 1, -1):
+        if text[i] == "\n":
+            return i + 1
         if text[i] in ".!?":
             if i + 1 < len(text) and text[i + 1] == " ":
                 return i + 2
@@ -241,6 +254,9 @@ def window_around(text: str, needle: str, before: int = 600, after: int = 900) -
         return ""
 
     end_cap = min(len(text), idx + after)
+    para_end = text.find("\n", idx)
+    if para_end != -1:
+        end_cap = min(end_cap, para_end)
     second = low_text.find(low_needle, idx + len(low_needle))
     if second != -1:
         end_cap = min(end_cap, second)
@@ -251,13 +267,15 @@ def window_around(text: str, needle: str, before: int = 600, after: int = 900) -
             end_cap = min(end_cap, idx + pos)
 
     end = end_cap
-    tail = max(
-        text.rfind(". ", idx, end_cap),
-        text.rfind("! ", idx, end_cap),
-        text.rfind("? ", idx, end_cap),
-    )
-    if tail != -1 and tail > idx + 40:
-        end = tail + 1
+    last = text[end - 1] if end > 0 else ""
+    if last not in ".!?)\"'":
+        tail = max(
+            text.rfind(". ", idx, end_cap),
+            text.rfind("! ", idx, end_cap),
+            text.rfind("? ", idx, end_cap),
+        )
+        if tail != -1 and tail >= idx + len(low_needle):
+            end = tail + 1
     return normalise_ws(text[start:end])
 
 
