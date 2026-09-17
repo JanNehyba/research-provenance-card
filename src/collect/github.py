@@ -89,7 +89,10 @@ def extract_from_markdown(body: str, phrase: str) -> str:
                 break
             text += " " + nxt
             j += 1
-        return strip_markdown(text)
+        windowed = window_around(text, phrase)
+        if windowed:
+            windowed = trim_to_trigger_sentence(windowed, phrase)
+            return strip_markdown(windowed) if windowed else ""
     fallback = window_around(prose_from_markdown(body), phrase)
     if fallback:
         fallback = trim_to_trigger_sentence(fallback, phrase)
@@ -130,7 +133,8 @@ def cut_at_bullet(text: str, phrase: str) -> str:
 def strip_markdown(text: str) -> str:
     """Drop markdown decoration; formatting is not part of the wording."""
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
-    text = re.sub(r"\*\*?([^*]+)\*\*?", r"\1", text)
+    text = re.sub(r"\*\*(.+?)\*\*", r"\1", text)
+    text = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"\1", text)
     return text.lstrip("*-#>`|~ .").rstrip("*-#>`|~ ")
 
 

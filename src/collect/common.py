@@ -72,7 +72,8 @@ TEMPLATE_FAMILIES: dict[str, tuple[str, ...]] = {
 
 # Where a disclosure ends. The forward cut of the extraction window stops at
 # any of these section headings instead of at a character count, so an item
-# cannot drag the next section in with it.
+# cannot drag the next section in with it. Both apostrophe spellings are
+# listed because full texts use the typographic one.
 SECTION_BREAKS = (
     "footnotes",
     "references",
@@ -80,15 +81,22 @@ SECTION_BREAKS = (
     "acknowledgment",
     "data availability",
     "author contribution",
+    "authors' contribution",
+    "authors’ contribution",
     "competing interest",
     "conflict of interest",
     "abbreviations",
     "backmatter",
     "publisher's note",
+    "publisher’s note",
     "additional information",
     "consent for publication",
     "ethics approval",
     "supplementary information",
+    "supplementary data",
+    "supplementary material",
+    "correction",
+    "erratum",
 )
 
 EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
