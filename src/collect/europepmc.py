@@ -41,6 +41,12 @@ def search_pmcids(phrase: str, limit: int) -> list[dict]:
     url = f"{SEARCH}?query={query}&format=json&pageSize={limit}&resultType=lite"
     raw = fetch(url)
     if not raw:
+        # a refused search looks like an empty result set otherwise, which
+        # silently drops the whole phrase from the harvest
+        print(f"[europepmc] search refused for {phrase!r}, waiting 60 s and retrying")
+        time.sleep(60)
+        raw = fetch(url)
+    if not raw:
         return []
     try:
         results = json.loads(raw)["resultList"]["result"]
