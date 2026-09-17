@@ -34,12 +34,13 @@ Uvádím to tady ve formátu řádku, který sám v podnětu navrhuji. Podnět, 
 
 | Činnost | Aktér | Co bylo zkontrolováno a kým | Stopa | Co zkontrolovat nešlo |
 |---|---|---|---|---|
-| Psaní a přepisování všech oddílů | Claude (Anthropic), Opus 5, září 2026; dřívější verze jiné modely | Přečetl jsem to a zkontroloval na úrovni argumentů a rozhodnutí. Za každým doporučením stojím. | Veřejná historie commitů v repozitáři níže | Jestli modely neovlivnily znění argumentů, se kterými jsem souhlasil, způsobem, kterého jsem si nevšiml |
-| Hledání a ověřování literatury | Totéž | Každý zdroj otevřen v originále a u každého je zaznamenáno, jak byl ověřen. | `docs/reserse.md` v témže repozitáři, veřejné | Tři zdroje byly ověřeny jen z abstraktu, ne z plného textu |
+| Psaní a přepisování všech oddílů | Claude (Anthropic), Opus 5, září 2026; dřívější verze jiné modely | Přečetl jsem to a zkontroloval na úrovni argumentů a rozhodnutí. Za každým doporučením stojím. | Veřejná historie commitů: <https://github.com/JanNehyba/research-provenance-card/commits/vancouver/round2-trimmed> | Jestli modely neovlivnily znění argumentů, se kterými jsem souhlasil, způsobem, kterého jsem si nevšiml |
+| Hledání a ověřování literatury | Totéž | Každý zdroj otevřen v originále a u každého je zaznamenáno, jak byl ověřen. | Záznam o ověření zdrojů, veřejný: <https://github.com/JanNehyba/research-provenance-card/blob/vancouver/round2-kit/docs/reserse.md> | Tři zdroje byly ověřeny jen z abstraktu, ne z plného textu |
 | Utváření argumentu | Já, s modelem v roli kritika, který měl za úkol napadat mé zarámování | Nezávisle nezkontrolováno | **Žádná. Ta výměna po sobě nenechala trvalý záznam.** | Jak velká část zarámování z té výměny vzešla. Nedokážu to zpětně zrekonstruovat. |
 | Rozhodování, co zahrnout a co vyškrtnout | Já | Nezávisle nezkontrolováno | Tatáž historie commitů | Nic. Byla to moje rozhodnutí a stojím si za nimi. |
 
 Repozitář: <https://github.com/JanNehyba/research-provenance-card>
+(Popsaná práce je na větvích `vancouver/round2-trimmed` a `vancouver/round2-kit`, ne na výchozí větvi.)
 
 Za každé tvrzení v tomto podnětu ručím.
 

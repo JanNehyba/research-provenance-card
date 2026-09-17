@@ -30,12 +30,13 @@ I am reporting this in the row format this submission asks the standard to adopt
 
 | Task | Actor | What was checked, and by whom | Trace | What could not be checked |
 |---|---|---|---|---|
-| Drafting and rewriting every section | Claude (Anthropic), Opus 5, September 2026; earlier drafts by other models | Read by me, and reviewed at the level of arguments and decisions. Every recommendation is one I hold. | Public git history of the repository below | Whether the models shaped the wording of arguments I agreed with, in ways I did not notice |
-| Literature search and checking | Same | Each source opened in the original, and the verification status of each is recorded. | `docs/reserse.md` in the same repository, public | Three sources were checked from the abstract only, not the full text |
+| Drafting and rewriting every section | Claude (Anthropic), Opus 5, September 2026; earlier drafts by other models | Read by me, and reviewed at the level of arguments and decisions. Every recommendation is one I hold. | Public commit history: <https://github.com/JanNehyba/research-provenance-card/commits/vancouver/round2-trimmed> | Whether the models shaped the wording of arguments I agreed with, in ways I did not notice |
+| Literature search and checking | Same | Each source opened in the original, and the verification status of each is recorded. | Verification log, public: <https://github.com/JanNehyba/research-provenance-card/blob/vancouver/round2-kit/docs/reserse.md> | Three sources were checked from the abstract only, not the full text |
 | Shaping the argument | Me, using a model as a critic instructed to attack my framing | Not independently checked | **None. The exchange left no durable record.** | How much of the framing came from that exchange. I cannot reconstruct it. |
-| Deciding what to include and what to cut | Me | Not independently checked | The same git history | Nothing. These were my decisions and I stand behind them. |
+| Deciding what to include and what to cut | Me | Not independently checked | The same commit history | Nothing. These were my decisions and I stand behind them. |
 
 Repository: <https://github.com/JanNehyba/research-provenance-card>
+(The work described here sits on the `vancouver/round2-trimmed` and `vancouver/round2-kit` branches, not on the default branch.)
 
 I hold responsibility for every claim in this submission.
 
