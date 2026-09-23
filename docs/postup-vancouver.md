@@ -101,3 +101,41 @@ a new subsection of section 0.
 - Open the webform and check the questions against the 29 July 2026 state.
 - Two meta passages, the header note and the repository link, are for the
   repository. Skip them when pasting into the form.
+
+## 2026-09-23 - e-mail filled in, concreteness rubric added
+
+- Contact field set to nehyba@ped.muni.cz in both versions.
+- Added the author's working rubric to 5C: a four-level concreteness scale
+  (0 nothing, 1 general word, 2 specific fact, 3 checkable fact) applied to
+  each of the five slots, with the example table.
+
+Three points carried over from the author's draft, each of which strengthens an
+argument the submission already makes:
+
+1. Accountability is a value, not a level. The claim and its specificity are two
+   fields, not one.
+2. The strongest-sounding phrase says the least. "The authors take full
+   responsibility" is level 1. This is 5B's argument with a scale attached.
+3. More is not always better, citing Prajod et al. (2026). Level 3 in an
+   ordinary email is probably noise, and which level fits probably depends on
+   the genre.
+
+The block states plainly that the axes came top-down, that a corpus coded
+against them would return what was put into them, and that the pilot will code
+inductively and compare afterwards. It is offered as a draft to disagree with,
+not as a finding. The per-genre minimum table from the author's draft was left
+out: it reads as a result and it is not one.
+
+### Verification
+
+- **Citation corrected.** The author's draft cited arXiv 2502.18357 as the "IBM
+  AI Attribution Toolkit". It is not. It is He, J., Houde, S., & Weisz, J. D.
+  (2025), *Which Contributions Deserve Credit? Perceptions of Attribution in
+  Human-AI Co-Creation*, CHI 2025: a survey of 155 participants finding that
+  people grade attribution by contribution type, size and initiative, and that
+  AI receives less credit than a human for the same contribution. The authors
+  are at IBM Research, which is probably where the name came from. Abstract
+  verified from the arXiv record. The corrected citation is what went into the
+  submission, and the author's own PDF still carries the wrong one.
+- Prajod et al. (2026) was already verified. Mean sentence length after the
+  addition is 13.8 words, median 12, so the plain-English target holds.

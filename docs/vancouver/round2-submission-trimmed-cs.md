@@ -22,7 +22,7 @@ Uzávěrka: **16. října 2026** · Formulář: <https://council.science/AIdiscl
 | Za koho | osobní stanovisko fyzické osoby |
 | Obor | pedagogický výzkum, sociální vědy, kvalitativní metody |
 | Země | Česko |
-| Kontakt | *[institucionální e-mail, doplnit před odesláním]* |
+| Kontakt | nehyba@ped.muni.cz |
 
 **Odkud to vychází.** Jsem kvalitativní výzkumník. Zkoumám, jak lidé uvozují, podepisují a označují texty psané s AI, a jak se to liší podle žánru: vědecké články, e-maily a zprávy, výukové a interní materiály, softwarové projekty, závěrečné práce a sociální sítě. Ten výzkum se ptá, co přiznání doopravdy říká, ne co by podle standardu říkat mělo. Nic z toho, co následuje, na jeho zjištěních nestojí. Zatím žádná nemá.
 
@@ -248,6 +248,26 @@ Standard psaný pro vědecké články nepokryje e-maily, výukové materiály a
 | 3. Co bylo zkontrolováno a kým | Uzavřený seznam: *nezkontrolováno* · *autor přečetl* · *namátkově, uveďte jakou část* · *celé znovu spočítáno* · *ověřeno proti primárním zdrojům* · *zkontrolováno jmenovanou třetí stranou* · *nezávisle zopakováno* | Tohle je osa, která z přiznání dělá odpovědnost |
 | 4. Stopa | Jaký záznam existuje (prompt, log, kód, výstup), jeho identifikátor a otisk, a stav přístupu: *veřejné · v embargu · na vyžádání · omezené · neuchováno*, s důvodem vždy, když není veřejný | Prompty a logy často publikovat nelze, kvůli osobním údajům, licencovanému textu nebo materiálu třetích stran. I nepublikovatelný záznam se dá odkázat otiskem, což umožní odhalit pozdější výměnu. |
 | 5. Co zkontrolovat nešlo | Krátký volný text, **povinný** | Nejinformativnější pole celého záznamu, a první, které vypadne, když bude volitelné |
+
+**Jak konkrétní má být každý slot? Pracovní návrh.** Těch pět slotů říká, co zaznamenat. Neříkají, jak konkrétní ten záznam má být, a to je samostatná otázka. Načrtl jsem k tomu čtyřstupňovou škálu, která platí pro každý slot: **0 nic neuvedeno, 1 obecné slovo, 2 konkrétní údaj, 3 údaj, který jde ověřit.**
+
+| Slot | 1 obecně | 2 konkrétně | 3 doloženě |
+|---|---|---|---|
+| Aktér | „AI" | „Claude" | „Claude Opus 5, září 2026" |
+| Co AI dělala | „s pomocí AI" | „AI napsala první verzi" | „AI napsala kapitolu 2, konverzace je v příloze" |
+| Co jsem udělal já | „zkontroloval jsem to" | „ověřil jsem čísla" | „čísla jsem ověřil proti zdroji, citace prošla kolegyně" |
+| Ručení | „přebírám plnou odpovědnost" | „za fakta ručím" | „ručím za závěry, odhad v kapitole 3 je nejistý" |
+| Co čekám od čtenáře | „prosím o kontrolu" | „zkontroluj čísla v tabulce 2" | „zkontroluj čísla do pátku, pak to jde vedení" |
+
+Tři věci, které se tím zviditelní, a pro standard jsou podstatné.
+
+**Ručení je hodnota, ne úroveň.** „Ručím za to" a „neručím za to" jsou různá tvrzení a obojí se dá říct obecně i konkrétně. Záznam má zachytit to tvrzení a jeho konkrétnost jako dvě samostatná pole, ne jako jedno.
+
+**Nejsilněji znějící formulka říká nejméně.** „Autoři přebírají plnou odpovědnost" je úroveň 1. Konkrétní omezené tvrzení, třeba „za fakta ručím, formulace jsou od modelu", je poctivější i informativnější. Je to tentýž argument jako v 5B, teď s přiloženou škálou.
+
+**Víc není vždy lépe.** Prajod a kol. (2026) zjistili, že podrobné přiznání snižovalo důvěru a zároveň zvyšovalo ověřování zdrojů, a že jednořádkové nedělalo ani jedno. Úroveň 3 v běžném e-mailu je pravděpodobně šum. Která úroveň je přiměřená, podle všeho závisí na žánru a na tom, co s textem čtenář udělá. To je hypotéza a právě ji má můj pilot testovat.
+
+**Co to není.** Osy vznikly shora, z úvahy a z literatury, ne z dat. Korpus kódovaný podle nich by vracel hlavně to, co jsem do nich sám vložil, takže pilot bude kódovat induktivně a tento návrh se s výsledkem porovná, nebude se na data vnucovat. Uvádím to tady proto, že na otázku „jak konkrétní má záznam být" tenhle standard odpovědět musí, a protože je snazší nesouhlasit s návrhem než s prázdným místem. Příbuzná empirie: He, Houde a Weisz (2025), *Which Contributions Deserve Credit?*, CHI 2025, arXiv 2502.18357, zjistili, že lidé přisuzují zásluhu podle typu přínosu, jeho rozsahu a toho, kdo měl iniciativu.
 
 **P6: ponechat aspoň jedno pole, které stroj nevyplní.** Kritéria konzultace žádají záznamy, které jsou strojově čitelné a strojově generovatelné. Obojí je užitečné. Dohromady to ale nese riziko, které stojí za pojmenování.
 

@@ -18,7 +18,7 @@ Deadline: **16 October 2026** · Webform: <https://council.science/AIdisclosure>
 | Capacity | Personal perspectives of a natural person |
 | Discipline | Educational research, social sciences, qualitative methods |
 | Country | Czechia |
-| Contact | *[institutional e-mail: fill in before submitting]* |
+| Contact | nehyba@ped.muni.cz |
 
 **Where this comes from.** I am a qualitative researcher. I am currently studying how people introduce, sign and label texts written with AI, and how this differs by genre: research articles, emails and messages, teaching and internal materials, software projects, theses, and social media. That study asks what a real disclosure actually says, not what a standard says it should say. Nothing below rests on findings from it. It has no results yet.
 
@@ -244,6 +244,26 @@ A five-slot row per disclosed use takes minutes to fill and can be compared.
 | 3. What was checked, and by whom | Closed list: *not checked* · *read through by the author* · *sampled, say what fraction* · *fully re-run or recomputed* · *cross-checked against primary sources* · *checked by a named third party* · *independently reproduced* | This is the axis that turns a disclosure into accountability |
 | 4. Trace | What record exists (prompt, log, code, output), its identifier and hash, and its access status: *public · embargoed · on request · restricted · not retained*, with a reason whenever it is not public | Prompts and logs often cannot be published, because of personal data, licensed text or third-party material. An unpublishable record can still be referenced by its hash, which makes a later swap detectable. |
 | 5. What could not be checked | Short free text, **required** | The most informative field in the record, and the first one that will be dropped if it is optional |
+
+**How concrete is each slot? A working draft.** The five slots say what to record. They do not say how specific a record has to be, and that turns out to be a separate question. I have been sketching a four-level scale that applies to every slot: **0 nothing stated, 1 a general word, 2 a specific fact, 3 a fact someone else can check.**
+
+| Slot | 1 general | 2 specific | 3 checkable |
+|---|---|---|---|
+| Actor | "AI" | "Claude" | "Claude Opus 5, September 2026" |
+| What the AI did | "with AI help" | "the AI wrote the first draft" | "the AI wrote section 2, the conversation is in the appendix" |
+| What I did | "I checked it" | "I checked the numbers" | "I checked the numbers against the source, a colleague checked the citations" |
+| Accountability | "I take full responsibility" | "I stand behind the facts" | "I stand behind the conclusions; the estimate in section 3 is uncertain" |
+| What I expect of the reader | "please check it" | "please check the numbers in table 2" | "check the numbers by Friday, then it goes to the board" |
+
+Three things this makes visible, and they matter for the standard.
+
+**Accountability is a value, not a level.** "I stand behind this" and "I do not stand behind this" are different claims, and either can be said generally or specifically. A record should capture the claim and its specificity as two separate fields, not one.
+
+**The strongest-sounding phrase says the least.** "The authors take full responsibility" is level 1. A specific, limited claim, such as "I stand behind the facts, the wording is the model's", is both more honest and more informative. This is the same point as in 5B, now with a scale attached to it.
+
+**More is not always better.** Prajod et al. (2026) found that a detailed disclosure lowered trust while raising source-checking, and that a one-line disclosure did neither. Level 3 in an ordinary email is probably noise. Which level is appropriate looks like it depends on the genre, and on what the reader is going to do with the text. That is a hypothesis, and it is what my pilot is meant to test.
+
+**What this is not.** The axes came top-down, from reading and reflection, not from data. A corpus coded against them would mostly return what I put into them, so the pilot will code inductively and this draft will be compared with whatever the data produces, not imposed on it. I am including it here because the question "how specific must a record be" is one this standard has to answer, and because it is easier to disagree with a draft than with a gap. Related empirical work: He, Houde and Weisz (2025), *Which Contributions Deserve Credit?*, CHI 2025, arXiv 2502.18357, found that people already grade attribution by the type of contribution, its size, and who took the initiative.
 
 **P6: keep at least one field a machine cannot fill.** The consultation criteria ask for records that are machine-readable and machine-generatable. Both are useful. Together they carry a risk worth naming.
 
