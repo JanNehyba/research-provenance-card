@@ -340,7 +340,8 @@ Zatím žádná zjištění nejsou a do 3. kola žádná nenabízím. Tyhle náv
 ## Uvedení autorství a kontakt
 
 - **Volitelné uvedení autorství:** *Jan Nehyba, odborný asistent, Pedagogická fakulta, Masarykova univerzita (Česko)*, souhlasím s uvedením u volných odpovědí.
-- **Kontakt po odeslání:** ▶ Ne, nekontaktujte mě ohledně mých odpovědí · ▶ Ne, nezvěte mě do 3. kola · ▶ Ne, další informace nepotřebuji
+- **Kontakt po odeslání:** ▶ Ano, informujte mě o konečném výsledku (jen tohle). Ne k dotazům na mé odpovědi a ne jako pozvání do 3. kola.
+- **E-mail uvedený k tomuto účelu:** nehyba@ped.muni.cz
 - **Jak jsem se o kole dozvěděl:** ▶ Jinak → *„Sleduji Focus Track veřejně (web ISC); zkoumám, jak lidé formulují přiznání AI napříč žánry."*
 - **Vztah k systémům AI:** ▶ Profesionální, intenzivní uživatel AI
 - **Role a fáze kariéry:** ▶ Aktivní výzkumník (s PhD nebo ekvivalentem) · ▶ Výzkumník se stálou smlouvou

@@ -336,7 +336,8 @@ There are no findings yet, and I am not offering any for Round 3. These proposal
 ## Attribution and contact preferences
 
 - **Optional attribution:** *Jan Nehyba, Assistant Professor, Faculty of Education, Masaryk University (Czechia)*, willing for open-text comments to be attributed.
-- **Contact after submission:** ▶ No, do not contact me about my answers · ▶ No, do not invite me for the 3rd Consultation Round · ▶ No, no further updates needed
+- **Contact after submission:** ▶ Yes, please keep me updated on the final result (this one only). Not for questions about my answers, and not an invitation to the 3rd Consultation Round.
+- **E-mail given for that purpose:** nehyba@ped.muni.cz
 - **How I found out about this round:** ▶ Other → *"Following the Focus Track publicly (ISC website); researching how people word AI disclosures across genres."*
 - **Relationship with AI systems:** ▶ Professional-heavy AI user
 - **Role/career stage:** ▶ Active researcher (with PhD or equivalent) · ▶ Researcher with a permanent contract
