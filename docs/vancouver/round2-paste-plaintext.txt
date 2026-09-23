@@ -1,0 +1,247 @@
+PASTE-READY PLAIN TEXT
+Round 2 consultation webform, free-text fields only.
+
+The webform's text boxes are plain text. Markdown tables collapse into
+unreadable runs there, so every table has been rewritten as labelled lines.
+Wording is otherwise identical to round2-submission-trimmed-en.md.
+
+Copy between the ===== markers. Do not copy the markers themselves.
+Tick-box and grid answers are not here; they are in the main file.
+
+
+===== RESPONDENT BACKGROUND / HOW THIS SUBMISSION WAS PRODUCED =====
+
+Where this comes from. I am a qualitative researcher. I am currently studying
+how people introduce, sign and label texts written with AI, and how this
+differs by genre: research articles, emails and messages, teaching and internal
+materials, software projects, theses, and social media. That study asks what a
+real disclosure actually says, not what a standard says it should say. Nothing
+below rests on findings from it. It has no results yet.
+
+HOW THIS SUBMISSION WAS PRODUCED
+
+This text was written by AI. Not "with some AI assistance" in the usual sense of
+that phrase. Large language models drafted every section of it, over several
+working sessions, and the wording is theirs throughout. I set the direction,
+decided what went in and what came out, and I am accountable for all of it.
+
+I am reporting this in the row format this submission asks the standard to
+adopt. A submission that argues for disclosure and hides its own production
+would not be worth reading. It also demonstrates the blind spot described in
+1B(3): the third entry below is a real use that no text-based disclosure rule
+would ever catch.
+
+(1) DRAFTING AND REWRITING EVERY SECTION
+    Actor: Claude (Anthropic), Opus 5, September 2026; earlier drafts by other
+      models.
+    Checked, and by whom: read by me, and reviewed at the level of arguments
+      and decisions. Every recommendation is one I hold.
+    Trace: public commit history,
+      https://github.com/JanNehyba/research-provenance-card/commits/vancouver/round2-trimmed
+    Could not be checked: whether the models shaped the wording of arguments I
+      agreed with, in ways I did not notice.
+
+(2) LITERATURE SEARCH AND CHECKING
+    Actor: same.
+    Checked, and by whom: each source opened in the original, and the
+      verification status of each is recorded.
+    Trace: verification log, public,
+      https://github.com/JanNehyba/research-provenance-card/blob/vancouver/round2-kit/docs/reserse.md
+    Could not be checked: three sources were checked from the abstract only,
+      not the full text.
+
+(3) SHAPING THE ARGUMENT
+    Actor: me, using a model as a critic instructed to attack my framing.
+    Checked, and by whom: not independently checked.
+    Trace: NONE. The exchange left no durable record.
+    Could not be checked: how much of the framing came from that exchange. I
+      cannot reconstruct it.
+
+(4) DECIDING WHAT TO INCLUDE AND WHAT TO CUT
+    Actor: me.
+    Checked, and by whom: not independently checked.
+    Trace: the same commit history.
+    Could not be checked: nothing. These were my decisions and I stand behind
+      them.
+
+Repository: https://github.com/JanNehyba/research-provenance-card
+The work described here sits on the vancouver/round2-trimmed and
+vancouver/round2-kit branches, not on the default branch.
+
+I hold responsibility for every claim in this submission.
+
+===== END =====
+
+
+===== 5C =====
+
+Structured, not narrative, but with a slot for narrative. The example statements
+in the preparatory reading show the problem. The generic example, "the authors
+reviewed and edited all AI-generated content", cannot be proved false. The
+rigorous and descriptive examples are good, but you cannot compare them across
+articles, screen them at scale, or check them for internal consistency.
+
+A five-slot row per disclosed use takes minutes to fill and can be compared.
+
+SLOT 1, TASK
+  Record: the category ID from the taxonomy.
+  Why: so that rows can be compared.
+
+SLOT 2, ACTOR
+  Record: which AI system, meaning provider, model family, version or snapshot,
+    and interface. Or which human.
+  Why: "we used an LLM" does not describe a tool. A dated version does.
+
+SLOT 3, WHAT WAS CHECKED, AND BY WHOM
+  Record: one value from a closed list: not checked / read through by the author
+    / sampled, saying what fraction / fully re-run or recomputed / cross-checked
+    against primary sources / checked by a named third party / independently
+    reproduced.
+  Why: this is the axis that turns a disclosure into accountability.
+
+SLOT 4, TRACE
+  Record: what record exists, meaning prompt, log, code or output, plus its
+    identifier and hash, and its access status: public / embargoed / on request
+    / restricted / not retained, with a reason whenever it is not public.
+  Why: prompts and logs often cannot be published, because of personal data,
+    licensed text or third-party material. An unpublishable record can still be
+    referenced by its hash, which makes a later swap detectable.
+
+SLOT 5, WHAT COULD NOT BE CHECKED
+  Record: short free text. Required.
+  Why: the most informative field in the record, and the first one that will be
+    dropped if it is optional.
+
+HOW CONCRETE IS EACH SLOT? A WORKING DRAFT.
+
+The five slots say what to record. They do not say how specific a record has to
+be, and that turns out to be a separate question. I have been sketching a
+four-level scale that applies to every slot: level 0, nothing stated; level 1, a
+general word; level 2, a specific fact; level 3, a fact someone else can check.
+
+ACTOR
+  1 general:   "AI"
+  2 specific:  "Claude"
+  3 checkable: "Claude Opus 5, September 2026"
+
+WHAT THE AI DID
+  1 general:   "with AI help"
+  2 specific:  "the AI wrote the first draft"
+  3 checkable: "the AI wrote section 2, the conversation is in the appendix"
+
+WHAT I DID
+  1 general:   "I checked it"
+  2 specific:  "I checked the numbers"
+  3 checkable: "I checked the numbers against the source, a colleague checked
+               the citations"
+
+ACCOUNTABILITY
+  1 general:   "I take full responsibility"
+  2 specific:  "I stand behind the facts"
+  3 checkable: "I stand behind the conclusions; the estimate in section 3 is
+               uncertain"
+
+WHAT I EXPECT OF THE READER
+  1 general:   "please check it"
+  2 specific:  "please check the numbers in table 2"
+  3 checkable: "check the numbers by Friday, then it goes to the board"
+
+Three things this makes visible, and they matter for the standard.
+
+Accountability is a value, not a level. "I stand behind this" and "I do not
+stand behind this" are different claims, and either can be said generally or
+specifically. A record should capture the claim and its specificity as two
+separate fields, not one.
+
+The strongest-sounding phrase says the least. "The authors take full
+responsibility" is level 1. A specific, limited claim, such as "I stand behind
+the facts, the wording is the model's", is both more honest and more
+informative. This is the same point as in 5B, now with a scale attached to it.
+
+More is not always better. Prajod et al. (2026) found that a detailed disclosure
+lowered trust while raising source-checking, and that a one-line disclosure did
+neither. Level 3 in an ordinary email is probably noise. Which level is
+appropriate looks like it depends on the genre, and on what the reader is going
+to do with the text. That is a hypothesis, and it is what my pilot is meant to
+test.
+
+What this is not. The axes came top-down, from reading and reflection, not from
+data. A corpus coded against them would mostly return what I put into them, so
+the pilot will code inductively and this draft will be compared with whatever
+the data produces, not imposed on it. I am including it here because the
+question "how specific must a record be" is one this standard has to answer, and
+because it is easier to disagree with a draft than with a gap. Related empirical
+work: He, Houde and Weisz (2025), Which Contributions Deserve Credit?, CHI 2025,
+arXiv 2502.18357, found that people already grade attribution by the type of
+contribution, its size, and who took the initiative.
+
+P6: KEEP AT LEAST ONE FIELD A MACHINE CANNOT FILL.
+
+The consultation criteria ask for records that are machine-readable and
+machine-generatable. Both are useful. Together they carry a risk worth naming.
+
+The more structured a record is, the more easily an agent produces it. If an
+agent can write the whole disclosure, and another agent can check it, then a
+complete, well-formed, entirely empty record becomes the cheapest thing in the
+pipeline. It looks finished, it asserts nothing, and it moves the work of
+discovering that to the reader.
+
+The protection already exists in the design above. It should be stated as a
+principle rather than left to chance: every record must contain at least one
+required field that cannot be completed honestly unless a human did something.
+In this proposal there are two. Slot 5 is required free text about what was not
+checked. And the named guarantor is a person with an identifier who can be
+asked.
+
+The same logic runs through the list in slot 3. A machine can write "not
+checked", or "read through by the author", without anyone reading anything. It
+cannot write "checked by a named third party" or "independently reproduced"
+without naming someone or producing something. The upper rungs resist
+automation. The lower ones do not, and that is fine, because the value of the
+lower rungs is that they are honest.
+
+THE CLOSED LIST IN SLOT 3 IS A LADDER, AND THE FOCUS TRACK HAS ALREADY DRAWN IT.
+
+Session 4.B proposed attestation, review, audit, replication. Two different axes
+are hiding inside it. Perkins's ladder grades how strong the checking act was. A
+second axis grades what a third party can still verify. Both are needed, because
+"I inspected the output", with no surviving record, is just a claim.
+
+ATTESTATION, "I take responsibility"
+  Asserts: responsibility.
+  A third party can verify: the claim itself, visibly unverified.
+
+REVIEW, "I inspected the output"
+  Asserts: a self-check.
+  A third party can verify: nothing, unless the review left a lasting record.
+
+AUDIT, "I checked process and evidence"
+  Asserts: a process check.
+  A third party can verify: a record, if the author ran it; or a named third
+    party's check, with a stated scope.
+
+REPLICATION, "I reproduced or cross-checked"
+  Asserts: re-execution.
+  A third party can verify: the reproduction.
+
+One consequence is worth putting in the standard in so many words. Having a log
+does not by itself make a claim about the work any stronger. A log can be
+incomplete, or about something else. A trace shows that something was recorded.
+Only a named external checker, or a re-run, shows that the claim was examined.
+
+===== END =====
+
+
+===== NOTE ON THE FIRST ROW OF 5E =====
+
+Paste this at the start of 5F if 5E has no comment box of its own.
+
+A note on the first row. I rate risk narratives lower than the other five on
+purpose, and this is the only rating where I expect disagreement. Generic prose
+about risk is the easiest part of any disclosure to produce and the hardest to
+check. Within one publication cycle it will settle into boilerplate. The other
+five items are all statements someone can be confronted with. Keep the risk
+field, make it optional, and prompt it with the specific risks. Just do not let
+it become the field authors fill in instead of the ones that can be checked.
+
+===== END =====
