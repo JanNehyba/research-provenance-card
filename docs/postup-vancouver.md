@@ -139,3 +139,22 @@ out: it reads as a result and it is not one.
   submission, and the author's own PDF still carries the wrong one.
 - Prajod et al. (2026) was already verified. Mean sentence length after the
   addition is 13.8 words, median 12, so the plain-English target holds.
+
+## 2026-09-23 - the live form differs from the July structure
+
+Walking the webform with the author revealed that question 1 has changed since
+the 29 July 2026 check. A new **1C** asks where the respondent sits on a
+spectrum from "all AI use should be disclosed" to "never". The agreement
+statements that were 1C in this document are now **1D**.
+
+Added a 1C answer ("In between, about as much as the threshold says") and
+renumbered. The reasoning: the refinements in 1A do not move the line up or
+down, they change what falls on each side of it.
+
+Also confirmed from the form's own footer: the initiative was proposed by
+**Kari D. Weaver** and **Bert Seghers**. Weaver is the author of the AID
+Framework, which `docs/reserse.md` cites. She is not merely on the core team,
+she is one of the two people who proposed the whole track.
+
+Wording of the 1D statements differs slightly from the July version but not in
+substance, so the recorded answers stand.

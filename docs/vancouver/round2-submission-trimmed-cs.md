@@ -106,7 +106,13 @@ Navržené znění: **překlad vlastního obsahu autora, se zachovaným význame
 
    Označuji to za případ, kde je současná praxe nejsystematičtěji slepá, a důvod je prostý. Přínos AI je ve výstupu neviditelný.
 
-### 1C. Souhlas s tvrzeními
+### 1C. Kde bych se umístil na tom spektru
+
+▶ **Uprostřed, přibližně tolik, kolik říká navržený práh.**
+
+Práh je nastavený blízko správně. Má upřesnění v 1A tu čáru neposouvají nahoru ani dolů, mění to, co leží na které straně. Překlad vlastního obsahu autora má být pod ní. Řízení modelu, které přetváří návrh práce a v textu po sobě nenechá nic, má být nad ní, a dnes to žádná kategorie nevystihuje.
+
+### 1D. Souhlas s tvrzeními
 
 | Tvrzení | Odpověď |
 |---|---|

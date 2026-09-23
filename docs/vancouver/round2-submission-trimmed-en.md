@@ -102,7 +102,13 @@ Proposed wording: **translating the author's own content, with the meaning prese
 
    I flag this as the case where current practice is most systematically blind, and the reason is simple. The AI's contribution is invisible in the output.
 
-### 1C. Agreement with statements
+### 1C. Where I would put myself on the spectrum
+
+▶ **In between, about as much as the above threshold says.**
+
+The threshold is close to right. My refinements in 1A do not move the line up or down overall; they change what sits on each side of it. Translating the author's own content should fall below it. Directing a model that reshapes the design of the work, while leaving nothing in the text, should fall above it, and today no category expresses that.
+
+### 1D. Agreement with statements
 
 | Statement | Answer |
 |---|---|
