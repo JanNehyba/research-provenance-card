@@ -149,7 +149,9 @@ The objection about stigma deserves a direct answer. Yes, a separate statement s
 
 ### 3A. Is the proposed 18-category taxonomy adequate?
 
-▶ **Mostly adequate.**
+▶ **Mostly adequate, but a few categories are missing.**
+
+The three that are missing are in P5 below. Two category titles also need changing, which 3B covers, but the missing categories are the more important point.
 
 ### 3B. Views on the taxonomy
 

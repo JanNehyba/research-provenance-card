@@ -153,7 +153,9 @@ Námitka o stigmatu si zaslouží přímou odpověď. Ano, samostatné prohláš
 
 ### 3A. Je navržená taxonomie s 18 kategoriemi přiměřená?
 
-▶ **Většinou přiměřená.**
+▶ **Většinou přiměřená, ale několik kategorií chybí.**
+
+Ty tři chybějící jsou v P5 níže. Dvě kategorie potřebují i změnu názvu, což pokrývá 3B, ale chybějící kategorie jsou důležitější.
 
 ### 3B. Stanovisko k taxonomii
 
