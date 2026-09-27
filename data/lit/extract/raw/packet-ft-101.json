@@ -22,31 +22,31 @@
               "value_list_verbatim": ["4", "3", "2", "1"],
               "closed_or_open": "closed_list",
               "locator": "4.3 The modified course rubric",
-              "quote": "Provenance – per-artifact attribution of AI versus human contribution – a pedagogical analogue to C2PA (2025) Content Credentials adapted for studio assessment"
+              "quote": "per-artifact attribution of AI versus human contribution – a pedagogical analogue to C2PA"
             },
             {
               "dimension_label_verbatim": "Curation",
-              "definition_quote": "evidence of editing, rejecting, recombining AI outputs rather than accepting them passively",
+              "definition_quote": "rejecting, recombining AI outputs rather than accepting them passively",
               "value_list_verbatim": ["4", "3", "2", "1"],
               "closed_or_open": "closed_list",
               "locator": "4.3 The modified course rubric",
-              "quote": "Curation – evidence of editing, rejecting, recombining AI outputs rather than accepting them passively"
+              "quote": "Curation – evidence of editing,"
             },
             {
               "dimension_label_verbatim": "Reasoning with prompts",
-              "definition_quote": "treatment of prompt and context-file authoring as a design activity in itself",
+              "definition_quote": "treatment of prompt and context-file authoring as a design",
               "value_list_verbatim": ["4", "3", "2", "1"],
               "closed_or_open": "closed_list",
               "locator": "4.3 The modified course rubric",
-              "quote": "Reasoning with prompts – treatment of prompt and context-file authoring as a design activity in itself"
+              "quote": "Reasoning with prompts – treatment of prompt and context-file authoring as a design"
             },
             {
               "dimension_label_verbatim": "Disclosure",
-              "definition_quote": "Disclosure operated in this cohort as a precondition for class submission rather than as a graded sub-criterion",
+              "definition_quote": "Disclosure operated in this cohort as a precondition for class submission rather than",
               "value_list_verbatim": ["tool", "version", "date", "task"],
               "closed_or_open": "closed_list",
               "locator": "4.3 The modified course rubric",
-              "quote": "Specific-tool / version / date / task disclosure was the default mode of all submissions"
+              "quote": "Specific-tool / version / date / task disclosure was the default"
             }
           ]
         }

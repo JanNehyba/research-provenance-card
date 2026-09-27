@@ -77,7 +77,7 @@
           "dimensions": [
             {
               "dimension_label_verbatim": "identity, provenance, and logging",
-              "definition_quote": "meaningful autonomous actions should be linked to persistent deployment identities and recorded in auditable logs",
+              "definition_quote": "meaningful autonomous actions should be linked to persistent deployment",
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Governability-by-Design Would Require",
@@ -85,7 +85,7 @@
             },
             {
               "dimension_label_verbatim": "bounded autonomy and policy steerability",
-              "definition_quote": "Agentic systems operating in public-facing digital contexts should not have unconstrained capacity to replicate themselves",
+              "definition_quote": "Agentic systems operating in public-facing digital contexts should not have",
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Governability-by-Design Would Require",
@@ -97,7 +97,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Governability-by-Design Would Require",
-              "quote": "A third requirement is oversight and interruptibility"
+              "quote": "A third requirement is oversight and"
             },
             {
               "dimension_label_verbatim": "ecosystem-facing interoperability",
@@ -105,7 +105,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Governability-by-Design Would Require",
-              "quote": "A fourth requirement is ecosystem-facing interoperability"
+              "quote": "A fourth requirement is ecosystem-facing"
             },
             {
               "dimension_label_verbatim": "operational metrics of governability",

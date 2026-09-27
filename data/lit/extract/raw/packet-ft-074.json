@@ -126,7 +126,7 @@
               "value_list_verbatim": ["No consequence stated.", "Maintainer may request remediation/ignore.", "Submission rejected/closed.", "Future participation restricted/ban/suspension."],
               "closed_or_open": "closed_list",
               "locator": "Table I",
-              "quote": "Enforcement (consequences for violation)."
+              "quote": "Enforcement (consequences for violation)"
             }
           ]
         }

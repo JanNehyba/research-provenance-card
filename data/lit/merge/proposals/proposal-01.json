@@ -1,0 +1,385 @@
+{
+  "batch_id": "01",
+  "labels_in": 150,
+  "labels_out": 150,
+  "dimensions": [
+    {
+      "canonical_id": "disclosure-presence",
+      "canonical_label": "Disclosure presence",
+      "gloss": "Whether a disclosure of AI use or authorship involvement was actually made for a given case (yes/no/not stated), as an outcome rather than a policy requirement.",
+      "variants": ["not stated", "disclosure"],
+      "note": "\"not stated\" carries an example quote that does not obviously match it (figure-type classification); it is grouped here as the closest fit to a completion-state value, but this is a close call."
+    },
+    {
+      "canonical_id": "transparency-virtue",
+      "canonical_label": "Transparency as a principle",
+      "gloss": "Transparency invoked as a general normative virtue underlying responsible disclosure, not a specific named reporting field.",
+      "variants": ["transparency"],
+      "note": "Kept separate from any \"transparency\" used as a named checklist field, per the rule that the vague-virtue sense and the named-field sense are different axes; only the virtue sense occurred in this batch."
+    },
+    {
+      "canonical_id": "authorship-approval-and-accountability",
+      "canonical_label": "Approval and accountability for the work",
+      "gloss": "Who signs off on the final version and remains answerable for the work as a whole, whether framed as an ICMJE-style authorship criterion, a general responsibility principle, or a regulatory remedy requirement.",
+      "variants": ["accountability", "final approval", "human accountability", "responsibility", "accountability/remedy requirements", "add a responsibility statement."],
+      "note": "Merges narrow authorship-criteria language (\"final approval\", \"accountability\") with broader responsibility/remedy language from non-authorship schemes; treated as the same axis (who answers for the work) but this spans different scheme families."
+    },
+    {
+      "canonical_id": "task-or-stage-of-use",
+      "canonical_label": "Task or stage of AI/contributor involvement",
+      "gloss": "Which task, activity, or stage of the work (writing, analysis, literature review, coding, drafting, administrative work, etc.) AI or a contributor was involved in.",
+      "variants": ["data analysis", "conceptualization", "literature review", "methodology", "writing", "supervision", "stage of use", "activities", "activity categories", "activity classes", "10-category taxonomy", "administrative tasks", "ai"],
+      "note": "\"activity classes\" comes from a software-provenance ontology rather than a manuscript checklist, and bare \"ai\" is a weak, generic label included because its example values are themselves task names; both are close calls."
+    },
+    {
+      "canonical_id": "purpose-of-ai-use",
+      "canonical_label": "Purpose of AI use",
+      "gloss": "The stated reason or goal for which AI was used, reported as a field distinct from which task-stage it was used in.",
+      "variants": ["purpose", "purpose of ai use", "purpose of use"],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-placement",
+      "canonical_label": "Placement of the disclosure",
+      "gloss": "Where in the output or venue the disclosure statement must or does appear: a specific manuscript section (title, abstract, methods...) or a publication channel (public vs. cover letter).",
+      "variants": ["title", "abstract", "introduction", "methods", "results", "discussion", "disclosure location", "abstract/summary", "1a,b (i)", "1a,b (ii)"],
+      "note": "Merges \"which manuscript section\" placement with \"public vs. private channel\" placement as the same underlying location axis; treated as one axis but this is a close call."
+    },
+    {
+      "canonical_id": "contribution-role-taxonomy",
+      "canonical_label": "Type of contribution or role",
+      "gloss": "What type of substantive contribution or role (author, writer, editor, a CRediT category, an ICMJE substantial-contribution criterion) a party performed.",
+      "variants": ["contributor roles", "roles", "credit roles", "14 contributor roles", "acknowledgment contribution role", "conception or design of the work", "acquisition, analysis or interpretation of the data for the work", "a (disclosure and role clarity)"],
+      "note": "\"a (disclosure and role clarity)\" is a governance-checkpoint label folded in as a close call because its substance is about clarifying who did what."
+    },
+    {
+      "canonical_id": "provenance-and-traceability",
+      "canonical_label": "Provenance and traceability",
+      "gloss": "Whether the chain of origin of content or a claim can be traced back to its source, ranging from no traceability to full, independently verifiable logs.",
+      "variants": ["provenance", "traceability", "a: attributable trace", "ai isnād layer"],
+      "note": ""
+    },
+    {
+      "canonical_id": "reproducibility",
+      "canonical_label": "Reproducibility materials",
+      "gloss": "Whether the materials needed to reproduce the AI-assisted work (prompts, parameters, input/output data, code) are disclosed or archived.",
+      "variants": ["reproducibility", "ai prompts disclosure/prompt sharing"],
+      "note": "Prompt-sharing folded in as a close call, since prompts are one specific kind of reproducibility material named separately by some schemes."
+    },
+    {
+      "canonical_id": "attribution-credit-assignment",
+      "canonical_label": "Attribution/credit assignment mechanics",
+      "gloss": "The mechanics of how credit is assigned among contributors (author selection, order, listings, acknowledgements), as distinct from what task a contributor performed.",
+      "variants": ["attribution"],
+      "note": ""
+    },
+    {
+      "canonical_id": "consent",
+      "canonical_label": "Consent/authorization",
+      "gloss": "Whose consent or authorization was obtained, and how, for the use of a person's data, likeness, or contribution.",
+      "variants": ["consent", "adaptive consent design"],
+      "note": ""
+    },
+    {
+      "canonical_id": "content-dimension-of-contribution",
+      "canonical_label": "Content dimension of a contribution",
+      "gloss": "The substantive-content dimension of a contribution, named as one of two independent dimensions (content vs. form) by its source framework.",
+      "variants": ["content"],
+      "note": "The example values (source files, docs, commit messages) sit oddly with the content/form quote; kept as its own singleton rather than merged with \"form\", since the source explicitly frames them as two separate dimensions."
+    },
+    {
+      "canonical_id": "form-dimension-of-contribution",
+      "canonical_label": "Form dimension of a contribution",
+      "gloss": "The stylistic/formal dimension of how AI involvement is marked (e.g., source references, visual indicators such as logos or watermarks), named as distinct from substantive \"content\".",
+      "variants": ["form"],
+      "note": "Example values look closer to a disclosure-format axis than to a content/form contrast, but kept separate from \"content\" per the source's explicit two-dimensions framing."
+    },
+    {
+      "canonical_id": "fairness-and-equity",
+      "canonical_label": "Fairness and equity of AI access",
+      "gloss": "Whether the disclosure or policy addresses equitable access to AI and fair treatment across users, as distinct from technical accessibility of data or code.",
+      "variants": ["equity", "accessibility", "address bias and fairness"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ethics-general",
+      "canonical_label": "General ethics consideration",
+      "gloss": "A general, catch-all field for ethical considerations of AI use, named alongside but not specific to privacy, consent, or bias.",
+      "variants": ["ethics", "address ethical considerations"],
+      "note": ""
+    },
+    {
+      "canonical_id": "human-verification-extent",
+      "canonical_label": "Extent of human verification/review",
+      "gloss": "How much human review, checking, or verification was applied to AI output, ranging from none to full independent validation.",
+      "variants": ["evaluation", "human oversight", "human verification", "verification", "accept, modify, or reject decision", "5 (iv)"],
+      "note": "\"5 (iv)\" (human-AI interaction and expertise in data handling) is folded in as a close call, since it concerns the nature of interaction as much as the extent of review."
+    },
+    {
+      "canonical_id": "extent-of-ai-involvement",
+      "canonical_label": "Extent of AI involvement",
+      "gloss": "How much of the output AI produced or how deeply it was involved, usually expressed as an ordered scale, tier, or dichotomy.",
+      "variants": ["level", "tier", "ai involvement", "ai output scope", "ai depth", "ai levels of contributions", "granularity", "'assisted' and 'unassisted' dichotomy", "a responsible reliance spectrum", "a three-category typology"],
+      "note": "\"a three-category typology\" (novel production / error-correcting reconstruction / format conversion) and \"a responsible reliance spectrum\" (risk-framed) characterize AI's role by type or risk rather than pure quantity; included as close calls."
+    },
+    {
+      "canonical_id": "limitations-and-caveats",
+      "canonical_label": "Limitations of AI use",
+      "gloss": "Disclosure of the limitations or caveats associated with using AI in the work.",
+      "variants": ["limitations", "acknowledge limitations"],
+      "note": ""
+    },
+    {
+      "canonical_id": "privacy-and-data-protection",
+      "canonical_label": "Privacy/data protection",
+      "gloss": "Whether privacy or data-protection considerations of AI use are disclosed.",
+      "variants": ["privacy", "data privacy"],
+      "note": ""
+    },
+    {
+      "canonical_id": "timing-of-ai-use-in-workflow",
+      "canonical_label": "Timing of AI use in the workflow",
+      "gloss": "When, relative to the human's own independent effort, AI was used (before, during, or after).",
+      "variants": ["timing", "ai entry timing"],
+      "note": ""
+    },
+    {
+      "canonical_id": "academic-integrity",
+      "canonical_label": "Academic integrity",
+      "gloss": "Whether AI use is framed as an academic-integrity/honesty concern, named as its own component distinct from AI-literacy or accountability.",
+      "variants": ["academic integrity"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-in-peer-review",
+      "canonical_label": "AI in peer review",
+      "gloss": "Whether and how AI may be used by reviewers within the peer-review process itself.",
+      "variants": ["ai in peer review"],
+      "note": ""
+    },
+    {
+      "canonical_id": "autonomy",
+      "canonical_label": "Autonomy",
+      "gloss": "The degree of self-determination or independent agency preserved for the human party affected by AI use.",
+      "variants": ["autonomy"],
+      "note": ""
+    },
+    {
+      "canonical_id": "boundaries-of-ai-use",
+      "canonical_label": "Boundaries of AI use",
+      "gloss": "The declared limits on what AI was allowed to do, reported as a field distinct from stage-of-use and purpose.",
+      "variants": ["boundaries"],
+      "note": ""
+    },
+    {
+      "canonical_id": "permission-policy-by-output-type",
+      "canonical_label": "Permission by output type",
+      "gloss": "Whether AI-generated or AI-assisted content of a given output type (code/data, images/figures) is permitted, permitted with conditions, or prohibited.",
+      "variants": ["code and data", "images/figures"],
+      "note": ""
+    },
+    {
+      "canonical_id": "data-and-code-accessibility",
+      "canonical_label": "Accessibility of data/code",
+      "gloss": "Whether and how the underlying data, code, or metadata can be found and accessed, including retrieval protocol, authentication, access conditions, and access dates.",
+      "variants": ["data availability", "25", "access conditions", "access control", "access date", "access mode", "a1. retrievable by identifier", "a1.1 free, open, universal retrieval protocol", "a1.2: authentication and authorization", "a2: metadata persistence"],
+      "note": "The four FAIR-style \"A1/A1.1/A1.2/A2\" accessibility sub-items are folded into this broader axis as a specific accessibility sub-scheme."
+    },
+    {
+      "canonical_id": "disclosure-requirement-policy",
+      "canonical_label": "Disclosure requirement policy",
+      "gloss": "Whether a venue's policy mandates, encourages, or leaves optional the disclosure of AI use, and whether supporting infrastructure (templates, guideline sections) exists.",
+      "variants": ["disclosure requirement", "ai declaration template provided", "ai disclosure", "ai disclosure obligations", "ai policy inclusion"],
+      "note": ""
+    },
+    {
+      "canonical_id": "marking-of-ai-generated-content",
+      "canonical_label": "Marking of AI-generated content",
+      "gloss": "Whether AI-generated or synthetic content is clearly marked and distinguished from human-produced or real-world content.",
+      "variants": ["documentation"],
+      "note": ""
+    },
+    {
+      "canonical_id": "checklist-category-inventory",
+      "canonical_label": "Checklist's own category inventory",
+      "gloss": "A meta-label naming a scheme's own top-level set of categories, domains, or items, rather than a single comparable disclosure axis in itself.",
+      "variants": ["domains", "items", "32 items across six key categories", "open science"],
+      "note": "Residual/structural grouping: each of these four labels points to a different checklist's internal list of categories rather than a shared axis; grouping them together is itself a close call."
+    },
+    {
+      "canonical_id": "gift-authorship",
+      "canonical_label": "Gift authorship",
+      "gloss": "Whether a named author received credit without having contributed substantially to the work.",
+      "variants": ["gift authorship"],
+      "note": ""
+    },
+    {
+      "canonical_id": "tool-identity-metadata",
+      "canonical_label": "AI tool identity/metadata",
+      "gloss": "The identity of the AI tool or system used, including its name, version, type (generative vs. assistive), and any changes made to it during the study.",
+      "variants": ["metadata", "tool identification", "tools", "additional information", "ai model used", "5 (i)", "modifications"],
+      "note": "\"tools\" (a generative-vs-assistive functional classification) is a somewhat looser fit than the pure identity/version fields; included as a close call."
+    },
+    {
+      "canonical_id": "source-independence-or-coi",
+      "canonical_label": "Source independence / conflict of interest",
+      "gloss": "The degree of independence from funding or industry influence of a cited source.",
+      "variants": ["independence"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-system-deployment-context",
+      "canonical_label": "AI system's deployment context",
+      "gloss": "The intended application, setting, and integration of an AI system within a real-world workflow, such as a clinical pathway.",
+      "variants": ["implementation", "intended use", "2a (i)", "4b"],
+      "note": ""
+    },
+    {
+      "canonical_id": "trust-relationships-in-verification",
+      "canonical_label": "Trust relationships in verification",
+      "gloss": "Which parties (e.g., model providers, detection-tool providers) a verifier is required to trust when using content-transparency mechanisms.",
+      "variants": ["trust"],
+      "note": ""
+    },
+    {
+      "canonical_id": "performance-error-analysis",
+      "canonical_label": "Performance error analysis",
+      "gloss": "Reporting of any analysis of the AI system's performance errors and how those errors were identified.",
+      "variants": ["19"],
+      "note": ""
+    },
+    {
+      "canonical_id": "monitoring-feedback-temporality",
+      "canonical_label": "Monitoring/feedback temporality",
+      "gloss": "Whether an AI system's feedback or monitoring is delivered on-demand or continuously in real time.",
+      "variants": ["2. monitoring temporality"],
+      "note": ""
+    },
+    {
+      "canonical_id": "interpretation-framing-mode",
+      "canonical_label": "Interpretation framing mode",
+      "gloss": "Whether an AI system's messages are framed reflectively, as inquiry, or suggestively, as a directive.",
+      "variants": ["3. interpretation framing"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-stance-confidence",
+      "canonical_label": "AI stance and displayed confidence",
+      "gloss": "The confidence and role an AI system displays toward the user, from humble/uncertain to authoritative/objective.",
+      "variants": ["4. ai stance"],
+      "note": ""
+    },
+    {
+      "canonical_id": "eligibility-criteria-disclosure",
+      "canonical_label": "Eligibility criteria disclosure",
+      "gloss": "The inclusion/exclusion criteria applied, at the level of participants or of input data, to an AI intervention's evaluation.",
+      "variants": ["4a (i)", "4a (ii)"],
+      "note": ""
+    },
+    {
+      "canonical_id": "input-data-description",
+      "canonical_label": "Input data description",
+      "gloss": "How input data for the AI intervention were acquired and selected, and how poor-quality or unavailable input data were handled.",
+      "variants": ["5 (ii)", "5 (iii)"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-output-role-in-decision-making",
+      "canonical_label": "AI output and its role in decisions",
+      "gloss": "What the AI intervention's output is and how it contributed to downstream decision-making or clinical practice.",
+      "variants": ["5 (v)", "5 (vi)"],
+      "note": ""
+    },
+    {
+      "canonical_id": "contestability-of-ai-output",
+      "canonical_label": "Contestability of AI output",
+      "gloss": "Whether an AI system's interpretations are fixed as fact or can be reflected on, revised, or rejected by the user.",
+      "variants": ["5. contestability"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-system-information-disclosure-to-users",
+      "canonical_label": "AI system's information disclosure to users",
+      "gloss": "How much sensor-based or contextual information an AI system surfaces to its end-users, from implicit context only to explicit raw signals.",
+      "variants": ["1. data disclosure"],
+      "note": ""
+    },
+    {
+      "canonical_id": "factual-accuracy",
+      "canonical_label": "Factual accuracy",
+      "gloss": "The factual correctness of content and its alignment with the underlying data.",
+      "variants": ["accuracy"],
+      "note": ""
+    },
+    {
+      "canonical_id": "workflow-action-log",
+      "canonical_label": "Workflow action taken",
+      "gloss": "The specific, measurable action taken within an AI-assisted workflow, such as an acknowledgment, override, or escalation.",
+      "variants": ["action"],
+      "note": ""
+    },
+    {
+      "canonical_id": "policy-adaptability-over-time",
+      "canonical_label": "Policy adaptability over time",
+      "gloss": "Whether a venue's AI guidelines are stated to be subject to future update or revision.",
+      "variants": ["adaptability of policies"],
+      "note": ""
+    },
+    {
+      "canonical_id": "agent-type-classification",
+      "canonical_label": "Agent type classification",
+      "gloss": "Whether the acting party in a given step is classified as human, AI, or tool, and which type of agent is being substituted or compared.",
+      "variants": ["agent classes", "agent of replacement"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-authorship-eligibility",
+      "canonical_label": "AI authorship eligibility",
+      "gloss": "Whether an AI system can be credited or listed as an author or co-author of the work.",
+      "variants": ["ai applications cannot be listed as authors.", "ai as author", "ai as author and co-author", "ai authorship", "ai authorship policy"],
+      "note": ""
+    },
+    {
+      "canonical_id": "conceptual-framing-of-ai-role",
+      "canonical_label": "Conceptual framing of AI's role",
+      "gloss": "How AI's fundamental nature or role is conceived (e.g., a bounded supportive tool, a contamination risk, socio-technical infrastructure), as distinct from how much it was used.",
+      "variants": ["ai as supportive but bounded tool", "ai ontology"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-competence-assessment",
+      "canonical_label": "AI competence assessment",
+      "gloss": "Whether a quality-assessment framework includes a dimension for assessing competence in using AI.",
+      "variants": ["ai competence dimension"],
+      "note": ""
+    },
+    {
+      "canonical_id": "detection-tooling",
+      "canonical_label": "AI detection tooling",
+      "gloss": "Whether a venue uses automated detection tools to screen submissions for undisclosed AI-generated content.",
+      "variants": ["ai detection tools"],
+      "note": ""
+    },
+    {
+      "canonical_id": "governance-enforcement-infrastructure",
+      "canonical_label": "Governance enforcement infrastructure",
+      "gloss": "The technical infrastructure (compliance platforms, AI gateways, runtime layers) used to enforce AI governance rules.",
+      "variants": ["ai gateway / runtime layers"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-limitation-literacy",
+      "canonical_label": "AI-limitation literacy",
+      "gloss": "Whether a framework names literacy about AI's limitations as its own distinct competency, separate from academic-integrity norms.",
+      "variants": ["ai limitation literacy"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-use-permission-policy",
+      "canonical_label": "AI use permission stance",
+      "gloss": "A venue's overall stance toward AI use itself (welcomed, permitted, discouraged), as distinct from whether disclosure of that use is required.",
+      "variants": ["ai policy"],
+      "note": ""
+    }
+  ]
+}

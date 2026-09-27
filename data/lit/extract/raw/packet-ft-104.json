@@ -42,19 +42,19 @@
             },
             {
               "dimension_label_verbatim": "AI Usage Patterns",
-              "definition_quote": "the classification of AI use according to usage patterns, as defined by the Classification system for AI use.",
+              "definition_quote": "the classification of AI use according to usage patterns, as defined by the Classification system for AI use",
               "value_list_verbatim": ["Decisionmaking and administrativeaction", "Analytics for insights", "Workplace productivity", "Image processing", "No AI use"],
               "closed_or_open": "closed_list",
               "locator": "Appendix B AITS Content Composition Taxonomy",
-              "quote": "the classification of AI use according to usage patterns, as defined by the Classification system for AI use."
+              "quote": "the classification of AI use according to usage patterns, as defined by the Classification system for AI use"
             },
             {
               "dimension_label_verbatim": "AI Usage Domains",
-              "definition_quote": "the classification of AI use according to usage domains, as defined by the Classification system for AI use.",
+              "definition_quote": "the classification of AI use according to usage domains, as defined by the Classification system for AI use",
               "value_list_verbatim": ["Service deliver", "Compliance and fraud detection", "Law enforcement, intelligence and security", "Policy and legal", "Scientific", "Corporate and enabling", "No AI use"],
               "closed_or_open": "closed_list",
               "locator": "Appendix B AITS Content Composition Taxonomy",
-              "quote": "the classification of AI use according to usage domains, as defined by the Classification system for AI use."
+              "quote": "the classification of AI use according to usage domains, as defined by the Classification system for AI use"
             },
             {
               "dimension_label_verbatim": "Impact to the Public",

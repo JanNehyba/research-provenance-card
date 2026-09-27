@@ -107,7 +107,7 @@
           "dimensions": [
             {
               "dimension_label_verbatim": "three dimensions of the attribution of responsibility",
-              "definition_quote": "three dimensions of the attribution of responsibility, the causal, moral, and legal dimension, enabling us to systematically locate responsibility diffusions.",
+              "definition_quote": "These dimensions, drawn from the three fundamental \nchanges in decision-making described above as impacts of \nAI-CDSS, are the causal, the moral, and the legal.",
               "value_list_verbatim": [
                 "causal",
                 "moral",
@@ -132,7 +132,7 @@
           "dimensions": [
             {
               "dimension_label_verbatim": "three factors",
-              "definition_quote": "we further propose an emphasis on three factors when approaching decision-making and the attribution of responsibility in light of diffusions",
+              "definition_quote": "With regard to these three aspects, we \nfurther propose an emphasis on three factors",
               "value_list_verbatim": [
                 "controllability options",
                 "participation",
@@ -140,7 +140,7 @@
               ],
               "closed_or_open": "closed_list",
               "locator": "Figure 2",
-              "quote": "these factors are controllability options, participation, and fault management"
+              "quote": "responsibility diffusions: first by creating opportunities \nfor control, second by striving for a participatory approach, \nand third by enabling reliable fault management"
             }
           ]
         }

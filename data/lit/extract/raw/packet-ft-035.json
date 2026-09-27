@@ -110,7 +110,7 @@
               "value_list_verbatim": ["GenAI task", "developer task"],
               "closed_or_open": "closed_list",
               "locator": "III-A Method",
-              "quote": "we split the task-related codes into two sub-categories: GenAI task and developer task."
+              "quote": "we split the task-related codes into two sub-categories: GenAI task and developer task"
             }
           ]
         }

@@ -1,0 +1,32 @@
+{
+  "note": "A stopword ratio, not a language identifier. It is here because extraction turned up Portuguese, Dutch and Turkish records, which the protocol excludes, so the screeners did not apply the language rule reliably. Each record below needs a decision that the report states; the method is crude and its own false positives are part of what has to be reported.",
+  "allowed": [
+    "en",
+    "cs"
+  ],
+  "records_checked": 392,
+  "flagged": [
+    {
+      "rec_id": "8380ed550746080f",
+      "guessed": "nl",
+      "scores": {
+        "nl": 0.07166,
+        "en": 0.06042,
+        "fr": 0.00609,
+        "de": 0.00187
+      },
+      "rows": 7
+    },
+    {
+      "rec_id": "df5413b4348f741a",
+      "guessed": "pt",
+      "scores": {
+        "pt": 0.05048,
+        "es": 0.04167,
+        "fr": 0.01683,
+        "cs": 0.01362
+      },
+      "rows": 1
+    }
+  ]
+}

@@ -166,7 +166,7 @@
               "value_list_verbatim": ["participating in the design, coordination, analysis, or data collection of the study"],
               "closed_or_open": "closed_list",
               "locator": "Application of influencemapper",
-              "quote": "extracted relationships into 12 possible pre-specified study-entity relationship categories and 28 possible pre-specified author-entity relationship categories"
+              "quote": "extracted relationships into 12 possible pre-specified study-entity relationship categories and 28 possible"
             },
             {
               "dimension_label_verbatim": "author-entity relationship",
@@ -174,7 +174,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "closed_list",
               "locator": "Application of influencemapper",
-              "quote": "extracted relationships into 12 possible pre-specified study-entity relationship categories and 28 possible pre-specified author-entity relationship categories"
+              "quote": "extracted relationships into 12 possible pre-specified study-entity relationship categories and 28 possible"
             },
             {
               "dimension_label_verbatim": "Relationships to industry entities",

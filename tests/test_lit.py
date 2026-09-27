@@ -22,8 +22,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.lit.extract import (canon, _check_quote, candidate_windows, WINDOW_TERMS,
-                             MAX_WINDOWS, MAX_WINDOW_BUDGET)
+from src.lit.extract import (canon, dehyphenate, _check_quote, candidate_windows,
+                             WINDOW_TERMS, MAX_WINDOWS, MAX_WINDOW_BUDGET)
 from src.lit.reliability import cohens_kappa, fleiss_kappa, interpret
 from src.lit.sources import normalise_doi, normalise_title, _clean
 
@@ -88,6 +88,32 @@ def test_a_plausible_invention_is_rejected():
 def test_an_empty_quote_is_rejected():
     ok, mode = _check_quote("", *_prepared(SOURCE))
     assert not ok and mode == "empty"
+
+
+def test_a_line_break_hyphen_does_not_void_a_real_quote():
+    """The commonest real cause of a voided row: PDF splits a word across lines.
+
+    13 of the 25 rows voided in the first full run failed only because the
+    source read "cate- gories" where the quote read "categories".
+    """
+    source = "The scheme records the CRediT cate-\ngories used by each author."
+    canonical = canon(source)
+    ok, mode = _check_quote("the CRediT categories used by each author",
+                            canonical, canonical.lower())
+    assert ok and mode == "dehyphenated"
+
+
+def test_dehyphenation_does_not_rescue_a_paraphrase():
+    """The looser mode stays a mode, not a licence."""
+    source = canon("The scheme records the CRediT cate-\ngories used by each author.")
+    ok, _ = _check_quote("the scheme captures each author's role categories",
+                         source, source.lower())
+    assert not ok
+
+
+def test_dehyphenate_only_removes_a_hyphen_before_whitespace():
+    assert dehyphenate("cate- gories") == "categories"
+    assert dehyphenate("AI-assisted writing") == "AI-assisted writing"
 
 
 def test_canon_folds_ligatures_and_drops_soft_hyphens():

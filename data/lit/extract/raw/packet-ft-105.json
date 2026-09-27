@@ -1,0 +1,64 @@
+{
+  "packet_id": "ft-105",
+  "papers": [
+    {
+      "rec_id": "ffd91109dad64fb8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "citation-file-format-schema-keys",
+          "scheme_name_verbatim": "Citation File Format",
+          "source_ref": "doi:10.32614/cran.package.cffr",
+          "domain": "software",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "cff_schema_keys",
+              "definition_quote": "cff_schema_keys() provides the valid high-level keys of the Citation File Format.",
+              "value_list_verbatim": ["cff-version", "message", "type", "license", "title", "version", "doi", "identifiers", "abstract", "authors", "preferred-citation", "repository", "repository-artifact", "repository-code", "commit", "url", "date-released", "contact", "keywords", "references", "license-url"],
+              "closed_or_open": "closed_list",
+              "locator": "Inspect CFF schema values",
+              "quote": "cff_schema_keys() provides the valid high-level keys of the Citation File Format."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "7a755d082e0dead2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "the Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.1002/leap.2048",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "CRediT roles",
+              "definition_quote": "the Contributor Roles Taxonomy (CRediT) offers 14 standard roles to classify scholarly contributions to research outputs",
+              "value_list_verbatim": ["Conceptualization", "Data curation", "Formal analysis", "Funding acquisition", "Investigation", "Methodology", "Project administration", "Resources", "Software", "Supervision", "Validation", "Visualisation", "Writing – original draft", "Writing – review and editing"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE 1",
+              "quote": "the Contributor Roles Taxonomy (CRediT) offers 14 standard roles to classify scholarly contributions to research outputs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "cfb61352357840db",
+      "has_scheme": false,
+      "reason": "proposes a design taxonomy for AI-mediated interpersonal communication systems (dimensions like time, space, agency, initiator, shareability, embodiment); these classify HCI system design choices, not a disclosure, attribution, or provenance claim about produced content"
+    }
+  ]
+}

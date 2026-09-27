@@ -286,6 +286,23 @@ def _read_source_text(rec_id: str) -> str:
         return fh.read()
 
 
+def dehyphenate(text: str) -> str:
+    """Remove a hyphen left by a line break, on both sides of the comparison.
+
+    PDF extraction turns "categories" split across two lines into "cate-
+    gories", which `canon` then collapses to "cate- gories". A quote copied with
+    the word whole cannot match it, and that was the single most common reason
+    rows were voided in the first full run: 13 of 25, all of them genuine quotes
+    defeated by typesetting.
+
+    Applied to the source text and the quote alike, so it can only ever match
+    strings that differ by a line-break hyphen. It is tried last and recorded as
+    its own match mode, because it is a looser comparison than the other two and
+    the report should be able to say how many rows needed it.
+    """
+    return re.sub(r"-\s+", "", text)
+
+
 def _check_quote(quote: str, canon_text: str, lower_text: str) -> tuple[bool, str]:
     if not quote:
         return False, "empty"
@@ -294,6 +311,8 @@ def _check_quote(quote: str, canon_text: str, lower_text: str) -> tuple[bool, st
         return True, "exact"
     if needle.lower() in lower_text:
         return True, "caseless"
+    if dehyphenate(needle.lower()) in dehyphenate(lower_text):
+        return True, "dehyphenated"
     return False, "not_found"
 
 

@@ -18,7 +18,7 @@
           "dimensions": [
             {
               "dimension_label_verbatim": "Theme: Incident Type",
-              "definition_quote": "The type of incident refers to the specific issue identified within an incident. In some cases, multiple issues may contribute to a single incident.",
+              "definition_quote": "The type of incident refers to the specific issue identified within an incident.",
               "value_list_verbatim": ["Secondary data use for AI training", "Problematic database used for AI training", "Secondary data use for AI functions", "AI false, unexpected, disappointing behavior", "Deliberate bypassing of AI safeguards", "AI data breach", "Unauthorized sale of AI user data", "Non-consensual imagery, impersonation, fake content", "Problematic AI implementation", "Use of unlawful/problematic AI tools", "Deanonymization, stalking, harassment", "Public entity amplify misleading AI content", "Unclear user agreements and policy statements"],
               "closed_or_open": "closed_list",
               "locator": "Table F5",

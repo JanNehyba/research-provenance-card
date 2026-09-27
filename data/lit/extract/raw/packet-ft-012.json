@@ -112,7 +112,7 @@
           "dimensions": [
             {
               "dimension_label_verbatim": "CLAIM items",
-              "definition_quote": "the CLAIM featured a 42-item checklist to help authors and reviewers achieve clear, comprehensive, and reproducible reporting in AI studies",
+              "definition_quote": "CLAIM featured a 42-item checklist to help authors and reviewers achieve clear,",
               "value_list_verbatim": ["de-identification methods (item#12)", "missing data handling (item#13)", "sample size determination (item#19)", "statistical significance and uncertainty (item#29)", "explainability methods (item#31)", "participant flow (item#33)", "demographic data (item#34)", "diagnostic accuracy estimates (item#36)", "failure analysis (item#37)", "registration details (item#40)", "protocol access (item#41)"],
               "closed_or_open": "closed_list",
               "locator": "449",

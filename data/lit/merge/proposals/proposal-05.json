@@ -1,0 +1,717 @@
+{
+  "batch_id": "05",
+  "labels_in": 150,
+  "labels_out": 150,
+  "dimensions": [
+    {
+      "canonical_id": "extent-of-ai-involvement",
+      "canonical_label": "Extent of AI involvement",
+      "gloss": "How much of the output the machine produced relative to the human, usually as an ordered scale or graded category running from none/human-written to fully AI-generated.",
+      "variants": [
+        "generation",
+        "graded typology of AI involvement",
+        "graduated thresholds",
+        "how AI involvement was operationalised",
+        "investment",
+        "K-12 AIAS\nFrameworkLevel",
+        "Level 1 - No AI",
+        "Level of AI Assistance",
+        "level of AI involvement",
+        "level of AI support",
+        "level of AI use permitted",
+        "level of human involvement",
+        "level of the scale",
+        "levels of AI involvement",
+        "levels of AI use",
+        "Levels of Contribution",
+        "levels of GenAI adoption"
+      ],
+      "note": "Folds together output-level scales (Generation facet, AIAS levels), coding schemes for extent (how AI involvement was operationalised), grade-level and institutional permitted-use scales (K-12 framework, levels of GenAI adoption), and contribution-weighting scales (Levels of Contribution, investment) whose values describe the same underlying amount-of-AI/human-labor axis even though the objects being graded differ (a text, a policy, a grade)."
+    },
+    {
+      "canonical_id": "disclosure-obligation-tier",
+      "canonical_label": "Disclosure obligation tier",
+      "gloss": "The graded requirement level attached to disclosing AI use (e.g. mandatory, recommended, optional), independent of how much AI was actually used.",
+      "variants": [
+        "Levels of disclosure",
+        "levels of disclosure necessity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "governance-principles-and-responsibilities",
+      "canonical_label": "Governance principles and responsibilities",
+      "gloss": "The broad normative principles and thematic scope bundled under the heading \"governance\" in a scheme (accountability, disclosure infrastructure, ethics, oversight duties), rather than a single measurable scale.",
+      "variants": [
+        "governance",
+        "Governance (G: disclosure, criteria, verification)",
+        "governance and ethics",
+        "Governance Dimension",
+        "Key Governance Principle"
+      ],
+      "note": "These are umbrella/thematic labels naming the same overarching duty-and-principle territory rather than one operationalized axis; grouped on that basis, which is a closer call than most other groups here."
+    },
+    {
+      "canonical_id": "governance-and-audit-trail-record",
+      "canonical_label": "Governance and audit-trail record",
+      "gloss": "The concrete metadata fields (linkage keys, timestamps, reviewer actions, override reasons) kept to document who did what and when during AI-assisted review.",
+      "variants": [
+        "Governance and audit trail",
+        "Human-in-the-loop review metadata"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "human-oversight-and-accountability",
+      "canonical_label": "Human oversight and accountability",
+      "gloss": "Who holds decision authority, ongoing control, or ultimate responsibility for AI-assisted work and its outputs.",
+      "variants": [
+        "Governance and ownership",
+        "human experts",
+        "Human in the Loop",
+        "human involvement",
+        "Human operator linkage",
+        "Human oversight and accountability",
+        "Human responsibility",
+        "Human responsibility for content",
+        "Human review",
+        "Human sovereignty and release authority",
+        "Instructor \nAuthority",
+        "Human-role attestations for hybrid work"
+      ],
+      "note": "'human involvement' is a bare, context-free variant that could instead belong with the extent-of-AI-involvement scale; placed here because it lacks the graded-scale wording ('level of...') that the extent group's members share. 'Governance and ownership' is included because its content ('who exercises ongoing control... power to revise, suspend, or retire it') is an authority/accountability question, not a principles list."
+    },
+    {
+      "canonical_id": "institutional-governance-model",
+      "canonical_label": "Institutional governance model/tier",
+      "gloss": "The type or maturity tier of an institution's overall governance approach to AI (e.g. prohibitionist vs. integration-as-pedagogy; textual-integrity vs. disclosure-based vs. computational-integrity models), as a classification of governance philosophy rather than an amount of permitted AI use.",
+      "variants": [
+        "Governance \nRegime",
+        "governance tiers"
+      ],
+      "note": "Distinguished from extent-of-ai-involvement: these grade the kind of policy stance an institution takes, not how much AI is present in a given work."
+    },
+    {
+      "canonical_id": "governance-transparency-level",
+      "canonical_label": "Governance transparency level",
+      "gloss": "How open or opaque a repository's or system's governance process itself is (opaque/partial/full), as opposed to what the governance principles are.",
+      "variants": [
+        "GovernanceTransparency"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-use-case-domain-category",
+      "canonical_label": "AI use-case domain category",
+      "gloss": "The subject-matter or output-type category in which AI was applied (e.g. immunology, graphical abstracts), used to catalogue where AI shows up rather than how it was used.",
+      "variants": [
+        "immunology",
+        "graphical abstracts"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "stakeholder-role-taxonomy",
+      "canonical_label": "Stakeholder role taxonomy",
+      "gloss": "An enumeration of the roles/actors to whom disclosure guidance applies (authors, editors, reviewers, publishers; advertisers, influencers, ad-tech intermediaries), i.e. who the rules address.",
+      "variants": [
+        "guidance for authors, editors, reviewers, and publishers",
+        "legal taxonomy of advertising actors"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "purpose-of-ai-use",
+      "canonical_label": "Purpose or task of AI use",
+      "gloss": "Why AI was used or what kind of task it performed (linguistic correction, transformation, generation, conceptual support, writing-only scope), as opposed to how much was produced.",
+      "variants": [
+        "guidance limited to the writing process",
+        "Intent",
+        "Language Enhancement",
+        "language-focused purposes"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "attestation-mechanism-type",
+      "canonical_label": "Attestation/signature mechanism type",
+      "gloss": "The technical mechanism used to cryptographically verify or attest to provenance or identity (hardware-rooted/TEE-based attestation, identity-focused attestation, DNS-verified digital signature).",
+      "variants": [
+        "Handtekening",
+        "hardware-rooted (TEE-based) attestation",
+        "identity-focused attestation"
+      ],
+      "note": "'Handtekening' (Dutch for 'signature') describes a DNS-verified cryptographic signature field, functionally the same kind of verification mechanism as the attestation types, so it is included here rather than kept separate."
+    },
+    {
+      "canonical_id": "harms-and-error-reporting",
+      "canonical_label": "Harms and error reporting",
+      "gloss": "Whether adverse events and error taxonomies arising from AI use are documented.",
+      "variants": [
+        "Harms and error analysis"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "authorship-attribution-integrity",
+      "canonical_label": "Authorship attribution integrity",
+      "gloss": "Mismatches between who actually contributed and who is credited as author, covering both under-crediting (ghost authorship) and over-crediting (honorary authorship).",
+      "variants": [
+        "ghost authorship",
+        "Honorary authorship"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "rationale-for-data-use",
+      "canonical_label": "Rationale for data use",
+      "gloss": "The explanation of how and why particular data were used in the work.",
+      "variants": [
+        "how and why the data were used"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "authorship-determination-criteria",
+      "canonical_label": "Authorship determination criteria",
+      "gloss": "The stated criteria or test used to decide who qualifies as an author (substantial contribution, drafting, final approval, accountability; or, in a legal register, control, creative input, and expressive intent).",
+      "variants": [
+        "How authorship is determined e.g ., a stated criteria by the contributors and/or the resource",
+        "IIA-2: Who Is an Author?",
+        "important standards",
+        "identifiable expressive intent"
+      ],
+      "note": "'identifiable expressive intent' is a copyright-law variant of the same authorship-eligibility test (control, creative input, expressive intent) rather than the ICMJE-style criteria the other members use; included here as the closest-matching axis, but it is a close call."
+    },
+    {
+      "canonical_id": "verification-of-ai-output",
+      "canonical_label": "Verification of AI output",
+      "gloss": "Whether and how AI-generated content was checked, corrected, confirmed, or agreed upon by a human before use.",
+      "variants": [
+        "How did you evaluate the AI-generated feedback?",
+        "how errors were corrected",
+        "how the work was checked",
+        "Indicate how you verified content.",
+        "human verification step",
+        "Human-computer agreement",
+        "human review confirmation"
+      ],
+      "note": "'human review confirmation' is an attestation that checking occurred rather than a description of the checking method itself; placed here rather than in the human-oversight-and-accountability group because its content is about confirming a verification action took place."
+    },
+    {
+      "canonical_id": "data-generation-provenance",
+      "canonical_label": "Data generation provenance",
+      "gloss": "The process by which the underlying data were produced or created.",
+      "variants": [
+        "how the data were generated",
+        "information related to the creation of the re- search data"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "product-acquisition-method",
+      "canonical_label": "Product acquisition method",
+      "gloss": "How an endorser obtained the product being featured (e.g. gifted vs. purchased), relevant to sponsorship/conflict disclosure.",
+      "variants": [
+        "how the YouTuber got the product"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "human-factors-and-safety-considerations",
+      "canonical_label": "Human factors and safety considerations",
+      "gloss": "Usability, workflow-fit, and risk-control considerations documented for the humans who use an AI system.",
+      "variants": [
+        "Human factors",
+        "Human factors and safety"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "fair-interoperability-subcriteria",
+      "canonical_label": "FAIR interoperability sub-criteria",
+      "gloss": "The specific sub-criteria (formal knowledge representation language, FAIR vocabularies, qualified references to other metadata) under the FAIR 'Interoperable' principle for data/metadata.",
+      "variants": [
+        "I1: Formal knowledge representation language",
+        "I2: FAIR vocabularies",
+        "I3: Qualified references to other metadata"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "icmje-based-compliance-checklist",
+      "canonical_label": "ICMJE-based compliance checklist",
+      "gloss": "Compliance with a named external standard (adapted from ICMJE) that bundles disclosure, authorship, human responsibility, review, and no-plagiarism requirements together.",
+      "variants": [
+        "ICMJE-Based Criteria"
+      ],
+      "note": "Kept as its own dimension rather than split across the authorship/verification/attribution groups because the label names one bundled external standard, not a single measurable axis."
+    },
+    {
+      "canonical_id": "identity-obfuscation-of-contributor",
+      "canonical_label": "Identity obfuscation of contributor",
+      "gloss": "Whether the identity of who contributed is deliberately concealed.",
+      "variants": [
+        "Identity Obfuscation"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "research-data-identifier",
+      "canonical_label": "Research data identifier",
+      "gloss": "Whether research data carries a persistent identifier.",
+      "variants": [
+        "Identiﬁer for research data"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "presence-of-general-ai-disclosure-statement",
+      "canonical_label": "Presence of a general AI disclosure statement",
+      "gloss": "Whether a general, top-level statement disclosing AI use exists at all, and whether/how it is made.",
+      "variants": [
+        "general declaration",
+        "if and how this is disclosed"
+      ],
+      "note": "Merges a research-publishing checklist item (GAMER's 'general declaration') with an advertising-domain item ('if and how this is disclosed') because both record the same bare existence-and-method-of-disclosure question; a cross-domain close call."
+    },
+    {
+      "canonical_id": "ai-use-restrictions-by-content-type",
+      "canonical_label": "AI use restrictions by content type",
+      "gloss": "Whether AI-generated visual or data content (images, figures) is permitted, conditionally allowed, or prohibited.",
+      "variants": [
+        "Image generation",
+        "Images/data \nmanipulation"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "image-provenance-technology-use-case",
+      "canonical_label": "Image-provenance technology use case",
+      "gloss": "The specific application scenarios (location privacy, likeness provenance, fingerprint-based recovery) for an image-provenance verification technology.",
+      "variants": [
+        "image-provenance use cases"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "research-phase-of-ai-use",
+      "canonical_label": "Research phase where AI was used",
+      "gloss": "Which stage or section of the research process (literature/information gathering, data interpretation, conclusions, IMRaD structure) AI involvement is attached to, and its effect there.",
+      "variants": [
+        "impact on conclusion",
+        "Information Collection",
+        "Interpretation",
+        "Interpretation and impact on conclusions",
+        "IMRaD traceability requirements"
+      ],
+      "note": "'impact on conclusion' and 'IMRaD traceability requirements' blend phase-location with an assessment of AI's downstream effect, but both still key on which part of the research process is at issue, so they are grouped here as a close call."
+    },
+    {
+      "canonical_id": "attribution-and-citation-practice",
+      "canonical_label": "Attribution and citation practice",
+      "gloss": "How credit for source material is given through defined attribution policy or in-text citation.",
+      "variants": [
+        "Implement attribution policies",
+        "In-text Citation where possible"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "policy-implementation-pattern",
+      "canonical_label": "Policy implementation pattern",
+      "gloss": "The pattern by which an AI-use policy is implemented in practice, as one of several coded dimensions of policy compliance.",
+      "variants": [
+        "implementation patterns"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "inclusivity-and-fairness-consideration",
+      "canonical_label": "Inclusivity and fairness consideration",
+      "gloss": "Whether inclusivity and representational fairness are addressed as a consideration in AI use or its assessment.",
+      "variants": [
+        "inclusivity and representational fairness"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-label-and-warning",
+      "canonical_label": "Disclosure label and warning",
+      "gloss": "Whether and what kind of label, tag, or warning marks AI-generated or synthetic content for an audience.",
+      "variants": [
+        "indicators",
+        "label",
+        "label the synthetic data",
+        "labeling/warnings"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "indispensability-of-ai-contribution",
+      "canonical_label": "Indispensability of AI contribution",
+      "gloss": "Whether the AI's contribution was indispensable (vs. incidental) to the work, drawing on concepts of indispensability and specificity.",
+      "variants": [
+        "indispensability"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "contributor-role-taxonomy",
+      "canonical_label": "Contributor role taxonomy",
+      "gloss": "Enumerated categories of tasks or roles (e.g. CRediT-style: conceptualization, methodology, data interpretation) used to credit specific contributions to a work.",
+      "variants": [
+        "individual author contributions",
+        "individual research tasks",
+        "interpretation of data"
+      ],
+      "note": "'interpretation of data' is included as one named item in a nine-part authorship-components taxonomy (conception, design, ..., interpretation of data, ...), matching this group's role-taxonomy axis rather than the research-phase-of-AI-use axis."
+    },
+    {
+      "canonical_id": "misleading-industry-practice-type",
+      "canonical_label": "Misleading industry practice type",
+      "gloss": "A taxonomy of deceptive industry practices around evidence (misleading quoting, mimicked scientific critique, evidential landscaping).",
+      "variants": [
+        "Industry practice"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "connection-strength-labeling",
+      "canonical_label": "Connection-strength labeling",
+      "gloss": "A categorical judgment of how directly connected an output is to a given influence (direct, implicit, or no connection).",
+      "variants": [
+        "Influence Labeling"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "advertising-influence-tier",
+      "canonical_label": "Advertising influence tier",
+      "gloss": "An escalating tier scheme for the type/depth of influence AI-generated advertising exerts (product mentions through long-term preference shaping).",
+      "variants": [
+        "influence tier"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "research-data-type-description",
+      "canonical_label": "Research data type description",
+      "gloss": "A description of the type or nature of research data being disclosed.",
+      "variants": [
+        "Information about the type of research data"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-literacy-subdimension",
+      "canonical_label": "AI-literacy sub-dimension",
+      "gloss": "One named sub-dimension (information access literacy) within a broader multi-part AI-literacy framework.",
+      "variants": [
+        "information access literacy"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "input-data-sensitivity-and-protection",
+      "canonical_label": "Input data sensitivity and protection",
+      "gloss": "What data was fed into the AI system, its sensitivity level, and what redactions or protections were applied.",
+      "variants": [
+        "Information protection",
+        "Input type"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "citation-noncompliance-coding-category",
+      "canonical_label": "Citation-noncompliance coding category",
+      "gloss": "Qualitative coding categories (plagiarism, citation and reference, reasons for not citing) used to analyze citation behavior around AI-generated content.",
+      "variants": [
+        "initial coding categories"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "initiative-taken-by-contributor",
+      "canonical_label": "Initiative taken by contributor",
+      "gloss": "The degree of proactive initiative a contributor took in helping produce the work.",
+      "variants": [
+        "initiative",
+        "initiative it took"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "technological-innovation-criterion",
+      "canonical_label": "Technological innovation criterion",
+      "gloss": "A criterion for evaluating novelty in the technology, design, or approaches used to create, manage, or use data/software.",
+      "variants": [
+        "Innovation in the technology, design, or approaches employed to create, manage, and use data and/or software"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "training-data-to-output-traceability",
+      "canonical_label": "Training-data-to-output traceability",
+      "gloss": "Which training data or external code instances are associated with a given AI output.",
+      "variants": [
+        "Instance-to-output traceability."
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "institutional-approval-and-legal-basis",
+      "canonical_label": "Institutional approval and legal basis",
+      "gloss": "Whether institutional, legal, or ethical approval/agreements were obtained and recorded before AI use.",
+      "variants": [
+        "Institutional approval and\nagreements",
+        "Legal/ethical basis"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "institutional-document-relationship-type",
+      "canonical_label": "Institutional document relationship type",
+      "gloss": "The type of relationship (interprets, summarises, implements, applies to, requires, depends on) between institutional policy documents.",
+      "variants": [
+        "INSTITUTIONAL INTERPRETATION AND APPLICABILITY RELATIONSHIPS"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "integration-depth-of-ai-content",
+      "canonical_label": "Integration depth of AI content",
+      "gloss": "How deeply AI-suggested material was merged into the final work, from unedited copy-paste through light edit and adaptation to deep integration.",
+      "variants": [
+        "integration",
+        "Integration (I)"
+      ],
+      "note": "Kept distinct from extent-of-ai-involvement: that axis is about how much of the output AI produced overall, this one is about how thoroughly whatever AI produced was blended into the final text."
+    },
+    {
+      "canonical_id": "research-integrity-commitment",
+      "canonical_label": "Research integrity commitment",
+      "gloss": "A stated commitment to intellectual honesty and personal responsibility for research conduct and data integrity.",
+      "variants": [
+        "Integrity (in medical education and quality of clinical research)"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "intellectual-ownership-boundary",
+      "canonical_label": "Intellectual ownership boundary",
+      "gloss": "Whether the human retained ownership and control of the ideas, structure, and argument of the work versus ceding them to AI.",
+      "variants": [
+        "Intellectual Authorship \nBoundary",
+        "Intellectual control"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "intellectual-property-and-licensing",
+      "canonical_label": "Intellectual property and licensing",
+      "gloss": "How rights, licensing, and IP ownership of AI-generated material are handled or considered.",
+      "variants": [
+        "Intellectual property and licensing",
+        "intellectual property considerations"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "assessment-quality-framework-element",
+      "canonical_label": "Assessment quality framework element",
+      "gloss": "A named element (Intellectual Quality) of a pre-existing educational quality-assurance framework, cited as context rather than as a disclosure field itself.",
+      "variants": [
+        "Intellectual Quality"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-tool-identification-metadata",
+      "canonical_label": "AI tool identification metadata",
+      "gloss": "Identifying which specific AI tools were used, by name, version, and date accessed.",
+      "variants": [
+        "Identify all AI tools used"
+      ],
+      "note": "Kept separate from purpose-of-AI-use: although the source also asks whether the tool was assistive or generative, its primary content is naming/versioning the tool, a different axis from why it was used."
+    },
+    {
+      "canonical_id": "intentionality-of-ai-use",
+      "canonical_label": "Intentionality of AI use",
+      "gloss": "Whether purposeful intent underlay the AI-assisted act, as one evaluative dimension of creative agency.",
+      "variants": [
+        "intentionality"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "modality-and-interactivity-of-ai-system",
+      "canonical_label": "Modality and interactivity of AI system",
+      "gloss": "The medium (text, audio, video, multimodal) and degree of responsiveness an AI system affords.",
+      "variants": [
+        "Interaction and interactivity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "iom-standard-compliance",
+      "canonical_label": "IOM standard compliance",
+      "gloss": "Compliance with named IOM guideline-development standards.",
+      "variants": [
+        "IOM Standard"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "risk-severity-and-consequence-factors",
+      "canonical_label": "Risk severity and consequence factors",
+      "gloss": "Risk-related factors (severity, exploitability, mitigation availability, irreversibility, time-criticality, public benefit of transparency) used to decide how urgently disclosure is warranted.",
+      "variants": [
+        "irreversibility and time criticality",
+        "key dimensions"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "software-activity-scope-for-ai-policy",
+      "canonical_label": "Software activity scope for AI policy",
+      "gloss": "Which activity domain (issues/bugs/security, as distinct from code contributions or communication) an AI-use policy's permission level applies to.",
+      "variants": [
+        "issues/bugs/security"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "amount-of-detail-in-disclosure",
+      "canonical_label": "Amount of detail in disclosure",
+      "gloss": "How much detail, and at what granularity or layering, a disclosure statement or documentation practice provides.",
+      "variants": [
+        "iterative \ndocumentation",
+        "layered information",
+        "Length",
+        "Level of Detail",
+        "levels of information \ndetail that can support readers with different engagement goals \nand AI literacy levels"
+      ],
+      "note": "'layered information' and 'iterative documentation' describe a design/practice for varying disclosure depth rather than a single detail value, but both still key on how much/what layer of detail is exposed, so they are grouped here as a close call."
+    },
+    {
+      "canonical_id": "unmediated-human-judgment-point",
+      "canonical_label": "Unmediated human judgment point",
+      "gloss": "Whether a task design contains a point at which the human must select, reject, or defend a choice without AI mediation.",
+      "variants": [
+        "Judgement exposure"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "judicial-recognition-mechanism",
+      "canonical_label": "Judicial recognition mechanism",
+      "gloss": "The legal/court mechanism (judicial notice, gatekeeping) by which AI capability or AI-related evidence is formally recognized or admitted.",
+      "variants": [
+        "judicial gatekeeping mechanism",
+        "Judicial notice of \nAI capability"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "jurisdiction-and-applicability-scope",
+      "canonical_label": "Jurisdiction and applicability scope",
+      "gloss": "The jurisdiction and conditions of use under which a disclosure requirement applies.",
+      "variants": [
+        "Jurisdiction and applicability"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "assessment-validity-evaluation-criteria",
+      "canonical_label": "Assessment validity evaluation criteria",
+      "gloss": "A rubric's criteria (collaborative authorship, task complexity, opportunity for creativity) for evaluating whether an educational assessment remains valid given AI use.",
+      "variants": [
+        "key criteria"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "keywords-metadata-field",
+      "canonical_label": "Keywords metadata field",
+      "gloss": "Whether a repository or record provides descriptive keywords metadata.",
+      "variants": [
+        "Keywords"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "learning-process-visibility",
+      "canonical_label": "Learning process visibility",
+      "gloss": "Whether the development of a student's thinking or learning process can be observed, via records of who did what, when, and on what evidence.",
+      "variants": [
+        "learning process transparency",
+        "Learning Process Visibility"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "repository-liability-disclaimer",
+      "canonical_label": "Repository liability disclaimer",
+      "gloss": "Legal disclaimers about the responsibility and liability borne by a registry or repository.",
+      "variants": [
+        "Legal disclaimers about the responsibility and liability borne by the registry or repository"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "legitimacy-of-ai-use-per-institutional-norms",
+      "canonical_label": "Legitimacy of AI use per institutional norms",
+      "gloss": "Whether AI use aligns with institutional rules and professional norms (legitimacy), as distinct from whether it is merely effective.",
+      "variants": [
+        "legitimacy"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "level-at-which-bias-occurs",
+      "canonical_label": "Level at which bias occurs",
+      "gloss": "The level (discourse, article content, article attribution) at which bias arising from AI use is measured.",
+      "variants": [
+        "Level of bias"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-explicitness-covert-vs-overt",
+      "canonical_label": "Disclosure explicitness (covert vs. overt)",
+      "gloss": "Whether AI-generated advertising disclosure is covert or overt.",
+      "variants": [
+        "level of explicitness"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "goal-hierarchy-specificity",
+      "canonical_label": "Goal hierarchy specificity",
+      "gloss": "Where a goal falls in a specificity hierarchy (parent goals vs. child goals), unrelated to AI content per se.",
+      "variants": [
+        "level of specificity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "generalization-limits-statement",
+      "canonical_label": "Generalization limits statement",
+      "gloss": "A disclosed statement of a tool's non-recommended uses and the limits of its data generalizability.",
+      "variants": [
+        "Generalization limits"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "repository-metadata-standard-compliance",
+      "canonical_label": "Repository metadata standard compliance",
+      "gloss": "Whether a repository uses a recognized community standard for representing basic metadata.",
+      "variants": [
+        "generalMetadata"
+      ],
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "batch_id": "09",
+  "labels_in": 148,
+  "labels_out": 148,
+  "dimensions": [
+    {
+      "canonical_id": "tool-identity",
+      "canonical_label": "AI tool/system identity and version",
+      "gloss": "Which AI tool, system, or provider was used, including its name, version, and (for translation-specific cases) tool selection.",
+      "variants": [
+        "the selection and use of translation tools",
+        "the specific ai tool(s) utilized",
+        "the specific tools used",
+        "the tool and version",
+        "their versions",
+        "tool and provider",
+        "tool identity",
+        "tool name and version",
+        "tool name/version",
+        "type of ai tool",
+        "types of ai tools used",
+        "what ai tool(s) have you used?",
+        "which ai systems were used",
+        "version and date of use",
+        "versions"
+      ],
+      "note": "Includes both specific tool naming and broader tool-type/category classifications (e.g. LLM vs. AI-assisted tool); 'version and date of use' also carries an access-date component but is primarily about system version."
+    },
+    {
+      "canonical_id": "extent-of-ai-use",
+      "canonical_label": "Extent/tier of AI use governing disclosure",
+      "gloss": "How much or what kind of AI contribution is permitted or triggers a disclosure obligation, expressed as scopes, thresholds, tiers, or lanes.",
+      "variants": [
+        "the scope of permissible ai use",
+        "threshold",
+        "tiered ai disclosure policies",
+        "tiered disclosure standards",
+        "tiered options",
+        "three distinct levels",
+        "the two-lane approach",
+        "two-lane approach",
+        "traffic light system"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "verification-validation-of-ai-output",
+      "canonical_label": "Verification/validation of AI output",
+      "gloss": "Whether and how AI-produced content or claims were checked, confirmed, or graded for correctness before being accepted.",
+      "variants": [
+        "the verification ladder",
+        "the verification method applied",
+        "the verification processes employed",
+        "validation",
+        "validation of ai content",
+        "validation strategy",
+        "validity",
+        "verification (v)",
+        "verification quality",
+        "what made you decide to accept, modify or reject ai's suggestions?",
+        "traffic-light certification"
+      ],
+      "note": "'traffic-light certification' is a graded review-outcome scheme (auto-certify/human review/reject) rather than an extent-of-use tier, so it was placed here rather than with extent-of-ai-use."
+    },
+    {
+      "canonical_id": "role-contribution-type",
+      "canonical_label": "Type of role or task contributed",
+      "gloss": "What specific task, role, or labor category a human or AI contributor performed (CRediT-like taxonomies of authorship/contribution work).",
+      "variants": [
+        "the role that they played",
+        "thinker",
+        "type of contribution",
+        "type of task",
+        "visual content creation",
+        "visualization",
+        "writing assistance",
+        "writing—review & editing",
+        "writing—translation",
+        "what each did",
+        "two new credit taxa and revisions to three existing taxa",
+        "types of contributions",
+        "the writing of the article",
+        "whether guidance was generated or adapted by ai"
+      ],
+      "note": "'whether guidance was generated or adapted by ai' is a close call: it could be read as an extent-of-use question, but the quote frames it as classifying what the AI did (generate vs. adapt), matching this axis better."
+    },
+    {
+      "canonical_id": "disclosure-location-placement",
+      "canonical_label": "Disclosure location/placement",
+      "gloss": "Where in a document or manuscript an AI-use disclosure must or does appear (e.g. methods, acknowledgements, cover letter, a named section).",
+      "variants": [
+        "transparency and disclosure",
+        "transparency of ai use",
+        "use of ai must be declared in the cover letter",
+        "use of ai must be declared in the main manuscript",
+        "whether and how ai applications were used",
+        "title & abstract"
+      ],
+      "note": "'title & abstract' is a close call: it is a manuscript-section marker from a reporting checklist rather than an AI-disclosure-specific field, but it shares the same underlying axis of where in a document something must be stated."
+    },
+    {
+      "canonical_id": "vague-transparency-principle",
+      "canonical_label": "Transparency as a general principle",
+      "gloss": "Transparency invoked as a broad normative value or requirement (disclose AI use, provide detail, be open) rather than as a specific measurable field.",
+      "variants": [
+        "transparency across the ai lifecycle",
+        "transparency requirements",
+        "transparent disclosure and attribution",
+        "transparent disclosure of artificial intelligence use"
+      ],
+      "note": "Deliberately kept apart from disclosure-location-placement per the instruction that vague-virtue transparency and named-field transparency are different axes; 'transparency across the ai lifecycle' is a close call since it is a named checklist domain, not merely a slogan."
+    },
+    {
+      "canonical_id": "accountability-for-ai-use",
+      "canonical_label": "Communicating human oversight/accountability",
+      "gloss": "Whether a disclosure signals that a human remains in charge of, explains, or takes responsibility for AI-assisted output.",
+      "variants": [
+        "transparent student–ai collaboration",
+        "whether the cue communicated human oversight or editorial accountability"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "provenance-and-lineage",
+      "canonical_label": "Provenance and lineage of content",
+      "gloss": "Where content, data, or output originated and how it was transformed along the way, including synthetic-data flags, watermark traces, and which inputs shaped it.",
+      "variants": [
+        "the provenance of the information",
+        "transformation history",
+        "which parts of the data are synthetic",
+        "w-layer (watermarks)",
+        "which inputs shaped it"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "persistent-identifier",
+      "canonical_label": "Persistent identifier for the artifact",
+      "gloss": "Whether the data, software, or tool used carries a stable identifier or resolvable link for citation.",
+      "variants": [
+        "unique identifier",
+        "url/link to the data/software, preferably persistent identifier (e.g., doi) and resolves"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "artifact-versioning-and-identification",
+      "canonical_label": "Versioning practice for artifacts",
+      "gloss": "Whether and how datasets, software, or models are version-controlled and versioned over time as a citation/documentation practice.",
+      "variants": [
+        "version control",
+        "version id",
+        "versioning"
+      ],
+      "note": "Distinguished from tool-identity, which is about which tool/version was used for a task, whereas this cluster is about the general practice of tracking artifact versions for citation."
+    },
+    {
+      "canonical_id": "creative-contribution-degree",
+      "canonical_label": "Degree of human creative/transformative input",
+      "gloss": "How much transformative or creative input a human contributed to AI-assisted output, relevant to authorship/ownership determinations.",
+      "variants": [
+        "transformation",
+        "verifiable creative input"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "software-mention-type",
+      "canonical_label": "Type of software mention/citation",
+      "gloss": "The function or format of a reference to software in text (e.g. informal mention vs. formal citation, allusion vs. usage vs. creation).",
+      "variants": [
+        "type of mention",
+        "types of software mentions"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "workflow-stage",
+      "canonical_label": "Stage/phase of use in the workflow",
+      "gloss": "At which point or phase of a task or process the AI was engaged (e.g. outlining, translation, editing; data processing vs. drafting).",
+      "variants": [
+        "the stage of use",
+        "three functional stages",
+        "tri-layer interaction model"
+      ],
+      "note": "'tri-layer interaction model' is a close call: it is an Ask-Plan-Craft interaction model for a countermeasure design rather than a disclosure field, but it structurally names the same kind of phase/stage axis."
+    },
+    {
+      "canonical_id": "use-case-risk-classification",
+      "canonical_label": "Use-case/risk classification",
+      "gloss": "Which functional use case or risk category an AI application falls into, used to determine what disclosure treatment applies.",
+      "variants": [
+        "use cases",
+        "use-case disclosure vs. risk-based disclosure",
+        "use-case triage",
+        "vulnerability zones"
+      ],
+      "note": "'vulnerability zones' is a close call: it classifies risk by task context in an academic-integrity setting rather than by product use case, but shares the same risk-tiering-by-context logic."
+    },
+    {
+      "canonical_id": "validity-domain-and-limitations",
+      "canonical_label": "Validity domain and known limitations",
+      "gloss": "Where an AI artifact or claim is valid, where it fails, and what a documentary record can and cannot settle.",
+      "variants": [
+        "validity-domain and failure awareness",
+        "validity-domain statement",
+        "two classes"
+      ],
+      "note": "'two classes' (what a record can vs. cannot settle) is a close call, grouped here as an epistemic-limits statement rather than with verification-of-output."
+    },
+    {
+      "canonical_id": "evidentiary-basis-auditability",
+      "canonical_label": "Evidentiary basis and auditability",
+      "gloss": "Whether a statement, claim, or control is traceable to evidence or a supporting protocol, and whether reasoning can itself be checked.",
+      "variants": [
+        "verifiability and auditability",
+        "verifiable reasoning",
+        "what evidence",
+        "what evidence or protocol supports it"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-output-content",
+      "canonical_label": "Content of AI output/feedback",
+      "gloss": "What the AI actually produced or returned as output, as distinct from the tool used or the task purpose.",
+      "variants": [
+        "the output received",
+        "what feedback did ai provide?"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "motivation-purpose-for-ai-use",
+      "canonical_label": "Purpose/motivation for using AI",
+      "gloss": "Why AI was used for a given task, i.e. the stated purpose or reasoning behind the decision to employ it.",
+      "variants": [
+        "the task purpose",
+        "their reasoning behind their decision to employ ai"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "uncertainty-communication",
+      "canonical_label": "Communicating remaining uncertainty",
+      "gloss": "Whether and how a system or disclosure communicates what remains unknown or uncertain about AI output.",
+      "variants": [
+        "uncertainty communication",
+        "what uncertainty remains"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "workflow-refining-step",
+      "canonical_label": "Named AI-assisted refining step",
+      "gloss": "A specific named editing/refining pass in an AI-assisted writing workflow, each tied to a characteristic risk.",
+      "variants": [
+        "three-key-messages pass",
+        "tone-match skim"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "topic-theme-catalog",
+      "canonical_label": "Generic theme/topic catalog heading",
+      "gloss": "A scheme's own umbrella heading introducing a bespoke list of themes or topic areas, without itself naming one specific disclosure axis.",
+      "variants": [
+        "thematic areas",
+        "themes"
+      ],
+      "note": "Catch-all for heading-type labels that name a set of study-specific themes rather than a single axis; kept distinct from the four 'theme: X' labels below, which each name a specific axis of an incident-disclosure record."
+    },
+    {
+      "canonical_id": "presence-of-giveaway",
+      "canonical_label": "Presence of a giveaway/promotion",
+      "gloss": "Whether a promotional giveaway mechanism is present in the content being coded.",
+      "variants": [
+        "the presence of a giveaway"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "research-team-theme",
+      "canonical_label": "Research-team theme",
+      "gloss": "A survey section heading covering disclosure about the research team itself, as one of several study themes.",
+      "variants": [
+        "the research team"
+      ],
+      "note": "Uncertain fit: this reads as a section label of a survey instrument rather than a measurable disclosure axis in its own right."
+    },
+    {
+      "canonical_id": "specificity-of-requirements",
+      "canonical_label": "Specificity of disclosure requirements",
+      "gloss": "How detailed or strict a disclosure requirement is, ranging from vague to highly specific.",
+      "variants": [
+        "the specificity of disclosure requirements"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "influencer-valence-toward-product",
+      "canonical_label": "Influencer's valence toward the product",
+      "gloss": "Whether the endorser's stated or implied attitude toward the promoted product is positive or negative.",
+      "variants": [
+        "the youtuber’s valence regarding the product"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "incident-cause",
+      "canonical_label": "Cause of the incident",
+      "gloss": "What caused an AI-related incident, as a coded facet of an incident-disclosure record.",
+      "variants": [
+        "theme: cause"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "incident-consequence",
+      "canonical_label": "Consequence of the incident",
+      "gloss": "The harm, risk, or downstream action an AI-related incident caused, as a coded facet of an incident-disclosure record.",
+      "variants": [
+        "theme: consequence"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "incident-responsible-entity",
+      "canonical_label": "Responsible entity for the incident",
+      "gloss": "Which party is identified as responsible for an AI-related incident.",
+      "variants": [
+        "theme: responsible entity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "incident-disclosure-source",
+      "canonical_label": "Source of incident disclosure",
+      "gloss": "Which party first revealed or disclosed an AI-related incident to the public.",
+      "variants": [
+        "theme: source of disclosure"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "third-party-handoff-readiness",
+      "canonical_label": "Third-party usability and handoff readiness",
+      "gloss": "Whether a deliverable can be used, maintained, and handed off by a competent third party without privileged creator knowledge.",
+      "variants": [
+        "third-party usability and handoff readiness"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "thought-leadership-ratio",
+      "canonical_label": "Thought-leadership ratio",
+      "gloss": "A construct measuring the ratio between who is credited as a thought leader and who performed the actual (possibly hidden) labor.",
+      "variants": [
+        "thought-leadership ratio (tlr)"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "influencer-transgression-groups",
+      "canonical_label": "Categories of influencer transgression",
+      "gloss": "A grouping of influencer misconduct types (e.g. misinformation, offensive language, privacy violations) relevant to disclosure ethics.",
+      "variants": [
+        "three broadly equivalent groups"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "user-behavior-configuration",
+      "canonical_label": "User AI-use behavior configuration",
+      "gloss": "A latent profile or configuration describing a distinct pattern of how users engage with AI tools.",
+      "variants": [
+        "three configurations"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "policy-stakeholder-branches",
+      "canonical_label": "Policy stakeholder branches",
+      "gloss": "The distinct parties (e.g. instructors, students, control authorities) a policy framework is structured around.",
+      "variants": [
+        "three key stakeholders (branches)"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "taxonomy-development-process",
+      "canonical_label": "Process for developing a role taxonomy",
+      "gloss": "The procedural steps by which a scheme decides which contributor roles to add, exclude, or integrate into its standard list.",
+      "variants": [
+        "three steps"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "verification-gap-typology",
+      "canonical_label": "Typology of verification gaps",
+      "gloss": "A named framework of distinct gaps (attribution, source, response) in the ability to verify journalistic claims.",
+      "variants": [
+        "three verification gaps"
+      ],
+      "note": "Close call against verification-validation-of-ai-output: kept separate because it names types of unverifiability rather than a verification method actually applied."
+    },
+    {
+      "canonical_id": "structured-micro-log-format",
+      "canonical_label": "Structured micro-log record format",
+      "gloss": "A fixed compact logging format combining which artifact was adopted, its role label, and the human judgment applied.",
+      "variants": [
+        "three-field micro-log format"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "tool-vetting-process",
+      "canonical_label": "Tool vetting process",
+      "gloss": "Whether and how AI tools are reviewed or approved before being permitted for use.",
+      "variants": [
+        "tool vetting"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "trustworthiness-principle",
+      "canonical_label": "Trustworthiness (named ethics principle)",
+      "gloss": "Trustworthiness named as the overarching meta-principle governing a media organization's conduct.",
+      "variants": [
+        "trustworthiness"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "two-threshold-framework",
+      "canonical_label": "Two-threshold protection framework",
+      "gloss": "A framework distinguishing a confidentiality threshold (protecting entrusted material) from a judgment threshold (protecting human responsibility for reasoning).",
+      "variants": [
+        "two-threshold framework"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "type-of-alcoholpost",
+      "canonical_label": "Type of alcohol-brand post",
+      "gloss": "A composite coding category for whether an alcohol brand is visible, whether disclosure is present, and whether a slogan accompanies it.",
+      "variants": [
+        "type of alcoholpost"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "type-of-appeal",
+      "canonical_label": "Type of persuasive appeal",
+      "gloss": "Whether promotional content uses an emotional or rational persuasive appeal.",
+      "variants": [
+        "type of appeal"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-behavior-pattern",
+      "canonical_label": "Pattern of disclosure behavior",
+      "gloss": "How openly and under what conditions a person discloses AI use, ranging from avoidance to proactive full transparency.",
+      "variants": [
+        "type of disclosure practice"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "type-of-hybridity",
+      "canonical_label": "Type of content hybridity",
+      "gloss": "A classification of advertising content by its label, media format, and how organic and sponsored elements are mixed.",
+      "variants": [
+        "type of hybridity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "type-of-labor-value",
+      "canonical_label": "Type of human-presence labor value",
+      "gloss": "Categories of human labor value at stake when AI use is disclosed or hidden (e.g. relational presence, aesthetic provenance, accountability).",
+      "variants": [
+        "type of labor"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "type-of-replacement",
+      "canonical_label": "Type of replacement",
+      "gloss": "A categorization of how AI replaces or substitutes for a human task or role.",
+      "variants": [
+        "type of replacement"
+      ],
+      "note": "Kept as its own singleton: the source quote gives no substantive content to confirm which specific axis this measures."
+    },
+    {
+      "canonical_id": "type-of-software-artifact",
+      "canonical_label": "Type of software artifact",
+      "gloss": "A classification of which kinds of artifact count as software (e.g. application, plugin, operating system, programming environment).",
+      "variants": [
+        "type of software"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "types-of-ai-generated-content",
+      "canonical_label": "Types of AI-generated content by posting context",
+      "gloss": "A classification of AI-generated content by who posted it and its relationship to the platform (user-posted, integrated tool, platform-posted).",
+      "variants": [
+        "types of ai-generated content"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "types-of-distributors",
+      "canonical_label": "Types of distributors",
+      "gloss": "A classification of distributors into active and passive types.",
+      "variants": [
+        "types of distributors"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "illustrative-examples-column",
+      "canonical_label": "Illustrative examples column",
+      "gloss": "A table column giving typical concrete examples of a category, rather than naming a disclosure axis itself.",
+      "variants": [
+        "typical examples"
+      ],
+      "note": "This is a formatting/illustration artifact rather than a substantive axis, but every label must land somewhere."
+    },
+    {
+      "canonical_id": "source-credibility-dimensions",
+      "canonical_label": "Source credibility dimensions",
+      "gloss": "The dimensions (trustworthiness, expertise, aesthetics) along which a source or influencer's credibility is assessed.",
+      "variants": [
+        "ulottuvuudet"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "uncertainty-conflict-intensity",
+      "canonical_label": "Uncertainty/conflict intensity as escalation trigger",
+      "gloss": "The degree of model uncertainty, weak provenance, or disagreement with human assessment used to decide whether to escalate.",
+      "variants": [
+        "uncertainty or conflict intensity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "agent-persistence-authority",
+      "canonical_label": "Authority over AI agent persistence",
+      "gloss": "Who holds ultimate authority over whether an AI agent entity persists over time.",
+      "variants": [
+        "uniqueness and persistence"
+      ],
+      "note": "The label name suggests a data-citation principle, but the example quote is about human-operator authority over an agent's continued existence, so it was kept separate from persistent-identifier/artifact-versioning."
+    },
+    {
+      "canonical_id": "policy-governance-level",
+      "canonical_label": "Level of policy governance",
+      "gloss": "The hierarchical level (national, university, course) at which AI-use policy is set.",
+      "variants": [
+        "university-level ai usage policies"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "mandate-of-disclosure",
+      "canonical_label": "Whether disclosure is mandated",
+      "gloss": "Whether AI use must be disclosed at all, as a yes/no/unsure requirement, independent of where or how.",
+      "variants": [
+        "use of ai must be disclosed in some form"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "ethics-value-dimensions",
+      "canonical_label": "Ethics value dimensions",
+      "gloss": "A broad set of named ethical values (privacy, trust, safety, responsibility, explainability, etc.) a scheme organizes itself around.",
+      "variants": [
+        "value dimensions"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "veracity-principle",
+      "canonical_label": "Veracity (named principle)",
+      "gloss": "A named principle requiring generative AI output to fully adopt the presentation style of genuine journalistic articles.",
+      "variants": [
+        "veracity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "voice-attribution",
+      "canonical_label": "Voice/stance attribution",
+      "gloss": "Whether text reveals whose stance or voice the words index (none/potential/clear).",
+      "variants": [
+        "voice"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "worker-vulnerability",
+      "canonical_label": "Worker vulnerability signal",
+      "gloss": "Whether text signals that the worker is uncertain (none/potential/clear).",
+      "variants": [
+        "vulnerability"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "content-presentation-style",
+      "canonical_label": "Content presentation style",
+      "gloss": "The dominant stylistic way commercial or promotional content is presented (e.g. playful portrait, tutorial, product test, lifestyle).",
+      "variants": [
+        "ways"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "authenticity-criteria",
+      "canonical_label": "Criteria for authentic journalistic content",
+      "gloss": "The criteria audiences use to judge journalistic content as authentic (fact-based, source-identifiable, human-written, etc.).",
+      "variants": [
+        "what do you consider authentic journalistic content?"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "prompt-input-disclosed",
+      "canonical_label": "Prompts/input disclosed",
+      "gloss": "What prompts or input a person drafted when using an AI tool.",
+      "variants": [
+        "what prompts did you draft when using ai?"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "stop-rules",
+      "canonical_label": "Stop rules for AI-assisted process",
+      "gloss": "The rules that determine when an AI-assisted process should stop or be escalated.",
+      "variants": [
+        "what stop rules apply"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-coauthorship-eligibility",
+      "canonical_label": "Whether AI can be a coauthor",
+      "gloss": "Whether an AI tool can be considered a coauthor of a work, as opposed to merely an assisting tool.",
+      "variants": [
+        "whether ai tools can be considered as coauthors"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "professional-review-availability",
+      "canonical_label": "Availability of professional review",
+      "gloss": "Whether a professional or expert human review option is available as a safeguard on AI output.",
+      "variants": [
+        "whether professional review is available"
+      ],
+      "note": "Close call against verification-validation-of-ai-output: kept separate because this is about the availability of a review option rather than verification actually performed."
+    },
+    {
+      "canonical_id": "operational-controls-disclosed",
+      "canonical_label": "Operational controls disclosed",
+      "gloss": "Which specific controls or safeguards an organization states that it operates.",
+      "variants": [
+        "which controls it operates"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-wording-choice",
+      "canonical_label": "Wording/label choice in disclosure",
+      "gloss": "The specific phrase or label chosen to describe AI involvement (e.g. \"AI-generated\" vs. \"AI-assisted\").",
+      "variants": [
+        "wording"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "workflow-exposure-to-users",
+      "canonical_label": "Workflow exposure of AI output to users",
+      "gloss": "Whether, when, where, to whom, and in what form AI output was presented within an operational system's user interface.",
+      "variants": [
+        "workflow exposure"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "publication-year-metadata",
+      "canonical_label": "Publication year metadata",
+      "gloss": "The publication year recorded as a citation/reference metadata field.",
+      "variants": [
+        "year"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "policy-interpretation-sites",
+      "canonical_label": "Sites of policy interpretation",
+      "gloss": "The distinct loci (faculty intention, formal policy, student interpretation, student self-policy, student practice) at which an AI-use policy is defined or enacted along an implementation chain.",
+      "variants": [
+        "“sites”"
+      ],
+      "note": ""
+    }
+  ]
+}
