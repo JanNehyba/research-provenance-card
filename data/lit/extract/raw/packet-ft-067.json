@@ -22,7 +22,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "3.1 Defining reliability in the context of financial \ndisclosure",
-              "quote": "accuracy, or factual correctness and alignment with \nunderlying financial data"
+              "quote": "(a) accuracy, or factual correctness and alignment with \nunderlying financial data"
             },
             {
               "dimension_label_verbatim": "completeness",
@@ -30,7 +30,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "3.1 Defining reliability in the context of financial \ndisclosure",
-              "quote": "completeness, or coverage \nof all material information required by the reporting \nframework"
+              "quote": "(b) completeness, or coverage \nof all material information required by the reporting \nframework"
             },
             {
               "dimension_label_verbatim": "neutrality and balance",
@@ -38,7 +38,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "3.1 Defining reliability in the context of financial \ndisclosure",
-              "quote": "neutrality and balance"
+              "quote": "(c) neutrality and balance"
             },
             {
               "dimension_label_verbatim": "consistency in \npolicies and terminology across periods",
@@ -46,15 +46,60 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "3.1 Defining reliability in the context of financial \ndisclosure",
-              "quote": "consistency in \npolicies and terminology across periods"
+              "quote": "(d) consistency in \npolicies and terminology across periods"
             },
             {
               "dimension_label_verbatim": "verifiability and auditability",
-              "definition_quote": "statements \ncan be traced back to evidence",
+              "definition_quote": "meaning that statements \ncan be traced back to evidence",
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "3.1 Defining reliability in the context of financial \ndisclosure",
-              "quote": "verifiability and auditability, meaning that statements \ncan be traced back to evidence"
+              "quote": "(e) \nverifiability and auditability, meaning that statements \ncan be traced back to evidence"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-disclosure-dependability-framework",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.36348/sjef.2026.v10i03.006",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the design of AI systems and training data",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the design of AI systems and training data"
+            },
+            {
+              "dimension_label_verbatim": "internal control over financial reporting",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "internal control over financial reporting"
+            },
+            {
+              "dimension_label_verbatim": "governance and oversight by management, audit committees, and regulators",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "(c) governance and oversight by management, audit committees, and regulators"
+            },
+            {
+              "dimension_label_verbatim": "independent verification by external auditors",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "independent verification by external auditors"
             }
           ]
         }
@@ -65,7 +110,7 @@
       "has_scheme": true,
       "schemes": [
         {
-          "scheme_id": "hendriks-2020-alcoholpost-disclosure-codebook",
+          "scheme_id": "alcoholpost-disclosure-typology",
           "scheme_name_verbatim": "not_stated",
           "source_ref": "doi:10.3389/fpsyg.2019.02991",
           "domain": "advertising",
@@ -76,37 +121,20 @@
           "machine_readable_artifact": "none",
           "dimensions": [
             {
-              "dimension_label_verbatim": "Type of alcoholpost",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "No alcohol brand visible",
-                "Alcohol brand, no disclosure",
-                "Alcohol brand, disclosure, no slogan",
-                "Alcohol brand, disclosure, slogan"
-              ],
-              "closed_or_open": "closed_list",
-              "locator": "Table 3",
-              "quote": "Type of alcoholpost\nNo alcohol brand visible\nAlcohol brand, no disclosure"
-            },
-            {
               "dimension_label_verbatim": "disclosure presence",
               "definition_quote": "",
               "value_list_verbatim": ["no", "yes"],
               "closed_or_open": "closed_list",
               "locator": "Relationships Between Commercialized\nAspects and Likes and Comments",
-              "quote": "two ANOVAs with disclosure presence (no/yes) as independent\nvariable and number of likes and comments as dependent"
+              "quote": "disclosure presence (no/yes) as independent \nvariable"
             },
             {
-              "dimension_label_verbatim": "Brands Visibility",
+              "dimension_label_verbatim": "Type of alcoholpost",
               "definition_quote": "",
-              "value_list_verbatim": [
-                "in the photo",
-                "in the header or hashtag",
-                "in both the picture and the text"
-              ],
+              "value_list_verbatim": ["No alcohol brand visible", "Alcohol brand, no disclosure", "Alcohol brand, disclosure, no slogan", "Alcohol brand, disclosure, slogan"],
               "closed_or_open": "closed_list",
-              "locator": "Brands Visibility",
-              "quote": "50 posts showed a clear alcohol brand in the photo, 10 posts only had the brand name in the header or hashtag"
+              "locator": "Table 3",
+              "quote": "Type of alcoholpost\nNo alcohol brand visible\nAlcohol brand, no disclosure\nAlcohol brand, disclosure, no slogan\nAlcohol brand, disclosure, slogan"
             }
           ]
         }
@@ -117,14 +145,59 @@
       "has_scheme": true,
       "schemes": [
         {
-          "scheme_id": "op9-oversight-protocol",
+          "scheme_id": "op9-ownership-discretion-codebook",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s12525-026-00915-x",
+          "domain": "workplace",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "15 semi-structured interviews",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "knowledge-work archetypes",
+              "definition_quote": "",
+              "value_list_verbatim": ["transaction", "integration", "expert", "collaboration"],
+              "closed_or_open": "closed_list",
+              "locator": "Page 8 of 18",
+              "quote": "knowledge-work archetypes (transaction, \nintegration, expert, collaboration)"
+            },
+            {
+              "dimension_label_verbatim": "ownership",
+              "definition_quote": "",
+              "value_list_verbatim": ["no", "low/delegated", "partial/co-authored", "shared/joint", "high/human"],
+              "closed_or_open": "closed_list",
+              "locator": "Page 8 of 18",
+              "quote": "ownership in five levels (no, low/\ndelegated, partial/co‑authored, shared/joint, and high/\nhuman)"
+            },
+            {
+              "dimension_label_verbatim": "discretion",
+              "definition_quote": "discretion denotes the decision rights exercised \nover AI outputs",
+              "value_list_verbatim": ["accept", "modify (light)", "modify (substantial)", "reject"],
+              "closed_or_open": "closed_list",
+              "locator": "Page 8 of 18",
+              "quote": "the theoretically complete editorial \nchoice set collapses into four mutually exclusive actions: \naccept, modify (light), modify (substantial), or reject"
+            },
+            {
+              "dimension_label_verbatim": "task risk",
+              "definition_quote": "",
+              "value_list_verbatim": ["high", "low"],
+              "closed_or_open": "closed_list",
+              "locator": "Page 8 of 18",
+              "quote": "(d) perceived \ntask risk (high/low)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "op-9-oversight-protocol",
           "scheme_name_verbatim": "Oversight Protocol (OP-9)",
           "source_ref": "doi:10.1007/s12525-026-00915-x",
           "domain": "workplace",
           "artifact_type": "normative_proposal",
-          "granularity": "document",
+          "granularity": "not_stated",
           "authority": "not_stated",
-          "empirical_basis": "15 interviews in two early-adopting German tech \nfirms",
+          "empirical_basis": "15 semi-structured interviews",
           "machine_readable_artifact": "none",
           "dimensions": [
             {
@@ -133,7 +206,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP1 Drafting\nRisk-tiered delegation\nLow vs. high task risk"
+              "quote": "A rule that scales LLM permission and required oversight with task risk (more freedom in low-risk \ndrafting, tighter limits and stronger review in high-stakes work)"
             },
             {
               "dimension_label_verbatim": "No-delegate zones",
@@ -141,7 +214,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP2 Drafting\nNo-delegate zones\nCritical or sensitive content"
+              "quote": "Designated parts of a task where AI assistance is not permitted, ensuring direct human authorship \nfor sensitive material"
             },
             {
               "dimension_label_verbatim": "Forward standardized text",
@@ -149,15 +222,15 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP3 Drafting\nForward standardized text\nRoutine, low-impact text"
+              "quote": "Keeping pre-approved, low-risk elements unchanged or inserting them from standardized \ntemplates"
             },
             {
               "dimension_label_verbatim": "Rolling self-critique prompt (loops)",
-              "definition_quote": "A follow-up prompt that asks the model to list weaknesses, uncertainties, or checks needed (used \nas a support tool, not as proof of correctness)",
+              "definition_quote": "A follow-up prompt that asks the model to list weaknesses, uncertainties, or checks needed",
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP4 Refining\nRolling self-critique loops\nModel uncertainty"
+              "quote": "A follow-up prompt that asks the model to list weaknesses, uncertainties, or checks needed"
             },
             {
               "dimension_label_verbatim": "One-minute pause",
@@ -165,15 +238,15 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP5 Refining\nOne-minute pause\nFluency illusion"
+              "quote": "A short, intentional pause (about one minute) before copying AI text into a deliverable, to reduce \n“automatic acceptance”"
             },
             {
               "dimension_label_verbatim": "Tone-match skim",
-              "definition_quote": "A fast-editing pass that aligns AI phrasing with the author’s voice and the organization’s style (e.g., \nreplace generic sales language, remove buzzwords, adjust stance",
+              "definition_quote": "A fast-editing pass that aligns AI phrasing with the author’s voice and the organization’s style",
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP6 Refining\nTone-match skim\nStylistic mismatch"
+              "quote": "A fast-editing pass that aligns AI phrasing with the author’s voice and the organization’s style"
             },
             {
               "dimension_label_verbatim": "Three-key-messages pass",
@@ -181,7 +254,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP7 Refining\nThree-key-messages pass\nCoherence or focus risk"
+              "quote": "Writing the three main takeaways, then edit the AI text so it supports them and remove anything \noff-message or overstated"
             },
             {
               "dimension_label_verbatim": "AI-margin tag",
@@ -189,60 +262,23 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP8 Reviewing Peer review + AI-margin tags High audience or stakeholder risk"
+              "quote": "Marking AI-generated or AI-edited passages (e.g., comments, highlights) so reviewers can see \n“where the model spoke.”"
             },
             {
-              "dimension_label_verbatim": "Prompt-provenance stamp & \nmicro-team split",
-              "definition_quote": "Saving the final prompt and the model/version (and, where possible, key settings) alongside the \noutput (e.g., in document metadata, a log, or a ticket)",
+              "dimension_label_verbatim": "Prompt-provenance stamping",
+              "definition_quote": "Saving the final prompt and the model/version (and, where possible, key settings) alongside the \noutput",
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Table 4",
-              "quote": "OP9 Reviewing Prompt-provenance stamp & \nmicro-team split\nImminent deadlines"
-            }
-          ]
-        },
-        {
-          "scheme_id": "op9-paper-ownership-discretion-codebook",
-          "scheme_name_verbatim": "not_stated",
-          "source_ref": "doi:10.1007/s12525-026-00915-x",
-          "domain": "workplace",
-          "artifact_type": "empirical_study",
-          "granularity": "paragraph",
-          "authority": "not_stated",
-          "empirical_basis": "15 semi-structured interviews",
-          "machine_readable_artifact": "none",
-          "dimensions": [
-            {
-              "dimension_label_verbatim": "Davenport’s knowledge-work archetypes",
-              "definition_quote": "",
-              "value_list_verbatim": ["transaction", "integration", "expert", "collaboration"],
-              "closed_or_open": "closed_list",
-              "locator": "Cycle 1—Deductive structuring",
-              "quote": "(a) Davenport’s knowledge-work archetypes (transaction, \nintegration, expert, collaboration)"
+              "quote": "Saving the final prompt and the model/version (and, where possible, key settings) alongside the \noutput"
             },
             {
-              "dimension_label_verbatim": "task-related AI ownership",
-              "definition_quote": "",
-              "value_list_verbatim": ["no", "low/\ndelegated", "partial/co‑authored", "shared/joint", "high/\nhuman"],
-              "closed_or_open": "closed_list",
-              "locator": "Cycle 1—Deductive structuring",
-              "quote": "(b) task related AI own-\nership levels"
-            },
-            {
-              "dimension_label_verbatim": "discretional actions over AI output",
-              "definition_quote": "",
-              "value_list_verbatim": ["accept", "modify-lite", "modify-substantial", "reject"],
-              "closed_or_open": "closed_list",
-              "locator": "Cycle 1—Deductive structuring",
-              "quote": "(c) discretional actions over AI output (accept, \nmodify-lite, modify-substantial, reject)"
-            },
-            {
-              "dimension_label_verbatim": "perceived \ntask risk",
-              "definition_quote": "",
-              "value_list_verbatim": ["high", "low"],
-              "closed_or_open": "closed_list",
-              "locator": "Cycle 1—Deductive structuring",
-              "quote": "(d) perceived \ntask risk (high/low)"
+              "dimension_label_verbatim": "Micro-team split",
+              "definition_quote": "Under tight deadlines, the team splits into two people working in parallel, where one refines the \ncontent while the other runs compliance/quality checks",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Under tight deadlines, the team splits into two people working in parallel, where one refines the \ncontent while the other runs compliance/quality checks"
             }
           ]
         }

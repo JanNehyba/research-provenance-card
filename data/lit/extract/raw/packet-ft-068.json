@@ -13,25 +13,72 @@
           "artifact_type": "empirical_study",
           "granularity": "document",
           "authority": "not_stated",
-          "empirical_basis": "435 records",
+          "empirical_basis": "435 included records",
           "machine_readable_artifact": "none",
           "dimensions": [
             {
-              "dimension_label_verbatim": "reporting domains",
+              "dimension_label_verbatim": "validity",
               "definition_quote": "",
-              "value_list_verbatim": [
-                "validity",
-                "reliability",
-                "fairness",
-                "integrity",
-                "transparency",
-                "human oversight",
-                "implementation",
-                "governance"
-              ],
+              "value_list_verbatim": [],
               "closed_or_open": "closed_list",
-              "locator": "Full-Text Sensitivity Analysis for Reporting Domains",
-              "quote": "we conducted a full-text sensitivity analysis for all 8 reporting domains across all 435 included records"
+              "locator": "Full-Text Reporting-Domain Sensitivity Analysis",
+              "quote": "validity in 158 (36.3%) records"
+            },
+            {
+              "dimension_label_verbatim": "reliability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Full-Text Reporting-Domain Sensitivity Analysis",
+              "quote": "reliability was identified in 288 (66.2%) records"
+            },
+            {
+              "dimension_label_verbatim": "fairness",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Full-Text Reporting-Domain Sensitivity Analysis",
+              "quote": "fairness in 132 (30.3%) records"
+            },
+            {
+              "dimension_label_verbatim": "integrity",
+              "definition_quote": "explicit attention to academic integrity, assessment security, or safeguards against misuse of AI in assessment",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Full-Text Reporting-Domain Sensitivity Analysis",
+              "quote": "integrity in 26 (6%) records"
+            },
+            {
+              "dimension_label_verbatim": "transparency",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Full-Text Reporting-Domain Sensitivity Analysis",
+              "quote": "transparency in 130 (29.9%) records"
+            },
+            {
+              "dimension_label_verbatim": "human oversight",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Full-Text Reporting-Domain Sensitivity Analysis",
+              "quote": "human oversight in 46 (10.6%) records"
+            },
+            {
+              "dimension_label_verbatim": "implementation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Full-Text Reporting-Domain Sensitivity Analysis",
+              "quote": "implementation in 231 (53.1%) records"
+            },
+            {
+              "dimension_label_verbatim": "governance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Full-Text Reporting-Domain Sensitivity Analysis",
+              "quote": "governance in 57 (13.1%) records"
             }
           ]
         }
@@ -42,89 +89,151 @@
       "has_scheme": true,
       "schemes": [
         {
-          "scheme_id": "fair-data-policy-scale",
-          "scheme_name_verbatim": "‘FAIRness’ scale",
-          "source_ref": "doi:10.3762/bjoc.21.70",
-          "domain": "research_publishing",
-          "artifact_type": "empirical_study",
-          "granularity": "document",
-          "authority": "editorial_requirement",
-          "empirical_basis": "240 randomly selected research papers from 12 top-ranked journals",
-          "machine_readable_artifact": "none",
-          "dimensions": [
-            {
-              "dimension_label_verbatim": "‘FAIRness’ scale",
-              "definition_quote": "the values 1–5 represent progression through the scoring levels",
-              "value_list_verbatim": ["1", "2", "3", "4", "5"],
-              "closed_or_open": "closed_list",
-              "locator": "Methods",
-              "quote": "evaluated against a five–point ‘FAIRness’ scale in which the values 1–5 represent progression through the scoring levels"
-            }
-          ]
-        },
-        {
-          "scheme_id": "fair-variables-table2",
+          "scheme_id": "fair-data-variables-organic-chemistry",
           "scheme_name_verbatim": "FAIR variables",
           "source_ref": "doi:10.3762/bjoc.21.70",
           "domain": "research_publishing",
           "artifact_type": "empirical_study",
-          "granularity": "document",
-          "authority": "not_stated",
-          "empirical_basis": "240 research papers",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "47 research studies that shared primary data",
           "machine_readable_artifact": "none",
           "dimensions": [
             {
-              "dimension_label_verbatim": "Findability",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Find_1 The dataset is deposited in an open repository",
-                "Find_2 The associated article is cited or linked",
-                "Find_3 The dataset is assigned a unique, citable and persistent identifier (i.e., DOI)",
-                "Find_4 All compounds are assigned a unique, citable and persistent identifier (i.e., SMILES or InChI + InChI key)",
-                "Find_5 Data-time stamps for creation, deposition and versions of the dataset are included",
-                "Find_6 Bibliographic metadata are available (authors, contributors, affiliations, funding source)"
-              ],
+              "dimension_label_verbatim": "The dataset is deposited in an open repository",
+              "definition_quote": "The dataset is deposited in an open repository",
+              "value_list_verbatim": ["Yes", "No"],
               "closed_or_open": "closed_list",
-              "locator": "Table 2",
-              "quote": "Findability Find_1 The dataset is deposited in an open repository Find_2 The associated article is cited or linked"
+              "locator": "Findability",
+              "quote": "Are data deposited in an open repository? (Find_1)"
             },
             {
-              "dimension_label_verbatim": "Accessibility",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Access_1 Coherent file structure (logically grouped and labelled files)",
-                "Access_2 README file describes the dataset",
-                "Access_3 Unprocessed primary data are included",
-                "Access_4 Metadata describe instrument parameters (vendor, model, version, software)",
-                "Access_5 Metadata describe experiment parameters",
-                "Access_6 Metadata describe data cleaning/analysis/processing/visualisation method(s)"
-              ],
+              "dimension_label_verbatim": "The associated article is cited or linked",
+              "definition_quote": "The associated article is cited or linked",
+              "value_list_verbatim": ["Yes", "No"],
               "closed_or_open": "closed_list",
-              "locator": "Table 2",
-              "quote": "Accessibility Access_1 Coherent file structure (logically grouped and labelled files) Access_2 README file describes the dataset"
+              "locator": "Findability",
+              "quote": "is the associated article cited or linked?"
             },
             {
-              "dimension_label_verbatim": "Interoperability",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Inter_1 Original data are in standard open format(s)",
-                "Inter_2 Metadata are in a machine-readable format (i.e., XML, JSON)"
-              ],
+              "dimension_label_verbatim": "The dataset is assigned a unique, citable and persistent identifier (i.e., DOI)",
+              "definition_quote": "The dataset is assigned a unique, citable and persistent identifier (i.e., DOI)",
+              "value_list_verbatim": ["Yes", "No"],
               "closed_or_open": "closed_list",
-              "locator": "Table 2",
-              "quote": "Interoperability Inter_1 Original data are in standard open format(s) Inter_2 Metadata are in a machine-readable format"
+              "locator": "Findability",
+              "quote": "is the dataset assigned a unique, citable and persistent identifier?"
             },
             {
-              "dimension_label_verbatim": "Reusability",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Reuse_1 Original data are in reusable format",
-                "Reuse_2 Open licence information is available (i.e., CC or ODC) under which data can be reused",
-                "Reuse_3 Code scripts necessary to reproduce findings are available"
-              ],
+              "dimension_label_verbatim": "All compounds are assigned a unique, citable and persistent identifier (i.e., SMILES or InChI + InChI key)",
+              "definition_quote": "All compounds are assigned a unique, citable and persistent identifier (i.e., SMILES or InChI + InChI key)",
+              "value_list_verbatim": ["Yes", "No"],
               "closed_or_open": "closed_list",
-              "locator": "Table 2",
-              "quote": "Reusability Reuse_1 Original data are in reusable format Reuse_2 Open licence information is available"
+              "locator": "Findability",
+              "quote": "Are all compounds assigned a unique, citable and persistent identifier? (Find_4)"
+            },
+            {
+              "dimension_label_verbatim": "Data-time stamps for creation, deposition and versions of the dataset are included",
+              "definition_quote": "Data-time stamps for creation, deposition and versions of the dataset are included",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Findability",
+              "quote": "are Date-time stamps for creation, deposition and versions of the dataset are included?"
+            },
+            {
+              "dimension_label_verbatim": "Bibliographic metadata are available (authors, contributors, affiliations, funding source)",
+              "definition_quote": "Bibliographic metadata are available (authors, contributors, affiliations, funding source)",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Findability",
+              "quote": "are bibliographic metadata available?"
+            },
+            {
+              "dimension_label_verbatim": "Coherent file structure (logically grouped and labelled files)",
+              "definition_quote": "Coherent file structure (logically grouped and labelled files)",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Accessibility",
+              "quote": "is there a coherent file structure"
+            },
+            {
+              "dimension_label_verbatim": "README file describes the dataset",
+              "definition_quote": "README file describes the dataset",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Accessibility",
+              "quote": "does a README file describe the dataset?"
+            },
+            {
+              "dimension_label_verbatim": "Unprocessed primary data are included",
+              "definition_quote": "Unprocessed primary data are included",
+              "value_list_verbatim": ["NONE", "COMPLETE", "PARTIAL"],
+              "closed_or_open": "closed_list",
+              "locator": "Accessibility",
+              "quote": "Are unprocessed primary data included? (Access_3)"
+            },
+            {
+              "dimension_label_verbatim": "Metadata describe instrument parameters (vendor, model, version, software)",
+              "definition_quote": "Metadata describe instrument parameters (vendor, model, version, software)",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Accessibility",
+              "quote": "do metadata describe instrument parameters (vendor, model, version, software)?"
+            },
+            {
+              "dimension_label_verbatim": "Metadata describe experiment parameters",
+              "definition_quote": "Metadata describe experiment parameters",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Accessibility",
+              "quote": "do metadata describe experiment parameters?"
+            },
+            {
+              "dimension_label_verbatim": "Metadata describe data cleaning/analysis/processing/visualisation method(s)",
+              "definition_quote": "Metadata describe data cleaning/analysis/processing/visualisation method(s)",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Accessibility",
+              "quote": "Do metadata describe data cleaning, analysis, processing and visualization?"
+            },
+            {
+              "dimension_label_verbatim": "Original data are in standard open format(s)",
+              "definition_quote": "Original data are in standard open format(s)",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Interoperability",
+              "quote": "are original data in standard open formats?"
+            },
+            {
+              "dimension_label_verbatim": "Metadata are in a machine-readable format (i.e., XML, JSON)",
+              "definition_quote": "Metadata are in a machine-readable format (i.e., XML, JSON)",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Interoperability",
+              "quote": "are metadata in a machine-readable format?"
+            },
+            {
+              "dimension_label_verbatim": "Original data are in reusable format",
+              "definition_quote": "Original data are in reusable format",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Reusability",
+              "quote": "are original data in a reusable format?"
+            },
+            {
+              "dimension_label_verbatim": "Open licence information is available (i.e., CC or ODC) under which data can be reused",
+              "definition_quote": "Open licence information is available (i.e., CC or ODC) under which data can be reused",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Reusability",
+              "quote": "is open license information available?"
+            },
+            {
+              "dimension_label_verbatim": "Code scripts necessary to reproduce findings are available",
+              "definition_quote": "Code scripts necessary to reproduce findings are available",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Reusability",
+              "quote": "are code scripts necessary to reproduce findings available?"
             }
           ]
         }
@@ -135,43 +244,7 @@
       "has_scheme": true,
       "schemes": [
         {
-          "scheme_id": "credit-taxonomy-14-roles",
-          "scheme_name_verbatim": "CRediT taxonomy",
-          "source_ref": "doi:10.30834/kjp.36.1.2023.416",
-          "domain": "research_publishing",
-          "artifact_type": "technical_standard",
-          "granularity": "document",
-          "authority": "technical_standard",
-          "empirical_basis": "none",
-          "machine_readable_artifact": "https://credit.niso.org/",
-          "dimensions": [
-            {
-              "dimension_label_verbatim": "Contributor roles",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Conceptualisation",
-                "Data curation",
-                "Formal analysis",
-                "Funding acquisition",
-                "Investigation",
-                "Methodology",
-                "Project administration",
-                "Resources",
-                "Software",
-                "Supervision",
-                "Validation",
-                "Visualisation",
-                "Writing – original draft",
-                "Writing – review and editing"
-              ],
-              "closed_or_open": "closed_list",
-              "locator": "Table 2",
-              "quote": "Table 2: CRediT taxonomy (14 contributor roles)"
-            }
-          ]
-        },
-        {
-          "scheme_id": "authorship-criteria-table1",
+          "scheme_id": "authorship-criteria-by-organization",
           "scheme_name_verbatim": "Authorship criteria (Ethical authorship)",
           "source_ref": "doi:10.30834/kjp.36.1.2023.416",
           "domain": "research_publishing",
@@ -183,74 +256,176 @@
           "dimensions": [
             {
               "dimension_label_verbatim": "ICMJE",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Substantial contribution in conception or acquisition \nor analysis or interpretation",
-                "Writing the draft or revising it critically",
-                "Approval of content",
-                "Agree to take accountability for content"
-              ],
+              "definition_quote": "All \nfour \nshould \nbe \nmet. \nContribution can be either of the \nfour mentioned. Most widely-used \ncriteria.",
+              "value_list_verbatim": ["Substantial contribution in conception or acquisition \nor analysis or interpretation", "Writing the draft or revising it critically", "Approval of content", "Agree to take accountability for content"],
               "closed_or_open": "closed_list",
               "locator": "Table 1",
               "quote": "ICMJE \n1. Substantial contribution in conception or acquisition \nor analysis or interpretation"
             },
             {
               "dimension_label_verbatim": "COPE",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Creator or originator of the idea",
-                "Develop and disseminate the intellectual work arising \nfrom the idea"
-              ],
+              "definition_quote": "Gives most importance to the \n“originator” of the idea",
+              "value_list_verbatim": ["Creator or originator of the idea", "Develop and disseminate the intellectual work arising \nfrom the idea"],
               "closed_or_open": "closed_list",
               "locator": "Table 1",
-              "quote": "COPE \n1. Creator or originator of the idea \n2. Develop and disseminate the intellectual work arising"
+              "quote": "COPE \n1. Creator or originator of the idea \n2. Develop and disseminate the intellectual work arising \nfrom the idea"
             },
             {
               "dimension_label_verbatim": "WAME",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Substantial intellectual contributions to the study \n(research question, design, analysis, interpretation, and \nwritten description)"
-              ],
-              "closed_or_open": "closed_list",
+              "definition_quote": "Any other contribution should be \nacknowledged only",
+              "value_list_verbatim": ["Substantial intellectual contributions to the study \n(research question, design, analysis, interpretation, and \nwritten description)"],
+              "closed_or_open": "not_stated",
               "locator": "Table 1",
-              "quote": "WAME \nSubstantial intellectual contributions to the study \n(research question, design, analysis, interpretation, and"
+              "quote": "Substantial intellectual contributions to the study \n(research question, design, analysis, interpretation, and \nwritten description)"
             },
             {
               "dimension_label_verbatim": "CSE",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Substantial contribution",
-                "Agree to be accountable for the content"
-              ],
+              "definition_quote": "Similar to ICMJE criteria; also \nmentions McNutt’s criteria",
+              "value_list_verbatim": ["Substantial contribution", "Agree to be accountable for the content"],
               "closed_or_open": "closed_list",
               "locator": "Table 1",
               "quote": "CSE \n1. Substantial contribution  \n2. Agree to be accountable for the content"
             },
             {
               "dimension_label_verbatim": "NIH",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Original idea, planning, and inputs for study design \nand interpretation of results",
-                "Active intellectual contributions",
-                "Active involvement in the project",
-                "Novel provision of resources",
-                "Original experimental work",
-                "Data acquisition and analysis beyond the basic",
-                "Drafting of the manuscript"
-              ],
+              "definition_quote": "Emphasises “active involvement” \nin the research. Writing the draft \nwarrants first authorship.",
+              "value_list_verbatim": ["Original idea, planning, and inputs for study design \nand interpretation of results", "Active intellectual contributions", "Active involvement in the project", "Novel provision of resources", "Original experimental work", "Data acquisition and analysis beyond the basic", "Drafting of the manuscript"],
               "closed_or_open": "closed_list",
               "locator": "Table 1",
               "quote": "NIH \n1. Original idea, planning, and inputs for study design \nand interpretation of results"
             },
             {
               "dimension_label_verbatim": "McNutt \net al.",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Substantial contribution in conception OR design OR \nacquisition, analysis OR interpretation OR drafting, \nrevising, AND approved the final version, AND agree to be \naccountable for the content"
-              ],
-              "closed_or_open": "closed_list",
+              "definition_quote": "More clarity and breadth than \nICMJE \ncriteria",
+              "value_list_verbatim": ["Substantial contribution in conception OR design OR \nacquisition, analysis OR interpretation OR drafting, \nrevising, AND approved the final version, AND agree to be \naccountable for the content"],
+              "closed_or_open": "not_stated",
               "locator": "Table 1",
-              "quote": "McNutt \net al. \nSubstantial contribution in conception OR design OR"
+              "quote": "Substantial contribution in conception OR design OR \nacquisition, analysis OR interpretation OR drafting, \nrevising, AND approved the final version, AND agree to be"
+            }
+          ]
+        },
+        {
+          "scheme_id": "credit-taxonomy-14-roles",
+          "scheme_name_verbatim": "CRediT taxonomy (14 contributor roles)",
+          "source_ref": "doi:10.30834/kjp.36.1.2023.416",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://credit.niso.org/",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Conceptualisation",
+              "definition_quote": "Formulating research questions, aims, objectives",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Formulating research questions, aims, objectives"
+            },
+            {
+              "dimension_label_verbatim": "Data curation",
+              "definition_quote": "Managing data through its cycle (data cycle)",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Managing data through its cycle (data cycle)"
+            },
+            {
+              "dimension_label_verbatim": "Formal analysis",
+              "definition_quote": "Statistical analysis or synthesis of study data",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Statistical analysis or synthesis of study data"
+            },
+            {
+              "dimension_label_verbatim": "Funding acquisition",
+              "definition_quote": "Getting financial support for research till publication",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Getting financial support for research till publication"
+            },
+            {
+              "dimension_label_verbatim": "Investigation",
+              "definition_quote": "Data collection through surveys, experiments",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Data collection through surveys, experiments"
+            },
+            {
+              "dimension_label_verbatim": "Methodology",
+              "definition_quote": "Developing methodology or models",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Developing methodology or models"
+            },
+            {
+              "dimension_label_verbatim": "Project administration",
+              "definition_quote": "Management of research planning and execution",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Management of research planning and execution"
+            },
+            {
+              "dimension_label_verbatim": "Resources",
+              "definition_quote": "Arranging for all material resources",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Arranging for all material resources"
+            },
+            {
+              "dimension_label_verbatim": "Software",
+              "definition_quote": "Programming and developing codes and algorithms",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Programming and developing codes and algorithms"
+            },
+            {
+              "dimension_label_verbatim": "Supervision",
+              "definition_quote": "Oversight, leadership or mentoring research",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Oversight, leadership or mentoring research"
+            },
+            {
+              "dimension_label_verbatim": "Validation",
+              "definition_quote": "Verification of the research findings",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Verification of the research findings"
+            },
+            {
+              "dimension_label_verbatim": "Visualisation",
+              "definition_quote": "Preparation and presentation of research work",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Preparation and presentation of research work"
+            },
+            {
+              "dimension_label_verbatim": "Writing – original draft",
+              "definition_quote": "Writing the initial draft",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Writing the initial draft"
+            },
+            {
+              "dimension_label_verbatim": "Writing – review and editing",
+              "definition_quote": "Critical review, comments, and editing of the draft before and after \npublication",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Critical review, comments, and editing of the draft before and after \npublication"
             }
           ]
         },
@@ -266,76 +441,98 @@
           "machine_readable_artifact": "none",
           "dimensions": [
             {
-              "dimension_label_verbatim": "11 \ncontributor roles",
+              "dimension_label_verbatim": "Concept",
               "definition_quote": "",
-              "value_list_verbatim": [
-                "Concept",
-                "Design",
-                "Supervision",
-                "Resources",
-                "Material",
-                "Data \ncollection and processing",
-                "Analysis and \ninterpretation",
-                "Literature search",
-                "Writing",
-                "Critical   review",
-                "Other     novel"
-              ],
-              "closed_or_open": "closed_list",
-              "locator": "Authorship criteria",
-              "quote": "The Council of Science Editors has defined 11 \ncontributor roles which can be used as a \nchecklist"
-            }
-          ]
-        },
-        {
-          "scheme_id": "phillippi-authorship-grids",
-          "scheme_name_verbatim": "Authorship Grids",
-          "source_ref": "doi:10.30834/kjp.36.1.2023.416",
-          "domain": "research_publishing",
-          "artifact_type": "reporting_guideline",
-          "granularity": "document",
-          "authority": "not_stated",
-          "empirical_basis": "none",
-          "machine_readable_artifact": "none",
-          "dimensions": [
-            {
-              "dimension_label_verbatim": "eight \nsections \nof \nrows",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "responsibility",
-                "coordination \nand \ncommunication",
-                "participant protections",
-                "design",
-                "data",
-                "analysis",
-                "writing",
-                "final approvals and \nsubmission"
-              ],
-              "closed_or_open": "closed_list",
-              "locator": "Authorship Grids",
-              "quote": "They are divided into eight \nsections \nof \nrows: \n1) \nresponsibility, \n2) \ncoordination \nand \ncommunication"
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "1) \nConcept,"
             },
             {
-              "dimension_label_verbatim": "another grid to reflect the \nliterature synthesis process",
+              "dimension_label_verbatim": "Design",
               "definition_quote": "",
-              "value_list_verbatim": [
-                "roles and responsibilities",
-                "coordination and communication in the \nteam",
-                "designing the review and performing \nthe literature search",
-                "documenting and \nstoring the sources for review",
-                "data \nevaluation and synthesis",
-                "writing the \nmanuscript",
-                "final approvals and \nsubmission"
-              ],
-              "closed_or_open": "closed_list",
-              "locator": "Authorship Grids",
-              "quote": "There can be another grid to reflect the \nliterature synthesis process. It can have \nsections such as"
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "2) \nDesign,"
+            },
+            {
+              "dimension_label_verbatim": "Supervision",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "3) \nSupervision,"
+            },
+            {
+              "dimension_label_verbatim": "Resources",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "4) Resources,"
+            },
+            {
+              "dimension_label_verbatim": "Material",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "5) Material,"
+            },
+            {
+              "dimension_label_verbatim": "Data collection and processing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "6) Data \ncollection and processing,"
+            },
+            {
+              "dimension_label_verbatim": "Analysis and interpretation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "7) Analysis and \ninterpretation,"
+            },
+            {
+              "dimension_label_verbatim": "Literature search",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "8) Literature search,"
+            },
+            {
+              "dimension_label_verbatim": "Writing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "9) Writing,"
+            },
+            {
+              "dimension_label_verbatim": "Critical review",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "10) Critical   review,"
+            },
+            {
+              "dimension_label_verbatim": "Other novel",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "61",
+              "quote": "11)     Other     novel"
             }
           ]
         },
         {
-          "scheme_id": "inappropriate-authorship-practices-table3",
-          "scheme_name_verbatim": "Inappropriate or unethical authorship practices",
+          "scheme_id": "authorship-grid-phillippi",
+          "scheme_name_verbatim": "Authorship Grids",
           "source_ref": "doi:10.30834/kjp.36.1.2023.416",
           "domain": "research_publishing",
           "artifact_type": "normative_proposal",
@@ -345,21 +542,137 @@
           "machine_readable_artifact": "none",
           "dimensions": [
             {
-              "dimension_label_verbatim": "Authorship practices",
+              "dimension_label_verbatim": "responsibility",
               "definition_quote": "",
-              "value_list_verbatim": [
-                "Honorary or courtesy \nauthorship",
-                "Gift authorship",
-                "Guest authorship",
-                "Coercive or pressed \nauthorship",
-                "Ghost or orphan authorship",
-                "Anonymous authorship",
-                "Forged authorship",
-                "Theft authorship"
-              ],
-              "closed_or_open": "closed_list",
-              "locator": "Table 3",
-              "quote": "Table 3: Inappropriate or unethical authorship practices"
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "1) \nresponsibility,"
+            },
+            {
+              "dimension_label_verbatim": "coordination \nand \ncommunication",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "2) \ncoordination \nand \ncommunication,"
+            },
+            {
+              "dimension_label_verbatim": "participant protections",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "3) \nparticipant protections,"
+            },
+            {
+              "dimension_label_verbatim": "design",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "4) design,"
+            },
+            {
+              "dimension_label_verbatim": "data",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "5) data,"
+            },
+            {
+              "dimension_label_verbatim": "analysis",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "6) \nanalysis,"
+            },
+            {
+              "dimension_label_verbatim": "writing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "7) writing,"
+            },
+            {
+              "dimension_label_verbatim": "final approvals and \nsubmission",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "8) final approvals and \nsubmission."
+            }
+          ]
+        },
+        {
+          "scheme_id": "literature-synthesis-review-grid",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.30834/kjp.36.1.2023.416",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "roles and responsibilities",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "1) roles and responsibilities,"
+            },
+            {
+              "dimension_label_verbatim": "coordination and communication in the \nteam",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "2) coordination and communication in the \nteam,"
+            },
+            {
+              "dimension_label_verbatim": "designing the review and performing \nthe literature search",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "3) designing the review and performing \nthe literature search,"
+            },
+            {
+              "dimension_label_verbatim": "documenting and \nstoring the sources for review",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "4) documenting and \nstoring the sources for review,"
+            },
+            {
+              "dimension_label_verbatim": "data \nevaluation and synthesis",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "5) data \nevaluation and synthesis,"
+            },
+            {
+              "dimension_label_verbatim": "writing the \nmanuscript",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "6) writing the \nmanuscript,"
+            },
+            {
+              "dimension_label_verbatim": "final approvals and \nsubmission",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship Grids",
+              "quote": "7) final approvals and \nsubmission"
             }
           ]
         }

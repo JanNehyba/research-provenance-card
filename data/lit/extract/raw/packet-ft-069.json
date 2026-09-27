@@ -6,28 +6,47 @@
       "has_scheme": true,
       "schemes": [
         {
-          "scheme_id": "physical-samples-author-guidance-4-steps",
+          "scheme_id": "sample-publishing-4-step-guidance",
           "scheme_name_verbatim": "Publishing Open Research Using Physical Samples: Guidance for Authors",
           "source_ref": "doi:10.1038/s41597-025-05295-z",
           "domain": "research_publishing",
           "artifact_type": "reporting_guideline",
           "granularity": "document",
           "authority": "not_stated",
-          "empirical_basis": "none",
+          "empirical_basis": "synthesizing existing practices, gathering community feedback, and assessing real-world examples",
           "machine_readable_artifact": "none",
           "dimensions": [
             {
-              "dimension_label_verbatim": "Publishing Open Research Using Physical Samples: Guidance for Authors",
-              "definition_quote": "",
-              "value_list_verbatim": [
-                "Step 1. Describe samples with rich metadata",
-                "Step 2. Assign and/or use identifiers for samples",
-                "Step 3. Publish and cite samples in datasets",
-                "Step 4. Cite sample identifiers in paper"
-              ],
-              "closed_or_open": "closed_list",
-              "locator": "Recommended practices for scientists publishing sample-based research",
-              "quote": "A summary of key elements of the full scientific author guide for publishing Open and FAIR research using physical samples"
+              "dimension_label_verbatim": "Describe samples with rich metadata",
+              "definition_quote": "Describe key characteristics and collection details of samples in a study using a domain-specific standard or reporting format",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Step 1. Describe samples with rich metadata",
+              "quote": "Step 1. Describe samples with rich metadata"
+            },
+            {
+              "dimension_label_verbatim": "Assign and/or use identifiers for samples",
+              "definition_quote": "Assign and/or use existing sample PIDs to track samples and associated data",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Step 2. Assign and/or use identifiers for samples",
+              "quote": "Step 2. Assign and/or use identifiers for samples"
+            },
+            {
+              "dimension_label_verbatim": "Publish and cite samples in datasets",
+              "definition_quote": "Publish a dataset that includes your sample PIDs and associated data",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Step 3. Publish and cite samples in datasets",
+              "quote": "Step 3. Publish and cite samples in datasets"
+            },
+            {
+              "dimension_label_verbatim": "Cite sample identifiers in paper",
+              "definition_quote": "use sample PIDs in a consistent standard format to address methods or findings",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Step 4. Cite sample identifiers in paper",
+              "quote": "Step 4. Cite sample identifiers in paper"
             }
           ]
         }
@@ -38,31 +57,31 @@
       "has_scheme": true,
       "schemes": [
         {
-          "scheme_id": "gamer-reporting-checklist-items",
-          "scheme_name_verbatim": "GAMER",
+          "scheme_id": "gamer-initial-checklist-aspects",
+          "scheme_name_verbatim": "Generative Artificial Intelligence Tools in Medical Research (GAMER)",
           "source_ref": "doi:10.2196/64640",
           "domain": "research_publishing",
           "artifact_type": "reporting_guideline",
           "granularity": "document",
           "authority": "not_stated",
-          "empirical_basis": "44 experts from 23 countries",
+          "empirical_basis": "10 items derived from the scoping review",
           "machine_readable_artifact": "none",
           "dimensions": [
             {
               "dimension_label_verbatim": "the specific GenAI tool used",
               "definition_quote": "",
               "value_list_verbatim": [],
-              "closed_or_open": "open_text",
+              "closed_or_open": "not_stated",
               "locator": "Stage 2: Delphi Survey",
-              "quote": "covering aspects such as the specific GenAI tool used, the version of the tool"
+              "quote": "the specific GenAI tool used"
             },
             {
               "dimension_label_verbatim": "the version of the tool",
               "definition_quote": "",
               "value_list_verbatim": [],
-              "closed_or_open": "open_text",
+              "closed_or_open": "not_stated",
               "locator": "Stage 2: Delphi Survey",
-              "quote": "the specific GenAI tool used, the version of the tool, the sections of the manuscript"
+              "quote": "the version of the tool"
             },
             {
               "dimension_label_verbatim": "the sections of the manuscript where GenAI was applied",
@@ -70,15 +89,15 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Stage 2: Delphi Survey",
-              "quote": "the sections of the manuscript where GenAI was applied, the purpose of GenAI use"
+              "quote": "the sections of the manuscript where GenAI was applied"
             },
             {
               "dimension_label_verbatim": "the purpose of GenAI use (eg, language editing or content generation)",
               "definition_quote": "",
               "value_list_verbatim": [],
-              "closed_or_open": "open_text",
+              "closed_or_open": "not_stated",
               "locator": "Stage 2: Delphi Survey",
-              "quote": "the purpose of GenAI use (eg, language editing or content generation), and whether manual verification was performed"
+              "quote": "the purpose of GenAI use (eg, language editing or content generation)"
             },
             {
               "dimension_label_verbatim": "whether manual verification was performed",
@@ -86,7 +105,7 @@
               "value_list_verbatim": [],
               "closed_or_open": "not_stated",
               "locator": "Stage 2: Delphi Survey",
-              "quote": "and whether manual verification was performed"
+              "quote": "whether manual verification was performed"
             }
           ]
         }
@@ -97,39 +116,191 @@
       "has_scheme": true,
       "schemes": [
         {
-          "scheme_id": "tripod-checklist",
-          "scheme_name_verbatim": "TRIPOD",
+          "scheme_id": "tripod-22-item-checklist",
+          "scheme_name_verbatim": "Transparent Reporting of a multivari-\nable prediction model for Individual Prognosis Or Diag-\nnosis (TRIPOD) Statement",
           "source_ref": "doi:10.1186/s12874-021-01469-6",
           "domain": "research_publishing",
           "artifact_type": "reporting_guideline",
-          "granularity": "document",
-          "authority": "not_stated",
+          "granularity": "section",
+          "authority": "editorial_requirement",
           "empirical_basis": "152 articles were included",
-          "machine_readable_artifact": "none",
+          "machine_readable_artifact": "www.TRIPOD-statement.org",
           "dimensions": [
             {
-              "dimension_label_verbatim": "reporting items",
+              "dimension_label_verbatim": "Title",
               "definition_quote": "",
-              "value_list_verbatim": [
-                "1. Title",
-                "2. Abstract",
-                "3. Background and objectives",
-                "4. Source of data",
-                "5. Participants",
-                "6. Outcome",
-                "7. Predictors",
-                "8. Sample size",
-                "9. Missing Data",
-                "10. Statistical analysis",
-                "11. Risk groups",
-                "12. Development vs. validation",
-                "13. Participants",
-                "14. Model development",
-                "15. Model specification"
-              ],
+              "value_list_verbatim": ["reported", "not reported"],
               "closed_or_open": "closed_list",
               "locator": "Table 1",
-              "quote": "Table 1  TRIPOD adherence reporting items"
+              "quote": "1. Title"
+            },
+            {
+              "dimension_label_verbatim": "Abstract",
+              "definition_quote": "",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "2. Abstract"
+            },
+            {
+              "dimension_label_verbatim": "Background and objectives",
+              "definition_quote": "Context and rationale",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "3. Background and objectives"
+            },
+            {
+              "dimension_label_verbatim": "Source of data",
+              "definition_quote": "Source of data",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "4. Source of data"
+            },
+            {
+              "dimension_label_verbatim": "Participants",
+              "definition_quote": "Study setting",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "5. Participants"
+            },
+            {
+              "dimension_label_verbatim": "Outcome",
+              "definition_quote": "Outcome definition",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "6. Outcome"
+            },
+            {
+              "dimension_label_verbatim": "Predictors",
+              "definition_quote": "Predictors definition",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "7. Predictors"
+            },
+            {
+              "dimension_label_verbatim": "Sample size",
+              "definition_quote": "Arrival at study size",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "8. Sample size"
+            },
+            {
+              "dimension_label_verbatim": "Missing Data",
+              "definition_quote": "Handling of missing data",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "9. Missing Data"
+            },
+            {
+              "dimension_label_verbatim": "Statistical analysis",
+              "definition_quote": "Handling of predictors in the analysis",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "10. Statistical analysis"
+            },
+            {
+              "dimension_label_verbatim": "Risk groups",
+              "definition_quote": "Details of how risk groups were created",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "11. Risk groups"
+            },
+            {
+              "dimension_label_verbatim": "Development vs. validation",
+              "definition_quote": "For validation, description of differences between development and validation \ndata",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "12. Development vs. validation"
+            },
+            {
+              "dimension_label_verbatim": "Participants",
+              "definition_quote": "Flow of participants through the study",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "13. Participants"
+            },
+            {
+              "dimension_label_verbatim": "Model development",
+              "definition_quote": "Number of participants and outcome in each analysis",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "14. Model development"
+            },
+            {
+              "dimension_label_verbatim": "Model specification",
+              "definition_quote": "Presentation of full prediction model",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "15. Model specification"
+            },
+            {
+              "dimension_label_verbatim": "Model performance",
+              "definition_quote": "Report of model performance measures",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "16. Model performance"
+            },
+            {
+              "dimension_label_verbatim": "Model updating",
+              "definition_quote": "Results from any model updating",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "17. Model updating"
+            },
+            {
+              "dimension_label_verbatim": "Limitations",
+              "definition_quote": "Limitations",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "18. Limitations"
+            },
+            {
+              "dimension_label_verbatim": "Interpretation",
+              "definition_quote": "Overall interpretation of results",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "19. Interpretation"
+            },
+            {
+              "dimension_label_verbatim": "Implications",
+              "definition_quote": "Potential clinical use of the model and implications for future research",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "20. Implications"
+            },
+            {
+              "dimension_label_verbatim": "Supplementary information",
+              "definition_quote": "Availability of supplementary resources",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "21. Supplementary information"
+            },
+            {
+              "dimension_label_verbatim": "Funding",
+              "definition_quote": "Source of funding and role of funders",
+              "value_list_verbatim": ["reported", "not reported"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "22. Funding"
             }
           ]
         }

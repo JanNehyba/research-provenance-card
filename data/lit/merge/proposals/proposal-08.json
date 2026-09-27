@@ -1,0 +1,560 @@
+{
+  "batch_id": "08",
+  "labels_in": 150,
+  "labels_out": 150,
+  "dimensions": [
+    {
+      "canonical_id": "extent-of-ai-involvement",
+      "canonical_label": "Extent of AI involvement",
+      "gloss": "How much of the output the AI produced relative to the human, expressed as an ordered scale from none/minimal involvement to full AI generation.",
+      "variants": ["scale levels and descriptions", "specify the level of ai assistance", "task-related ai ownership", "the aias", "the degree of human involvement in its production", "the extent axis (e-scale)", "the extent of ai involvement", "the extent of use", "the level of ai involvement in research and writing"],
+      "note": "task-related ai ownership is a close call: it frames the scale as ownership levels (no/low-delegated/partial/shared/high-human) rather than 'AI involvement', but it is the same ordinal axis."
+    },
+    {
+      "canonical_id": "ai-role-taxonomy",
+      "canonical_label": "AI role/agency taxonomy",
+      "gloss": "A named categorical taxonomy of the role or agency level an AI system played (e.g. Scribe, Executor, Evaluator, Co-ideator, Promptee; or a tiered autonomy hierarchy), ranked by kind of AI agency rather than by amount.",
+      "variants": ["scribe", "six-tier hierarchy (ats-0 through ats-5)", "subtypes", "the ai role taxonomy"],
+      "note": "'scribe' is one value drawn from the AI role taxonomy itself; included here as a close call rather than as its own axis."
+    },
+    {
+      "canonical_id": "disclosure-location",
+      "canonical_label": "Disclosure location / scope within the work",
+      "gloss": "Which part or section of a document or work (whole manuscript, specific sections, specific tasks) the AI-use disclosure refers to or must appear in.",
+      "variants": ["scope / sections affected", "scope of use", "specification of disclosure location", "section", "section and topic"],
+      "note": ""
+    },
+    {
+      "canonical_id": "permissible-scope-of-ai-use",
+      "canonical_label": "Permissible scope of AI use",
+      "gloss": "Whether, and under what boundaries or approved-source restrictions, AI use is permitted, prohibited, or left unaddressed.",
+      "variants": ["scope and permissions", "scope clarity", "source restrictions", "specification", "speciﬁcation of permissible uses of ai"],
+      "note": "close call: 'scope clarity' comes from a clinical AI capability-boundary context rather than an authorship-permission policy, but it records the same 'what AI is or isn't allowed to do' axis."
+    },
+    {
+      "canonical_id": "ai-tool-identity",
+      "canonical_label": "AI tool identity",
+      "gloss": "Which named AI tool or model (e.g. ChatGPT, Grammarly, Claude) was used.",
+      "variants": ["specific tools", "the name of ai tool(s) used"],
+      "note": ""
+    },
+    {
+      "canonical_id": "model-technical-details-and-parameters",
+      "canonical_label": "Model technical details and generation parameters",
+      "gloss": "Whether technical details of the AI model and its generation settings (parameters, stochasticity controls, prompt-attempt counts, output selection) must be declared.",
+      "variants": ["specific technical details of the ai model used should be declared", "stochasticity control", "technical configuration and parameter settings"],
+      "note": ""
+    },
+    {
+      "canonical_id": "prompt-reporting",
+      "canonical_label": "Prompt reporting",
+      "gloss": "Whether the exact prompts given to an AI system must be reported as part of disclosure.",
+      "variants": ["specific prompts used should be reported", "the exact prompt used"],
+      "note": ""
+    },
+    {
+      "canonical_id": "task-or-purpose-of-ai-use",
+      "canonical_label": "Task or purpose of AI use",
+      "gloss": "The specific task, purpose, or job (writing, editing, translation, coding, summarizing) that AI was used for.",
+      "variants": ["specific course tasks or assignment associated with ai-use", "specific uses of genai in writing assistance", "task", "task category", "tasks ai tools assisted with", "the five most frequently mentioned task categories"],
+      "note": ""
+    },
+    {
+      "canonical_id": "risk-tier-classification",
+      "canonical_label": "Risk/stakes tier of AI use",
+      "gloss": "A tiered classification of AI use by how severe, high-stakes, or epistemically sensitive it is, used to set the required level of oversight and disclosure.",
+      "variants": ["severity and reversibility of potential harm", "task classification by epistemic sensitivity", "the appropriate level of oversight and disclosure", "the level of risk"],
+      "note": ""
+    },
+    {
+      "canonical_id": "contributor-contribution-breakdown",
+      "canonical_label": "Specific role/contribution of a party",
+      "gloss": "The particular task or contribution (e.g. supplying samples, data analysis, visualization, domain selection) attributed to a human or AI contributor in the work.",
+      "variants": ["sample manipulation", "soldier", "specific contributions", "specific role on a project", "the evolving role of human researchers"],
+      "note": "close call: 'soldier' and 'sample manipulation' are individual role/task labels from source tables rather than named axes, but they describe the same 'who did what specific task' axis as the others."
+    },
+    {
+      "canonical_id": "authorship-criteria",
+      "canonical_label": "Authorship criteria",
+      "gloss": "The threshold of contribution (conception/design, intellectual content, interpretation) that qualifies a contributor for authorship.",
+      "variants": ["specifying authorship criteria", "sub- stantial contributions to conception/design", "the intellectual content, interpretation, argument, or presentation of a manuscript"],
+      "note": ""
+    },
+    {
+      "canonical_id": "required-disclosure-content-checklist",
+      "canonical_label": "Required disclosure content checklist",
+      "gloss": "A fixed bundle of specific data points (tool name/version, operator identity, dates, predictions, biases, etc.) that a disclosure statement or record must include to be considered complete.",
+      "variants": ["six elements", "structured metadata", "the minimum information necessary to understand"],
+      "note": ""
+    },
+    {
+      "canonical_id": "cryptographic-authenticity-metadata",
+      "canonical_label": "Cryptographic authenticity metadata",
+      "gloss": "Technical fields (digital signature, encryption technique, version, hashing algorithm) attached to a claim to allow authenticity verification.",
+      "variants": ["signature (handtekening)", "technische velden"],
+      "note": ""
+    },
+    {
+      "canonical_id": "provenance-verification-technology-type",
+      "canonical_label": "Provenance/authenticity verification technology type",
+      "gloss": "The category of technical mechanism (cryptographic attestation, detection tooling, log/blockchain/ontology-based systems) used to establish or verify content provenance and authenticity.",
+      "variants": ["software-only cryptographic attestation", "synthetic content detection", "technical", "technical support", "technologies"],
+      "note": "'technical support' is a close call: it names a policy dimension (building detection/monitoring tools) rather than classifying an existing technology, but it concerns the same class of technical provenance/detection mechanisms."
+    },
+    {
+      "canonical_id": "provenance-graph-relationship-type",
+      "canonical_label": "Provenance relationship type",
+      "gloss": "The named type of relationship (cites, supports, contradicts, derived-from, connects-to-subject) linking one piece of content or claim to another in a provenance graph.",
+      "variants": ["subject and entity links", "support and provenance relationships"],
+      "note": ""
+    },
+    {
+      "canonical_id": "data-and-content-origin",
+      "canonical_label": "Data/content origin",
+      "gloss": "What material the content or record is built from and where it originated, including attribution and institutional origin.",
+      "variants": ["source identity", "source(s) of data"],
+      "note": ""
+    },
+    {
+      "canonical_id": "system-and-source-transparency",
+      "canonical_label": "System/source transparency",
+      "gloss": "Whether the basis for an AI system's output, or the system's inner workings, is visible to users and reviewers.",
+      "variants": ["source transparency", "system transparency"],
+      "note": "close call: one label is about visibility of the basis for a recommendation, the other about general AI-system transparency in a checklist; grouped as the same internal-transparency axis, distinct from disclosure-of-use."
+    },
+    {
+      "canonical_id": "technical-trust-layers",
+      "canonical_label": "Layers of a technical trust/provenance framework",
+      "gloss": "Named layers within a multi-layer technical scheme (e.g. similarity-and-history checking, provenance, identity, authentication, authority, factual truth) that together assess content trustworthiness.",
+      "variants": ["s-layer (similarity & history)", "technical layers"],
+      "note": "close call: grouped because both are literal 'layer' components of a layered classification scheme, even though the surrounding schemes differ."
+    },
+    {
+      "canonical_id": "temporal-aspects-of-contribution",
+      "canonical_label": "Temporal aspects of contribution",
+      "gloss": "When contributions occurred, and whether the analysis supports bounded, reproducible, time-anchored review.",
+      "variants": ["temporal context", "temporal discrepancies"],
+      "note": ""
+    },
+    {
+      "canonical_id": "code-openness-status",
+      "canonical_label": "Code openness status",
+      "gloss": "Whether the underlying source code is accessible, licensed as open source, and/or modifiable.",
+      "variants": ["source code modifiable", "sourceopen"],
+      "note": ""
+    },
+    {
+      "canonical_id": "security-controls",
+      "canonical_label": "Security controls",
+      "gloss": "Protections and controls described against data breaches, cyberattacks, or other security vulnerabilities.",
+      "variants": ["security", "security posture"],
+      "note": ""
+    },
+    {
+      "canonical_id": "data-governance-for-ai-input",
+      "canonical_label": "Data governance for AI input",
+      "gloss": "Rules governing what data (secondary or sensitive) may be entered into an AI system, such as blanket or tiered bans.",
+      "variants": ["secondary data governance", "sensitive data governance"],
+      "note": ""
+    },
+    {
+      "canonical_id": "study-registration",
+      "canonical_label": "Study registration/protocol",
+      "gloss": "Whether and where a study's registration or protocol (trial number, PROSPERO/OSF number, protocol version) is disclosed.",
+      "variants": ["study registration", "study registration/protocol"],
+      "note": ""
+    },
+    {
+      "canonical_id": "dataset-paper-linkage",
+      "canonical_label": "Dataset-paper linkage",
+      "gloss": "The type and quality of the link between a published dataset and the paper it accompanies.",
+      "variants": ["studylinkage", "studylinkageok"],
+      "note": ""
+    },
+    {
+      "canonical_id": "stakeholder-identification",
+      "canonical_label": "Stakeholder identification",
+      "gloss": "The categories of actors or stakeholders (builders, creators, distributors, authors, journals, participants, readers) who have an interest in or connection to the work.",
+      "variants": ["stakeholder categories", "stakeholders and contributors"],
+      "note": ""
+    },
+    {
+      "canonical_id": "content-origin-type-classification",
+      "canonical_label": "Content origin type classification",
+      "gloss": "A categorical classification of content by its degree of AI origin, such as original/augmented/synthetic text, or a bright-line threshold between reactive augmentation and generative synthesis.",
+      "variants": ["text typology", "the bright line principle"],
+      "note": "close call: one scheme uses three text-typology categories, the other a binary threshold, but both classify content by type/degree of AI origin rather than a continuous extent scale."
+    },
+    {
+      "canonical_id": "indispensability-and-specificity-of-contribution",
+      "canonical_label": "Indispensability/specificity of a contribution",
+      "gloss": "Whether a contribution was specific and non-substitutable, i.e. whether a different prompter/contributor could have produced an equivalent result.",
+      "variants": ["specificity", "substitutability"],
+      "note": ""
+    },
+    {
+      "canonical_id": "error-and-safety-reporting",
+      "canonical_label": "Error/safety rate reporting",
+      "gloss": "Whether and how significant errors, malfunctions, or the AI system's error rate were defined, identified, and reported.",
+      "variants": ["safety and errors", "the error rate found"],
+      "note": ""
+    },
+    {
+      "canonical_id": "reflexivity-and-methodology-alignment",
+      "canonical_label": "Methodological alignment and AI-specific reflexivity",
+      "gloss": "Whether researchers align their analysis methodologies and incorporate AI-specific reflexive practice into their work.",
+      "variants": ["the alignment of analysis methodologies", "the incorporation of ai-specific reflexivity"],
+      "note": ""
+    },
+    {
+      "canonical_id": "education-assessment-rubric-criteria",
+      "canonical_label": "Education assessment rubric criteria",
+      "gloss": "Rubric criteria used to grade the quality of AI-assisted student work, such as accuracy/rigor, critical evaluation of AI output, and testing an answer against real context.",
+      "variants": ["substantive quality", "t: tuned criteria", "test the answer against patient context"],
+      "note": ""
+    },
+    {
+      "canonical_id": "assessment-redesign-strategies",
+      "canonical_label": "Assessment redesign strategies",
+      "gloss": "Named strategies for redesigning academic assessment tasks in response to AI availability, such as scenario-based tasks or combining secure exams with AI-enabled coursework.",
+      "variants": ["scenario-based application", "secure high-stakes exams combined with ai-enabled coursework"],
+      "note": ""
+    },
+    {
+      "canonical_id": "quality-assurance-framework-elements",
+      "canonical_label": "Pre-existing quality-assurance framework elements",
+      "gloss": "Generic quality-assurance-framework elements (alongside Intellectual Quality) retained or extended when adapting a framework for AI-related assessment.",
+      "variants": ["significance", "student support"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-mediated-instructional-arrangement-dimensions",
+      "canonical_label": "AI-mediated instructional arrangement dimensions",
+      "gloss": "Named dimensions (terminal objective, support persistence) used to classify an AI-mediated instructional arrangement.",
+      "variants": ["support persistence", "terminal objective"],
+      "note": ""
+    },
+    {
+      "canonical_id": "workflow-stage-basis-for-disclosure",
+      "canonical_label": "Workflow stage as basis for disclosure",
+      "gloss": "Disclosure requirements organized around, or a workflow expressed as, sequential stages of content production (creation, provenance capture, review, authenticity checking, disclosure, external assurance).",
+      "variants": ["six stage workflow", "stage-specific disclosure"],
+      "note": ""
+    },
+    {
+      "canonical_id": "production-framework-layers",
+      "canonical_label": "Production framework layers",
+      "gloss": "Named layers (storycraft, engagement levers, AI workflow) of a content-production framework describing how a piece is crafted, rather than how its AI use is disclosed.",
+      "variants": ["storycraft", "the ai workflow", "the engagement lever set"],
+      "note": "close call: these describe production-process layers rather than disclosure content, grouped together because they are parallel labeled layers (A/B/D) of one scheme."
+    },
+    {
+      "canonical_id": "software-identity-metadata",
+      "canonical_label": "Software identity metadata",
+      "gloss": "Basic identifying metadata fields for a piece of software: its name and its description/abstract.",
+      "variants": ["software description/abstract", "software name"],
+      "note": ""
+    },
+    {
+      "canonical_id": "sponsored-content-disclosure",
+      "canonical_label": "Sponsored content disclosure",
+      "gloss": "Whether and how paid or sponsored content (endorsements, affiliate marketing, native advertising) is clearly labeled as such.",
+      "variants": ["sponsored content", "sponsored-content transparency"],
+      "note": ""
+    },
+    {
+      "canonical_id": "open-practices-service-contributions",
+      "canonical_label": "Open-practices service contributions",
+      "gloss": "Categories of service, teaching, or technical-competency contribution that count toward credit for promoting open data/software practices.",
+      "variants": ["service as part of professional organizations, groups, journals, or committees that support and promote open practices for data and software", "teaching, training, outreach, and other community activities to advance best practices in open data and open-source software", "technical competency in the creation, management, and use of data and/or software"],
+      "note": ""
+    },
+    {
+      "canonical_id": "run-identifier",
+      "canonical_label": "Run identifier",
+      "gloss": "A tracking identifier assigned to a specific run/execution, used to reference it elsewhere.",
+      "variants": ["run id"],
+      "note": ""
+    },
+    {
+      "canonical_id": "safeguards-for-reviewers",
+      "canonical_label": "Reviewer/author-side safeguards",
+      "gloss": "Protective mechanisms recorded for the reviewer or author side of a disclosure policy, e.g. penalty protection, interpretive guidance, appeal mechanisms.",
+      "variants": ["safeguard variables"],
+      "note": ""
+    },
+    {
+      "canonical_id": "safeguarding-transformational-research",
+      "canonical_label": "Safeguarding transformational research",
+      "gloss": "An editorial concern that AI use in research risks reinforcing incremental work at the expense of breakthrough research.",
+      "variants": ["safeguarding transformational research"],
+      "note": ""
+    },
+    {
+      "canonical_id": "sample-size",
+      "canonical_label": "Sample size",
+      "gloss": "A methodology-reporting item recording the size of the sample used in a study.",
+      "variants": ["sample size"],
+      "note": ""
+    },
+    {
+      "canonical_id": "scholarly-authority-literacy",
+      "canonical_label": "Scholarly authority literacy",
+      "gloss": "One of a set of named literacies students need, concerning recognition of scholarly authority, within an AI-literacy framework.",
+      "variants": ["scholarly authority literacy"],
+      "note": ""
+    },
+    {
+      "canonical_id": "scope-and-definitions-of-policy",
+      "canonical_label": "Policy scope and definitions",
+      "gloss": "The set of topics (definitions of misconduct, detection-software use, assessment redesign) a policy document's scope section covers.",
+      "variants": ["scope and definitions"],
+      "note": ""
+    },
+    {
+      "canonical_id": "search-strategies",
+      "canonical_label": "Search strategies",
+      "gloss": "Documentation of literature/database search strategies used and whether they were saved or exported.",
+      "variants": ["search strategies"],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-section-heading",
+      "canonical_label": "Disclosure section heading",
+      "gloss": "The literal title/heading given to the section of a document where AI-use disclosure is placed.",
+      "variants": ["section title"],
+      "note": ""
+    },
+    {
+      "canonical_id": "deployment-sector-profile",
+      "canonical_label": "Deployment sector profile",
+      "gloss": "The industry or sector (e.g. financial services, government/high-assurance) a scheme's guidance is profiled for.",
+      "variants": ["sector profiles"],
+      "note": ""
+    },
+    {
+      "canonical_id": "selection-as-contribution-criterion",
+      "canonical_label": "Selection as a contribution criterion",
+      "gloss": "Whether a human's act of selecting among AI-generated options counts as a criterion for judging the nature of their contribution.",
+      "variants": ["selection"],
+      "note": ""
+    },
+    {
+      "canonical_id": "economic-evaluation-publication-requirement",
+      "canonical_label": "Economic sensitivity-analysis publication requirement",
+      "gloss": "Whether publication of cost-effectiveness sensitivity-analysis results is mandatory, recommended, or not required.",
+      "variants": ["sensitivity analysis results for the cost-effectiveness analysis"],
+      "note": ""
+    },
+    {
+      "canonical_id": "publication-context-and-perspective",
+      "canonical_label": "Publication setting, context and perspective",
+      "gloss": "Contextual disclosure factors around a publication: where it is located (journal, supplement, online), its relationship to other publications, and the researcher's perspective or commercial/legal context.",
+      "variants": ["setting, context, perspective"],
+      "note": ""
+    },
+    {
+      "canonical_id": "seven-section-disclosure-specification",
+      "canonical_label": "Seven-section disclosure specification (named scheme)",
+      "gloss": "The name of a specific open disclosure specification built from seven sections, referenced as a whole rather than as a single axis.",
+      "variants": ["seven-section disclosure specification"],
+      "note": ""
+    },
+    {
+      "canonical_id": "metadata-class-taxonomy",
+      "canonical_label": "Metadata class taxonomy",
+      "gloss": "A breakdown of metadata into several named classes, such as operational data, project/proposal information, or data ownership.",
+      "variants": ["several classes"],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-visual-prominence",
+      "canonical_label": "Disclosure visual prominence",
+      "gloss": "Whether a disclosure's visual presentation (e.g. text size) is smaller than, equal to, or larger than surrounding content.",
+      "variants": ["size of the disclosure"],
+      "note": ""
+    },
+    {
+      "canonical_id": "social-concerns",
+      "canonical_label": "Social concerns",
+      "gloss": "Concerns raised about bias, sensitivity, and privacy when the work represents people.",
+      "variants": ["social concerns"],
+      "note": ""
+    },
+    {
+      "canonical_id": "source-guideline-reference",
+      "canonical_label": "Referenced source guideline",
+      "gloss": "Which other named guideline (e.g. ICMJE, COPE, WAME) a scheme cites as its source or authority.",
+      "variants": ["source guideline"],
+      "note": ""
+    },
+    {
+      "canonical_id": "specific-disclosure-criteria",
+      "canonical_label": "Specific disclosure criteria",
+      "gloss": "One named element of policy content concerning which specific criteria trigger a disclosure requirement.",
+      "variants": ["specific disclosure criteria"],
+      "note": ""
+    },
+    {
+      "canonical_id": "specified-requirements-clarity",
+      "canonical_label": "Clarity of specified requirements",
+      "gloss": "The degree to which a policy's requirements are clearly specified versus left vague.",
+      "variants": ["specified requirements"],
+      "note": ""
+    },
+    {
+      "canonical_id": "speech-context-in-language-datasets",
+      "canonical_label": "Speech context in language datasets",
+      "gloss": "Contextual information about the spoken language recorded for language datasets.",
+      "variants": ["speech context in language datasets"],
+      "note": ""
+    },
+    {
+      "canonical_id": "stakeholder-governance-level",
+      "canonical_label": "Stakeholder governance level",
+      "gloss": "How much control stakeholders have in a repository's or resource's governance, rated on a none-to-full scale.",
+      "variants": ["stakeholdergovernance"],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-authorship-standards",
+      "canonical_label": "Standards concerning AI applications as authors",
+      "gloss": "General editorial standards declaring that AI applications cannot be authors and must be described in Methods/Acknowledgments.",
+      "variants": ["standards concerning ai applications"],
+      "note": ""
+    },
+    {
+      "canonical_id": "integrity-state",
+      "canonical_label": "Integrity state",
+      "gloss": "The validity/trust state (valid, trusted, well-formed, unknown) assigned to a manifest after integrity checks.",
+      "variants": ["state"],
+      "note": ""
+    },
+    {
+      "canonical_id": "legal-misconduct-categories",
+      "canonical_label": "Statutory research-misconduct categories",
+      "gloss": "The legally defined categories of misconduct (fabrication, falsification, plagiarism, improper authorship, improper ownership, security breaches) that generative AI use may implicate.",
+      "variants": ["statutory categories of research misconduct"],
+      "note": ""
+    },
+    {
+      "canonical_id": "failure-mode-strata",
+      "canonical_label": "Failure-mode strata",
+      "gloss": "The levels (individual, tooling, governance) across which distinct failure modes are classified.",
+      "variants": ["strata"],
+      "note": ""
+    },
+    {
+      "canonical_id": "student-agency-and-bounded-choice",
+      "canonical_label": "Student agency and bounded choice",
+      "gloss": "A named dimension concerning how much agency and bounded choice a student retains when using AI.",
+      "variants": ["student agency and bounded choice"],
+      "note": ""
+    },
+    {
+      "canonical_id": "student-position-toward-ai-use",
+      "canonical_label": "Student position toward AI use",
+      "gloss": "The stance a student is classified as taking toward AI-use disclosure, ranging from potential violator to responsible discloser to reflective practitioner.",
+      "variants": ["student position"],
+      "note": ""
+    },
+    {
+      "canonical_id": "study-design-theme",
+      "canonical_label": "Study design (checklist theme)",
+      "gloss": "A named thematic section of a checklist/questionnaire concerning study design, alongside research team, participant interaction, data practices, and data analysis.",
+      "variants": ["study design"],
+      "note": ""
+    },
+    {
+      "canonical_id": "symbolic-risk-awareness",
+      "canonical_label": "Symbolic risk awareness",
+      "gloss": "A student's psychological awareness of AI threatening their sense of professional identity or value.",
+      "variants": ["symbolic risk awareness"],
+      "note": ""
+    },
+    {
+      "canonical_id": "taxonomy-of-activities",
+      "canonical_label": "Taxonomy of activities",
+      "gloss": "A named taxonomy of research/scholarly activity types, such as community-building or teaching-and-learning.",
+      "variants": ["taxonomy of activities"],
+      "note": ""
+    },
+    {
+      "canonical_id": "terminology-used",
+      "canonical_label": "Terminology used",
+      "gloss": "The specific terms (training set, validation set, test set, instance) used for data partitions, and their definitions.",
+      "variants": ["terminology used"],
+      "note": ""
+    },
+    {
+      "canonical_id": "dataset-testing-method",
+      "canonical_label": "Dataset testing method",
+      "gloss": "The models and metrics a dataset has been tested against using a machine-learning approach.",
+      "variants": ["tested using an ml approach"],
+      "note": ""
+    },
+    {
+      "canonical_id": "the-coding-frame",
+      "canonical_label": "Advertising/editorial coding frame",
+      "gloss": "Top-level categories of a coding frame used to study how advertising and editorial content are integrated (ad functions, staff roles, publisher control, terms of service).",
+      "variants": ["the coding frame"],
+      "note": ""
+    },
+    {
+      "canonical_id": "authorship-dispute-resolution",
+      "canonical_label": "Authorship dispute resolution process",
+      "gloss": "The process adopted to resolve disputes over authorship.",
+      "variants": ["the conflict resolution processes adopted to handle authorship disputes"],
+      "note": ""
+    },
+    {
+      "canonical_id": "training-data-transparency",
+      "canonical_label": "Training data transparency",
+      "gloss": "Key information about the data an algorithm was trained on, including its source, scope, quality, and inner correlations.",
+      "variants": ["the data on which the algorithm was trained"],
+      "note": ""
+    },
+    {
+      "canonical_id": "the-dimensions-of-integrity-equity-and-pedagogy",
+      "canonical_label": "Integrity, equity, and pedagogy dimensions",
+      "gloss": "The three overarching dimensions (integrity, equity, pedagogy) an assessment-design framework is structured around.",
+      "variants": ["the dimensions of integrity, equity, and pedagogy"],
+      "note": ""
+    },
+    {
+      "canonical_id": "the-future-role-of-scientists",
+      "canonical_label": "The future role of scientists",
+      "gloss": "An editorial point about how scientists' roles must evolve (intuition, ethical judgment, long-term thinking) as AI becomes embedded in research.",
+      "variants": ["the future role of scientists"],
+      "note": ""
+    },
+    {
+      "canonical_id": "the-languages-involved",
+      "canonical_label": "Languages, verification, and governance involved",
+      "gloss": "A bundled disclosure item naming the languages involved, verification processes used, and data governance protocols applied.",
+      "variants": ["the languages involved"],
+      "note": ""
+    },
+    {
+      "canonical_id": "human-review-verification-extent",
+      "canonical_label": "Extent of human review and verification",
+      "gloss": "How much human review and verification was applied to AI-generated output.",
+      "variants": ["the extent of human review and verification"],
+      "note": ""
+    },
+    {
+      "canonical_id": "the-marketing-cycle-stage",
+      "canonical_label": "Marketing cycle stage",
+      "gloss": "The stage of the marketing cycle (research, strategy formulation, marketing-mix actions) at which AI or a disclosed activity was applied.",
+      "variants": ["the marketing cycle stage"],
+      "note": ""
+    },
+    {
+      "canonical_id": "fitness-for-intended-use",
+      "canonical_label": "Support for intended use",
+      "gloss": "Whether the results obtained support the AI system's intended use in its deployment setting.",
+      "variants": ["support for intended use"],
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "batch_id": "11",
+  "note": "Residual labels, from a re-extraction that produced richer schemes for three packets.",
+  "labels": [
+    {
+      "normalised": "resources",
+      "verbatim_variants": [
+        "Resources"
+      ],
+      "schemes": 2,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Arranging for all material resources"
+    },
+    {
+      "normalised": "final approvals and submission",
+      "verbatim_variants": [
+        "final approvals and \nsubmission"
+      ],
+      "schemes": 2,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "8) final approvals and \nsubmission."
+    },
+    {
+      "normalised": "the design of ai systems and training data",
+      "verbatim_variants": [
+        "the design of AI systems and training data"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "the design of AI systems and training data"
+    },
+    {
+      "normalised": "internal control over financial reporting",
+      "verbatim_variants": [
+        "internal control over financial reporting"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "internal control over financial reporting"
+    },
+    {
+      "normalised": "governance and oversight by management, audit committees, and regulators",
+      "verbatim_variants": [
+        "governance and oversight by management, audit committees, and regulators"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "(c) governance and oversight by management, audit committees, and regulators"
+    },
+    {
+      "normalised": "independent verification by external auditors",
+      "verbatim_variants": [
+        "independent verification by external auditors"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "independent verification by external auditors"
+    },
+    {
+      "normalised": "knowledge-work archetypes",
+      "verbatim_variants": [
+        "knowledge-work archetypes"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [
+        "transaction",
+        "integration",
+        "expert",
+        "collaboration"
+      ],
+      "example_quote": "knowledge-work archetypes (transaction, \nintegration, expert, collaboration)"
+    },
+    {
+      "normalised": "discretion",
+      "verbatim_variants": [
+        "discretion"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [
+        "accept",
+        "modify (light)",
+        "modify (substantial)",
+        "reject"
+      ],
+      "example_quote": "the theoretically complete editorial \nchoice set collapses into four mutually exclusive actions: \naccept, modify (light), modify (substantial), or reject"
+    },
+    {
+      "normalised": "task risk",
+      "verbatim_variants": [
+        "task risk"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [
+        "high",
+        "low"
+      ],
+      "example_quote": "(d) perceived \ntask risk (high/low)"
+    },
+    {
+      "normalised": "prompt-provenance stamping",
+      "verbatim_variants": [
+        "Prompt-provenance stamping"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [],
+      "example_quote": "Saving the final prompt and the model/version (and, where possible, key settings) alongside the \noutput"
+    },
+    {
+      "normalised": "micro-team split",
+      "verbatim_variants": [
+        "Micro-team split"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [],
+      "example_quote": "Under tight deadlines, the team splits into two people working in parallel, where one refines the \ncontent while the other runs compliance/quality checks"
+    },
+    {
+      "normalised": "reliability",
+      "verbatim_variants": [
+        "reliability"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "reliability was identified in 288 (66.2%) records"
+    },
+    {
+      "normalised": "integrity",
+      "verbatim_variants": [
+        "integrity"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "integrity in 26 (6%) records"
+    },
+    {
+      "normalised": "the dataset is deposited in an open repository",
+      "verbatim_variants": [
+        "The dataset is deposited in an open repository"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "Are data deposited in an open repository? (Find_1)"
+    },
+    {
+      "normalised": "the associated article is cited or linked",
+      "verbatim_variants": [
+        "The associated article is cited or linked"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "is the associated article cited or linked?"
+    },
+    {
+      "normalised": "the dataset is assigned a unique, citable and persistent identifier (i.e., doi)",
+      "verbatim_variants": [
+        "The dataset is assigned a unique, citable and persistent identifier (i.e., DOI)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "is the dataset assigned a unique, citable and persistent identifier?"
+    },
+    {
+      "normalised": "all compounds are assigned a unique, citable and persistent identifier (i.e., smiles or inchi + inchi key)",
+      "verbatim_variants": [
+        "All compounds are assigned a unique, citable and persistent identifier (i.e., SMILES or InChI + InChI key)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "Are all compounds assigned a unique, citable and persistent identifier? (Find_4)"
+    },
+    {
+      "normalised": "data-time stamps for creation, deposition and versions of the dataset are included",
+      "verbatim_variants": [
+        "Data-time stamps for creation, deposition and versions of the dataset are included"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "are Date-time stamps for creation, deposition and versions of the dataset are included?"
+    },
+    {
+      "normalised": "bibliographic metadata are available (authors, contributors, affiliations, funding source)",
+      "verbatim_variants": [
+        "Bibliographic metadata are available (authors, contributors, affiliations, funding source)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "are bibliographic metadata available?"
+    },
+    {
+      "normalised": "coherent file structure (logically grouped and labelled files)",
+      "verbatim_variants": [
+        "Coherent file structure (logically grouped and labelled files)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "is there a coherent file structure"
+    },
+    {
+      "normalised": "readme file describes the dataset",
+      "verbatim_variants": [
+        "README file describes the dataset"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "does a README file describe the dataset?"
+    },
+    {
+      "normalised": "unprocessed primary data are included",
+      "verbatim_variants": [
+        "Unprocessed primary data are included"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "NONE",
+        "COMPLETE",
+        "PARTIAL"
+      ],
+      "example_quote": "Are unprocessed primary data included? (Access_3)"
+    },
+    {
+      "normalised": "metadata describe instrument parameters (vendor, model, version, software)",
+      "verbatim_variants": [
+        "Metadata describe instrument parameters (vendor, model, version, software)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "do metadata describe instrument parameters (vendor, model, version, software)?"
+    },
+    {
+      "normalised": "metadata describe experiment parameters",
+      "verbatim_variants": [
+        "Metadata describe experiment parameters"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "do metadata describe experiment parameters?"
+    },
+    {
+      "normalised": "metadata describe data cleaning/analysis/processing/visualisation method(s)",
+      "verbatim_variants": [
+        "Metadata describe data cleaning/analysis/processing/visualisation method(s)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "Do metadata describe data cleaning, analysis, processing and visualization?"
+    },
+    {
+      "normalised": "original data are in standard open format(s)",
+      "verbatim_variants": [
+        "Original data are in standard open format(s)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "are original data in standard open formats?"
+    },
+    {
+      "normalised": "metadata are in a machine-readable format (i.e., xml, json)",
+      "verbatim_variants": [
+        "Metadata are in a machine-readable format (i.e., XML, JSON)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "are metadata in a machine-readable format?"
+    },
+    {
+      "normalised": "original data are in reusable format",
+      "verbatim_variants": [
+        "Original data are in reusable format"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "are original data in a reusable format?"
+    },
+    {
+      "normalised": "open licence information is available (i.e., cc or odc) under which data can be reused",
+      "verbatim_variants": [
+        "Open licence information is available (i.e., CC or ODC) under which data can be reused"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "is open license information available?"
+    },
+    {
+      "normalised": "code scripts necessary to reproduce findings are available",
+      "verbatim_variants": [
+        "Code scripts necessary to reproduce findings are available"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "are code scripts necessary to reproduce findings available?"
+    },
+    {
+      "normalised": "conceptualisation",
+      "verbatim_variants": [
+        "Conceptualisation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Formulating research questions, aims, objectives"
+    },
+    {
+      "normalised": "formal analysis",
+      "verbatim_variants": [
+        "Formal analysis"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Statistical analysis or synthesis of study data"
+    },
+    {
+      "normalised": "funding acquisition",
+      "verbatim_variants": [
+        "Funding acquisition"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Getting financial support for research till publication"
+    },
+    {
+      "normalised": "investigation",
+      "verbatim_variants": [
+        "Investigation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Data collection through surveys, experiments"
+    },
+    {
+      "normalised": "software",
+      "verbatim_variants": [
+        "Software"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Programming and developing codes and algorithms"
+    },
+    {
+      "normalised": "visualisation",
+      "verbatim_variants": [
+        "Visualisation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Preparation and presentation of research work"
+    },
+    {
+      "normalised": "writing – original draft",
+      "verbatim_variants": [
+        "Writing – original draft"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Writing the initial draft"
+    },
+    {
+      "normalised": "writing – review and editing",
+      "verbatim_variants": [
+        "Writing – review and editing"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Critical review, comments, and editing of the draft before and after \npublication"
+    },
+    {
+      "normalised": "concept",
+      "verbatim_variants": [
+        "Concept"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "1) \nConcept,"
+    },
+    {
+      "normalised": "material",
+      "verbatim_variants": [
+        "Material"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "5) Material,"
+    },
+    {
+      "normalised": "data collection and processing",
+      "verbatim_variants": [
+        "Data collection and processing"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "6) Data \ncollection and processing,"
+    },
+    {
+      "normalised": "analysis and interpretation",
+      "verbatim_variants": [
+        "Analysis and interpretation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "7) Analysis and \ninterpretation,"
+    },
+    {
+      "normalised": "literature search",
+      "verbatim_variants": [
+        "Literature search"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "8) Literature search,"
+    },
+    {
+      "normalised": "critical review",
+      "verbatim_variants": [
+        "Critical review"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "10) Critical   review,"
+    },
+    {
+      "normalised": "other novel",
+      "verbatim_variants": [
+        "Other novel"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "11)     Other     novel"
+    },
+    {
+      "normalised": "coordination and communication",
+      "verbatim_variants": [
+        "coordination \nand \ncommunication"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "2) \ncoordination \nand \ncommunication,"
+    },
+    {
+      "normalised": "participant protections",
+      "verbatim_variants": [
+        "participant protections"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "3) \nparticipant protections,"
+    },
+    {
+      "normalised": "data",
+      "verbatim_variants": [
+        "data"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "5) data,"
+    },
+    {
+      "normalised": "analysis",
+      "verbatim_variants": [
+        "analysis"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "6) \nanalysis,"
+    },
+    {
+      "normalised": "coordination and communication in the team",
+      "verbatim_variants": [
+        "coordination and communication in the \nteam"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "2) coordination and communication in the \nteam,"
+    },
+    {
+      "normalised": "designing the review and performing the literature search",
+      "verbatim_variants": [
+        "designing the review and performing \nthe literature search"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "3) designing the review and performing \nthe literature search,"
+    },
+    {
+      "normalised": "documenting and storing the sources for review",
+      "verbatim_variants": [
+        "documenting and \nstoring the sources for review"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "4) documenting and \nstoring the sources for review,"
+    },
+    {
+      "normalised": "data evaluation and synthesis",
+      "verbatim_variants": [
+        "data \nevaluation and synthesis"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "5) data \nevaluation and synthesis,"
+    },
+    {
+      "normalised": "writing the manuscript",
+      "verbatim_variants": [
+        "writing the \nmanuscript"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "6) writing the \nmanuscript,"
+    },
+    {
+      "normalised": "describe samples with rich metadata",
+      "verbatim_variants": [
+        "Describe samples with rich metadata"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Step 1. Describe samples with rich metadata"
+    },
+    {
+      "normalised": "assign and/or use identifiers for samples",
+      "verbatim_variants": [
+        "Assign and/or use identifiers for samples"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Step 2. Assign and/or use identifiers for samples"
+    },
+    {
+      "normalised": "publish and cite samples in datasets",
+      "verbatim_variants": [
+        "Publish and cite samples in datasets"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Step 3. Publish and cite samples in datasets"
+    },
+    {
+      "normalised": "cite sample identifiers in paper",
+      "verbatim_variants": [
+        "Cite sample identifiers in paper"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Step 4. Cite sample identifiers in paper"
+    },
+    {
+      "normalised": "background and objectives",
+      "verbatim_variants": [
+        "Background and objectives"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "3. Background and objectives"
+    },
+    {
+      "normalised": "source of data",
+      "verbatim_variants": [
+        "Source of data"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "4. Source of data"
+    },
+    {
+      "normalised": "outcome",
+      "verbatim_variants": [
+        "Outcome"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "6. Outcome"
+    },
+    {
+      "normalised": "predictors",
+      "verbatim_variants": [
+        "Predictors"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "7. Predictors"
+    },
+    {
+      "normalised": "missing data",
+      "verbatim_variants": [
+        "Missing Data"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "9. Missing Data"
+    },
+    {
+      "normalised": "statistical analysis",
+      "verbatim_variants": [
+        "Statistical analysis"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "10. Statistical analysis"
+    },
+    {
+      "normalised": "development vs. validation",
+      "verbatim_variants": [
+        "Development vs. validation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "12. Development vs. validation"
+    },
+    {
+      "normalised": "model development",
+      "verbatim_variants": [
+        "Model development"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "14. Model development"
+    },
+    {
+      "normalised": "model performance",
+      "verbatim_variants": [
+        "Model performance"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "16. Model performance"
+    },
+    {
+      "normalised": "model updating",
+      "verbatim_variants": [
+        "Model updating"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "17. Model updating"
+    },
+    {
+      "normalised": "implications",
+      "verbatim_variants": [
+        "Implications"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "20. Implications"
+    },
+    {
+      "normalised": "supplementary information",
+      "verbatim_variants": [
+        "Supplementary information"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "reported",
+        "not reported"
+      ],
+      "example_quote": "21. Supplementary information"
+    }
+  ]
+}

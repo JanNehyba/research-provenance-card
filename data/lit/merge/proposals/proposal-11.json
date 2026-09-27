@@ -1,0 +1,189 @@
+{
+  "batch_id": "11",
+  "labels_in": 70,
+  "labels_out": 70,
+  "dimensions": [
+    {
+      "canonical_id": "contribution-role-type",
+      "canonical_label": "Type of contribution / role performed",
+      "gloss": "Which specific task or role in producing the work a named contributor performed (e.g. conceptualisation, data collection, writing, coordination, resources, final approvals), drawn from several enumerated author-contribution lists.",
+      "variants": [
+        "resources",
+        "final approvals and submission",
+        "conceptualisation",
+        "formal analysis",
+        "funding acquisition",
+        "investigation",
+        "software",
+        "visualisation",
+        "writing – original draft",
+        "writing – review and editing",
+        "concept",
+        "material",
+        "data collection and processing",
+        "analysis and interpretation",
+        "literature search",
+        "critical review",
+        "other novel",
+        "coordination and communication",
+        "participant protections",
+        "data",
+        "analysis",
+        "coordination and communication in the team",
+        "designing the review and performing the literature search",
+        "documenting and storing the sources for review",
+        "data evaluation and synthesis",
+        "writing the manuscript"
+      ],
+      "note": "Merges items from at least three distinct numbered author-contribution taxonomies (a CRediT-like list, and two other journal-specific numbered lists, one of which is duplicated by an overlapping second extraction pass). Each item names one value within a single 'who did what' axis rather than a distinct axis of disclosure, so they were treated as one dimension."
+    },
+    {
+      "canonical_id": "sample-identification-workflow-stage",
+      "canonical_label": "Stage of sample identification/citation workflow",
+      "gloss": "Which step of a sequential four-step practice for identifying, depositing, and citing physical or data samples a given practice belongs to.",
+      "variants": [
+        "describe samples with rich metadata",
+        "assign and/or use identifiers for samples",
+        "publish and cite samples in datasets",
+        "cite sample identifiers in paper"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "study-report-content-item",
+      "canonical_label": "Study-report content item reported",
+      "gloss": "Whether a specific content section of a prediction-model study (e.g. predictors, missing data, model performance, implications) was reported or not.",
+      "variants": [
+        "background and objectives",
+        "source of data",
+        "outcome",
+        "predictors",
+        "missing data",
+        "statistical analysis",
+        "development vs. validation",
+        "model development",
+        "model performance",
+        "model updating",
+        "implications",
+        "supplementary information"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "dataset-findability",
+      "canonical_label": "Dataset findability",
+      "gloss": "Whether a dataset or its components can be located and identified, through repository deposit, persistent identifiers, article linkage, timestamps, and bibliographic metadata.",
+      "variants": [
+        "the dataset is deposited in an open repository",
+        "the associated article is cited or linked",
+        "the dataset is assigned a unique, citable and persistent identifier (i.e., doi)",
+        "all compounds are assigned a unique, citable and persistent identifier (i.e., smiles or inchi + inchi key)",
+        "data-time stamps for creation, deposition and versions of the dataset are included",
+        "bibliographic metadata are available (authors, contributors, affiliations, funding source)"
+      ],
+      "note": "Grouped on the 'Find_' item codes visible in the source quotes (e.g. 'Find_1', 'Find_4'), which is the scheme's own grouping rather than an imported framework."
+    },
+    {
+      "canonical_id": "dataset-accessibility-organisation",
+      "canonical_label": "Dataset accessibility and organisation",
+      "gloss": "Whether a deposited dataset is organised and documented well enough to be accessed and used once it has been found.",
+      "variants": [
+        "coherent file structure (logically grouped and labelled files)",
+        "readme file describes the dataset",
+        "unprocessed primary data are included"
+      ],
+      "note": "Grouped on the 'Access_' item code visible in one source quote ('Access_3'); the other two items share the same file-organisation/documentation character."
+    },
+    {
+      "canonical_id": "dataset-interoperability",
+      "canonical_label": "Dataset/metadata interoperability",
+      "gloss": "Whether the data and its metadata use standard, machine-readable formats and describe instruments, experiment parameters, and processing methods thoroughly enough to be combined or reprocessed.",
+      "variants": [
+        "metadata describe instrument parameters (vendor, model, version, software)",
+        "metadata describe experiment parameters",
+        "metadata describe data cleaning/analysis/processing/visualisation method(s)",
+        "original data are in standard open format(s)",
+        "metadata are in a machine-readable format (i.e., xml, json)"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "dataset-reusability",
+      "canonical_label": "Dataset reusability",
+      "gloss": "Whether a dataset carries the format, licence, and code needed for someone else to reuse or reproduce the findings.",
+      "variants": [
+        "original data are in reusable format",
+        "open licence information is available (i.e., cc or odc) under which data can be reused",
+        "code scripts necessary to reproduce findings are available"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "oversight-and-control-layer",
+      "canonical_label": "Layer of oversight/control responsible",
+      "gloss": "Which layer or actor is responsible for controlling, governing, or verifying a system or process, ranging from design-stage controls through internal controls and governance bodies to independent external audit.",
+      "variants": [
+        "the design of ai systems and training data",
+        "internal control over financial reporting",
+        "governance and oversight by management, audit committees, and regulators",
+        "independent verification by external auditors"
+      ],
+      "note": "Close call: 'the design of AI systems and training data' concerns AI systems specifically while the other three concern financial-reporting control language; grouped because the source quotes read as sequential lettered items ('(c) governance and oversight...') of one assurance-chain list rather than separate axes."
+    },
+    {
+      "canonical_id": "quality-criterion-addressed",
+      "canonical_label": "Quality/assessment criterion addressed",
+      "gloss": "Which quality criterion a reviewed record was found to address, reported as a count/percentage of records.",
+      "variants": [
+        "reliability",
+        "integrity"
+      ],
+      "note": "Close call: 'reliability' and 'integrity' are substantively different criteria; grouped only because both come from the same 'X was identified in N (%) of records' enumeration, implying they are values of one underlying tally axis rather than separate axes. Could reasonably be split into two singletons."
+    },
+    {
+      "canonical_id": "knowledge-work-archetype",
+      "canonical_label": "Knowledge-work archetype",
+      "gloss": "Which category of knowledge-work task (transaction, integration, expert, collaboration) a case represents.",
+      "variants": [
+        "knowledge-work archetypes"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "editorial-discretion-action",
+      "canonical_label": "Editorial discretion action",
+      "gloss": "Which editorial action was taken on AI-assisted output, from accepting through light or substantial modification to rejecting.",
+      "variants": [
+        "discretion"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "task-risk-level",
+      "canonical_label": "Task risk level",
+      "gloss": "Whether the perceived risk level of the task was high or low.",
+      "variants": [
+        "task risk"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "prompt-provenance-logging",
+      "canonical_label": "Prompt-provenance logging",
+      "gloss": "Whether the final prompt and the model/version (and settings) used were saved alongside the output as a provenance record.",
+      "variants": [
+        "prompt-provenance stamping"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "micro-team-split-practice",
+      "canonical_label": "Micro-team split practice",
+      "gloss": "Whether/how a team split work between content refinement and compliance/quality checking under deadline pressure.",
+      "variants": [
+        "micro-team split"
+      ],
+      "note": ""
+    }
+  ]
+}
