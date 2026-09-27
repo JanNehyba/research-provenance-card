@@ -23,6 +23,7 @@ import os
 import sys
 from collections import Counter, defaultdict
 
+from .console import init as console_init
 from .reliability import cohens_kappa, interpret
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -346,4 +347,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    console_init()
     sys.exit(main())

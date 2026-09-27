@@ -1,0 +1,61 @@
+{
+  "note": "The eight components of the parent project's brief, mapped onto the canonical vocabulary AFTER that vocabulary was closed. The mapping was made by reading the 193 glosses, not by asking an agent, because an agent asked to find the project's own scheme in the data has every reason to find it. Each component lists the canonical dimensions that cover it, with the number of verbatim labels behind each, and a verdict. The verdicts are what the gap analysis argues from.",
+  "mapped_on": "2026-09-27",
+  "components": {
+    "1-role-of-ai": [
+      "task-or-function-of-ai-use",
+      "role-played-by-the-ai",
+      "content-and-role-of-the-ai-output"
+    ],
+    "2-share-of-ai": [
+      "extent-of-ai-involvement",
+      "integration-depth-of-ai-content"
+    ],
+    "3-what-the-human-did": [
+      "verification-of-ai-output",
+      "human-oversight-and-control",
+      "process-based-evidence-of-contribution",
+      "action-taken-on-ai-output"
+    ],
+    "4-accountability": [
+      "accountability-for-the-work",
+      "authorship-criteria"
+    ],
+    "5-certainty": [
+      "limitations-and-validity-boundaries-disclosed",
+      "uncertainty-and-risk-warnings-to-the-user",
+      "confidence-conveyed-by-the-ai",
+      "calibration-and-uncertainty-statistics"
+    ],
+    "6-state-of-the-output": [
+      "maturity-level-of-the-thing-described"
+    ],
+    "7-recipient-expectation": [
+      "relational-transparency-of-the-ai-role",
+      "what-the-system-surfaces-to-users",
+      "contestability-of-ai-output",
+      "presentation-of-alternatives"
+    ],
+    "8-placement": [
+      "location-of-the-disclosure",
+      "format-and-presentation-of-the-disclosure",
+      "labelling-of-ai-generated-content"
+    ]
+  },
+  "verdicts": {
+    "1-role-of-ai": "widely modelled",
+    "2-share-of-ai": "widely modelled",
+    "3-what-the-human-did": "widely modelled",
+    "4-accountability": "widely modelled, contrary to the project's claim",
+    "5-certainty": "thinly modelled, and displaced onto the machine",
+    "6-state-of-the-output": "not modelled",
+    "7-recipient-expectation": "modelled only in system design, not as a disclosure field",
+    "8-placement": "widely modelled"
+  },
+  "verdict_notes": {
+    "4-accountability": "The project's brief says accountability is unmodelled. It is not. `accountability-for-the-work` carries 23 verbatim labels and asks exactly the project's question: who answers for the finished work, who approves it, who stays responsible for AI-touched content. This claim has to be withdrawn.",
+    "5-certainty": "What the project means is a person's stated certainty about the text they are signing. Three of the four dimensions here are about something else: `confidence-conveyed-by-the-ai` is the machine's displayed certainty, `calibration-and-uncertainty-statistics` is a statistical property of a model, and `uncertainty-and-risk-warnings-to-the-user` is an interface behaviour. Only `limitations-and-validity-boundaries-disclosed` (8 labels) is the author saying what the disclosure does not cover. The axis exists; the human-certainty version of it barely does.",
+    "6-state-of-the-output": "Nothing in 193 dimensions records whether the delivered artefact is a draft, a working version or a finished piece. `maturity-level-of-the-thing-described` (2 labels) is the nearest and it describes the maturity of a proposed framework, not of a text someone has just handed over. `integration-depth-of-ai-content` records how much editing the AI output received, which is about the machine's share, not about what state the author declares the deliverable to be in. This is the one component of the eight that the literature does not have.",
+    "7-recipient-expectation": "Four dimensions touch it and all four come from system-design and HCI work about what an interface shows a user: whether the reader understands the AI's part, what the system surfaces, whether an interpretation can be contested, whether alternatives are offered. None is a field of a disclosure in which an author states what the reader is being asked to do with the text. As an axis of a disclosure scheme it is absent; as a property of a system it exists."
+  }
+}

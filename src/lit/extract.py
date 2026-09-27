@@ -24,6 +24,8 @@ import json
 import os
 import re
 import sys
+
+from .console import init as console_init
 import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -510,6 +512,7 @@ def requeue() -> int:
 ACTIONS = {"prepare": prepare, "verify": verify, "requeue": requeue}
 
 if __name__ == "__main__":
+    console_init()
     action = sys.argv[1] if len(sys.argv) > 1 else ""
     if action not in ACTIONS:
         print(__doc__)

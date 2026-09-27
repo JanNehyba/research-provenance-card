@@ -19,6 +19,8 @@ import io
 import json
 import os
 import sys
+
+from .console import init as console_init
 import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -97,6 +99,7 @@ def check() -> int:
 
 
 if __name__ == "__main__":
+    console_init()
     action = sys.argv[1] if len(sys.argv) > 1 else "check"
     if action == "write":
         write(" ".join(sys.argv[2:]))

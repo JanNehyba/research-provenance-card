@@ -25,6 +25,7 @@ import os
 import random
 import sys
 
+from .console import init as console_init
 from .reliability import cohens_kappa, interpret
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -371,6 +372,7 @@ ACTIONS = {"prepare": prepare, "ingest": ingest, "agreement": agreement,
 
 
 if __name__ == "__main__":
+    console_init()
     action = sys.argv[1] if len(sys.argv) > 1 else ""
     if action not in ACTIONS:
         print(__doc__)

@@ -34,6 +34,7 @@ import os
 import re
 import sys
 
+from .console import init as console_init
 from . import http, sources
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -232,4 +233,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    console_init()
     sys.exit(main())

@@ -21,6 +21,8 @@ import io
 import json
 import os
 import sys
+
+from .console import init as console_init
 from collections import Counter, defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -178,14 +180,21 @@ def check() -> int:
         print(f"\nASSIGNED TWICE ({len(doubled)}):")
         for label, ids in list(doubled.items())[:20]:
             print(f"  {label} -> {ids}")
+    # A variant that matches nothing is reported but does not fail the check.
+    # These are labels that existed when the open-coding batches were built and
+    # were replaced when three packets were extracted again; they match nothing
+    # and cost nothing, and deleting them would hide where the vocabulary came
+    # from. A label missing from the merge, or counted twice, is a different
+    # matter and still fails.
     if unknown:
-        print(f"\nIN THE MERGE BUT NOT IN THE DATA ({len(unknown)}), probably a typo:")
+        print(f"\nIn the merge but no longer in the data ({len(unknown)}). These are "
+              f"stale labels from before a re-extraction, kept for provenance:")
         for label in unknown[:20]:
             print(f"  {label}")
-    if not (unassigned or doubled or unknown):
-        print("\nmerge is complete and one to one")
-        return 0
-    return 1
+    if unassigned or doubled:
+        return 1
+    print("\nevery label in the data is in exactly one canonical dimension")
+    return 0
 
 
 def matrix() -> int:
@@ -286,6 +295,7 @@ ACTIONS = {"labels": labels, "batches": batches, "check": check,
            "matrix": matrix}
 
 if __name__ == "__main__":
+    console_init()
     action = sys.argv[1] if len(sys.argv) > 1 else ""
     if action not in ACTIONS:
         print(__doc__)

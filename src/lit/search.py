@@ -26,6 +26,7 @@ import sys
 import time
 from dataclasses import asdict
 
+from .console import init as console_init
 from . import sources
 from .sources import Record
 
@@ -200,4 +201,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    console_init()
     sys.exit(main())
