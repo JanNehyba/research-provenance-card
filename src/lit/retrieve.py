@@ -79,8 +79,17 @@ def _html_to_text(html_text: str) -> str:
 
 
 def _xml_to_text(xml: str) -> str:
-    """Text from JATS full text, keeping section titles on their own lines."""
-    text = re.sub(r"(?is)<(ref-list|back)[^>]*>.*?</\1>", " ", xml)
+    """Text from JATS full text, keeping section titles on their own lines.
+
+    Processing instructions and the publisher's custom metadata are dropped
+    first. Europe PMC puts strings like "pmc-prop-in-epmc yes pmc-license-ref CC
+    BY" in there, and left in they surface as the opening line of an extraction
+    window, which wastes the extractor's attention on nothing.
+    """
+    text = re.sub(r"(?s)<\?.*?\?>", " ", xml)
+    text = re.sub(
+        r"(?is)<(ref-list|back|custom-meta-group|processing-meta)[^>]*>.*?</\1>",
+        " ", text)
     text = re.sub(r"(?i)<title[^>]*>", "\n## ", text)
     text = re.sub(r"(?i)</(title|p|sec|abstract)\s*>", "\n", text)
     text = re.sub(r"<[^>]+>", " ", text)

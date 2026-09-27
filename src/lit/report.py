@@ -250,6 +250,9 @@ def main() -> int:
                             if row.get("retrieval_status") == "abstract_only")
         add(f"- Rows verified against an abstract rather than a full text: "
             f"{from_abstract}")
+        artifacts = sum(1 for row in schemes if row.get("has_extraction_artifact"))
+        add(f"- Rows carrying a character PDF extraction lost, usually a dash "
+            f"inside a label: {artifacts}")
         add("")
         if rejected:
             fault_counter = Counter(fault.split(" (")[0]

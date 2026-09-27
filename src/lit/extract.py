@@ -124,52 +124,83 @@ def _heading_before(text: str, index: int) -> str:
     return line.strip()[:80]
 
 
+def _snap(text: str, index: int, forward: bool) -> int:
+    """Move an index to the nearest whitespace so a window does not start mid-word."""
+    limit = 60
+    step = 1 if forward else -1
+    position = index
+    for _ in range(limit):
+        if position <= 0 or position >= len(text):
+            break
+        if text[position].isspace():
+            return position + (1 if forward is False else 0)
+        position += step
+    return max(0, min(index, len(text)))
+
+
 def candidate_windows(text: str) -> list[dict]:
     """Passages where a category scheme is usually stated.
 
-    Windows are merged when they overlap, capped in number and in total size, and
-    each carries the term that found it and the heading above it. This is a
-    reading aid; the extractor is told the full text is on disk and that quotes
-    are verified against the full text, not against these windows.
+    Hits are grouped into clusters no wider than one window, and clusters are
+    ranked by how many distinct terms they contain, because density is the signal
+    that a scheme is being laid out rather than mentioned in passing.
+
+    An earlier version merged every overlapping hit and then sorted by length. In
+    a paper that uses these words throughout, everything merged into one span
+    larger than the whole budget, the loop broke on it, and the paper got zero
+    windows: two of the five papers in the first smoke test, including the one
+    whose six facets this review most needs. Hence the bounded clusters, and
+    `continue` rather than `break` when a window does not fit the budget.
     """
     if not text:
         return []
     lower = text.lower()
-    spans: list[tuple[int, int, str]] = []
+    hits: list[tuple[int, str]] = []
     for term in WINDOW_TERMS:
         start = 0
+        low_term = term.lower()
         while True:
-            hit = lower.find(term.lower(), start)
+            hit = lower.find(low_term, start)
             if hit == -1:
                 break
-            spans.append((max(0, hit - WINDOW_CHARS // 3),
-                          min(len(text), hit + WINDOW_CHARS), term))
-            start = hit + len(term)
-    if not spans:
+            hits.append((hit, term))
+            start = hit + len(low_term)
+    if not hits:
         return []
+    hits.sort()
 
-    spans.sort()
-    merged: list[list] = []
-    for begin, end, term in spans:
-        if merged and begin <= merged[-1][1]:
-            merged[-1][1] = max(merged[-1][1], end)
-            if term not in merged[-1][2]:
-                merged[-1][2].append(term)
+    clusters: list[dict] = []
+    for position, term in hits:
+        if clusters and position - clusters[-1]["first"] <= WINDOW_CHARS:
+            clusters[-1]["last"] = position
+            clusters[-1]["terms"].add(term)
+            clusters[-1]["hits"] += 1
         else:
-            merged.append([begin, end, [term]])
+            clusters.append({"first": position, "last": position,
+                             "terms": {term}, "hits": 1})
 
-    merged.sort(key=lambda span: -(span[1] - span[0]))
+    # Density first, then position, so a ranking tie is resolved by the paper's
+    # own order rather than by dictionary order of the term list.
+    clusters.sort(key=lambda c: (-len(c["terms"]), -c["hits"], c["first"]))
+
     windows, budget = [], 0
-    for begin, end, terms in merged[:MAX_WINDOWS * 2]:
-        piece = text[begin:end]
-        if budget + len(piece) > MAX_WINDOW_BUDGET or len(windows) >= MAX_WINDOWS:
+    for cluster in clusters:
+        if len(windows) >= MAX_WINDOWS:
             break
+        begin = _snap(text, max(0, cluster["first"] - 250), forward=False)
+        end = _snap(text, min(len(text), cluster["last"] + WINDOW_CHARS), forward=True)
+        end = min(end, begin + 2 * WINDOW_CHARS)
+        piece = text[begin:end]
+        if budget + len(piece) > MAX_WINDOW_BUDGET:
+            continue
         budget += len(piece)
         windows.append({
             "heading_above": _heading_before(text, begin),
-            "matched_terms": terms[:4],
+            "matched_terms": sorted(cluster["terms"])[:5],
+            "starts_at_char": begin,
             "text": piece,
         })
+    windows.sort(key=lambda w: w["starts_at_char"])
     return windows
 
 
@@ -368,6 +399,15 @@ def verify() -> int:
                     row["definition_match_mode"] = def_mode
                     row["quote_over_soft_cap"] = (
                         len(row["quote"].split()) > MAX_QUOTE_WORDS)
+                    # A replacement character means PDF extraction lost a glyph,
+                    # usually an em dash inside a label such as
+                    # "Writing�Review & Editing". The label is still verbatim
+                    # against the text we retrieved, so the row stands, but the
+                    # report counts these rather than pretending the label is clean.
+                    row["has_extraction_artifact"] = any(
+                        "�" in str(row[field]) for field in
+                        ("dimension_label_verbatim", "quote", "definition_quote",
+                         "scheme_name_verbatim"))
 
                     if faults:
                         row["quote_verified"] = False

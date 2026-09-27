@@ -1,0 +1,184 @@
+{
+  "packet_id": "001",
+  "papers": [
+    {
+      "rec_id": "8f7d681719f26472",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "pme-ai-disclosure-content-analysis",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5334/pme.2431",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "not_stated",
+          "empirical_basis": "51 AI-use disclosure statements identified from 2,046 empirical articles in 24 medical education journals (n = 51)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Nature of AI Use in Disclosure Statements",
+              "definition_quote": "We characterized the use of AI into six types based on the language in the disclosures",
+              "value_list_verbatim": ["Editing", "Transcription", "Analysis", "Drafting", "Literature Review: Article Screening"],
+              "closed_or_open": "closed_list",
+              "locator": "AI tools and Nature of AI use",
+              "quote": "We characterized the use of AI into six types based on the language in the disclosures"
+            },
+            {
+              "dimension_label_verbatim": "Location of Disclosure Statements",
+              "definition_quote": "",
+              "value_list_verbatim": ["the acknowledgements section", "a dedicated AI-use disclosure section", "the methods", "both the methods and a dedicated AI disclosure section", "the discussion"],
+              "closed_or_open": "closed_list",
+              "locator": "Location of Disclosure Statements",
+              "quote": "Placement of disclosure statements varied."
+            },
+            {
+              "dimension_label_verbatim": "Attestation of Responsibility",
+              "definition_quote": "the presence or absence of an attestation of responsibility",
+              "value_list_verbatim": ["presence", "absence"],
+              "closed_or_open": "closed_list",
+              "locator": "Attestation of Responsibility",
+              "quote": "Only 26% (n = 13) of disclosures included an attestation of responsibility."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "73893987a82abf0c",
+      "has_scheme": false,
+      "reason": "workshop paper that generates 149 open research questions about EU AI Act Article 52 disclosure obligations and clusters them into 5 themes and 18 sub-themes; the 5W1H framework structures question elicitation, not a scheme for describing an actual disclosure, attribution, or provenance claim, and no such scheme is proposed or applied to disclosures themselves"
+    },
+    {
+      "rec_id": "646aeaa7c56bb8ca",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aid-framework-fourteen-headings",
+          "scheme_name_verbatim": "Artificial Intelligence Disclosure (AID) Framework",
+          "source_ref": "doi:10.5860/crln.85.10.407",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "section",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Artificial Intelligence Tool(s)",
+              "definition_quote": "The selection of tool or tools and versions of those",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The selection of tool or tools and versions of those"
+            },
+            {
+              "dimension_label_verbatim": "Conceptualization",
+              "definition_quote": "The development of the research idea or hypothesis including",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The development of the research idea or hypothesis including"
+            },
+            {
+              "dimension_label_verbatim": "Methodology",
+              "definition_quote": "The planning for the execution of the study including all direct",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The planning for the execution of the study including all direct"
+            },
+            {
+              "dimension_label_verbatim": "Information Collection",
+              "definition_quote": "The use of AI to surface patterns in existing literature and",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The use of AI to surface patterns in existing literature and"
+            },
+            {
+              "dimension_label_verbatim": "Data Collection Method",
+              "definition_quote": "The development or design of software or instruments used",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The development or design of software or instruments used"
+            },
+            {
+              "dimension_label_verbatim": "Execution",
+              "definition_quote": "The direct conduct of research procedures or tasks (e.g. AI web scraping,",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The direct conduct of research procedures or tasks (e.g. AI web scraping,"
+            },
+            {
+              "dimension_label_verbatim": "Data Curation",
+              "definition_quote": "The management and organization of those data.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The management and organization of those data."
+            },
+            {
+              "dimension_label_verbatim": "Data Analysis",
+              "definition_quote": "The performance of statistical or mathematical analysis, regressions,",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The performance of statistical or mathematical analysis, regressions,"
+            },
+            {
+              "dimension_label_verbatim": "Privacy and Security",
+              "definition_quote": "The ways in which data privacy and security were upheld in",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The ways in which data privacy and security were upheld in"
+            },
+            {
+              "dimension_label_verbatim": "Interpretation",
+              "definition_quote": "The use of AI tools to categorize, summarize, or manipulate data and",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The use of AI tools to categorize, summarize, or manipulate data and"
+            },
+            {
+              "dimension_label_verbatim": "Visualization",
+              "definition_quote": "The creation of visualizations or other graphical representations of",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The creation of visualizations or other graphical representations of"
+            },
+            {
+              "dimension_label_verbatim": "Writing—Review & Editing",
+              "definition_quote": "The revision and editing of the manuscript.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The revision and editing of the manuscript."
+            },
+            {
+              "dimension_label_verbatim": "Writing—Translation",
+              "definition_quote": "The use of AI to translate text across languages at any point",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The use of AI to translate text across languages at any point"
+            },
+            {
+              "dimension_label_verbatim": "Project Administration",
+              "definition_quote": "Any administrative tasks related to the study, including",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "Any administrative tasks related to the study, including"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
