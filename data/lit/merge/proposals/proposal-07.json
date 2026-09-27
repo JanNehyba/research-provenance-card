@@ -1,0 +1,645 @@
+{
+  "batch_id": "07",
+  "labels_in": 150,
+  "labels_out": 150,
+  "dimensions": [
+    {
+      "canonical_id": "authorship-fraud-patterns",
+      "canonical_label": "Authorship fraud and misuse patterns",
+      "gloss": "Named patterns of fraudulent or improper authorship practice — buying/selling author slots, cartel-like reciprocal crediting, and denying or inflating credit.",
+      "variants": [
+        "potential apc-ring",
+        "potential authorship by resources",
+        "problems with or misuse of authorship",
+        "publication cartels"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "hidden-labor-power-structure",
+      "canonical_label": "Power-labor hierarchy coupling",
+      "gloss": "A structural construct describing how organizational power hierarchies couple to who performs hidden (often AI-assisted) labor without credit.",
+      "variants": [
+        "power–labor hierarchy coupling"
+      ],
+      "note": "Singleton construct from one scheme; not clearly a disclosure field, but the closest axis available for it."
+    },
+    {
+      "canonical_id": "general-study-reporting-checklist",
+      "canonical_label": "General study-reporting checklist items",
+      "gloss": "Standard research-methodology reporting items — registration, protocol, randomization, replication, study design, results — borrowed from generic reporting guidelines and listed alongside AI-specific disclosure items.",
+      "variants": [
+        "pre-registration",
+        "pre-registration (if applicable)",
+        "prisma tracking (if review)",
+        "protocol",
+        "protocol sharing",
+        "qualitative research methods applied",
+        "randomization and blinding",
+        "replication of a previous study",
+        "research design",
+        "result"
+      ],
+      "note": "These describe generic study-reporting quality rather than AI-use/authorship/COI disclosure per se, but each scheme treats them as one checklist axis alongside its AI-specific items."
+    },
+    {
+      "canonical_id": "ai-system-pre-release-testing-disclosure",
+      "canonical_label": "Pre-release testing disclosure",
+      "gloss": "Whether information about an AI system's pre-release testing and robustness evaluation is disclosed.",
+      "variants": [
+        "pre-release testing"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "scope-of-permitted-ai-use",
+      "canonical_label": "Scope of permitted AI use",
+      "gloss": "What AI operations, tools, or tasks are permitted, prohibited, gated, or delegated — often tiered by risk, role, or workflow stage before use is allowed.",
+      "variants": [
+        "pre-use gates",
+        "procurement and tool approval standards for educational uses",
+        "prohibited ai use",
+        "prohibits ai usage other than language improvement",
+        "r: rule-specified latitude",
+        "regulatory mechanism",
+        "reviewer-side governance",
+        "risk-tiered delegation"
+      ],
+      "note": "Groups governance-of-use mechanisms (bans, pre-use gates, approval standards, risk tiers, rule-specified latitude) that all answer \"what AI use is allowed here,\" as distinct from whether disclosure itself is required."
+    },
+    {
+      "canonical_id": "citation-format-guidance",
+      "canonical_label": "Preferred citation/attribution format",
+      "gloss": "The recommended format for citing or attributing the resource (software or data) itself.",
+      "variants": [
+        "preferred format for attributing or citing the resource itself",
+        "preferred format for citing software entries"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "enforcement-and-sanctions",
+      "canonical_label": "Enforcement policy and sanctions",
+      "gloss": "Whether an enforcement policy or sanctions exist for non-compliance, and whether procedural safeguards guard against biased or opaque application of those sanctions.",
+      "variants": [
+        "presence of enforcement policy or sanctions for non- compliance",
+        "procedural safeguards to protect students from biased detection and opaque sanctions"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "presentation-of-alternatives",
+      "canonical_label": "Presentation of reasonable alternatives",
+      "gloss": "Whether reasonable alternative options are presented to support user choice and shared decision-making.",
+      "variants": [
+        "presentation of reasonable alternatives"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "technical-properties-of-disclosure-mechanism",
+      "canonical_label": "Technical properties of the disclosure/authentication mechanism",
+      "gloss": "The technical qualities required or claimed of the mechanism that authenticates or labels AI content — e.g. authentication method, robustness, machine-readability, unforgeability.",
+      "variants": [
+        "primary authentication mechanism",
+        "properties mentioned",
+        "requirements of art. 50 ii"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "scheme-domain-classification",
+      "canonical_label": "Primary domain classification",
+      "gloss": "The top-level domain category a scheme assigns an item to (e.g. Provenance, Rights Registries, Attribution).",
+      "variants": [
+        "primary domain"
+      ],
+      "note": "Classifies the taxonomy's own entities/domains rather than describing a disclosure of production; kept as its own axis since no other label matches it."
+    },
+    {
+      "canonical_id": "risk-framing-of-concern",
+      "canonical_label": "Primary risk framing",
+      "gloss": "The type of concern or harm through which an AI-authorship issue is framed (e.g. authorship fraud, misuse/overreliance, erosion of analytic labor, ethical complexity), as distinct from a risk level or tier.",
+      "variants": [
+        "primary risk framing"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "governing-principles-for-policy",
+      "canonical_label": "Governing principles for policy design",
+      "gloss": "High-level principles offered to guide institutional policy reflexes on AI use, rather than a measurable field of a disclosure.",
+      "variants": [
+        "principle"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "responsibility-allocation",
+      "canonical_label": "Responsibility/accountability allocation",
+      "gloss": "How accountability or public responsibility for AI-assisted work is allocated among human and institutional parties, and whether named individuals are assigned to roles.",
+      "variants": [
+        "principle of allocation",
+        "public responsibility for the work",
+        "responsibility allocation statement",
+        "roles and responsibilities"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "privacy-and-data-security",
+      "canonical_label": "Privacy and data security safeguards",
+      "gloss": "Whether and how privacy, confidentiality, and data security were protected when using AI (e.g. no sensitive data uploaded, redaction, access control).",
+      "variants": [
+        "privacy and security",
+        "privacy safeguards",
+        "privacy/confidentiality"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "process-based-evidence-of-contribution",
+      "canonical_label": "Process-based evidence of contribution",
+      "gloss": "Whether disclosure is backed by evidence of the underlying process — drafts, logs, portfolios, or a defensible account of the reasoning behind claims — rather than a bare declaration that AI was used.",
+      "variants": [
+        "process",
+        "process transparency and integrity",
+        "process-based evidence",
+        "process-based explanations of how those contributions were made",
+        "process-evidence portfolios with ai-use logs",
+        "process-oriented assessment practices",
+        "rationale omission",
+        "reasoning",
+        "reasoning-path clarification",
+        "revise with feedback and justification"
+      ],
+      "note": "\"Reasoning-path clarification\" concerns explaining the AI system's own reasoning to a reviewer rather than a human defending their process; folded in here as a close call on the same underlying axis (disclosed reasoning/process)."
+    },
+    {
+      "canonical_id": "disclosure-evidence-channel-type",
+      "canonical_label": "Disclosure evidence channel type",
+      "gloss": "The channel or format through which disclosure-relevant information becomes observable (e.g. audit-report communication, narrative disclosure, process measures, market information).",
+      "variants": [
+        "process measures"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "alignment-with-external-standards",
+      "canonical_label": "Alignment with external professional/regulatory standards",
+      "gloss": "Whether a policy or system references or aligns with external professional verification standards, international guidelines, or regulation.",
+      "variants": [
+        "professional verification standards",
+        "reference to international guidelines",
+        "regulatory alignment"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "profile-of-people-involved-in-dataset",
+      "canonical_label": "Profile of people involved in the dataset",
+      "gloss": "The characteristics of people involved in creating a dataset (collection team, annotator team) or represented by it (collection target).",
+      "variants": [
+        "profile of the annotator team",
+        "profile of the collection target",
+        "profile of the collection team"
+      ],
+      "note": "The \"collection target\" item describes data subjects rather than producers; grouped with the team-profile fields because all three follow the same \"profile of ___\" pattern from one scheme describing people connected to the data."
+    },
+    {
+      "canonical_id": "programming-language-metadata",
+      "canonical_label": "Programming language",
+      "gloss": "The programming language associated with a software resource, recorded as descriptive metadata.",
+      "variants": [
+        "programming language"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "contributor-role-taxonomy",
+      "canonical_label": "Contributor role taxonomy",
+      "gloss": "Named roles a contributor (human, or in some schemes AI) may hold in producing the work, such as project administration, revision, or a CRediT-style role list.",
+      "variants": [
+        "project administration",
+        "revision",
+        "role",
+        "role list"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "promotional-features-disclosed",
+      "canonical_label": "Promotional features disclosed",
+      "gloss": "The specific commercial/promotional elements (discount, branded link, giveaway, slogan) present in sponsored content.",
+      "variants": [
+        "promotional features mentioned in blog post"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "prompt-and-technical-configuration-disclosure",
+      "canonical_label": "Prompt and technical configuration disclosure",
+      "gloss": "The technical detail of how AI was used that is disclosed or logged — prompts, parameters, configuration, retrieval settings, interaction process, and the environment needed to reproduce or trace the AI-assisted step.",
+      "variants": [
+        "prompt and context logs",
+        "prompt design",
+        "prompt disclosure",
+        "prompt documentation",
+        "prompt engineering",
+        "prompt purpose and date",
+        "prompt-provenance stamp & micro-team split",
+        "prompt-to-output traceability.",
+        "prompting and interaction processes",
+        "prompting or configuration details",
+        "prompting strategies",
+        "prompting technique",
+        "relevant prompts/parameters",
+        "reproducible environment",
+        "retrieval settings"
+      ],
+      "note": "Broad merge of many near-synonymous checklist items (logs, documentation, engineering, strategies, technique) that describe the same axis — how much of the prompt/technical interaction is disclosed. \"Prompt-provenance stamp & micro-team split\" is a coupled verbatim phrase whose provenance half fits here."
+    },
+    {
+      "canonical_id": "prompt-quality-level",
+      "canonical_label": "Prompt quality/precision level",
+      "gloss": "A rubric level (vague to precise) judging the quality of the human-written prompt itself, distinct from whether the prompt was disclosed.",
+      "variants": [
+        "prompt generation (p)"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "prompt-hygiene-policy-existence",
+      "canonical_label": "Prompt hygiene policy existence",
+      "gloss": "Whether a policy on prompt hygiene has been documented and communicated.",
+      "variants": [
+        "prompt hygiene"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "extent-of-ai-involvement",
+      "canonical_label": "Extent of AI involvement",
+      "gloss": "How much of the output the AI produced, or how the human/AI contribution is proportioned, including whether the human's role was limited to prompting.",
+      "variants": [
+        "prompt-only contribution",
+        "proportion of work",
+        "proportional representation of human and ai contributions"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "proportionality-principle-of-ai-reporting",
+      "canonical_label": "Proportionate/technology-neutral reporting principle",
+      "gloss": "A guiding principle that disclosure requirements should scale to the significance of the AI use (minor vs substantive) rather than apply uniformly.",
+      "variants": [
+        "proportionate and technology neutral approach to ai reporting"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "technology-price-and-publication-mandate",
+      "canonical_label": "Technology price and publication mandate",
+      "gloss": "Whether publication of information about a new technology's price is mandatory, recommended, or not required.",
+      "variants": [
+        "proposed price of the new technology"
+      ],
+      "note": "The source example values (\"Publication is mandatory/recommended/No publication\") describe a publication mandate rather than a price, suggesting a data-extraction mismatch; canonicalized on the literal label text."
+    },
+    {
+      "canonical_id": "ai-use-provenance-record",
+      "canonical_label": "AI-use provenance record",
+      "gloss": "The core facts of an AI-assisted step being recorded — which tool, what access route, what data was exposed, what humans accepted or rejected, and what verification occurred.",
+      "variants": [
+        "provenance / audit record",
+        "provenance and generation context",
+        "query strategy"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "provenance-persistence-and-durability",
+      "canonical_label": "Provenance persistence",
+      "gloss": "Whether provenance information remains attached to and available with content over time.",
+      "variants": [
+        "provenance persistence"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "provenance-first-legal-doctrine",
+      "canonical_label": "Provenance-first legal doctrine",
+      "gloss": "A legal-evidentiary doctrine prioritizing provenance credentials (e.g. C2PA) as the basis for admissibility or certification rules.",
+      "variants": [
+        "provenance-first doctrine"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "catch-all-additional-information-field",
+      "canonical_label": "Catch-all additional information field",
+      "gloss": "A free-text field for any other relevant information not captured by the scheme's named items.",
+      "variants": [
+        "provide any other relevant information"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "repository-and-persistent-identifier-metadata",
+      "canonical_label": "Repository and persistent identifier metadata",
+      "gloss": "Where a dataset/record is deposited or registered, its resolvable persistent identifier, and the date it was made publicly available.",
+      "variants": [
+        "public registry",
+        "public release date",
+        "repository",
+        "repository name(s) where the data/software are deposited",
+        "resolvable pid(s)"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "document-version-and-relationship-metadata",
+      "canonical_label": "Document version and relationship metadata",
+      "gloss": "How versions or publications relate to one another (supersedes, revises, responds-to, precedes) to preserve lineage across a document's history.",
+      "variants": [
+        "publication and version relationships",
+        "publication, version and effectivity",
+        "relationship references"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "publication-venue-type",
+      "canonical_label": "Publication venue/route type",
+      "gloss": "The category of venue through which something was published (peer-reviewed journal, intergovernmental/government body, private company).",
+      "variants": [
+        "publication route"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-placement-in-manuscript",
+      "canonical_label": "Disclosure placement in the manuscript",
+      "gloss": "Where within the document (e.g. Methods vs Acknowledgements) the AI-use disclosure statement should be placed.",
+      "variants": [
+        "put the disclosure in your manuscript."
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "fair-reusability-metadata-completeness",
+      "canonical_label": "FAIR reusability metadata completeness",
+      "gloss": "Whether reusability metadata required by the FAIR R1/R2 criteria — clear usage license, detailed provenance, community-standards compliance, and qualified cross-references — is present.",
+      "variants": [
+        "qualifiedmetadatareferencesok",
+        "r1.1",
+        "r1.1: clear data usage license",
+        "r1.2",
+        "r1.2: provenance",
+        "r1.3",
+        "r1.3: community standards",
+        "r1: plurality of relevant attributes",
+        "r2",
+        "reuselicense"
+      ],
+      "note": "Several pairs (e.g. \"R1.2\" / \"R1.2: Provenance\") are literally the same FAIR sub-criterion labeled with and without its descriptive suffix across the software- and data-oriented versions of the same checklist."
+    },
+    {
+      "canonical_id": "transparency-as-performed-virtue",
+      "canonical_label": "Quality/integrity/transparency as a performed virtue",
+      "gloss": "Instances where quality, integrity, or transparency is invoked as a general value or enacted practice rather than a specific measurable disclosure field.",
+      "variants": [
+        "quality",
+        "research integrity",
+        "routines"
+      ],
+      "note": "Deliberately distinguished from named disclosure fields elsewhere in the batch (e.g. prompt disclosure, disclosure placement) per the vague-virtue-vs-named-field test; \"routines\" specifically describes transparency being performed to construct trustworthiness."
+    },
+    {
+      "canonical_id": "authorship-credit-weighting-by-order",
+      "canonical_label": "Authorship credit weighting by order",
+      "gloss": "How fractional authorship credit is allocated by author rank/position, and the rationale given for that order.",
+      "variants": [
+        "rank",
+        "rationale for author order"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "guideline-quality-meta-ratings",
+      "canonical_label": "Guideline quality meta-ratings",
+      "gloss": "Ratings of a reviewed guideline's own clarity, actionability, and assessment specificity — an evaluation of the scheme rather than of a disclosed production process.",
+      "variants": [
+        "ratings of clarity, actionability, and assessment specificity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "rationalizations-for-non-disclosure",
+      "canonical_label": "Rationalizations for non-disclosure",
+      "gloss": "The excuses or justifications people give for not disclosing AI use (e.g. victimless behavior, minimal contribution, responsibility denial).",
+      "variants": [
+        "rationalization classes"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "domain-mastery-assessment-criterion",
+      "canonical_label": "Domain-mastery assessment criterion",
+      "gloss": "A rubric criterion judging a student's subject-matter mastery in an AI-assisted assignment, unrelated to whether AI use was disclosed.",
+      "variants": [
+        "rebuild the pharmacological mechanism"
+      ],
+      "note": "An outlier content-accuracy rubric item that does not describe a disclosure axis; kept as its own dimension since nothing else in the batch matches it."
+    },
+    {
+      "canonical_id": "timing-of-authorship-discussion",
+      "canonical_label": "Timing of authorship discussion",
+      "gloss": "Guidance on when in the research process authorship should be discussed among collaborators.",
+      "variants": [
+        "recommendations for when to discuss authorship"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "intended-use-and-scope-of-dataset",
+      "canonical_label": "Intended use and scope of dataset",
+      "gloss": "The recommended uses and coverage gaps a dataset is intended to address.",
+      "variants": [
+        "recommended uses"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "relational-transparency-of-ai-role",
+      "canonical_label": "Relational transparency of AI's role",
+      "gloss": "Whether communication partners understand the role AI played in producing a message, named as its own axis distinct from the amount of AI contribution.",
+      "variants": [
+        "relational transparency axis"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "industry-affiliation-classification",
+      "canonical_label": "Industry affiliation classification",
+      "gloss": "Classification of entities by type of institutional affiliation (industry vs academic/government vs unclear) relevant to conflict-of-interest assessment.",
+      "variants": [
+        "relationships to industry entities"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "reporting-frequency-meta-observation",
+      "canonical_label": "Reporting-frequency meta-observation",
+      "gloss": "A review-level observation about how often a given kind of evidence is reported across studies, rather than a disclosure field itself.",
+      "variants": [
+        "reported evidence"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "disclosure-accuracy-concordance",
+      "canonical_label": "Disclosure accuracy / concordance",
+      "gloss": "Whether disclosed information (e.g. a conflict of interest) matches the underlying facts, distinguishing under-reporting from over-reporting.",
+      "variants": [
+        "reporting concordance"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "reporting-checklist-artifact-reference",
+      "canonical_label": "Reference to a reporting-checklist artifact",
+      "gloss": "A reference naming the checklist/guideline document itself that will be used to assess complete and transparent AI reporting, rather than a content axis of that checklist.",
+      "variants": [
+        "reporting criteria list"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "ai-disclosure-mandate",
+      "canonical_label": "Mandate to disclose AI use",
+      "gloss": "Whether a policy requires authors to disclose AI use at all, as a yes/no/not-stated field, distinct from what use is permitted or where disclosure goes.",
+      "variants": [
+        "require authors to disclose the use of ai during submission"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "stage-of-ai-use-in-workflow",
+      "canonical_label": "Stage of AI use in the workflow",
+      "gloss": "The phase or stage of a workflow (research process, peer review, AI system lifecycle) at which AI was used or applicable, and the purpose tied to that stage.",
+      "variants": [
+        "purposes and stages of llm integration",
+        "research phase",
+        "research phases",
+        "research stages",
+        "research-lifecycle stage",
+        "review stage where the ai tool was used"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "research-topic-label",
+      "canonical_label": "Research topic label",
+      "gloss": "The subject-matter topic of the research itself, a descriptive/meta field rather than a disclosure axis.",
+      "variants": [
+        "research topic"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "residual-opacity-of-ai-dependency",
+      "canonical_label": "Residual opacity of AI dependency",
+      "gloss": "Whether a deliverable still depends on an opaque/black-box AI component even after disclosure or explanation is given.",
+      "variants": [
+        "residual opacity in the final deliverable"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "data-retention-period-policy",
+      "canonical_label": "Data retention policy",
+      "gloss": "Whether/how long collected data is retained, treated as a distinct data-governance concern from privacy/security protection.",
+      "variants": [
+        "retention"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "revalidation-of-ai-output-currency",
+      "canonical_label": "Revalidation of AI output currency",
+      "gloss": "Whether AI-generated content is re-checked over time to prevent stale outputs from being silently reused.",
+      "variants": [
+        "revalidation"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "rights-and-access-control",
+      "canonical_label": "Rights and access control",
+      "gloss": "Rights ownership (e.g. rights tokens held by rightsholders) and the separation of technical access from permission.",
+      "variants": [
+        "rights",
+        "rights and access"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "risk-tier-classification",
+      "canonical_label": "Risk-tier classification",
+      "gloss": "The risk level or tier assigned to AI-generated content or use, which governs what disclosure/labeling obligations apply.",
+      "variants": [
+        "risk classification",
+        "risk groups",
+        "risk ratings"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "risk-warning-communication-to-user",
+      "canonical_label": "Risk-warning communication to the user",
+      "gloss": "Whether risks or safety warnings about the AI-assisted output are communicated to the end user (what could make this unsafe).",
+      "variants": [
+        "risk communication",
+        "risk-warning communication"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "product-role-classification-integrity",
+      "canonical_label": "Product role-classification integrity",
+      "gloss": "Whether a product's claimed function/role matches its documented classification (e.g. against SaMD frameworks), an audit of role-labeling accuracy.",
+      "variants": [
+        "role integrity"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "stakeholder-role-based-self-assessment-mechanism",
+      "canonical_label": "Stakeholder role-based self-assessment mechanism",
+      "gloss": "A mechanism for translating a framework into self-assessment tailored to each stakeholder role (authors, reviewers, editors, publishers).",
+      "variants": [
+        "role-based self-assessment"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "iterative-self-critique-practice",
+      "canonical_label": "Iterative self-critique practice",
+      "gloss": "An operational practice of rolling self-critique loops used to manage model uncertainty during AI-assisted work.",
+      "variants": [
+        "rolling self-critique prompt (loops)"
+      ],
+      "note": ""
+    },
+    {
+      "canonical_id": "type-of-ai-assisted-task",
+      "canonical_label": "Type of AI-assisted task",
+      "gloss": "The specific kind of task AI assistance was used for (e.g. literature search, summarizing, identifying references), as a categorical task-type axis distinct from the extent/amount of AI contribution.",
+      "variants": [
+        "research support"
+      ],
+      "note": ""
+    }
+  ]
+}
