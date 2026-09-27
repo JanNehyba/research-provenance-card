@@ -125,11 +125,19 @@ Every `rec_id` in the packet must appear exactly once in your output.
 1. Read the packet entry. Note the `retrieval_status`. If it is `abstract_only`,
    you have only an abstract; extract what is there and put `abstract` in every
    `locator`. Do not speculate about the rest of the paper.
-2. Read the text file. It may be long. Look for the sections where schemes live:
-   a methods or coding section, a framework or model section, a table of
-   categories, a numbered list, an appendix.
-3. For each scheme, copy its dimensions out one at a time.
-4. Before writing, check each quote against the file once more. This is cheaper
+2. **Start with `candidate_windows` in the packet.** A script cut out the
+   passages around words like taxonomy, dimension, levels, coding scheme and
+   checklist, and each window carries the heading above it. Most papers give up
+   their scheme here, which saves you reading the whole file.
+3. **Open `text_file` whenever the windows are not enough.** They are a reading
+   aid, not the evidence. The full retrieved text is on disk at that path, your
+   quotes are verified against the whole file, and a scheme stated in words the
+   script did not look for will only be found by reading. If the windows look
+   promising but incomplete, read the section they came from.
+4. Look for the places schemes live: a methods or coding section, a framework or
+   model section, a table of categories, a numbered list, an appendix.
+5. For each scheme, copy its dimensions out one at a time.
+6. Before writing, check each quote against the file once more. This is cheaper
    than an extraction that gets thrown away.
 
 ## What not to do

@@ -43,6 +43,25 @@ PACKET_SIZE = 3
 MAX_QUOTE_WORDS = 25
 HARD_QUOTE_WORDS = 40
 
+# Candidate windows. Reading every full text in full would cost more than the
+# rest of the pipeline together, so `prepare` pre-cuts the places where a scheme
+# is usually stated and puts them in the packet. This is navigation, not
+# selection: the whole text stays on disk, the packet says so, and every quote is
+# still verified against the whole text rather than against the windows. A window
+# that misleads an extractor costs one reading; a window that hides a scheme is
+# recoverable because the extractor can open the file.
+WINDOW_TERMS = (
+    "taxonomy", "typology", "framework", "facet", "dimension", "categor",
+    "classification", "coding scheme", "codebook", "rubric", "checklist",
+    "levels of", "level of", "five levels", "scale", "tier", "vocabulary",
+    "ontology", "schema", "we coded", "were coded", "coding frame",
+    "disclosure statement", "declaration", "attribution", "provenance",
+    "contributorship", "CRediT",
+)
+WINDOW_CHARS = 1200
+MAX_WINDOWS = 12
+MAX_WINDOW_BUDGET = 15000
+
 DOMAINS = ("research_publishing", "education_assessment", "journalism_media",
            "government", "software", "workplace", "advertising", "law_regulation",
            "other")
@@ -91,6 +110,69 @@ def write_jsonl(path: str, rows: list[dict]) -> None:
             fh.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
+def _heading_before(text: str, index: int) -> str:
+    """Nearest preceding heading line, which the extractor can use as a locator.
+
+    The retrieval step marks JATS section titles with `## `, so this finds a real
+    section name for Europe PMC texts and usually a plausible one for HTML.
+    """
+    prefix = text[:index]
+    cut = prefix.rfind("\n## ")
+    if cut == -1:
+        return ""
+    line = prefix[cut + 4:].split("\n")[0]
+    return line.strip()[:80]
+
+
+def candidate_windows(text: str) -> list[dict]:
+    """Passages where a category scheme is usually stated.
+
+    Windows are merged when they overlap, capped in number and in total size, and
+    each carries the term that found it and the heading above it. This is a
+    reading aid; the extractor is told the full text is on disk and that quotes
+    are verified against the full text, not against these windows.
+    """
+    if not text:
+        return []
+    lower = text.lower()
+    spans: list[tuple[int, int, str]] = []
+    for term in WINDOW_TERMS:
+        start = 0
+        while True:
+            hit = lower.find(term.lower(), start)
+            if hit == -1:
+                break
+            spans.append((max(0, hit - WINDOW_CHARS // 3),
+                          min(len(text), hit + WINDOW_CHARS), term))
+            start = hit + len(term)
+    if not spans:
+        return []
+
+    spans.sort()
+    merged: list[list] = []
+    for begin, end, term in spans:
+        if merged and begin <= merged[-1][1]:
+            merged[-1][1] = max(merged[-1][1], end)
+            if term not in merged[-1][2]:
+                merged[-1][2].append(term)
+        else:
+            merged.append([begin, end, [term]])
+
+    merged.sort(key=lambda span: -(span[1] - span[0]))
+    windows, budget = [], 0
+    for begin, end, terms in merged[:MAX_WINDOWS * 2]:
+        piece = text[begin:end]
+        if budget + len(piece) > MAX_WINDOW_BUDGET or len(windows) >= MAX_WINDOWS:
+            break
+        budget += len(piece)
+        windows.append({
+            "heading_above": _heading_before(text, begin),
+            "matched_terms": terms[:4],
+            "text": piece,
+        })
+    return windows
+
+
 def prepare() -> int:
     retrieval = {row["rec_id"]: row for row in load_jsonl(RETRIEVAL)}
     records = load_jsonl(INCLUDED)
@@ -103,6 +185,7 @@ def prepare() -> int:
         row = retrieval.get(record["rec_id"])
         if not row or row["status"] == "no_text":
             continue
+        source_text = _read_source_text(record["rec_id"])
         usable.append({
             "rec_id": record["rec_id"],
             "title": record["title"],
@@ -115,6 +198,7 @@ def prepare() -> int:
             "text_source": row["text_source"],
             "text_file": f"data/lit/fulltext/{record['rec_id']}.txt",
             "chars": row["chars"],
+            "candidate_windows": candidate_windows(source_text),
         })
 
     os.makedirs(PACKETS, exist_ok=True)
