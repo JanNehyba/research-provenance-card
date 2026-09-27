@@ -1,6 +1,6 @@
 {
   "note": "Candidate groupings only. The merge itself is a judgement and belongs in scheme-merge.json, which `check` validates against this data. Clustering by name is blind to schemes nobody named, and clustering by label overlap will miss two renderings of one scheme that use different words for the same axis.",
-  "distinct_scheme_ids": 430,
+  "distinct_scheme_ids": 475,
   "clusters": [
     {
       "reason": "same normalised name",
@@ -9,6 +9,7 @@
         "ai-assessment-scale-aias",
         "aias-ai-assessment-scale",
         "aias-efl-adapted-levels",
+        "aias-efl-levels-2-3-4",
         "aias-five-levels",
         "aias-five-levels-ref",
         "aias-integrity-equity-pedagogy"
@@ -17,13 +18,14 @@
         "AI Assessment Scale (AIAS)",
         "AI assessment scale (AIAS)",
         "Artificial Intelligence Assessment Scale (AIAS)",
+        "The AI Assessment Scale (AIAS)",
         "the AI Assessment Scale (AIAS)",
         "the Artificial Intelligence Assessment Scale (AIAS)"
       ],
       "domains": [
         "education_assessment"
       ],
-      "papers": 10
+      "papers": 12
     },
     {
       "reason": "dimension labels overlap at least 0.6",
@@ -32,6 +34,7 @@
         "audience-ai-disclosure-info-needs",
         "bobier-ai-policy-consensus-practices",
         "davey-smith-contributorship-roles",
+        "endo-journals-ai-policy-four-areas",
         "figure-evidentiary-function-taxonomy",
         "student-led-vs-ai-assisted-disclosure",
         "undeserving-authorship-countermeasures"
@@ -42,7 +45,7 @@
         "journalism_media",
         "research_publishing"
       ],
-      "papers": 6
+      "papers": 7
     },
     {
       "reason": "same normalised name",
@@ -57,12 +60,13 @@
         "Contributor Roles \nTaxonomy (CRediT)",
         "Contributor Roles Taxonomy",
         "Contributor Roles Taxonomy (CRediT)",
-        "The Contributor Roles Taxonomy (CRediT)"
+        "The Contributor Roles Taxonomy (CRediT)",
+        "the Contributor Roles Taxonomy (CRediT)"
       ],
       "domains": [
         "research_publishing"
       ],
-      "papers": 12
+      "papers": 13
     },
     {
       "reason": "same normalised name",
@@ -70,11 +74,30 @@
       "members": [
         "credit-contributor-role-taxonomy-review",
         "credit-taxonomy-nih-authorship-disputes",
-        "credit-taxonomy-ten-year-retrospective"
+        "credit-taxonomy-ten-year-retrospective",
+        "credit-taxonomy-use-in-this-study"
       ],
       "names": [
         "Contributor Role Taxonomy (CRediT)",
         "The Contributor Role Taxonomy (CRediT)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 4
+    },
+    {
+      "reason": "same normalised name",
+      "key": "credit",
+      "members": [
+        "credit-contributor-roles-taxonomy-osf",
+        "credit-taxonomy-14-roles",
+        "credit-taxonomy-as-cited-in-market-dynamics"
+      ],
+      "names": [
+        "CRediT (Contributor RolesTaxonomy)",
+        "CRediT taxonomy",
+        "CRediT taxonomy (14 contributor roles)"
       ],
       "domains": [
         "research_publishing"
@@ -116,6 +139,22 @@
     },
     {
       "reason": "same normalised name",
+      "key": "gaidet",
+      "members": [
+        "gaidet-declaration-fields",
+        "gaidet-generative-ai-delegation-taxonomy-policy"
+      ],
+      "names": [
+        "GAIDeT (Generative AI Delegation Taxonomy)"
+      ],
+      "domains": [
+        "education_assessment",
+        "research_publishing"
+      ],
+      "papers": 2
+    },
+    {
+      "reason": "same normalised name",
       "key": "twolaneapproach",
       "members": [
         "liu-bridgeman-two-lane-approach",
@@ -139,6 +178,21 @@
       ],
       "names": [
         "ICMJE criteria"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 2
+    },
+    {
+      "reason": "same normalised name",
+      "key": "standardisedextractiontemplate",
+      "members": [
+        "aidit-article-level-extraction-template",
+        "aidit-journal-policy-extraction-template"
+      ],
+      "names": [
+        "standardised extraction template"
       ],
       "domains": [
         "research_publishing"
@@ -581,20 +635,6 @@
     },
     {
       "reason": "same normalised name",
-      "key": "credit",
-      "members": [
-        "credit-contributor-roles-taxonomy-osf"
-      ],
-      "names": [
-        "CRediT (Contributor RolesTaxonomy)"
-      ],
-      "domains": [
-        "research_publishing"
-      ],
-      "papers": 1
-    },
-    {
-      "reason": "same normalised name",
       "key": "tripartitefeedback",
       "members": [
         "tripartite-feedback-framework"
@@ -685,20 +725,6 @@
       ],
       "names": [
         "Effectiveness–Legitimacy Matrix (ELM)"
-      ],
-      "domains": [
-        "research_publishing"
-      ],
-      "papers": 1
-    },
-    {
-      "reason": "same normalised name",
-      "key": "gaidet",
-      "members": [
-        "gaidet-generative-ai-delegation-taxonomy-policy"
-      ],
-      "names": [
-        "GAIDeT (Generative AI Delegation Taxonomy)"
       ],
       "domains": [
         "research_publishing"
@@ -945,6 +971,76 @@
     },
     {
       "reason": "same normalised name",
+      "key": "mobileguard",
+      "members": [
+        "mobileguard-four-pillars"
+      ],
+      "names": [
+        "MobileGuard"
+      ],
+      "domains": [
+        "software"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "aibasedjurimetrics",
+      "members": [
+        "ai-based-jurimetrics-four-principles"
+      ],
+      "names": [
+        "AI-Based Jurimetrics"
+      ],
+      "domains": [
+        "law_regulation"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "individualaiusematurity",
+      "members": [
+        "iaumf-maturity-framework"
+      ],
+      "names": [
+        "Individual AI Use Maturity Framework (iAUMF)"
+      ],
+      "domains": [
+        "other"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "girimedicolegalcdss",
+      "members": [
+        "girimedicolegal-liability-chain-risk-calculator"
+      ],
+      "names": [
+        "GiriMedicolegal™ CDSS"
+      ],
+      "domains": [
+        "law_regulation"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "dualassuranceassessmentarchitecture",
+      "members": [
+        "engineering-assessment-evidence-forms"
+      ],
+      "names": [
+        "Dual-Assurance Assessment Architecture"
+      ],
+      "domains": [
+        "education_assessment"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
       "key": "keycomponentsartificialintelligencepoliciesinkoreanmedicaljournal",
       "members": [
         "korean-journal-ai-guideline-key-components"
@@ -1133,6 +1229,20 @@
       ],
       "names": [
         "three-dimensional regulatory framework of “transparency, accountability, and technical support.”"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "artificialintelligenceinmedicalimaging",
+      "members": [
+        "claim-checklist-underreported-items"
+      ],
+      "names": [
+        "Checklist for Artificial Intelligence in Medical Imaging"
       ],
       "domains": [
         "research_publishing"
@@ -1735,6 +1845,20 @@
       ],
       "names": [
         "aiprov"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "artificialintelligenceutilization",
+      "members": [
+        "aius-five-levels"
+      ],
+      "names": [
+        "Artificial Intelligence Utilization Scale (AIUS) Framework"
       ],
       "domains": [
         "research_publishing"
@@ -2641,13 +2765,97 @@
       "reason": "same normalised name",
       "key": "oversightprotocol",
       "members": [
-        "op9-oversight-protocol"
+        "op-9-oversight-protocol"
       ],
       "names": [
         "Oversight Protocol (OP-9)"
       ],
       "domains": [
         "workplace"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "fairvariables",
+      "members": [
+        "fair-data-variables-organic-chemistry"
+      ],
+      "names": [
+        "FAIR variables"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "authorshipcriteria",
+      "members": [
+        "authorship-criteria-by-organization"
+      ],
+      "names": [
+        "Authorship criteria (Ethical authorship)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "authorshipgrids",
+      "members": [
+        "authorship-grid-phillippi"
+      ],
+      "names": [
+        "Authorship Grids"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "publishingopenresearchusingphysicalsamplesguidanceauthors",
+      "members": [
+        "sample-publishing-4-step-guidance"
+      ],
+      "names": [
+        "Publishing Open Research Using Physical Samples: Guidance for Authors"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "generativeartificialintelligencetoolsinmedicalresearch",
+      "members": [
+        "gamer-initial-checklist-aspects"
+      ],
+      "names": [
+        "Generative Artificial Intelligence Tools in Medical Research (GAMER)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "transparentreportingmultivariablepredictionindividualprognosisordiagnosisstatement",
+      "members": [
+        "tripod-22-item-checklist"
+      ],
+      "names": [
+        "Transparent Reporting of a multivari-\nable prediction model for Individual Prognosis Or Diag-\nnosis (TRIPOD) Statement"
+      ],
+      "domains": [
+        "research_publishing"
       ],
       "papers": 1
     },
@@ -3339,6 +3547,48 @@
     },
     {
       "reason": "same normalised name",
+      "key": "aidit",
+      "members": [
+        "aidit-taxonomy-ai-uses"
+      ],
+      "names": [
+        "AIdIT (AI disclosure for Improved Transparency)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "5w1h",
+      "members": [
+        "5w1h-ai-disclosure-framework"
+      ],
+      "names": [
+        "5W1H (Who, What, When, Where, Why, How) framework"
+      ],
+      "domains": [
+        "journalism_media"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "typologiesinairelatedretractions",
+      "members": [
+        "ai-related-retraction-typologies"
+      ],
+      "names": [
+        "Typologies in AI‑Related Retractions"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
       "key": "levelaiassistancehumanwrittenaiassistedaigenerated",
       "members": [
         "oss-level-of-ai-assistance"
@@ -3362,6 +3612,118 @@
       ],
       "domains": [
         "other"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "aiprocessliteracy",
+      "members": [
+        "ai-process-literacy-biodesign"
+      ],
+      "names": [
+        "AI Process Literacy"
+      ],
+      "domains": [
+        "education_assessment"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "spiritai",
+      "members": [
+        "spirit-ai-checklist"
+      ],
+      "names": [
+        "SPIRIT-AI checklist"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "riskethicsmatrix",
+      "members": [
+        "risk-and-ethics-matrix-ai-video"
+      ],
+      "names": [
+        "risk-and-ethics matrix"
+      ],
+      "domains": [
+        "other"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "internationalcommitteemedicaljournaleditorsauthorshipcriteria",
+      "members": [
+        "icmje-authorship-criteria"
+      ],
+      "names": [
+        "International Committee of Medical Journal Editors (ICMJE) authorship criteria"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "tableicommoninstancesinappropriateauthorship",
+      "members": [
+        "table-i-inappropriate-authorship-types"
+      ],
+      "names": [
+        "Table I. Common instances of inappropriate authorship"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "differentiateddatasharing",
+      "members": [
+        "pkrxiv-differentiated-data-sharing-model"
+      ],
+      "names": [
+        "differentiated data sharing model framework"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "aitscontentcomposition",
+      "members": [
+        "aits-content-composition-taxonomy"
+      ],
+      "names": [
+        "AITS Content Composition Taxonomy"
+      ],
+      "domains": [
+        "government"
+      ],
+      "papers": 1
+    },
+    {
+      "reason": "same normalised name",
+      "key": "citationfileformat",
+      "members": [
+        "citation-file-format-schema-keys"
+      ],
+      "names": [
+        "Citation File Format"
+      ],
+      "domains": [
+        "software"
       ],
       "papers": 1
     },
@@ -3518,12 +3880,16 @@
     "ai-contamination-pathways-vulnerability-zones",
     "ai-cultural-preservation-research-agenda",
     "ai-design-tool-categories",
+    "ai-disclosure-dependability-framework",
     "ai-disclosure-mandatory-optional-unnecessary",
     "ai-disclosure-peer-review-policy-coding",
+    "ai-disclosure-questions-theme-taxonomy",
     "ai-disclosure-reliability-dimensions",
     "ai-disclosure-usecase-risk-hybrid-canada",
     "ai-lit-course-assessment-rubric",
+    "ai-output-divergence-five-part-taxonomy",
     "ai-pipeline-human-role-shift",
+    "ai-policy-six-domains-four-stances",
     "ai-sr-conceptual-framework",
     "ai-transparency-dimensions-beyond-algorithmic-disclosure",
     "ai-use-audit-trail-log",
@@ -3533,6 +3899,7 @@
     "ai-writing-tools-generative-assistive",
     "aig-indicator-types",
     "airo-governance-dimensions",
+    "alcoholpost-disclosure-typology",
     "algorithmic-clearance-public-traces",
     "antoniou-smi-malpractice-four-themes",
     "aquaculture-genai-policy-domains",
@@ -3545,6 +3912,8 @@
     "berdyansk-ai-usage-regimes",
     "beyond-principlism-ai-usage-documentation",
     "biorxiv-four-disclosure-elements",
+    "bleher-braun-responsibility-attribution-dimensions",
+    "bleher-braun-responsibility-management-factors",
     "bmj-ai-tool-task-taxonomy",
     "boerman-blog-disclosure-codebook",
     "c2pa-manifest-provenance-scheme",
@@ -3562,10 +3931,12 @@
     "corr-editorial-ai-use-standards",
     "creator-ai-disclosure-threshold-factors",
     "creator-ai-disclosure-ux-requirements",
+    "creator-ai-involvement-communication-aspects",
     "credit-merit-ordinal-contribution-scale",
     "critical-incident-authorship-problems",
     "crot-ethical-extension-three-steps",
     "cs-disclosure-necessity-levels",
+    "cse-11-contributor-roles-checklist",
     "cuhk-genai-four-adoption-levels",
     "daisy-completeness-coding-scheme",
     "datacite-four-extraction-conditions",
@@ -3595,6 +3966,7 @@
     "genai-education-governance-tiers",
     "genai-higher-ed-policy-themes",
     "genai-journalism-ethics-codebook",
+    "genai-lr-checklist-three-domains",
     "genai-marketing-impact-cycle-framework",
     "genai-proficiency-five-levels",
     "genai-qualitative-disclosure-heuristic",
@@ -3605,7 +3977,6 @@
     "gift-ghost-authorship-types",
     "girimedicolegal-liability-responsibility-chain",
     "hai-disclosure-design-dimensions",
-    "hendriks-2020-alcoholpost-disclosure-codebook",
     "honorary-authorship-modalities",
     "hosseini-genai-writing-assistance-taxonomy",
     "hpe-journals-ai-guidance-themes",
@@ -3620,11 +3991,14 @@
     "iranian-med-journals-ai-policy-checklist",
     "jamo-metadata-classes",
     "jkms-coi-disclosure-expansion",
+    "jkms-resnik-hosseini-disclosure-levels",
     "jkms-table1-ai-use-categories",
     "korean-journal-gai-guideline-items",
     "leopold-ai-editorial-standards",
     "lingard-disclosure-guidance",
+    "literature-synthesis-review-grid",
     "marda-fair-materials-four-levels",
+    "medai-assessment-reporting-domains",
     "medical-writing-supervisor-framework",
     "medlit-disclosure-content-analysis",
     "medwriting-ai-disclosure-elements",
@@ -3632,7 +4006,7 @@
     "nist-digital-content-transparency-approach-categories",
     "nist-synthetic-content-detection-categories",
     "nursing-authorship-roles",
-    "op9-paper-ownership-discretion-codebook",
+    "op9-ownership-discretion-codebook",
     "open-science-practices-checklist-pa-bcr",
     "originality-transparency-accountability",
     "oss-ai-policy-disclosure-hitl-coding",
@@ -3662,6 +4036,7 @@
     "theseus-replacement-triad",
     "tiktok-commercial-content-ways",
     "ukzn-three-levels-of-disclosure",
+    "unified-llm-reporting-checklist-three-domains",
     "verifiable-vs-declared-integrity-questions",
     "vietnam-advertising-reform-taxonomy",
     "vietnamese-chatgpt-plagiarism-coding-categories",
@@ -3672,6 +4047,24 @@
     "zkp-image-provenance-claim-types"
   ],
   "scheme_detail": {
+    "5w1h-ai-disclosure-framework": {
+      "names": [
+        "5W1H (Who, What, When, Where, Why, How) framework"
+      ],
+      "domains": [
+        "journalism_media"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "73893987a82abf0c"
+      ],
+      "source_refs": [
+        "doi:10.1145/3613905.3650750"
+      ],
+      "dimension_count": 1
+    },
     "aa1-agent-governance-attestation": {
       "names": [
         "AA-1, the Agent Governance Attestation"
@@ -3962,6 +4355,24 @@
       ],
       "dimension_count": 1
     },
+    "ai-based-jurimetrics-four-principles": {
+      "names": [
+        "AI-Based Jurimetrics"
+      ],
+      "domains": [
+        "law_regulation"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "969c58420a854f8e"
+      ],
+      "source_refs": [
+        "doi:10.2139/ssrn.6895039"
+      ],
+      "dimension_count": 1
+    },
     "ai-contamination-pathways-vulnerability-zones": {
       "names": [],
       "domains": [
@@ -4046,6 +4457,22 @@
       ],
       "dimension_count": 6
     },
+    "ai-disclosure-dependability-framework": {
+      "names": [],
+      "domains": [
+        "other"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "7ec3509b10a5b59f"
+      ],
+      "source_refs": [
+        "doi:10.36348/sjef.2026.v10i03.006"
+      ],
+      "dimension_count": 4
+    },
     "ai-disclosure-guidance-hpe-editors": {
       "names": [
         "AI Disclosure Guidance for Authors based on Editor Expectations"
@@ -4095,6 +4522,22 @@
         "doi:10.21203/rs.3.rs-9581778/v1"
       ],
       "dimension_count": 5
+    },
+    "ai-disclosure-questions-theme-taxonomy": {
+      "names": [],
+      "domains": [
+        "journalism_media"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "73893987a82abf0c"
+      ],
+      "source_refs": [
+        "doi:10.1145/3613905.3650750"
+      ],
+      "dimension_count": 2
     },
     "ai-disclosure-reliability-dimensions": {
       "names": [],
@@ -4180,6 +4623,22 @@
       ],
       "dimension_count": 1
     },
+    "ai-output-divergence-five-part-taxonomy": {
+      "names": [],
+      "domains": [
+        "other"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "876827f945c9568e"
+      ],
+      "source_refs": [
+        "doi:10.5281/zenodo.18526764"
+      ],
+      "dimension_count": 1
+    },
     "ai-pgm-levels": {
       "names": [
         "AI principled governance matrix (AI-PGM)"
@@ -4231,6 +4690,58 @@
         "doi:10.3389/fonc.2026.1717048"
       ],
       "dimension_count": 4
+    },
+    "ai-policy-six-domains-four-stances": {
+      "names": [],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "50a0f0148ca4f97f"
+      ],
+      "source_refs": [
+        "doi:10.31234/osf.io/k6cyt_v1"
+      ],
+      "dimension_count": 2
+    },
+    "ai-process-literacy-biodesign": {
+      "names": [
+        "AI Process Literacy"
+      ],
+      "domains": [
+        "education_assessment"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "1aca523232da8eed"
+      ],
+      "source_refs": [
+        "doi:10.33774/coe-2026-tn18t"
+      ],
+      "dimension_count": 4
+    },
+    "ai-related-retraction-typologies": {
+      "names": [
+        "Typologies in AI‑Related Retractions"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "153e7e5e4a6d9626"
+      ],
+      "source_refs": [
+        "doi:10.18231/j.ijlsit.16859.1778562927"
+      ],
+      "dimension_count": 1
     },
     "ai-scientific-discovery-guidelines": {
       "names": [
@@ -4488,10 +4999,29 @@
       ],
       "dimension_count": 1
     },
+    "aias-efl-levels-2-3-4": {
+      "names": [
+        "AI Assessment Scale (AIAS)"
+      ],
+      "domains": [
+        "education_assessment"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "3b979336152745dc"
+      ],
+      "source_refs": [
+        "doi:10.1108/aiie-02-2025-0034"
+      ],
+      "dimension_count": 1
+    },
     "aias-five-levels": {
       "names": [
         "AI assessment scale (AIAS)",
         "Artificial Intelligence Assessment Scale (AIAS)",
+        "The AI Assessment Scale (AIAS)",
         "the AI Assessment Scale (AIAS)",
         "the Artificial Intelligence Assessment Scale (AIAS)"
       ],
@@ -4505,6 +5035,7 @@
       "papers": [
         "007e9a5191d80ac3",
         "704d2cd8fac44707",
+        "90333dd8ac5ef7fd",
         "cadc96896f05a915",
         "ee8fa12fd6623287",
         "f3bf5805acd415d6"
@@ -4512,6 +5043,7 @@
       "source_refs": [
         "doi:10.1007/s40979-025-00207-5",
         "doi:10.14742/ajet.9434",
+        "doi:10.48550/arxiv.2312.07086",
         "doi:10.48550/arxiv.2403.14692",
         "doi:10.53761/q3azde36",
         "doi:10.53761/rrm4y757"
@@ -4625,6 +5157,60 @@
         "doi:10.5860/crln.85.10.407"
       ],
       "dimension_count": 14
+    },
+    "aidit-article-level-extraction-template": {
+      "names": [
+        "standardised extraction template"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "112587e31d09f523"
+      ],
+      "source_refs": [
+        "doi:10.1186/s41073-026-00230-1"
+      ],
+      "dimension_count": 7
+    },
+    "aidit-journal-policy-extraction-template": {
+      "names": [
+        "standardised extraction template"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "112587e31d09f523"
+      ],
+      "source_refs": [
+        "doi:10.1186/s41073-026-00230-1"
+      ],
+      "dimension_count": 5
+    },
+    "aidit-taxonomy-ai-uses": {
+      "names": [
+        "AIdIT (AI disclosure for Improved Transparency)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "112587e31d09f523"
+      ],
+      "source_refs": [
+        "doi:10.1186/s41073-026-00230-1"
+      ],
+      "dimension_count": 2
     },
     "aiedsm-ece-minimum-field-framework": {
       "names": [
@@ -4874,6 +5460,42 @@
       ],
       "dimension_count": 7
     },
+    "aits-content-composition-taxonomy": {
+      "names": [
+        "AITS Content Composition Taxonomy"
+      ],
+      "domains": [
+        "government"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "b780cf617c0c3c50"
+      ],
+      "source_refs": [
+        "arXiv:2604.26075"
+      ],
+      "dimension_count": 10
+    },
+    "aius-five-levels": {
+      "names": [
+        "Artificial Intelligence Utilization Scale (AIUS) Framework"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "8a70a4ee96f4223e"
+      ],
+      "source_refs": [
+        "doi:10.18178/ijiet.2025.15.10.2420"
+      ],
+      "dimension_count": 1
+    },
     "al-isnad-framework-knowledge-attribution": {
       "names": [
         "Al Isnād Framework for Knowledge Attribution"
@@ -4891,6 +5513,22 @@
         "doi:10.6007/ijarbss/v15-i9/26451"
       ],
       "dimension_count": 1
+    },
+    "alcoholpost-disclosure-typology": {
+      "names": [],
+      "domains": [
+        "advertising"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "db3bf94244c826ad"
+      ],
+      "source_refs": [
+        "doi:10.3389/fpsyg.2019.02991"
+      ],
+      "dimension_count": 2
     },
     "aldaf-aias-application": {
       "names": [
@@ -5216,6 +5854,42 @@
       ],
       "dimension_count": 1
     },
+    "authorship-criteria-by-organization": {
+      "names": [
+        "Authorship criteria (Ethical authorship)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "reporting_guideline"
+      ],
+      "papers": [
+        "c92c1b1017ba7c42"
+      ],
+      "source_refs": [
+        "doi:10.30834/kjp.36.1.2023.416"
+      ],
+      "dimension_count": 6
+    },
+    "authorship-grid-phillippi": {
+      "names": [
+        "Authorship Grids"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "c92c1b1017ba7c42"
+      ],
+      "source_refs": [
+        "doi:10.30834/kjp.36.1.2023.416"
+      ],
+      "dimension_count": 8
+    },
     "automation-level-taxonomy-forecasting": {
       "names": [
         "automation level taxonomy"
@@ -5315,6 +5989,38 @@
         "doi:10.1016/j.patter.2026.101585"
       ],
       "dimension_count": 4
+    },
+    "bleher-braun-responsibility-attribution-dimensions": {
+      "names": [],
+      "domains": [
+        "other"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "4b115792823cde21"
+      ],
+      "source_refs": [
+        "doi:10.1007/s43681-022-00135-x"
+      ],
+      "dimension_count": 1
+    },
+    "bleher-braun-responsibility-management-factors": {
+      "names": [],
+      "domains": [
+        "other"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "4b115792823cde21"
+      ],
+      "source_refs": [
+        "doi:10.1007/s43681-022-00135-x"
+      ],
+      "dimension_count": 1
     },
     "bmj-ai-tool-task-taxonomy": {
       "names": [],
@@ -5500,7 +6206,7 @@
       "source_refs": [
         "doi:10.48550/arxiv.2307.08974"
       ],
-      "dimension_count": 2
+      "dimension_count": 3
     },
     "case-analysis-ai-augmented-substituted": {
       "names": [],
@@ -5611,6 +6317,24 @@
       ],
       "dimension_count": 4
     },
+    "citation-file-format-schema-keys": {
+      "names": [
+        "Citation File Format"
+      ],
+      "domains": [
+        "software"
+      ],
+      "artifact_types": [
+        "technical_standard"
+      ],
+      "papers": [
+        "ffd91109dad64fb8"
+      ],
+      "source_refs": [
+        "doi:10.32614/cran.package.cffr"
+      ],
+      "dimension_count": 1
+    },
     "citizen-preferred-ai-disclosure-formats": {
       "names": [],
       "domains": [
@@ -5662,6 +6386,24 @@
         "doi:10.1016/j.emj.2026.06.001"
       ],
       "dimension_count": 2
+    },
+    "claim-checklist-underreported-items": {
+      "names": [
+        "Checklist for Artificial Intelligence in Medical Imaging"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "reporting_guideline"
+      ],
+      "papers": [
+        "f17b6d8d1f311029"
+      ],
+      "source_refs": [
+        "doi:10.4274/dir.2025.243182"
+      ],
+      "dimension_count": 1
     },
     "clear-radiomics-checklist": {
       "names": [
@@ -5971,6 +6713,22 @@
       ],
       "dimension_count": 7
     },
+    "creator-ai-involvement-communication-aspects": {
+      "names": [],
+      "domains": [
+        "other"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "d9e859906d64bc3d"
+      ],
+      "source_refs": [
+        "https://openalex.org/W7165070117"
+      ],
+      "dimension_count": 3
+    },
     "credit-check-contributor-roles": {
       "names": [
         "CASRAI Contributor Role Taxonomy (CRediT)"
@@ -6029,7 +6787,8 @@
       "names": [
         "Contributor Roles \nTaxonomy (CRediT)",
         "Contributor Roles Taxonomy (CRediT)",
-        "The Contributor Roles Taxonomy (CRediT)"
+        "The Contributor Roles Taxonomy (CRediT)",
+        "the Contributor Roles Taxonomy (CRediT)"
       ],
       "domains": [
         "research_publishing"
@@ -6043,6 +6802,7 @@
         "0578b998ad26e7f4",
         "2e2a825aec123f96",
         "30e82eb7e4c5402e",
+        "7a755d082e0dead2",
         "bfecd6223ca6e57f",
         "cdc6a3221d71629b",
         "ce87746820da54ac",
@@ -6051,6 +6811,7 @@
         "ff1ecf872c78b05a"
       ],
       "source_refs": [
+        "doi:10.1002/leap.2048",
         "doi:10.1038/s41467-023-37039-1",
         "doi:10.1038/s41562-023-01572-2",
         "doi:10.11591/ijere.v15i4.38930",
@@ -6061,7 +6822,7 @@
         "doi:10.4103/picr.picr_254_25",
         "doi:10.48550/arxiv.2504.02769"
       ],
-      "dimension_count": 9
+      "dimension_count": 10
     },
     "credit-contributor-roles-taxonomy-mention": {
       "names": [
@@ -6169,6 +6930,42 @@
       ],
       "dimension_count": 1
     },
+    "credit-taxonomy-14-roles": {
+      "names": [
+        "CRediT taxonomy (14 contributor roles)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "technical_standard"
+      ],
+      "papers": [
+        "c92c1b1017ba7c42"
+      ],
+      "source_refs": [
+        "doi:10.30834/kjp.36.1.2023.416"
+      ],
+      "dimension_count": 14
+    },
+    "credit-taxonomy-as-cited-in-market-dynamics": {
+      "names": [
+        "CRediT taxonomy"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "technical_standard"
+      ],
+      "papers": [
+        "8c56f44ec3b86da5"
+      ],
+      "source_refs": [
+        "doi:10.48550/arxiv.2604.19507"
+      ],
+      "dimension_count": 1
+    },
     "credit-taxonomy-nih-authorship-disputes": {
       "names": [
         "Contributor Role Taxonomy (CRediT)"
@@ -6202,6 +6999,24 @@
       ],
       "source_refs": [
         "doi:10.31222/osf.io/hfbkp_v2"
+      ],
+      "dimension_count": 1
+    },
+    "credit-taxonomy-use-in-this-study": {
+      "names": [
+        "Contributor Role Taxonomy (CRediT)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "technical_standard"
+      ],
+      "papers": [
+        "7b25cb5cd0f2f53f"
+      ],
+      "source_refs": [
+        "doi:10.1007/s11192-026-05582-5"
       ],
       "dimension_count": 1
     },
@@ -6324,6 +7139,22 @@
         "doi:10.48550/arxiv.2608.23271"
       ],
       "dimension_count": 1
+    },
+    "cse-11-contributor-roles-checklist": {
+      "names": [],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "reporting_guideline"
+      ],
+      "papers": [
+        "c92c1b1017ba7c42"
+      ],
+      "source_refs": [
+        "doi:10.30834/kjp.36.1.2023.416"
+      ],
+      "dimension_count": 11
     },
     "cuhk-genai-four-adoption-levels": {
       "names": [],
@@ -6945,6 +7776,40 @@
       ],
       "dimension_count": 1
     },
+    "endo-journals-ai-policy-four-areas": {
+      "names": [],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "519fc37b8d63bc86"
+      ],
+      "source_refs": [
+        "doi:10.3389/fendo.2026.1767254"
+      ],
+      "dimension_count": 1
+    },
+    "engineering-assessment-evidence-forms": {
+      "names": [
+        "Dual-Assurance Assessment Architecture"
+      ],
+      "domains": [
+        "education_assessment"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "77cb800b54aecd29"
+      ],
+      "source_refs": [
+        "doi:10.9734/ajess/2026/v52i93311"
+      ],
+      "dimension_count": 1
+    },
     "envidat-datacredit-roles": {
       "names": [
         "DataCRediT"
@@ -7136,6 +8001,24 @@
         "doi:10.1038/s41597-023-02463-x"
       ],
       "dimension_count": 8
+    },
+    "fair-data-variables-organic-chemistry": {
+      "names": [
+        "FAIR variables"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "71b33fadb9eee688"
+      ],
+      "source_refs": [
+        "doi:10.3762/bjoc.21.70"
+      ],
+      "dimension_count": 17
     },
     "fair-global-mental-health-five-key-themes": {
       "names": [
@@ -7447,6 +8330,24 @@
       ],
       "dimension_count": 5
     },
+    "gaidet-declaration-fields": {
+      "names": [
+        "GAIDeT (Generative AI Delegation Taxonomy)"
+      ],
+      "domains": [
+        "education_assessment"
+      ],
+      "artifact_types": [
+        "reporting_guideline"
+      ],
+      "papers": [
+        "4358085c9f658ad2"
+      ],
+      "source_refs": [
+        "doi:10.5281/zenodo.17184550"
+      ],
+      "dimension_count": 4
+    },
     "gaidet-generative-ai-delegation-taxonomy-policy": {
       "names": [
         "GAIDeT (Generative AI Delegation Taxonomy)"
@@ -7536,6 +8437,24 @@
         "doi:10.1136/bmjebm-2025-113825"
       ],
       "dimension_count": 9
+    },
+    "gamer-initial-checklist-aspects": {
+      "names": [
+        "Generative Artificial Intelligence Tools in Medical Research (GAMER)"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "reporting_guideline"
+      ],
+      "papers": [
+        "dd2e7b22bb0a020b"
+      ],
+      "source_refs": [
+        "doi:10.2196/64640"
+      ],
+      "dimension_count": 5
     },
     "garcia-ramos-ai-disclosure-form": {
       "names": [
@@ -7793,6 +8712,22 @@
       ],
       "dimension_count": 9
     },
+    "genai-lr-checklist-three-domains": {
+      "names": [],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "819a4287ef11d192"
+      ],
+      "source_refs": [
+        "doi:10.38124/ijisrt/25oct243"
+      ],
+      "dimension_count": 3
+    },
     "genai-marketing-impact-cycle-framework": {
       "names": [],
       "domains": [
@@ -7905,7 +8840,7 @@
       "source_refs": [
         "arXiv:2507.10422"
       ],
-      "dimension_count": 3
+      "dimension_count": 4
     },
     "ghost-management-capture-categories": {
       "names": [],
@@ -7936,6 +8871,24 @@
       ],
       "source_refs": [
         "doi:10.1177/17470161241262244"
+      ],
+      "dimension_count": 2
+    },
+    "girimedicolegal-liability-chain-risk-calculator": {
+      "names": [
+        "GiriMedicolegal™ CDSS"
+      ],
+      "domains": [
+        "law_regulation"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "b1f707357ab7c5b9"
+      ],
+      "source_refs": [
+        "doi:10.5281/zenodo.22784877"
       ],
       "dimension_count": 2
     },
@@ -7971,7 +8924,7 @@
       "source_refs": [
         "doi:10.66144/phqkeco"
       ],
-      "dimension_count": 1
+      "dimension_count": 5
     },
     "graduated-ai-disclosure-framework-biomedical": {
       "names": [
@@ -8007,7 +8960,7 @@
       "source_refs": [
         "doi:10.48550/arxiv.2504.01029"
       ],
-      "dimension_count": 4
+      "dimension_count": 5
     },
     "hai-disclosure-design-dimensions": {
       "names": [],
@@ -8040,22 +8993,6 @@
       ],
       "source_refs": [
         "doi:10.3390/s23146495"
-      ],
-      "dimension_count": 3
-    },
-    "hendriks-2020-alcoholpost-disclosure-codebook": {
-      "names": [],
-      "domains": [
-        "advertising"
-      ],
-      "artifact_types": [
-        "empirical_study"
-      ],
-      "papers": [
-        "db3bf94244c826ad"
-      ],
-      "source_refs": [
-        "doi:10.3389/fpsyg.2019.02991"
       ],
       "dimension_count": 3
     },
@@ -8245,6 +9182,24 @@
       ],
       "dimension_count": 3
     },
+    "iaumf-maturity-framework": {
+      "names": [
+        "Individual AI Use Maturity Framework (iAUMF)"
+      ],
+      "domains": [
+        "other"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "9987001046f8f9d0"
+      ],
+      "source_refs": [
+        "doi:10.5281/zenodo.20692997"
+      ],
+      "dimension_count": 8
+    },
     "icmje-ahp-authorship-components": {
       "names": [],
       "domains": [
@@ -8276,6 +9231,24 @@
       ],
       "source_refs": [
         "doi:10.1016/j.ahjo.2025.100586"
+      ],
+      "dimension_count": 1
+    },
+    "icmje-authorship-criteria": {
+      "names": [
+        "International Committee of Medical Journal Editors (ICMJE) authorship criteria"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "policy"
+      ],
+      "papers": [
+        "7a9159e06f9e68b2"
+      ],
+      "source_refs": [
+        "doi:10.5114/reum.2020.101999"
       ],
       "dimension_count": 1
     },
@@ -8451,7 +9424,7 @@
       "source_refs": [
         "doi:10.1186/s12940-025-01223-1"
       ],
-      "dimension_count": 1
+      "dimension_count": 3
     },
     "ipe-institutional-coursework-use-policy": {
       "names": [],
@@ -8570,6 +9543,22 @@
         "doi:10.3346/jkms.2026.41.e298"
       ],
       "dimension_count": 1
+    },
+    "jkms-resnik-hosseini-disclosure-levels": {
+      "names": [],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "1d6c6ec29226706b"
+      ],
+      "source_refs": [
+        "doi:10.3346/jkms.2025.40.e187"
+      ],
+      "dimension_count": 2
     },
     "jkms-table1-ai-use-categories": {
       "names": [],
@@ -8797,6 +9786,22 @@
       ],
       "dimension_count": 5
     },
+    "literature-synthesis-review-grid": {
+      "names": [],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "c92c1b1017ba7c42"
+      ],
+      "source_refs": [
+        "doi:10.30834/kjp.36.1.2023.416"
+      ],
+      "dimension_count": 7
+    },
     "liu-bridgeman-two-lane-approach": {
       "names": [
         "two-lane approach"
@@ -8957,6 +9962,22 @@
       ],
       "dimension_count": 6
     },
+    "medai-assessment-reporting-domains": {
+      "names": [],
+      "domains": [
+        "education_assessment"
+      ],
+      "artifact_types": [
+        "empirical_study"
+      ],
+      "papers": [
+        "0e553c189e416491"
+      ],
+      "source_refs": [
+        "doi:10.2196/98949"
+      ],
+      "dimension_count": 8
+    },
     "medical-ai-four-level-classification": {
       "names": [
         "Classification framework for medical artificial intelligence: based on clinical decision autonomy and impact on doctor–patient relationships."
@@ -9056,6 +10077,24 @@
       ],
       "source_refs": [
         "doi:10.1093/jamia/ocaa088"
+      ],
+      "dimension_count": 1
+    },
+    "mobileguard-four-pillars": {
+      "names": [
+        "MobileGuard"
+      ],
+      "domains": [
+        "software"
+      ],
+      "artifact_types": [
+        "technical_standard"
+      ],
+      "papers": [
+        "569ce6d551dfb19d"
+      ],
+      "source_refs": [
+        "doi:10.5281/zenodo.20970166"
       ],
       "dimension_count": 1
     },
@@ -9267,7 +10306,7 @@
       ],
       "dimension_count": 16
     },
-    "op9-oversight-protocol": {
+    "op-9-oversight-protocol": {
       "names": [
         "Oversight Protocol (OP-9)"
       ],
@@ -9283,9 +10322,9 @@
       "source_refs": [
         "doi:10.1007/s12525-026-00915-x"
       ],
-      "dimension_count": 9
+      "dimension_count": 10
     },
-    "op9-paper-ownership-discretion-codebook": {
+    "op9-ownership-discretion-codebook": {
       "names": [],
       "domains": [
         "workplace"
@@ -9592,6 +10631,24 @@
         "doi:10.2196/88058"
       ],
       "dimension_count": 4
+    },
+    "pkrxiv-differentiated-data-sharing-model": {
+      "names": [
+        "differentiated data sharing model framework"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "71dda5711f523f51"
+      ],
+      "source_refs": [
+        "doi:10.1002/cpt.70206"
+      ],
+      "dimension_count": 1
     },
     "plos-contributorship-five-categories": {
       "names": [],
@@ -9919,6 +10976,24 @@
       ],
       "dimension_count": 3
     },
+    "risk-and-ethics-matrix-ai-video": {
+      "names": [
+        "risk-and-ethics matrix"
+      ],
+      "domains": [
+        "other"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "0d5fa9e33dd2eabc"
+      ],
+      "source_refs": [
+        "doi:10.2196/91940"
+      ],
+      "dimension_count": 5
+    },
     "rpt-test": {
       "names": [
         "RPT test (Reasoning–Process–Traceability)"
@@ -9988,6 +11063,24 @@
         "doi:10.3934/steme.2026039"
       ],
       "dimension_count": 1
+    },
+    "sample-publishing-4-step-guidance": {
+      "names": [
+        "Publishing Open Research Using Physical Samples: Guidance for Authors"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "reporting_guideline"
+      ],
+      "papers": [
+        "3128f1758867aacb"
+      ],
+      "source_refs": [
+        "doi:10.1038/s41597-025-05295-z"
+      ],
+      "dimension_count": 4
     },
     "sankar-levels-of-ai-involvement": {
       "names": [],
@@ -10178,6 +11271,24 @@
         "doi:10.22492/issn.2188-1162.2026.49"
       ],
       "dimension_count": 6
+    },
+    "spirit-ai-checklist": {
+      "names": [
+        "SPIRIT-AI checklist"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "reporting_guideline"
+      ],
+      "papers": [
+        "f172310c052035c4"
+      ],
+      "source_refs": [
+        "doi:10.1038/s41591-020-1037-7"
+      ],
+      "dimension_count": 1
     },
     "spirit-ai-consort-ai-new-items": {
       "names": [
@@ -10493,6 +11604,24 @@
       ],
       "dimension_count": 2
     },
+    "table-i-inappropriate-authorship-types": {
+      "names": [
+        "Table I. Common instances of inappropriate authorship"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "7a9159e06f9e68b2"
+      ],
+      "source_refs": [
+        "doi:10.5114/reum.2020.101999"
+      ],
+      "dimension_count": 2
+    },
     "tadirah-taxonomy-of-activities": {
       "names": [
         "Taxonomy of Digital Research Activities in the Humanities (TaDiRAH)"
@@ -10717,7 +11846,7 @@
       "source_refs": [
         "doi:10.48550/arxiv.2608.03329"
       ],
-      "dimension_count": 4
+      "dimension_count": 5
     },
     "traffic-light-approach-ai-use": {
       "names": [
@@ -10808,6 +11937,24 @@
         "doi:10.3390/aieduc2030026"
       ],
       "dimension_count": 1
+    },
+    "tripod-22-item-checklist": {
+      "names": [
+        "Transparent Reporting of a multivari-\nable prediction model for Individual Prognosis Or Diag-\nnosis (TRIPOD) Statement"
+      ],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "reporting_guideline"
+      ],
+      "papers": [
+        "f64365b5298c1234"
+      ],
+      "source_refs": [
+        "doi:10.1186/s12874-021-01469-6"
+      ],
+      "dimension_count": 21
     },
     "tripod-llm-research-design-task-categories": {
       "names": [
@@ -10912,6 +12059,22 @@
         "doi:10.1629/uksg.395"
       ],
       "dimension_count": 1
+    },
+    "unified-llm-reporting-checklist-three-domains": {
+      "names": [],
+      "domains": [
+        "research_publishing"
+      ],
+      "artifact_types": [
+        "normative_proposal"
+      ],
+      "papers": [
+        "967f436dd940ab20"
+      ],
+      "source_refs": [
+        "doi:10.1186/s41073-026-00212-3"
+      ],
+      "dimension_count": 3
     },
     "verifiable-vs-declared-integrity-questions": {
       "names": [],

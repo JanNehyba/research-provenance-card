@@ -1,0 +1,3962 @@
+{
+ "note": "Grouped only where two ids name the same artefact: CRediT, AIAS, the ICMJE four criteria, C2PA, CHART, GAIDeT and the two-lane approach account for every merge, and inside each group every id comes from a different paper. I refused to merge schemes that merely resemble each other - the dozen independently invented tiered or four-level AI-disclosure scales, the two traffic-light schemes, the journal-specific tiered frameworks - and I refused the script's dimension-overlap cluster, which only chained six unrelated one-dimension schemes together; two ids from the same paper were never merged, since one extraction pass gave them distinct ids on purpose. Out of scope is kept narrow: system-autonomy taxonomies, harm and incident taxonomies, tool inventories, literacy scales and a curriculum structure, with every close call kept in scope and flagged in its note.",
+ "canonical_schemes": [
+  {
+   "canonical_id": "credit",
+   "canonical_name": "CRediT Contributor Roles Taxonomy",
+   "kind": "external_standard",
+   "members": [
+    "credit-check-contributor-roles",
+    "credit-contributor-role-taxonomy-review",
+    "credit-contributor-roles",
+    "credit-contributor-roles-taxonomy",
+    "credit-contributor-roles-taxonomy-mention",
+    "credit-contributor-roles-taxonomy-osf",
+    "credit-roles-applied-to-this-papers-authors",
+    "credit-table1-authorship-eligibility",
+    "credit-taxonomy-14-roles",
+    "credit-taxonomy-as-cited-in-market-dynamics",
+    "credit-taxonomy-nih-authorship-disputes",
+    "credit-taxonomy-ten-year-retrospective",
+    "credit-taxonomy-use-in-this-study"
+   ],
+   "note": "All ten name the same CASRAI/NISO fourteen-role taxonomy, in ten different papers; singular/plural and 'CASRAI' variants are only citation style. Kept apart from DataCRediT, from the Fibonacci credit weighting, from the ordinal merit scale and from the paper-built taxonomy that was merely mapped onto CRediT."
+  },
+  {
+   "canonical_id": "aias",
+   "canonical_name": "AI Assessment Scale (AIAS)",
+   "kind": "external_standard",
+   "members": [
+    "ai-assessment-scale-aias",
+    "aias-ai-assessment-scale",
+    "aias-efl-adapted-levels",
+    "aias-efl-levels-2-3-4",
+    "aias-five-levels",
+    "aias-five-levels-ref",
+    "aias-integrity-equity-pedagogy",
+    "aldaf-aias-application"
+   ],
+   "note": "Perkins et al.'s five-level scale, cited verbatim as AIAS by eleven papers. EAP-AIAS and the proposed K-12 AIAS framework are named derivative artefacts and stay separate; so do the Spanish EUIA and DUIA. 'aias-efl-adapted-levels' is the least certain member: its slug suggests an EFL adaptation, but its only verbatim name is 'AI Assessment Scale (AIAS)'."
+  },
+  {
+   "canonical_id": "icmje-authorship-criteria",
+   "canonical_name": "ICMJE authorship criteria",
+   "kind": "external_standard",
+   "members": [
+    "icmje-authorship-criteria",
+    "icmje-authorship-criteria-honorary-definition",
+    "icmje-authorship-criteria-survey-items",
+    "icmje-authorship-standards",
+    "icmje-four-authorship-criteria",
+    "icmje-four-mandatory-authorship-conditions"
+   ],
+   "note": "Five renderings of the ICMJE four-criteria authorship standard in five papers. The ICMJE-derived policy-evaluation criteria, the AHP authorship-component analysis and the commercial-bias levels are separate instruments that only cite ICMJE."
+  },
+  {
+   "canonical_id": "c2pa",
+   "canonical_name": "C2PA content credentials / manifest specification",
+   "kind": "external_standard",
+   "members": [
+    "c2pa-manifest-provenance-scheme",
+    "c2pa-manifest-structure",
+    "c2pa-manifest-validation-states"
+   ],
+   "note": "Three papers each describe a facet of the same C2PA manifest specification (provenance assertions, manifest structure, validation states) rather than three artefacts. The watermark/C2PA conflict matrix is one paper's own analysis and stays separate."
+  },
+  {
+   "canonical_id": "chart",
+   "canonical_name": "CHART (Chatbot Assessment Reporting Tool)",
+   "kind": "external_standard",
+   "members": [
+    "chart-checklist",
+    "chart-reporting-checklist"
+   ],
+   "note": "Same named reporting checklist; one id carries the acronym only."
+  },
+  {
+   "canonical_id": "gaidet",
+   "canonical_name": "GAIDeT (Generative AI Delegation Taxonomy)",
+   "kind": "external_standard",
+   "members": [
+    "gaidet-declaration-fields",
+    "gaidet-generative-ai-delegation-taxonomy-policy",
+    "gaidet-research-domains"
+   ],
+   "note": "Two papers cite the same GAIDeT taxonomy. The 'GAIDeT-Inspired Taxonomy of AI Use' is a third paper's own derivative and is kept separate."
+  },
+  {
+   "canonical_id": "two-lane-approach",
+   "canonical_name": "Two-lane approach to assessment (Liu & Bridgeman)",
+   "kind": "external_standard",
+   "members": [
+    "liu-bridgeman-two-lane-approach",
+    "two-lane-approach-ai-assessment"
+   ],
+   "note": "Both ids are the same cited two-lane (secured vs open) assessment proposal, extracted from two different papers."
+  },
+  {
+   "canonical_id": "aa1-agent-governance-attestation",
+   "canonical_name": "AA-1, the Agent Governance Attestation",
+   "kind": "paper_own",
+   "members": [
+    "aa1-agent-governance-attestation"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "5w1h-ai-disclosure-framework",
+   "canonical_name": "5W1H (Who, What, When, Where, Why, How) framework",
+   "kind": "external_standard",
+   "members": [
+    "5w1h-ai-disclosure-framework"
+   ],
+   "note": "The 5W1H skeleton is a journalistic framework authored outside the paper; this paper populates it with what audiences want an AI disclosure to say. Kept apart from the same paper's taxonomy of audience disclosure questions."
+  },
+  {
+   "canonical_id": "account-ai-framework",
+   "canonical_name": "ACCOUNT-AI framework",
+   "kind": "paper_own",
+   "members": [
+    "account-ai-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aci-content-form-two-dimension",
+   "canonical_name": "Artificial Intelligence Contribution Index (ACI)",
+   "kind": "paper_own",
+   "members": [
+    "aci-content-form-two-dimension"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "acknowledgment-contribution-role-taxonomy",
+   "canonical_name": "Acknowledgment contribution role taxonomy",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "acknowledgment-contribution-role-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "acknowledgment-contribution-types",
+   "canonical_name": "Acknowledgment contribution types",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "acknowledgment-contribution-types"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "addiction-scholarship-ai-materiality-taxonomy",
+   "canonical_name": "Addiction scholarship ai materiality taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "addiction-scholarship-ai-materiality-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "agency-transformation-framework",
+   "canonical_name": "Agency-Transformation Framework",
+   "kind": "paper_own",
+   "members": [
+    "agency-transformation-framework"
+   ],
+   "note": "Close call: the framework tracks shifts in human agency under AI; kept in scope because those shifts are what contribution statements report."
+  },
+  {
+   "canonical_id": "agu-availability-statement-recommended-elements",
+   "canonical_name": "Availability statement recommended elements",
+   "kind": "external_standard",
+   "members": [
+    "agu-availability-statement-recommended-elements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-agent-attestation-six-axis-taxonomy",
+   "canonical_name": "Ai agent attestation six axis taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "ai-agent-attestation-six-axis-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-aligned-assessment-framework",
+   "canonical_name": "AI-Aligned Assessment Framework",
+   "kind": "paper_own",
+   "members": [
+    "ai-aligned-assessment-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-assessment-design-patterns",
+   "canonical_name": "Ai assessment design patterns",
+   "kind": "paper_own",
+   "members": [
+    "ai-assessment-design-patterns"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-assessment-ethical-gap-map",
+   "canonical_name": "ethical gap map",
+   "kind": "paper_own",
+   "members": [
+    "ai-assessment-ethical-gap-map"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-assessment-guidance-coding-scheme",
+   "canonical_name": "Ai assessment guidance coding scheme",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "ai-assessment-guidance-coding-scheme"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-assistance-depth-categories",
+   "canonical_name": "Ai assistance depth categories",
+   "kind": "paper_own",
+   "members": [
+    "ai-assistance-depth-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-assisted-writing-practice-constructs",
+   "canonical_name": "Ai assisted writing practice constructs",
+   "kind": "paper_own",
+   "members": [
+    "ai-assisted-writing-practice-constructs"
+   ],
+   "note": "Close call: survey constructs about AI-assisted writing practice, kept in scope because they describe declared use."
+  },
+  {
+   "canonical_id": "ai-based-jurimetrics-four-principles",
+   "canonical_name": "AI-Based Jurimetrics",
+   "kind": "paper_own",
+   "members": [
+    "ai-based-jurimetrics-four-principles"
+   ],
+   "note": "Close call kept in scope: the four principles govern how AI involvement in legal quantitative analysis must be declared and traced."
+  },
+  {
+   "canonical_id": "ai-contamination-pathways-vulnerability-zones",
+   "canonical_name": "Ai contamination pathways vulnerability zones",
+   "kind": "paper_own",
+   "members": [
+    "ai-contamination-pathways-vulnerability-zones"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-contributions-taxonomy-cfa3",
+   "canonical_name": "AI contributions taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "ai-contributions-taxonomy-cfa3"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-disclosure-dependability-framework",
+   "canonical_name": "AI disclosure dependability framework",
+   "kind": "paper_own",
+   "members": [
+    "ai-disclosure-dependability-framework"
+   ],
+   "note": "Kept apart from the same paper's ai-disclosure-reliability-dimensions, a separate table from the same normative proposal."
+  },
+  {
+   "canonical_id": "ai-disclosure-guidance-hpe-editors",
+   "canonical_name": "AI Disclosure Guidance for Authors based on Editor Expectations",
+   "kind": "paper_own",
+   "members": [
+    "ai-disclosure-guidance-hpe-editors"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-disclosure-mandatory-optional-unnecessary",
+   "canonical_name": "Ai disclosure mandatory optional unnecessary",
+   "kind": "paper_own",
+   "members": [
+    "ai-disclosure-mandatory-optional-unnecessary"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-disclosure-peer-review-policy-coding",
+   "canonical_name": "Ai disclosure peer review policy coding",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "ai-disclosure-peer-review-policy-coding"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-disclosure-questions-theme-taxonomy",
+   "canonical_name": "AI disclosure questions theme taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "ai-disclosure-questions-theme-taxonomy"
+   ],
+   "note": "The paper's own thematic taxonomy of the disclosure questions its audience sample asked; not a coding of other people's policies, so not policy_corpus_coding."
+  },
+  {
+   "canonical_id": "ai-disclosure-reliability-dimensions",
+   "canonical_name": "Ai disclosure reliability dimensions",
+   "kind": "paper_own",
+   "members": [
+    "ai-disclosure-reliability-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-disclosure-usecase-risk-hybrid-canada",
+   "canonical_name": "Ai disclosure usecase risk hybrid canada",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "ai-disclosure-usecase-risk-hybrid-canada"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-lit-course-assessment-rubric",
+   "canonical_name": "Ai lit course assessment rubric",
+   "kind": "paper_own",
+   "members": [
+    "ai-lit-course-assessment-rubric"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-lit-course-attribution-template",
+   "canonical_name": "The Standardized AI Attribution Template",
+   "kind": "paper_own",
+   "members": [
+    "ai-lit-course-attribution-template"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-lit-course-reliance-spectrum",
+   "canonical_name": "The Responsible Reliance Spectrum",
+   "kind": "paper_own",
+   "members": [
+    "ai-lit-course-reliance-spectrum"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-output-divergence-five-part-taxonomy",
+   "canonical_name": "AI output divergence five part taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "ai-output-divergence-five-part-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-pgm-levels",
+   "canonical_name": "AI principled governance matrix (AI-PGM)",
+   "kind": "paper_own",
+   "members": [
+    "ai-pgm-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-pipeline-human-role-shift",
+   "canonical_name": "Ai pipeline human role shift",
+   "kind": "paper_own",
+   "members": [
+    "ai-pipeline-human-role-shift"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-policy-minimum-dataset",
+   "canonical_name": "AI Policy Minimum Dataset",
+   "kind": "paper_own",
+   "members": [
+    "ai-policy-minimum-dataset"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-policy-six-domains-four-stances",
+   "canonical_name": "AI policy six domains four stances",
+   "kind": "paper_own",
+   "members": [
+    "ai-policy-six-domains-four-stances"
+   ],
+   "note": "A normative proposal's own domain-by-stance grid for what an AI policy should state, not an extraction sheet applied to a journal corpus."
+  },
+  {
+   "canonical_id": "ai-process-literacy-biodesign",
+   "canonical_name": "AI Process Literacy",
+   "kind": "paper_own",
+   "members": [
+    "ai-process-literacy-biodesign"
+   ],
+   "note": "Close call kept in scope: named a literacy construct, but its four dimensions concern documenting and accounting for the AI steps behind a produced artefact, unlike the AI-literacy and proficiency scales held out of scope."
+  },
+  {
+   "canonical_id": "ai-related-retraction-typologies",
+   "canonical_name": "Typologies in AI-Related Retractions",
+   "kind": "paper_own",
+   "members": [
+    "ai-related-retraction-typologies"
+   ],
+   "note": "Close call kept in scope: it types AI-related retractions by what went undeclared about the AI's part in the paper, in line with the misconduct taxonomies already kept in scope."
+  },
+  {
+   "canonical_id": "ai-scientific-discovery-guidelines",
+   "canonical_name": "guidelines for the ethical use of AI in the design of scientific proposals",
+   "kind": "paper_own",
+   "members": [
+    "ai-scientific-discovery-guidelines"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-sr-conceptual-framework",
+   "canonical_name": "Ai sr conceptual framework",
+   "kind": "paper_own",
+   "members": [
+    "ai-sr-conceptual-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-to-learn-deliverable-package",
+   "canonical_name": "The AI to Learn deliverable package",
+   "kind": "paper_own",
+   "members": [
+    "ai-to-learn-deliverable-package"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-to-learn-maturity-rubric",
+   "canonical_name": "AI to Learn 2.0 maturity rubric",
+   "kind": "paper_own",
+   "members": [
+    "ai-to-learn-maturity-rubric"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-transparency-dimensions-beyond-algorithmic-disclosure",
+   "canonical_name": "Ai transparency dimensions beyond algorithmic disclosure",
+   "kind": "paper_own",
+   "members": [
+    "ai-transparency-dimensions-beyond-algorithmic-disclosure"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-use-12-instrument",
+   "canonical_name": "AI Use Disclosure for Research Articles (AI-Use-12)",
+   "kind": "paper_own",
+   "members": [
+    "ai-use-12-instrument"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-use-audit-trail-log",
+   "canonical_name": "Ai use audit trail log",
+   "kind": "paper_own",
+   "members": [
+    "ai-use-audit-trail-log"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-use-reporting-aspects",
+   "canonical_name": "Ai use reporting aspects",
+   "kind": "paper_own",
+   "members": [
+    "ai-use-reporting-aspects"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-video-t2v-generation-pathways",
+   "canonical_name": "Ai video t2v generation pathways",
+   "kind": "paper_own",
+   "members": [
+    "ai-video-t2v-generation-pathways"
+   ],
+   "note": "Close call: classifies text-to-video production pathways; kept in scope because a production pathway is what a provenance claim reports."
+  },
+  {
+   "canonical_id": "ai-writing-tools-generative-assistive",
+   "canonical_name": "Ai writing tools generative assistive",
+   "kind": "paper_own",
+   "members": [
+    "ai-writing-tools-generative-assistive"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ai-writing-transparency-accountability-technical-support",
+   "canonical_name": "three-dimensional regulatory framework of “transparency, accountability, and technical support.”",
+   "kind": "paper_own",
+   "members": [
+    "ai-writing-transparency-accountability-technical-support"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aia-ai-contribution-statement-design",
+   "canonical_name": "AI contribution statement",
+   "kind": "paper_own",
+   "members": [
+    "aia-ai-contribution-statement-design"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aiast-disclosure",
+   "canonical_name": "AIast disclosure",
+   "kind": "paper_own",
+   "members": [
+    "aiast-disclosure"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aicdss-minimum-telemetry",
+   "canonical_name": "Minimum telemetry for auditable outcome measurement in AI-CDSS",
+   "kind": "paper_own",
+   "members": [
+    "aicdss-minimum-telemetry"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aicid-design-requirements",
+   "canonical_name": "AICID (AI Contributor IDentifier)",
+   "kind": "paper_own",
+   "members": [
+    "aicid-design-requirements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aid-framework",
+   "canonical_name": "Artificial Intelligence Disclosure (AID) Framework",
+   "kind": "paper_own",
+   "members": [
+    "aid-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aidit-article-level-extraction-template",
+   "canonical_name": "standardised extraction template",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "aidit-article-level-extraction-template"
+   ],
+   "note": "The article-level extraction template of the AIdIT study; distinct from the same paper's journal-policy template and from the AIdIT taxonomy itself, which the extraction pass gave separate ids on purpose."
+  },
+  {
+   "canonical_id": "aidit-journal-policy-extraction-template",
+   "canonical_name": "standardised extraction template",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "aidit-journal-policy-extraction-template"
+   ],
+   "note": "The journal-policy extraction template of the AIdIT study; separate from the same paper's article-level template."
+  },
+  {
+   "canonical_id": "aidit-taxonomy-ai-uses",
+   "canonical_name": "AIdIT (AI disclosure for Improved Transparency)",
+   "kind": "paper_own",
+   "members": [
+    "aidit-taxonomy-ai-uses"
+   ],
+   "note": "The taxonomy of AI uses the AIdIT paper proposes, as opposed to the two extraction templates it applied."
+  },
+  {
+   "canonical_id": "aiedsm-ece-minimum-field-framework",
+   "canonical_name": "MINIMUM ECE FIELD FRAMEWORK",
+   "kind": "paper_own",
+   "members": [
+    "aiedsm-ece-minimum-field-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aiedsm-evidence-divergence-dimensions",
+   "canonical_name": "DIVERGENCE DIMENSIONS",
+   "kind": "paper_own",
+   "members": [
+    "aiedsm-evidence-divergence-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aiedsm-relationship-vocabulary-profile",
+   "canonical_name": "AIEDSM RELATIONSHIP VOCABULARY PROFILE 1.0",
+   "kind": "paper_own",
+   "members": [
+    "aiedsm-relationship-vocabulary-profile"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aig-indicator-types",
+   "canonical_name": "Aig indicator types",
+   "kind": "paper_own",
+   "members": [
+    "aig-indicator-types"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aigc-provenance-metadata-cqs",
+   "canonical_name": "Proposed metadata schema",
+   "kind": "paper_own",
+   "members": [
+    "aigc-provenance-metadata-cqs"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aigc-risk-tiered-governance",
+   "canonical_name": "Risk-Tiered, Multi-Stakeholder Governance Model",
+   "kind": "paper_own",
+   "members": [
+    "aigc-risk-tiered-governance"
+   ],
+   "note": "Close call: the tiers are regulatory risk bands, but they are what sets AIGC labelling and disclosure duties, so kept in scope."
+  },
+  {
+   "canonical_id": "aigen-assessment-certification-metadata-schema",
+   "canonical_name": "Certification Metadata Schema",
+   "kind": "paper_own",
+   "members": [
+    "aigen-assessment-certification-metadata-schema"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aigen-assessment-traffic-light-certification",
+   "canonical_name": "traffic-light certification model",
+   "kind": "paper_own",
+   "members": [
+    "aigen-assessment-traffic-light-certification"
+   ],
+   "note": "Not merged with the education 'traffic light approach': the metaphor is shared, the artefact is not."
+  },
+  {
+   "canonical_id": "aimic-framework",
+   "canonical_name": "AIMIC framework",
+   "kind": "paper_own",
+   "members": [
+    "aimic-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aiprov-vocabulary",
+   "canonical_name": "aiprov",
+   "kind": "paper_own",
+   "members": [
+    "aiprov-vocabulary"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "air-framework-phases-bands",
+   "canonical_name": "AIR (AI in Research) framework",
+   "kind": "paper_own",
+   "members": [
+    "air-framework-phases-bands"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "airo-governance-dimensions",
+   "canonical_name": "Airo governance dimensions",
+   "kind": "paper_own",
+   "members": [
+    "airo-governance-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "airo-inspection-card",
+   "canonical_name": "AI Research Object Inspection Card (AI-ROIC)",
+   "kind": "paper_own",
+   "members": [
+    "airo-inspection-card"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aitdi-transparency-disclosure-index",
+   "canonical_name": "Artificial Intelligence Transparency and Disclosure Index",
+   "kind": "paper_own",
+   "members": [
+    "aitdi-transparency-disclosure-index"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aits-content-composition-taxonomy",
+   "canonical_name": "AITS Content Composition Taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "aits-content-composition-taxonomy"
+   ],
+   "note": "A named taxonomy of the human/AI composition of a produced text; read as the paper's own instrument rather than an extraction variable list, although it was applied to a corpus of government content."
+  },
+  {
+   "canonical_id": "aius-five-levels",
+   "canonical_name": "Artificial Intelligence Utilization Scale (AIUS) Framework",
+   "kind": "paper_own",
+   "members": [
+    "aius-five-levels"
+   ],
+   "note": "One more independently invented level scale for AI utilisation; not merged with AIAS, EUIA, DUIA or any other tiered scale, since only a shared name would justify that."
+  },
+  {
+   "canonical_id": "al-isnad-framework-knowledge-attribution",
+   "canonical_name": "Al Isnād Framework for Knowledge Attribution",
+   "kind": "paper_own",
+   "members": [
+    "al-isnad-framework-knowledge-attribution"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aldaf-framework",
+   "canonical_name": "AI-enabled learning design and assessment framework (ALDAF)",
+   "kind": "paper_own",
+   "members": [
+    "aldaf-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "algorithmic-clearance-public-traces",
+   "canonical_name": "Algorithmic clearance public traces",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "algorithmic-clearance-public-traces"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "antoniou-smi-malpractice-four-themes",
+   "canonical_name": "Antoniou smi malpractice four themes",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "antoniou-smi-malpractice-four-themes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "appraise-ai-domains",
+   "canonical_name": "APPRAISE-AI",
+   "kind": "external_standard",
+   "members": [
+    "appraise-ai-domains"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "aquaculture-genai-policy-domains",
+   "canonical_name": "Aquaculture genai policy domains",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "aquaculture-genai-policy-domains"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "art-history-llm-governance-principles",
+   "canonical_name": "Art history llm governance principles",
+   "kind": "paper_own",
+   "members": [
+    "art-history-llm-governance-principles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ask-plan-craft-interaction-model",
+   "canonical_name": "an Ask–Plan–Craft tri-layer interaction model",
+   "kind": "paper_own",
+   "members": [
+    "ask-plan-craft-interaction-model"
+   ],
+   "note": "Close call: an interaction model, kept in scope because its layers are the unit this paper asks authors to log."
+  },
+  {
+   "canonical_id": "asop-four-tier-automation-scope-of-practice",
+   "canonical_name": "automation scope of practice (ASoP)",
+   "kind": "paper_own",
+   "members": [
+    "asop-four-tier-automation-scope-of-practice"
+   ],
+   "note": "Close call: defines permitted automation tiers rather than a disclosure format, kept in scope on the same footing as AIAS."
+  },
+  {
+   "canonical_id": "aspph-ai-policy-thematic-codebook",
+   "canonical_name": "Aspph ai policy thematic codebook",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "aspph-ai-policy-thematic-codebook"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "atml-human-supervision-tier-model",
+   "canonical_name": "four-level human supervision tier model",
+   "kind": "paper_own",
+   "members": [
+    "atml-human-supervision-tier-model"
+   ],
+   "note": "Close call: tiers of human supervision sit close to system autonomy, but they are the quantity this paper's provenance certificate declares."
+  },
+  {
+   "canonical_id": "atml-provenance-certificate",
+   "canonical_name": "Provenance Chain Architecture",
+   "kind": "paper_own",
+   "members": [
+    "atml-provenance-certificate"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "atomic-sentence-metadata",
+   "canonical_name": "Atomic sentence metadata",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "atomic-sentence-metadata"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ats-framework",
+   "canonical_name": "Authorship Transparency Statement (ATS) Framework",
+   "kind": "paper_own",
+   "members": [
+    "ats-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "audience-ai-disclosure-info-needs",
+   "canonical_name": "Audience ai disclosure info needs",
+   "kind": "paper_own",
+   "members": [
+    "audience-ai-disclosure-info-needs"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "augmented-inventorship-directability-traceability",
+   "canonical_name": "augmented inventorship",
+   "kind": "paper_own",
+   "members": [
+    "augmented-inventorship-directability-traceability"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "authentic-assessment-evidence-requirements",
+   "canonical_name": "Authentic assessment evidence requirements",
+   "kind": "paper_own",
+   "members": [
+    "authentic-assessment-evidence-requirements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "authentic-assessment-six-dimension-framework",
+   "canonical_name": "Authentic assessment six dimension framework",
+   "kind": "paper_own",
+   "members": [
+    "authentic-assessment-six-dimension-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "authorship-credit-attribution-scale",
+   "canonical_name": "Scale of attribution levels used in our analysis.",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "authorship-credit-attribution-scale"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "authorship-criteria-by-organization",
+   "canonical_name": "Authorship criteria (Ethical authorship)",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "authorship-criteria-by-organization"
+   ],
+   "note": "Tabulates several organisations' authorship criteria side by side, i.e. a coding of other bodies' policies; one of five distinct ids this review paper contributed, none of them merged with another."
+  },
+  {
+   "canonical_id": "authorship-grid-phillippi",
+   "canonical_name": "Authorship Grids",
+   "kind": "external_standard",
+   "members": [
+    "authorship-grid-phillippi"
+   ],
+   "note": "Phillippi's Authorship Grids, a named artefact the review paper reproduces rather than invents; kept apart from the same paper's literature-synthesis review grid."
+  },
+  {
+   "canonical_id": "baminiwatta-ai-policy-elements",
+   "canonical_name": "Baminiwatta ai policy elements",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "baminiwatta-ai-policy-elements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "berdyansk-ai-usage-regimes",
+   "canonical_name": "Berdyansk ai usage regimes",
+   "kind": "external_standard",
+   "members": [
+    "berdyansk-ai-usage-regimes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "beyond-principlism-ai-usage-documentation",
+   "canonical_name": "Beyond principlism ai usage documentation",
+   "kind": "paper_own",
+   "members": [
+    "beyond-principlism-ai-usage-documentation"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "biorxiv-disclosure-tier-scale",
+   "canonical_name": "four-tier disclosure granularity variable",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "biorxiv-disclosure-tier-scale"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "biorxiv-four-disclosure-elements",
+   "canonical_name": "Biorxiv four disclosure elements",
+   "kind": "paper_own",
+   "members": [
+    "biorxiv-four-disclosure-elements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "bleher-braun-responsibility-attribution-dimensions",
+   "canonical_name": "Bleher braun responsibility attribution dimensions",
+   "kind": "paper_own",
+   "members": [
+    "bleher-braun-responsibility-attribution-dimensions"
+   ],
+   "note": "Separate from the same paper's responsibility-management factors: one dimension set is about attributing responsibility for an AI-assisted output, the other about managing it."
+  },
+  {
+   "canonical_id": "bleher-braun-responsibility-management-factors",
+   "canonical_name": "Bleher braun responsibility management factors",
+   "kind": "paper_own",
+   "members": [
+    "bleher-braun-responsibility-management-factors"
+   ],
+   "note": "Separate from the same paper's responsibility-attribution dimensions."
+  },
+  {
+   "canonical_id": "bmj-ai-tool-task-taxonomy",
+   "canonical_name": "Bmj ai tool task taxonomy",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "bmj-ai-tool-task-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "bobier-ai-policy-consensus-practices",
+   "canonical_name": "Bobier ai policy consensus practices",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "bobier-ai-policy-consensus-practices"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "boerman-blog-disclosure-codebook",
+   "canonical_name": "Boerman blog disclosure codebook",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "boerman-blog-disclosure-codebook"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "c2pa-watermark-conflict-matrix",
+   "canonical_name": "conflict matrix",
+   "kind": "paper_own",
+   "members": [
+    "c2pa-watermark-conflict-matrix"
+   ],
+   "note": "Kept separate from C2PA: one paper's own matrix of conflicts between watermarking and content credentials."
+  },
+  {
+   "canonical_id": "calculauthor-rubric",
+   "canonical_name": "CalculAuthor",
+   "kind": "paper_own",
+   "members": [
+    "calculauthor-rubric"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cam-contributor-attribution-model",
+   "canonical_name": "Contributor Attribution Model (CAM)",
+   "kind": "external_standard",
+   "members": [
+    "cam-contributor-attribution-model"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cangaru-three-lists",
+   "canonical_name": "CANGARU",
+   "kind": "external_standard",
+   "members": [
+    "cangaru-three-lists"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "case-analysis-ai-augmented-substituted",
+   "canonical_name": "Case analysis ai augmented substituted",
+   "kind": "paper_own",
+   "members": [
+    "case-analysis-ai-augmented-substituted"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cem-art109-industry-relationship-categories",
+   "canonical_name": "Cem art109 industry relationship categories",
+   "kind": "external_standard",
+   "members": [
+    "cem-art109-industry-relationship-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "chatgpt-ai-levels-of-contribution",
+   "canonical_name": "AI levels of contributions",
+   "kind": "paper_own",
+   "members": [
+    "chatgpt-ai-levels-of-contribution"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "citation-auditability-four-dimensions",
+   "canonical_name": "citation auditability",
+   "kind": "paper_own",
+   "members": [
+    "citation-auditability-four-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "citation-file-format-schema-keys",
+   "canonical_name": "Citation File Format",
+   "kind": "external_standard",
+   "members": [
+    "citation-file-format-schema-keys"
+   ],
+   "note": "The CFF schema keys, a named external metadata standard for software citation; kept apart from the software-citation coding schemes and from CRediT."
+  },
+  {
+   "canonical_id": "citizen-preferred-ai-disclosure-formats",
+   "canonical_name": "Citizen preferred ai disclosure formats",
+   "kind": "paper_own",
+   "members": [
+    "citizen-preferred-ai-disclosure-formats"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "citra-axes",
+   "canonical_name": "CITRA",
+   "kind": "paper_own",
+   "members": [
+    "citra-axes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "claim-accountability-two-threshold-roles",
+   "canonical_name": "two-threshold framework",
+   "kind": "paper_own",
+   "members": [
+    "claim-accountability-two-threshold-roles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "claim-checklist-underreported-items",
+   "canonical_name": "Checklist for Artificial Intelligence in Medical Imaging (CLAIM)",
+   "kind": "external_standard",
+   "members": [
+    "claim-checklist-underreported-items"
+   ],
+   "note": "The CLAIM reporting checklist, cited here through its under-reported items. Unrelated to claim-accountability-two-threshold-roles, whose id only happens to begin with 'claim'."
+  },
+  {
+   "canonical_id": "clear-radiomics-checklist",
+   "canonical_name": "CheckList for EvaluAtion of Radiomics research (CLEAR)",
+   "kind": "external_standard",
+   "members": [
+    "clear-radiomics-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cocreation-contribution-nature-dimensions",
+   "canonical_name": "Cocreation contribution nature dimensions",
+   "kind": "paper_own",
+   "members": [
+    "cocreation-contribution-nature-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "codegenai-four-traceability-dimensions",
+   "canonical_name": "Codegenai four traceability dimensions",
+   "kind": "paper_own",
+   "members": [
+    "codegenai-four-traceability-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "codes-of-ethics-transparency-typology",
+   "canonical_name": "nine types of codes of ethics",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "codes-of-ethics-transparency-typology"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "coding-framework-cited-evidence",
+   "canonical_name": "Coding framework for cited evidence",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "coding-framework-cited-evidence"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "consort-ai-checklist",
+   "canonical_name": "CONSORT-AI checklist",
+   "kind": "external_standard",
+   "members": [
+    "consort-ai-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "content-transparency-bill-anatomy",
+   "canonical_name": "anatomy of a content transparency bill",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "content-transparency-bill-anatomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "content-transparency-coding-categories",
+   "canonical_name": "Content transparency coding categories",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "content-transparency-coding-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "content-trust-technical-layers",
+   "canonical_name": "Content trust technical layers",
+   "kind": "paper_own",
+   "members": [
+    "content-trust-technical-layers"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cord19-software-citation-coding-scheme",
+   "canonical_name": "Cord19 software citation coding scheme",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "cord19-software-citation-coding-scheme"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "coreq-llm-charting-framework",
+   "canonical_name": "Coreq llm charting framework",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "coreq-llm-charting-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "corr-editorial-ai-use-standards",
+   "canonical_name": "Corr editorial ai use standards",
+   "kind": "paper_own",
+   "members": [
+    "corr-editorial-ai-use-standards"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cost-of-honesty-design-suggestions",
+   "canonical_name": "Provisional design suggestions",
+   "kind": "paper_own",
+   "members": [
+    "cost-of-honesty-design-suggestions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cost-of-honesty-stack",
+   "canonical_name": "Cost-of-Honesty Stack",
+   "kind": "paper_own",
+   "members": [
+    "cost-of-honesty-stack"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cotrace-goal-level-attribution",
+   "canonical_name": "CoTrace",
+   "kind": "paper_own",
+   "members": [
+    "cotrace-goal-level-attribution"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "craft-framework",
+   "canonical_name": "the CRAFT Framework",
+   "kind": "paper_own",
+   "members": [
+    "craft-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "creator-ai-disclosure-threshold-factors",
+   "canonical_name": "Creator ai disclosure threshold factors",
+   "kind": "paper_own",
+   "members": [
+    "creator-ai-disclosure-threshold-factors"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "creator-ai-disclosure-ux-requirements",
+   "canonical_name": "Creator ai disclosure ux requirements",
+   "kind": "paper_own",
+   "members": [
+    "creator-ai-disclosure-ux-requirements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "creator-ai-involvement-communication-aspects",
+   "canonical_name": "Creator ai involvement communication aspects",
+   "kind": "paper_own",
+   "members": [
+    "creator-ai-involvement-communication-aspects"
+   ],
+   "note": "The third of three distinct ids from this creator-interview study, alongside its disclosure-threshold factors and its disclosure UX requirements; not merged with either."
+  },
+  {
+   "canonical_id": "credit-mapped-authorship-contribution-taxonomy",
+   "canonical_name": "Taxonomy for authorship contribution",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "credit-mapped-authorship-contribution-taxonomy"
+   ],
+   "note": "Kept separate from CRediT: the paper's own contribution taxonomy, only mapped onto CRediT afterwards."
+  },
+  {
+   "canonical_id": "credit-merit-ordinal-contribution-scale",
+   "canonical_name": "Credit merit ordinal contribution scale",
+   "kind": "paper_own",
+   "members": [
+    "credit-merit-ordinal-contribution-scale"
+   ],
+   "note": "Kept separate from CRediT: an ordinal weighting scale layered on top of the taxonomy, not the taxonomy itself."
+  },
+  {
+   "canonical_id": "critical-incident-authorship-problems",
+   "canonical_name": "Critical incident authorship problems",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "critical-incident-authorship-problems"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "crot-ethical-extension-three-steps",
+   "canonical_name": "Crot ethical extension three steps",
+   "kind": "paper_own",
+   "members": [
+    "crot-ethical-extension-three-steps"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "crowdfunding-substantive-rhetorical-disclosure-signals",
+   "canonical_name": "Research Framework",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "crowdfunding-substantive-rhetorical-disclosure-signals"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cs-disclosure-framing-dimensions",
+   "canonical_name": "Dimensions along which survey participants indicate their preferences for framing AI disclosures",
+   "kind": "paper_own",
+   "members": [
+    "cs-disclosure-framing-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cs-disclosure-necessity-levels",
+   "canonical_name": "Cs disclosure necessity levels",
+   "kind": "paper_own",
+   "members": [
+    "cs-disclosure-necessity-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cs-disclosure-survey-human-involvement-levels",
+   "canonical_name": "levels of human involvement",
+   "kind": "paper_own",
+   "members": [
+    "cs-disclosure-survey-human-involvement-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cs-research-task-phase-taxonomy",
+   "canonical_name": "taxonomy of research tasks",
+   "kind": "paper_own",
+   "members": [
+    "cs-research-task-phase-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cse-11-contributor-roles-checklist",
+   "canonical_name": "CSE eleven contributor roles checklist",
+   "kind": "external_standard",
+   "members": [
+    "cse-11-contributor-roles-checklist"
+   ],
+   "note": "The Council of Science Editors' contributor-role list, an artefact authored outside the paper that reproduces it; kept apart from CRediT and from the Editage fourteen-role taxonomy."
+  },
+  {
+   "canonical_id": "cuhk-genai-four-adoption-levels",
+   "canonical_name": "Cuhk genai four adoption levels",
+   "kind": "external_standard",
+   "members": [
+    "cuhk-genai-four-adoption-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cureus-llm-governance-scope-checklist",
+   "canonical_name": "Governance and scope checklist",
+   "kind": "paper_own",
+   "members": [
+    "cureus-llm-governance-scope-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cureus-llm-literature-retrieval-checklist",
+   "canonical_name": "Literature and retrieval checklist",
+   "kind": "paper_own",
+   "members": [
+    "cureus-llm-literature-retrieval-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cureus-llm-reporting-reproducibility-checklist",
+   "canonical_name": "Reporting and reproducibility checklist",
+   "kind": "paper_own",
+   "members": [
+    "cureus-llm-reporting-reproducibility-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "cwik-ai-use-documentation-fields",
+   "canonical_name": "Minimal and extended AI-use documentation fields for scholarly workflows",
+   "kind": "paper_own",
+   "members": [
+    "cwik-ai-use-documentation-fields"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "dacs-four-dimensions",
+   "canonical_name": "Diagnostic AI Contribution Score (DACS)",
+   "kind": "paper_own",
+   "members": [
+    "dacs-four-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "daisy-completeness-coding-scheme",
+   "canonical_name": "Daisy completeness coding scheme",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "daisy-completeness-coding-scheme"
+   ],
+   "note": "Kept separate from DAISY itself: this is the study's own completeness coding of disclosures against it."
+  },
+  {
+   "canonical_id": "daisy-disclosure-activities",
+   "canonical_name": "DAISY",
+   "kind": "external_standard",
+   "members": [
+    "daisy-disclosure-activities"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "datacite-four-extraction-conditions",
+   "canonical_name": "Datacite four extraction conditions",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "datacite-four-extraction-conditions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "davey-smith-contributorship-roles",
+   "canonical_name": "Davey smith contributorship roles",
+   "kind": "paper_own",
+   "members": [
+    "davey-smith-contributorship-roles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "decide-ai-checklist",
+   "canonical_name": "DECIDE-AI checklist",
+   "kind": "external_standard",
+   "members": [
+    "decide-ai-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "deepfake-authentication-comparative-dimensions",
+   "canonical_name": "Comparative Vulnerability Assessment of Evidentiary Authentication Frameworks",
+   "kind": "paper_own",
+   "members": [
+    "deepfake-authentication-comparative-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "deepfake-regulation-four-inquiries",
+   "canonical_name": "Deepfake regulation four inquiries",
+   "kind": "paper_own",
+   "members": [
+    "deepfake-regulation-four-inquiries"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "delphi-consensus-guidance-categories",
+   "canonical_name": "Delphi consensus guidance categories",
+   "kind": "paper_own",
+   "members": [
+    "delphi-consensus-guidance-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "dermatology-journals-genai-policy-characteristics",
+   "canonical_name": "Dermatology journals genai policy characteristics",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "dermatology-journals-genai-policy-characteristics"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "developmental-assessment-genai-framework",
+   "canonical_name": "developmental assessment framework",
+   "kind": "paper_own",
+   "members": [
+    "developmental-assessment-genai-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "digital-trust-transparent-workflow",
+   "canonical_name": "Transparent Workflow for Content Creation, Verification, Disclosure, and User Reliance",
+   "kind": "paper_own",
+   "members": [
+    "digital-trust-transparent-workflow"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "disclose-ai-framework",
+   "canonical_name": "DISCLOSE-AI",
+   "kind": "paper_own",
+   "members": [
+    "disclose-ai-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "disclosure-decision-matrix",
+   "canonical_name": "Disclosure Decision Matrix",
+   "kind": "paper_own",
+   "members": [
+    "disclosure-decision-matrix"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "disclosure-route-conditions",
+   "canonical_name": "Disclosure route conditions",
+   "kind": "paper_own",
+   "members": [
+    "disclosure-route-conditions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "disclosure-stage-purpose-boundaries",
+   "canonical_name": "Disclosure stage purpose boundaries",
+   "kind": "paper_own",
+   "members": [
+    "disclosure-stage-purpose-boundaries"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "distant-writing-ai-involvement-vocabulary",
+   "canonical_name": "a taxonomy of AI involvement",
+   "kind": "paper_own",
+   "members": [
+    "distant-writing-ai-involvement-vocabulary"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "distinctly-human-contributions-two-categories",
+   "canonical_name": "distinctly human contributions",
+   "kind": "paper_own",
+   "members": [
+    "distinctly-human-contributions-two-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "distributed-teaching-agency-typology",
+   "canonical_name": "typology of distributed teacher–AI agency (TAI)",
+   "kind": "paper_own",
+   "members": [
+    "distributed-teaching-agency-typology"
+   ],
+   "note": "Close call: a typology of teacher-AI agency, kept in scope because it is an attribution of who contributed what to instruction."
+  },
+  {
+   "canonical_id": "documentation-adequacy-framework",
+   "canonical_name": "documentation-adequacy framework",
+   "kind": "paper_own",
+   "members": [
+    "documentation-adequacy-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "dragon-kill-points",
+   "canonical_name": "Dragon Kill Points",
+   "kind": "paper_own",
+   "members": [
+    "dragon-kill-points"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "duia-ten-category-taxonomy",
+   "canonical_name": "Declaration of Artificial Intelligence Uses (Declaración de Usos de Inteligencia Artificial, DUIA)",
+   "kind": "paper_own",
+   "members": [
+    "duia-ten-category-taxonomy"
+   ],
+   "note": "Kept separate from AIAS: a Spanish-language declaration taxonomy, not the assessment scale."
+  },
+  {
+   "canonical_id": "eap-aias",
+   "canonical_name": "EAP-AIAS",
+   "kind": "external_standard",
+   "members": [
+    "eap-aias"
+   ],
+   "note": "Kept separate from AIAS: EAP-AIAS is a published, separately named adaptation, not a citation of the original scale."
+  },
+  {
+   "canonical_id": "editage-14-role-taxonomy",
+   "canonical_name": "Editage 14 role taxonomy",
+   "kind": "external_standard",
+   "members": [
+    "editage-14-role-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "editorial-ai-disclosure-coding-fields",
+   "canonical_name": "Data Extraction and Coding Fields",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "editorial-ai-disclosure-coding-fields"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "editorial-ai-policy-divergence-dimensions",
+   "canonical_name": "Editorial ai policy divergence dimensions",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "editorial-ai-policy-divergence-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ekila-ora-triangle",
+   "canonical_name": "Ownership-Rights-Attribution (ORA) Triangle",
+   "kind": "paper_own",
+   "members": [
+    "ekila-ora-triangle"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "elm-effectiveness-legitimacy-matrix",
+   "canonical_name": "Effectiveness–Legitimacy Matrix (ELM)",
+   "kind": "paper_own",
+   "members": [
+    "elm-effectiveness-legitimacy-matrix"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "enai-integrity-misconduct-neutral-taxonomy",
+   "canonical_name": "Enai integrity misconduct neutral taxonomy",
+   "kind": "external_standard",
+   "members": [
+    "enai-integrity-misconduct-neutral-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "endo-journals-ai-policy-four-areas",
+   "canonical_name": "Endo journals ai policy four areas",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "endo-journals-ai-policy-four-areas"
+   ],
+   "note": "The four areas this survey of endocrinology journals used to code their AI policies."
+  },
+  {
+   "canonical_id": "engineering-assessment-evidence-forms",
+   "canonical_name": "Dual-Assurance Assessment Architecture",
+   "kind": "paper_own",
+   "members": [
+    "engineering-assessment-evidence-forms"
+   ],
+   "note": "Close call kept in scope, on the same footing as the two-lane approach: the architecture's evidence forms are what a student must show about how the work was produced."
+  },
+  {
+   "canonical_id": "envidat-datacredit-roles",
+   "canonical_name": "DataCRediT",
+   "kind": "external_standard",
+   "members": [
+    "envidat-datacredit-roles"
+   ],
+   "note": "DataCRediT is a distinct named role vocabulary for data work, not CRediT."
+  },
+  {
+   "canonical_id": "esl-ai-use-disclosure-statement",
+   "canonical_name": "AI Use Disclosure Statement",
+   "kind": "paper_own",
+   "members": [
+    "esl-ai-use-disclosure-statement"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "eu-ai-act-art50-ii-transparency-requirements",
+   "canonical_name": "Art. 50 II",
+   "kind": "external_standard",
+   "members": [
+    "eu-ai-act-art50-ii-transparency-requirements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "euia-six-levels",
+   "canonical_name": "Escala de Uso de la IA (EUIA; Scale of AI Use)",
+   "kind": "paper_own",
+   "members": [
+    "euia-six-levels"
+   ],
+   "note": "Kept separate from AIAS: a separately named Spanish-language six-level scale proposed by this paper."
+  },
+  {
+   "canonical_id": "evidential-strategies-industry-practices",
+   "canonical_name": "Analytical framework for use of scientific evidence",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "evidential-strategies-industry-practices"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "exercise-guidance-explainability-elements",
+   "canonical_name": "Practical explainability elements for AI-generated exercise guidance",
+   "kind": "paper_own",
+   "members": [
+    "exercise-guidance-explainability-elements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "exercise-guidance-implementation-checklist",
+   "canonical_name": "Simplified implementation checklist for AI-generated exercise guidance in digital healthcare",
+   "kind": "paper_own",
+   "members": [
+    "exercise-guidance-implementation-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "exercise-guidance-patient-disclosure-items",
+   "canonical_name": "Exercise guidance patient disclosure items",
+   "kind": "paper_own",
+   "members": [
+    "exercise-guidance-patient-disclosure-items"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "faceted-ai-attribution-model",
+   "canonical_name": "Faceted ai attribution model",
+   "kind": "paper_own",
+   "members": [
+    "faceted-ai-attribution-model"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "fair-biors-guidelines",
+   "canonical_name": "FAIR Biomedical Research Software (FAIR-BioRS) guidelines",
+   "kind": "external_standard",
+   "members": [
+    "fair-biors-guidelines"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "fair-biors-metadata-fields",
+   "canonical_name": "Fair biors metadata fields",
+   "kind": "external_standard",
+   "members": [
+    "fair-biors-metadata-fields"
+   ],
+   "note": "Kept separate from the FAIR-BioRS guidelines, which the same paper reports as a distinct field list."
+  },
+  {
+   "canonical_id": "fair-data-variables-organic-chemistry",
+   "canonical_name": "FAIR variables",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "fair-data-variables-organic-chemistry"
+   ],
+   "note": "A seventeen-variable extraction list used to score other papers' data provenance and availability."
+  },
+  {
+   "canonical_id": "fair-global-mental-health-five-key-themes",
+   "canonical_name": "FAIR global mental health data: Vision for the future and practical next steps",
+   "kind": "paper_own",
+   "members": [
+    "fair-global-mental-health-five-key-themes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "fair-practices-table3-repository-comparison",
+   "canonical_name": "FAIR practices across data repositories",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "fair-practices-table3-repository-comparison"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "fair4rs-principles",
+   "canonical_name": "Fair4rs principles",
+   "kind": "external_standard",
+   "members": [
+    "fair4rs-principles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "family-med-ai-use-guiding-principles",
+   "canonical_name": "Guiding principles for using artificial intelligence (AI) in family medicine research and publishing",
+   "kind": "paper_own",
+   "members": [
+    "family-med-ai-use-guiding-principles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "fda-disclosure-reform-components",
+   "canonical_name": "Fda disclosure reform components",
+   "kind": "paper_own",
+   "members": [
+    "fda-disclosure-reform-components"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "feynman-honesty-standard",
+   "canonical_name": "Feynman Honesty Standard",
+   "kind": "paper_own",
+   "members": [
+    "feynman-honesty-standard"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "fibonacci-credit-allocation",
+   "canonical_name": "Fibonacci-adjusted contributions",
+   "kind": "paper_own",
+   "members": [
+    "fibonacci-credit-allocation"
+   ],
+   "note": "Kept separate from CRediT: a weighting rule for credit shares, not the role taxonomy."
+  },
+  {
+   "canonical_id": "figure-evidentiary-function-taxonomy",
+   "canonical_name": "Figure evidentiary function taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "figure-evidentiary-function-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "fintech-transparency-cues",
+   "canonical_name": "Fintech transparency cues",
+   "kind": "paper_own",
+   "members": [
+    "fintech-transparency-cues"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "five-opacity-mechanisms",
+   "canonical_name": "Five Opacity Mechanisms",
+   "kind": "paper_own",
+   "members": [
+    "five-opacity-mechanisms"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "five-sites-of-ai-policy",
+   "canonical_name": "Five Sites of AI “Policy”",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "five-sites-of-ai-policy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "flair-checklist-categories",
+   "canonical_name": "FLAIR (Framework for LLM Assessment in Radiology)",
+   "kind": "external_standard",
+   "members": [
+    "flair-checklist-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "freelance-ai-use-policy-levels",
+   "canonical_name": "Freelance ai use policy levels",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "freelance-ai-use-policy-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "freelance-worker-ai-disclosure-practice-types",
+   "canonical_name": "Five types of workers’ AI disclosure practice",
+   "kind": "paper_own",
+   "members": [
+    "freelance-worker-ai-disclosure-practice-types"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "functional-taxonomy-ai-mediated-instruction",
+   "canonical_name": "Functional taxonomy ai mediated instruction",
+   "kind": "paper_own",
+   "members": [
+    "functional-taxonomy-ai-mediated-instruction"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "gaf-standardized-authorship-model",
+   "canonical_name": "GAF model",
+   "kind": "paper_own",
+   "members": [
+    "gaf-standardized-authorship-model"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "gai-guideline-domains-coding",
+   "canonical_name": "Guideline domains",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "gai-guideline-domains-coding"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "gai-oral-science-recommendations",
+   "canonical_name": "Gai oral science recommendations",
+   "kind": "paper_own",
+   "members": [
+    "gai-oral-science-recommendations"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "gaidet-inspired-taxonomy-toolkit",
+   "canonical_name": "The GAIDeT-Inspired Taxonomy of AI Use",
+   "kind": "paper_own",
+   "members": [
+    "gaidet-inspired-taxonomy-toolkit"
+   ],
+   "note": "Kept separate from GAIDeT: presented as a derivative taxonomy built by this paper."
+  },
+  {
+   "canonical_id": "gait-2024-guidance",
+   "canonical_name": "Generative AI Transparency (GAIT) guidance",
+   "kind": "external_standard",
+   "members": [
+    "gait-2024-guidance"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "gamer-checklist",
+   "canonical_name": "GAMER checklist",
+   "kind": "external_standard",
+   "members": [
+    "gamer-checklist",
+    "gamer-initial-checklist-aspects"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "garcia-ramos-ai-disclosure-form",
+   "canonical_name": "AI Disclosure Form",
+   "kind": "paper_own",
+   "members": [
+    "garcia-ramos-ai-disclosure-form"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "gastro-coi-disclosure-classification",
+   "canonical_name": "Gastro coi disclosure classification",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "gastro-coi-disclosure-classification"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "gbc-resource-reference-modes",
+   "canonical_name": "modes of reference",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "gbc-resource-reference-modes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-advertising-influence-tiers",
+   "canonical_name": "A Taxonomy of Generative AI Advertising",
+   "kind": "paper_own",
+   "members": [
+    "genai-advertising-influence-tiers"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-assessment-transparency-dimensions",
+   "canonical_name": "Genai assessment transparency dimensions",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "genai-assessment-transparency-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-authorship-qualitative-threshold",
+   "canonical_name": "Qualitative threshold framework for assessing authorship in GenAI-assisted academic work",
+   "kind": "paper_own",
+   "members": [
+    "genai-authorship-qualitative-threshold"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-design-space-taxonomy",
+   "canonical_name": "design-space taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "genai-design-space-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-disclosure-conventions-applied-linguistics",
+   "canonical_name": "Genai disclosure conventions applied linguistics",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "genai-disclosure-conventions-applied-linguistics"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-disclosure-rendering-conditions",
+   "canonical_name": "Genai disclosure rendering conditions",
+   "kind": "paper_own",
+   "members": [
+    "genai-disclosure-rendering-conditions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-education-governance-tiers",
+   "canonical_name": "Genai education governance tiers",
+   "kind": "paper_own",
+   "members": [
+    "genai-education-governance-tiers"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-emi-academic-integrity-blueprint",
+   "canonical_name": "The GenAI Academic Integrity Policy Development Blueprint for EMI Tertiary Education",
+   "kind": "paper_own",
+   "members": [
+    "genai-emi-academic-integrity-blueprint"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-governance-regime-matrix",
+   "canonical_name": "Discursive governance matrix across twenty-Two syllabi",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "genai-governance-regime-matrix"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-healthcare-ethics-framework",
+   "canonical_name": "Ethical framework for healthcare generative AI research ethics",
+   "kind": "paper_own",
+   "members": [
+    "genai-healthcare-ethics-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-higher-ed-policy-themes",
+   "canonical_name": "Genai higher ed policy themes",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "genai-higher-ed-policy-themes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-journalism-ethics-codebook",
+   "canonical_name": "Genai journalism ethics codebook",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "genai-journalism-ethics-codebook"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-lr-checklist-three-domains",
+   "canonical_name": "Genai lr checklist three domains",
+   "kind": "paper_own",
+   "members": [
+    "genai-lr-checklist-three-domains"
+   ],
+   "note": "Not merged with unified-llm-reporting-checklist-three-domains: two papers each arrived at a three-domain reporting checklist, which is resemblance, not a shared artefact."
+  },
+  {
+   "canonical_id": "genai-qualitative-disclosure-heuristic",
+   "canonical_name": "Genai qualitative disclosure heuristic",
+   "kind": "paper_own",
+   "members": [
+    "genai-qualitative-disclosure-heuristic"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-sp-transparency-design-dimensions",
+   "canonical_name": "Genai sp transparency design dimensions",
+   "kind": "paper_own",
+   "members": [
+    "genai-sp-transparency-design-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-student-construction-dimensions",
+   "canonical_name": "Student constructions of AI use and their governance implications",
+   "kind": "paper_own",
+   "members": [
+    "genai-student-construction-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-sustainability-reporting-stages",
+   "canonical_name": "Genai sustainability reporting stages",
+   "kind": "paper_own",
+   "members": [
+    "genai-sustainability-reporting-stages"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "genai-usage-task-content-purpose-taxonomy",
+   "canonical_name": "Genai usage task content purpose taxonomy",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "genai-usage-task-content-purpose-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ghost-management-capture-categories",
+   "canonical_name": "Ghost management capture categories",
+   "kind": "paper_own",
+   "members": [
+    "ghost-management-capture-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "gift-ghost-authorship-types",
+   "canonical_name": "Gift ghost authorship types",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "gift-ghost-authorship-types"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "girimedicolegal-liability-chain-risk-calculator",
+   "canonical_name": "GiriMedicolegal CDSS liability-chain risk calculator",
+   "kind": "paper_own",
+   "members": [
+    "girimedicolegal-liability-chain-risk-calculator"
+   ],
+   "note": "A second paper on the GiriMedicolegal CDSS. Kept apart from girimedicolegal-liability-responsibility-chain: the risk calculator and the responsibility chain are different instruments and neither is a formally named artefact, so the same-name bar is not met."
+  },
+  {
+   "canonical_id": "girimedicolegal-liability-responsibility-chain",
+   "canonical_name": "Girimedicolegal liability responsibility chain",
+   "kind": "paper_own",
+   "members": [
+    "girimedicolegal-liability-responsibility-chain"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "governability-by-design-requirements",
+   "canonical_name": "Governability-by-Design",
+   "kind": "paper_own",
+   "members": [
+    "governability-by-design-requirements"
+   ],
+   "note": "Close call: system design requirements, kept in scope for their logging and accountability obligations."
+  },
+  {
+   "canonical_id": "graduated-ai-disclosure-framework-biomedical",
+   "canonical_name": "graduated disclosure framework for AI contributions in biomedical publications",
+   "kind": "paper_own",
+   "members": [
+    "graduated-ai-disclosure-framework-biomedical"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hai-disclosure-design-dimensions",
+   "canonical_name": "Hai disclosure design dimensions",
+   "kind": "paper_own",
+   "members": [
+    "hai-disclosure-design-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "healthcare-provenance-taxonomy",
+   "canonical_name": "the taxonomy of data provenance in healthcare",
+   "kind": "paper_own",
+   "members": [
+    "healthcare-provenance-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hendriks-2020-alcoholpost-disclosure-codebook",
+   "canonical_name": "Hendriks 2020 alcoholpost disclosure codebook",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "alcoholpost-disclosure-typology",
+    "hendriks-2020-alcoholpost-disclosure-codebook"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hidden-labor-framework",
+   "canonical_name": "hidden labor",
+   "kind": "paper_own",
+   "members": [
+    "hidden-labor-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "honorary-authorship-modalities",
+   "canonical_name": "Honorary authorship modalities",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "honorary-authorship-modalities"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hosseini-genai-writing-assistance-taxonomy",
+   "canonical_name": "Hosseini genai writing assistance taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "hosseini-genai-writing-assistance-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hosseini-significant-threshold-test",
+   "canonical_name": "significant threshold test",
+   "kind": "paper_own",
+   "members": [
+    "hosseini-significant-threshold-test"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hpe-journals-ai-guidance-themes",
+   "canonical_name": "Hpe journals ai guidance themes",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "hpe-journals-ai-guidance-themes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hryciw-ai-involvement-classification",
+   "canonical_name": "Classification system for AI involvement",
+   "kind": "paper_own",
+   "members": [
+    "hryciw-ai-involvement-classification"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hryciw-guidelines-reporting-ai-involvement",
+   "canonical_name": "Guidelines for reporting AI involvement",
+   "kind": "paper_own",
+   "members": [
+    "hryciw-guidelines-reporting-ai-involvement"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "human-ai-hybrid-peer-review-roles",
+   "canonical_name": "a hybrid model",
+   "kind": "paper_own",
+   "members": [
+    "human-ai-hybrid-peer-review-roles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "human-contribution-test-three-elements",
+   "canonical_name": "Human contribution test three elements",
+   "kind": "paper_own",
+   "members": [
+    "human-contribution-test-three-elements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "human-provenance-labor-infrastructure-roles",
+   "canonical_name": "Human provenance labor infrastructure roles",
+   "kind": "paper_own",
+   "members": [
+    "human-provenance-labor-infrastructure-roles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "hybrid-advertising-taxonomy",
+   "canonical_name": "Hybrid advertising taxonomy",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "hybrid-advertising-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "iaumf-maturity-framework",
+   "canonical_name": "Individual AI Use Maturity Framework (iAUMF)",
+   "kind": "paper_own",
+   "members": [
+    "iaumf-maturity-framework"
+   ],
+   "note": "Close call kept in scope, as with the AI to Learn maturity rubric: the levels are graded by what a person documents and declares about their AI use."
+  },
+  {
+   "canonical_id": "icmje-ahp-authorship-components",
+   "canonical_name": "Icmje ahp authorship components",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "icmje-ahp-authorship-components"
+   ],
+   "note": "Kept separate from the ICMJE criteria: a ten-component analysis of authorship practice that cites ICMJE rather than restating it."
+  },
+  {
+   "canonical_id": "icmje-ai-policy-criteria",
+   "canonical_name": "Summary of ICMJE-Based Criteria Used to Evaluate AI Policy in Scientific Journals",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "icmje-ai-policy-criteria"
+   ],
+   "note": "Kept separate from the ICMJE criteria: an ICMJE-derived instrument for coding journals' AI policies."
+  },
+  {
+   "canonical_id": "icmje-commercial-bias-levels",
+   "canonical_name": "Potential commercial bias in medical journal articles, and ICMJE protection",
+   "kind": "paper_own",
+   "members": [
+    "icmje-commercial-bias-levels"
+   ],
+   "note": "Close call: grades potential commercial bias rather than a disclosure, kept in scope because the levels are defined by what the ICMJE disclosure regime catches."
+  },
+  {
+   "canonical_id": "ijsra-disclosure-taxonomy",
+   "canonical_name": "Disclosure taxonomy and testable compliance criteria",
+   "kind": "paper_own",
+   "members": [
+    "ijsra-disclosure-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "imrad-aligned-codebook",
+   "canonical_name": "IMRaD-aligned codebook",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "imrad-aligned-codebook"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "indonesian-roadmap-tiered-ai-disclosure",
+   "canonical_name": "Indonesian roadmap tiered ai disclosure",
+   "kind": "paper_own",
+   "members": [
+    "indonesian-roadmap-tiered-ai-disclosure"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "influencemapper-industry-relationship-categories",
+   "canonical_name": "Influencemapper industry relationship categories",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "influencemapper-industry-relationship-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ipe-institutional-coursework-use-policy",
+   "canonical_name": "Ipe institutional coursework use policy",
+   "kind": "external_standard",
+   "members": [
+    "ipe-institutional-coursework-use-policy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "iranian-med-journals-ai-policy-checklist",
+   "canonical_name": "Iranian med journals ai policy checklist",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "iranian-med-journals-ai-policy-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "irf-genaiw-risk-based-framework",
+   "canonical_name": "Integrated Risk-Based Framework for Responsible Generative AI Writing (IRF–GenAIW)",
+   "kind": "paper_own",
+   "members": [
+    "irf-genaiw-risk-based-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jamo-metadata-classes",
+   "canonical_name": "Jamo metadata classes",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "jamo-metadata-classes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jhre-substantial-ai-indicators",
+   "canonical_name": "Three practical indicators of substantial AI",
+   "kind": "paper_own",
+   "members": [
+    "jhre-substantial-ai-indicators"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jkms-ai-disclosure-tiers",
+   "canonical_name": "tiered disclosure framework",
+   "kind": "paper_own",
+   "members": [
+    "jkms-ai-disclosure-tiers"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jkms-coi-disclosure-expansion",
+   "canonical_name": "Jkms coi disclosure expansion",
+   "kind": "paper_own",
+   "members": [
+    "jkms-coi-disclosure-expansion"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jkms-resnik-hosseini-disclosure-levels",
+   "canonical_name": "Resnik and Hosseini disclosure levels",
+   "kind": "external_standard",
+   "members": [
+    "jkms-resnik-hosseini-disclosure-levels"
+   ],
+   "note": "The disclosure levels are Resnik and Hosseini's, reproduced by this JKMS paper; kept apart from the several JKMS-authored tiered frameworks, which are that journal's own."
+  },
+  {
+   "canonical_id": "jkms-table1-ai-use-categories",
+   "canonical_name": "Jkms table1 ai use categories",
+   "kind": "paper_own",
+   "members": [
+    "jkms-table1-ai-use-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jkms-three-tier-author-disclosure",
+   "canonical_name": "a three-tiered AI disclosure framework",
+   "kind": "paper_own",
+   "members": [
+    "jkms-three-tier-author-disclosure"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jkms-three-tier-reviewer-disclosure",
+   "canonical_name": "tiered reporting framework",
+   "kind": "paper_own",
+   "members": [
+    "jkms-three-tier-reviewer-disclosure"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jme-genai-use-declaration-tiers",
+   "canonical_name": "Generative AI Use Declaration",
+   "kind": "external_standard",
+   "members": [
+    "jme-genai-use-declaration-tiers"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "jmv-ai-policy-comparison",
+   "canonical_name": "COMPARATIVE OVERVIEW OF AI POLICIES IN SCHOLARLY PUBLISHING",
+   "kind": "paper_own",
+   "members": [
+    "jmv-ai-policy-comparison"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "journal-data-sharing-policy-strength-classification",
+   "canonical_name": "Classification criteria for data sharing policy strength",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "journal-data-sharing-policy-strength-classification"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "k12-aias-framework",
+   "canonical_name": "Proposed K-12 AIAS Framework",
+   "kind": "paper_own",
+   "members": [
+    "k12-aias-framework"
+   ],
+   "note": "Kept separate from AIAS: presented as this paper's own proposed K-12 framework."
+  },
+  {
+   "canonical_id": "korean-journal-ai-guideline-key-components",
+   "canonical_name": "Key components of artificial intelligence policies in Korean medical journal guidelines",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "korean-journal-ai-guideline-key-components"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "korean-journal-gai-guideline-items",
+   "canonical_name": "Korean journal gai guideline items",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "korean-journal-gai-guideline-items"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "kr-nrdia-misconduct-taxonomy",
+   "canonical_name": "the Act’s misconduct taxonomy",
+   "kind": "external_standard",
+   "members": [
+    "kr-nrdia-misconduct-taxonomy"
+   ],
+   "note": "Close call: a statutory misconduct taxonomy, kept in scope because undisclosed AI use and authorship violation are among its categories."
+  },
+  {
+   "canonical_id": "leopold-ai-editorial-standards",
+   "canonical_name": "Leopold ai editorial standards",
+   "kind": "paper_own",
+   "members": [
+    "leopold-ai-editorial-standards"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "lingard-disclosure-guidance",
+   "canonical_name": "Lingard disclosure guidance",
+   "kind": "paper_own",
+   "members": [
+    "lingard-disclosure-guidance"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "literary-hr-communication-model-layers",
+   "canonical_name": "Literary HR Communication Model",
+   "kind": "paper_own",
+   "members": [
+    "literary-hr-communication-model-layers"
+   ],
+   "note": "Close call: kept in scope for the layer that governs telling recipients a message was AI-written."
+  },
+  {
+   "canonical_id": "literature-synthesis-review-grid",
+   "canonical_name": "Literature synthesis review grid",
+   "kind": "paper_own",
+   "members": [
+    "literature-synthesis-review-grid"
+   ],
+   "note": "The review grid this paper offers for literature synthesis; separate from the Authorship Grids it also reproduces."
+  },
+  {
+   "canonical_id": "llm-risk-tier-taxonomy",
+   "canonical_name": "risk-tier taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "llm-risk-tier-taxonomy"
+   ],
+   "note": "Close call: a risk-tier taxonomy, kept in scope because in this paper the tiers calibrate how much AI use must be disclosed."
+  },
+  {
+   "canonical_id": "llm-tiered-disclosure",
+   "canonical_name": "tiered disclosure system",
+   "kind": "paper_own",
+   "members": [
+    "llm-tiered-disclosure"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "logos-framework-five-levels",
+   "canonical_name": "LOGOS Framework",
+   "kind": "paper_own",
+   "members": [
+    "logos-framework-five-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "manuscript-ai-disclosure-checklist",
+   "canonical_name": "Manuscript AI-disclosure checklist",
+   "kind": "paper_own",
+   "members": [
+    "manuscript-ai-disclosure-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "marda-fair-materials-four-levels",
+   "canonical_name": "Marda fair materials four levels",
+   "kind": "paper_own",
+   "members": [
+    "marda-fair-materials-four-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "matheson-four-step-framework",
+   "canonical_name": "Four-step framework for evaluating journal articles",
+   "kind": "paper_own",
+   "members": [
+    "matheson-four-step-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "mds-aimt-considerations",
+   "canonical_name": "Minimum Disclosure Standard for AI-mediated translation (MDS-AIMT)",
+   "kind": "paper_own",
+   "members": [
+    "mds-aimt-considerations"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "medai-assessment-reporting-domains",
+   "canonical_name": "Medai assessment reporting domains",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "medai-assessment-reporting-domains"
+   ],
+   "note": "The eight domains this review used to record what medical-AI assessment studies reported about their AI use."
+  },
+  {
+   "canonical_id": "medical-writing-supervisor-framework",
+   "canonical_name": "Medical writing supervisor framework",
+   "kind": "paper_own",
+   "members": [
+    "medical-writing-supervisor-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "medlit-disclosure-content-analysis",
+   "canonical_name": "Medlit disclosure content analysis",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "medlit-disclosure-content-analysis"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "medwriting-ai-disclosure-elements",
+   "canonical_name": "Medwriting ai disclosure elements",
+   "kind": "paper_own",
+   "members": [
+    "medwriting-ai-disclosure-elements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "mind-plus-workflow",
+   "canonical_name": "MIND Plus",
+   "kind": "paper_own",
+   "members": [
+    "mind-plus-workflow"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "minimar-minimum-information",
+   "canonical_name": "MINIMAR (MINimum Information for Medical AI Reporting)",
+   "kind": "external_standard",
+   "members": [
+    "minimar-minimum-information"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "mobileguard-four-pillars",
+   "canonical_name": "MobileGuard",
+   "kind": "paper_own",
+   "members": [
+    "mobileguard-four-pillars"
+   ],
+   "note": "A proposed on-device content-provenance architecture; kept in scope with the other provenance architectures (PPAV, the ATML provenance certificate) rather than treated as a tool inventory."
+  },
+  {
+   "canonical_id": "multilayered-ip-human-ai-authorship-typology",
+   "canonical_name": "Human-AI Collaborative Authorship Typology",
+   "kind": "paper_own",
+   "members": [
+    "multilayered-ip-human-ai-authorship-typology"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "murcia-ai-assisted-textual-typology",
+   "canonical_name": "AI-Assisted Textual Typology",
+   "kind": "paper_own",
+   "members": [
+    "murcia-ai-assisted-textual-typology"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "neurology-journal-ai-policy-checklist",
+   "canonical_name": "Neurology journal ai policy checklist",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "neurology-journal-ai-policy-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "nist-digital-content-transparency-approach-categories",
+   "canonical_name": "Nist digital content transparency approach categories",
+   "kind": "external_standard",
+   "members": [
+    "nist-digital-content-transparency-approach-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "nist-synthetic-content-detection-categories",
+   "canonical_name": "Nist synthetic content detection categories",
+   "kind": "external_standard",
+   "members": [
+    "nist-synthetic-content-detection-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "nonfinancial-disclosure-entry-exit-hybrid",
+   "canonical_name": "hybrid model",
+   "kind": "paper_own",
+   "members": [
+    "nonfinancial-disclosure-entry-exit-hybrid"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "noor-process-oriented-assessment-evidence-types",
+   "canonical_name": "process-oriented assessment framework",
+   "kind": "paper_own",
+   "members": [
+    "noor-process-oriented-assessment-evidence-types"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "nosratzehi-keikha-graded-typology-ai-involvement",
+   "canonical_name": "graded typology of AI involvement",
+   "kind": "paper_own",
+   "members": [
+    "nosratzehi-keikha-graded-typology-ai-involvement"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "nursing-authorship-roles",
+   "canonical_name": "Nursing authorship roles",
+   "kind": "paper_own",
+   "members": [
+    "nursing-authorship-roles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ofct-policy-space-dimensions",
+   "canonical_name": "OFCT: Open, FAIR, Citable and Trustworthy",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "ofct-policy-space-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "olj-6cs-approach",
+   "canonical_name": "6Cs approach",
+   "kind": "paper_own",
+   "members": [
+    "olj-6cs-approach"
+   ],
+   "note": "Close call: a pedagogic approach, kept in scope for its citation and acknowledgement components."
+  },
+  {
+   "canonical_id": "oman-hta-dossier-transparency-checklist",
+   "canonical_name": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "oman-hta-dossier-transparency-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "op9-oversight-protocol",
+   "canonical_name": "Oversight Protocol (OP-9)",
+   "kind": "paper_own",
+   "members": [
+    "op-9-oversight-protocol",
+    "op9-oversight-protocol"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "op9-paper-ownership-discretion-codebook",
+   "canonical_name": "Op9 paper ownership discretion codebook",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "op9-ownership-discretion-codebook",
+    "op9-paper-ownership-discretion-codebook"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "open-science-practices-checklist-pa-bcr",
+   "canonical_name": "Open science practices checklist pa bcr",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "open-science-practices-checklist-pa-bcr"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "originality-transparency-accountability",
+   "canonical_name": "Originality transparency accountability",
+   "kind": "paper_own",
+   "members": [
+    "originality-transparency-accountability"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "osce-five-ai-roles",
+   "canonical_name": "A 5-AI-Role Model Across the OSCE Life Cycle",
+   "kind": "paper_own",
+   "members": [
+    "osce-five-ai-roles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "osce-governance-four-pillars",
+   "canonical_name": "Governance Pillars: Human Oversight, Transparency, Ethics and Safety, and Traceability",
+   "kind": "paper_own",
+   "members": [
+    "osce-governance-four-pillars"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "oss-ai-policy-disclosure-hitl-coding",
+   "canonical_name": "Oss ai policy disclosure hitl coding",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "oss-ai-policy-disclosure-hitl-coding"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "oss-ai-policy-six-dimensions",
+   "canonical_name": "Oss ai policy six dimensions",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "oss-ai-policy-six-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "oss-level-of-ai-assistance",
+   "canonical_name": "Level of AI Assistance: Human-written, AI-assisted, and AI-generated",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "oss-level-of-ai-assistance"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "pai-synthetic-media-stakeholder-framework",
+   "canonical_name": "Responsible Practices for Synthetic Media",
+   "kind": "external_standard",
+   "members": [
+    "pai-synthetic-media-stakeholder-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "paired-decision-point-framework",
+   "canonical_name": "PAIRED — Process-Anchored Interaction Reporting for AI-Enabled Discovery",
+   "kind": "paper_own",
+   "members": [
+    "paired-decision-point-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "pandora-genai-susceptibility-rubric",
+   "canonical_name": "PANDORA GenAI Susceptibility Rubric",
+   "kind": "paper_own",
+   "members": [
+    "pandora-genai-susceptibility-rubric"
+   ],
+   "note": "Close call: rates a task's susceptibility to GenAI rather than a disclosure, kept in scope because it sets what must be declared for that task."
+  },
+  {
+   "canonical_id": "papercard-three-disclaimers",
+   "canonical_name": "PaperCard",
+   "kind": "paper_own",
+   "members": [
+    "papercard-three-disclaimers"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "patience2019-nih-25-activities",
+   "canonical_name": "Patience2019 nih 25 activities",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "patience2019-nih-25-activities"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "pearce-chiavaroli-assisted-unassisted",
+   "canonical_name": "Pearce chiavaroli assisted unassisted",
+   "kind": "paper_own",
+   "members": [
+    "pearce-chiavaroli-assisted-unassisted"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "perneger-thinker-soldier-scribe-profiles",
+   "canonical_name": "Thinker, Soldier, Scribe",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "perneger-thinker-soldier-scribe-profiles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "petmalu-ai-nine-domains",
+   "canonical_name": "PETMALU-AI (Principles for Ensuring Transparency in Machine-assisted Authorship, Logging, and Use of Artificial Intelligence)",
+   "kind": "paper_own",
+   "members": [
+    "petmalu-ai-nine-domains"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "pharmacology-source-checking-rubric",
+   "canonical_name": "Proposed analytic rubric aligned with the five-step framework",
+   "kind": "paper_own",
+   "members": [
+    "pharmacology-source-checking-rubric"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "physician-resilience-verification-triggers",
+   "canonical_name": "Physician resilience verification triggers",
+   "kind": "paper_own",
+   "members": [
+    "physician-resilience-verification-triggers"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "pkrxiv-differentiated-data-sharing-model",
+   "canonical_name": "differentiated data sharing model framework",
+   "kind": "paper_own",
+   "members": [
+    "pkrxiv-differentiated-data-sharing-model"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "plos-contributorship-five-categories",
+   "canonical_name": "Plos contributorship five categories",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "plos-contributorship-five-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "plos-one-inappropriate-authorship-levels",
+   "canonical_name": "Three levels of potential inappropriate authorship",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "plos-one-inappropriate-authorship-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "plos-ten-rules-committee-criteria",
+   "canonical_name": "Plos ten rules committee criteria",
+   "kind": "paper_own",
+   "members": [
+    "plos-ten-rules-committee-criteria"
+   ],
+   "note": "Close call: criteria for constituting a committee, kept in scope because the committee adjudicates authorship and credit."
+  },
+  {
+   "canonical_id": "ppav-layered-architecture",
+   "canonical_name": "Pre-Publication Authenticity Verification (PPAV) Model",
+   "kind": "paper_own",
+   "members": [
+    "ppav-layered-architecture"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "pre-use-checklist-seven-gates",
+   "canonical_name": "a seven-item verification instrument that translates regulatory requirements and technical constraints into executable actions",
+   "kind": "paper_own",
+   "members": [
+    "pre-use-checklist-seven-gates"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "prisma-traice-checklist",
+   "canonical_name": "PRISMA-trAIce checklist",
+   "kind": "external_standard",
+   "members": [
+    "prisma-traice-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "process-adoption-model",
+   "canonical_name": "process-adoption model",
+   "kind": "paper_own",
+   "members": [
+    "process-adoption-model"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "prompt-disclosure-threshold-framework",
+   "canonical_name": "Prompt disclosure threshold framework",
+   "kind": "paper_own",
+   "members": [
+    "prompt-disclosure-threshold-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "provenance-disclosure-cue-codebook",
+   "canonical_name": "Provenance disclosure cue codebook",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "provenance-disclosure-cue-codebook"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "provenance-not-prohibition-six-principles",
+   "canonical_name": "Provenance not prohibition six principles",
+   "kind": "paper_own",
+   "members": [
+    "provenance-not-prohibition-six-principles"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "pruschak-authorship-task-list",
+   "canonical_name": "Pruschak authorship task list",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "pruschak-authorship-task-list"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "publisher-ai-policy-comparative-dimensions",
+   "canonical_name": "Comparative analysis of publisher AI policies",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "publisher-ai-policy-comparative-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "publisher-ai-policy-six-themes",
+   "canonical_name": "Publisher ai policy six themes",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "publisher-ai-policy-six-themes"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "pwav-framework",
+   "canonical_name": "Provenance-Weighted Authenticity Verification (PWAV)",
+   "kind": "paper_own",
+   "members": [
+    "pwav-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "qaf-ai-competence-dimension",
+   "canonical_name": "Quality Assessment Framework (QAF)",
+   "kind": "paper_own",
+   "members": [
+    "qaf-ai-competence-dimension"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "radiobiology-policy-classification",
+   "canonical_name": "Policy classification framework",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "radiobiology-policy-classification"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "rasmussen-authorship-policy-depth-coding",
+   "canonical_name": "Rasmussen authorship policy depth coding",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "rasmussen-authorship-policy-depth-coding"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "refine-checklist",
+   "canonical_name": "REporting checklist for FoundatIon and large laNguagE models (REFINE)",
+   "kind": "external_standard",
+   "members": [
+    "refine-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "responsible-authorship-transparency-credit-accountability",
+   "canonical_name": "transparency-credit-accountability framework",
+   "kind": "paper_own",
+   "members": [
+    "responsible-authorship-transparency-credit-accountability"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "risk-and-ethics-matrix-ai-video",
+   "canonical_name": "risk-and-ethics matrix",
+   "kind": "paper_own",
+   "members": [
+    "risk-and-ethics-matrix-ai-video"
+   ],
+   "note": "Close call kept in scope: the matrix pairs AI-video risks with the disclosure and attribution duties they trigger. Distinct from the same paper's generation-pathway taxonomy, and unrelated to the video quality-evaluation tool list held out of scope."
+  },
+  {
+   "canonical_id": "rpt-test",
+   "canonical_name": "RPT test (Reasoning–Process–Traceability)",
+   "kind": "paper_own",
+   "members": [
+    "rpt-test"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sage-accept-modify-reject-decision",
+   "canonical_name": "Sage accept modify reject decision",
+   "kind": "paper_own",
+   "members": [
+    "sage-accept-modify-reject-decision"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sage-ap-staged-process",
+   "canonical_name": "Structured AI-Guided Education Assessment Policy (SAGE-AP)",
+   "kind": "paper_own",
+   "members": [
+    "sage-ap-staged-process"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sage-student-orchestration-levels",
+   "canonical_name": "SAGE student orchestration levels and observable interpretations",
+   "kind": "paper_own",
+   "members": [
+    "sage-student-orchestration-levels"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sample-publishing-4-step-guidance",
+   "canonical_name": "Publishing Open Research Using Physical Samples: Guidance for Authors",
+   "kind": "external_standard",
+   "members": [
+    "sample-publishing-4-step-guidance"
+   ],
+   "note": "A named guidance document for citing and declaring the physical samples behind a publication; no existing canonical scheme covers it, so it is its own."
+  },
+  {
+   "canonical_id": "sankar-levels-of-ai-involvement",
+   "canonical_name": "Sankar levels of ai involvement",
+   "kind": "paper_own",
+   "members": [
+    "sankar-levels-of-ai-involvement"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "scidraw-illustration-use-case-taxonomy",
+   "canonical_name": "Scidraw illustration use case taxonomy",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "scidraw-illustration-use-case-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sciencedata-ml-documentation-dimensions",
+   "canonical_name": "Sciencedata ml documentation dimensions",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "sciencedata-ml-documentation-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "seal-signature-fields",
+   "canonical_name": "Secure Evidence Attribution Label (SEAL)",
+   "kind": "paper_own",
+   "members": [
+    "seal-signature-fields"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sensor-fused-ethics-design-space",
+   "canonical_name": "The Ethical Design Space for Sensor-Fused LLMs",
+   "kind": "paper_own",
+   "members": [
+    "sensor-fused-ethics-design-space"
+   ],
+   "note": "Close call: an ethical design space for sensor-fused LLM systems whose axes include disclosure to the person affected."
+  },
+  {
+   "canonical_id": "social-media-ai-content-origin-types",
+   "canonical_name": "Types of AI-Generated Content",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "social-media-ai-content-origin-types"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "software-registry-authorship-policy-checklist",
+   "canonical_name": "Software registry authorship policy checklist",
+   "kind": "paper_own",
+   "members": [
+    "software-registry-authorship-policy-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "software-registry-conditions-of-use-checklist",
+   "canonical_name": "Stipulate conditions of use",
+   "kind": "paper_own",
+   "members": [
+    "software-registry-conditions-of-use-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "somesci-software-taxonomy",
+   "canonical_name": "Taxonomy for software and related information",
+   "kind": "external_standard",
+   "members": [
+    "somesci-software-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "specified-latitude-evaluation-criteria",
+   "canonical_name": "Evaluation Criteria",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "specified-latitude-evaluation-criteria"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "spirit-ai-checklist",
+   "canonical_name": "SPIRIT-AI checklist",
+   "kind": "external_standard",
+   "members": [
+    "spirit-ai-checklist"
+   ],
+   "note": "SPIRIT-AI on its own, as cited by this paper. Kept apart from spirit-ai-consort-ai-new-items, the joint table of items SPIRIT-AI and CONSORT-AI add, and from the CONSORT-AI checklist, exactly as those two are kept apart from each other."
+  },
+  {
+   "canonical_id": "spirit-ai-consort-ai-new-items",
+   "canonical_name": "SPIRIT-AI and CONSORT-AI guidelines",
+   "kind": "external_standard",
+   "members": [
+    "spirit-ai-consort-ai-new-items"
+   ],
+   "note": "Kept separate from the CONSORT-AI checklist: this id is the combined SPIRIT-AI/CONSORT-AI new-item set, a different artefact from the CONSORT-AI checklist alone."
+  },
+  {
+   "canonical_id": "sponsored-content-coding-frame",
+   "canonical_name": "the coding frame",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "sponsored-content-coding-frame"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sponsored-content-credibility-dimensions",
+   "canonical_name": "Sponsored content credibility dimensions",
+   "kind": "paper_own",
+   "members": [
+    "sponsored-content-credibility-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sport-pedagogy-discipline-specific-ethical-framework",
+   "canonical_name": "A discipline-specific ethical framework",
+   "kind": "paper_own",
+   "members": [
+    "sport-pedagogy-discipline-specific-ethical-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sr-ai-disclosure-extraction-variables",
+   "canonical_name": "Sr ai disclosure extraction variables",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "sr-ai-disclosure-extraction-variables"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sss-framework-faculty-guardrails",
+   "canonical_name": "Faculty Guardrails for SSS Framework",
+   "kind": "paper_own",
+   "members": [
+    "sss-framework-faculty-guardrails"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "sss-framework-three-phase",
+   "canonical_name": "SSS Framework",
+   "kind": "paper_own",
+   "members": [
+    "sss-framework-three-phase"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "stard-ai-checklist-sections",
+   "canonical_name": "The STARD-AI checklist",
+   "kind": "external_standard",
+   "members": [
+    "stard-ai-checklist-sections"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "stm-ai-task-classification",
+   "canonical_name": "STM framework",
+   "kind": "external_standard",
+   "members": [
+    "stm-ai-task-classification"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "strategic-coauthorship-problematic-dimensions",
+   "canonical_name": "The problematic dimensions: honorary, gift, and coercive authorship",
+   "kind": "paper_own",
+   "members": [
+    "strategic-coauthorship-problematic-dimensions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "structured-acknowledgment-types",
+   "canonical_name": "Examples of Structured Acknowledgments",
+   "kind": "paper_own",
+   "members": [
+    "structured-acknowledgment-types"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "structuring-transparency-coding-focused",
+   "canonical_name": "Coding-focused declaration structure",
+   "kind": "paper_own",
+   "members": [
+    "structuring-transparency-coding-focused"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "structuring-transparency-writing-focused",
+   "canonical_name": "Writing-focused declaration structure",
+   "kind": "paper_own",
+   "members": [
+    "structuring-transparency-writing-focused"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "student-ai-rationalization-taxonomy",
+   "canonical_name": "Student ai rationalization taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "student-ai-rationalization-taxonomy"
+   ],
+   "note": "Close call: classifies how students justify undisclosed AI use, kept in scope as the mirror image of disclosure behaviour."
+  },
+  {
+   "canonical_id": "student-led-vs-ai-assisted-disclosure",
+   "canonical_name": "Student led vs ai assisted disclosure",
+   "kind": "paper_own",
+   "members": [
+    "student-led-vs-ai-assisted-disclosure"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "substantial-creative-direction-criterion",
+   "canonical_name": "substantial creative direction",
+   "kind": "paper_own",
+   "members": [
+    "substantial-creative-direction-criterion"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "synthetic-data-disclosure-recommendation",
+   "canonical_name": "Synthetic data disclosure recommendation",
+   "kind": "paper_own",
+   "members": [
+    "synthetic-data-disclosure-recommendation"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "synthetic-media-exchange-asset-bundle",
+   "canonical_name": "Synthetic Media Exchange (SMX)",
+   "kind": "paper_own",
+   "members": [
+    "synthetic-media-exchange-asset-bundle"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "table-i-inappropriate-authorship-types",
+   "canonical_name": "Table I. Common instances of inappropriate authorship",
+   "kind": "paper_own",
+   "members": [
+    "table-i-inappropriate-authorship-types"
+   ],
+   "note": "The paper's own table of inappropriate-authorship types; separate from the ICMJE criteria the same paper quotes."
+  },
+  {
+   "canonical_id": "tadirah-taxonomy-of-activities",
+   "canonical_name": "Taxonomy of Digital Research Activities in the Humanities (TaDiRAH)",
+   "kind": "external_standard",
+   "members": [
+    "tadirah-taxonomy-of-activities"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "taf-ai-taxonomy",
+   "canonical_name": "Taxonomy of Attribution Failures in AI-VCS Workflows (TAF-AI)",
+   "kind": "paper_own",
+   "members": [
+    "taf-ai-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ten-simple-rules-data-citation-elements",
+   "canonical_name": "Ten simple rules data citation elements",
+   "kind": "paper_own",
+   "members": [
+    "ten-simple-rules-data-citation-elements"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "theseus-graduated-disclosure-thresholds",
+   "canonical_name": "Theseus graduated disclosure thresholds",
+   "kind": "paper_own",
+   "members": [
+    "theseus-graduated-disclosure-thresholds"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "theseus-replacement-triad",
+   "canonical_name": "Theseus replacement triad",
+   "kind": "paper_own",
+   "members": [
+    "theseus-replacement-triad"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "three-branch-genai-assessment-framework",
+   "canonical_name": "three-branch multi-level model",
+   "kind": "paper_own",
+   "members": [
+    "three-branch-genai-assessment-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "three-norm-compliance-model",
+   "canonical_name": "a three-norm compliance model",
+   "kind": "paper_own",
+   "members": [
+    "three-norm-compliance-model"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "three-pillar-evidentiary-framework",
+   "canonical_name": "Three-Pillar Jurisprudential Framework: Implementation Mechanisms",
+   "kind": "paper_own",
+   "members": [
+    "three-pillar-evidentiary-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "three-tiered-acs-taxonomy",
+   "canonical_name": "A three-tiered taxonomy for the classification of tasks found in the author contribution statement (ACS)",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "three-tiered-acs-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "tiered-ai-disclosure-framework-scientific-writing",
+   "canonical_name": "Proposed Four-Level AI Disclosure Framework for Scientific Writing",
+   "kind": "paper_own",
+   "members": [
+    "tiered-ai-disclosure-framework-scientific-writing"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "tiktok-commercial-content-ways",
+   "canonical_name": "Tiktok commercial content ways",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "tiktok-commercial-content-ways"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "titan-guideline-use-categories",
+   "canonical_name": "TITAN guidelines",
+   "kind": "external_standard",
+   "members": [
+    "titan-guideline-use-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "trace-governance-framework",
+   "canonical_name": "TRACE",
+   "kind": "paper_own",
+   "members": [
+    "trace-governance-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "traffic-light-approach-ai-use",
+   "canonical_name": "the traffic light approach",
+   "kind": "paper_own",
+   "members": [
+    "traffic-light-approach-ai-use"
+   ],
+   "note": "Not merged with the traffic-light certification model in another paper: same colour metaphor, different artefacts."
+  },
+  {
+   "canonical_id": "transcription-generation-typology",
+   "canonical_name": "a three-category typology",
+   "kind": "paper_own",
+   "members": [
+    "transcription-generation-typology"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "transport-ethics-model-checkpoints",
+   "canonical_name": "Transport–Ethics Model",
+   "kind": "paper_own",
+   "members": [
+    "transport-ethics-model-checkpoints"
+   ],
+   "note": "Close call: ethics checkpoints for AI in transport, kept in scope for their documentation and traceability requirements."
+  },
+  {
+   "canonical_id": "tregai-checklist",
+   "canonical_name": "Transparent Reporting of Ethics for Generative Artificial Intelligence (TREGAI) checklist",
+   "kind": "external_standard",
+   "members": [
+    "tregai-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "tripartite-feedback-framework",
+   "canonical_name": "tripartite feedback framework",
+   "kind": "paper_own",
+   "members": [
+    "tripartite-feedback-framework"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "tripod-22-item-checklist",
+   "canonical_name": "Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) Statement",
+   "kind": "external_standard",
+   "members": [
+    "tripod-22-item-checklist"
+   ],
+   "note": "The original TRIPOD statement, a different artefact from TRIPOD+AI and TRIPOD-LLM, which already have their own canonical schemes."
+  },
+  {
+   "canonical_id": "tripod-llm-research-design-task-categories",
+   "canonical_name": "TRIPOD-LLM",
+   "kind": "external_standard",
+   "members": [
+    "tripod-llm-research-design-task-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "tripod-plus-ai-checklist",
+   "canonical_name": "TRIPOD+AI",
+   "kind": "external_standard",
+   "members": [
+    "tripod-plus-ai-checklist"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "trust-framework-doctoral-genai",
+   "canonical_name": "TRUST framework",
+   "kind": "paper_own",
+   "members": [
+    "trust-framework-doctoral-genai"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "ukzn-three-levels-of-disclosure",
+   "canonical_name": "Ukzn three levels of disclosure",
+   "kind": "external_standard",
+   "members": [
+    "ukzn-three-levels-of-disclosure"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "undeserving-authorship-countermeasures",
+   "canonical_name": "Undeserving authorship countermeasures",
+   "kind": "paper_own",
+   "members": [
+    "undeserving-authorship-countermeasures"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "unified-llm-reporting-checklist-three-domains",
+   "canonical_name": "Unified llm reporting checklist three domains",
+   "kind": "paper_own",
+   "members": [
+    "unified-llm-reporting-checklist-three-domains"
+   ],
+   "note": "Not merged with genai-lr-checklist-three-domains; two papers independently proposed a three-domain LLM reporting checklist."
+  },
+  {
+   "canonical_id": "verifiable-vs-declared-integrity-questions",
+   "canonical_name": "Verifiable vs declared integrity questions",
+   "kind": "paper_own",
+   "members": [
+    "verifiable-vs-declared-integrity-questions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "vietnam-advertising-reform-taxonomy",
+   "canonical_name": "Vietnam advertising reform taxonomy",
+   "kind": "paper_own",
+   "members": [
+    "vietnam-advertising-reform-taxonomy"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "vietnam-aigc-policy-coding-scheme",
+   "canonical_name": "Policy coding scheme (used for document analysis)",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "vietnam-aigc-policy-coding-scheme"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "vietnam-disclosure-statement-template",
+   "canonical_name": "Template disclosure statement (authors)",
+   "kind": "paper_own",
+   "members": [
+    "vietnam-disclosure-statement-template"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "vietnamese-chatgpt-plagiarism-coding-categories",
+   "canonical_name": "Vietnamese chatgpt plagiarism coding categories",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "vietnamese-chatgpt-plagiarism-coding-categories"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "voice-attribution-verification-gaps",
+   "canonical_name": "Voice attribution verification gaps",
+   "kind": "paper_own",
+   "members": [
+    "voice-attribution-verification-gaps"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "von-mettenheim-wiedmann-influencer-transgressions",
+   "canonical_name": "Von mettenheim wiedmann influencer transgressions",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "von-mettenheim-wiedmann-influencer-transgressions"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "wjds-authenticity-facets",
+   "canonical_name": "Wjds authenticity facets",
+   "kind": "paper_own",
+   "members": [
+    "wjds-authenticity-facets"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "youtube-sponsorship-characteristics",
+   "canonical_name": "Youtube sponsorship characteristics",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "youtube-sponsorship-characteristics"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "youtube-transparency-typology",
+   "canonical_name": "typology of transparency markers",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "youtube-transparency-typology"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "zkp-image-provenance-claim-types",
+   "canonical_name": "Zkp image provenance claim types",
+   "kind": "paper_own",
+   "members": [
+    "zkp-image-provenance-claim-types"
+   ],
+   "note": ""
+  },
+  {
+   "canonical_id": "zou2026-genai-use-purpose",
+   "canonical_name": "Purpose of using GenAI",
+   "kind": "policy_corpus_coding",
+   "members": [
+    "zou2026-genai-use-purpose"
+   ],
+   "note": ""
+  }
+ ],
+ "out_of_scope": [
+  {
+   "scheme_id": "advertising-styles-taxonomy-llms",
+   "reason": "classifies creative styles of LLM-produced advertising copy; it says nothing about whether or how AI involvement is disclosed"
+  },
+  {
+   "scheme_id": "ai-cultural-preservation-research-agenda",
+   "reason": "lays out research directions for AI in cultural-heritage work; its categories are research topics, not disclosure, attribution or provenance claims"
+  },
+  {
+   "scheme_id": "ai-design-tool-categories",
+   "reason": "an inventory of generative design tools by function - a taxonomy of software, not of what is disclosed about an output"
+  },
+  {
+   "scheme_id": "ai-digital-literacy-culture-six-dimensions",
+   "reason": "measures an institution's AI-literacy culture (capability, attitudes, support); no dimension concerns a disclosure or provenance claim"
+  },
+  {
+   "scheme_id": "ai-video-quality-evaluation-tools",
+   "reason": "lists tools for judging the technical quality of generated video, not claims made about its origin"
+  },
+  {
+   "scheme_id": "automation-level-taxonomy-forecasting",
+   "reason": "grades how autonomous a forecasting pipeline is - a taxonomy of system autonomy rather than of disclosed human/AI contribution"
+  },
+  {
+   "scheme_id": "cai-cybersecurity-autonomy-levels",
+   "reason": "a Level 0-5 taxonomy of cybersecurity AI agent autonomy; it classifies system capability, not any disclosure about a produced output"
+  },
+  {
+   "scheme_id": "digital-afterlife-nine-dimension-taxonomy",
+   "reason": "classifies digital-afterlife technologies and their ethical dimensions (consent, grief, commerce), not claims about how an artefact was produced"
+  },
+  {
+   "scheme_id": "drm-ai-licensing-primary-domains",
+   "reason": "sorts AI content-licensing activity by market domain; it is a map of licensing practice, not of disclosure or attribution"
+  },
+  {
+   "scheme_id": "genai-marketing-impact-cycle-framework",
+   "reason": "models how generative AI changes the marketing impact cycle; its stages are business processes, not disclosure elements"
+  },
+  {
+   "scheme_id": "genai-proficiency-five-levels",
+   "reason": "grades a person's proficiency with generative AI - a competence scale, not a statement about an output's provenance"
+  },
+  {
+   "scheme_id": "hadan-ai-incident-taxonomy",
+   "reason": "a taxonomy of AI privacy and ethical incidents, i.e. of harms that occurred, not of what is disclosed about a produced output"
+  },
+  {
+   "scheme_id": "llm-literacy-scoring-rubric",
+   "reason": "scores learners' LLM literacy; it rates the person, not a disclosure or attribution claim"
+  },
+  {
+   "scheme_id": "medical-ai-four-level-classification",
+   "reason": "classifies medical AI systems by clinical decision autonomy and effect on the doctor-patient relationship - system autonomy, not disclosure"
+  },
+  {
+   "scheme_id": "seven-part-ai-design-course-framework",
+   "reason": "structures how AI is introduced into a design curriculum (teaching, resourcing, staffing); a course-governance structure, not a disclosure scheme"
+  }
+ ]
+}

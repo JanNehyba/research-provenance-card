@@ -19,8 +19,13 @@ Protocol frozen 2026-09-27, sha256 `d98a865f429729a7`. Queries sha256 `2c648a4a9
 | Reached extraction | 583 |
 | Excluded at full text, no scheme present | 183 |
 | Papers contributing at least one verified dimension | 400 |
-| Schemes | 475 |
+| Distinct scheme identifiers, as extracted | 475 |
+| Schemes, after merging identifiers that name the same artefact | 429 |
+| Of those, judged out of scope at the merge | 15 |
 | Verified dimension rows | 1703 |
+| Canonical dimensions | 193 |
+
+An extraction agent works one packet at a time and cannot know that another packet held the same scheme, so it invents its own identifier: CRediT came back under 13 of them. The count that means anything is the merged one; the raw identifier count is shown because it is what the data files contain.
 
 ## 2. Search
 
@@ -108,6 +113,29 @@ here. A screener that misses one is reported, not retrained.
 - Quotes longer than 25 words, kept and flagged: 6
 - Rows verified against an abstract rather than a full text: 345
 - Rows carrying a character PDF extraction lost, usually a dash inside a label: 0
+
+### Schemes after the merge
+
+| Kind | Schemes |
+|---|---:|
+| `paper_own` | 276 |
+| `policy_corpus_coding` | 96 |
+| `external_standard` | 57 |
+
+418 of 429 schemes are unique to one paper. The artefacts several papers share are few:
+
+| Artefact | Identifiers merged |
+|---|---:|
+| CRediT Contributor Roles Taxonomy | 13 |
+| AI Assessment Scale (AIAS) | 8 |
+| ICMJE authorship criteria | 6 |
+| C2PA content credentials / manifest specification | 3 |
+| GAIDeT (Generative AI Delegation Taxonomy) | 3 |
+| CHART (Chatbot Assessment Reporting Tool) | 2 |
+| Two-lane approach to assessment (Liu & Bridgeman) | 2 |
+| GAMER checklist | 2 |
+| Hendriks 2020 alcoholpost disclosure codebook | 2 |
+| Oversight Protocol (OP-9) | 2 |
 
 ### Schemes by domain
 

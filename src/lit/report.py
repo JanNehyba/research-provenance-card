@@ -62,6 +62,8 @@ def main() -> int:
     schemes = load_jsonl("schemes.jsonl")
     rejected = load_jsonl("extract/rejected.jsonl")
     ft_excluded = load_jsonl("fulltext-excluded.jsonl")
+    scheme_merge = load_json("scheme-merge.json")
+    dimensions = load_json("dimensions.json")
 
     if not records:
         print("no records; nothing to report")
@@ -109,9 +111,24 @@ def main() -> int:
     add(f"| Excluded at full text, no scheme present | {ft_excluded_count} |")
     add(f"| Papers contributing at least one verified dimension | "
         f"{len(papers_with_scheme)} |")
-    add(f"| Schemes | {len(schemes_kept)} |")
+    canonical = scheme_merge.get("canonical_schemes", [])
+    out_of_scope = scheme_merge.get("out_of_scope", [])
+    add(f"| Distinct scheme identifiers, as extracted | {len(schemes_kept)} |")
+    if canonical:
+        add(f"| Schemes, after merging identifiers that name the same artefact | "
+            f"{len(canonical)} |")
+        add(f"| Of those, judged out of scope at the merge | {len(out_of_scope)} |")
     add(f"| Verified dimension rows | {len(schemes)} |")
+    if dimensions.get("dimensions"):
+        add(f"| Canonical dimensions | {len(dimensions['dimensions'])} |")
     add("")
+    if canonical:
+        add("An extraction agent works one packet at a time and cannot know that "
+            "another packet held the same scheme, so it invents its own identifier: "
+            "CRediT came back under 13 of them. The count that means anything is the "
+            "merged one; the raw identifier count is shown because it is what the "
+            "data files contain.")
+        add("")
 
     faults = []
     if unscreened:
@@ -275,6 +292,26 @@ def main() -> int:
             add("|---|---:|")
             for fault, count in fault_counter.most_common(10):
                 add(f"| {fault} | {count} |")
+            add("")
+
+        if canonical:
+            kinds = Counter(c["kind"] for c in canonical)
+            add("### Schemes after the merge")
+            add("")
+            add("| Kind | Schemes |")
+            add("|---|---:|")
+            for kind, count in kinds.most_common():
+                add(f"| `{kind}` | {count} |")
+            add("")
+            single = sum(1 for c in canonical if len(c["members"]) == 1)
+            add(f"{single} of {len(canonical)} schemes are unique to one paper. The "
+                f"artefacts several papers share are few:")
+            add("")
+            add("| Artefact | Identifiers merged |")
+            add("|---|---:|")
+            for c in sorted(canonical, key=lambda x: -len(x["members"]))[:10]:
+                if len(c["members"]) > 1:
+                    add(f"| {c['canonical_name']} | {len(c['members'])} |")
             add("")
 
         add("### Schemes by domain")

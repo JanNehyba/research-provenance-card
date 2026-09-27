@@ -13,8 +13,10 @@ the three is modelled. That claim is withdrawn below.
 
 ## 1. What the review found
 
-475 category schemes, drawn from 400 papers, carrying 1703 verified dimension
-rows. Every row quotes its source and every quote was checked by script against
+429 category schemes, drawn from 400 papers, carrying 1703 verified dimension
+rows. (Extraction produced 475 identifiers; an agent working one packet at a time
+cannot know another packet held the same artefact, so CRediT arrived under 13
+names. 429 is the merged count and the one to quote.) Every row quotes its source and every quote was checked by script against
 the retrieved text. The 1502 distinct verbatim labels merge into **193 canonical
 dimensions**, built bottom up by eleven agents that could not see each other's
 work and then consolidated once.
@@ -81,7 +83,7 @@ received, which is the machine's share again, not a declaration about the
 deliverable.
 
 This is the one component of the eight that the literature does not have at all,
-and the absence is not for want of looking: 475 schemes, ten of which are named
+and the absence is not for want of looking: 429 schemes, among them a dozen named
 reporting guidelines with dozens of items each.
 
 ### 7. Recipient expectation: exists, but never as a disclosure field
