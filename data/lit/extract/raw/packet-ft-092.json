@@ -1,0 +1,168 @@
+{
+  "packet_id": "ft-092",
+  "papers": [
+    {
+      "rec_id": "5a7d9b30826e7aa2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gai-guideline-domains-coding",
+          "scheme_name_verbatim": "Guideline domains",
+          "source_ref": "doi:10.1136/bmj-2023-077192",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "top 100 largest publishers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "LLMs",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(1) LLMs; (2) ChatGPT, (3) other GAI tools, (4) guidance limited to the writing process"
+            },
+            {
+              "dimension_label_verbatim": "ChatGPT",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(1) LLMs; (2) ChatGPT, (3) other GAI tools, (4) guidance limited to the writing process"
+            },
+            {
+              "dimension_label_verbatim": "other GAI tools",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(1) LLMs; (2) ChatGPT, (3) other GAI tools, (4) guidance limited to the writing process"
+            },
+            {
+              "dimension_label_verbatim": "guidance limited to the writing process",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(1) LLMs; (2) ChatGPT, (3) other GAI tools, (4) guidance limited to the writing process"
+            },
+            {
+              "dimension_label_verbatim": "whether AI tools can be considered as coauthors",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(5) whether AI tools can be considered as coauthors, (6) specific disclosure criteria, (7) GAI use reported in materials and methods section"
+            },
+            {
+              "dimension_label_verbatim": "specific disclosure criteria",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(5) whether AI tools can be considered as coauthors, (6) specific disclosure criteria, (7) GAI use reported in materials and methods section"
+            },
+            {
+              "dimension_label_verbatim": "GAI use reported in materials and methods section",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(5) whether AI tools can be considered as coauthors, (6) specific disclosure criteria, (7) GAI use reported in materials and methods section"
+            },
+            {
+              "dimension_label_verbatim": "GAI use reported in acknowledgements section",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(8) GAI use reported in acknowledgements section, (9) GAI use reported in cover letter, (10) GAI use reported in a new section of the manuscript"
+            },
+            {
+              "dimension_label_verbatim": "GAI use reported in cover letter",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(8) GAI use reported in acknowledgements section, (9) GAI use reported in cover letter, (10) GAI use reported in a new section of the manuscript"
+            },
+            {
+              "dimension_label_verbatim": "GAI use reported in a new section of the manuscript",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(8) GAI use reported in acknowledgements section, (9) GAI use reported in cover letter, (10) GAI use reported in a new section of the manuscript"
+            },
+            {
+              "dimension_label_verbatim": "authors accountable",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(11) authors accountable, (12) COPE position statement on AI"
+            },
+            {
+              "dimension_label_verbatim": "COPE position statement on AI",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1 | Continued",
+              "quote": "(11) authors accountable, (12) COPE position statement on AI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b19f3cac818075b8",
+      "has_scheme": false,
+      "reason": "reports a between-subject experiment on effects of AI-generated advertisement disclosure on consumer affective states; no categories or dimensions of a disclosure scheme are proposed or used, only experimental conditions and outcome measures"
+    },
+    {
+      "rec_id": "78994f5375f47047",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "oss-ai-policy-disclosure-hitl-coding",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2605.16706",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "118 repositories containing AI policies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI Policy",
+              "definition_quote": "whether they accept AI-assisted contributions",
+              "value_list_verbatim": ["AI is welcome", "AI is permitted", "AI is discouraged"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE I",
+              "quote": "51% explicitly welcome the use of generative AI in contributions, while 27% permit its use without explicitly encouraging it"
+            },
+            {
+              "dimension_label_verbatim": "AI Disclosure",
+              "definition_quote": "whether AI usage must be disclosed",
+              "value_list_verbatim": ["Disclosure is required", "Disclosure is not required"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE III",
+              "quote": "51% of the repositories require disclosure of AI-assisted contributions"
+            },
+            {
+              "dimension_label_verbatim": "Human in the Loop",
+              "definition_quote": "human oversight in the contribution process",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "TABLE IV",
+              "quote": "74% (88 out of 118) require human oversight in the contribution process (i.e., human in the loop)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

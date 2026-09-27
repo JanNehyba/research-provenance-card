@@ -1,0 +1,174 @@
+{
+  "packet_id": "ft-104",
+  "papers": [
+    {
+      "rec_id": "b780cf617c0c3c50",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aits-content-composition-taxonomy",
+          "scheme_name_verbatim": "AITS Content Composition Taxonomy",
+          "source_ref": "arXiv:2604.26075",
+          "domain": "government",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "regulatory",
+          "empirical_basis": "AITS-101 corpus: 101 government AI Transparency Statements, annotated across 2,923 sentences",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "General Introduction",
+              "definition_quote": "Introductory or contextual content that provides an overview of the AITS, it typically appears at the beginning of the document.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "Introductory or contextual content that provides an overview of the AITS, it typically appears at the beginning of the document."
+            },
+            {
+              "dimension_label_verbatim": "Definition of AI",
+              "definition_quote": "Statements that describe the meaning, scope, or boundaries of AI as used by the agency.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "Statements that describe the meaning, scope, or boundaries of AI as used by the agency."
+            },
+            {
+              "dimension_label_verbatim": "Intention of AI",
+              "definition_quote": "the purposes for which the agency uses or considers adopting AI, capturing organisational motivations and expected benefits.",
+              "value_list_verbatim": ["Productivity", "Service delivery", "Decision making", "Innovation", "Staff experience", "Research", "Exploration of potential", "Support regulatory", "Communication", "Data processing and analysis", "Auditing", "No AI use"],
+              "closed_or_open": "closed_list",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "AI is intended to improve internal efficiency, reduce administrative workload, or streamline organisational processes, including administration efficiency, team communication, and paperwork processing."
+            },
+            {
+              "dimension_label_verbatim": "AI Usage Patterns",
+              "definition_quote": "the classification of AI use according to usage patterns, as defined by the Classification system for AI use.",
+              "value_list_verbatim": ["Decisionmaking and administrativeaction", "Analytics for insights", "Workplace productivity", "Image processing", "No AI use"],
+              "closed_or_open": "closed_list",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "the classification of AI use according to usage patterns, as defined by the Classification system for AI use."
+            },
+            {
+              "dimension_label_verbatim": "AI Usage Domains",
+              "definition_quote": "the classification of AI use according to usage domains, as defined by the Classification system for AI use.",
+              "value_list_verbatim": ["Service deliver", "Compliance and fraud detection", "Law enforcement, intelligence and security", "Policy and legal", "Scientific", "Corporate and enabling", "No AI use"],
+              "closed_or_open": "closed_list",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "the classification of AI use according to usage domains, as defined by the Classification system for AI use."
+            },
+            {
+              "dimension_label_verbatim": "Impact to the Public",
+              "definition_quote": "whether and how AI systems directly or indirectly affect members of the public.",
+              "value_list_verbatim": ["Direct public interaction", "Indirect public interaction", "No AI use"],
+              "closed_or_open": "closed_list",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "whether and how AI systems directly or indirectly affect members of the public."
+            },
+            {
+              "dimension_label_verbatim": "Monitoring Measures",
+              "definition_quote": "Measures to monitor the effectiveness of deployed AI systems and protect the public against negative impacts.",
+              "value_list_verbatim": ["Management", "Internal policy", "Internal register", "Staff training", "Collaboration across departments", "Accountable officials", "Specific legal frameworks", "Policy review and evaluate", "Manual validation on generated content", "No AI use"],
+              "closed_or_open": "closed_list",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "Measures to monitor the effectiveness of deployed AI systems and protect the public against negative impacts."
+            },
+            {
+              "dimension_label_verbatim": "Compliance with Regulations",
+              "definition_quote": "references to compliance with applicable regulations.",
+              "value_list_verbatim": ["\"The Policy for responsible use of AI in government\"", "Other legislations and regulations"],
+              "closed_or_open": "closed_list",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "references to compliance with applicable regulations."
+            },
+            {
+              "dimension_label_verbatim": "Update",
+              "definition_quote": "information about update, such as the publish date or the update frequency.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "information about update, such as the publish date or the update frequency."
+            },
+            {
+              "dimension_label_verbatim": "Contact",
+              "definition_quote": "contact Information, such as the email address for public enquiries.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Appendix B AITS Content Composition Taxonomy",
+              "quote": "contact Information, such as the email address for public enquiries."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "967f436dd940ab20",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "unified-llm-reporting-checklist-three-domains",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1186/s41073-026-00212-3",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://mehtanb1.github.io/AIDisclosureForm/",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Conceptual Contributions",
+              "definition_quote": "",
+              "value_list_verbatim": ["Idea Generation and Refinement", "Structure/flow", "Argument Testing and Critical Analysis", "Summarization/Synthesis", "Conceptual Analogies or Frameworks", "Visual Abstracts and Infographics"],
+              "closed_or_open": "closed_list",
+              "locator": "Proposed checklist",
+              "quote": "Our framework is organized across three domains of potential LLM involvement—(1) conceptual contributions, (2) linguistic assistance, and (3) research assistance"
+            },
+            {
+              "dimension_label_verbatim": "Linguistic Assistance",
+              "definition_quote": "",
+              "value_list_verbatim": ["Language Editing", "Clarity, Conciseness and Readability", "Stylistic Consistency", "Adjusting for required Word Count", "Suggesting Title Variations or Subheadings", "Plain-language Conversion and translation"],
+              "closed_or_open": "closed_list",
+              "locator": "Proposed checklist",
+              "quote": "Our framework is organized across three domains of potential LLM involvement—(1) conceptual contributions, (2) linguistic assistance, and (3) research assistance"
+            },
+            {
+              "dimension_label_verbatim": "Research Assistance",
+              "definition_quote": "",
+              "value_list_verbatim": ["Research Question Refinement", "Search Strategy and Strings", "AI-Assisted Literature Retrieval and Aggregation", "Data preparation (cleaning & formatting)", "Statistical methods"],
+              "closed_or_open": "closed_list",
+              "locator": "Proposed checklist",
+              "quote": "Our framework is organized across three domains of potential LLM involvement—(1) conceptual contributions, (2) linguistic assistance, and (3) research assistance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "90333dd8ac5ef7fd",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aias-five-levels",
+          "scheme_name_verbatim": "The AI Assessment Scale (AIAS)",
+          "source_ref": "doi:10.48550/arxiv.2312.07086",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Scale Levels and Descriptions",
+              "definition_quote": "The AIAS empowers educators to select the appropriate level of GenAI usage in assessments based on the learning outcomes they seek to address.",
+              "value_list_verbatim": ["NO AI", "AI-ASSISTED IDEA GENERATION AND STRUCTURING", "AI-ASSISTED EDITING", "AI TASK COMPLETION, HUMAN EVALUATION", "FULL AI"],
+              "closed_or_open": "closed_list",
+              "locator": "Scale Levels and Descriptions",
+              "quote": "The revised five-point AIAS is presented in Table 1."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "packet_id": "ft-009",
+  "papers": [
+    {
+      "rec_id": "bd3b333cfb2bca70",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sss-framework-three-phase",
+          "scheme_name_verbatim": "SSS Framework",
+          "source_ref": "doi:10.1007/s10439-026-04358-5",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Phase",
+              "definition_quote": "a structured, three-phase model in AI-assisted writing comprising the following: (1) Set an AI-Free Zone, (2) Struggle, and (3) Spar with AI",
+              "value_list_verbatim": ["Set an AI-Free Zone", "Struggle", "Spar with AI"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Set an AI-Free Zone Remove AI-accessible devices; create analog cognitive workspace"
+            }
+          ]
+        },
+        {
+          "scheme_id": "sss-framework-faculty-guardrails",
+          "scheme_name_verbatim": "Faculty Guardrails for SSS Framework",
+          "source_ref": "doi:10.1007/s10439-026-04358-5",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Faculty Guardrails for SSS Framework",
+              "definition_quote": "",
+              "value_list_verbatim": ["Human first", "No hidden substitution", "AI as challenger", "Verification remains human", "Calibrate the struggle", "Make process visible", "Protect voice and context"],
+              "closed_or_open": "closed_list",
+              "locator": "Faculty Guardrails for SSS Framework",
+              "quote": "Verification remains human: Require students to check evidence, citations, assumptions, calculations, and factual claims."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f3ba1ce9a4e3bf75",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "tripod-plus-ai-checklist",
+          "scheme_name_verbatim": "TRIPOD+AI",
+          "source_ref": "doi:10.1136/bmj-2023-078378",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "not_stated",
+          "empirical_basis": "292 people invited to the Delphi survey, 170 responded",
+          "machine_readable_artifact": "www.tripod-statement.org",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Title",
+              "definition_quote": "the target population, and the outcome to be predicted",
+              "value_list_verbatim": ["Title"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Identify the study as developing or evaluating the performance of a multivariable prediction model, the target population, and the outcome to be predicted"
+            },
+            {
+              "dimension_label_verbatim": "Abstract",
+              "definition_quote": "",
+              "value_list_verbatim": ["Abstract"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "See TRIPOD+AI for Abstracts checklist"
+            },
+            {
+              "dimension_label_verbatim": "Introduction",
+              "definition_quote": "Specify the study objectives, including whether the study describes the development or validation of a prediction model",
+              "value_list_verbatim": ["Background", "Objectives"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Explain the healthcare context (including whether diagnostic or prognostic) and rationale for developing or evaluating the prediction model, including references to existing models"
+            },
+            {
+              "dimension_label_verbatim": "Methods",
+              "definition_quote": "Describe how missing data were handled. Provide reasons for omitting any data",
+              "value_list_verbatim": ["Data", "Participants", "Data preparation", "Outcome", "Predictors", "Sample size", "Missing data", "Analytical methods", "Class imbalance", "Fairness", "Model output", "Training versus evaluation", "Ethical approval"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Describe the sources of data separately for the development and evaluation datasets"
+            },
+            {
+              "dimension_label_verbatim": "Open science",
+              "definition_quote": "Indicate where the study protocol can be accessed or state that a protocol was not prepared",
+              "value_list_verbatim": ["Funding", "Conflicts of interest", "Protocol", "Registration", "Data sharing", "Code sharing"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Give the source of funding and the role of the funders for the present study"
+            },
+            {
+              "dimension_label_verbatim": "Patient and public involvement",
+              "definition_quote": "",
+              "value_list_verbatim": ["Patient and public involvement"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Provide details of any patient and public involvement during the design, conduct, reporting, interpretation, or dissemination of the study or state no involvement"
+            },
+            {
+              "dimension_label_verbatim": "Result",
+              "definition_quote": "Provide details of the full prediction model (eg, formula, code, object, application programming interface) to allow",
+              "value_list_verbatim": ["Participants", "Model development", "Model specification", "Model performance", "Model updating"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Describe the flow of participants through the study, including the number of participants with and without the outcome"
+            },
+            {
+              "dimension_label_verbatim": "Discussion",
+              "definition_quote": "Discuss any limitations of the study (such as a non-representative sample, sample size, overfitting, missing data)",
+              "value_list_verbatim": ["Interpretation", "Limitations", "Usability of the model in the context of current care"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Give an overall interpretation of the main results, including issues of fairness in the context of the objectives and previous studies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "7b25cb5cd0f2f53f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-taxonomy-use-in-this-study",
+          "scheme_name_verbatim": "Contributor Role Taxonomy (CRediT)",
+          "source_ref": "doi:10.1007/s11192-026-05582-5",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "more than 700,000 articles published between 2018 and 2023 in Elsevier and PLOS journals",
+          "machine_readable_artifact": "https://credit.niso.org/",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "CRediT category",
+              "definition_quote": "This taxonomy was developed to homogenize contribution statements across publications",
+              "value_list_verbatim": ["Conceptualization", "Data curation", "Formal analysis", "Funding acquisition", "Investigation", "Methodology", "Project administration", "Resources", "Software", "Supervision", "Validation", "Visualization", "Writing – original draft", "Writing – review & editing"],
+              "closed_or_open": "closed_list",
+              "locator": "Introduction",
+              "quote": "an overall test was performed using a contingency table that simultaneously included author positions and all CRediT categories"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

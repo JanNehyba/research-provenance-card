@@ -1,0 +1,172 @@
+{
+  "packet_id": "ft-098",
+  "papers": [
+    {
+      "rec_id": "112587e31d09f523",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aidit-taxonomy-ai-uses",
+          "scheme_name_verbatim": "AIdIT (AI disclosure for Improved Transparency)",
+          "source_ref": "doi:10.1186/s41073-026-00230-1",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://github.com/szymekdr/AI_reporting",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Research cycle\nstage",
+              "definition_quote": "",
+              "value_list_verbatim": ["Conceptualisation", "Data curation", "Formal analysis", "Funding acquisition", "Investigation", "Methods", "Validation", "Visualisation"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "The framework is grounded in a\ntaxonomy of AI uses and research stages (Table 1) mimicking the CRediT authorship roles classification."
+            },
+            {
+              "dimension_label_verbatim": "Area of AI use",
+              "definition_quote": "than asking whether AI was used, the framework asks how it was used (e.g. generation, refinement, comparison) and where it influenced the research process",
+              "value_list_verbatim": ["Content generation", "Content refinement", "Content comparisons"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Taxonomy of AI uses, categorised into three areas of application."
+            }
+          ]
+        },
+        {
+          "scheme_id": "aidit-article-level-extraction-template",
+          "scheme_name_verbatim": "standardised extraction template",
+          "source_ref": "doi:10.1186/s41073-026-00230-1",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "230 journals; article-level compliance assessed on a large sample of recent publications",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Contribution present",
+              "definition_quote": "whether a statement detailing the contributions of all co-authors\nwas included",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Materials & methods",
+              "quote": "Contribution present (Yes / No): whether a statement detailing the contributions of all co-authors\nwas included;"
+            },
+            {
+              "dimension_label_verbatim": "Contribution CRediT",
+              "definition_quote": "whether contributions were reported using the exact version of the\nCRediT taxonomy",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Materials & methods",
+              "quote": "Contribution CRediT (Yes / No): whether contributions were reported using the exact version of the\nCRediT taxonomy;"
+            },
+            {
+              "dimension_label_verbatim": "AI statement present",
+              "definition_quote": "whether any statement on the use of AI tools was included",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Materials & methods",
+              "quote": "AI statement present (Yes / No): whether any statement on the use of AI tools was included;"
+            },
+            {
+              "dimension_label_verbatim": "AI statement location",
+              "definition_quote": "article section where the statement appeared",
+              "value_list_verbatim": ["Title page", "Methods", "Acknowledgements", "Ethical note", "Separate section", "Other"],
+              "closed_or_open": "closed_list",
+              "locator": "Materials & methods",
+              "quote": "AI statement location: article section where the statement appeared (Title page / Methods /\nAcknowledgements / Ethical note / Separate section / Other);"
+            },
+            {
+              "dimension_label_verbatim": "AI model",
+              "definition_quote": "whether the statement specified the AI model used",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Materials & methods",
+              "quote": "AI model (Yes / No): whether the statement specified the AI model used (e.g. ChatGPT, Llama,\nGemini, Copilot);"
+            },
+            {
+              "dimension_label_verbatim": "AI usage",
+              "definition_quote": "whether the statement described how AI was used",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Materials & methods",
+              "quote": "AI usage (Yes / No): whether the statement described how AI was used (e.g. writing assistance,\nlanguage editing, data processing);"
+            },
+            {
+              "dimension_label_verbatim": "Negative statement",
+              "definition_quote": "whether the article explicitly stated that no AI tools were used",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Materials & methods",
+              "quote": "Negative statement (Yes / No): whether the article explicitly stated that no AI tools were used."
+            }
+          ]
+        },
+        {
+          "scheme_id": "aidit-journal-policy-extraction-template",
+          "scheme_name_verbatim": "standardised extraction template",
+          "source_ref": "doi:10.1186/s41073-026-00230-1",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "230 journals screened for author-contribution and AI policies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Presence of guidelines on reporting author contributions",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes, mandatory", "Yes, suggestions", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Journal selection and assessment of formal policies on author contributions and AI",
+              "quote": "Presence of guidelines on reporting author contributions (Yes, mandatory / Yes, suggestions / No);"
+            },
+            {
+              "dimension_label_verbatim": "Presence of guidelines on AI use",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Journal selection and assessment of formal policies on author contributions and AI",
+              "quote": "Presence of guidelines on AI use (Yes / No); if Yes:"
+            },
+            {
+              "dimension_label_verbatim": "Are any types of AI use explicitly permitted or prohibited?",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Journal selection and assessment of formal policies on author contributions and AI",
+              "quote": "Are any types of AI use explicitly permitted or prohibited? (Yes / No);"
+            },
+            {
+              "dimension_label_verbatim": "Are there guidelines on where or how AI use should be declared?",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Journal selection and assessment of formal policies on author contributions and AI",
+              "quote": "Are there guidelines on where or how AI use should be declared? (Yes / No);"
+            },
+            {
+              "dimension_label_verbatim": "Is there a suggested format for declaring AI use?",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Journal selection and assessment of formal policies on author contributions and AI",
+              "quote": "Is there a suggested format for declaring AI use? (Yes / No);"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2c17ef1022de0d29",
+      "has_scheme": false,
+      "reason": "short conference abstract on GenAI in studio-based design education; describes impacts (disrupted critiques, diffused ethical responsibility) and proposes reframing pedagogy around process transparency, but enumerates no categories or dimensions"
+    },
+    {
+      "rec_id": "50b1869443f3b9bf",
+      "has_scheme": false,
+      "reason": "proposes a six-stage governance strategy (the SMART-G Framework) and applies existing NIST AI RMF, RACI, and ISO/IEC 42001 frameworks to deepfake response, but these are process/governance stages and roles for handling deepfakes, not an enumerable scheme describing a disclosure, attribution, or provenance claim about produced content"
+    }
+  ]
+}

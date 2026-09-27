@@ -1,0 +1,110 @@
+{
+  "packet_id": "ft-109",
+  "papers": [
+    {
+      "rec_id": "ee8fa12fd6623287",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aias-five-levels",
+          "scheme_name_verbatim": "the Artificial Intelligence Assessment Scale (AIAS)",
+          "source_ref": "doi:10.48550/arxiv.2403.14692",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "a pilot study conducted at British University Vietnam (BUV)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Level 1 - No AI",
+              "definition_quote": "Students complete assessments without any use of GenAI tools",
+              "value_list_verbatim": [
+                "No AI",
+                "AI-Assisted Idea Generation and Structuring",
+                "AI-Assisted Editing",
+                "AI Task Completion, Human Evaluation",
+                "Full AI"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "The AI Assessment Scale (AIAS)",
+              "quote": "The following is a summary of the five levels of the AIAS, \nwith brief examples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a84ebc435068d885",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "garcia-ramos-ai-disclosure-form",
+          "scheme_name_verbatim": "AI Disclosure Form",
+          "source_ref": "doi:10.3389/feduc.2025.1654805",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "consented sample size (N = 34)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "specific course tasks or assignment associated with AI-use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.4 Development of the AI disclosure form",
+              "quote": "specific course tasks or assignment associated with AI-use, the specific AI tool(s) utilized"
+            },
+            {
+              "dimension_label_verbatim": "the specific AI tool(s) utilized",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.4 Development of the AI disclosure form",
+              "quote": "the specific AI tool(s) utilized, percentage of AI-use, explicit prompts/\ninput"
+            },
+            {
+              "dimension_label_verbatim": "percentage of AI-use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.4 Development of the AI disclosure form",
+              "quote": "percentage of AI-use, explicit prompts/\ninput, purpose of AI use"
+            },
+            {
+              "dimension_label_verbatim": "explicit prompts/\ninput",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.4 Development of the AI disclosure form",
+              "quote": "explicit prompts/\ninput, purpose of AI use, and their reasoning behind their decision to employ AI"
+            },
+            {
+              "dimension_label_verbatim": "purpose of AI use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.4 Development of the AI disclosure form",
+              "quote": "purpose of AI use, and their reasoning behind their decision to employ AI as displayed in Figure  1"
+            },
+            {
+              "dimension_label_verbatim": "their reasoning behind their decision to employ AI",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.4 Development of the AI disclosure form",
+              "quote": "their reasoning behind their decision to employ AI as displayed in Figure  1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d94df4d4c977acc0",
+      "has_scheme": false,
+      "reason": "distills five interaction design patterns for AI writing tools and measures psychological ownership/workload/quality; no enumerable scheme for classifying or disclosing what portion of a text is AI- vs human-produced is defined, only a general point-of-decision provenance cue and speculative future 'AI % of draft' meter"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "packet_id": "ft-007",
+  "papers": [
+    {
+      "rec_id": "1673fe717f68e414",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "pruschak-authorship-task-list",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/frma.2021.655350",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "2,817 responses",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "individual research tasks",
+              "definition_quote": "",
+              "value_list_verbatim": ["Research Design", "Literature Search", "Literature Analysis", "Data Work", "Results Description", "Writing Paper", "Remarking Paper", "Approving Paper"],
+              "closed_or_open": "closed_list",
+              "locator": "RESEARCH METHOD",
+              "quote": "the respondents then received a task list and should checkmark those tasks in which the respective author actively participated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1d584da45bc9aabe",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "multilayered-ip-human-ai-authorship-typology",
+          "scheme_name_verbatim": "Human-AI Collaborative Authorship Typology",
+          "source_ref": "doi:10.53555/kuey.v30i1.10139",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Authorship Category",
+              "definition_quote": "classifying content based on degrees of human and AI contribution to clarify rights",
+              "value_list_verbatim": ["Fully Human Created", "AI-Assisted Human Authorship", "Predominantly AI-Generated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 6",
+              "quote": "The typology presents three separate categories as illustrated in Table 6."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "348cb1c7d916ff95",
+      "has_scheme": false,
+      "reason": "protocol registering a future Delphi survey and consensus meeting to develop TRIPOD-AI and PROBAST-AI; the checklist and risk-of-bias tool it describes do not exist yet, only prior tools (TRIPOD, PROBAST) are cited as background"
+    }
+  ]
+}

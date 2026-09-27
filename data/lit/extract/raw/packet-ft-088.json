@@ -1,0 +1,107 @@
+{
+  "packet_id": "ft-088",
+  "papers": [
+    {
+      "rec_id": "317bf5038b23c55f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cuhk-genai-four-adoption-levels",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.14742/ajet.10549",
+          "domain": "education_assessment",
+          "artifact_type": "policy",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "levels of GenAI adoption",
+              "definition_quote": "",
+              "value_list_verbatim": ["no use", "limited use with the instructor’s permission", "use with explicit acknowledgement", "free use with no acknowledgement"],
+              "closed_or_open": "closed_list",
+              "locator": "Study context",
+              "quote": "four levels of GenAI adoption: no use; limited use with the instructor’s permission; use with explicit acknowledgement; or free use with no acknowledgement"
+            }
+          ]
+        },
+        {
+          "scheme_id": "zou2026-genai-use-purpose",
+          "scheme_name_verbatim": "Purpose of using GenAI",
+          "source_ref": "doi:10.14742/ajet.10549",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "158 enrolled students; 85 survey responses",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Purpose",
+              "definition_quote": "",
+              "value_list_verbatim": ["Proofreading", "Checking if what I have written is clear", "Generating texts", "Rewriting texts following my prompts", "Brainstorming", "Helping with pictures and diagrams", "Getting general ideas from referenced papers"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 4",
+              "quote": "Those who interacted with GenAI chose to use GenAI for different purposes (Table 4)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "03f20148ce9d5a0d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "social-media-ai-content-origin-types",
+          "scheme_name_verbatim": "Types of AI-Generated Content",
+          "source_ref": "doi:10.1145/3772318.3790415",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "coded passages from 27/29 social media platforms' policies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Types of AI-Generated Content",
+              "definition_quote": "Indicates the type of AI-generated content described in the passage.",
+              "value_list_verbatim": ["User-Posted AI-Generated Content", "Integrated AI Tool", "Platform-Posted AI-Generated Content"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "we annotated pages and passages with two main codes, respectively: Types of Pages and Types of AI-Generated Content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "87b98ff0ee688e3b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "davey-smith-contributorship-roles",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1038/d41586-018-06815-1",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": ["data generators", "hypothesis constructors", "analysts", "literature reviewers", "evidence-\nsynthesizers"],
+              "closed_or_open": "not_stated",
+              "locator": "Authorship: update \nto contributorship",
+              "quote": "they might be \ncredited as, say, data generators, \nhypothesis constructors, analysts, \nliterature reviewers"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

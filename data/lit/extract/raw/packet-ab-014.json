@@ -1,0 +1,317 @@
+{
+  "packet_id": "014",
+  "papers": [
+    {
+      "rec_id": "7956d9ba18db84c4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "youtube-sponsorship-characteristics",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "https://openalex.org/W2896327716",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "300 Dutch videos, sampled from 15 different YouTube channels",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "how the YouTuber got the product",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "how the YouTuber got the product"
+            },
+            {
+              "dimension_label_verbatim": "if and how this is disclosed",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "if and how this is disclosed"
+            },
+            {
+              "dimension_label_verbatim": "the YouTuber’s valence regarding the product",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the YouTuber’s valence regarding the product"
+            },
+            {
+              "dimension_label_verbatim": "the presence of a giveaway",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the presence of a giveaway"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "87fa2e6748d8dadb",
+      "has_scheme": false,
+      "reason": "one-sentence abstract announcing the CLAIM 2024 Update checklist; does not enumerate its items"
+    },
+    {
+      "rec_id": "6d0ecd6a78f08d91",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-assessment-transparency-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3390/computers15020111",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "11 studies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "compliance assessment approach",
+              "definition_quote": "",
+              "value_list_verbatim": ["absence of explicit assessment", "unverified self-disclosure", "implicit instructor judgment"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the absence of explicit assessment (27.3%) and unverified self-disclosure (18.2%) are predominant, along with implicit instructor judgment (18.2%)"
+            },
+            {
+              "dimension_label_verbatim": "specified requirements",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Requirements are often poorly specified (45.5%)"
+            },
+            {
+              "dimension_label_verbatim": "implementation patterns",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "four dimensions were coded: compliance assessment approach, specified requirements, implementation patterns, and reported evidence"
+            },
+            {
+              "dimension_label_verbatim": "reported evidence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "evidence concerning workload and acceptability is rarely reported (63.6%)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "644380a015b7f9f2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "synthetic-media-exchange-asset-bundle",
+          "scheme_name_verbatim": "Synthetic Media Exchange (SMX)",
+          "source_ref": "doi:10.20944/preprints202603.2210.v1",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "asset bundle",
+              "definition_quote": "",
+              "value_list_verbatim": ["payload", "provenance graph", "rights closure", "task-conditioned trust profile", "derivative-settlement policy"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "an asset bundle comprising payload, provenance graph, rights closure, task-conditioned trust profile, and derivative-settlement policy"
+            },
+            {
+              "dimension_label_verbatim": "option value",
+              "definition_quote": "",
+              "value_list_verbatim": ["provenance capital", "provenance debt", "remixability"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we introduce provenance capital, provenance debt, and remixability as option value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e5cc2d6942181a47",
+      "has_scheme": false,
+      "reason": "introduces the AI Use Traceability Framework (AUTF) emphasizing traceability and auditability over transparency, but the abstract does not enumerate its component categories"
+    },
+    {
+      "rec_id": "a128e3cbb4ef3dac",
+      "has_scheme": false,
+      "reason": "examines CRediT's implementation in Bulgarian journals and calls for new AI-related disclosure criteria, without enumerating any categories itself"
+    },
+    {
+      "rec_id": "225c4ecda856073a",
+      "has_scheme": false,
+      "reason": "editorial on authorship-naming disputes at GigaScience; discusses guidelines generically without an enumerated scheme"
+    },
+    {
+      "rec_id": "b0784710335115e3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "art-history-llm-governance-principles",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.17613/h0576-dh350",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "task classification by epistemic sensitivity",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "task classification by epistemic sensitivity"
+            },
+            {
+              "dimension_label_verbatim": "evidence-traceability requirements",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "evidence-traceability requirements"
+            },
+            {
+              "dimension_label_verbatim": "assessment redesign to privilege documented reasoning",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "assessment redesign to privilege documented reasoning"
+            },
+            {
+              "dimension_label_verbatim": "mandatory disclosure as pedagogical metadata rather than merely as compliance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "mandatory disclosure as pedagogical metadata rather than merely as compliance"
+            },
+            {
+              "dimension_label_verbatim": "procurement and tool approval standards for educational uses",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "procurement and tool approval standards for educational uses"
+            },
+            {
+              "dimension_label_verbatim": "procedural safeguards to protect students from biased detection and opaque sanctions",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "procedural safeguards to protect students from biased detection and opaque sanctions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "16e549890cc55977",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "agency-transformation-framework",
+          "scheme_name_verbatim": "Agency-Transformation Framework",
+          "source_ref": "",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "intentionality",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the paper argues for evaluating intentionality, consequential agency, transformation, evaluation, selection, integration, contextualization, and responsibility"
+            },
+            {
+              "dimension_label_verbatim": "consequential agency",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the paper argues for evaluating intentionality, consequential agency, transformation, evaluation, selection, integration, contextualization, and responsibility"
+            },
+            {
+              "dimension_label_verbatim": "transformation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the paper argues for evaluating intentionality, consequential agency, transformation, evaluation, selection, integration, contextualization, and responsibility"
+            },
+            {
+              "dimension_label_verbatim": "evaluation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the paper argues for evaluating intentionality, consequential agency, transformation, evaluation, selection, integration, contextualization, and responsibility"
+            },
+            {
+              "dimension_label_verbatim": "selection",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the paper argues for evaluating intentionality, consequential agency, transformation, evaluation, selection, integration, contextualization, and responsibility"
+            },
+            {
+              "dimension_label_verbatim": "integration",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the paper argues for evaluating intentionality, consequential agency, transformation, evaluation, selection, integration, contextualization, and responsibility"
+            },
+            {
+              "dimension_label_verbatim": "contextualization",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the paper argues for evaluating intentionality, consequential agency, transformation, evaluation, selection, integration, contextualization, and responsibility"
+            },
+            {
+              "dimension_label_verbatim": "responsibility",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the paper argues for evaluating intentionality, consequential agency, transformation, evaluation, selection, integration, contextualization, and responsibility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5d58ce7833a8c54d",
+      "has_scheme": false,
+      "reason": "proposes a C2PA/W3C ODRL micro-licensing framework for copyright verification, use restriction, and compliance monitoring, and maps to the DMCA notify-remove-counter-notify process, but does not propose a scheme for classifying disclosure, attribution, or provenance of content itself"
+    }
+  ]
+}

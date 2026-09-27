@@ -1,0 +1,404 @@
+{
+  "packet_id": "ft-086",
+  "papers": [
+    {
+      "rec_id": "09eeb8abb45e2fe2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "dacs-four-dimensions",
+          "scheme_name_verbatim": "Diagnostic AI Contribution Score (DACS)",
+          "source_ref": "doi:10.3389/fdgth.2026.1871438",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "data complexity and diversity",
+              "definition_quote": "",
+              "value_list_verbatim": ["1 to 5"],
+              "closed_or_open": "closed_list",
+              "locator": "Use-case scoring and status of DACS ratings",
+              "quote": "DACS assigns ordinal scores from 1 to 5 across four dimensions: data complexity and diversity"
+            },
+            {
+              "dimension_label_verbatim": "disease complexity and severity",
+              "definition_quote": "",
+              "value_list_verbatim": ["1 to 5"],
+              "closed_or_open": "closed_list",
+              "locator": "Use-case scoring and status of DACS ratings",
+              "quote": "disease complexity and severity"
+            },
+            {
+              "dimension_label_verbatim": "complexity of the clinical question",
+              "definition_quote": "",
+              "value_list_verbatim": ["1 to 5"],
+              "closed_or_open": "closed_list",
+              "locator": "Use-case scoring and status of DACS ratings",
+              "quote": "complexity of the clinical question"
+            },
+            {
+              "dimension_label_verbatim": "degree of AI involvement",
+              "definition_quote": "",
+              "value_list_verbatim": ["1 to 5"],
+              "closed_or_open": "closed_list",
+              "locator": "Use-case scoring and status of DACS ratings",
+              "quote": "degree of AI involvement"
+            }
+          ]
+        },
+        {
+          "scheme_id": "aicdss-minimum-telemetry",
+          "scheme_name_verbatim": "Minimum telemetry for auditable outcome measurement in AI-CDSS",
+          "source_ref": "doi:10.3389/fdgth.2026.1871438",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Eligibility",
+              "definition_quote": "Defines the denominator: patients or encounters eligible for AI-CDSS under the protocol.",
+              "value_list_verbatim": ["inclusion/exclusion flags", "unit", "encounter type", "baseline risk strata"],
+              "closed_or_open": "open_text",
+              "locator": "Table 7",
+              "quote": "Eligibility Defines the denominator: patients or encounters eligible for AI-CDSS under the protocol."
+            },
+            {
+              "dimension_label_verbatim": "Availability",
+              "definition_quote": "Whether AI-CDSS was technically available at the decision point.",
+              "value_list_verbatim": ["uptime", "active version", "endpoint status", "integration status", "downtime events"],
+              "closed_or_open": "open_text",
+              "locator": "Table 7",
+              "quote": "Availability Whether AI-CDSS was technically available at the decision point."
+            },
+            {
+              "dimension_label_verbatim": "Workflow exposure",
+              "definition_quote": "Whether AI output was presented, when, where, to whom, and in what form.",
+              "value_list_verbatim": ["exposure event ID", "alert shown", "score displayed", "explanation shown", "UI placement", "timestamp", "user role"],
+              "closed_or_open": "open_text",
+              "locator": "Table 7",
+              "quote": "Workflow exposure Whether AI output was presented, when, where, to whom, and in what form."
+            },
+            {
+              "dimension_label_verbatim": "Action",
+              "definition_quote": "Measurable response in the workflow.",
+              "value_list_verbatim": ["acknowledgment", "override", "order placed", "escalation", "pathway selected", "documentation accepted/edited", "time to action"],
+              "closed_or_open": "open_text",
+              "locator": "Table 7",
+              "quote": "Action Measurable response in the workflow."
+            },
+            {
+              "dimension_label_verbatim": "Outcome window",
+              "definition_quote": "Follow-up horizon and linkage rules.",
+              "value_list_verbatim": ["6 h, 24 h, 30 day windows", "censoring rules", "competing events", "attribution hierarchy"],
+              "closed_or_open": "open_text",
+              "locator": "Table 7",
+              "quote": "Outcome window Follow-up horizon and linkage rules."
+            },
+            {
+              "dimension_label_verbatim": "Confounders and risk adjustment",
+              "definition_quote": "Variables needed to interpret outcome changes.",
+              "value_list_verbatim": ["baseline severity", "comorbidities", "staffing", "case mix", "concurrent interventions", "seasonality", "site effects"],
+              "closed_or_open": "open_text",
+              "locator": "Table 7",
+              "quote": "Confounders and risk adjustment Variables needed to interpret outcome changes."
+            },
+            {
+              "dimension_label_verbatim": "Governance and audit trail",
+              "definition_quote": "Linkage keys and review traces.",
+              "value_list_verbatim": ["encounter linkage key", "exposure ID", "user/session ID", "version ID", "immutable timestamp", "override reason", "escalation review", "de-implementation trigger"],
+              "closed_or_open": "open_text",
+              "locator": "Table 7",
+              "quote": "Governance and audit trail Linkage keys and review traces."
+            },
+            {
+              "dimension_label_verbatim": "LLM provenance and metering",
+              "definition_quote": "",
+              "value_list_verbatim": ["Model/version ID", "retrieval-source ID", "prompt/output provenance policy", "redaction status", "token/compute use", "latency", "review result", "documentation-quality audit result where applicable"],
+              "closed_or_open": "open_text",
+              "locator": "Table 7",
+              "quote": "LLM provenance and metering Model/version ID, retrieval-source ID, prompt/output provenance policy, redaction status, token/compute use, latency, review result, documentation-quality audit result where applicable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "005b8340eac57439",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "deepfake-authentication-comparative-dimensions",
+          "scheme_name_verbatim": "Comparative Vulnerability Assessment of Evidentiary Authentication Frameworks",
+          "source_ref": "doi:10.59543/jidmis.v3.1771",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "primary authentication mechanism",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "2.2 Analytical Framework",
+              "quote": "primary authentication mechanism"
+            },
+            {
+              "dimension_label_verbatim": "authentication standard",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "2.2 Analytical Framework",
+              "quote": "authentication standard"
+            },
+            {
+              "dimension_label_verbatim": "content \nauthenticity verification requirement",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "2.2 Analytical Framework",
+              "quote": "content \nauthenticity verification requirement"
+            },
+            {
+              "dimension_label_verbatim": "deepfake-specific provisions",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "2.2 Analytical Framework",
+              "quote": "deepfake-specific provisions"
+            },
+            {
+              "dimension_label_verbatim": "expert testimony \nframework",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "2.2 Analytical Framework",
+              "quote": "expert testimony \nframework"
+            },
+            {
+              "dimension_label_verbatim": "judicial gatekeeping mechanism",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "2.2 Analytical Framework",
+              "quote": "judicial gatekeeping mechanism"
+            },
+            {
+              "dimension_label_verbatim": "overall vulnerability level",
+              "definition_quote": "a structured three-factor rubric",
+              "value_list_verbatim": ["Moderate", "High", "Very High"],
+              "closed_or_open": "closed_list",
+              "locator": "2.2 Analytical Framework",
+              "quote": "The vulnerability assessment in dimension (vii) employs a structured three-factor rubric"
+            }
+          ]
+        },
+        {
+          "scheme_id": "three-pillar-evidentiary-framework",
+          "scheme_name_verbatim": "Three-Pillar Jurisprudential Framework: Implementation Mechanisms",
+          "source_ref": "doi:10.59543/jidmis.v3.1771",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Burden-shifting \nauthentication",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Proposed Rule 901(c); \nRule 104(a) hearing",
+                "Practice Direction; s \n78 PACE hearing",
+                "New BSA proviso to s 63; \nSupreme Court guidelines"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "7.4 Synthesis: The Three-Pillar Framework",
+              "quote": "Burden-shifting \nauthentication"
+            },
+            {
+              "dimension_label_verbatim": "Judicial notice of \nAI capability",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Rule 201 judicial notice",
+                "Common law judicial \nnotice",
+                "BSA ss 51–52 judicial \nnotice"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "7.4 Synthesis: The Three-Pillar Framework",
+              "quote": "Judicial notice of \nAI capability"
+            },
+            {
+              "dimension_label_verbatim": "Provenance-first \ndoctrine",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Rule 902 amendment \nfor C2PA credentials",
+                "Statutory instrument \nunder CJA 2003",
+                "Amended s 63 \ncertification"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "7.4 Synthesis: The Three-Pillar Framework",
+              "quote": "Provenance-first \ndoctrine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "849e08f7cea6d0df",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "oman-hta-dossier-transparency-checklist",
+          "scheme_name_verbatim": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+          "source_ref": "doi:10.1080/20523211.2025.2596523",
+          "domain": "government",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "regulatory",
+          "empirical_basis": "25 survey respondents",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Epidemiology of the target indication (incidence, prevalence)",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Epidemiology of the target indication (incidence, prevalence) Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Current patient pathways with highlights on unmet medical need",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Current patient pathways with highlights on unmet medical need Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Efficacy and safety of the new technology",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Efficacy and safety of the new technology Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Methodology of calculating the health gain by the new technology",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Methodology of calculating the health gain by the new technology Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Estimated health gain",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Estimated health gain Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Methodology of cost calculations",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Methodology of cost calculations Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Estimated current resource use and treatment costs of patients",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Estimated current resource use and treatment costs of patients Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Proposed price of the new technology",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Proposed price of the new technology Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Estimated resource use and treatment costs of patients with the new technology",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Estimated resource use and treatment costs of patients with the new technology Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Economic modelling methodology (model type, time horizon, discount rate, etc.)",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Economic modelling methodology (model type, time horizon, discount rate, etc.) Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Cost-effectiveness results (incr. health gain, costs and cost-effectiveness ratio)",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Cost-effectiveness results (incr. health gain, costs and cost-effectiveness ratio) Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Sensitivity analysis results for the cost-effectiveness analysis",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Sensitivity analysis results for the cost-effectiveness analysis Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Methodology of budget impact calculations",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Methodology of budget impact calculations Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Current treatment mix of patients",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Current treatment mix of patients Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Estimated patient numbers and market share of new technology in next 3–5 years",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Estimated patient numbers and market share of new technology in next 3–5 years Publication is mandatory"
+            },
+            {
+              "dimension_label_verbatim": "Budget impact of the new technology",
+              "definition_quote": "",
+              "value_list_verbatim": ["Publication is mandatory", "Publication is recommended", "No publication"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 4: Transparency of HTA dossiers submitted by pharmaceutical and medical device companies",
+              "quote": "Budget impact of the new technology Publication is mandatory"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

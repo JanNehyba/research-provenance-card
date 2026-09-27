@@ -1,0 +1,235 @@
+{
+  "packet_id": "015",
+  "papers": [
+    {
+      "rec_id": "40e487478a0ced25",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy-osf",
+          "scheme_name_verbatim": "CRediT (Contributor RolesTaxonomy)",
+          "source_ref": "doi:10.31219/osf.io/a7s2x",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "distinct roles",
+              "definition_quote": "",
+              "value_list_verbatim": ["conceptualization", "writing", "data curation"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The CRediTtaxonomy defines fourteen distinct roles, from conceptualization to writing and data curation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "93284a097d1dbfec",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "hybrid-advertising-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/21670811.2024.2417953",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "a quantitative content analysis of media kits",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "label",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "based on their label, media format, and type of hybridity"
+            },
+            {
+              "dimension_label_verbatim": "media format",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "based on their label, media format, and type of hybridity"
+            },
+            {
+              "dimension_label_verbatim": "type of hybridity",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "based on their label, media format, and type of hybridity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "81e7ec1a82ad51f4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "fintech-transparency-cues",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3390/fintech5020041",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "nine formally included studies and six adjacent contextual studies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "cues",
+              "definition_quote": "",
+              "value_list_verbatim": ["explanation/explainable AI", "platform transparency", "disclosure", "responsibility attribution", "user control", "information-quality cues"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "explanation/explainable AI and broader advisory or platform transparency, whereas disclosure, responsibility attribution, user control, and information-quality cues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2686bf6e89015870",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "tripartite-feedback-framework",
+          "scheme_name_verbatim": "tripartite feedback framework",
+          "source_ref": "doi:10.3390/aieduc2030026",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "analytically distinct levels",
+              "definition_quote": "",
+              "value_list_verbatim": ["low-level structural and presentational feedback", "intermediate-level factual content validation", "high-level critical evaluation and synthesis"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "distinguishes three analytically distinct levels: low-level structural and presentational feedback, intermediate-level factual content validation, and high-level critical evaluation and synthesis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "953be31f6c60ddaa",
+      "has_scheme": false,
+      "reason": "proposes CASF integrating a dialogic pedagogical model with the AIAS assessment scale, but the abstract does not enumerate specific scale levels or categories"
+    },
+    {
+      "rec_id": "759a3cad24a14970",
+      "has_scheme": false,
+      "reason": "analyzes CRediT-coded contributions across PLOS papers; refers to CRediT's standardized set of 14 contributions without enumerating them in the abstract"
+    },
+    {
+      "rec_id": "8141132c998222ee",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-sustainability-reporting-stages",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.2139/ssrn.6472520",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "three functional stages",
+              "definition_quote": "",
+              "value_list_verbatim": ["primary data processing", "analytical elaboration", "final disclosure drafting"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "three functional stages at which generative AI offers distinct capabilities: primary data processing, analytical elaboration, and final disclosure drafting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9288379685f055f7",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-qualitative-disclosure-heuristic",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1177/16094069251404329",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "The Research Team",
+              "definition_quote": "the roles of AI tools and the AI literacy of the human research team",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "poses 20 questions across five key themes: The Research Team, Participant Interaction, Study Design, Data Practices, and Data Analysis"
+            },
+            {
+              "dimension_label_verbatim": "Participant Interaction",
+              "definition_quote": "AI’s involvement in participant communication, informed consent processes, and safeguards for sensitive demographic data",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "poses 20 questions across five key themes: The Research Team, Participant Interaction, Study Design, Data Practices, and Data Analysis"
+            },
+            {
+              "dimension_label_verbatim": "Study Design",
+              "definition_quote": "the alignment of AI tools with theoretical frameworks, their influence on sampling strategies, and discussions during IRB review",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "poses 20 questions across five key themes: The Research Team, Participant Interaction, Study Design, Data Practices, and Data Analysis"
+            },
+            {
+              "dimension_label_verbatim": "Data Practices",
+              "definition_quote": "data storage, AI’s role in data creation (e.g., synthetic data, transcription, interview protocols), and its assistance in determining data saturation and participant checking",
+              "value_list_verbatim": ["synthetic data", "transcription", "interview protocols"],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "poses 20 questions across five key themes: The Research Team, Participant Interaction, Study Design, Data Practices, and Data Analysis"
+            },
+            {
+              "dimension_label_verbatim": "Data Analysis",
+              "definition_quote": "the precise contributions of AI to coding and thematic categorization, alongside detailed documentation of iterative human-AI interactions and prompts used",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "poses 20 questions across five key themes: The Research Team, Participant Interaction, Study Design, Data Practices, and Data Analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1c7acf6647942607",
+      "has_scheme": false,
+      "reason": "discusses CRediT's 14 roles and proposes an expanded list of CRediT roles for conservation science authorship, but does not enumerate any specific role names in the abstract"
+    },
+    {
+      "rec_id": "ee48a0ecc6095cd6",
+      "has_scheme": false,
+      "reason": "meta-analysis of authorship experiences; reports seven actionable recommendations for improving credit reporting but does not enumerate them by name"
+    }
+  ]
+}

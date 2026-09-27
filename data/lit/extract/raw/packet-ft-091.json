@@ -1,0 +1,322 @@
+{
+  "packet_id": "ft-091",
+  "papers": [
+    {
+      "rec_id": "cb3194c2e75583a4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "software-registry-authorship-policy-checklist",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.7717/peerj-cs.1023",
+          "domain": "software",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "more than 30 experts who handle over 14 resources",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "How authorship is determined e.g ., a stated criteria by the contributors and/or the resource",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Establish an authorship policy",
+              "quote": "How authorship is determined e.g ., a stated criteria by the contributors and/or the resource"
+            },
+            {
+              "dimension_label_verbatim": "Policies around making changes to authorship",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Establish an authorship policy",
+              "quote": "Policies around making changes to authorship"
+            },
+            {
+              "dimension_label_verbatim": "The conflict resolution processes adopted to handle authorship disputes",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Establish an authorship policy",
+              "quote": "The conflict resolution processes adopted to handle authorship disputes"
+            }
+          ]
+        },
+        {
+          "scheme_id": "software-registry-conditions-of-use-checklist",
+          "scheme_name_verbatim": "Stipulate conditions of use",
+          "source_ref": "doi:10.7717/peerj-cs.1023",
+          "domain": "software",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "more than 30 experts who handle over 14 resources",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Legal disclaimers about the responsibility and liability borne by the registry or repository",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Stipulate conditions of use",
+              "quote": "Legal disclaimers about the responsibility and liability borne by the registry or repository"
+            },
+            {
+              "dimension_label_verbatim": "License and copyright information, both for individual entries and for the registry or repository as a whole",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Stipulate conditions of use",
+              "quote": "License and copyright information, both for individual entries and for the registry or repository as a whole"
+            },
+            {
+              "dimension_label_verbatim": "Conditions for the use of the metadata, including prohibitions, if any",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Stipulate conditions of use",
+              "quote": "Conditions for the use of the metadata, including prohibitions, if any"
+            },
+            {
+              "dimension_label_verbatim": "Preferred format for citing software entries",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Stipulate conditions of use",
+              "quote": "Preferred format for citing software entries"
+            },
+            {
+              "dimension_label_verbatim": "Preferred format for attributing or citing the resource itself",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Stipulate conditions of use",
+              "quote": "Preferred format for attributing or citing the resource itself"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a6b908ddad55b32c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "exercise-guidance-explainability-elements",
+          "scheme_name_verbatim": "Practical explainability elements for AI-generated exercise guidance",
+          "source_ref": "doi:10.3390/healthcare14121716",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "37 included sources",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Evidence source disclosure",
+              "definition_quote": "Supports justified reliance and source transparency",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Evidence source disclosure Supports justified reliance and source transparency What is this recommendation based on?"
+            },
+            {
+              "dimension_label_verbatim": "Risk-warning communication",
+              "definition_quote": "Supports safer use and harm prevention",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Risk-warning communication Supports safer use and harm prevention What could make this unsafe?"
+            },
+            {
+              "dimension_label_verbatim": "Reasoning-path clarification",
+              "definition_quote": "Supports reviewability and clinical checking",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Reasoning-path clarification Supports reviewability and clinical checking Why was this recommendation selected?"
+            },
+            {
+              "dimension_label_verbatim": "Presentation of reasonable alternatives",
+              "definition_quote": "Supports user choice and shared decision-making",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Presentation of reasonable alternatives Supports user choice and shared decision-making What reasonable options are available?"
+            }
+          ]
+        },
+        {
+          "scheme_id": "exercise-guidance-implementation-checklist",
+          "scheme_name_verbatim": "Simplified implementation checklist for AI-generated exercise guidance in digital healthcare",
+          "source_ref": "doi:10.3390/healthcare14121716",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "37 included sources",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Use-case triage",
+              "definition_quote": "Is the function wellness support, personalized guidance, or safety-relevant decision support?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 5",
+              "quote": "Use-case triage Is the function wellness support, personalized guidance, or safety-relevant decision support?"
+            },
+            {
+              "dimension_label_verbatim": "Source transparency",
+              "definition_quote": "Can users and reviewers see what the recommendation is based on?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 5",
+              "quote": "Source transparency Can users and reviewers see what the recommendation is based on?"
+            },
+            {
+              "dimension_label_verbatim": "Risk communication",
+              "definition_quote": "What could make the guidance unsafe?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 5",
+              "quote": "Risk communication What could make the guidance unsafe?"
+            },
+            {
+              "dimension_label_verbatim": "Human review",
+              "definition_quote": "Which outputs may warrant professional confirmation?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 5",
+              "quote": "Human review Which outputs may warrant professional confirmation?"
+            },
+            {
+              "dimension_label_verbatim": "Escalation pathways",
+              "definition_quote": "What happens when symptoms worsen or risk increases?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 5",
+              "quote": "Escalation pathways What happens when symptoms worsen or risk increases?"
+            },
+            {
+              "dimension_label_verbatim": "Audit and monitoring",
+              "definition_quote": "Can the service support review and improvement?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 5",
+              "quote": "Audit and monitoring Can the service support review and improvement?"
+            }
+          ]
+        },
+        {
+          "scheme_id": "exercise-guidance-patient-disclosure-items",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3390/healthcare14121716",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "37 included sources",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "whether guidance was generated or adapted by AI",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.4. Patient Disclosure, Informed Use, and Equity",
+              "quote": "whether guidance was generated or adapted by AI"
+            },
+            {
+              "dimension_label_verbatim": "which inputs shaped it",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.4. Patient Disclosure, Informed Use, and Equity",
+              "quote": "which inputs shaped it"
+            },
+            {
+              "dimension_label_verbatim": "what evidence or protocol supports it",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.4. Patient Disclosure, Informed Use, and Equity",
+              "quote": "what evidence or protocol supports it"
+            },
+            {
+              "dimension_label_verbatim": "what uncertainty remains",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.4. Patient Disclosure, Informed Use, and Equity",
+              "quote": "what uncertainty remains"
+            },
+            {
+              "dimension_label_verbatim": "what stop rules apply",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.4. Patient Disclosure, Informed Use, and Equity",
+              "quote": "what stop rules apply"
+            },
+            {
+              "dimension_label_verbatim": "whether professional review is available",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.4. Patient Disclosure, Informed Use, and Equity",
+              "quote": "whether professional review is available"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "fce880fbba729bc6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-mapped-authorship-contribution-taxonomy",
+          "scheme_name_verbatim": "Taxonomy for authorship contribution",
+          "source_ref": "doi:10.1007/s11192-026-05712-z",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "papers published between 2016 and 2021",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Authorship contribution role",
+              "definition_quote": "",
+              "value_list_verbatim": ["Investigation and Analysis", "Materials and Resources", "Writing", "Funding", "Administration", "Conceptualization"],
+              "closed_or_open": "closed_list",
+              "locator": "Authorship contribution role",
+              "quote": "we map the CRediT taxonomy onto a more abstract classification scheme (Table 1)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "acknowledgment-contribution-role-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s11192-026-05712-z",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "self_report",
+          "empirical_basis": "papers published between 2016 and 2021",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Acknowledgment contribution role",
+              "definition_quote": "",
+              "value_list_verbatim": ["Investigation and Analysis", "Materials and Resources", "Writing", "Peer Communication"],
+              "closed_or_open": "closed_list",
+              "locator": "Acknowledgment contribution role",
+              "quote": "we constructed our own taxonomy of acknowledgment contributions based on both this categorization and frequency of word usage"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

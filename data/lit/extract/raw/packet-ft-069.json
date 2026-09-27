@@ -1,0 +1,139 @@
+{
+  "packet_id": "ft-069",
+  "papers": [
+    {
+      "rec_id": "3128f1758867aacb",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "physical-samples-author-guidance-4-steps",
+          "scheme_name_verbatim": "Publishing Open Research Using Physical Samples: Guidance for Authors",
+          "source_ref": "doi:10.1038/s41597-025-05295-z",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Publishing Open Research Using Physical Samples: Guidance for Authors",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Step 1. Describe samples with rich metadata",
+                "Step 2. Assign and/or use identifiers for samples",
+                "Step 3. Publish and cite samples in datasets",
+                "Step 4. Cite sample identifiers in paper"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Recommended practices for scientists publishing sample-based research",
+              "quote": "A summary of key elements of the full scientific author guide for publishing Open and FAIR research using physical samples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "dd2e7b22bb0a020b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gamer-reporting-checklist-items",
+          "scheme_name_verbatim": "GAMER",
+          "source_ref": "doi:10.2196/64640",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "44 experts from 23 countries",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the specific GenAI tool used",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage 2: Delphi Survey",
+              "quote": "covering aspects such as the specific GenAI tool used, the version of the tool"
+            },
+            {
+              "dimension_label_verbatim": "the version of the tool",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage 2: Delphi Survey",
+              "quote": "the specific GenAI tool used, the version of the tool, the sections of the manuscript"
+            },
+            {
+              "dimension_label_verbatim": "the sections of the manuscript where GenAI was applied",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Stage 2: Delphi Survey",
+              "quote": "the sections of the manuscript where GenAI was applied, the purpose of GenAI use"
+            },
+            {
+              "dimension_label_verbatim": "the purpose of GenAI use (eg, language editing or content generation)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage 2: Delphi Survey",
+              "quote": "the purpose of GenAI use (eg, language editing or content generation), and whether manual verification was performed"
+            },
+            {
+              "dimension_label_verbatim": "whether manual verification was performed",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Stage 2: Delphi Survey",
+              "quote": "and whether manual verification was performed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f64365b5298c1234",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "tripod-checklist",
+          "scheme_name_verbatim": "TRIPOD",
+          "source_ref": "doi:10.1186/s12874-021-01469-6",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "152 articles were included",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "reporting items",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "1. Title",
+                "2. Abstract",
+                "3. Background and objectives",
+                "4. Source of data",
+                "5. Participants",
+                "6. Outcome",
+                "7. Predictors",
+                "8. Sample size",
+                "9. Missing Data",
+                "10. Statistical analysis",
+                "11. Risk groups",
+                "12. Development vs. validation",
+                "13. Participants",
+                "14. Model development",
+                "15. Model specification"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Table 1  TRIPOD adherence reporting items"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

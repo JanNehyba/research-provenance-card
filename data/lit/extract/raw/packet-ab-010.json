@@ -1,0 +1,453 @@
+{
+  "packet_id": "ab-010",
+  "papers": [
+    {
+      "rec_id": "82b6116363988e55",
+      "has_scheme": false,
+      "reason": "notes that a multi-stakeholder group produced a contributor role taxonomy (CRediT) for scientific publications, but the abstract does not enumerate its roles"
+    },
+    {
+      "rec_id": "7fd9d0bfe0c10082",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aa1-agent-governance-attestation",
+          "scheme_name_verbatim": "AA-1, the Agent Governance Attestation",
+          "source_ref": "doi:10.2139/ssrn.6935198",
+          "domain": "software",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "which controls it operates",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "a standard format in which an organization states which controls it operates, at which maturity tier, supported by what evidence"
+            },
+            {
+              "dimension_label_verbatim": "maturity tier",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "at which maturity tier, supported by what evidence"
+            },
+            {
+              "dimension_label_verbatim": "what evidence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "at which maturity tier, supported by what evidence"
+            },
+            {
+              "dimension_label_verbatim": "sector profiles",
+              "definition_quote": "",
+              "value_list_verbatim": ["financial services", "government and high-assurance deployments"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "defines sector profiles for financial services and for government and high-assurance deployments"
+            },
+            {
+              "dimension_label_verbatim": "seven-section disclosure specification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "an open seven-section disclosure specification built on Anthropic's Zero Trust for AI Agents control taxonomy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "aced2ff04e865390",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-education-governance-tiers",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.15093/0002000214",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "nationallevel AI education regulations",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "nationallevel AI education regulations → university-level AI usage policies → course-specific AI application guidelines"
+            },
+            {
+              "dimension_label_verbatim": "university-level AI usage policies",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "nationallevel AI education regulations → university-level AI usage policies → course-specific AI application guidelines"
+            },
+            {
+              "dimension_label_verbatim": "course-specific AI application guidelines",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "nationallevel AI education regulations → university-level AI usage policies → course-specific AI application guidelines"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "77def23eea5df0e9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gift-ghost-authorship-types",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1177/17470161241262244",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "More than 800 (co-)authors participated in a large-scale cross-sectional survey (response rate 29.6%, predominantly from Europe and North America)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "gift authorship",
+              "definition_quote": "someone was added as an author who did not contribute substantially",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "someone was added as an author who did not contribute substantially (gift authorship)"
+            },
+            {
+              "dimension_label_verbatim": "ghost authorship",
+              "definition_quote": "someone was not listed as an author when they contributed substantially",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "someone was not listed as an author when they contributed substantially (ghost authorship)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "27db285f9dec8a64",
+      "has_scheme": false,
+      "reason": "reports an empirical study applying a developmental assessment framework (steps: aligning learning outcomes, unpacking constructs, breaking into capabilities, identifying indicators) mapped onto an external AI assessment scale (Perkins et al., 2024); the abstract does not enumerate a disclosure, attribution, or provenance category scheme, nor the referenced scale's levels"
+    },
+    {
+      "rec_id": "a8de0d4a774e9a1f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-higher-ed-policy-themes",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3233/atde250550",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "65 publicly available policy documents",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "data privacy",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the review identifies major themes such as data privacy, academic integrity, disclosure and attribution, tool vetting, intellectual property considerations, risk classification, and governance"
+            },
+            {
+              "dimension_label_verbatim": "academic integrity",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the review identifies major themes such as data privacy, academic integrity, disclosure and attribution, tool vetting, intellectual property considerations, risk classification, and governance"
+            },
+            {
+              "dimension_label_verbatim": "disclosure and attribution",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the review identifies major themes such as data privacy, academic integrity, disclosure and attribution, tool vetting, intellectual property considerations, risk classification, and governance"
+            },
+            {
+              "dimension_label_verbatim": "tool vetting",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the review identifies major themes such as data privacy, academic integrity, disclosure and attribution, tool vetting, intellectual property considerations, risk classification, and governance"
+            },
+            {
+              "dimension_label_verbatim": "intellectual property considerations",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the review identifies major themes such as data privacy, academic integrity, disclosure and attribution, tool vetting, intellectual property considerations, risk classification, and governance"
+            },
+            {
+              "dimension_label_verbatim": "risk classification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the review identifies major themes such as data privacy, academic integrity, disclosure and attribution, tool vetting, intellectual property considerations, risk classification, and governance"
+            },
+            {
+              "dimension_label_verbatim": "governance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the review identifies major themes such as data privacy, academic integrity, disclosure and attribution, tool vetting, intellectual property considerations, risk classification, and governance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b109c9c344d5862d",
+      "has_scheme": false,
+      "reason": "content analysis of 40 professional codes of ethics identifies nine guideline types describing how the codes address new advertising formats and sponsored content, but the abstract does not enumerate the nine type names"
+    },
+    {
+      "rec_id": "d9e859906d64bc3d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "creator-ai-disclosure-ux-requirements",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "https://openalex.org/W7165070117",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "qualitative semi-structured interviews with ten visual content creators, including students, early-career creators, professionals, and freelancers working with illustration, graphic design, UX/UI, branding, marketing, and related visual practices",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "stage-specific disclosure",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "These requirements emphasise stage-specific disclosure, clearer distinctions between AI assistance and AI generation"
+            },
+            {
+              "dimension_label_verbatim": "clearer distinctions between AI assistance and AI generation",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI assistance", "AI generation"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "clearer distinctions between AI assistance and AI generation, layered information"
+            },
+            {
+              "dimension_label_verbatim": "layered information",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "layered information, context-sensitive disclosure profiles, provenance persistence"
+            },
+            {
+              "dimension_label_verbatim": "context-sensitive disclosure profiles",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "context-sensitive disclosure profiles, provenance persistence, limitation communication"
+            },
+            {
+              "dimension_label_verbatim": "provenance persistence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "provenance persistence, limitation communication, and creator control over public process information"
+            },
+            {
+              "dimension_label_verbatim": "limitation communication",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "limitation communication, and creator control over public process information"
+            },
+            {
+              "dimension_label_verbatim": "creator control over public process information",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "creator control over public process information"
+            }
+          ]
+        },
+        {
+          "scheme_id": "creator-ai-disclosure-threshold-factors",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "https://openalex.org/W7165070117",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "qualitative semi-structured interviews with ten visual content creators, including students, early-career creators, professionals, and freelancers working with illustration, graphic design, UX/UI, branding, marketing, and related visual practices",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "creative contribution",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "disclosure thresholds depended on creative contribution, final output involvement, and perceived consequences"
+            },
+            {
+              "dimension_label_verbatim": "final output involvement",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "disclosure thresholds depended on creative contribution, final output involvement, and perceived consequences"
+            },
+            {
+              "dimension_label_verbatim": "perceived consequences",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "disclosure thresholds depended on creative contribution, final output involvement, and perceived consequences"
+            }
+          ]
+        },
+        {
+          "scheme_id": "creator-ai-involvement-communication-aspects",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "https://openalex.org/W7165070117",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "qualitative semi-structured interviews with ten visual content creators, including students, early-career creators, professionals, and freelancers working with illustration, graphic design, UX/UI, branding, marketing, and related visual practices",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "type",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "failed to communicate the type, stage, or degree of AI involvement"
+            },
+            {
+              "dimension_label_verbatim": "stage",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "failed to communicate the type, stage, or degree of AI involvement"
+            },
+            {
+              "dimension_label_verbatim": "degree",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "failed to communicate the type, stage, or degree of AI involvement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d6695441dfe3e9e3",
+      "has_scheme": false,
+      "reason": "proposes a four-category taxonomy of AI contribution beyond the AI-used/AI-not-used binary and introduces a disclosure template, but the abstract does not enumerate the four category names"
+    },
+    {
+      "rec_id": "65cae18b47365328",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-agent-attestation-six-axis-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5281/zenodo.20185410",
+          "domain": "law_regulation",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "hardware-rooted (TEE-based) attestation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "propose a six-axis taxonomy covering hardware-rooted (TEE-based) attestation, software-only cryptographic attestation"
+            },
+            {
+              "dimension_label_verbatim": "software-only cryptographic attestation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "hardware-rooted (TEE-based) attestation, software-only cryptographic attestation, identity-focused attestation"
+            },
+            {
+              "dimension_label_verbatim": "identity-focused attestation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "software-only cryptographic attestation, identity-focused attestation, payment- and commerce-specific attestation"
+            },
+            {
+              "dimension_label_verbatim": "payment- and commerce-specific attestation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "identity-focused attestation, payment- and commerce-specific attestation, and two adjacent"
+            },
+            {
+              "dimension_label_verbatim": "compliance automation platforms",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "two adjacent (non-attestation) categories: compliance automation platforms and AI gateway / runtime layers"
+            },
+            {
+              "dimension_label_verbatim": "AI gateway / runtime layers",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "compliance automation platforms and AI gateway / runtime layers"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

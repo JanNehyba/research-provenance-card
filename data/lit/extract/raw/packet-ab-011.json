@@ -1,0 +1,291 @@
+{
+  "packet_id": "011",
+  "papers": [
+    {
+      "rec_id": "3cdb04d9793cf737",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "taf-ai-taxonomy",
+          "scheme_name_verbatim": "Taxonomy of Attribution Failures in AI-VCS Workflows (TAF-AI)",
+          "source_ref": "doi:10.14293/pr2199.004154.v1",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "47 eligible studies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Identity Obfuscation",
+              "definition_quote": "who contributed",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Identity Obfuscation (who contributed)"
+            },
+            {
+              "dimension_label_verbatim": "Contribution Boundaries",
+              "definition_quote": "what was AI-generated",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Contribution Boundaries (what was AI-generated)"
+            },
+            {
+              "dimension_label_verbatim": "Temporal Discrepancies",
+              "definition_quote": "when contributions occurred",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Temporal Discrepancies (when contributions occurred)"
+            },
+            {
+              "dimension_label_verbatim": "Rationale Omission",
+              "definition_quote": "why changes were made",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Rationale Omission (why changes were made)"
+            },
+            {
+              "dimension_label_verbatim": "strata",
+              "definition_quote": "",
+              "value_list_verbatim": ["individual", "tooling", "governance"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "12 distinct failure modes across three strata—individual, tooling, and governance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "58adf83e30cd1be4",
+      "has_scheme": false,
+      "reason": "surveys academic perceptions of reporting ChatGPT use and tests AI-detection software; no categories or dimensions proposed or used"
+    },
+    {
+      "rec_id": "5c9d9c3f06de0156",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "nursing-authorship-roles",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1177/09697330261465739",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "roles",
+              "definition_quote": "",
+              "value_list_verbatim": ["author", "writer", "editor", "assistant"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the paper conceptually distinguishes the roles of author, writer, editor, and assistant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "859fbccdf96e8d62",
+      "has_scheme": false,
+      "reason": "guidance article frames professional accountability, confidentiality, fair-mindedness and avoidance of harm, and transparency as principles, and references a Table 1 of appropriate/inappropriate AI uses, but does not enumerate categories in the retrieved text"
+    },
+    {
+      "rec_id": "b9f20e2f7f335d4b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aig-indicator-types",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2505.16057",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "semi-structured interviews (N=28) with 15 sighted and 13 BLV participants",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "indicators",
+              "definition_quote": "",
+              "value_list_verbatim": ["content-based", "menu-aided"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "content-based (e.g., title, description) and menu-aided (e.g., AI labels) indicators"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4f2a6fa12ebd6cbc",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "publisher-ai-policy-six-themes",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.4018/407619",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "AI policies from five major academic publishers: Taylor & Francis, Elsevier, Sage, Wiley, and Springer Nature",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "permitted AI use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Six key themes emerged: permitted AI use, prohibited AI use, disclosure requirements, AI as author and co-author, AI in peer review, and policy adaptability"
+            },
+            {
+              "dimension_label_verbatim": "prohibited AI use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Six key themes emerged: permitted AI use, prohibited AI use, disclosure requirements, AI as author and co-author, AI in peer review, and policy adaptability"
+            },
+            {
+              "dimension_label_verbatim": "disclosure requirements",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Six key themes emerged: permitted AI use, prohibited AI use, disclosure requirements, AI as author and co-author, AI in peer review, and policy adaptability"
+            },
+            {
+              "dimension_label_verbatim": "AI as author and co-author",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Six key themes emerged: permitted AI use, prohibited AI use, disclosure requirements, AI as author and co-author, AI in peer review, and policy adaptability"
+            },
+            {
+              "dimension_label_verbatim": "AI in peer review",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Six key themes emerged: permitted AI use, prohibited AI use, disclosure requirements, AI as author and co-author, AI in peer review, and policy adaptability"
+            },
+            {
+              "dimension_label_verbatim": "policy adaptability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Six key themes emerged: permitted AI use, prohibited AI use, disclosure requirements, AI as author and co-author, AI in peer review, and policy adaptability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "c9ed1228bbe90022",
+      "has_scheme": false,
+      "reason": "reviews economics transparency/reproducibility practices (registration, pre-analysis plans, disclosure standards, open data) generically; no coding scheme with named categories is proposed or used"
+    },
+    {
+      "rec_id": "3905fa8e55b8725e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-design-space-taxonomy",
+          "scheme_name_verbatim": "design-space taxonomy",
+          "source_ref": "doi:10.5281/zenodo.20366700",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI entry timing",
+              "definition_quote": "when AI becomes available relative to students' independent effort",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "or when AI becomes available relative to students' independent effort"
+            },
+            {
+              "dimension_label_verbatim": "AI output scope",
+              "definition_quote": "how much of the cognitive work AI is allowed to perform",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "or how much of the cognitive work AI is allowed to perform"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1ec88e94a6891e28",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-disclosure-conventions-applied-linguistics",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1515/applirev-2025-0291",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "section",
+          "authority": "self_report",
+          "empirical_basis": "3,384 research articles published between September 2024 and August 2025 in 84 SSCI-indexed applied linguistics journals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI-related disclosure",
+              "definition_quote": "",
+              "value_list_verbatim": ["declared use", "declared non-use"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "2.8 % declared use and 1.4 % declared non-use"
+            },
+            {
+              "dimension_label_verbatim": "specific tools",
+              "definition_quote": "",
+              "value_list_verbatim": ["ChatGPT", "Grammarly"],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "naming specific tools (especially ChatGPT and Grammarly)"
+            },
+            {
+              "dimension_label_verbatim": "language-focused purposes",
+              "definition_quote": "",
+              "value_list_verbatim": ["editing", "clarity", "proofreading"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "describing language-focused purposes (editing, clarity and proofreading)"
+            },
+            {
+              "dimension_label_verbatim": "data-related uses",
+              "definition_quote": "",
+              "value_list_verbatim": ["data translation", "instrument design"],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "data-related uses (e.g., data translation and instrument design)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "408a5315a900e923",
+      "has_scheme": false,
+      "reason": "describes an updated TRIPOD+AI adherence tool (37 main items, 136 adherence elements) but the abstract does not enumerate the items themselves"
+    }
+  ]
+}

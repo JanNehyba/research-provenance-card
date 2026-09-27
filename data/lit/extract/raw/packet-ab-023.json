@@ -1,0 +1,203 @@
+{
+  "packet_id": "ab-023",
+  "papers": [
+    {
+      "rec_id": "f69541878318861f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-disclosure-mandatory-optional-unnecessary",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/08989621.2025.2481949",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "disclosure of AI use",
+              "definition_quote": "disclosure should be mandatory only when AI use is intentional and substantial",
+              "value_list_verbatim": ["mandatory", "optional", "unnecessary"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "We distinguish between mandatory, optional, and unnecessary disclosure of AI use"
+            },
+            {
+              "dimension_label_verbatim": "criteria for identifying substantial AI uses in research",
+              "definition_quote": "",
+              "value_list_verbatim": ["using AI to make decisions that directly affect research results", "using AI to generate content, data or images", "using AI to analyze content, data or images"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we state three criteria for identifying substantial AI uses in research: a) using AI to make decisions that directly affect research results"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a73b85d8fc828a8a",
+      "has_scheme": false,
+      "reason": "the retrieved text is a single sentence about a citation-alignment challenge; no categories enumerated."
+    },
+    {
+      "rec_id": "19f77b8b9acf9916",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "claim-accountability-two-threshold-roles",
+          "scheme_name_verbatim": "two-threshold framework",
+          "source_ref": "doi:10.1016/j.emj.2026.06.001",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "two-threshold framework",
+              "definition_quote": "",
+              "value_list_verbatim": ["confidentiality threshold", "judgment threshold"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the confidentiality threshold protects entrusted material in peer review and editorial deliberation, while the judgment threshold protects human responsibility for the reasoning behind scholarly claims"
+            },
+            {
+              "dimension_label_verbatim": "role-based self-assessment",
+              "definition_quote": "",
+              "value_list_verbatim": ["authors", "reviewers", "editors", "publishers"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "translate the framework into role-based self-assessment for authors, reviewers, editors, and publishers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d6b5d8b6e909fe2f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "irf-genaiw-risk-based-framework",
+          "scheme_name_verbatim": "Integrated Risk-Based Framework for Responsible Generative AI Writing (IRF–GenAIW)",
+          "source_ref": "doi:10.54536/ajmri.v5i5.8415",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "the systematic literature review analysis of literature",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": ["disclosure", "verification", "human oversight", "authorship", "confidentiality", "accountability"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "guides disclosure, verification, human oversight, authorship, confidentiality and accountability in Gen-AI use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "dbf4ae35deb1a820",
+      "has_scheme": false,
+      "reason": "reports bibliometric adoption patterns of CRediT contribution statements across more than 700,000 articles without enumerating the taxonomy's roles or categories in the retrieved text."
+    },
+    {
+      "rec_id": "3d14c06283267370",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-proficiency-five-levels",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.35542/osf.io/adkfq_v1",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "a co-design process involving 26 participants from diverse academic and professional backgrounds, as well as a synthesis of 26 conceptual and theoretical papers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "five progressive levels of GenAI proficiency",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI-Assist", "AI-Innovate"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "delineates five distinct levels of GenAI proficiency, ranging from AI-Assist to AI-Innovate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5337372b0d2f6a79",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-taxonomy-ten-year-retrospective",
+          "scheme_name_verbatim": "The Contributor Role Taxonomy (CRediT)",
+          "source_ref": "doi:10.31222/osf.io/hfbkp_v2",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "more than 3.2 million roles articles, preprints and conference papers including CRediT, from 2015 to 2024",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "CRediT roles",
+              "definition_quote": "",
+              "value_list_verbatim": ["Software", "Data Curation"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "All 14 CRediT roles are now widely used, with notable growth in roles reflecting evolving research practices such as Software and Data Curation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b9674ac02befa041",
+      "has_scheme": false,
+      "reason": "abstract describes a multi-institution toolkit and discussion on mitigating GenAI misuse in assessment without enumerating specific guideline categories or levels in the retrieved text."
+    },
+    {
+      "rec_id": "b1460d122619fba0",
+      "has_scheme": false,
+      "reason": "the retrieved text is a single sentence stating authorship and contributorship are important and complex; no categories enumerated."
+    },
+    {
+      "rec_id": "80f45b359b707186",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "undeserving-authorship-countermeasures",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1629/uksg.395",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": ["ask scholars who apply for positions to explain the basics of a random selection of their co-authored papers", "in bibliometric measurements, divide publications and citations by the number of authors"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "In this paper a combined qualitative and quantitative approach is suggested to reduce the number of undeserving authors on academic papers"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

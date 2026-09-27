@@ -1,0 +1,152 @@
+{
+  "packet_id": "ft-087",
+  "papers": [
+    {
+      "rec_id": "0603b65841ef1a7f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gaidet-inspired-taxonomy-toolkit",
+          "scheme_name_verbatim": "The GAIDeT-Inspired Taxonomy of AI Use",
+          "source_ref": "doi:10.17323/jle.2025.29876",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "56 scholarly articles and publisher policies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the appropriate level of oversight and disclosure",
+              "definition_quote": "This taxonomy categorizes AI use to help determine the appropriate level of oversight and disclosure.",
+              "value_list_verbatim": ["A. Substantive / High-Stakes Use", "B. Supportive / Medium-Stakes Use", "C. Routine / Low-Stakes Use"],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "This taxonomy categorizes AI use to help determine the appropriate level of oversight and disclosure."
+            },
+            {
+              "dimension_label_verbatim": "Conceptualization & Design",
+              "definition_quote": "",
+              "value_list_verbatim": ["Generating research questions or hypotheses.", "Assisting in study design or methodology development.", "Identifying theoretical frameworks."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Generating research questions or hypotheses."
+            },
+            {
+              "dimension_label_verbatim": "Content Generation & Synthesis",
+              "definition_quote": "",
+              "value_list_verbatim": ["Drafting entire sections of a manuscript (Introduction, Methods, Results, Discussion).", "Paraphrasing or summarizing literature to create new synthesized text.", "Generating abstracts from scratch."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Generating abstracts from scratch."
+            },
+            {
+              "dimension_label_verbatim": "Data Analysis & Interpretation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Conducting statistical analysis or coding for data processing.", "Interpreting data trends or results.", "Generating synthetic data sets."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Generating synthetic data sets."
+            },
+            {
+              "dimension_label_verbatim": "Visual Content Creation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Creating or modifying figures, tables, or images for publication."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Creating or modifying figures, tables, or images for publication."
+            },
+            {
+              "dimension_label_verbatim": "Writing Assistance",
+              "definition_quote": "",
+              "value_list_verbatim": ["Restructuring or reorganizing human-written text for clarity.", "Generating an initial outline based on author-provided points.", "Brainstorming ideas or suggesting titles."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Brainstorming ideas or suggesting titles."
+            },
+            {
+              "dimension_label_verbatim": "Research Support",
+              "definition_quote": "",
+              "value_list_verbatim": ["Conducting initial literature searches.", "Summarizing existing articles (without synthesis).", "Identifying relevant references (to be verified by the author)."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Conducting initial literature searches."
+            },
+            {
+              "dimension_label_verbatim": "Analytical Feedback",
+              "definition_quote": "",
+              "value_list_verbatim": ["Providing feedback on arguments or logic.", "Validating code or analysis plans."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Providing feedback on arguments or logic."
+            },
+            {
+              "dimension_label_verbatim": "Language Enhancement",
+              "definition_quote": "",
+              "value_list_verbatim": ["Correcting grammar, spelling, and punctuation.", "Improving readability and style (e.g., using tools like Grammarly).", "Rephrasing sentences for fluency."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Rephrasing sentences for fluency."
+            },
+            {
+              "dimension_label_verbatim": "Administrative Tasks",
+              "definition_quote": "",
+              "value_list_verbatim": ["Formatting references and citations.", "Checking journal submission guidelines.", "Translating text (with human verification for accuracy)."],
+              "closed_or_open": "closed_list",
+              "locator": "Part 1: The GAIDeT-Inspired Taxonomy of AI Use",
+              "quote": "Formatting references and citations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f7aa7292ab9488d0",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "hai-disclosure-design-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1145/3772318.3791288",
+          "domain": "journalism_media",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "32 participants",
+          "machine_readable_artifact": "https://github.com/cwi-dis/CHI2026-AIDisclosureVisualizations",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "proportional representation \nof human and AI contributions",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.3 Design considerations",
+              "quote": "proportional representation \nof human and AI contributions"
+            },
+            {
+              "dimension_label_verbatim": "process-based explanations of \nhow those contributions were made",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.3 Design considerations",
+              "quote": "process-based explanations of \nhow those contributions were made"
+            },
+            {
+              "dimension_label_verbatim": "levels of information \ndetail that can support readers with different engagement goals \nand AI literacy levels",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.3 Design considerations",
+              "quote": "levels of information \ndetail that can support readers with different engagement goals \nand AI literacy levels"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "7a6027f4e55478fb",
+      "has_scheme": false,
+      "reason": "Narrative review synthesizing AI-writing risks (Table 2: hallucination, plagiarism/misattribution, skill erosion, black-box limitations, overreliance) and cataloguing named institutional policies (Table 3); it summarizes others' policies rather than proposing or using its own scheme for classifying a disclosure, attribution, or provenance claim."
+    }
+  ]
+}

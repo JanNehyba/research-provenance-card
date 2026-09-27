@@ -1,0 +1,99 @@
+{
+  "packet_id": "012",
+  "papers": [
+    {
+      "rec_id": "aa962cd12cd6015f",
+      "has_scheme": false,
+      "reason": "proposes a three-category design taxonomy for clinical AI systems (chatbot, decision-support, autonomous) distinguished by users/governance/failure modes; classifies AI system types rather than a disclosure, attribution, or provenance scheme for produced content"
+    },
+    {
+      "rec_id": "deb38d99514f2107",
+      "has_scheme": false,
+      "reason": "abstract is a one-line description of the document's purpose ('scientific background and guidance'); no categories enumerated"
+    },
+    {
+      "rec_id": "e018c0954bb4909a",
+      "has_scheme": false,
+      "reason": "argues generically for transparency, provenance, and human responsibility as guiding principles and outlines stakeholder expectations, without enumerating a category scheme"
+    },
+    {
+      "rec_id": "060fc68f9c44ec17",
+      "has_scheme": false,
+      "reason": "retrieved text is only the title; no content to extract"
+    },
+    {
+      "rec_id": "cfa3595ff22cb8fa",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-contributions-taxonomy-cfa3",
+          "scheme_name_verbatim": "AI contributions taxonomy",
+          "source_ref": "doi:10.1080/08989621.2024.2405039",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "categories",
+              "definition_quote": "",
+              "value_list_verbatim": ["hypothesis generation", "data analysis", "manuscript preparation", "ethical oversight"],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "incorporating categories that reflect AI's use in tasks such as hypothesis generation, data analysis, manuscript preparation, and ethical oversight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6230737616ef051f",
+      "has_scheme": false,
+      "reason": "rapid review of expert opinions and publisher policies on ethical dilemmas of AI in research writing; discusses plagiarism, transparency, and disclosure generically without an enumerated category scheme"
+    },
+    {
+      "rec_id": "d7aa4e90f961dde6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "process-adoption-model",
+          "scheme_name_verbatim": "process-adoption model",
+          "source_ref": "doi:10.1093/jcmc/zmaf013",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "patterns",
+              "definition_quote": "",
+              "value_list_verbatim": ["human-only", "AI-only", "modified-AI", "AI-guided"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "categorizing message generation into four patterns: human-only, AI-only, modified-AI, and AI-guided"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a5a1075c291a6b6e",
+      "has_scheme": false,
+      "reason": "editorial foreword announces intent to contribute forward-looking standards for signaling and taxonomizing AI-assisted legal scholarship, but does not itself enumerate any categories"
+    },
+    {
+      "rec_id": "31b3fa8deaa5519d",
+      "has_scheme": false,
+      "reason": "study of influencer-marketing intermediaries' regulatory compliance describes algorithmic vs non-algorithmic compliance challenges; these classify enforcement obstacles, not disclosures or attributions of produced content"
+    },
+    {
+      "rec_id": "2c8b8d0c167d1cd9",
+      "has_scheme": false,
+      "reason": "proposes a regulatory framework shifting from speaker-focused mandates to resilience signals and distributor duties, without enumerating specific categories or values"
+    }
+  ]
+}

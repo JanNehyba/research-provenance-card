@@ -1,0 +1,374 @@
+{
+  "packet_id": "ab-019",
+  "papers": [
+    {
+      "rec_id": "4714f8a864633f30",
+      "has_scheme": false,
+      "reason": "describes problems with ESG ratings (data quality, data sources, methodology, conflicts of interest) narratively; no category scheme for disclosure, attribution, or provenance is enumerated"
+    },
+    {
+      "rec_id": "9197ca2f964131cd",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "pre-use-checklist-seven-gates",
+          "scheme_name_verbatim": "a seven-item verification instrument that translates regulatory requirements and technical constraints into executable actions",
+          "source_ref": "doi:10.20944/preprints202609.1187.v1",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "validated through a documented case study — the development of a local text-to-speech workbench (qwen-tts-app) with a commercial agentic tool",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "pre-use gates",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "task scoping",
+                "plan-before-execution",
+                "task decomposition",
+                "auditable computation",
+                "mandatory output verification",
+                "data isolation",
+                "AI-use disclosure"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The checklist comprises seven pre-use gates spanning task scoping, plan-before-execution, task decomposition, auditable computation, mandatory output verification, data isolation, and AI-use disclosure"
+            }
+          ]
+        },
+        {
+          "scheme_id": "three-norm-compliance-model",
+          "scheme_name_verbatim": "a three-norm compliance model",
+          "source_ref": "doi:10.20944/preprints202609.1187.v1",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "structured review of Chinese legislation, ministerial regulations, and university AIGC policies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "compliance model",
+              "definition_quote": "",
+              "value_list_verbatim": ["Permitted", "Prohibited", "Disclosure"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a three-norm compliance model: Permitted / Prohibited / Disclosure"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ask-plan-craft-interaction-model",
+          "scheme_name_verbatim": "an Ask–Plan–Craft tri-layer interaction model",
+          "source_ref": "doi:10.20944/preprints202609.1187.v1",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "tri-layer interaction model",
+              "definition_quote": "",
+              "value_list_verbatim": ["Ask", "Plan", "Craft"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "mapped to four countermeasure strategies and an Ask–Plan–Craft tri-layer interaction model"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b01a2646a771f3da",
+      "has_scheme": false,
+      "reason": "reviews literature using the existing AI Assessment Scale and Double Diamond frameworks to synthesize a framework describing GenAI integration levels ranging from manual to autonomous, but does not enumerate the levels or the framework's own categories in this abstract"
+    },
+    {
+      "rec_id": "459b20cbc156af06",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "citra-axes",
+          "scheme_name_verbatim": "CITRA",
+          "source_ref": "doi:10.30693/smj.2025.14.9.63",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "consent",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "cross-analyzing consent, labeling/warnings, provenance, risk ratings, and accountability/remedy requirements"
+            },
+            {
+              "dimension_label_verbatim": "labeling/warnings",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "cross-analyzing consent, labeling/warnings, provenance, risk ratings, and accountability/remedy requirements"
+            },
+            {
+              "dimension_label_verbatim": "provenance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "cross-analyzing consent, labeling/warnings, provenance, risk ratings, and accountability/remedy requirements"
+            },
+            {
+              "dimension_label_verbatim": "risk ratings",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "cross-analyzing consent, labeling/warnings, provenance, risk ratings, and accountability/remedy requirements"
+            },
+            {
+              "dimension_label_verbatim": "accountability/remedy requirements",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "cross-analyzing consent, labeling/warnings, provenance, risk ratings, and accountability/remedy requirements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "7e72a16a9cf3c9e9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "icmje-authorship-standards",
+          "scheme_name_verbatim": "the authorship guidelines of the International Committee of Medical Journal Editors",
+          "source_ref": "doi:10.1097/corr.0000000000002658",
+          "domain": "research_publishing",
+          "artifact_type": "policy",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "important standards",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "being willing to be accountable for all aspects of the work",
+                "to ensure that questions related to the accuracy or integrity of the work will be suitably investigated and resolved",
+                "to be able to identify which co-authors are responsible for specific parts of the work",
+                "to have confidence in the integrity of the contributions of their co-authors"
+              ],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "an author must meet a number of important standards, including being willing to be accountable for all aspects of the work, to ensure that questions"
+            }
+          ]
+        },
+        {
+          "scheme_id": "corr-editorial-ai-use-standards",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1097/corr.0000000000002658",
+          "domain": "research_publishing",
+          "artifact_type": "policy",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "standards concerning AI applications",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "AI applications cannot be listed as authors.",
+                "Whether and how AI applications were used in the research or the reporting of its findings must be described in detail in the Methods section and should be mentioned again in the Acknowledgments section."
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "our editorial boards have agreed on the following standards concerning AI applications that create text, tables, figures, images, computer code, and/or video"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5a743f2cf0353400",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-design-tool-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.36615/f66j8309",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "categories of tools",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "a large-language-model assistant for brainstorming and critique",
+                "text-to-image generators for fast ideation",
+                "assistive image tools for workflow tasks"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The implementations drew on three categories of tools: a large-language-model assistant for brainstorming and critique, text-to-image generators for fast ideation"
+            }
+          ]
+        },
+        {
+          "scheme_id": "seven-part-ai-design-course-framework",
+          "scheme_name_verbatim": "a seven-part framework for implementing AI in design courses",
+          "source_ref": "doi:10.36615/f66j8309",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "positioning",
+                "guardrails",
+                "process evidence",
+                "assessment",
+                "AI literacy",
+                "equity supports",
+                "governance/ethics"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "We distil these lessons into a seven-part framework for implementing AI in design courses (positioning, guardrails, process evidence, assessment, AI literacy, equity supports, governance/ethics)."
+            }
+          ]
+        },
+        {
+          "scheme_id": "student-led-vs-ai-assisted-disclosure",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.36615/f66j8309",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": ["student-led", "AI-assisted"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "disclosure of what was student-led versus AI-assisted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6a8f11d02795ebab",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-transparency-dimensions-beyond-algorithmic-disclosure",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.52214/stlr.v25i2.12766",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the data on which the algorithm was trained",
+              "definition_quote": "",
+              "value_list_verbatim": ["its source", "scope", "quality", "inner correlations"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "any transparency regime must also include key information about the data on which the algorithm was trained, including its source, scope, quality, and inner correlations"
+            },
+            {
+              "dimension_label_verbatim": "pre-release testing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Disclosures about pre-release testing also play a critical role in understanding an AI system’s robustness and its susceptibility to specification gaming."
+            },
+            {
+              "dimension_label_verbatim": "post-release evaluation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "makes ongoing post-release evaluation a critical component of any system of AI transparency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9788e66c86f9f949",
+      "has_scheme": false,
+      "reason": "states that ORCID's worktype list includes 43 different types of contributions and references contributor roles via the CRediT taxonomy, but does not enumerate the actual types or roles in this abstract"
+    },
+    {
+      "rec_id": "18a50377e8dc32e9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "mind-plus-workflow",
+          "scheme_name_verbatim": "MIND Plus",
+          "source_ref": "doi:10.5281/zenodo.22179251",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "open scholarly infrastructures",
+                "citation mapping",
+                "structured comparison",
+                "verification",
+                "critical analysis"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The paper describes a workflow that combines open scholarly infrastructures, citation mapping, structured comparison, verification and critical analysis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "462ca9ebf8d614ae",
+      "has_scheme": false,
+      "reason": "discusses existing unsettled taxonomies of virtual influencers 'by function and form' and says the authors outline a revised typology and generate six key findings, but the abstract does not enumerate the typology's categories or the findings"
+    }
+  ]
+}

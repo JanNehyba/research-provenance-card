@@ -1,0 +1,111 @@
+{
+  "packet_id": "ft-093",
+  "papers": [
+    {
+      "rec_id": "d089e386b764f35c",
+      "has_scheme": false,
+      "reason": "describes the cffr R package that implements the existing Citation File Format standard; lists two motivating reasons for software citation (reproducibility, developer credit) but proposes no category scheme of its own"
+    },
+    {
+      "rec_id": "5768a1690e2326a0",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "strategic-coauthorship-problematic-dimensions",
+          "scheme_name_verbatim": "The problematic dimensions: honorary, gift, and coercive authorship",
+          "source_ref": "doi:10.1186/s41073-026-00197-z",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Honorary authorship",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "The problematic dimensions: honorary, gift, and coercive authorship",
+              "quote": "approximately one in four researchers in the United States and Canada have included honorary authors on their publications"
+            },
+            {
+              "dimension_label_verbatim": "gift authorship",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "The problematic dimensions: honorary, gift, and coercive authorship",
+              "quote": "practices including honorary authorship, gift authorship, and publication cartels that violate established authorship criteria"
+            },
+            {
+              "dimension_label_verbatim": "Coercive authorship",
+              "definition_quote": "operates through mechanisms distinct from but intertwined with publication cartels",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "The problematic dimensions: honorary, gift, and coercive authorship",
+              "quote": "Coercive authorship operates through mechanisms distinct from but intertwined with publication cartels"
+            },
+            {
+              "dimension_label_verbatim": "Publication cartels",
+              "definition_quote": "organized groups systematically adding each other to publications regardless of contribution",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "The problematic dimensions: honorary, gift, and coercive authorship",
+              "quote": "Publication cartels—organized groups systematically adding each other to publications regardless of contribution—have been analyzed through simulation frameworks"
+            }
+          ]
+        },
+        {
+          "scheme_id": "icmje-four-mandatory-authorship-conditions",
+          "scheme_name_verbatim": "ICMJE criteria",
+          "source_ref": "doi:10.1186/s41073-026-00197-z",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "not_stated",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "sub-\nstantial contributions to conception/design",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines and taxonomies: transparency without enforcement",
+              "quote": "The ICMJE defines \nauthorship through four mandatory conditions (sub-\nstantial contributions to conception/design; drafting/\nrevision; final approval; full accountability)"
+            },
+            {
+              "dimension_label_verbatim": "drafting/\nrevision",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines and taxonomies: transparency without enforcement",
+              "quote": "The ICMJE defines \nauthorship through four mandatory conditions (sub-\nstantial contributions to conception/design; drafting/\nrevision; final approval; full accountability)"
+            },
+            {
+              "dimension_label_verbatim": "final approval",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines and taxonomies: transparency without enforcement",
+              "quote": "The ICMJE defines \nauthorship through four mandatory conditions (sub-\nstantial contributions to conception/design; drafting/\nrevision; final approval; full accountability)"
+            },
+            {
+              "dimension_label_verbatim": "full accountability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines and taxonomies: transparency without enforcement",
+              "quote": "The ICMJE defines \nauthorship through four mandatory conditions (sub-\nstantial contributions to conception/design; drafting/\nrevision; final approval; full accountability)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "20185f3e4116dfdc",
+      "has_scheme": false,
+      "reason": "editorial announcing the journal's intent to adopt an author-role/contributorship model; the available abstract text states the goal but does not enumerate any specific roles or categories"
+    }
+  ]
+}

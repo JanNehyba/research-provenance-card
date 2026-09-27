@@ -1,0 +1,447 @@
+{
+  "packet_id": "ab-009",
+  "papers": [
+    {
+      "rec_id": "8283a9eb18b49efc",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "scidraw-illustration-use-case-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.14293/pr2199.003300.v1",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "2,792 real-world AI-generated biomedical illustrations from SciDraw",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "molecular biology",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+            },
+            {
+              "dimension_label_verbatim": "immunology",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+            },
+            {
+              "dimension_label_verbatim": "clinical medicine",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+            },
+            {
+              "dimension_label_verbatim": "pharmacology",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+            },
+            {
+              "dimension_label_verbatim": "microbiology",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+            },
+            {
+              "dimension_label_verbatim": "plant science",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+            },
+            {
+              "dimension_label_verbatim": "experimental workflows",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "microbiology, plant science, experimental workflows, graphical abstracts, and data visualization"
+            },
+            {
+              "dimension_label_verbatim": "graphical abstracts",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "microbiology, plant science, experimental workflows, graphical abstracts, and data visualization"
+            },
+            {
+              "dimension_label_verbatim": "data visualization",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "microbiology, plant science, experimental workflows, graphical abstracts, and data visualization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b963c3615ebef620",
+      "has_scheme": false,
+      "reason": "analyzes coordination mechanisms for conflicts of interest in group insolvency law; unrelated to disclosure, attribution, or provenance of a produced work, and proposes no such scheme"
+    },
+    {
+      "rec_id": "9505380bd9c3b340",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "authentic-assessment-evidence-requirements",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.55813/gaea/revistacec/v3/n2/4",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "recent scientific articles, reviews, institutional guidelines, and academic documents related to assessment, integrity, transparency, and the educational use of these technologies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "process-based evidence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "requires the incorporation of process-based evidence, verifiable reasoning, disciplinary judgment, defense of decisions, and transparent disclosure of artificial intelligence use"
+            },
+            {
+              "dimension_label_verbatim": "verifiable reasoning",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "requires the incorporation of process-based evidence, verifiable reasoning, disciplinary judgment, defense of decisions, and transparent disclosure of artificial intelligence use"
+            },
+            {
+              "dimension_label_verbatim": "disciplinary judgment",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "requires the incorporation of process-based evidence, verifiable reasoning, disciplinary judgment, defense of decisions, and transparent disclosure of artificial intelligence use"
+            },
+            {
+              "dimension_label_verbatim": "defense of decisions",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "requires the incorporation of process-based evidence, verifiable reasoning, disciplinary judgment, defense of decisions, and transparent disclosure of artificial intelligence use"
+            },
+            {
+              "dimension_label_verbatim": "transparent disclosure of artificial intelligence use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "requires the incorporation of process-based evidence, verifiable reasoning, disciplinary judgment, defense of decisions, and transparent disclosure of artificial intelligence use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "07019ba67686d2fb",
+      "has_scheme": false,
+      "reason": "examines self-disclosed AI tool types and frequency of use in BMJ Group submissions, but the abstract does not enumerate the tool-type categories"
+    },
+    {
+      "rec_id": "85a0f6eb9357eb93",
+      "has_scheme": false,
+      "reason": "critiques the practice of requiring author contribution statements using 35 years of Science retraction notices; proposes no category scheme"
+    },
+    {
+      "rec_id": "3289016bf0cb74ee",
+      "has_scheme": false,
+      "reason": "proposes a framework grounded in four argumentative pillars (collective negotiation of AI training rights, author verification responsibility, collaborative best practices, embedding norms in editorial infrastructure), which are recommendations rather than an enumerable category scheme for classifying a disclosure or attribution"
+    },
+    {
+      "rec_id": "c4d364d350c89122",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-assessment-guidance-coding-scheme",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.17275/per.26.60.13.4",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "framework-based document analysis of 21 official, public-facing institutional and teaching-unit guidance documents from universities in Europe, North America, Australasia, and Asia",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "permitted and prohibited uses",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "descriptive cross-case summaries of permitted and prohibited uses, disclosure and verification requirements, ethical safeguards, and ratings of clarity, actionability, and assessment specificity"
+            },
+            {
+              "dimension_label_verbatim": "disclosure and verification requirements",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "descriptive cross-case summaries of permitted and prohibited uses, disclosure and verification requirements, ethical safeguards, and ratings of clarity, actionability, and assessment specificity"
+            },
+            {
+              "dimension_label_verbatim": "ethical safeguards",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "descriptive cross-case summaries of permitted and prohibited uses, disclosure and verification requirements, ethical safeguards, and ratings of clarity, actionability, and assessment specificity"
+            },
+            {
+              "dimension_label_verbatim": "ratings of clarity, actionability, and assessment specificity",
+              "definition_quote": "",
+              "value_list_verbatim": ["clarity", "actionability", "assessment specificity"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "descriptive cross-case summaries of permitted and prohibited uses, disclosure and verification requirements, ethical safeguards, and ratings of clarity, actionability, and assessment specificity"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-assessment-ethical-gap-map",
+          "scheme_name_verbatim": "ethical gap map",
+          "source_ref": "doi:10.17275/per.26.60.13.4",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "framework-based document analysis of 21 official, public-facing institutional and teaching-unit guidance documents from universities in Europe, North America, Australasia, and Asia",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "privacy",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a descriptive ethical gap map compared the presence or absence of provisions related to privacy, consent, retention, fairness, and accessibility"
+            },
+            {
+              "dimension_label_verbatim": "consent",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a descriptive ethical gap map compared the presence or absence of provisions related to privacy, consent, retention, fairness, and accessibility"
+            },
+            {
+              "dimension_label_verbatim": "retention",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a descriptive ethical gap map compared the presence or absence of provisions related to privacy, consent, retention, fairness, and accessibility"
+            },
+            {
+              "dimension_label_verbatim": "fairness",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a descriptive ethical gap map compared the presence or absence of provisions related to privacy, consent, retention, fairness, and accessibility"
+            },
+            {
+              "dimension_label_verbatim": "accessibility",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a descriptive ethical gap map compared the presence or absence of provisions related to privacy, consent, retention, fairness, and accessibility"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-assessment-design-patterns",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.17275/per.26.60.13.4",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "framework-based document analysis of 21 official, public-facing institutional and teaching-unit guidance documents from universities in Europe, North America, Australasia, and Asia",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "process-evidence portfolios with AI-use logs",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Four patterns were especially prominent: (1) process-evidence portfolios with AI-use logs"
+            },
+            {
+              "dimension_label_verbatim": "AI-assisted drafting plus in-class or oral verification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "(2) AI-assisted drafting plus in-class or oral verification"
+            },
+            {
+              "dimension_label_verbatim": "critical engagement with AI outputs",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "(3) critical engagement with AI outputs"
+            },
+            {
+              "dimension_label_verbatim": "secure high-stakes exams combined with AI-enabled coursework",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "(4) secure high-stakes exams combined with AI-enabled coursework"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "16b19b5ff373a148",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-digital-literacy-culture-six-dimensions",
+          "scheme_name_verbatim": "AI-digital literacy culture framework",
+          "source_ref": "doi:10.70211/sakalima.v3i1.644",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "integrative literature review, this study synthesized 40 publications published between 2004 and 2026, with 37 publications concentrated in 2019–2026",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "information access literacy",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "consists of six operational dimensions: information access literacy, AI limitation literacy, critical prompting literacy, digital tabayyun, academic integrity, and scholarly authority literacy"
+            },
+            {
+              "dimension_label_verbatim": "AI limitation literacy",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "consists of six operational dimensions: information access literacy, AI limitation literacy, critical prompting literacy, digital tabayyun, academic integrity, and scholarly authority literacy"
+            },
+            {
+              "dimension_label_verbatim": "critical prompting literacy",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "consists of six operational dimensions: information access literacy, AI limitation literacy, critical prompting literacy, digital tabayyun, academic integrity, and scholarly authority literacy"
+            },
+            {
+              "dimension_label_verbatim": "digital tabayyun",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "consists of six operational dimensions: information access literacy, AI limitation literacy, critical prompting literacy, digital tabayyun, academic integrity, and scholarly authority literacy"
+            },
+            {
+              "dimension_label_verbatim": "academic integrity",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "consists of six operational dimensions: information access literacy, AI limitation literacy, critical prompting literacy, digital tabayyun, academic integrity, and scholarly authority literacy"
+            },
+            {
+              "dimension_label_verbatim": "scholarly authority literacy",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "consists of six operational dimensions: information access literacy, AI limitation literacy, critical prompting literacy, digital tabayyun, academic integrity, and scholarly authority literacy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f902abe58013fdbc",
+      "has_scheme": false,
+      "reason": "protocol for a content analysis using a prespecified deductive coding framework, but the abstract does not enumerate its categories"
+    },
+    {
+      "rec_id": "a8f9ab2e1650da41",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "algorithmic-clearance-public-traces",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/fcomm.2026.1906209",
+          "domain": "law_regulation",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "regulatory",
+          "empirical_basis": "An exploratory exercise using SEC EDGAR, DEF 14A, XBRL companyfacts, Item 4.02 restatement filings, and market data",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "audit-report communication",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we derive public traces in audit-report communication, narrative disclosure, process measures, and market information"
+            },
+            {
+              "dimension_label_verbatim": "narrative disclosure",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we derive public traces in audit-report communication, narrative disclosure, process measures, and market information"
+            },
+            {
+              "dimension_label_verbatim": "process measures",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we derive public traces in audit-report communication, narrative disclosure, process measures, and market information"
+            },
+            {
+              "dimension_label_verbatim": "market information",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we derive public traces in audit-report communication, narrative disclosure, process measures, and market information"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

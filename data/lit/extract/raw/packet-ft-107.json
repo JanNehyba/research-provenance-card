@@ -1,0 +1,152 @@
+{
+  "packet_id": "ft-107",
+  "papers": [
+    {
+      "rec_id": "6bfda7ee2d8df7d4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "asop-four-tier-automation-scope-of-practice",
+          "scheme_name_verbatim": "automation scope of practice (ASoP)",
+          "source_ref": "doi:10.2196/88058",
+          "domain": "workplace",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "ASoP tier",
+              "definition_quote": "each task is assigned an initial ASoP tier based on clinical risk, verifiability, time criticality, and dependence on contextual physician judgment",
+              "value_list_verbatim": ["Tier 0: nondelegable", "Tier 1: assistive", "Tier 2: supervised analytic", "Tier 3: conditionally delegated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Institutions can apply a 4-tier ASoP rubric ( Table 1 )."
+            }
+          ]
+        },
+        {
+          "scheme_id": "physician-resilience-verification-triggers",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.2196/88058",
+          "domain": "workplace",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "clinical harm severity",
+              "definition_quote": "clinical harm severity if the AI-supported recommendation is wrong",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Verification Triggers and Proportionate Safeguards",
+              "quote": "clinical harm severity if the AI-supported recommendation is wrong"
+            },
+            {
+              "dimension_label_verbatim": "irreversibility and time criticality",
+              "definition_quote": "irreversibility and time criticality of the downstream action",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Verification Triggers and Proportionate Safeguards",
+              "quote": "irreversibility and time criticality of the downstream action"
+            },
+            {
+              "dimension_label_verbatim": "uncertainty or conflict intensity",
+              "definition_quote": "uncertainty or conflict intensity, including model uncertainty, weak provenance, or disagreement between AI output and clinician assessment",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Verification Triggers and Proportionate Safeguards",
+              "quote": "uncertainty or conflict intensity, including model uncertainty, weak provenance, or disagreement between AI output and clinician assessment"
+            },
+            {
+              "dimension_label_verbatim": "equity sensitivity",
+              "definition_quote": "equity sensitivity, referring to decisions in which algorithmic bias may plausibly distort recommendations",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Verification Triggers and Proportionate Safeguards",
+              "quote": "equity sensitivity, referring to decisions in which algorithmic bias may plausibly distort recommendations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "cb590607e2c0042d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "noor-process-oriented-assessment-evidence-types",
+          "scheme_name_verbatim": "process-oriented assessment framework",
+          "source_ref": "doi:10.32038/ltf.2026.14.01",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "classroom reflections, student writing artifacts, multiple drafts, revision records, drafting, revision histories, reflective writing, AI-use disclosures, and ongoing feedback",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "process-oriented assessment practices",
+              "definition_quote": "Together, these practices make students' reasoning, revision decisions, and engagement with AI visible throughout the writing process.",
+              "value_list_verbatim": ["scaffolded drafting", "multiple draft submissions", "revision histories", "AI-use disclosures", "reflective commentaries", "writing conferences", "source verification", "iterative feedback"],
+              "closed_or_open": "open_text",
+              "locator": "Theoretical Framework",
+              "quote": "the framework proposes process-oriented assessment practices, including scaffolded drafting, multiple draft submissions, revision histories, AI-use disclosures, reflective commentaries, writing conferences, source verification, and iterative feedback."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e43e7a73697bd680",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "five-sites-of-ai-policy",
+          "scheme_name_verbatim": "Five Sites of AI “Policy”",
+          "source_ref": "doi:10.48550/arxiv.2605.29090",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "20 undergraduate students from 12 different U.S. universities",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "“sites”",
+              "definition_quote": "there are at least five distinct “sites” that house concepts of appropriate AI use for academic writing",
+              "value_list_verbatim": ["Faculty Intention", "Formal Policy", "Student Interpretation", "Student Self-Policy", "Student Practice"],
+              "closed_or_open": "closed_list",
+              "locator": "Five Sites of AI “Policy”",
+              "quote": "Faculty Intention , instructor expectations of student AI use; (2) Formal Policy , the explicitly specified rules, usually written down in syllabi or assignment instructions"
+            }
+          ]
+        },
+        {
+          "scheme_id": "student-ai-rationalization-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2605.29090",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "self_report",
+          "empirical_basis": "20 undergraduate students from 12 different U.S. universities",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "rationalization classes",
+              "definition_quote": "23 rationalization categories based on shared similarities, which were further grouped into six broader rationalization classes",
+              "value_list_verbatim": ["victimless behavior", "minimal AI contribution", "ex ante contribution", "post hoc contribution", "responsibility denial", "perceived benefit"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "which were further grouped into six broader rationalization classes: victimless behavior, minimal AI contribution, ex ante contribution, post hoc contribution, responsibility denial, and perceived benefit"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "packet_id": "ab-020",
+  "papers": [
+    {
+      "rec_id": "c9fcfbb093f71a44",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "appraise-ai-domains",
+          "scheme_name_verbatim": "APPRAISE-AI",
+          "source_ref": "doi:10.1001/jamanetworkopen.2023.35377",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "A total of 28 studies were included.",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "domains",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "clinical relevance",
+                "data quality",
+                "methodological conduct",
+                "robustness of results",
+                "reporting quality",
+                "reproducibility"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a quantitative method for evaluating quality of AI studies across 6 domains: clinical relevance, data quality, methodological conduct, robustness of results, reporting quality, and reproducibility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6c19a3d5a951b76f",
+      "has_scheme": false,
+      "reason": "generic journal scope statement describing the forum's subject areas; no categories, dimensions, or checklist are enumerated"
+    },
+    {
+      "rec_id": "45c71070bc359a5b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "girimedicolegal-liability-responsibility-chain",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5281/zenodo.22784876",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "liability-responsibility chain",
+              "definition_quote": "",
+              "value_list_verbatim": ["developer", "vendor", "hospital", "clinician"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a liability-responsibility chain across developer, vendor, hospital and clinician"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b3c1ecc0805551e5",
+      "has_scheme": false,
+      "reason": "describes a technical pipeline for provenance-anchored deepfake detection (media signing, metadata binding, blockchain hash anchoring, off-chain storage, signal fusion) and privacy-preserving verification techniques; these are system architecture steps, not a category scheme for coding disclosures or attribution"
+    },
+    {
+      "rec_id": "50d0ce9fe276fbe2",
+      "has_scheme": false,
+      "reason": "proposes 'a more precise taxonomy of AI use' and a Human Creative Control (HCC) evaluation framework but does not enumerate the taxonomy's categories or the framework's criteria in this abstract"
+    },
+    {
+      "rec_id": "337de2d72344a6eb",
+      "has_scheme": false,
+      "reason": "reports survey findings on students' and researchers' awareness of and experiences with authorship-determination practices; no category scheme is proposed or enumerated"
+    },
+    {
+      "rec_id": "4fc57f182ad138e4",
+      "has_scheme": false,
+      "reason": "the retrieved text file is truncated after one introductory sentence; no scheme content is available"
+    },
+    {
+      "rec_id": "63b4cda015a4e652",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "human-ai-hybrid-peer-review-roles",
+          "scheme_name_verbatim": "a hybrid model",
+          "source_ref": "doi:10.3390/jcm15062215",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI",
+              "definition_quote": "",
+              "value_list_verbatim": ["routine screening", "technical tasks"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we propose a hybrid model in which AI handles routine screening and technical tasks under strict safeguards, while human experts retain final responsibility for scientific evaluation."
+            },
+            {
+              "dimension_label_verbatim": "human experts",
+              "definition_quote": "",
+              "value_list_verbatim": ["final responsibility for scientific evaluation"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we propose a hybrid model in which AI handles routine screening and technical tasks under strict safeguards, while human experts retain final responsibility for scientific evaluation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b44cfddecdcc4572",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-cultural-preservation-research-agenda",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.35492/docam/12/2/7",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "fronts",
+              "definition_quote": "",
+              "value_list_verbatim": ["theoretical", "empirical", "technical"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "We outline a coordinated agenda across three fronts: theoretical (models of distributed agency, accounts of extended intentionality"
+            },
+            {
+              "dimension_label_verbatim": "technical",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "metadata with detailed provenance",
+                "verification when origins are uncertain or missing",
+                "adaptive selection and sampling, including the preservation of models"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "technical (metadata with detailed provenance, verification when origins are uncertain or missing, and adaptive selection and sampling, including the preservation of models)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a0211cfd8c1ba197",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "disclosure-decision-matrix",
+          "scheme_name_verbatim": "Disclosure Decision Matrix",
+          "source_ref": "doi:10.35940/ijitee.l1155.14111025",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "key dimensions",
+              "definition_quote": "",
+              "value_list_verbatim": ["risk severity", "exploitability", "mitigation availability", "public benefit of transparency"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "We introduce a Disclosure Decision Matrix that evaluates four key dimensions: risk severity, exploitability, mitigation availability, and public benefit of transparency."
+            },
+            {
+              "dimension_label_verbatim": "courses of action",
+              "definition_quote": "",
+              "value_list_verbatim": ["full release", "staged or controlled release", "temporary restriction until safeguards mature"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It then recommends one of three courses of action: full release, staged or controlled release, or temporary restriction until safeguards mature."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

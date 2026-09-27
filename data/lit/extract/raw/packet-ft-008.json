@@ -1,0 +1,142 @@
+{
+  "packet_id": "ft-008",
+  "papers": [
+    {
+      "rec_id": "f5fe866c45bc0a5c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "prisma-traice-checklist",
+          "scheme_name_verbatim": "PRISMA-trAIce checklist",
+          "source_ref": "doi:10.2196/80247",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Title",
+              "definition_quote": "consider indicating the use of AI assistance in the title or subtitle",
+              "value_list_verbatim": ["P-trAIce T1 - Title"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Title P-trAIce T1 - Title If AI tools played a substantial role in the review process"
+            },
+            {
+              "dimension_label_verbatim": "Abstract",
+              "definition_quote": "Briefly summarize the AI tool(s) used, the SLR stage(s) at which they were applied, and their primary role",
+              "value_list_verbatim": ["P-trAIce A1 - Abstract"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Abstract P-trAIce A1 - Abstract Briefly summarize the AI tool(s) used, the SLR stage(s) at which they were applied"
+            },
+            {
+              "dimension_label_verbatim": "Introduction",
+              "definition_quote": "state the rationale for choosing to use AI tools for specific tasks in the review",
+              "value_list_verbatim": ["P-trAIce I1 - Introduction"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Introduction P-trAIce I1 - Introduction Briefly state the rationale for choosing to use AI tools for specific tasks in the review"
+            },
+            {
+              "dimension_label_verbatim": "Methods",
+              "definition_quote": "If specific AI tools or AI-assisted methods were pre-specified in the review protocol",
+              "value_list_verbatim": ["P-trAIce M1 - Protocol and Registration", "P-trAIce M2 - Identification and Access", "P-trAIce M3 - Purpose and Stage of Application", "P-trAIce M4 - Input Data", "P-trAIce M5 - Output Data", "P-trAIce M6 - Prompt Engineering", "P-trAIce M7 - Operational Details and Settings", "P-trAIce M8 - Human-AI Interaction and Oversight", "P-trAIce M9 - AI Performance Evaluation", "P-trAIce M10 - Data Governance and Ethics"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Methods P-trAIce M1 - Protocol and Registration If specific AI tools or AI-assisted methods were pre-specified in the review protocol"
+            },
+            {
+              "dimension_label_verbatim": "Results",
+              "definition_quote": "The PRISMA flow diagram and text clearly distinguish between records/reports excluded or included based on AI tool decisions",
+              "value_list_verbatim": ["P-trAIce R1 - Study selection (AI-assisted)", "P-trAIce R2 - AI Performance Metrics (Results)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Results P-trAIce R1 - Study selection (AI-assisted) The PRISMA flow diagram and text clearly distinguish between records/reports excluded or included based on AI tool decisions"
+            },
+            {
+              "dimension_label_verbatim": "Discussion",
+              "definition_quote": "Discuss any limitations encountered in using the AI tool(s)",
+              "value_list_verbatim": ["P-trAIce D1 - Limitations of AI Use", "P-trAIce D2 - Implications of AI Use"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Discussion P-trAIce D1 - Limitations of AI Use Discuss any limitations encountered in using the AI tool(s)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b7081703799a5ea6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "responsible-authorship-transparency-credit-accountability",
+          "scheme_name_verbatim": "transparency-credit-accountability framework",
+          "source_ref": "doi:10.1073/pnas.2531268123",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "transparency",
+              "definition_quote": "ensuring that each team member’s contributions are clearly described",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Recommendation 1: Anchor Authorship Decisions in Transparency, Credit, and Accountability",
+              "quote": "we propose three interconnected principles that form the foundation for responsible authorship: transparency, credit, and accountability"
+            },
+            {
+              "dimension_label_verbatim": "credit",
+              "definition_quote": "contributors not only assert that they deserve to be recognized as authors for what they did",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "The Inseparable Principles of Credit and Accountability",
+              "quote": "credit entails accountability and accountability entails credit—the two are inseparable"
+            },
+            {
+              "dimension_label_verbatim": "accountability",
+              "definition_quote": "a person is deserving of, and entitled to, authorship only if they can be held accountable for defects in the work",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "The Inseparable Principles of Credit and Accountability",
+              "quote": "A named author who has not contributed to the work cannot be accountable for the actual research and hence, deserves no credit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2338cbf82b4d3896",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "digital-trust-transparent-workflow",
+          "scheme_name_verbatim": "Transparent Workflow for Content Creation, Verification, Disclosure, and User Reliance",
+          "source_ref": "doi:10.47001/jaiet/2026.308008",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "six stage workflow",
+              "definition_quote": "",
+              "value_list_verbatim": ["human or AI creation", "provenance capture", "internal review", "authenticity checking", "disclosure", "external assurance"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "a six stage workflow showing how content moves from human or AI creation through provenance capture, internal review, authenticity checking, disclosure, and external assurance"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "packet_id": "ft-103",
+  "papers": [
+    {
+      "rec_id": "819a4287ef11d192",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-lr-checklist-three-domains",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.38124/ijisrt/25oct243",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "76 applied linguistics publications that provide recommendations for AI",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Authorship",
+              "definition_quote": "Two particular criteria were highlighted under the authorship category: eligibility for authorship and the citation of AI tools.",
+              "value_list_verbatim": ["Eligibility for authorship", "AI citation requirements"],
+              "closed_or_open": "closed_list",
+              "locator": "B. Specific Aspects of AI Guidelines",
+              "quote": "Two particular criteria were highlighted under the authorship category: eligibility for authorship and the citation of AI tools."
+            },
+            {
+              "dimension_label_verbatim": "AI Usage",
+              "definition_quote": "",
+              "value_list_verbatim": ["Permission to use AI", "Role in research design", "Language editing", "Manuscript drafting", "Idea generation", "Image or graphic creation", "Data generation", "Data collection", "Data analysis and interpretation", "Coding or programming"],
+              "closed_or_open": "closed_list",
+              "locator": "B. Specific Aspects of AI Guidelines",
+              "quote": "The pieces were classified into three thematic categories: authorship, applications, and human accountability."
+            },
+            {
+              "dimension_label_verbatim": "Human Responsibility",
+              "definition_quote": "The category of human responsibility had five components: fact-checking, disclosure, the kind of disclosures, the venues for disclosure, and disclosure statements.",
+              "value_list_verbatim": ["Fact verification", "Disclosure of AI use", "Details to disclose", "Location of disclosure", "Formal disclosure statement"],
+              "closed_or_open": "closed_list",
+              "locator": "B. Specific Aspects of AI Guidelines",
+              "quote": "The category of human responsibility had five components: fact-checking, disclosure, the kind of disclosures, the venues for disclosure, and disclosure statements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1d6c6ec29226706b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "jkms-resnik-hosseini-disclosure-levels",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3346/jkms.2025.40.e187",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Disclosure",
+              "definition_quote": "categorize the disclosure of AI usage into three levels—mandatory, optional, and unnecessary—based on ethical principles.",
+              "value_list_verbatim": ["mandatory", "optional", "unnecessary"],
+              "closed_or_open": "closed_list",
+              "locator": "ACADEMIC DISCLOSURE OF THE USE OF AI, TO WHAT EXTENT IS THE OBLIGATION?",
+              "quote": "categorize the disclosure of AI usage into three levels—mandatory, optional, and unnecessary—based on ethical principles."
+            },
+            {
+              "dimension_label_verbatim": "Ethically",
+              "definition_quote": "",
+              "value_list_verbatim": ["Acceptable", "Unethical", "Acceptable if disclosed", "Unethical if undisclosed"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "AI usage scenario\nDisclosure\nEthically\nRemarks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "71dda5711f523f51",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "pkrxiv-differentiated-data-sharing-model",
+          "scheme_name_verbatim": "differentiated data sharing model framework",
+          "source_ref": "doi:10.1002/cpt.70206",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Differentiated data sharing model",
+              "definition_quote": "PKRxiv implements a differentiated data sharing model framework that aligns with international standards for ethical and legal data governance.",
+              "value_list_verbatim": ["Unrestricted", "Non‐commercial", "Contributor‐controlled"],
+              "closed_or_open": "closed_list",
+              "locator": "Differentiated data sharing model",
+              "quote": "data contributors are required to apply one of three distinct models to each dataset shared through PKRxiv."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

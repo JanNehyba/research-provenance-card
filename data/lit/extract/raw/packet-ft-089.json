@@ -1,0 +1,151 @@
+{
+  "packet_id": "ft-089",
+  "papers": [
+    {
+      "rec_id": "fdbc04ad8f690669",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "healthcare-provenance-taxonomy",
+          "scheme_name_verbatim": "the taxonomy of data provenance in healthcare",
+          "source_ref": "doi:10.3390/s23146495",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "shortlisted studies identified through a systematic literature review (SLR) of data provenance in healthcare",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Technologies",
+              "definition_quote": "",
+              "value_list_verbatim": ["Log-based", "Cryptography-based", "Blockchain-based", "Ontology-based"],
+              "closed_or_open": "closed_list",
+              "locator": "5.1.1. Technologies",
+              "quote": "During our investigation of data provenance, we identified four distinct types of technologies"
+            },
+            {
+              "dimension_label_verbatim": "maturity level ‘ML’",
+              "definition_quote": "",
+              "value_list_verbatim": ["architecture ‘A’", "proposed ‘P’", "implemented ‘I’", "evaluated ‘E’"],
+              "closed_or_open": "closed_list",
+              "locator": "4.2.3. Addressing RQ-3",
+              "quote": "maturity level ‘ML’ is considered in this question as an additional attribute"
+            },
+            {
+              "dimension_label_verbatim": "essential requirements of data provenance",
+              "definition_quote": "",
+              "value_list_verbatim": ["provenance security", "compliance", "storage", "unforgeability", "overhead", "revocability", "metadata protection"],
+              "closed_or_open": "closed_list",
+              "locator": "5. Discussion",
+              "quote": "The essential requirements of data provenance are provenance security, compliance, storage, unforgeability, overhead, revocability, and metadata protection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4242bd46af765c7e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cs-disclosure-survey-human-involvement-levels",
+          "scheme_name_verbatim": "levels of human involvement",
+          "source_ref": "doi:10.48550/arxiv.2608.23271",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "109 survey respondents",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Level",
+              "definition_quote": "Descriptions of different levels of human involvement considered in the survey",
+              "value_list_verbatim": ["Assumed", "High", "Low"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "No explicit mention of human involvement. Participants assume a certain baseline level of human involvement."
+            }
+          ]
+        },
+        {
+          "scheme_id": "cs-disclosure-framing-dimensions",
+          "scheme_name_verbatim": "Dimensions along which survey participants indicate their preferences for framing AI disclosures",
+          "source_ref": "doi:10.48550/arxiv.2608.23271",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "110 random AI disclosure statements from ICLR 2026, consolidated from existing conference guidelines and conceptual frameworks",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "details dimension",
+              "definition_quote": "",
+              "value_list_verbatim": ["Task", "Model name", "Reason for AI use", "Non-use of AI", "Human oversight", "Responsibility declaration", "Purpose of disclosure"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "The specific options, present in Table 2 were consolidated from existing conference guidelines and conceptual frameworks outlined in past work"
+            },
+            {
+              "dimension_label_verbatim": "Length",
+              "definition_quote": "",
+              "value_list_verbatim": ["1-2 sentences", "A few sentences or a short paragraph", "Multiple paragraphs", "Length and detail proportionate to the extent of AI use"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "we elicit preferences on details and length through multiple-choice questions"
+            }
+          ]
+        },
+        {
+          "scheme_id": "cs-research-task-phase-taxonomy",
+          "scheme_name_verbatim": "taxonomy of research tasks",
+          "source_ref": "doi:10.48550/arxiv.2608.23271",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "adapted from Andersen et al. (2025); used to structure 21 research tasks rated by 109 CS researchers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "research phase",
+              "definition_quote": "the 5 5 chronological phases central to the preparation of a research manuscript",
+              "value_list_verbatim": ["idea generation", "research design", "data collection", "data analysis", "writing and reporting"],
+              "closed_or_open": "closed_list",
+              "locator": "5.1 Method and Procedure",
+              "quote": "The taxonomy of research tasks we used was adapted from Andersen et al. (2025)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "cs-disclosure-necessity-levels",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2608.23271",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "task-wise necessity ratings from a survey of 109 CS researchers (thresholds: >=3.5 mandatory, 2.5-3.5 recommended, rest optional)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "levels of disclosure necessity",
+              "definition_quote": "",
+              "value_list_verbatim": ["mandatory", "recommended", "optional"],
+              "closed_or_open": "closed_list",
+              "locator": "Task-based AI disclosure policies",
+              "quote": "differing levels of disclosure necessity: mandatory disclosure for tasks where disclosure is widely expected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "564a0e889808f88d",
+      "has_scheme": false,
+      "reason": "proposes a taxonomy of AI risk mitigation actions (Governance & Oversight, Technical & Security, Operational Process, Transparency & Accountability), not categories describing disclosure, attribution, or provenance of a produced artifact"
+    }
+  ]
+}

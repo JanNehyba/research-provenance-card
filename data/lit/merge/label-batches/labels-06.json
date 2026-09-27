@@ -1,0 +1,2143 @@
+{
+  "batch_id": "06",
+  "labels": [
+    {
+      "normalised": "levels of interaction",
+      "verbatim_variants": [
+        "levels of interaction"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "The framework consists of six levels of interaction for Generative AI (GenAI) in assessment"
+    },
+    {
+      "normalised": "levels of the updated aias",
+      "verbatim_variants": [
+        "levels of the updated AIAS"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [
+        "AI Planning",
+        "AI Collaboration",
+        "AI and Human Evaluation",
+        "Full AI",
+        "AI Exploration"
+      ],
+      "example_quote": "the AIAS has been updated to replace the fourth level (AI and Human Evaluation) with the previous fifth level (Full AI)"
+    },
+    {
+      "normalised": "liability-responsibility chain",
+      "verbatim_variants": [
+        "liability-responsibility chain"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "developer",
+        "vendor",
+        "hospital",
+        "clinician"
+      ],
+      "example_quote": "a liability-responsibility chain across developer, vendor, hospital and clinician"
+    },
+    {
+      "normalised": "license and copyright information, both for individual entries and for the registry or repository as a whole",
+      "verbatim_variants": [
+        "License and copyright information, both for individual entries and for the registry or repository as a whole"
+      ],
+      "schemes": 1,
+      "domains": [
+        "software"
+      ],
+      "example_values": [],
+      "example_quote": "License and copyright information, both for individual entries and for the registry or repository as a whole"
+    },
+    {
+      "normalised": "license used",
+      "verbatim_variants": [
+        "License used"
+      ],
+      "schemes": 1,
+      "domains": [
+        "software"
+      ],
+      "example_values": [],
+      "example_quote": "License used (“license”)"
+    },
+    {
+      "normalised": "licensing",
+      "verbatim_variants": [
+        "Licensing"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Licensing - [Best Practice]"
+    },
+    {
+      "normalised": "lighter disclosure",
+      "verbatim_variants": [
+        "Lighter disclosure"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "grammar editing",
+        "formatting",
+        "translation used only for comprehension",
+        "unused brainstorming",
+        "descriptive summary that does not enter synthesis"
+      ],
+      "example_quote": "Lighter disclosure remains appropriate for grammar editing, formatting, translation used only for comprehension, unused brainstorming, and descriptive summary that does not enter synthesis."
+    },
+    {
+      "normalised": "limitation communication",
+      "verbatim_variants": [
+        "limitation communication"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "limitation communication, and creator control over public process information"
+    },
+    {
+      "normalised": "linguistic impact axis",
+      "verbatim_variants": [
+        "Linguistic Impact Axis"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "Developmental AIMIC",
+        "Atrophying AIMIC"
+      ],
+      "example_quote": "The linguistic impact axis describes whether AI assistance expands or narrows communicative capacity."
+    },
+    {
+      "normalised": "llm provenance and metering",
+      "verbatim_variants": [
+        "LLM provenance and metering"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "Model/version ID",
+        "retrieval-source ID",
+        "prompt/output provenance policy",
+        "redaction status",
+        "token/compute use",
+        "latency"
+      ],
+      "example_quote": "LLM provenance and metering Model/version ID, retrieval-source ID, prompt/output provenance policy, redaction status, token/compute use, latency, review result, documentation-quality audit result wher"
+    },
+    {
+      "normalised": "llm task",
+      "verbatim_variants": [
+        "LLM task"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Text processing",
+        "Classification",
+        "Long-form question \nanswering",
+        "Information retrieval",
+        "Conversational agent \n(chatbot)",
+        "Documentation \ngeneration"
+      ],
+      "example_quote": "Table 1 | Research design and LLM task categories for the modular TRIPOD-LLM guidelines"
+    },
+    {
+      "normalised": "llms",
+      "verbatim_variants": [
+        "LLMs"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "(1) LLMs; (2) ChatGPT, (3) other GAI tools, (4) guidance limited to the writing process"
+    },
+    {
+      "normalised": "location",
+      "verbatim_variants": [
+        "Location"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Methods",
+        "Acknowledgments",
+        "Dedicated section",
+        "Submission form"
+      ],
+      "example_quote": "Location \nWhere the disclosure should appear \nMethods / Acknowledgments / Dedicated \nsection / Submission form"
+    },
+    {
+      "normalised": "location of disclosure statements",
+      "verbatim_variants": [
+        "Location of Disclosure Statements"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "acknowledgements section",
+        "dedicated AI-use disclosure section",
+        "methods",
+        "the methods and a dedicated AI disclosure section",
+        "discussion"
+      ],
+      "example_quote": "Placement of disclosure statements varied."
+    },
+    {
+      "normalised": "locus of responding",
+      "verbatim_variants": [
+        "locus of responding"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "classifies any AI-mediated instructional arrangement along four dimensions — terminal objective, operation type, support persistence, and locus of responding"
+    },
+    {
+      "normalised": "machine-readable disclosure",
+      "verbatim_variants": [
+        "Machine-readable disclosure"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Bibliographic databases can then filter or flag AI-authored works without reading the full text of papers."
+    },
+    {
+      "normalised": "machinereadablelandingpage",
+      "verbatim_variants": [
+        "MachineReadableLandingPage"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "none",
+        "exists",
+        "supportsDataCitation"
+      ],
+      "example_quote": "MachineReadableLandingPage none:1 exists:5 supportsDataCitation:2 Level of machine-readability of the dataset landing page (if any) provided by the repository"
+    },
+    {
+      "normalised": "macro and corresponding micro levels",
+      "verbatim_variants": [
+        "macro and corresponding micro levels"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "macro",
+        "micro"
+      ],
+      "example_quote": "It categorizes GAI's contributions at macro and corresponding micro levels, specifying the degree of human oversight required"
+    },
+    {
+      "normalised": "main types of contributions",
+      "verbatim_variants": [
+        "main types of contributions"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "technical support",
+        "contributions from colleagues, editors, and reviewers",
+        "logistics and fieldwork-related tasks",
+        "Conflicts of interest disclosures"
+      ],
+      "example_quote": "study the main types of contributions found in acknowledgments on a large scale and through disciplinary comparisons"
+    },
+    {
+      "normalised": "mandatory disclosure",
+      "verbatim_variants": [
+        "Mandatory Disclosure"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Policy mandates that authors disclose any utilization of AI tools."
+    },
+    {
+      "normalised": "mandatory disclosure as pedagogical metadata rather than merely as compliance",
+      "verbatim_variants": [
+        "mandatory disclosure as pedagogical metadata rather than merely as compliance"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "mandatory disclosure as pedagogical metadata rather than merely as compliance"
+    },
+    {
+      "normalised": "mandatory disclosure of ai usage",
+      "verbatim_variants": [
+        "Mandatory disclosure of AI usage"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "Mandatory disclosure of AI usage (Yes/No)"
+    },
+    {
+      "normalised": "mandatory labelling of aigc",
+      "verbatim_variants": [
+        "mandatory labelling of AIGC"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [],
+      "example_quote": "First, mandatory labelling of AIGC should be introduced on major platforms"
+    },
+    {
+      "normalised": "manuscript relevance",
+      "verbatim_variants": [
+        "Manuscript relevance"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Manuscript relevance General manuscript stage affected Whether AI influenced arguments, conclusions, methods, interpretation, or presentation"
+    },
+    {
+      "normalised": "map to appropriate guideline",
+      "verbatim_variants": [
+        "Map to appropriate guideline"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Rationale for selecting CONSORT-AI, SPIRIT-AI, DECIDE-AI,\nTRIPOD+AI, PRISMA 2020"
+      ],
+      "example_quote": "Map to appropriate guideline"
+    },
+    {
+      "normalised": "market information",
+      "verbatim_variants": [
+        "market information"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [],
+      "example_quote": "we derive public traces in audit-report communication, narrative disclosure, process measures, and market information"
+    },
+    {
+      "normalised": "materials sharing",
+      "verbatim_variants": [
+        "Materials sharing"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Materials sharing: whether study materials were reported as available, where they were available"
+    },
+    {
+      "normalised": "maturity level ‘ml’",
+      "verbatim_variants": [
+        "maturity level ‘ML’"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "architecture ‘A’",
+        "proposed ‘P’",
+        "implemented ‘I’",
+        "evaluated ‘E’"
+      ],
+      "example_quote": "maturity level ‘ML’ is considered in this question as an additional attribute"
+    },
+    {
+      "normalised": "maturity tier",
+      "verbatim_variants": [
+        "maturity tier"
+      ],
+      "schemes": 1,
+      "domains": [
+        "software"
+      ],
+      "example_values": [],
+      "example_quote": "at which maturity tier, supported by what evidence"
+    },
+    {
+      "normalised": "mechanism presentation",
+      "verbatim_variants": [
+        "Mechanism presentation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "Examples",
+        "exhaustive list"
+      ],
+      "example_quote": "Mechanism presentation\nHow documents describe the relationship of content transparency mechanisms they mention."
+    },
+    {
+      "normalised": "mechanisms",
+      "verbatim_variants": [
+        "Mechanisms"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "Invisible watermarks",
+        "Cryptographic/Digital Signatures",
+        "Metadata tagging"
+      ],
+      "example_quote": "Mechanisms\nDescribes the set of mechanisms the document specifically mentions"
+    },
+    {
+      "normalised": "media format",
+      "verbatim_variants": [
+        "media format"
+      ],
+      "schemes": 1,
+      "domains": [
+        "advertising"
+      ],
+      "example_values": [],
+      "example_quote": "based on their label, media format, and type of hybridity"
+    },
+    {
+      "normalised": "mentioning dispute resolution",
+      "verbatim_variants": [
+        "mentioning dispute resolution"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "mentioning dispute resolution"
+    },
+    {
+      "normalised": "metadataprovenance",
+      "verbatim_variants": [
+        "MetadataProvenance"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "unclear",
+        "adequate",
+        "full"
+      ],
+      "example_quote": "MetadataProvenance unclear:0 adequate:5 full:3 Are the (meta)data associated with detailed provenance?"
+    },
+    {
+      "normalised": "metadataprovenanceok",
+      "verbatim_variants": [
+        "metadataProvenanceOK"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "no",
+        "yes"
+      ],
+      "example_quote": "metadataProvenanceOK no:0 yes:8 Are the (meta)data associated with detailed provenance? (any answer except \"worst\")"
+    },
+    {
+      "normalised": "metadatareferencequality",
+      "verbatim_variants": [
+        "MetadataReferenceQuality"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "freeText",
+        "informal",
+        "formal"
+      ],
+      "example_quote": "MetadataReferenceQuality freeText:3 informal:3 formal:2 Type of qualified references to other (meta)data, included in the (meta)data stored in the repository"
+    },
+    {
+      "normalised": "methodological traces",
+      "verbatim_variants": [
+        "methodological traces"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "cross-paper relationships",
+        "explanatory claims",
+        "causal hierarchies",
+        "typologies",
+        "metaphors",
+        "adopted interpretive frames"
+      ],
+      "example_quote": "prompts should be treated as methodological traces when they shape cross-paper relationships, explanatory claims, causal hierarchies, typologies, metaphors, or adopted interpretive frames"
+    },
+    {
+      "normalised": "methodology of budget impact calculations",
+      "verbatim_variants": [
+        "Methodology of budget impact calculations"
+      ],
+      "schemes": 1,
+      "domains": [
+        "government"
+      ],
+      "example_values": [
+        "Publication is mandatory",
+        "Publication is recommended",
+        "No publication"
+      ],
+      "example_quote": "Methodology of budget impact calculations Publication is mandatory"
+    },
+    {
+      "normalised": "methodology of calculating the health gain by the new technology",
+      "verbatim_variants": [
+        "Methodology of calculating the health gain by the new technology"
+      ],
+      "schemes": 1,
+      "domains": [
+        "government"
+      ],
+      "example_values": [
+        "Publication is mandatory",
+        "Publication is recommended",
+        "No publication"
+      ],
+      "example_quote": "Methodology of calculating the health gain by the new technology Publication is mandatory"
+    },
+    {
+      "normalised": "methodology of cost calculations",
+      "verbatim_variants": [
+        "Methodology of cost calculations"
+      ],
+      "schemes": 1,
+      "domains": [
+        "government"
+      ],
+      "example_values": [
+        "Publication is mandatory",
+        "Publication is recommended",
+        "No publication"
+      ],
+      "example_quote": "Methodology of cost calculations Publication is mandatory"
+    },
+    {
+      "normalised": "microbiology",
+      "verbatim_variants": [
+        "microbiology"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+    },
+    {
+      "normalised": "minimum attributable fields",
+      "verbatim_variants": [
+        "Minimum Attributable Fields"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "Model ID",
+        "Prompts",
+        "Human Contribution",
+        "Timestamp",
+        "Signature"
+      ],
+      "example_quote": "At minimum, systems must record the model identifier and version, as outputs vary across training iterations"
+    },
+    {
+      "normalised": "misconduct involving ai use",
+      "verbatim_variants": [
+        "Misconduct Involving AI Use"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [
+        "Broad Disciplinary Guidelines",
+        "Established Processes",
+        "Using AI Software to Determine AI Misuse",
+        "Policies Governing AI Detection Use"
+      ],
+      "example_quote": "This theme concerns faculty enforcement of policies enforcing ethical and integrity-driven use of generative AI, in addition to stipulations on the use of AI detection software."
+    },
+    {
+      "normalised": "mitigate systemic vulnerability and dependency",
+      "verbatim_variants": [
+        "Mitigate systemic vulnerability and dependency"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "(8) Mitigate systemic vulnerability and dependency: widespread integration of LLMs into research workflows may create systemic dependencies"
+    },
+    {
+      "normalised": "modalities of honorary authorship",
+      "verbatim_variants": [
+        "modalities of honorary authorship"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "gift authorship",
+        "guest authorship",
+        "coercive authorship"
+      ],
+      "example_quote": "Three different modalities of honorary authorship were distinguished: gift authorship, guest authorship, and coercive authorship."
+    },
+    {
+      "normalised": "modality",
+      "verbatim_variants": [
+        "Modality"
+      ],
+      "schemes": 1,
+      "domains": [
+        "software"
+      ],
+      "example_values": [
+        "Interactive",
+        "Static"
+      ],
+      "example_quote": "S&P information formats that support on-demand user interaction."
+    },
+    {
+      "normalised": "model archiving",
+      "verbatim_variants": [
+        "model archiving"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "parameters and settings, model archiving, and iterative \ndocumentation. The level of detail in \ndocumentation should be balanced"
+    },
+    {
+      "normalised": "model component-to-output traceability.",
+      "verbatim_variants": [
+        "Model component-to-output traceability."
+      ],
+      "schemes": 1,
+      "domains": [
+        "software"
+      ],
+      "example_values": [],
+      "example_quote": "model component-to-output traceability concerns the internal components of the model, such as specific neuron circuits or attention heads"
+    },
+    {
+      "normalised": "model configuration",
+      "verbatim_variants": [
+        "Model Configuration"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Interface",
+        "Model class",
+        "Temperature",
+        "Top-p",
+        "Max tokens",
+        "Input bundle SHA-256"
+      ],
+      "example_quote": "Model Configuration"
+    },
+    {
+      "normalised": "model description",
+      "verbatim_variants": [
+        "Model description"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Model family, features, training data summary"
+      ],
+      "example_quote": "Model description"
+    },
+    {
+      "normalised": "model details",
+      "verbatim_variants": [
+        "model details"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "base model",
+        "novel base \nmodel",
+        "tuned \nmodel",
+        "fine-tuned model"
+      ],
+      "example_quote": "State whether the generative AI model was a base model or a novel base \nmodel, tuned \nmodel, or fine-tuned model."
+    },
+    {
+      "normalised": "model identifiers",
+      "verbatim_variants": [
+        "model identifiers"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "State the name and version identifier(s) of the generative AI model(s) and chatbot(s) under \nevaluation"
+    },
+    {
+      "normalised": "model identity and version",
+      "verbatim_variants": [
+        "Model identity and version"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Fully recorded"
+      ],
+      "example_quote": "Model identity and version"
+    },
+    {
+      "normalised": "model specification",
+      "verbatim_variants": [
+        "Model \nspecification"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Model name, vendor/developer, version/identifier, release date, and training/knowledge cutoff date",
+        "Model architecture and key characteristics",
+        "Model pretraining, post-training, and inference-time adaptation strategy",
+        "Modality support details (input and output) and limitations",
+        "Language capabilities",
+        "Model access"
+      ],
+      "example_quote": "1.1 Model name, vendor/developer, version/identifier, release date, and training/knowledge cutoff date"
+    },
+    {
+      "normalised": "model version",
+      "verbatim_variants": [
+        "model version"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "which includes 6 domains, namely tool identity, stage of use, model version, prompting or configuration details, human verification, and data-privacy or ethical statements"
+    },
+    {
+      "normalised": "modes of reference",
+      "verbatim_variants": [
+        "modes of reference"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Inventory publication citations",
+        "Data citations (DC set)",
+        "Resource mentions (RM set)"
+      ],
+      "example_quote": "we compared three complementary modes of reference, each reflecting a different level of formality and intent"
+    },
+    {
+      "normalised": "molecular biology",
+      "verbatim_variants": [
+        "molecular biology"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+    },
+    {
+      "normalised": "multi-stakeholder governance system",
+      "verbatim_variants": [
+        "multi-stakeholder governance system"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "AI developers",
+        "platform operators",
+        "regulators",
+        "civil society organizations",
+        "academic researchers",
+        "user representatives"
+      ],
+      "example_quote": "Third, a multi-stakeholder governance system should be established to build an adaptive rule-making system"
+    },
+    {
+      "normalised": "name of ai tool",
+      "verbatim_variants": [
+        "name of AI tool"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "name of AI tool"
+    },
+    {
+      "normalised": "name of research data",
+      "verbatim_variants": [
+        "Name of research data"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "2. Name of research data"
+    },
+    {
+      "normalised": "narrative disclosure",
+      "verbatim_variants": [
+        "narrative disclosure"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [],
+      "example_quote": "we derive public traces in audit-report communication, narrative disclosure, process measures, and market information"
+    },
+    {
+      "normalised": "nationallevel ai education regulations",
+      "verbatim_variants": [
+        "nationallevel AI education regulations"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "nationallevel AI education regulations → university-level AI usage policies → course-specific AI application guidelines"
+    },
+    {
+      "normalised": "nature of ai output",
+      "verbatim_variants": [
+        "Nature of AI output"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [
+        "Yes",
+        "No"
+      ],
+      "example_quote": "Is the submission substantially identical to AI output?"
+    },
+    {
+      "normalised": "nature of ai use",
+      "verbatim_variants": [
+        "Nature of AI Use"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Editing",
+        "Transcription",
+        "Analysis",
+        "Drafting",
+        "Literature Review: Article Screening"
+      ],
+      "example_quote": "We characterized the use of AI into six types based on the language in the disclosures"
+    },
+    {
+      "normalised": "nature of evidence",
+      "verbatim_variants": [
+        "Nature of evidence"
+      ],
+      "schemes": 1,
+      "domains": [
+        "government"
+      ],
+      "example_values": [
+        "research",
+        "opinion",
+        "strategy documents",
+        "raw data"
+      ],
+      "example_quote": "The nature of evidence was categorised as research, opinion, strategy documents or raw data."
+    },
+    {
+      "normalised": "neutrality and balance",
+      "verbatim_variants": [
+        "neutrality and balance"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "neutrality and balance"
+    },
+    {
+      "normalised": "new items",
+      "verbatim_variants": [
+        "new items"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "clear descriptions of the AI interven-\ntion, including instructions and skills required for use",
+        "the study setting in which the AI intervention is inte-\ngrated",
+        "the handling of inputs and outputs of the AI\nintervention",
+        "the human-AI interaction",
+        "the analysis\nof error cases"
+      ],
+      "example_quote": "The SPIRIT-AI [20–22] and CONSORT-AI [23–25]\nguidelines include 15 and 14 new items, respectively"
+    },
+    {
+      "normalised": "nine distinct types",
+      "verbatim_variants": [
+        "nine distinct types"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "The STM framework categorizes AI-assisted tasks into nine distinct types"
+    },
+    {
+      "normalised": "no ai author",
+      "verbatim_variants": [
+        "No AI author"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Generative AI, including language models, chatbots, image creators, machine learning, or similar technologies do not qualify for authorship."
+    },
+    {
+      "normalised": "no authorship is allowed for generative artificial intelligence",
+      "verbatim_variants": [
+        "No authorship is allowed for generative artificial intelligence"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "YES",
+        "NO",
+        "UNSURE"
+      ],
+      "example_quote": "No authorship is allowed for generative artificial intelligence"
+    },
+    {
+      "normalised": "no-delegate zones",
+      "verbatim_variants": [
+        "No-delegate zones"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [],
+      "example_quote": "OP2 Drafting\nNo-delegate zones\nCritical or sensitive content"
+    },
+    {
+      "normalised": "non-disclosure consequences are mentioned",
+      "verbatim_variants": [
+        "Non-disclosure consequences are mentioned"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "YES",
+        "NO",
+        "UNSURE"
+      ],
+      "example_quote": "Non-disclosure consequences are mentioned"
+    },
+    {
+      "normalised": "non-maleficence",
+      "verbatim_variants": [
+        "Non-maleficence"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "The prevention of harm and potential risks to patients associated with generative AI use in healthcare."
+    },
+    {
+      "normalised": "nuanced vocabulary for describing the ways in which llms contribute to the writing process",
+      "verbatim_variants": [
+        "nuanced vocabulary for describing the ways in which LLMs contribute to the writing process"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "lexical assistance",
+        "stylistic augmentation",
+        "narrative generation",
+        "thematic innovation"
+      ],
+      "example_quote": "it is helpful to develop a nuanced vocabulary for describing the ways in which LLMs contribute to the writing process."
+    },
+    {
+      "normalised": "object binding",
+      "verbatim_variants": [
+        "Object binding"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "Establishes the exact ISA-governed object and representation used"
+    },
+    {
+      "normalised": "objectivity",
+      "verbatim_variants": [
+        "Objectivity"
+      ],
+      "schemes": 1,
+      "domains": [
+        "journalism_media"
+      ],
+      "example_values": [],
+      "example_quote": "defined as neutral reporting, which obliges journalists to carefully research and write articles independently of their own opinions, attitudes, or biases"
+    },
+    {
+      "normalised": "one-minute pause",
+      "verbatim_variants": [
+        "One-minute pause"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [],
+      "example_quote": "OP5 Refining\nOne-minute pause\nFluency illusion"
+    },
+    {
+      "normalised": "only for language improvement",
+      "verbatim_variants": [
+        "Only for language improvement"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "authors are allowed to use AI-assisted technologies (such as LLMs, chatbots, image creator, or other) only for English correction or translation"
+    },
+    {
+      "normalised": "ontological status",
+      "verbatim_variants": [
+        "Ontological status"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Ontological status\nDigital scientific artefact\nDigital scientific artefact"
+    },
+    {
+      "normalised": "open access publication",
+      "verbatim_variants": [
+        "Open access publication"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Open access publication: whether the study was published as open access, assessed via the Open Access button website"
+    },
+    {
+      "normalised": "operation type",
+      "verbatim_variants": [
+        "operation type"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "classifies any AI-mediated instructional arrangement along four dimensions — terminal objective, operation type, support persistence, and locus of responding"
+    },
+    {
+      "normalised": "operational metrics of governability",
+      "verbatim_variants": [
+        "operational metrics of governability"
+      ],
+      "schemes": 1,
+      "domains": [
+        "software"
+      ],
+      "example_values": [
+        "attribution integrity",
+        "intervention latency",
+        "traceability across services",
+        "robustness under adversarial evasion"
+      ],
+      "example_quote": "Such metrics must minimally include attribution integrity, intervention latency, traceability across services"
+    },
+    {
+      "normalised": "operational resource note",
+      "verbatim_variants": [
+        "Operational resource note"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "Runtime dependencies, cloud or local execution assumptions, access requirements, cost or energy implications, and low-resource fallback if relevant."
+    },
+    {
+      "normalised": "operational risks",
+      "verbatim_variants": [
+        "operational risks"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "comprising structured domains addressing AI role clarification, clinician accountability, contextual differentiation, operational risks, secondary data governance, adaptive consent design, and transpa"
+    },
+    {
+      "normalised": "option value",
+      "verbatim_variants": [
+        "option value"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "provenance capital",
+        "provenance debt",
+        "remixability"
+      ],
+      "example_quote": "we introduce provenance capital, provenance debt, and remixability as option value"
+    },
+    {
+      "normalised": "orchestration level",
+      "verbatim_variants": [
+        "Orchestration level"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [
+        "Passive Acceptor",
+        "Selective Adapter",
+        "Balanced Integrator",
+        "Critical Synthesiser"
+      ],
+      "example_quote": "Passive Acceptor, Selective Adapter,\nBalanced Integrator, and Critical Synthesiser."
+    },
+    {
+      "normalised": "orcid identifiers",
+      "verbatim_variants": [
+        "ORCID identifiers"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "ORCID identifiers"
+    },
+    {
+      "normalised": "orcidassociation",
+      "verbatim_variants": [
+        "OrcidAssociation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "none",
+        "supported",
+        "required"
+      ],
+      "example_quote": "OrcidAssociation none:6 supported:2 required:0 Does the repository allow the authors to associate their ORCID ID with a dataset?"
+    },
+    {
+      "normalised": "ordinal scale",
+      "verbatim_variants": [
+        "ordinal scale"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "lead",
+        "equal",
+        "supporting"
+      ],
+      "example_quote": "Contributions can be denoted using an ordinal scale—either coarse (e.g., lead, equal, and supporting) or fine-grained"
+    },
+    {
+      "normalised": "originality",
+      "verbatim_variants": [
+        "originality"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "First, originality prioritizes the individual initiative, independent discretion and human authorship of all academic work"
+    },
+    {
+      "normalised": "other gai tools",
+      "verbatim_variants": [
+        "other GAI tools"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "(1) LLMs; (2) ChatGPT, (3) other GAI tools, (4) guidance limited to the writing process"
+    },
+    {
+      "normalised": "outcome window",
+      "verbatim_variants": [
+        "Outcome window"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "6 h, 24 h, 30 day windows",
+        "censoring rules",
+        "competing events",
+        "attribution hierarchy"
+      ],
+      "example_quote": "Outcome window Follow-up horizon and linkage rules."
+    },
+    {
+      "normalised": "outcomes and metrics pre- specification",
+      "verbatim_variants": [
+        "Outcomes and metrics pre-\nspecification"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Primary/secondary outcomes; performance metrics"
+      ],
+      "example_quote": "Outcomes and metrics pre-\nspecification"
+    },
+    {
+      "normalised": "output evaluation",
+      "verbatim_variants": [
+        "Output \nevaluation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Output evaluation method and performance metrics",
+        "Human evaluator characteristics and reliability analysis",
+        "Statistical analysis of evaluation results",
+        "Subgroup performance and output bias assessment",
+        "Failure analysis and error metrics",
+        "Output stochasticity and reproducibility constraints"
+      ],
+      "example_quote": "5.1 Output evaluation method and performance metrics"
+    },
+    {
+      "normalised": "output use",
+      "verbatim_variants": [
+        "Output use"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Output use General statement that outputs were reviewed Description of what was accepted, modified, rejected, or incorporated"
+    },
+    {
+      "normalised": "output variability",
+      "verbatim_variants": [
+        "output variability"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "document key aspects of AI usage in research, including: AI tool and version, specific contributions, data and prompts used, output variability"
+    },
+    {
+      "normalised": "overall vulnerability level",
+      "verbatim_variants": [
+        "overall vulnerability level"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "Moderate",
+        "High",
+        "Very High"
+      ],
+      "example_quote": "The vulnerability assessment in dimension (vii) employs a structured three-factor rubric"
+    },
+    {
+      "normalised": "ownership",
+      "verbatim_variants": [
+        "Ownership"
+      ],
+      "schemes": 1,
+      "domains": [
+        "software"
+      ],
+      "example_values": [],
+      "example_quote": "Ownership The NFT encodes ownership and ownership history and references the asset via URI"
+    },
+    {
+      "normalised": "p-layer (provenance)",
+      "verbatim_variants": [
+        "P-Layer (Provenance)"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "If a manifest is malformed/forged on high-risk content, reject with rationale + appeal."
+    },
+    {
+      "normalised": "p1 content scope",
+      "verbatim_variants": [
+        "P1\ncontent scope"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "Unqualified usage of AI tools",
+        "Qualified usage of AI tools (quantitative)",
+        "Qualified usage of AI tools (qualitative)",
+        "Not defined"
+      ],
+      "example_quote": "P1\ncontent scope\nUnqualified usage of AI tools\n17\nQualified usage of AI tools (quantitative)"
+    },
+    {
+      "normalised": "p2 use cases",
+      "verbatim_variants": [
+        "P2\nuse cases"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "General",
+        "Specific",
+        "Exceptions"
+      ],
+      "example_quote": "P2\nuse cases\nGeneral\n20\nSpecific\n23\nExceptions\n6"
+    },
+    {
+      "normalised": "p3 mandates",
+      "verbatim_variants": [
+        "P3\nmandates"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "Model providers must add disclosures",
+        "Model users must proactively disclosure",
+        "Disclosures must not be removed",
+        "Gov’t agencies must establish standards"
+      ],
+      "example_quote": "P3\nmandates\nModel providers must add disclosures\n14\nModel users must proactively disclosure\n26"
+    },
+    {
+      "normalised": "p4 disc. mech.",
+      "verbatim_variants": [
+        "P4\ndisc. mech."
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "Broad",
+        "Specific"
+      ],
+      "example_quote": "P4\ndisc. mech.\nBroad\n38\nSpecific\n5"
+    },
+    {
+      "normalised": "p5 requirements on disc. mech.",
+      "verbatim_variants": [
+        "P5\nrequirements on\ndisc. mech."
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "No requirements",
+        "Qualitative requirements",
+        "Specific requirements"
+      ],
+      "example_quote": "P5\nrequirements on\ndisc. mech.\nNo requirements\n7\nQualitative requirements\n26"
+    },
+    {
+      "normalised": "p6 penalties",
+      "verbatim_variants": [
+        "P6\npenalties"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [
+        "Monetary penalties",
+        "Violation of existing statute",
+        "No penalties mentioned"
+      ],
+      "example_quote": "P6\npenalties\nMonetary penalties\n13\nViolation of existing statute\n8"
+    },
+    {
+      "normalised": "page",
+      "verbatim_variants": [
+        "Page"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Each unit was tagged with metadata: Author | Year | Page | Functional role (Background/Method/Finding/Limitation)"
+    },
+    {
+      "normalised": "parameters and settings",
+      "verbatim_variants": [
+        "parameters and settings"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "parameters and settings, model archiving, and iterative \ndocumentation. The level of detail in \ndocumentation should be balanced"
+    },
+    {
+      "normalised": "participant interaction",
+      "verbatim_variants": [
+        "Participant Interaction"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "poses 20 questions across five key themes: The Research Team, Participant Interaction, Study Design, Data Practices, and Data Analysis"
+    },
+    {
+      "normalised": "participants",
+      "verbatim_variants": [
+        "Participants"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Describe how patients were recruited, stating the inclusion and exclusion criteria at both patient and data level"
+    },
+    {
+      "normalised": "participatory co-development",
+      "verbatim_variants": [
+        "Participatory co-development"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "This criterion can be operationalised using the GRIPP2 checklist ( 34 ) for standardised reporting of patient and public involvement"
+    },
+    {
+      "normalised": "pathways for ai-generated text-to-video (t2v) production",
+      "verbatim_variants": [
+        "pathways for AI-generated text-to-video (T2V) production"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [
+        "Open-Source Commercial T2V",
+        "Closed-Source Professional T2V",
+        "Closed-Source Entry-Level T2V",
+        "Stepwise Generation",
+        "Enhanced Generation"
+      ],
+      "example_quote": "we synthesized five pathways for AI-generated text-to-video (T2V) production"
+    },
+    {
+      "normalised": "patient and public involvement",
+      "verbatim_variants": [
+        "Patient and public involvement"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Patient and public involvement"
+      ],
+      "example_quote": "Provide details of any patient and public involvement during the design, conduct, reporting, interpretation, or dissemination of the study or state no involvement"
+    },
+    {
+      "normalised": "patterns",
+      "verbatim_variants": [
+        "patterns"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "human-only",
+        "AI-only",
+        "modified-AI",
+        "AI-guided"
+      ],
+      "example_quote": "categorizing message generation into four patterns: human-only, AI-only, modified-AI, and AI-guided"
+    },
+    {
+      "normalised": "patterns of human–ai interaction",
+      "verbatim_variants": [
+        "patterns of human–AI interaction"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "(8) patterns of human–AI interaction"
+    },
+    {
+      "normalised": "payment- and commerce-specific attestation",
+      "verbatim_variants": [
+        "payment- and commerce-specific attestation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [],
+      "example_quote": "identity-focused attestation, payment- and commerce-specific attestation, and two adjacent"
+    },
+    {
+      "normalised": "pedagogical validity",
+      "verbatim_variants": [
+        "Pedagogical validity"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "Attentional Focus Appropriateness",
+        "Autonomy Support",
+        "Context Sensitivity",
+        "Movement Variability Support"
+      ],
+      "example_quote": "We define pedagogical validity as the alignment between AI-supported instructional processes and empirically grounded motor learning principles, operationalized through four interrelated dimensions"
+    },
+    {
+      "normalised": "peer review",
+      "verbatim_variants": [
+        "Peer Review"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Prohibited",
+        "Permitted with conditions"
+      ],
+      "example_quote": "Peer Review \nUse of AI by reviewers/editors \nProhibited / Permitted with conditions"
+    },
+    {
+      "normalised": "peer review policy",
+      "verbatim_variants": [
+        "Peer review policy"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "allow",
+        "prohibit"
+      ],
+      "example_quote": "Does the journal allow or prohibit peer reviewers to use AI?"
+    },
+    {
+      "normalised": "peer review restriction",
+      "verbatim_variants": [
+        "Peer \nreview \nrestriction"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Prohibition due to confidentiality"
+      ],
+      "example_quote": "Peer \nreview \nrestriction \nAre reviewers/editors restricted from \nAI tool use?"
+    },
+    {
+      "normalised": "peer review use",
+      "verbatim_variants": [
+        "Peer review use"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Prohibited"
+      ],
+      "example_quote": "Peer review use\nProhibited Prohibited Prohibited Prohibited Uniformity shows the importance of the restriction on peer review."
+    },
+    {
+      "normalised": "perceived consequences",
+      "verbatim_variants": [
+        "perceived consequences"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [],
+      "example_quote": "disclosure thresholds depended on creative contribution, final output involvement, and perceived consequences"
+    },
+    {
+      "normalised": "perceived effort/capability grade",
+      "verbatim_variants": [
+        "perceived effort/capability grade"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "The AHP priority weights were multiplied against a four-level perceived effort/capability grade to calculate an authorship score"
+    },
+    {
+      "normalised": "perceived task risk",
+      "verbatim_variants": [
+        "perceived \ntask risk"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [
+        "high",
+        "low"
+      ],
+      "example_quote": "(d) perceived \ntask risk (high/low)"
+    },
+    {
+      "normalised": "percentage of ai-use",
+      "verbatim_variants": [
+        "percentage of AI-use"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "percentage of AI-use, explicit prompts/\ninput, purpose of AI use"
+    },
+    {
+      "normalised": "performance evaluation",
+      "verbatim_variants": [
+        "performance evaluation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "the process behind \nperformance evaluation (item 5, item 7)"
+    },
+    {
+      "normalised": "permission type",
+      "verbatim_variants": [
+        "Permission Type"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "prohibited",
+        "conditionally allowed",
+        "unrestricted"
+      ],
+      "example_quote": "The policy specifies whether the use of AI is prohibited, conditionally allowed, or unrestricted."
+    },
+    {
+      "normalised": "permitted ai use",
+      "verbatim_variants": [
+        "permitted AI use"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Six key themes emerged: permitted AI use, prohibited AI use, disclosure requirements, AI as author and co-author, AI in peer review, and policy adaptability"
+    },
+    {
+      "normalised": "permitted and prohibited uses",
+      "verbatim_variants": [
+        "permitted and prohibited uses"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "descriptive cross-case summaries of permitted and prohibited uses, disclosure and verification requirements, ethical safeguards, and ratings of clarity, actionability, and assessment specificity"
+    },
+    {
+      "normalised": "permitted uses",
+      "verbatim_variants": [
+        "Permitted uses"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Language \nediting",
+        "translation",
+        "idea \nstructuring"
+      ],
+      "example_quote": "Permitted uses \nWhat AI uses are allowed?"
+    },
+    {
+      "normalised": "pharmacology",
+      "verbatim_variants": [
+        "pharmacology"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+    },
+    {
+      "normalised": "phase",
+      "verbatim_variants": [
+        "Phase"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "Set an AI-Free Zone",
+        "Struggle",
+        "Spar with AI"
+      ],
+      "example_quote": "Set an AI-Free Zone Remove AI-accessible devices; create analog cognitive workspace"
+    },
+    {
+      "normalised": "placement/prominence",
+      "verbatim_variants": [
+        "placement/prominence"
+      ],
+      "schemes": 1,
+      "domains": [
+        "journalism_media"
+      ],
+      "example_values": [],
+      "example_quote": "framing (neutral informational vs. warning-like language), placement/prominence, timing (pre-exposure vs. concurrent vs. post-exposure)"
+    },
+    {
+      "normalised": "plagiarism screening",
+      "verbatim_variants": [
+        "plagiarism screening"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "plagiarism screening"
+    },
+    {
+      "normalised": "plant science",
+      "verbatim_variants": [
+        "plant science"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "we identify nine distinct use-case categories spanning molecular biology, immunology, clinical medicine, pharmacology, microbiology, plant science, experimental workflows"
+    },
+    {
+      "normalised": "policies",
+      "verbatim_variants": [
+        "Policies"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Policies Maintainers & policies (erratum, updates, deprecation)"
+    },
+    {
+      "normalised": "policies around making changes to authorship",
+      "verbatim_variants": [
+        "Policies around making changes to authorship"
+      ],
+      "schemes": 1,
+      "domains": [
+        "software"
+      ],
+      "example_values": [],
+      "example_quote": "Policies around making changes to authorship"
+    },
+    {
+      "normalised": "policies governing reviewer and editor use of ai",
+      "verbatim_variants": [
+        "policies governing reviewer and editor use of AI"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Third, policies governing reviewer and editor use of AI remain conspicuously underdeveloped"
+    },
+    {
+      "normalised": "policy",
+      "verbatim_variants": [
+        "Policy"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Disclosure",
+        "Prohibition"
+      ],
+      "example_quote": "Organization\nPolicy\nThreshold\nDisclosure location"
+    },
+    {
+      "normalised": "policy adaptability",
+      "verbatim_variants": [
+        "policy adaptability"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Six key themes emerged: permitted AI use, prohibited AI use, disclosure requirements, AI as author and co-author, AI in peer review, and policy adaptability"
+    },
+    {
+      "normalised": "policy interpretation",
+      "verbatim_variants": [
+        "Policy Interpretation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "education_assessment"
+      ],
+      "example_values": [],
+      "example_quote": "“Ideas are still mine.”"
+    },
+    {
+      "normalised": "policy on ai tool as an author",
+      "verbatim_variants": [
+        "Policy on AI tool as an author"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "allowed",
+        "prohibited"
+      ],
+      "example_quote": "Is authorship for AI tools allowed or prohibited?"
+    },
+    {
+      "normalised": "policy status",
+      "verbatim_variants": [
+        "Policy status"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Yes",
+        "No explicit statement"
+      ],
+      "example_quote": "Is there a statement or policy for use of GenAI by authors? \nYes – Statement or policy apparent"
+    },
+    {
+      "normalised": "policy strength",
+      "verbatim_variants": [
+        "policy strength"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "require",
+        "recommend",
+        "accept",
+        "no policy"
+      ],
+      "example_quote": "Policy requirements were classified into four categories based on their strength: require, recommend, accept, or no policy."
+    },
+    {
+      "normalised": "policy type",
+      "verbatim_variants": [
+        "Policy Type"
+      ],
+      "schemes": 1,
+      "domains": [
+        "workplace"
+      ],
+      "example_values": [
+        "No AI",
+        "Use AI for minor tasks",
+        "Use AI for major tasks",
+        "Use AI as much as possible",
+        "Use AI to automate work"
+      ],
+      "example_quote": "five possible interpretations: No AI, Use AI for minor tasks, Use AI for major tasks, Use AI as much as possible"
+    },
+    {
+      "normalised": "policy under development or revision",
+      "verbatim_variants": [
+        "Policy Under Development or Revision"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [],
+      "example_quote": "Policy indicates that the guidelines are currently under review and may be subject to future updates."
+    },
+    {
+      "normalised": "population and setting clarity",
+      "verbatim_variants": [
+        "Population and setting clarity"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Clear eligibility, setting, timeframe"
+      ],
+      "example_quote": "Population and setting clarity"
+    },
+    {
+      "normalised": "population-limit disclosure",
+      "verbatim_variants": [
+        "Population-limit disclosure"
+      ],
+      "schemes": 1,
+      "domains": [
+        "other"
+      ],
+      "example_values": [
+        "neurodivergent",
+        "gender-diverse",
+        "minority-language",
+        "non-Western",
+        "paediatric or adolescent"
+      ],
+      "example_quote": "including neurodivergent, gender-diverse, minority-language, non-Western, and paediatric or adolescent users"
+    },
+    {
+      "normalised": "position of disclosure",
+      "verbatim_variants": [
+        "Position of disclosure"
+      ],
+      "schemes": 1,
+      "domains": [
+        "advertising"
+      ],
+      "example_values": [
+        "in title",
+        "above the \ntext",
+        "in the text",
+        "between sentences",
+        "below the \ntext of the blog post"
+      ],
+      "example_quote": "the placement of the disclosure, (i.e., in title, above the \ntext, in the text, between sentences, or below the \ntext of the blog post)"
+    },
+    {
+      "normalised": "possible tasks",
+      "verbatim_variants": [
+        "possible tasks"
+      ],
+      "schemes": 1,
+      "domains": [
+        "research_publishing"
+      ],
+      "example_values": [
+        "Conceptualization",
+        "Data curation",
+        "Formal analysis",
+        "Funding acquisition",
+        "Investigation",
+        "Methodology"
+      ],
+      "example_quote": "authors’ contributions are speciﬁed across 14\npossible tasks (‘Conceptualization’, ‘Data curation’, ‘Formal analysis’,\n‘Funding acquisition’, ‘Investigation’, ‘Methodology’"
+    },
+    {
+      "normalised": "post-release evaluation",
+      "verbatim_variants": [
+        "post-release evaluation"
+      ],
+      "schemes": 1,
+      "domains": [
+        "law_regulation"
+      ],
+      "example_values": [],
+      "example_quote": "makes ongoing post-release evaluation a critical component of any system of AI transparency"
+    }
+  ]
+}

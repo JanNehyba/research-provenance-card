@@ -1,0 +1,166 @@
+{
+  "packet_id": "ab-022",
+  "papers": [
+    {
+      "rec_id": "4b65e7f1b4a59821",
+      "has_scheme": false,
+      "reason": "proposes a quantitative authorship threshold based on two continuous variables (time invested by each contributor, normalized value of that time); these are model variables feeding a threshold, not an enumerated category scheme."
+    },
+    {
+      "rec_id": "3f424c9d7a968fdd",
+      "has_scheme": false,
+      "reason": "the retrieved text is a brief editorial comment welcoming the CONSORT-AI/SPIRIT-AI extensions; it does not enumerate any checklist items itself."
+    },
+    {
+      "rec_id": "0b14a0a3726ab4a8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "berdyansk-ai-usage-regimes",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5281/zenodo.17184313",
+          "domain": "education_assessment",
+          "artifact_type": "policy",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI usage regimes",
+              "definition_quote": "",
+              "value_list_verbatim": ["allowed", "allowed with restrictions", "prohibited in controlled environments"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The Policy establishes AI usage regimes (“allowed,” “allowed with restrictions,” “prohibited in controlled environments”)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2404a36775e9e336",
+      "has_scheme": false,
+      "reason": "reports comparative findings across 52 news-organisation AI policies (convergence on transparency and human supervision) without enumerating the coding dimensions used to compare them."
+    },
+    {
+      "rec_id": "590a674b1bf3eb6c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "qaf-ai-competence-dimension",
+          "scheme_name_verbatim": "Quality Assessment Framework (QAF)",
+          "source_ref": "doi:10.14742/apubs.2024.1323",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "A trial, conducted across selected disciplines at the institute, involved academic staff as assessment reviewers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI competence dimension",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "modified its Quality Assessment Framework (QAF) to incorporate an AI competence dimension"
+            },
+            {
+              "dimension_label_verbatim": "Intellectual Quality",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the existing QAF elements—Intellectual Quality, Significance, and Student Support"
+            },
+            {
+              "dimension_label_verbatim": "Significance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the existing QAF elements—Intellectual Quality, Significance, and Student Support"
+            },
+            {
+              "dimension_label_verbatim": "Student Support",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the existing QAF elements—Intellectual Quality, Significance, and Student Support"
+            }
+          ]
+        },
+        {
+          "scheme_id": "aias-five-levels-ref",
+          "scheme_name_verbatim": "AI Assessment Scale (AIAS)",
+          "source_ref": "doi:10.14742/apubs.2024.1323",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI usage",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the AI Assessment Scale (AIAS) by Perkins et al. (2024), which categorises AI usage across five levels"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ed0940f7ba560f7e",
+      "has_scheme": false,
+      "reason": "the retrieved text is only an introductory sentence about AI/LLM tools in medical writing; no categories or scheme stated."
+    },
+    {
+      "rec_id": "41d510c71ce3e5f6",
+      "has_scheme": false,
+      "reason": "the retrieved text is a single sentence noting the article expands on panel remarks about deepfakes/misinformation regulation; no scheme content given."
+    },
+    {
+      "rec_id": "381ca58ef8b23118",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "kr-nrdia-misconduct-taxonomy",
+          "scheme_name_verbatim": "the Act’s misconduct taxonomy",
+          "source_ref": "doi:10.11111/jkana.2025.0082",
+          "domain": "law_regulation",
+          "artifact_type": "policy",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "statutory categories of research misconduct",
+              "definition_quote": "",
+              "value_list_verbatim": ["fabrication", "falsification", "plagiarism", "improper authorship", "improper ownership of research and development outcomes", "breaches of security measures"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Generative AI may plausibly implicate fabrication, falsification, plagiarism, and improper authorship (Article 31(1)1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a479a14d35f9f715",
+      "has_scheme": false,
+      "reason": "the retrieved text is only the fragment 'Generating more questions than answers.'; no content to assess a scheme."
+    },
+    {
+      "rec_id": "db4d8a569fb3a4dd",
+      "has_scheme": false,
+      "reason": "the retrieved text is a truncated fragment ('well the data match the intended use of the model.'); no checklist items are visible despite the title referencing the CLAIM checklist."
+    }
+  ]
+}

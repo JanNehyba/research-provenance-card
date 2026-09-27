@@ -1,0 +1,120 @@
+{
+  "packet_id": "ft-095",
+  "papers": [
+    {
+      "rec_id": "357fe0b02be4b371",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "hadan-ai-incident-taxonomy",
+          "scheme_name_verbatim": "AI privacy and ethical incidents taxonomy",
+          "source_ref": "doi:10.48550/arxiv.2504.01029",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "202 real-world cases from 2023–2024",
+          "machine_readable_artifact": "https://osf.io/swy5j/",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Theme: Incident Type",
+              "definition_quote": "The type of incident refers to the specific issue identified within an incident. In some cases, multiple issues may contribute to a single incident.",
+              "value_list_verbatim": ["Secondary data use for AI training", "Problematic database used for AI training", "Secondary data use for AI functions", "AI false, unexpected, disappointing behavior", "Deliberate bypassing of AI safeguards", "AI data breach", "Unauthorized sale of AI user data", "Non-consensual imagery, impersonation, fake content", "Problematic AI implementation", "Use of unlawful/problematic AI tools", "Deanonymization, stalking, harassment", "Public entity amplify misleading AI content", "Unclear user agreements and policy statements"],
+              "closed_or_open": "closed_list",
+              "locator": "Table F5",
+              "quote": "The type of incident refers to the specific issue identified within an incident."
+            },
+            {
+              "dimension_label_verbatim": "Theme: Cause",
+              "definition_quote": "The cause of the incident. In some cases, multiple causes may collaboratively contribute to an incident.",
+              "value_list_verbatim": ["AI misinterpretation, hallucinations, malfunctions, inefficiency", "Potential AI bias (racism/inequality)", "Programmed AI with problematic functions", "Abuse of AI tools", "Lack of trust in AI technology", "Over-trusting AI technology", "Employee internal threats", "Lack of informed consent, transparency", "Legal non-compliance", "Poor business ethics", "Lack of AI policy", "Lack of data protection", "Vague policy information", "Lack of AI fail-safe measures", "Swaying public opinions", "Legal loophole", "No information"],
+              "closed_or_open": "closed_list",
+              "locator": "Table F5",
+              "quote": "The cause of the incident."
+            },
+            {
+              "dimension_label_verbatim": "Theme: Responsible Entity",
+              "definition_quote": "The responsible entity in the incident. In some cases, multiple entities may be jointly responsible.",
+              "value_list_verbatim": ["AI developer company & affiliated partners", "AI algorithm", "Malicious human", "User misinterpretation", "AI-adopting organizations", "AI-adopting government authorities", "Large dataset organizations", "No information"],
+              "closed_or_open": "closed_list",
+              "locator": "Table F5",
+              "quote": "The responsible entity in the incident."
+            },
+            {
+              "dimension_label_verbatim": "Theme: Source of Disclosure",
+              "definition_quote": "The disclosure source party that initially revealed the incident to the public.",
+              "value_list_verbatim": ["Victims & general public", "Media", "Law enforcement & legal authorities", "Independent researchers, fact checkers, and research institutions", "AI developer company", "AI adopting entities", "Large database organizations", "Organization, government whistleblower", "White-hat hacker", "No information"],
+              "closed_or_open": "closed_list",
+              "locator": "Table F5",
+              "quote": "The disclosure source party that initially revealed the incident to the public."
+            },
+            {
+              "dimension_label_verbatim": "Theme: Consequence",
+              "definition_quote": "The consequence of the incident, or the harm, risk, concern, or actions the incident caused to",
+              "value_list_verbatim": ["Public and group harms & false beliefs", "Single user harm", "Legal action & penalty", "Legal authorities investigation", "Restriction or abandonment of AI tools", "Third-party mitigation strategies", "Developer actions", "Loss of faith in AI tools", "Public user backlash & concern about AI", "Lawmakers, advocates groups, organizations criticism", "Possible manipulation of emotional & opinions", "Possible hyper-personalized & targeted manipulation", "Potential cyberattacks", "Potential cyberbully", "No information"],
+              "closed_or_open": "closed_list",
+              "locator": "Table F5",
+              "quote": "The consequence of the incident, or the harm, risk, concern, or actions the incident caused to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "aa6b218f3a327e06",
+      "has_scheme": false,
+      "reason": "narrative review proposing a human-in-the-loop newsroom pipeline, governance policies, and a journalist competency framework, but these are recommendations and skill/task categories, not an enumerable scheme for classifying disclosure, attribution, or provenance of a produced artifact"
+    },
+    {
+      "rec_id": "6271aed973e6ed1c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "fda-disclosure-reform-components",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/fmed.2026.1894905",
+          "domain": "government",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "demographics and omission narrative",
+              "definition_quote": "identifies represented, underrepresented, and unassessed populations, sites, devices, and data sources",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Prospective directions",
+              "quote": "First, a demographics and omission narrative identifies represented, underrepresented, and unassessed populations, sites, devices, and data sources."
+            },
+            {
+              "dimension_label_verbatim": "error-gap metrics module",
+              "definition_quote": "reports clinically relevant subgroup sensitivity, specificity, calibration, false-positive and false-negative rates, uncertainty intervals, acceptance criteria",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Prospective directions",
+              "quote": "Second, an error-gap metrics module reports clinically relevant subgroup sensitivity, specificity, calibration, false-positive and false-negative rates, uncertainty intervals, acceptance criteria, and their clinical implications."
+            },
+            {
+              "dimension_label_verbatim": "responsibility allocation statement",
+              "definition_quote": "defines duties across manufacturers, healthcare institutions, clinicians, regulators, system operators, and relevant vendors",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Prospective directions",
+              "quote": "Third, a responsibility allocation statement defines duties across manufacturers, healthcare institutions, clinicians, regulators, system operators, and relevant vendors."
+            },
+            {
+              "dimension_label_verbatim": "contestability interface",
+              "definition_quote": "provides a manufacturer-maintained reporting route linked from public summaries and labeling",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Prospective directions",
+              "quote": "Finally, a contestability interface provides a manufacturer-maintained reporting route linked from public summaries and labeling."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

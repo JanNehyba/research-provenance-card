@@ -1,0 +1,102 @@
+{
+  "packet_id": "ft-108",
+  "papers": [
+    {
+      "rec_id": "a9811498297c6885",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "structured-acknowledgment-types",
+          "scheme_name_verbatim": "Examples of Structured Acknowledgments",
+          "source_ref": "doi:10.1177/02537176261429867",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "section",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Examples of Structured Acknowledgments",
+              "definition_quote": "",
+              "value_list_verbatim": ["Named individual", "Collective acknowledgment", "Confidential support role"],
+              "closed_or_open": "closed_list",
+              "locator": "Box 2",
+              "quote": "Named individual: “We thank [Name], peer support worker, for assistance with participant engagement and for reviewing study materials (consented to be named).”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "60823422fac5cf74",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "fair-global-mental-health-five-key-themes",
+          "scheme_name_verbatim": "FAIR global mental health data: Vision for the future and practical next steps",
+          "source_ref": "doi:10.1017/gmh.2023.7",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "five key themes",
+              "definition_quote": "The framework addresses five key themes",
+              "value_list_verbatim": ["Study planning", "data preservation and indexing", "machine-actionable metadata", "data reuse of advance science and improve equity", "metrics and recognition"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "The framework addresses five key themes: Study planning, data preservation and indexing, machine-actionable metadata, data reuse of advance science and improve equity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e1f965536c5df4df",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "perneger-thinker-soldier-scribe-profiles",
+          "scheme_name_verbatim": "Thinker, Soldier, Scribe",
+          "source_ref": "doi:10.1136/bmjopen-2016-013898",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "We included 119 research papers published in the Annals in 2015",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Thinker",
+              "definition_quote": "The first dimension was defined by high loadings on ‘Conception and design’",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Conception and design of the study"
+            },
+            {
+              "dimension_label_verbatim": "Scribe",
+              "definition_quote": "the second, by high loadings on ‘Analysis and interpretation’, ‘Drafting the article’ and ‘Statistical expertise’",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Analysis and interpretation of the data"
+            },
+            {
+              "dimension_label_verbatim": "Soldier",
+              "definition_quote": "the third, by ‘Provision of study materials’, ‘Administrative and other support’ and ‘Collection of data’",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Provision of study materials or patients"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

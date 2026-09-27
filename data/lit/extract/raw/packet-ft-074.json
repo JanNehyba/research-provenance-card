@@ -1,0 +1,136 @@
+{
+  "packet_id": "ft-074",
+  "papers": [
+    {
+      "rec_id": "0db7888d7c8c1936",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "olj-6cs-approach",
+          "scheme_name_verbatim": "6Cs approach",
+          "source_ref": "doi:10.24059/olj.v28i3.4508",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Consulting",
+              "definition_quote": "Students are advised to adhere to their teachers' instructions or seek \nclarification in the absence of explicit guidance",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines for Students",
+              "quote": "Consulting: Students are advised to adhere to their teachers' instructions or seek \nclarification in the absence of explicit guidance"
+            },
+            {
+              "dimension_label_verbatim": "Citing",
+              "definition_quote": "students must appropriately \ncite any AI-generated content in their work, following the American Psychological \nAssociation publication manual's seventh edition",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines for Students",
+              "quote": "Citing: Following McAdoo’s (2024) recommendations, students must appropriately \ncite any AI-generated content in their work"
+            },
+            {
+              "dimension_label_verbatim": "Checking",
+              "definition_quote": "This encourages students to verify the reliability and credibility of AI-\ngenerated materials by consulting primary sources",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines for Students",
+              "quote": "Checking: This encourages students to verify the reliability and credibility of AI-\ngenerated materials by consulting primary sources"
+            },
+            {
+              "dimension_label_verbatim": "Correcting",
+              "definition_quote": "grammar, and structure improvements, ensuring the work adheres to the conventions \nof academic writing.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines for Students",
+              "quote": "grammar, and structure improvements, ensuring the work adheres to the conventions \nof academic writing."
+            },
+            {
+              "dimension_label_verbatim": "Confessing",
+              "definition_quote": "This involves openly acknowledging any AI assistance in content \ngeneration, including a detailed acknowledgment statement and an AI use declaration",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines for Students",
+              "quote": "Confessing: This involves openly acknowledging any AI assistance in content \ngeneration, including a detailed acknowledgment statement and an AI use declaration"
+            },
+            {
+              "dimension_label_verbatim": "Controlling",
+              "definition_quote": "This advises students to regulate their use of AI within ethical and honest \nboundaries, avoiding any actions that could be deemed unacceptable or unethical.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Guidelines for Students",
+              "quote": "Controlling: This advises students to regulate their use of AI within ethical and honest \nboundaries"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8e48754a8cf61279",
+      "has_scheme": false,
+      "reason": "reads as a generic templated report on synthetic-media governance (chapters/subsections such as 'Consent, Attribution and Provenance as Rights Infrastructure', 'Probabilistic Attribution and Provenance Inference'); despite repeated use of 'framework', 'provenance' and 'attribution', no named scheme with enumerable dimensions or values is ever given, only recurring boilerplate about evidence chains and governance artifacts"
+    },
+    {
+      "rec_id": "d79db0edb6f48280",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "trace-governance-framework",
+          "scheme_name_verbatim": "TRACE",
+          "source_ref": "doi:10.48550/arxiv.2608.03329",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "385 policies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Transparency",
+              "definition_quote": "visibility of AI use",
+              "value_list_verbatim": ["No disclosure required.", "Disclosure encouraged/ voluntary.", "Basic disclosure (AI usage statement).", "Detailed traceability (tool, prompt, transcript, files)."],
+              "closed_or_open": "closed_list",
+              "locator": "Table I",
+              "quote": "Transparency (visibility of AI use),"
+            },
+            {
+              "dimension_label_verbatim": "Responsibility",
+              "definition_quote": "human accountability for AI output",
+              "value_list_verbatim": ["No responsibility stated.", "Human remains accountable.", "Must explain/justify the work.", "Must review/test/validate before submit."],
+              "closed_or_open": "closed_list",
+              "locator": "Table I",
+              "quote": "Responsibility (human accountability for AI output),"
+            },
+            {
+              "dimension_label_verbatim": "Attribution",
+              "definition_quote": "source-rights and provenance",
+              "value_list_verbatim": ["No license stated.", "Generic IP/copyright stated.", "Must satisfy license/DCO/ CLA compatibility.", "Must document rights or provenance."],
+              "closed_or_open": "closed_list",
+              "locator": "Table I",
+              "quote": "Attribution (source-rights and provenance),"
+            },
+            {
+              "dimension_label_verbatim": "Constraints",
+              "definition_quote": "breadth of restriction on AI use",
+              "value_list_verbatim": ["No restriction stated.", "Bulk/low-effort AI output restricted.", "Restricted in specific contexts (issues, reviews).", "Generally prohibited."],
+              "closed_or_open": "closed_list",
+              "locator": "Table I",
+              "quote": "Constraints (breadth of restriction on AI use), and"
+            },
+            {
+              "dimension_label_verbatim": "Enforcement",
+              "definition_quote": "consequences for violation",
+              "value_list_verbatim": ["No consequence stated.", "Maintainer may request remediation/ignore.", "Submission rejected/closed.", "Future participation restricted/ban/suspension."],
+              "closed_or_open": "closed_list",
+              "locator": "Table I",
+              "quote": "Enforcement (consequences for violation)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

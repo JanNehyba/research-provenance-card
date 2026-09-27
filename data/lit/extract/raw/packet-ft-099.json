@@ -1,0 +1,140 @@
+{
+  "packet_id": "ft-099",
+  "papers": [
+    {
+      "rec_id": "8c56f44ec3b86da5",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-taxonomy-as-cited-in-market-dynamics",
+          "scheme_name_verbatim": "CRediT taxonomy",
+          "source_ref": "doi:10.48550/arxiv.2604.19507",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "author contributions",
+              "definition_quote": "a standardised vocabulary for describing author contributions",
+              "value_list_verbatim": ["conceptualisation", "methodology", "writing", "supervision"],
+              "closed_or_open": "closed_list",
+              "locator": "§VI",
+              "quote": "provides a standardised vocabulary for describing author contributions (conceptualisation, methodology, writing, supervision, etc.)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "73893987a82abf0c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "5w1h-ai-disclosure-framework",
+          "scheme_name_verbatim": "5W1H (Who, What, When, Where, Why, How) framework",
+          "source_ref": "doi:10.1145/3613905.3650750",
+          "domain": "journalism_media",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "two participatory workshops with researchers, designers, and engineers across disciplines (N=16)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "5W1H",
+              "definition_quote": "",
+              "value_list_verbatim": ["Who", "What", "When", "Where", "Why", "How"],
+              "closed_or_open": "closed_list",
+              "locator": "3. Method",
+              "quote": "We utilized the 5W1H (Who, What, When, Where, Why, How) framework, which is widely used in journalism"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-disclosure-questions-theme-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1145/3613905.3650750",
+          "domain": "journalism_media",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "149 questions generated in two participatory workshops (N=16), clustered into five themes and 18 sub-themes",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Theme",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Ethical, Legal, and Policy Considerations",
+                "Future Considerations, Evolving Context, & Practical Implementation",
+                "Provider Responsibility and Industry Impact",
+                "Trust, Authenticity, and User Empowerment",
+                "User Experience, Information Overload, and Personalization"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "4.1. Theme 1: Ethical, Legal, and Policy Considerations",
+              "quote": "We contribute a set of 149 questions clustered into five themes and 18 sub-themes."
+            },
+            {
+              "dimension_label_verbatim": "Sub-theme",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Ethical Implications of AI Use",
+                "Legal Compliance and AI Disclosure",
+                "Policy and Regulatory Impact",
+                "Ethical Considerations for Providers",
+                "Provider Disclosure Obligations",
+                "Authenticity, Provenance, and Transparency",
+                "Building Trust in AI Systems",
+                "Personalization and User Preferences",
+                "Psychology of Human-AI Interaction",
+                "Standardization",
+                "User Interfaces and Information Overload",
+                "User-Centric Information Design"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "4.1. Theme 1: Ethical, Legal, and Policy Considerations",
+              "quote": "This had three inter-related sub-themes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "153e7e5e4a6d9626",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-related-retraction-typologies",
+          "scheme_name_verbatim": "Typologies in AI‑Related Retractions",
+          "source_ref": "doi:10.18231/j.ijlsit.16859.1778562927",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI-related retraction typology",
+              "definition_quote": "AI-related retractions do not form a single category; instead, \nthey cluster into overlapping typologies that map onto \ndifferent stages of the research and publishing workflow",
+              "value_list_verbatim": [
+                "AI-generated textual content",
+                "AI-assisted data fabrication",
+                "AI-generated images and figures",
+                "AI-enabled peer-review manipulation and paper mills",
+                "failures to disclose AI use"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "3. Trends and Typologies in AI‑Related Retractions",
+              "quote": "Conceptually, these can be grouped into AI-generated textual \ncontent, AI-assisted data fabrication, AI-generated images and \nfigures, AI-enabled peer-review manipulation and paper \nmills"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

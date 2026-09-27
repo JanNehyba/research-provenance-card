@@ -1,0 +1,143 @@
+{
+  "packet_id": "013",
+  "papers": [
+    {
+      "rec_id": "893205a3006fb206",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "acknowledgment-contribution-types",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1371/journal.pone.0185578",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "section",
+          "authority": "self_report",
+          "empirical_basis": "more than one million acknowledgments from research articles and reviews published in 2015",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "main types of contributions",
+              "definition_quote": "contributions found in acknowledgments",
+              "value_list_verbatim": ["technical support", "contributions from colleagues, editors, and reviewers", "logistics and fieldwork-related tasks", "Conflicts of interest disclosures"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "study the main types of contributions found in acknowledgments on a large scale and through disciplinary comparisons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "7ab5b2bc5da1e3fc",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "figure-evidentiary-function-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1002/leap.2085",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": ["explanatory", "analytical", "simulated", "evidentiary"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The taxonomy classifies figures as explanatory, analytical, simulated, or evidentiary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "245efaa5ed4026a0",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "content-trust-technical-layers",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5281/zenodo.21909032",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "technical layers",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI participation", "provenance", "identity", "authentication", "authority", "factual truth"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "AI participation, provenance, identity, authentication, authority, and factual truth belong to different technical layers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "57d7e1bc7164c681",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "audience-ai-disclosure-info-needs",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/21670811.2026.2700592",
+          "domain": "journalism_media",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "focus groups (N = 21)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": ["general source references", "explicitly stating AI involvement", "Visual indicators like logos or watermarks in contrasting colors"],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "including general source references akin to traditional authorship attributions, explicitly stating AI involvement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "971c485e48ed081c",
+      "has_scheme": false,
+      "reason": "historical/philosophical essay collection on authorship in science; no category scheme"
+    },
+    {
+      "rec_id": "001d88945df20db5",
+      "has_scheme": false,
+      "reason": "abstract text is truncated to a single introductory sentence about native advertising as a revenue model; no categories given"
+    },
+    {
+      "rec_id": "6203c44a0350b78d",
+      "has_scheme": false,
+      "reason": "surveys the emergence of government and platform AI disclosure requirements generically; no categories enumerated"
+    },
+    {
+      "rec_id": "5fa203168a088b27",
+      "has_scheme": false,
+      "reason": "brief personal note referencing the CRediT project and a related transitive-credit idea; does not itself enumerate roles or categories"
+    },
+    {
+      "rec_id": "df90bb33726ae8ca",
+      "has_scheme": false,
+      "reason": "recommends developing a structured AI contribution taxonomy as future work; abstract lists study themes (requirements, systemic limitations, researcher perspectives, disciplinary variation) but does not enumerate the taxonomy's categories"
+    },
+    {
+      "rec_id": "89f14970c0c74dd7",
+      "has_scheme": false,
+      "reason": "content analysis of micro- vs mega-influencer sponsored videos; mentions 'influencer typologies' generically without enumerating categories"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "packet_id": "ab-025",
+  "papers": [
+    {
+      "rec_id": "1ac649c8bd880b0f",
+      "has_scheme": false,
+      "reason": "describes DECIDE-AI as a new stage-specific reporting guideline for early clinical AI evaluation, but this abstract does not enumerate its actual reporting items."
+    },
+    {
+      "rec_id": "fc89390f289b3f34",
+      "has_scheme": false,
+      "reason": "names the ACCEPT framework for accountable AI use and lists validation methods (compilers, tests, simulations, etc.) and general guide topics, but does not enumerate ACCEPT's components or any disclosure/attribution category scheme in the retrieved text."
+    },
+    {
+      "rec_id": "71be4c3a8098ea3f",
+      "has_scheme": false,
+      "reason": "describes technical results on canonical application contracts (conditional accountability, replay, evidence-survival) and mentions 'attestation grades' added in v2.0 without enumerating any grade names or category values; the AI-use text is this paper's own authorship disclosure, not a proposed scheme."
+    },
+    {
+      "rec_id": "876827f945c9568e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-output-divergence-five-part-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5281/zenodo.18526764",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "a five-part taxonomy of AI output divergence",
+              "definition_quote": "",
+              "value_list_verbatim": ["hallucination", "sycophantic alignment", "confabulation", "inherited selective bias", "strategic deception"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "introducing a five-part taxonomy of AI output divergence: hallucination, sycophantic alignment, confabulation, inherited selective bias, and strategic deception."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4358085c9f658ad2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gaidet-declaration-fields",
+          "scheme_name_verbatim": "GAIDeT (Generative AI Delegation Taxonomy)",
+          "source_ref": "doi:10.5281/zenodo.17184550",
+          "domain": "education_assessment",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://panbibliotekar.github.io/gaidet-declaration/index",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "tool name",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "steps for generating declarations (tool name, version, delegated tasks, comments)"
+            },
+            {
+              "dimension_label_verbatim": "version",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "steps for generating declarations (tool name, version, delegated tasks, comments)"
+            },
+            {
+              "dimension_label_verbatim": "delegated tasks",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "steps for generating declarations (tool name, version, delegated tasks, comments)"
+            },
+            {
+              "dimension_label_verbatim": "comments",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "steps for generating declarations (tool name, version, delegated tasks, comments)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "569ce6d551dfb19d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "mobileguard-four-pillars",
+          "scheme_name_verbatim": "MobileGuard",
+          "source_ref": "doi:10.5281/zenodo.20970166",
+          "domain": "software",
+          "artifact_type": "technical_standard",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "2,847 real-world iOS and Android platform rejection records",
+          "machine_readable_artifact": "github.com/jsingh6/mobileguard",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "four pillars across the mobile SDLC",
+              "definition_quote": "",
+              "value_list_verbatim": ["Pre-Deployment Quality Contracts (PDQC)", "Tiered Autonomy Calibration for Mobile (TAC-M)", "Platform Gatekeeper Simulation and Governance (PGSG)", "Ambient Agent Boundary Enforcement (AABE)"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "operationalizing four pillars across the mobile SDLC: Pre-Deployment Quality Contracts (PDQC), Tiered Autonomy Calibration for Mobile (TAC-M)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "969c58420a854f8e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-based-jurimetrics-four-principles",
+          "scheme_name_verbatim": "AI-Based Jurimetrics",
+          "source_ref": "doi:10.2139/ssrn.6895039",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Four principles form its foundation",
+              "definition_quote": "",
+              "value_list_verbatim": ["the non-negotiable verification of every cited norm against its primary source", "sole substantive authority residing in the human, with artificial intelligence as instrument and not co-author", "the open inventory of techniques born from the collaboration so that they may be tested and adopted", "disciplined continuity through a mechanism that makes those commitments keepable across time"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Four principles form its foundation: the non-negotiable verification of every cited norm against its primary source"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9987001046f8f9d0",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "iaumf-maturity-framework",
+          "scheme_name_verbatim": "Individual AI Use Maturity Framework (iAUMF)",
+          "source_ref": "doi:10.5281/zenodo.20692997",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "a five-stage conceptual model",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a five-stage conceptual model designed to assess and guide responsible AI use in daily life"
+            },
+            {
+              "dimension_label_verbatim": "purpose clarity",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "structures human-AI interaction across seven crosscutting dimensions: purpose clarity, prompt strategy, verification rigor, epistemic independence, privacy protection, disclosure, and accountability"
+            },
+            {
+              "dimension_label_verbatim": "prompt strategy",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "structures human-AI interaction across seven crosscutting dimensions: purpose clarity, prompt strategy, verification rigor, epistemic independence, privacy protection, disclosure, and accountability"
+            },
+            {
+              "dimension_label_verbatim": "verification rigor",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "structures human-AI interaction across seven crosscutting dimensions: purpose clarity, prompt strategy, verification rigor, epistemic independence, privacy protection, disclosure, and accountability"
+            },
+            {
+              "dimension_label_verbatim": "epistemic independence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "structures human-AI interaction across seven crosscutting dimensions: purpose clarity, prompt strategy, verification rigor, epistemic independence, privacy protection, disclosure, and accountability"
+            },
+            {
+              "dimension_label_verbatim": "privacy protection",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "structures human-AI interaction across seven crosscutting dimensions: purpose clarity, prompt strategy, verification rigor, epistemic independence, privacy protection, disclosure, and accountability"
+            },
+            {
+              "dimension_label_verbatim": "disclosure",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "structures human-AI interaction across seven crosscutting dimensions: purpose clarity, prompt strategy, verification rigor, epistemic independence, privacy protection, disclosure, and accountability"
+            },
+            {
+              "dimension_label_verbatim": "accountability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "structures human-AI interaction across seven crosscutting dimensions: purpose clarity, prompt strategy, verification rigor, epistemic independence, privacy protection, disclosure, and accountability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b1f707357ab7c5b9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "girimedicolegal-liability-chain-risk-calculator",
+          "scheme_name_verbatim": "GiriMedicolegal™ CDSS",
+          "source_ref": "doi:10.5281/zenodo.22784877",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "a liability-responsibility chain",
+              "definition_quote": "",
+              "value_list_verbatim": ["developer", "vendor", "hospital", "clinician"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a liability-responsibility chain across developer, vendor, hospital and clinician"
+            },
+            {
+              "dimension_label_verbatim": "an 8-domain GiriSAFE™ AI-use risk calculator",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "an 8-domain GiriSAFE™ AI-use risk calculator and use-case triage tool"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "3b979336152745dc",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aias-efl-levels-2-3-4",
+          "scheme_name_verbatim": "AI Assessment Scale (AIAS)",
+          "source_ref": "doi:10.1108/aiie-02-2025-0034",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI Assessment Scale (AIAS)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we focus on Levels 2, 3 and 4 of the AI Assessment Scale (AIAS) and explore possible pedagogical adaptations"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

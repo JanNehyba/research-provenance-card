@@ -1,0 +1,168 @@
+{
+  "packet_id": "ft-102",
+  "papers": [
+    {
+      "rec_id": "f172310c052035c4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "spirit-ai-checklist",
+          "scheme_name_verbatim": "SPIRIT-AI checklist",
+          "source_ref": "doi:10.1038/s41591-020-1037-7",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "technical_standard",
+          "empirical_basis": "two rounds of an e-Delphi survey (103 then 91 respondents) followed by a two-day international consensus meeting with 31 stakeholders and a pilot with 34 participants",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "SPIRIT-AI item",
+              "definition_quote": "15 items (12 extensions and 3 elaborations) should be addressed for trial protocols of AI interventions",
+              "value_list_verbatim": [
+                "Indicate that the intervention involves artificial intelligence/machine learning and specify the type of model.",
+                "Specify the intended use of the AI intervention.",
+                "Explain the intended use of the AI intervention in the context of the clinical pathway, including its purpose and its intended users (for example, healthcare professionals, patients, public).",
+                "Describe any pre-existing evidence for the AI intervention.",
+                "Describe the onsite and offsite requirements needed to integrate the AI intervention into the trial setting.",
+                "State the inclusion and exclusion criteria at the level of participants.",
+                "State the inclusion and exclusion criteria at the level of the input data.",
+                "State which version of the AI algorithm will be used.",
+                "Specify the procedure for acquiring and selecting the input data for the AI intervention.",
+                "Specify the procedure for assessing and handling poor-quality or unavailable input data.",
+                "Specify whether there is human–AI interaction in the handling of the input data, and what level of expertise is required for users.",
+                "Specify the output of the AI intervention.",
+                "Explain the procedure for how the AI intervention’s output will contribute to decision-making or other elements of clinical practice.",
+                "Specify any plans to identify and analyze performance errors. If there are no plans for this, justify why not.",
+                "State whether and how the AI intervention and/or its code can be accessed, including any restrictions to access or re-use."
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1 | SPIRIT-AI checklist",
+              "quote": "15 items (12 extensions and 3 elaborations) should be addressed for trial protocols of AI interventions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "0d5fa9e33dd2eabc",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "risk-and-ethics-matrix-ai-video",
+          "scheme_name_verbatim": "risk-and-ethics matrix",
+          "source_ref": "doi:10.2196/91940",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "likelihood",
+              "definition_quote": "the likelihood that a specified harm scenario will occur on a 4-level ordinal scale",
+              "value_list_verbatim": ["rare", "unlikely", "possible", "likely"],
+              "closed_or_open": "closed_list",
+              "locator": "Operational Governance Framework: The Risk-And-Ethics Matrix",
+              "quote": "we score (1) the likelihood that a specified harm scenario will occur on a 4-level ordinal scale (rare, unlikely, possible, and likely)"
+            },
+            {
+              "dimension_label_verbatim": "severity",
+              "definition_quote": "the severity of plausible consequences on a 4-level scale",
+              "value_list_verbatim": ["negligible", "minor", "major", "catastrophic"],
+              "closed_or_open": "closed_list",
+              "locator": "Operational Governance Framework: The Risk-And-Ethics Matrix",
+              "quote": "the severity of plausible consequences on a 4-level scale (negligible, minor, major, and catastrophic)"
+            },
+            {
+              "dimension_label_verbatim": "residual risk tier",
+              "definition_quote": "Cross-tabulation yields composite tiers of low, moderate, high, and extreme residual risk",
+              "value_list_verbatim": ["low", "moderate", "high", "extreme"],
+              "closed_or_open": "closed_list",
+              "locator": "Operational Governance Framework: The Risk-And-Ethics Matrix",
+              "quote": "Cross-tabulation yields composite tiers of low, moderate, high, and extreme residual risk"
+            },
+            {
+              "dimension_label_verbatim": "EAS band",
+              "definition_quote": "We band the EAS scores as high (7-8), medium (4-6), or low (0-3)",
+              "value_list_verbatim": ["high (7-8)", "medium (4-6)", "low (0-3)"],
+              "closed_or_open": "closed_list",
+              "locator": "Operational Governance Framework: The Risk-And-Ethics Matrix",
+              "quote": "We band the EAS scores as high (7-8), medium (4-6), or low (0-3)"
+            },
+            {
+              "dimension_label_verbatim": "deployment disposition",
+              "definition_quote": "Plotting these dimensions yields actionable dispositions (encourage, permit with oversight, restrict or redesign, and prohibit)",
+              "value_list_verbatim": ["encourage", "permit with oversight", "restrict or redesign", "prohibit"],
+              "closed_or_open": "closed_list",
+              "locator": "Introduction",
+              "quote": "Plotting these dimensions yields actionable dispositions (encourage, permit with oversight, restrict or redesign, and prohibit)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "7a9159e06f9e68b2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "icmje-authorship-criteria",
+          "scheme_name_verbatim": "International Committee of Medical Journal Editors (ICMJE) authorship criteria",
+          "source_ref": "doi:10.5114/reum.2020.101999",
+          "domain": "research_publishing",
+          "artifact_type": "policy",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "ICMJE authorship criteria",
+              "definition_quote": "Scholars who substantively contribute to research and writing, revise, approve final drafts for target journal submissions",
+              "value_list_verbatim": [
+                "substantively contribute to research and writing",
+                "revise",
+                "approve final drafts for target journal submissions",
+                "responsibility for all aspects of the work"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Abstract",
+              "quote": "Scholars who substantively contribute to research and writing, revise, approve final drafts for target journal submissions"
+            }
+          ]
+        },
+        {
+          "scheme_id": "table-i-inappropriate-authorship-types",
+          "scheme_name_verbatim": "Table I. Common instances of inappropriate authorship",
+          "source_ref": "doi:10.5114/reum.2020.101999",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Ethical misconduct",
+              "definition_quote": "",
+              "value_list_verbatim": ["Guest authorship", "Gift authorship", "Ghost authorship", "Paid authorship", "Denial of authorship"],
+              "closed_or_open": "closed_list",
+              "locator": "Table I. Common instances of inappropriate authorship",
+              "quote": "Common instances of inappropriate authorship\nEthical misconduct\nInvolved individuals\nGuest authorship\nSenior researchers\nGift authorship"
+            },
+            {
+              "dimension_label_verbatim": "Involved individuals",
+              "definition_quote": "",
+              "value_list_verbatim": ["Senior researchers", "Collaborating fellows", "Industry-sponsored medical writers", "Clients of commercial editing agencies", "Junior research fellows and students"],
+              "closed_or_open": "closed_list",
+              "locator": "Table I. Common instances of inappropriate authorship",
+              "quote": "Guest authorship\nSenior researchers\nGift authorship\nCollaborating fellows \nGhost authorship\nIndustry-sponsored medical writers"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

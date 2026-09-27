@@ -1,0 +1,66 @@
+{
+  "packet_id": "ft-101",
+  "papers": [
+    {
+      "rec_id": "1aca523232da8eed",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-process-literacy-biodesign",
+          "scheme_name_verbatim": "AI Process Literacy",
+          "source_ref": "doi:10.33774/coe-2026-tn18t",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "one MDes cohort (~32 students) at the University of Macau preparing for the 2026 Biodesign Challenge; baseline survey N=29, end-of-course survey N=25, BDC-reflection survey N=4",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Provenance",
+              "definition_quote": "per-artifact attribution of AI versus human contribution",
+              "value_list_verbatim": ["4", "3", "2", "1"],
+              "closed_or_open": "closed_list",
+              "locator": "4.3 The modified course rubric",
+              "quote": "Provenance – per-artifact attribution of AI versus human contribution – a pedagogical analogue to C2PA (2025) Content Credentials adapted for studio assessment"
+            },
+            {
+              "dimension_label_verbatim": "Curation",
+              "definition_quote": "evidence of editing, rejecting, recombining AI outputs rather than accepting them passively",
+              "value_list_verbatim": ["4", "3", "2", "1"],
+              "closed_or_open": "closed_list",
+              "locator": "4.3 The modified course rubric",
+              "quote": "Curation – evidence of editing, rejecting, recombining AI outputs rather than accepting them passively"
+            },
+            {
+              "dimension_label_verbatim": "Reasoning with prompts",
+              "definition_quote": "treatment of prompt and context-file authoring as a design activity in itself",
+              "value_list_verbatim": ["4", "3", "2", "1"],
+              "closed_or_open": "closed_list",
+              "locator": "4.3 The modified course rubric",
+              "quote": "Reasoning with prompts – treatment of prompt and context-file authoring as a design activity in itself"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure",
+              "definition_quote": "Disclosure operated in this cohort as a precondition for class submission rather than as a graded sub-criterion",
+              "value_list_verbatim": ["tool", "version", "date", "task"],
+              "closed_or_open": "closed_list",
+              "locator": "4.3 The modified course rubric",
+              "quote": "Specific-tool / version / date / task disclosure was the default mode of all submissions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1ab7cfaf9b616000",
+      "has_scheme": false,
+      "reason": "discursive software citation guide; points to external FORCE11 Software Citation Principles and Software Citation Checklists for Authors/Developers without reproducing their category structure in the retrieved text; no enumerable scheme of its own"
+    },
+    {
+      "rec_id": "79fc2e74ae08b6f0",
+      "has_scheme": false,
+      "reason": "only a table-of-contents fragment was retrieved (chapter titles mentioning sponsorship disclosure type and measurement scales); no categories, dimensions, or values are presented in the extracted text"
+    }
+  ]
+}

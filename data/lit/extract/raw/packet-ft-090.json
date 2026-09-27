@@ -1,0 +1,147 @@
+{
+  "packet_id": "ft-090",
+  "papers": [
+    {
+      "rec_id": "4614a29b8a823817",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gbc-resource-reference-modes",
+          "scheme_name_verbatim": "modes of reference",
+          "source_ref": "doi:10.1093/bioadv/vbag219",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "Total Resource Usage (TRU) dataset drawn from Europe PMC full-text articles, restricted to 48 resources present in the DC set",
+          "machine_readable_artifact": "https://github.com/globalbiodata",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "modes of reference",
+              "definition_quote": "each reflecting a different level of formality and intent",
+              "value_list_verbatim": ["Inventory publication citations", "Data citations (DC set)", "Resource mentions (RM set)"],
+              "closed_or_open": "closed_list",
+              "locator": "3.3 Patterns of resource referencing across the literature",
+              "quote": "we compared three complementary modes of reference, each reflecting a different level of formality and intent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "cbb93334d1c012cd",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "refine-checklist",
+          "scheme_name_verbatim": "REporting checklist for FoundatIon and large laNguagE models (REFINE)",
+          "source_ref": "doi:10.4274/dir.2026.263812",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "57 contributors from 17 countries; 54 panelists from 16 countries completed Rounds 1 and 2 of a modified Delphi process",
+          "machine_readable_artifact": "https://refinechecklist.github.io/refine/checklist.html",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Model \nspecification",
+              "definition_quote": "",
+              "value_list_verbatim": ["Model name, vendor/developer, version/identifier, release date, and training/knowledge cutoff date", "Model architecture and key characteristics", "Model pretraining, post-training, and inference-time adaptation strategy", "Modality support details (input and output) and limitations", "Language capabilities", "Model access", "Sharing of code, data, and model artifacts", "Computational requirements"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "1.1 Model name, vendor/developer, version/identifier, release date, and training/knowledge cutoff date"
+            },
+            {
+              "dimension_label_verbatim": "Prompt design",
+              "definition_quote": "",
+              "value_list_verbatim": ["Prompt engineering protocol with versioning", "Prompting strategy, format, and length", "Prompt modality, language, technical input specification, and full content", "Integration of relevant patient clinical context", "Interaction style and session memory policy", "Output handling"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "2.1 Prompt engineering protocol with versioning"
+            },
+            {
+              "dimension_label_verbatim": "Stochasticity \ncontrol",
+              "definition_quote": "",
+              "value_list_verbatim": ["Generation parameters", "Prompt operator characteristics and number of prompt attempts", "Output selection"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "3.1 Generation parameters. Report all model generation settings used during output generation for all modalities"
+            },
+            {
+              "dimension_label_verbatim": "Dataset \nintegrity",
+              "definition_quote": "",
+              "value_list_verbatim": ["Dataset name, version, access type, source citation, license, and compliance statement", "Dataset origin", "Ethics and consent statements", "Prior dataset usage and publication date", "Dataset composition and data synthesis details", "Sample characteristics and representational bias analysis", "Reference standard and annotator qualifications", "Preprocessing and data pairing/registration", "Missing data extent, mechanism, and handling", "Separation of training, fine-tuning, internal testing, and external testing datasets"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "4.1 Dataset name, version, access type, source citation, license, and compliance statement"
+            },
+            {
+              "dimension_label_verbatim": "Output \nevaluation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Output evaluation method and performance metrics", "Human evaluator characteristics and reliability analysis", "Statistical analysis of evaluation results", "Subgroup performance and output bias assessment", "Failure analysis and error metrics", "Output stochasticity and reproducibility constraints", "Performance effects of different prompt strategies and revisions", "Model version comparisons and temporal performance variation", "Methods for explainability and interpretability of model outputs", "Comparison with clinically relevant benchmarks"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "5.1 Output evaluation method and performance metrics"
+            },
+            {
+              "dimension_label_verbatim": "Implementation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Declared intended application and scope of use", "Clinical workflow integration", "Measured clinical utility or added value", "Model limitations, explicit clinical non-use cases, and potential misuse considerations", "Safety testing and monitoring protocols", "Data security and privacy safeguards", "Governance, auditability, and oversight"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "6.1 Declared intended application and scope of use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "811d34a759d45ca4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "jkms-ai-disclosure-tiers",
+          "scheme_name_verbatim": "tiered disclosure framework",
+          "source_ref": "doi:10.3346/jkms.2026.41.e281",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "three distinct levels",
+              "definition_quote": "authors must evaluate their disclosure requirements based on the depth of the AI’s influence on the research substance",
+              "value_list_verbatim": ["Technical tasks (exempt from disclosure)", "Linguistic support (optional)", "Impact on originality (mandatory)"],
+              "closed_or_open": "closed_list",
+              "locator": "ETHICAL RESPONSIBILITY IN AI-ASSISTED AUTHORSHIP",
+              "quote": "this evaluation is guided by three distinct levels"
+            }
+          ]
+        },
+        {
+          "scheme_id": "stm-ai-task-classification",
+          "scheme_name_verbatim": "STM framework",
+          "source_ref": "doi:10.3346/jkms.2026.41.e281",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "not_stated",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "nine distinct types",
+              "definition_quote": "requiring authors to disclose the specific scope of AI integration in their manuscripts",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "ETHICAL RESPONSIBILITY IN AI-ASSISTED AUTHORSHIP",
+              "quote": "The STM framework categorizes AI-assisted tasks into nine distinct types"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

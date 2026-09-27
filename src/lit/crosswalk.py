@@ -94,6 +94,52 @@ def labels() -> int:
     return 0
 
 
+def batches(size: int = 150) -> int:
+    """Split the labels into agent-sized batches for the merge.
+
+    1348 distinct labels came back and only 70 of them repeat, so the merge is
+    semantic rather than lexical and cannot be done by string matching. It is
+    also too large to do in one pass without losing consistency. The batches are
+    ordered by how many schemes a label appears in, so the most attested labels
+    are spread across the first batches rather than buried, and each entry
+    carries an example quote so a reader can see what the label meant in context.
+    """
+    if not os.path.exists(LABELS):
+        print("run `labels` first")
+        return 1
+    with io.open(LABELS, encoding="utf-8") as fh:
+        groups = json.load(fh)["labels"]
+
+    out_dir = os.path.join(LIT, "merge", "label-batches")
+    os.makedirs(out_dir, exist_ok=True)
+    for old in os.listdir(out_dir):
+        os.remove(os.path.join(out_dir, old))
+
+    written = 0
+    for index in range(0, len(groups), size):
+        batch_id = f"{index // size + 1:02d}"
+        chunk = groups[index:index + size]
+        payload = {
+            "batch_id": batch_id,
+            "labels": [{
+                "normalised": g["normalised"],
+                "verbatim_variants": g["verbatim_variants"][:4],
+                "schemes": len(g["schemes"]),
+                "domains": g["domains"],
+                "example_values": g["example_values"][:6],
+                "example_quote": g["example_quote"][:200],
+            } for g in chunk],
+        }
+        with io.open(os.path.join(out_dir, f"labels-{batch_id}.json"), "w",
+                     encoding="utf-8", newline="\n") as fh:
+            json.dump(payload, fh, ensure_ascii=False, indent=2)
+            fh.write("\n")
+        written += 1
+    print(f"{len(groups)} labels into {written} batches of up to {size}")
+    print(f"batches in {out_dir}")
+    return 0
+
+
 def _load_dimensions() -> list[dict]:
     with io.open(DIMENSIONS, encoding="utf-8") as fh:
         return json.load(fh)["dimensions"]
@@ -105,13 +151,16 @@ def check() -> int:
         print(f"no {DIMENSIONS}; run labels first, then write the merge")
         return 1
     rows = load_jsonl(SCHEMES)
-    all_labels = {row["dimension_label_verbatim"] for row in rows}
+    # Normalised, because that is the form the merge batches show an agent and
+    # the form `labels` groups by. Comparing the raw verbatim string here would
+    # report labels as unassigned purely because of capitalisation.
+    all_labels = {norm_label(row["dimension_label_verbatim"]) for row in rows}
     dims = _load_dimensions()
 
     assigned: dict[str, list[str]] = defaultdict(list)
     for dim in dims:
         for variant in dim.get("variants", []):
-            assigned[variant].append(dim["canonical_id"])
+            assigned[norm_label(variant)].append(dim["canonical_id"])
 
     unassigned = sorted(all_labels - set(assigned))
     doubled = {label: ids for label, ids in assigned.items() if len(ids) > 1}
@@ -145,7 +194,7 @@ def matrix() -> int:
         print("no verified schemes")
         return 1
     dims = _load_dimensions()
-    label_to_dim = {variant: dim["canonical_id"]
+    label_to_dim = {norm_label(variant): dim["canonical_id"]
                     for dim in dims for variant in dim.get("variants", [])}
     dim_by_id = {dim["canonical_id"]: dim for dim in dims}
 
@@ -164,7 +213,7 @@ def matrix() -> int:
             "retrieval_status": row["retrieval_status"],
             "dimensions": set(),
         })
-        canonical = label_to_dim.get(row["dimension_label_verbatim"])
+        canonical = label_to_dim.get(norm_label(row["dimension_label_verbatim"]))
         if canonical:
             scheme["dimensions"].add(canonical)
 
@@ -233,7 +282,8 @@ def matrix() -> int:
     return 0
 
 
-ACTIONS = {"labels": labels, "check": check, "matrix": matrix}
+ACTIONS = {"labels": labels, "batches": batches, "check": check,
+           "matrix": matrix}
 
 if __name__ == "__main__":
     action = sys.argv[1] if len(sys.argv) > 1 else ""

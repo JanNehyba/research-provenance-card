@@ -1,0 +1,112 @@
+{
+  "packet_id": "ft-096",
+  "papers": [
+    {
+      "rec_id": "7a7accece9ec8cd6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-authorship-qualitative-threshold",
+          "scheme_name_verbatim": "Qualitative threshold framework for assessing authorship in GenAI-assisted academic work",
+          "source_ref": "arXiv:2604.04700",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Explainability",
+              "definition_quote": "Can the student explain and defend the content submitted?",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "Can the student explain and defend the content submitted?"
+            },
+            {
+              "dimension_label_verbatim": "Intellectual control",
+              "definition_quote": "Did the student define and control the work's structure and argumente?",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "Did the student define and control the work's structure and argumente?"
+            },
+            {
+              "dimension_label_verbatim": "Nature of AI output",
+              "definition_quote": "Is the submission substantially identical to AI output?",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "Is the submission substantially identical to AI output?"
+            },
+            {
+              "dimension_label_verbatim": "Substitutability",
+              "definition_quote": "Would similar prompts by another person result in equivalent outputs?",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "Would similar prompts by another person result in equivalent outputs?"
+            },
+            {
+              "dimension_label_verbatim": "Prompt-only contribution",
+              "definition_quote": "Was the contribution limited to prompt formulation?",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "Was the contribution limited to prompt formulation?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "74975e608b4b3ec7",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cangaru-three-lists",
+          "scheme_name_verbatim": "CANGARU",
+          "source_ref": "doi:10.48550/arxiv.2307.08974",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "The 'DON'T' Criteria List",
+              "definition_quote": "will be a comprehensive guideline that aims to ensure ethical and proper use of GAI/GPTs/LLMs in academic research",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "AIM AND OBJETIVES",
+              "quote": "The 'DON'T' Criteria List will be a comprehensive guideline that aims to ensure ethical and proper use of GAI/GPTs/LLMs in academic research."
+            },
+            {
+              "dimension_label_verbatim": "Disclosure Criteria List",
+              "definition_quote": "will provide guidance for researchers to transparently disclose their use of GAI/GPTs/LLMs in academic research",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "AIM AND OBJETIVES",
+              "quote": "The Disclosure Criteria List will provide guidance for researchers to transparently disclose their use of GAI/GPTs/LLMs in academic research"
+            },
+            {
+              "dimension_label_verbatim": "Reporting Criteria List",
+              "definition_quote": "will provide a checklist of recommendation to ensure the complete and transparent reporting of GAI/GPTs/LLMs when they are used as interventions in scientific studies",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "AIM AND OBJETIVES",
+              "quote": "The reporting criteria list will provide a checklist of recommendation to ensure the complete and transparent reporting of GAI/GPTs/LLMs when they are used as interventions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "722baa83caa68c42",
+      "has_scheme": false,
+      "reason": "cross-sectional survey of health-professional students' GenAI use; its instrument (4 domains, a self-perceived GenAI maturity index, Likert-scale benefit/risk items) measures attitudes, readiness, and self-disclosure of entering personal data into GenAI, not a scheme for classifying disclosure, attribution, or provenance of an AI-assisted produced artifact"
+    }
+  ]
+}

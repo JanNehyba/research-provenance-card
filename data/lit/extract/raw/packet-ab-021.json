@@ -1,0 +1,175 @@
+{
+  "packet_id": "ab-021",
+  "papers": [
+    {
+      "rec_id": "4f55d3fd25fa6ec5",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "medical-writing-supervisor-framework",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/frai.2026.1874377",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "career-stage axis",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "The career-stage axis makes the same AI operation potentially appropriate for a formed researcher and inappropriate for a first-year trainee."
+            },
+            {
+              "dimension_label_verbatim": "four-tier task typology",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "These moves are organized by a four-tier task typology, related in shape to AI-use rubrics developed in general higher education"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "0eab4572fb817e3d",
+      "has_scheme": false,
+      "reason": "reports that AI tools facilitate six domains of the research process (idea generation, content development, literature review, data management, editing/reviewing, communication); this is a finding about where AI helps, not a disclosure, attribution, or provenance category scheme."
+    },
+    {
+      "rec_id": "ac3c9fe3556f5f18",
+      "has_scheme": false,
+      "reason": "the retrieved text is a single sentence about a citation-alignment challenge in a metrics experiment; no categories or scheme are proposed."
+    },
+    {
+      "rec_id": "528e9b798b3a91bd",
+      "has_scheme": false,
+      "reason": "the retrieved text is a single Foucault epigraph about the author function; no categories enumerated."
+    },
+    {
+      "rec_id": "81e7821ce97c9ccb",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "case-analysis-ai-augmented-substituted",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.2139/ssrn.6904051",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI-augmented case learning", "AI-substituted case analysis"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "distinguishes AI-augmented case learning (in which students retain ownership of the central judgment) from AI-substituted case analysis"
+            },
+            {
+              "dimension_label_verbatim": "assessment redesign principles",
+              "definition_quote": "",
+              "value_list_verbatim": ["staged submissions", "disclosure of AI use", "an oral defense", "a critique of AI-generated outputs"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "We propose assessment redesign principles, including staged submissions, disclosure of AI use, an oral defense, and a critique of AI-generated outputs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "af48cbb5fbc62e8d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "air-framework-phases-bands",
+          "scheme_name_verbatim": "AIR (AI in Research) framework",
+          "source_ref": "doi:10.1007/s00146-026-03082-x",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "n=15 research integrity officers and doctoral supervisors, nine scenarios, Cohen’s κ=0.72",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "engagement bands",
+              "definition_quote": "",
+              "value_list_verbatim": ["no use (A0)", "substantial use (A4)"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "categorises AI involvement across seven research phases and five engagement bands, from no use (A0) to substantial use (A4)"
+            },
+            {
+              "dimension_label_verbatim": "research phases",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a stage-specific matrix that categorises AI involvement across seven research phases"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "3d28d7e12856e18a",
+      "has_scheme": false,
+      "reason": "proposes a solution-oriented algorithm for AI integration keyed to six input variables (academic level, technical proficiency, learning style, institution type, AI policy orientation, teaching assessment methodologies); these are model variables, not an enumerated disclosure or attribution category scheme."
+    },
+    {
+      "rec_id": "2e2a825aec123f96",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.3390/publications7020024",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "authorship classification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "CRediT is a detailed authorship classification that risks denying appropriate credit for persons who contribute as non-authors"
+            },
+            {
+              "dimension_label_verbatim": "two new CRediT taxa and revisions to three existing taxa",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we propose two new CRediT taxa and revisions to three existing taxa regarding both technical and editorial support"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9c7d9392af8a5ccf",
+      "has_scheme": false,
+      "reason": "abstract states only that the paper offers a framework for legal and scholarly foundations, without naming any dimensions or categories."
+    },
+    {
+      "rec_id": "f706902c0fa47a24",
+      "has_scheme": false,
+      "reason": "lists native-advertising formats (SEM, print stories, promoted social posts) as examples of ad types, and notes a 'sponsored content' labeling convention, but enumerates no disclosure or attribution category scheme."
+    }
+  ]
+}

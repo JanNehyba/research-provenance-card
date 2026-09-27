@@ -1,0 +1,67 @@
+{
+  "packet_id": "ab-026",
+  "papers": [
+    {
+      "rec_id": "50a0f0148ca4f97f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-policy-six-domains-four-stances",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.31234/osf.io/k6cyt_v1",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "editorial_requirement",
+          "empirical_basis": "SAGE, APS, and APA guidance as a case study",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "six domains",
+              "definition_quote": "",
+              "value_list_verbatim": ["capability claims", "categorization", "prohibited uses", "confidentiality", "disclosure", "attribution"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "mismatches between underlying assumptions and stated requirements across six domains: capability claims, categorization, prohibited uses, confidentiality, disclosure, and attribution"
+            },
+            {
+              "dimension_label_verbatim": "four editorial stances",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "I propose a mechanism‑ and risk‑based policy matrix that organizes AI use by material contribution to the scientific record and confidentiality risk, yielding four editorial stances."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "77cb800b54aecd29",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "engineering-assessment-evidence-forms",
+          "scheme_name_verbatim": "Dual-Assurance Assessment Architecture",
+          "source_ref": "doi:10.9734/ajess/2026/v52i93311",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "These forms of evidence",
+              "definition_quote": "",
+              "value_list_verbatim": ["staged work", "oral explanation", "live demonstration", "provenance", "programme-level assessment mapping"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "These forms of evidence should be triangulated through staged work, oral explanation, live demonstration, provenance, and programme-level assessment mapping."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

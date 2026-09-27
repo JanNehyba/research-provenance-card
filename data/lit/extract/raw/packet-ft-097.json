@@ -1,0 +1,66 @@
+{
+  "packet_id": "ft-097",
+  "papers": [
+    {
+      "rec_id": "daabc7f0c4a80a5b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "codegenai-four-traceability-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2608.02329",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Prompt-to-output traceability.",
+              "definition_quote": "concerns which components of the prompt contribute to the generation of non-compliant or low-quality code",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "What provenance must explain.",
+              "quote": "Prompt-to-output traceability concerns which components of the prompt contribute to the generation of non-compliant or low-quality code."
+            },
+            {
+              "dimension_label_verbatim": "Instance-to-output traceability.",
+              "definition_quote": "concerns which training data or external code instances are associated with a given output",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "What provenance must explain.",
+              "quote": "Instance-to-output traceability concerns which training data or external code instances are associated with a given output."
+            },
+            {
+              "dimension_label_verbatim": "Factor-to-output traceability.",
+              "definition_quote": "concerns the global characteristics of the training data, such as the prevalence of restrictively licensed code or specific syntactic constructs",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "What provenance must explain.",
+              "quote": "Factor-to-output traceability concerns the global characteristics of the training data, such as the prevalence of restrictively licensed code"
+            },
+            {
+              "dimension_label_verbatim": "Model component-to-output traceability.",
+              "definition_quote": "concerns the internal components of the model, such as specific neuron circuits or attention heads, responsible for a given generation",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "What provenance must explain.",
+              "quote": "model component-to-output traceability concerns the internal components of the model, such as specific neuron circuits or attention heads"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9fd50169081e01cc",
+      "has_scheme": false,
+      "reason": "thematic literature review organised around four review themes (rise of GenAI, academic integrity, institutional/policy response, ethics/environment) and a proposed 'augmented pedagogy' concept; no enumerable set of categories, dimensions, or values is offered for describing a disclosure, attribution, or provenance claim"
+    },
+    {
+      "rec_id": "c35cb8ff8ea3eb40",
+      "has_scheme": false,
+      "reason": "argues for including citizen scientists as authors via seven heuristic recommendations for making that judgment call; these are recommendations/decision heuristics, not a categorical scheme. Mentions CRediT, an authorship matrix, and an APA scorecard only by name, without enumerating their categories in this paper"
+    }
+  ]
+}

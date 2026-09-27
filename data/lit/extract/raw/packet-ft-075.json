@@ -1,0 +1,136 @@
+{
+  "packet_id": "ft-075",
+  "papers": [
+    {
+      "rec_id": "a98faab57d0c2640",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "dragon-kill-points",
+          "scheme_name_verbatim": "Dragon Kill Points",
+          "source_ref": "doi:10.1186/s12915-026-02521-x",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://github.com/martinig/dragon-kill-points",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Granularity",
+              "definition_quote": "measure contributions with finer detail than current frameworks allow (Granularity)",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Granularity (G): breaking down contributions with precision",
+              "quote": "Weighted contributions: Depending on the nature of the task, weights can be assigned to each contribution"
+            },
+            {
+              "dimension_label_verbatim": "Responsibility",
+              "definition_quote": "ensure contributors know upfront what qualifies them for authorship and how their contributions will be measured (Responsibility)",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Responsibility (R): setting expectations from the outset",
+              "quote": "Initial discussions: At the project’s inception, teams should discuss and agree on how contributions will be recorded"
+            },
+            {
+              "dimension_label_verbatim": "Equity",
+              "definition_quote": "apply rules consistently to everyone involved in a project (Equity)",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Equity (E): applying the rules consistently",
+              "quote": "Equity is critical to the success of Dragon Kill Points."
+            },
+            {
+              "dimension_label_verbatim": "Autonomy",
+              "definition_quote": "enable contributors to change or challenge their position in the authorship list based on a record of contributions (Autonomy)",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Autonomy (A): empowering contributors to manage their contributions",
+              "quote": "Dragon Kill Points allows contributors to maintain some level of autonomy over their authorship position"
+            },
+            {
+              "dimension_label_verbatim": "Transparency",
+              "definition_quote": "keep contributors informed throughout the project about their record of contributions, potential authorship position, and how authorship decisions are being made (Transparency)",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Transparency (T): ensuring an open process",
+              "quote": "The transparency of Dragon Kill Points means all contributions and decisions are visible, traceable, and accessible to every team member."
+            },
+            {
+              "dimension_label_verbatim": "Category name",
+              "definition_quote": "",
+              "value_list_verbatim": ["Funding", "Conceptualisation", "Project Administration", "Team Assembly and Training", "Investigation", "Methodology", "Data curation", "Formal Analysis", "Visualisation", "Writing—original draft", "Writing – Review & Editing", "Communication", "Validation", "Supervision"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Category name Description Examples of tasks Funding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4e13ee15fe7f654a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "five-opacity-mechanisms",
+          "scheme_name_verbatim": "Five Opacity Mechanisms",
+          "source_ref": "arXiv:2608.18369",
+          "domain": "workplace",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "1,250 interview transcripts from Anthropic’s AI Interviewer dataset",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "voice",
+              "definition_quote": "whose stance the words index",
+              "value_list_verbatim": ["none", "potential", "clear"],
+              "closed_or_open": "closed_list",
+              "locator": "Five Opacity Mechanisms",
+              "quote": "voice (whose stance the words index)"
+            },
+            {
+              "dimension_label_verbatim": "provenance",
+              "definition_quote": "describes gaps in accountability when workers cannot reconstruct the reasoning behind AI-assisted artifacts",
+              "value_list_verbatim": ["none", "potential", "clear"],
+              "closed_or_open": "closed_list",
+              "locator": "Five Opacity Mechanisms",
+              "quote": "provenance (who can stand behind the artifact)"
+            },
+            {
+              "dimension_label_verbatim": "vulnerability",
+              "definition_quote": "emerges when AI handles uncertainty for workers, filtering out the hedges and pauses that ordinarily invite mentorship",
+              "value_list_verbatim": ["none", "potential", "clear"],
+              "closed_or_open": "closed_list",
+              "locator": "Five Opacity Mechanisms",
+              "quote": "vulnerability (whether the worker is uncertain)"
+            },
+            {
+              "dimension_label_verbatim": "attention",
+              "definition_quote": "decouples interactional participation from cognitive engagement, with AI summarizers and meeting assistants letting workers perform attendance without attention",
+              "value_list_verbatim": ["none", "potential", "clear"],
+              "closed_or_open": "closed_list",
+              "locator": "Five Opacity Mechanisms",
+              "quote": "attention (whether the worker is engaged)"
+            },
+            {
+              "dimension_label_verbatim": "investment",
+              "definition_quote": "describes the process of high- and low-investment outputs becoming indistinguishable, shifting the basis for credit from demonstrated work",
+              "value_list_verbatim": ["none", "potential", "clear"],
+              "closed_or_open": "closed_list",
+              "locator": "Five Opacity Mechanisms",
+              "quote": "investment (how much labor the output reflects)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2740c808380367d6",
+      "has_scheme": false,
+      "reason": "proposes a continuous Provenance Density metric D(T) and compares three interface conditions (Control, Binary Disclosure, Provenance Density) in a user study, but does not enumerate a named category scheme for classifying a disclosure, attribution, or provenance claim"
+    }
+  ]
+}

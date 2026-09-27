@@ -1,0 +1,283 @@
+{
+  "packet_id": "ab-024",
+  "papers": [
+    {
+      "rec_id": "e0b521af69331868",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "prompt-disclosure-threshold-framework",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5281/zenodo.21032799",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "methodological traces",
+              "definition_quote": "",
+              "value_list_verbatim": ["cross-paper relationships", "explanatory claims", "causal hierarchies", "typologies", "metaphors", "adopted interpretive frames"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "prompts should be treated as methodological traces when they shape cross-paper relationships, explanatory claims, causal hierarchies, typologies, metaphors, or adopted interpretive frames"
+            },
+            {
+              "dimension_label_verbatim": "prompt disclosure",
+              "definition_quote": "",
+              "value_list_verbatim": ["the interaction path", "supplied context", "model and settings where available", "decision points", "human evaluation criteria", "the rationale by which model-generated interpretations were accepted, rejected, or revised"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "disclosure should extend beyond the prompt text itself to include the interaction path, supplied context, model and settings where available, decision points, human evaluation criteria"
+            },
+            {
+              "dimension_label_verbatim": "Lighter disclosure",
+              "definition_quote": "",
+              "value_list_verbatim": ["grammar editing", "formatting", "translation used only for comprehension", "unused brainstorming", "descriptive summary that does not enter synthesis"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Lighter disclosure remains appropriate for grammar editing, formatting, translation used only for comprehension, unused brainstorming, and descriptive summary that does not enter synthesis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8bdb4ac369a15d51",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-merit-ordinal-contribution-scale",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.31234/osf.io/s6h58",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "ordinal scale",
+              "definition_quote": "",
+              "value_list_verbatim": ["lead", "equal", "supporting"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Contributions can be denoted using an ordinal scale—either coarse (e.g., lead, equal, and supporting) or fine-grained"
+            },
+            {
+              "dimension_label_verbatim": "fine-grained",
+              "definition_quote": "",
+              "value_list_verbatim": ["minimal", "slight", "moderate", "substantial", "extensive", "full"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "fine-grained (e.g., minimal, slight, moderate, substantial, extensive, and full)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9d44a11fd3fb6d54",
+      "has_scheme": false,
+      "reason": "argues for a shift from AI-detection to a disclosure-led trust-based approach and offers general recommendations (disclosure policies, assessment redesign, AI literacy, governance) without enumerating specific categories."
+    },
+    {
+      "rec_id": "5f713b2b385ea44e",
+      "has_scheme": false,
+      "reason": "editorial announcement that the journal has adopted the CASRAI CRediT taxonomy for contributorship statements; no specific CRediT roles or categories are enumerated in the retrieved text."
+    },
+    {
+      "rec_id": "61aa753ff176711b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "authentic-assessment-six-dimension-framework",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/02602938.2026.2695376",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "a retained corpus of 37 substantive sources",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "contextual fidelity and consequential relevance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "contextual fidelity and consequential relevance"
+            },
+            {
+              "dimension_label_verbatim": "cognitive demand and evaluative judgement",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "cognitive demand and evaluative judgement"
+            },
+            {
+              "dimension_label_verbatim": "process transparency and integrity",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "process transparency and integrity"
+            },
+            {
+              "dimension_label_verbatim": "student agency and bounded choice",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "student agency and bounded choice"
+            },
+            {
+              "dimension_label_verbatim": "inclusivity and representational fairness",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "inclusivity and representational fairness"
+            },
+            {
+              "dimension_label_verbatim": "AI-aware validity and ethical practice",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "AI-aware validity and ethical practice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b9800b2da4a93806",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "human-contribution-test-three-elements",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5195/pur.2026.150",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Contribution test",
+              "definition_quote": "",
+              "value_list_verbatim": ["demonstrable creative direction", "intellectual shaping of product", "an authorial intent to create said work"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Contribution test that requires three key elements, demonstrable creative direction, intellectual shaping of product, and an authorial intent to create said work."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f478fd2353ee5d68",
+      "has_scheme": false,
+      "reason": "speculative essay arguing that a more comprehensive attribution/provenance system for AI/robotic design is needed, without enumerating any specific categories or dimensions."
+    },
+    {
+      "rec_id": "d173e45d6ac16fcb",
+      "has_scheme": false,
+      "reason": "describes the FORCE11 Software Citation Working Group's recommendations at a high level without enumerating the specific citation principles themselves in the retrieved text."
+    },
+    {
+      "rec_id": "3181560bbb5e96c1",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-contamination-pathways-vulnerability-zones",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.31234/osf.io/6q9ps_v2",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "contamination pathways",
+              "definition_quote": "",
+              "value_list_verbatim": ["full delegation", "partial mediation", "spillover"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "distinguishing three contamination pathways (full delegation, partial mediation, and spillover)"
+            },
+            {
+              "dimension_label_verbatim": "vulnerability zones",
+              "definition_quote": "",
+              "value_list_verbatim": ["text-rich tasks at highest risk", "browser-based cognitive paradigms as an emerging vulnerability", "supervised or identity-vetted settings at lower risk"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "three vulnerability zones (text-rich tasks at highest risk, browser-based cognitive paradigms as an emerging vulnerability, and supervised or identity-vetted settings at lower risk)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1b1f4fa0785e51a3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "citation-auditability-four-dimensions",
+          "scheme_name_verbatim": "citation auditability",
+          "source_ref": "doi:10.20944/preprints202609.1770.v1",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "citation provenance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "The framework comprises four interrelated dimensions: citation provenance, verification, evidentiary traceability, and human accountability."
+            },
+            {
+              "dimension_label_verbatim": "verification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "The framework comprises four interrelated dimensions: citation provenance, verification, evidentiary traceability, and human accountability."
+            },
+            {
+              "dimension_label_verbatim": "evidentiary traceability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "The framework comprises four interrelated dimensions: citation provenance, verification, evidentiary traceability, and human accountability."
+            },
+            {
+              "dimension_label_verbatim": "human accountability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "The framework comprises four interrelated dimensions: citation provenance, verification, evidentiary traceability, and human accountability."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

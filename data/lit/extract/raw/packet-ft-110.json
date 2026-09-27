@@ -1,0 +1,150 @@
+{
+  "packet_id": "ft-110",
+  "papers": [
+    {
+      "rec_id": "fdbdfb710c3b1b19",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "beyond-principlism-ai-usage-documentation",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2401.15284",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI tool and version",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "document key aspects of AI usage in research, including: AI tool and version, specific contributions, data and prompts used, output variability"
+            },
+            {
+              "dimension_label_verbatim": "specific contributions",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "document key aspects of AI usage in research, including: AI tool and version, specific contributions, data and prompts used, output variability"
+            },
+            {
+              "dimension_label_verbatim": "data and prompts used",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "document key aspects of AI usage in research, including: AI tool and version, specific contributions, data and prompts used, output variability"
+            },
+            {
+              "dimension_label_verbatim": "output variability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "document key aspects of AI usage in research, including: AI tool and version, specific contributions, data and prompts used, output variability"
+            },
+            {
+              "dimension_label_verbatim": "parameters and settings",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "parameters and settings, model archiving, and iterative \ndocumentation. The level of detail in \ndocumentation should be balanced"
+            },
+            {
+              "dimension_label_verbatim": "model archiving",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "parameters and settings, model archiving, and iterative \ndocumentation. The level of detail in \ndocumentation should be balanced"
+            },
+            {
+              "dimension_label_verbatim": "iterative \ndocumentation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "parameters and settings, model archiving, and iterative \ndocumentation. The level of detail in \ndocumentation should be balanced"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "63dd89a5a82dd82d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "nosratzehi-keikha-graded-typology-ai-involvement",
+          "scheme_name_verbatim": "graded typology of AI involvement",
+          "source_ref": "doi:10.1186/s41077-025-00362-2",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "graded typology of AI involvement",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Type I: Mechanical assistance (e.g., grammar correction)",
+                "Type II: Stylistic and linguistic enhancement",
+                "Type III: Content suggestion or synthesis (e.g., summarizing literature)",
+                "Type IV: Conceptual or analytical contribution (e.g., proposing frameworks or critiques)"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Clarifying the threshold of “substantial contribution”",
+              "quote": "We propose adopting a graded typology of AI involvement, ranging from."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2b4a53d1d710aa77",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "duia-ten-category-taxonomy",
+          "scheme_name_verbatim": "Declaration of Artificial Intelligence Uses (Declaración de Usos de Inteligencia Artificial, DUIA)",
+          "source_ref": "doi:10.21203/rs.3.rs-7539154/v1",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "administrative records, a post-\ncourse student survey (n = 38 of 46 completers), and an instructor survey (n = 3 of 3)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "10-category\ntaxonomy",
+              "definition_quote": "operationalizes transparent disclosure of generative-AI assistance via a 10-category\ntaxonomy",
+              "value_list_verbatim": [
+                "idea generation",
+                "drafting",
+                "text structuring",
+                "grammar/spelling correction",
+                "summarization",
+                "information extraction",
+                "content analysis",
+                "citation/reference management",
+                "translation",
+                "data visualization"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "2.2. Case context and intervention",
+              "quote": "The DUIA operationalizes transparent disclosure of generative-AI assistance via a 10-category\ntaxonomy: (1) idea generation; (2) drafting; (3) text structuring"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

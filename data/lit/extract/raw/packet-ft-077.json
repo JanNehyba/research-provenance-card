@@ -1,0 +1,80 @@
+{
+  "packet_id": "ft-077",
+  "papers": [
+    {
+      "rec_id": "21efea6918f635c6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "originality-transparency-accountability",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.29140/97817637116240-25",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "originality",
+              "definition_quote": "originality prioritizes the individual initiative, independent discretion and human authorship of all academic work",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "4",
+              "quote": "First, originality prioritizes the individual initiative, independent discretion and human authorship of all academic work"
+            },
+            {
+              "dimension_label_verbatim": "transparency",
+              "definition_quote": "transparency requires the explicit and full disclosure of AI contributions",
+              "value_list_verbatim": ["AI tools used", "purpose", "scope", "time of AI assistance"],
+              "closed_or_open": "closed_list",
+              "locator": "4",
+              "quote": "specifying the AI tools used, purpose, scope and time of AI assistance"
+            },
+            {
+              "dimension_label_verbatim": "accountability",
+              "definition_quote": "accountability is ensured by updating AI ethical guidance and academic policy, discipline-specific practices and training programs",
+              "value_list_verbatim": ["workshops on ethical AI use and detection techniques", "writing tutorials", "grading penalties for undisclosed AI use", "disciplinary punishments for repeated violations"],
+              "closed_or_open": "closed_list",
+              "locator": "4",
+              "quote": "including workshops on ethical AI use and detection techniques, writing tutorials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "87df6f452aa8f4b7",
+      "has_scheme": false,
+      "reason": "Discusses external metadata type vocabularies (Dublin Core, RIOXX, .ris, IRUS) for classifying software as a research output, but does not fully enumerate any of them or propose its own disclosure scheme; its own three-way classification (does/does not/cannot contain software) describes repository capability, not a disclosure or provenance claim about produced software."
+    },
+    {
+      "rec_id": "3be1dc058a0f0cfd",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.20933/100001406",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "contributor roles",
+              "definition_quote": "By defining 14 standard contributor roles, CRediT allows research teams to acknowledge the full range of contributions beyond traditional authorship",
+              "value_list_verbatim": ["data curation", "project management", "software development", "supervision"],
+              "closed_or_open": "closed_list",
+              "locator": "Abstract",
+              "quote": "including roles in data curation, project management, software development, and supervision"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

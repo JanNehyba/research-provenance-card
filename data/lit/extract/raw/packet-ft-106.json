@@ -1,0 +1,86 @@
+{
+  "packet_id": "ft-106",
+  "papers": [
+    {
+      "rec_id": "825c1f37338b4f4b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "murcia-ai-assisted-textual-typology",
+          "scheme_name_verbatim": "AI-Assisted Textual Typology",
+          "source_ref": "doi:10.32038/ltf.2026.13.03",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Text Typology",
+              "definition_quote": "Within an AI-assisted framework, textual typologies could be categorized into three primary types: original, augmented, and synthetic texts",
+              "value_list_verbatim": ["Original Texts", "Augmented Texts", "Synthetic Texts"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Within an AI-assisted framework, textual typologies could be categorized into three primary types: original, augmented, and synthetic texts (See table 3)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "707b6298fcaf2099",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "marda-fair-materials-four-levels",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1557/s43577-023-00498-4",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "We interviewed members of each group in developing our recommendations.",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "four levels of individual action",
+              "definition_quote": "four levels of individual action that can be taken by researchers, research groups, and labs to produce FAIR data",
+              "value_list_verbatim": ["Level 1: Planning and preliminary data submission", "Level 2: Materials-specific metadata and complete submission", "Level 3: Enhanced functionality", "Level 4: Community standards, provenance, and reusing data"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 2",
+              "quote": "In each level, actions are labeled with F, A, I, or R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a95743862e065d97",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-taxonomy-nih-authorship-disputes",
+          "scheme_name_verbatim": "Contributor Role Taxonomy (CRediT)",
+          "source_ref": "doi:10.1080/08989621.2025.2596063",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Roles",
+              "definition_quote": "This community-owned resource consists of 14 standard contribution types",
+              "value_list_verbatim": ["Conceptualization", "Data curation", "Formal analysis", "Funding acquisition", "Investigation", "Methodology", "Project administration", "Resources", "Software", "Supervision", "Validation", "Visualization", "Writing – original draft", "Writing – review & editing"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1. CRediT contributor roles.",
+              "quote": "This community-owned resource consists of 14 standard contribution types ( NISO 2025 ) that help specify individual contributions to publications ( Table 1 )."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

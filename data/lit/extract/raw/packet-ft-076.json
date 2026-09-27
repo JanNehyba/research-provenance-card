@@ -1,0 +1,106 @@
+{
+  "packet_id": "ft-076",
+  "papers": [
+    {
+      "rec_id": "69a3921ac89f6d62",
+      "has_scheme": false,
+      "reason": "Recommends stakeholders adopt existing external frameworks (CRediT contributor taxonomy, CONSORT/STROBE/PRISMA reporting guidelines); proposes no categories, dimensions or checklist of its own."
+    },
+    {
+      "rec_id": "b341810eaa0ea0b9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aigc-provenance-metadata-cqs",
+          "scheme_name_verbatim": "Proposed metadata schema",
+          "source_ref": "doi:10.1145/3774905.3795092",
+          "domain": "software",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "CQ1",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "What prompts (instructions, role, background information, output format, etc.) were used to generate this AIGC?"
+            },
+            {
+              "dimension_label_verbatim": "CQ2",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "Who created the prompts to generate this AIGC?"
+            },
+            {
+              "dimension_label_verbatim": "CQ3",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "Which model/agent was used to generate this AIGC?"
+            },
+            {
+              "dimension_label_verbatim": "CQ4",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "Which hyperparameters were used to generate this AIGC?"
+            },
+            {
+              "dimension_label_verbatim": "CQ5",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "With what confidence was this AIGC generated?"
+            },
+            {
+              "dimension_label_verbatim": "CQ6",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "When was this AIGC generated?"
+            },
+            {
+              "dimension_label_verbatim": "CQ7",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "Who modified this AIGC?"
+            },
+            {
+              "dimension_label_verbatim": "CQ8",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "What was the reasoning process used to generate this AIGC?"
+            },
+            {
+              "dimension_label_verbatim": "CQ9",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.1. Metadata Schema",
+              "quote": "What is the digital signature of this AIGC?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d25a3e75f786badb",
+      "has_scheme": false,
+      "reason": "The 'three research topics' (writing aid / citation & attribution / plagiarism) are search categories used to structure the literature search and discussion, not a disclosure or attribution scheme applied to describe produced content."
+    }
+  ]
+}

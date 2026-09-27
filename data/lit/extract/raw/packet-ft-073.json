@@ -207,7 +207,20 @@
               "closed_or_open": "open_text",
               "locator": "Table 1. Four-step framework for evaluating journal articles",
               "quote": "4. Attribution\nEverything that is conveyed to the reader"
-            },
+            }
+          ]
+        },
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "Contributor Roles \nTaxonomy (CRediT)",
+          "source_ref": "doi:10.20529/ijme.2022.023",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
             {
               "dimension_label_verbatim": "contributor roles",
               "definition_quote": "currently \nseeking \nto \nestablish \na \nstandardised \nclassification \nof \ncontributor roles",

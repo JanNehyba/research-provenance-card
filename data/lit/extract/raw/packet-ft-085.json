@@ -1,0 +1,275 @@
+{
+  "packet_id": "ft-085",
+  "papers": [
+    {
+      "rec_id": "b5b09921f0143225",
+      "has_scheme": false,
+      "reason": "Empirical study of predictors of contributor omission in Cochrane acknowledgements (gender, race, author position, institutional status are analytic control variables, not a disclosure/attribution scheme). Practice recommendations mention a possible 'prior contributors' checklist and structured acknowledgement field but do not enumerate named dimensions or values."
+    },
+    {
+      "rec_id": "84d5a2ecc8151c5e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cwik-ai-use-documentation-fields",
+          "scheme_name_verbatim": "Minimal and extended AI-use documentation fields for scholarly workflows",
+          "source_ref": "doi:10.1186/s41073-026-00245-8",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "10.17605/OSF.IO/A439J",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Tool identification",
+              "definition_quote": "Tool name and general category",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Tool identification Tool name and general category Tool name, provider, model, version if available, access mode"
+            },
+            {
+              "dimension_label_verbatim": "Date or period of use",
+              "definition_quote": "Approximate date or period",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Date or period of use Approximate date or period Exact date or documented period of use"
+            },
+            {
+              "dimension_label_verbatim": "Purpose of use",
+              "definition_quote": "General purpose, e.g., language editing",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Purpose of use General purpose, e.g., language editing Specific task, e.g., literature synthesis, coding, analysis, drafting"
+            },
+            {
+              "dimension_label_verbatim": "Input type",
+              "definition_quote": "General statement that no sensitive data were used, if applicable",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Input type General statement that no sensitive data were used, if applicable Description of input source, sensitivity level, and any redactions"
+            },
+            {
+              "dimension_label_verbatim": "Prompt documentation",
+              "definition_quote": "Not required for minor language polishing",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Prompt documentation Not required for minor language polishing Exact prompt, redacted prompt, or prompt category"
+            },
+            {
+              "dimension_label_verbatim": "Output use",
+              "definition_quote": "General statement that outputs were reviewed",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Output use General statement that outputs were reviewed Description of what was accepted, modified, rejected, or incorporated"
+            },
+            {
+              "dimension_label_verbatim": "Human verification",
+              "definition_quote": "Confirmation of human review",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Human verification Confirmation of human review Description of verification steps, fact-checking, citation checks, or expert review"
+            },
+            {
+              "dimension_label_verbatim": "Modifications",
+              "definition_quote": "Not usually required",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Modifications Not usually required Description of substantive manual corrections or revisions"
+            },
+            {
+              "dimension_label_verbatim": "Privacy safeguards",
+              "definition_quote": "Confirmation of no inappropriate data input",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Privacy safeguards Confirmation of no inappropriate data input Redaction, anonymization, access control, or data minimization procedures"
+            },
+            {
+              "dimension_label_verbatim": "Manuscript relevance",
+              "definition_quote": "General manuscript stage affected",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Manuscript relevance General manuscript stage affected Whether AI influenced arguments, conclusions, methods, interpretation, or presentation"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure location",
+              "definition_quote": "AI-use statement, acknowledgments, or methods",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 6",
+              "quote": "Disclosure location AI-use statement, acknowledgments, or methods Methods, supplement, OSF record, declaration, or submission-system field"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4fbe91de3eed2a61",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "airo-governance-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2604.11261",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://github.com/RutaBinkyte/AI-RO",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Ontological status",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Ontological status\nDigital scientific artefact\nDigital scientific artefact"
+            },
+            {
+              "dimension_label_verbatim": "Typical examples",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Typical examples\nDatasets, software, workflows\nAI use logs, AI agents"
+            },
+            {
+              "dimension_label_verbatim": "Versioning",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Versioning\nDataset/software versions\nModel versions, checkpoints"
+            },
+            {
+              "dimension_label_verbatim": "Configuration",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Configuration\nParameters, scripts\nTemperature, Top-p, Max tokens"
+            },
+            {
+              "dimension_label_verbatim": "Provenance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Provenance\nData sources, pipelines\nPrompt logs"
+            },
+            {
+              "dimension_label_verbatim": "Reproducibility",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Reproducibility\nFull: Re-run workflow\nLimited: Re-run model with same context"
+            },
+            {
+              "dimension_label_verbatim": "Documentation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Documentation\nREADME, metadata\nAI-RO Inspection Cards, interaction logs"
+            },
+            {
+              "dimension_label_verbatim": "Evaluation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Evaluation\nPerformance metrics\nOutput quality, human oversight"
+            },
+            {
+              "dimension_label_verbatim": "Accountability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Accountability\nHuman researchers\nHuman researchers"
+            },
+            {
+              "dimension_label_verbatim": "Automation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table I",
+              "quote": "Automation\nLow\nMedium to High (in agentic settings)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "airo-inspection-card",
+          "scheme_name_verbatim": "AI Research Object Inspection Card (AI-ROIC)",
+          "source_ref": "doi:10.48550/arxiv.2604.11261",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://github.com/RutaBinkyte/AI-RO",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Run ID",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "AI Research Object Inspection Card (AI-ROIC)",
+              "quote": "Run ID: ro-background"
+            },
+            {
+              "dimension_label_verbatim": "Research Topic",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "AI Research Object Inspection Card (AI-ROIC)",
+              "quote": "Research Topic: Paradigms of authorship in generative AI creation"
+            },
+            {
+              "dimension_label_verbatim": "Model Configuration",
+              "definition_quote": "",
+              "value_list_verbatim": ["Interface", "Model class", "Temperature", "Top-p", "Max tokens", "Input bundle SHA-256"],
+              "closed_or_open": "closed_list",
+              "locator": "AI Research Object Inspection Card (AI-ROIC)",
+              "quote": "Model Configuration"
+            },
+            {
+              "dimension_label_verbatim": "Artifacts Released",
+              "definition_quote": "Each run produces inspection artifacts rather than only a final text.",
+              "value_list_verbatim": [
+                "a taxonomy file describing conceptual groupings,",
+                "a demonstration draft showing synthesis structure,",
+                "an audit checklist linking claims to sources,",
+                "a verification table for human review,",
+                "a provenance record of model interaction."
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "A-D Generated Artifacts",
+              "quote": "a taxonomy file describing conceptual groupings,"
+            },
+            {
+              "dimension_label_verbatim": "Intended Use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "AI Research Object Inspection Card (AI-ROIC)",
+              "quote": "Intended Use\nAssistive structural synthesis and drafting using"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

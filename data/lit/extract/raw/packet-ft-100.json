@@ -1,0 +1,179 @@
+{
+  "packet_id": "ft-100",
+  "papers": [
+    {
+      "rec_id": "6778ce97b58fc126",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ukzn-three-levels-of-disclosure",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/fpos.2025.1666661",
+          "domain": "research_publishing",
+          "artifact_type": "policy",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Levels of disclosure",
+              "definition_quote": "The Guidelines establish three levels of disclosure that are tailored to the extent of Gen-AI involvement",
+              "value_list_verbatim": ["Optional disclosure", "Disclosure without prompts", "Full disclosure"],
+              "closed_or_open": "closed_list",
+              "locator": "3.5.2 Levels of disclosure",
+              "quote": "The Guidelines establish three levels of disclosure that are tailored to the extent of Gen-AI involvement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4a6856dbacf75f7c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "oss-ai-policy-six-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2609.07542",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "281 AI contribution policies from the 2,000 most popular GitHub repositories, complemented by 36 well-known projects and organizations",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "code contributions",
+              "definition_quote": "",
+              "value_list_verbatim": ["forbidden", "permitted", "encouraged", "none"],
+              "closed_or_open": "closed_list",
+              "locator": "2.4.1. AI Usage Allowance",
+              "quote": "we classified guidance on code contributions, communication, and issues/bugs/security into three categories: forbidden , permitted , and encouraged"
+            },
+            {
+              "dimension_label_verbatim": "communication",
+              "definition_quote": "",
+              "value_list_verbatim": ["forbidden", "permitted", "encouraged", "none"],
+              "closed_or_open": "closed_list",
+              "locator": "2.4.1. AI Usage Allowance",
+              "quote": "we classified guidance on code contributions, communication, and issues/bugs/security into three categories: forbidden , permitted , and encouraged"
+            },
+            {
+              "dimension_label_verbatim": "issues/bugs/security",
+              "definition_quote": "",
+              "value_list_verbatim": ["forbidden", "permitted", "encouraged", "none"],
+              "closed_or_open": "closed_list",
+              "locator": "2.4.1. AI Usage Allowance",
+              "quote": "we classified guidance on code contributions, communication, and issues/bugs/security into three categories: forbidden , permitted , and encouraged"
+            },
+            {
+              "dimension_label_verbatim": "AI disclosure obligations",
+              "definition_quote": "required (when the AI policy explicitly requires them) and not required (when the AI policy explicitly states they are not required)",
+              "value_list_verbatim": ["required", "not required", "none"],
+              "closed_or_open": "closed_list",
+              "locator": "2.4.1. AI Usage Allowance",
+              "quote": "We classified AI disclosure obligations and accountability into three categories: required (when the AI policy explicitly requires them) and not required"
+            },
+            {
+              "dimension_label_verbatim": "accountability",
+              "definition_quote": "",
+              "value_list_verbatim": ["required", "not required", "none"],
+              "closed_or_open": "closed_list",
+              "locator": "2.4.1. AI Usage Allowance",
+              "quote": "We classified AI disclosure obligations and accountability into three categories: required (when the AI policy explicitly requires them) and not required"
+            },
+            {
+              "dimension_label_verbatim": "level of human involvement",
+              "definition_quote": "",
+              "value_list_verbatim": ["high", "low", "medium", "none"],
+              "closed_or_open": "closed_list",
+              "locator": "2.4.1. AI Usage Allowance",
+              "quote": "we classified the level of human involvement into three categories: high (when the AI policy requires human review, understanding, testing, or similar involvement)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "oss-level-of-ai-assistance",
+          "scheme_name_verbatim": "Level of AI Assistance: Human-written, AI-assisted, and AI-generated",
+          "source_ref": "doi:10.48550/arxiv.2609.07542",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "AI policies of projects sipeed/picoclaw and kornia/kornia, which require contributors to disclose the level of AI assistance in three categories",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Level of AI Assistance",
+              "definition_quote": "require contributors to disclose the level of AI assistance using three categories: human-written, AI-assisted, and AI-generated",
+              "value_list_verbatim": ["human-written", "AI-assisted", "AI-generated"],
+              "closed_or_open": "closed_list",
+              "locator": "7.4. Level of AI Assistance: Human-written, AI-assisted, and AI-generated",
+              "quote": "some projects go a step further and require contributors to disclose the level of AI assistance using three categories: human-written, AI-assisted, and AI-generated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ae2d2a63e7b9094e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-healthcare-ethics-framework",
+          "scheme_name_verbatim": "Ethical framework for healthcare generative AI research ethics",
+          "source_ref": "doi:10.1186/s12910-026-01513-4",
+          "domain": "other",
+          "artifact_type": "reporting_guideline",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "three-stage modified Delphi study (Round 1 qualitative workshop, 18 experts; quantitative consensus surveys in Rounds 2-3)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "domains",
+              "definition_quote": "",
+              "value_list_verbatim": ["data", "governance", "design-by-value"],
+              "closed_or_open": "closed_list",
+              "locator": "Framework synthesis and checklist development",
+              "quote": "we consolidated these themes into three overarching domains (data, governance, and design-by-value) and eight value dimensions"
+            },
+            {
+              "dimension_label_verbatim": "value dimensions",
+              "definition_quote": "",
+              "value_list_verbatim": ["privacy", "trust", "safety", "forward-looking responsibility", "backward-looking responsibility", "explainability", "debiasing", "alignment"],
+              "closed_or_open": "closed_list",
+              "locator": "Framework synthesis and checklist development",
+              "quote": "eight value dimensions: privacy, trust, safety, forward-looking responsibility, backward-looking responsibility, explainability, debiasing, and alignment"
+            },
+            {
+              "dimension_label_verbatim": "research-lifecycle stage",
+              "definition_quote": "",
+              "value_list_verbatim": ["pre-development", "development", "post-deployment", "cross-cutting"],
+              "closed_or_open": "closed_list",
+              "locator": "Framework synthesis and checklist development",
+              "quote": "mapped to at least one value dimension and to a research-lifecycle stage (pre-development, development, post-deployment, or cross-cutting)"
+            },
+            {
+              "dimension_label_verbatim": "final checklist status",
+              "definition_quote": "",
+              "value_list_verbatim": ["REQ", "REC", "CON", "CTX", "EXC"],
+              "closed_or_open": "closed_list",
+              "locator": "Separation of empirical and interpretive layers",
+              "quote": "the final checklist status (REQ, REC, CON, CTX, or EXC)"
+            },
+            {
+              "dimension_label_verbatim": "thematic areas",
+              "definition_quote": "",
+              "value_list_verbatim": ["data protection", "evaluation methods", "safety measures", "documentation standards", "attribution of responsibility", "monitoring", "explainability", "bias management", "value alignment"],
+              "closed_or_open": "closed_list",
+              "locator": "Survey instrument development",
+              "quote": "a survey instrument consisting of 56 items across nine thematic areas was developed: data protection, evaluation methods, safety measures, documentation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
