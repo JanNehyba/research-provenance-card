@@ -184,6 +184,19 @@ def main() -> int:
         add("No record has a verdict from both screeners yet.")
         add("")
 
+    single = sorted(rec for rec, seen in by_rec.items() if len(seen) == 1)
+    if single:
+        titles = {row["rec_id"]: row["title"] for row in records}
+        add(f"**{len(single)} record(s) carry a verdict from only one screener** and are "
+            f"therefore outside the agreement calculation. Named here so a reader can "
+            f"check the judgement rather than take it on trust:")
+        add("")
+        for rec_id in single[:10]:
+            only = next(iter(by_rec[rec_id]))
+            add(f"- `{rec_id}`, screener {only} said "
+                f"{by_rec[rec_id][only]}: {titles.get(rec_id, '(unknown title)')[:90]}")
+        add("")
+
     reasons = Counter(row["reason_code"] for row in verdicts)
     add("| Reason code | Verdicts |")
     add("|---|---:|")

@@ -125,15 +125,18 @@ Every `rec_id` in the packet must appear exactly once in your output.
 1. Read the packet entry. Note the `retrieval_status`. If it is `abstract_only`,
    you have only an abstract; extract what is there and put `abstract` in every
    `locator`. Do not speculate about the rest of the paper.
-2. **Start with `candidate_windows` in the packet.** A script cut out the
-   passages around words like taxonomy, dimension, levels, coding scheme and
-   checklist, and each window carries the heading above it. Most papers give up
-   their scheme here, which saves you reading the whole file.
-3. **Open `text_file` whenever the windows are not enough.** They are a reading
-   aid, not the evidence. The full retrieved text is on disk at that path, your
-   quotes are verified against the whole file, and a scheme stated in words the
-   script did not look for will only be found by reading. If the windows look
-   promising but incomplete, read the section they came from.
+2. **Work from `candidate_windows` in the packet.** A script cut out the passages
+   around words like taxonomy, dimension, levels, coding scheme and checklist,
+   each with the heading above it and its `starts_at_char` offset. Between them
+   they cover a large part of the paper, and most papers give up their scheme
+   here. This is where you should expect to do nearly all of your work.
+3. **Open `text_file` only for a specific reason**, and then read a part of it,
+   not all of it. A good reason: the windows show a named scheme whose dimension
+   list visibly runs past the end of a window, or a table that has been cut in
+   half. A bad reason: wanting to be thorough in general. Reading whole papers is
+   what this pipeline cannot afford, and a packet spent that way is a packet not
+   spent on the next three papers. Use the `starts_at_char` offset to go to the
+   right part of the file rather than reading from the top.
 4. Look for the places schemes live: a methods or coding section, a framework or
    model section, a table of categories, a numbered list, an appendix.
 5. For each scheme, copy its dimensions out one at a time.

@@ -22,7 +22,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.lit.extract import canon, _check_quote, candidate_windows, WINDOW_TERMS
+from src.lit.extract import (canon, _check_quote, candidate_windows, WINDOW_TERMS,
+                             MAX_WINDOWS, MAX_WINDOW_BUDGET)
 from src.lit.reliability import cohens_kappa, fleiss_kappa, interpret
 from src.lit.sources import normalise_doi, normalise_title, _clean
 
@@ -113,9 +114,21 @@ def test_windows_survive_a_dense_paper():
     )
     windows = candidate_windows(body)
     assert windows, "a dense paper must not yield zero windows"
-    assert len(windows) <= 12
-    assert sum(len(w["text"]) for w in windows) <= 15000
+    assert len(windows) <= MAX_WINDOWS
+    assert sum(len(w["text"]) for w in windows) <= MAX_WINDOW_BUDGET
     assert windows == sorted(windows, key=lambda w: w["starts_at_char"])
+
+
+def test_windows_do_not_overlap():
+    """Overlapping windows would send the same text twice in every packet."""
+    body = ("".join(f"Section {i}: the taxonomy and its dimension structure here. "
+                    f"{'filler words without scheme vocabulary. ' * 4}"
+                    for i in range(40)))
+    windows = candidate_windows(body)
+    assert windows
+    for earlier, later in zip(windows, windows[1:]):
+        assert (earlier["starts_at_char"] + len(earlier["text"])
+                <= later["starts_at_char"])
 
 
 def test_windows_are_empty_only_when_nothing_matches():

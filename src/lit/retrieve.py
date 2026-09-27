@@ -157,6 +157,24 @@ def retrieve_one(record: dict) -> dict:
                     "text_source": "pdf", "extractor": extractor, "url": url,
                     "chars": size, "sha256": digest, "attempts": attempts}
 
+    # Last resort before giving up on a full text: an open access location that
+    # is an HTML page rather than a PDF. The first run discarded these, because
+    # only a URL ending in .pdf was tried, and 161 records ended with no text at
+    # all. A publisher's own OA landing page often carries the whole article.
+    if record.get("doi"):
+        oa_url = sources.unpaywall_pdf(record["doi"])
+        if oa_url and not oa_url.lower().endswith(".pdf"):
+            resp = http.get(oa_url)
+            attempts.append(f"oa_html:{oa_url[:60]}:{len(resp.content) if resp else 0}")
+            if resp is not None and "html" in resp.headers.get("content-type", "").lower():
+                text = _html_to_text(resp.text)
+                if len(text) >= MIN_FULLTEXT_CHARS:
+                    digest, size = _store(rec_id, text)
+                    return {"rec_id": rec_id, "status": "fulltext_oa",
+                            "text_source": "oa_html", "extractor": "html",
+                            "url": oa_url, "chars": size, "sha256": digest,
+                            "attempts": attempts}
+
     abstract = record.get("abstract", "")
     if abstract:
         digest, size = _store(rec_id, abstract)

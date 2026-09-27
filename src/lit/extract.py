@@ -39,7 +39,8 @@ REJECTED = os.path.join(EXTRACT, "rejected.jsonl")
 FT_EXCLUDED = os.path.join(LIT, "fulltext-excluded.jsonl")
 REQUEUE = os.path.join(EXTRACT, "requeue.json")
 
-PACKET_SIZE = 3
+PACKET_SIZE_FULLTEXT = 3
+PACKET_SIZE_ABSTRACT = 10
 MAX_QUOTE_WORDS = 25
 HARD_QUOTE_WORDS = 40
 
@@ -59,8 +60,8 @@ WINDOW_TERMS = (
     "contributorship", "CRediT",
 )
 WINDOW_CHARS = 1200
-MAX_WINDOWS = 12
-MAX_WINDOW_BUDGET = 15000
+MAX_WINDOWS = 18
+MAX_WINDOW_BUDGET = 24000
 
 DOMAINS = ("research_publishing", "education_assessment", "journalism_media",
            "government", "software", "workplace", "advertising", "law_regulation",
@@ -183,25 +184,37 @@ def candidate_windows(text: str) -> list[dict]:
     # own order rather than by dictionary order of the term list.
     clusters.sort(key=lambda c: (-len(c["terms"]), -c["hits"], c["first"]))
 
-    windows, budget = [], 0
+    chosen: list[tuple[int, int, set]] = []
+    budget = 0
     for cluster in clusters:
-        if len(windows) >= MAX_WINDOWS:
+        if len(chosen) >= MAX_WINDOWS:
             break
         begin = _snap(text, max(0, cluster["first"] - 250), forward=False)
         end = _snap(text, min(len(text), cluster["last"] + WINDOW_CHARS), forward=True)
         end = min(end, begin + 2 * WINDOW_CHARS)
-        piece = text[begin:end]
-        if budget + len(piece) > MAX_WINDOW_BUDGET:
+        if budget + (end - begin) > MAX_WINDOW_BUDGET:
             continue
-        budget += len(piece)
-        windows.append({
-            "heading_above": _heading_before(text, begin),
-            "matched_terms": sorted(cluster["terms"])[:5],
-            "starts_at_char": begin,
-            "text": piece,
-        })
-    windows.sort(key=lambda w: w["starts_at_char"])
-    return windows
+        budget += end - begin
+        chosen.append((begin, end, set(cluster["terms"])))
+
+    # Two windows can overlap: clusters are bounded by the distance between hits,
+    # but each window runs on past its last hit. Sending the overlap twice buys
+    # nothing and costs tokens in every packet, so overlapping ranges are merged.
+    chosen.sort()
+    merged: list[list] = []
+    for begin, end, terms in chosen:
+        if merged and begin <= merged[-1][1]:
+            merged[-1][1] = max(merged[-1][1], end)
+            merged[-1][2] |= terms
+        else:
+            merged.append([begin, end, set(terms)])
+
+    return [{
+        "heading_above": _heading_before(text, begin),
+        "matched_terms": sorted(terms)[:6],
+        "starts_at_char": begin,
+        "text": text[begin:end],
+    } for begin, end, terms in merged]
 
 
 def prepare() -> int:
@@ -235,20 +248,32 @@ def prepare() -> int:
     os.makedirs(PACKETS, exist_ok=True)
     for old in glob.glob(os.path.join(PACKETS, "packet-*.json")):
         os.remove(old)
+
+    # Two packet series, because the two kinds of paper cost very different
+    # amounts to read. An abstract is one or two thousand characters, so ten fit
+    # in a packet comfortably; a full text carries up to 24,000 characters of
+    # windows, so three is already a lot to hold at once.
+    full = [p for p in usable if p["retrieval_status"] == "fulltext_oa"]
+    abstracts = [p for p in usable if p["retrieval_status"] != "fulltext_oa"]
+
     written = 0
-    for index in range(0, len(usable), PACKET_SIZE):
-        packet_id = f"{index // PACKET_SIZE + 1:03d}"
-        payload = {
-            "packet_id": packet_id,
-            "instructions": "docs/scoping/prompts/extractor.md",
-            "papers": usable[index:index + PACKET_SIZE],
-        }
-        with io.open(os.path.join(PACKETS, f"packet-{packet_id}.json"), "w",
-                     encoding="utf-8", newline="\n") as fh:
-            json.dump(payload, fh, ensure_ascii=False, indent=2)
-            fh.write("\n")
-        written += 1
-    print(f"{len(usable)} papers with text into {written} packets of up to {PACKET_SIZE}")
+    for prefix, group, size in (("ft", full, PACKET_SIZE_FULLTEXT),
+                                ("ab", abstracts, PACKET_SIZE_ABSTRACT)):
+        for index in range(0, len(group), size):
+            packet_id = f"{prefix}-{index // size + 1:03d}"
+            payload = {
+                "packet_id": packet_id,
+                "instructions": "docs/scoping/prompts/extractor.md",
+                "papers": group[index:index + size],
+            }
+            with io.open(os.path.join(PACKETS, f"packet-{packet_id}.json"), "w",
+                         encoding="utf-8", newline="\n") as fh:
+                json.dump(payload, fh, ensure_ascii=False, indent=2)
+                fh.write("\n")
+            written += 1
+    print(f"{len(usable)} papers with text into {written} packets")
+    print(f"  {len(full)} full texts, {PACKET_SIZE_FULLTEXT} per packet (packet-ft-*)")
+    print(f"  {len(abstracts)} abstracts, {PACKET_SIZE_ABSTRACT} per packet (packet-ab-*)")
     print(f"packets in {PACKETS}")
     return 0
 
