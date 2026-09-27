@@ -241,3 +241,28 @@ disclosure that hides its own production would not be worth reading.
 Appended only. Nothing above this line changes after the first search.
 
 - 2026-09-27: protocol frozen, no deviations yet.
+- 2026-09-27: **candidate windows added to the extraction packets.** Section 7
+  says what to extract, not how an extractor navigates a paper. Reading every
+  retrieved full text in full would have cost more than the rest of the pipeline
+  together, so `extract.py prepare` now pre-cuts up to twelve passages around
+  terms a scheme is usually stated with (taxonomy, dimension, levels, coding
+  scheme, checklist and so on) and puts them in the packet with the heading above
+  each. This is logged as a deviation even though it changes no criterion,
+  because it changes what an extractor sees first and could therefore change what
+  it finds. Three safeguards: the whole retrieved text stays on disk and the
+  extractor is instructed to open it, quotes are verified against the whole text
+  and not against the windows, and the report states the measure under
+  limitations. The term list is in `src/lit/extract.py` as `WINDOW_TERMS` and is
+  versioned with everything else.
+- 2026-09-27: **a safety net for records with no abstract.** 482 of the 2750
+  records carry no abstract in any index we searched, so the screeners judged
+  them on the title alone. That is thin evidence for an exclusion, because a
+  paper can name its taxonomy only in section 3. Section 6 is therefore extended:
+  a record with no abstract whose **title** contains both a disclosure word and a
+  scheme word is carried to full text even when both screeners excluded it, and
+  is flagged `carried_no_abstract` so the report counts it separately. The two
+  word lists are in `src/lit/screen.py` as `DISCLOSURE_WORDS` and `SCHEME_WORDS`.
+  The rule is deliberately narrow: it never overrules a screener who had an
+  abstract in front of them, and it cannot rescue a record whose title says
+  nothing. Records excluded by both screeners on a title alone remain a stated
+  risk of under-inclusion; this reduces it, it does not remove it.

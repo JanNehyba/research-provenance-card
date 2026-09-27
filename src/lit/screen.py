@@ -197,6 +197,29 @@ def _paired() -> tuple[list[str], list[str], list[str]]:
     return ids, [by_rec[r]["A"] for r in ids], [by_rec[r]["B"] for r in ids]
 
 
+def find_calibration_record(ref: str, records: dict) -> str | None:
+    """Find the record a calibration reference ended up as.
+
+    Matching on the identifier alone is not enough. A known-item DOI often
+    resolves to a different one: the medRxiv preprint 10.1101/2025.11.11.25340015
+    is in the record set as 10.5334/pme.2431, its published version in
+    Perspectives on Medical Education. The known-item lookup recorded which
+    reference fetched it, so `found_by` is the reliable route and the identifier
+    is the fallback.
+    """
+    marker_doi = f"known:doi:{ref}"
+    marker_arxiv = f"known:arxiv:{ref}"
+    for rec_id, row in records.items():
+        found_by = row.get("found_by", [])
+        if marker_doi in found_by or marker_arxiv in found_by:
+            return rec_id
+    low = ref.lower()
+    for rec_id, row in records.items():
+        if row.get("doi") == low or row.get("arxiv_id") == ref:
+            return rec_id
+    return None
+
+
 def agreement() -> int:
     ids, a, b = _paired()
     if not ids:
@@ -221,12 +244,7 @@ def agreement() -> int:
 
     print("\ncalibration items (expected verdict never shown to a screener):")
     for item in spec.get("calibration", []):
-        ref = item["ref"].lower()
-        hit = None
-        for rec_id, row in records.items():
-            if row.get("doi") == ref or row.get("arxiv_id") == item["ref"]:
-                hit = rec_id
-                break
+        hit = find_calibration_record(item["ref"], records)
         if hit is None:
             print(f"  {item['ref']}: not in the record set at all")
             continue
@@ -236,6 +254,28 @@ def agreement() -> int:
               f"A={got.get('A', '-')} B={got.get('B', '-')} "
               f"({len(agreed)} of {len(got)} matched)")
     return 0
+
+
+# The safety net for records our index had no abstract for. Those were screened on
+# the title alone, which is thin evidence for an exclusion: a paper can name its
+# taxonomy only in section 3. A record with no abstract whose title carries both a
+# disclosure word and a scheme word is therefore carried to full text even when
+# both screeners excluded it, and flagged so the report can count it. The rule is
+# deterministic and narrow on purpose: it does not overrule a screener who saw an
+# abstract, and it cannot include anything whose title says nothing.
+DISCLOSURE_WORDS = ("disclos", "declar", "attribut", "provenance", "acknowledg",
+                    "transparen", "statement", "label", "byline", "credit",
+                    "contributorship", "conflict of interest", "authorship")
+SCHEME_WORDS = ("taxonom", "typolog", "framework", "classif", "categor",
+                "dimension", "facet", "rubric", "checklist", "scale", "level",
+                "tier", "vocabular", "ontolog", "schema", "guideline", "standard",
+                "coding", "model")
+
+
+def title_suggests_scheme(title: str) -> bool:
+    low = title.lower()
+    return (any(word in low for word in DISCLOSURE_WORDS)
+            and any(word in low for word in SCHEME_WORDS))
 
 
 def decide() -> int:
@@ -250,23 +290,34 @@ def decide() -> int:
 
     records = {row["rec_id"]: row for row in load_jsonl(RECORDS)}
     kept = []
+    carried = 0
     for rec_id, rows in by_rec.items():
         includes = [r for r in rows if r["decision"] == "include"]
-        if not includes:
-            continue
         record = dict(records.get(rec_id, {}))
+        route = ""
+        if includes:
+            route = "screener_include"
+        elif not record.get("abstract") and title_suggests_scheme(record.get("title", "")):
+            route = "carried_no_abstract"
+            carried += 1
+        if not route:
+            continue
         record["screening"] = {
+            "route": route,
             "included_by": sorted(r["screener"] for r in includes),
             "reason_codes": sorted({r["reason_code"] for r in includes}),
-            "unanimous": len(includes) == len(rows),
+            "unanimous": bool(includes) and len(includes) == len(rows),
             "notes": [r["note"] for r in rows if r["note"]],
         }
         kept.append(record)
 
     write_jsonl(INCLUDED, kept)
-    unanimous = sum(1 for r in kept if r["screening"]["unanimous"])
-    print(f"{len(by_rec)} records screened, {len(kept)} included "
-          f"({unanimous} unanimously, {len(kept) - unanimous} on one screener's vote)")
+    by_screener = [r for r in kept if r["screening"]["route"] == "screener_include"]
+    unanimous = sum(1 for r in by_screener if r["screening"]["unanimous"])
+    print(f"{len(by_rec)} records screened, {len(kept)} to full text")
+    print(f"  included by a screener : {len(by_screener)} "
+          f"({unanimous} unanimously, {len(by_screener) - unanimous} on one vote)")
+    print(f"  carried, no abstract   : {carried}")
     print(f"wrote {INCLUDED}")
     return 0
 

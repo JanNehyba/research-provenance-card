@@ -200,12 +200,8 @@ def main() -> int:
 
     calibration = queries.get("calibration", [])
     if calibration and verdicts:
-        by_ref = {}
-        for row in records:
-            if row.get("doi"):
-                by_ref[row["doi"]] = row["rec_id"]
-            if row.get("arxiv_id"):
-                by_ref[row["arxiv_id"]] = row["rec_id"]
+        from .screen import find_calibration_record
+        record_index = {row["rec_id"]: row for row in records}
         add("### Calibration items")
         add("")
         add("Expected verdicts were never shown to a screener; the comparison is made")
@@ -214,7 +210,7 @@ def main() -> int:
         add("| Reference | Expected | A | B |")
         add("|---|---|---|---|")
         for item in calibration:
-            rec_id = by_ref.get(item["ref"].lower()) or by_ref.get(item["ref"])
+            rec_id = find_calibration_record(item["ref"], record_index)
             got = by_rec.get(rec_id, {}) if rec_id else {}
             add(f"| `{item['ref']}` | {item['expected']} | "
                 f"{got.get('A', 'not screened')} | {got.get('B', 'not screened')} |")

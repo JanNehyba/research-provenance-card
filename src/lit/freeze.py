@@ -32,22 +32,47 @@ def sha256_of(path: str) -> str:
         return hashlib.sha256(fh.read()).hexdigest()
 
 
-def write() -> None:
+def write(reason: str = "") -> None:
+    """Record the current hashes, keeping every earlier hash in a history list.
+
+    Overwriting the previous hash would destroy the only thing this file is for.
+    A re-freeze after a logged deviation therefore appends: the history shows
+    what the protocol hashed to when the searches ran, and the deviations log in
+    the protocol says what changed and why.
+    """
+    previous = {}
+    if os.path.exists(FROZEN):
+        with io.open(FROZEN, encoding="utf-8") as fh:
+            previous = json.load(fh)
+
+    history = previous.get("history", [])
+    if previous.get("protocol"):
+        history.append({
+            "frozen_at": previous.get("frozen_at", ""),
+            "protocol_sha256": previous["protocol"]["sha256"],
+            "queries_sha256": previous["queries"]["sha256"],
+            "superseded_on": time.strftime("%Y-%m-%d"),
+            "superseded_because": reason or "not stated",
+        })
+
     payload = {
         "frozen_at": time.strftime("%Y-%m-%d"),
         "protocol": {"path": "docs/scoping/protocol.md", "sha256": sha256_of(PROTOCOL)},
         "queries": {"path": "data/lit/queries.json", "sha256": sha256_of(QUERIES)},
         "note": (
-            "Written before the first search ran. Recompute with "
-            "`python -m src.lit.freeze check`. A moved hash is only legitimate "
-            "if the deviations log in the protocol records the change."
+            "The first entry was written before the first search ran. Recompute "
+            "with `python -m src.lit.freeze check`. A moved hash is only "
+            "legitimate if the deviations log in the protocol records the change, "
+            "and the superseded hash stays in `history` below."
         ),
+        "history": history,
     }
     with io.open(FROZEN, "w", encoding="utf-8", newline="\n") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
     print(f"frozen: protocol {payload['protocol']['sha256'][:12]} "
-          f"queries {payload['queries']['sha256'][:12]}")
+          f"queries {payload['queries']['sha256'][:12]}, "
+          f"{len(history)} superseded entr{'y' if len(history) == 1 else 'ies'} kept")
 
 
 def check() -> int:
@@ -74,6 +99,6 @@ def check() -> int:
 if __name__ == "__main__":
     action = sys.argv[1] if len(sys.argv) > 1 else "check"
     if action == "write":
-        write()
+        write(" ".join(sys.argv[2:]))
     else:
         sys.exit(check())
