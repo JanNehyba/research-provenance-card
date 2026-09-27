@@ -1,0 +1,578 @@
+{
+  "ran_at": "2026-09-27 08:37",
+  "records_returned_total": 3270,
+  "records_unique": 2750,
+  "duplicates_merged": 520,
+  "queries": [
+    {
+      "query_id": "e1",
+      "block": "1",
+      "source": "europepmc",
+      "query": "(\"generative AI\" OR \"large language model\" OR ChatGPT OR \"artificial intelligence\") AND (\"disclosure statement\" OR \"AI disclosure\" OR \"use of AI\") AND (taxonomy OR typology OR classification OR framework OR categories OR dimensions)",
+      "returned": 100,
+      "new": 100,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "e2",
+      "block": "1",
+      "source": "europepmc",
+      "query": "(\"AI-assisted\" OR \"AI-generated\") AND (acknowledgement OR acknowledgment OR attribution OR authorship) AND (taxonomy OR classification OR levels OR scale OR rubric)",
+      "returned": 100,
+      "new": 91,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "e3",
+      "block": "1",
+      "source": "europepmc",
+      "query": "\"generative artificial intelligence\" AND (transparency OR disclosure) AND (checklist OR guideline OR \"reporting standard\")",
+      "returned": 100,
+      "new": 81,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "e4",
+      "block": "1",
+      "source": "europepmc",
+      "query": "(\"AI use\" OR \"use of generative AI\") AND (declaration OR statement) AND (\"content analysis\" OR \"document analysis\" OR bibliometric)",
+      "returned": 100,
+      "new": 84,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o1",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"AI disclosure\" taxonomy",
+      "returned": 100,
+      "new": 79,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o2",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"AI disclosure\" framework dimensions",
+      "returned": 100,
+      "new": 78,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o3",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"generative AI\" disclosure classification authorship",
+      "returned": 100,
+      "new": 95,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o4",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"AI-assisted writing\" disclosure levels",
+      "returned": 100,
+      "new": 92,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o5",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"AI use disclosure\" content analysis",
+      "returned": 100,
+      "new": 68,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o6",
+      "block": "1",
+      "source": "openalex",
+      "query": "artificial intelligence attribution taxonomy authorship text",
+      "returned": 100,
+      "new": 96,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o7",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"content credentials\" provenance labelling standard",
+      "returned": 100,
+      "new": 91,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o8",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"levels of AI involvement\" writing disclosure",
+      "returned": 67,
+      "new": 55,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o9",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"AI assessment scale\" education assessment",
+      "returned": 100,
+      "new": 90,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "o10",
+      "block": "1",
+      "source": "openalex",
+      "query": "\"disclosure statement\" \"large language model\" journal policy",
+      "returned": 100,
+      "new": 78,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "a1",
+      "block": "1",
+      "source": "arxiv",
+      "query": "abs:\"AI disclosure\" AND (abs:taxonomy OR abs:framework OR abs:typology)",
+      "returned": 8,
+      "new": 4,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "a2",
+      "block": "1",
+      "source": "arxiv",
+      "query": "abs:disclosure AND abs:\"generative AI\" AND (abs:categories OR abs:dimensions OR abs:facets)",
+      "returned": 9,
+      "new": 8,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "a3",
+      "block": "1",
+      "source": "arxiv",
+      "query": "abs:attribution AND abs:\"AI-assisted\" AND (abs:framework OR abs:taxonomy)",
+      "returned": 38,
+      "new": 37,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "a4",
+      "block": "1",
+      "source": "arxiv",
+      "query": "abs:transparency AND abs:\"AI-generated content\" AND (abs:label OR abs:labeling OR abs:labelling)",
+      "returned": 7,
+      "new": 6,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "a5",
+      "block": "1",
+      "source": "arxiv",
+      "query": "abs:provenance AND abs:\"AI-generated\" AND (abs:standard OR abs:metadata)",
+      "returned": 19,
+      "new": 16,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "c1",
+      "block": "1",
+      "source": "crossref",
+      "query": "AI disclosure taxonomy research",
+      "returned": 60,
+      "new": 49,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "c2",
+      "block": "1",
+      "source": "crossref",
+      "query": "generative AI disclosure statement classification journals",
+      "returned": 60,
+      "new": 45,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "c3",
+      "block": "1",
+      "source": "crossref",
+      "query": "AI assessment scale levels education",
+      "returned": 60,
+      "new": 55,
+      "ran_at": "2026-09-27 08:35"
+    },
+    {
+      "query_id": "c4",
+      "block": "1",
+      "source": "crossref",
+      "query": "artificial intelligence attribution framework authorship",
+      "returned": 60,
+      "new": 59,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "c5",
+      "block": "1",
+      "source": "crossref",
+      "query": "AI use declaration content analysis articles",
+      "returned": 60,
+      "new": 55,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "d1",
+      "block": "1",
+      "source": "doaj",
+      "query": "\"AI disclosure\" AND (taxonomy OR framework)",
+      "returned": 17,
+      "new": 8,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "d2",
+      "block": "1",
+      "source": "doaj",
+      "query": "\"generative AI\" AND disclosure AND (typology OR categories)",
+      "returned": 5,
+      "new": 3,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "r1",
+      "block": "1",
+      "source": "openaire",
+      "query": "AI disclosure taxonomy",
+      "returned": 50,
+      "new": 38,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "r2",
+      "block": "1",
+      "source": "openaire",
+      "query": "generative AI disclosure framework",
+      "returned": 50,
+      "new": 39,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "t1",
+      "block": "1",
+      "source": "datacite",
+      "query": "\"AI disclosure\" AND (taxonomy OR framework)",
+      "returned": 50,
+      "new": 26,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "e5",
+      "block": "2",
+      "source": "europepmc",
+      "query": "\"conflict of interest\" AND disclosure AND (taxonomy OR typology OR classification) AND (statement OR form)",
+      "returned": 100,
+      "new": 95,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "e6",
+      "block": "2",
+      "source": "europepmc",
+      "query": "(\"funding statement\" OR \"funding acknowledgement\") AND (taxonomy OR classification OR ontology)",
+      "returned": 100,
+      "new": 97,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "e7",
+      "block": "2",
+      "source": "europepmc",
+      "query": "(contributorship OR CRediT OR \"author contribution\") AND (taxonomy OR classification OR vocabulary)",
+      "returned": 100,
+      "new": 90,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "e8",
+      "block": "2",
+      "source": "europepmc",
+      "query": "(\"data citation\" OR \"software citation\") AND (principles OR taxonomy OR metadata)",
+      "returned": 100,
+      "new": 96,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o11",
+      "block": "2",
+      "source": "openalex",
+      "query": "\"sponsored content\" disclosure typology",
+      "returned": 100,
+      "new": 99,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o12",
+      "block": "2",
+      "source": "openalex",
+      "query": "\"native advertising\" disclosure taxonomy",
+      "returned": 90,
+      "new": 83,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o13",
+      "block": "2",
+      "source": "openalex",
+      "query": "\"influencer marketing\" disclosure typology label",
+      "returned": 100,
+      "new": 80,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o14",
+      "block": "2",
+      "source": "openalex",
+      "query": "\"conflict of interest\" disclosure taxonomy dimensions",
+      "returned": 100,
+      "new": 98,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o15",
+      "block": "2",
+      "source": "openalex",
+      "query": "contributorship taxonomy CRediT authorship",
+      "returned": 100,
+      "new": 84,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "c6",
+      "block": "2",
+      "source": "crossref",
+      "query": "native advertising disclosure typology",
+      "returned": 60,
+      "new": 51,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "c7",
+      "block": "2",
+      "source": "crossref",
+      "query": "conflict of interest disclosure classification framework",
+      "returned": 60,
+      "new": 31,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "c8",
+      "block": "2",
+      "source": "crossref",
+      "query": "contributorship taxonomy credit authorship",
+      "returned": 60,
+      "new": 44,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "c9",
+      "block": "2",
+      "source": "crossref",
+      "query": "data citation principles metadata",
+      "returned": 60,
+      "new": 47,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o16",
+      "block": "3",
+      "source": "openalex",
+      "query": "\"AI Assessment Scale\" Perkins",
+      "returned": 30,
+      "new": 1,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o17",
+      "block": "3",
+      "source": "openalex",
+      "query": "CANGARU guideline generative artificial intelligence academic",
+      "returned": 27,
+      "new": 14,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o18",
+      "block": "3",
+      "source": "openalex",
+      "query": "CONSORT-AI extension reporting",
+      "returned": 30,
+      "new": 24,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o19",
+      "block": "3",
+      "source": "openalex",
+      "query": "TRIPOD+AI reporting guideline prediction",
+      "returned": 30,
+      "new": 16,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o20",
+      "block": "3",
+      "source": "openalex",
+      "query": "CLAIM checklist artificial intelligence medical imaging",
+      "returned": 30,
+      "new": 22,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "o21",
+      "block": "3",
+      "source": "openalex",
+      "query": "DECIDE-AI reporting guideline decision support",
+      "returned": 30,
+      "new": 20,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "c10",
+      "block": "3",
+      "source": "crossref",
+      "query": "STM recommendations classification AI use academic manuscript preparation",
+      "returned": 30,
+      "new": 25,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "a6",
+      "block": "3",
+      "source": "arxiv",
+      "query": "all:\"faceted\" AND all:\"AI-assisted text\"",
+      "returned": 1,
+      "new": 1,
+      "ran_at": "2026-09-27 08:36"
+    },
+    {
+      "query_id": "known:arxiv:2604.25346",
+      "block": "known",
+      "source": "arxiv",
+      "query": "2604.25346",
+      "returned": 1,
+      "new": 0,
+      "ran_at": "2026-09-27 08:36",
+      "why": "Xexeo, faceted proposal for transparent attribution, the nearest competitor to the eight components"
+    },
+    {
+      "query_id": "known:arxiv:2604.02760",
+      "block": "known",
+      "source": "arxiv",
+      "query": "2604.02760",
+      "returned": 1,
+      "new": 1,
+      "ran_at": "2026-09-27 08:36",
+      "why": "DAISY"
+    },
+    {
+      "query_id": "known:arxiv:2408.01904",
+      "block": "known",
+      "source": "arxiv",
+      "query": "2408.01904",
+      "returned": 1,
+      "new": 0,
+      "ran_at": "2026-09-27 08:36",
+      "why": "AID Framework, Weaver"
+    },
+    {
+      "query_id": "known:arxiv:2403.06823",
+      "block": "known",
+      "source": "arxiv",
+      "query": "2403.06823",
+      "returned": 1,
+      "new": 0,
+      "ran_at": "2026-09-27 08:36",
+      "why": "El Ali et al., 5W1H disclosure obligations"
+    },
+    {
+      "query_id": "known:arxiv:2604.26075",
+      "block": "known",
+      "source": "arxiv",
+      "query": "2604.26075",
+      "returned": 1,
+      "new": 1,
+      "ran_at": "2026-09-27 08:37",
+      "why": "Australian government AI transparency statements, AITS-101"
+    },
+    {
+      "query_id": "known:arxiv:2608.18369",
+      "block": "known",
+      "source": "arxiv",
+      "query": "2608.18369",
+      "returned": 1,
+      "new": 1,
+      "ran_at": "2026-09-27 08:37",
+      "why": "van Nuenen et al., The Fabricated Front, five opacity mechanisms"
+    },
+    {
+      "query_id": "known:arxiv:2502.18357",
+      "block": "known",
+      "source": "arxiv",
+      "query": "2502.18357",
+      "returned": 1,
+      "new": 1,
+      "ran_at": "2026-09-27 08:37",
+      "why": "He, Houde and Weisz, Which Contributions Deserve Credit, CHI 2025"
+    },
+    {
+      "query_id": "known:arxiv:2601.09620",
+      "block": "known",
+      "source": "arxiv",
+      "query": "2601.09620",
+      "returned": 1,
+      "new": 0,
+      "ran_at": "2026-09-27 08:37",
+      "why": "Prajod et al., level of detail in disclosure"
+    },
+    {
+      "query_id": "known:doi:10.1101/2025.11.11.25340015",
+      "block": "known",
+      "source": "openalex_or_crossref",
+      "query": "10.1101/2025.11.11.25340015",
+      "returned": 1,
+      "new": 0,
+      "ran_at": "2026-09-27 08:37",
+      "why": "AI disclosure statements in medical education journals, the closest descriptive precedent"
+    },
+    {
+      "query_id": "known:doi:10.3389/frai.2026.1815243",
+      "block": "known",
+      "source": "openalex_or_crossref",
+      "query": "10.3389/frai.2026.1815243",
+      "returned": 1,
+      "new": 0,
+      "ran_at": "2026-09-27 08:37",
+      "why": "Licenji and Hoxha, systematic review of provenance cues in journalism"
+    },
+    {
+      "query_id": "known:doi:10.1016/j.obhdp.2025.104405",
+      "block": "known",
+      "source": "openalex_or_crossref",
+      "query": "10.1016/j.obhdp.2025.104405",
+      "returned": 1,
+      "new": 1,
+      "ran_at": "2026-09-27 08:37",
+      "why": "Schilke and Reimann, effects only; included as a calibration item that should be excluded"
+    },
+    {
+      "query_id": "known:doi:10.1108/ITP-06-2025-0813",
+      "block": "known",
+      "source": "openalex_or_crossref",
+      "query": "10.1108/ITP-06-2025-0813",
+      "returned": 1,
+      "new": 1,
+      "ran_at": "2026-09-27 08:37",
+      "why": "meta-analysis of AI identity disclosure; effects only, calibration item"
+    }
+  ]
+}
