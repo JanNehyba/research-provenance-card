@@ -4,3 +4,6 @@ __pycache__/
 .venv/
 site/out/
 .DS_Store
+
+# Retrieved third-party full texts. Copyrighted, never committed to a public repo.
+data/lit/fulltext/

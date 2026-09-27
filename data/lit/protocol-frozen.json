@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-09-27",
+  "protocol": {
+    "path": "docs/scoping/protocol.md",
+    "sha256": "e193f0aa862ca9a043bb43160866b7a60ebfcf129a9e2f15f3b005aff4719549"
+  },
+  "queries": {
+    "path": "data/lit/queries.json",
+    "sha256": "2c648a4a9129e7af4472c5d2b87b91b287f6b64c68df8d1fcc36a7befb46bd0b"
+  },
+  "note": "Written before the first search ran. Recompute with `python -m src.lit.freeze check`. A moved hash is only legitimate if the deviations log in the protocol records the change."
+}

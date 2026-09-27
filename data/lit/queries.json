@@ -1,0 +1,111 @@
+{
+  "queries_version": "1",
+  "frozen": "2026-09-27",
+  "note": "Frozen search strategy for docs/scoping/protocol.md. Queries are verbatim as sent. Changing any string here is a protocol deviation and must be logged in section 11 of the protocol, with the old string kept.",
+  "blocks": {
+    "1": "AI disclosure schemes: artificial intelligence AND disclosure AND scheme vocabulary",
+    "2": "Adjacent disclosure traditions, without the AI concept: conflict of interest, funding, sponsored content and native advertising, contributorship, data and software citation",
+    "3": "Known-item searches for schemes already named, so that a failure of block 1 to retrieve them becomes visible"
+  },
+  "queries": [
+    {"id": "e1", "block": "1", "source": "europepmc", "max_records": 100,
+     "query": "(\"generative AI\" OR \"large language model\" OR ChatGPT OR \"artificial intelligence\") AND (\"disclosure statement\" OR \"AI disclosure\" OR \"use of AI\") AND (taxonomy OR typology OR classification OR framework OR categories OR dimensions)"},
+    {"id": "e2", "block": "1", "source": "europepmc", "max_records": 100,
+     "query": "(\"AI-assisted\" OR \"AI-generated\") AND (acknowledgement OR acknowledgment OR attribution OR authorship) AND (taxonomy OR classification OR levels OR scale OR rubric)"},
+    {"id": "e3", "block": "1", "source": "europepmc", "max_records": 100,
+     "query": "\"generative artificial intelligence\" AND (transparency OR disclosure) AND (checklist OR guideline OR \"reporting standard\")"},
+    {"id": "e4", "block": "1", "source": "europepmc", "max_records": 100,
+     "query": "(\"AI use\" OR \"use of generative AI\") AND (declaration OR statement) AND (\"content analysis\" OR \"document analysis\" OR bibliometric)"},
+
+    {"id": "o1", "block": "1", "source": "openalex", "max_records": 100, "query": "\"AI disclosure\" taxonomy"},
+    {"id": "o2", "block": "1", "source": "openalex", "max_records": 100, "query": "\"AI disclosure\" framework dimensions"},
+    {"id": "o3", "block": "1", "source": "openalex", "max_records": 100, "query": "\"generative AI\" disclosure classification authorship"},
+    {"id": "o4", "block": "1", "source": "openalex", "max_records": 100, "query": "\"AI-assisted writing\" disclosure levels"},
+    {"id": "o5", "block": "1", "source": "openalex", "max_records": 100, "query": "\"AI use disclosure\" content analysis"},
+    {"id": "o6", "block": "1", "source": "openalex", "max_records": 100, "query": "artificial intelligence attribution taxonomy authorship text"},
+    {"id": "o7", "block": "1", "source": "openalex", "max_records": 100, "query": "\"content credentials\" provenance labelling standard"},
+    {"id": "o8", "block": "1", "source": "openalex", "max_records": 100, "query": "\"levels of AI involvement\" writing disclosure"},
+    {"id": "o9", "block": "1", "source": "openalex", "max_records": 100, "query": "\"AI assessment scale\" education assessment"},
+    {"id": "o10", "block": "1", "source": "openalex", "max_records": 100, "query": "\"disclosure statement\" \"large language model\" journal policy"},
+
+    {"id": "a1", "block": "1", "source": "arxiv", "max_records": 100,
+     "query": "abs:\"AI disclosure\" AND (abs:taxonomy OR abs:framework OR abs:typology)"},
+    {"id": "a2", "block": "1", "source": "arxiv", "max_records": 100,
+     "query": "abs:disclosure AND abs:\"generative AI\" AND (abs:categories OR abs:dimensions OR abs:facets)"},
+    {"id": "a3", "block": "1", "source": "arxiv", "max_records": 100,
+     "query": "abs:attribution AND abs:\"AI-assisted\" AND (abs:framework OR abs:taxonomy)"},
+    {"id": "a4", "block": "1", "source": "arxiv", "max_records": 100,
+     "query": "abs:transparency AND abs:\"AI-generated content\" AND (abs:label OR abs:labeling OR abs:labelling)"},
+    {"id": "a5", "block": "1", "source": "arxiv", "max_records": 100,
+     "query": "abs:provenance AND abs:\"AI-generated\" AND (abs:standard OR abs:metadata)"},
+
+    {"id": "c1", "block": "1", "source": "crossref", "max_records": 60, "query": "AI disclosure taxonomy research"},
+    {"id": "c2", "block": "1", "source": "crossref", "max_records": 60, "query": "generative AI disclosure statement classification journals"},
+    {"id": "c3", "block": "1", "source": "crossref", "max_records": 60, "query": "AI assessment scale levels education"},
+    {"id": "c4", "block": "1", "source": "crossref", "max_records": 60, "query": "artificial intelligence attribution framework authorship"},
+    {"id": "c5", "block": "1", "source": "crossref", "max_records": 60, "query": "AI use declaration content analysis articles"},
+
+    {"id": "d1", "block": "1", "source": "doaj", "max_records": 60, "query": "\"AI disclosure\" AND (taxonomy OR framework)"},
+    {"id": "d2", "block": "1", "source": "doaj", "max_records": 60, "query": "\"generative AI\" AND disclosure AND (typology OR categories)"},
+
+    {"id": "r1", "block": "1", "source": "openaire", "max_records": 50, "query": "AI disclosure taxonomy"},
+    {"id": "r2", "block": "1", "source": "openaire", "max_records": 50, "query": "generative AI disclosure framework"},
+
+    {"id": "t1", "block": "1", "source": "datacite", "max_records": 50, "query": "\"AI disclosure\" AND (taxonomy OR framework)"},
+
+    {"id": "e5", "block": "2", "source": "europepmc", "max_records": 100,
+     "query": "\"conflict of interest\" AND disclosure AND (taxonomy OR typology OR classification) AND (statement OR form)"},
+    {"id": "e6", "block": "2", "source": "europepmc", "max_records": 100,
+     "query": "(\"funding statement\" OR \"funding acknowledgement\") AND (taxonomy OR classification OR ontology)"},
+    {"id": "e7", "block": "2", "source": "europepmc", "max_records": 100,
+     "query": "(contributorship OR CRediT OR \"author contribution\") AND (taxonomy OR classification OR vocabulary)"},
+    {"id": "e8", "block": "2", "source": "europepmc", "max_records": 100,
+     "query": "(\"data citation\" OR \"software citation\") AND (principles OR taxonomy OR metadata)"},
+
+    {"id": "o11", "block": "2", "source": "openalex", "max_records": 100, "query": "\"sponsored content\" disclosure typology"},
+    {"id": "o12", "block": "2", "source": "openalex", "max_records": 100, "query": "\"native advertising\" disclosure taxonomy"},
+    {"id": "o13", "block": "2", "source": "openalex", "max_records": 100, "query": "\"influencer marketing\" disclosure typology label"},
+    {"id": "o14", "block": "2", "source": "openalex", "max_records": 100, "query": "\"conflict of interest\" disclosure taxonomy dimensions"},
+    {"id": "o15", "block": "2", "source": "openalex", "max_records": 100, "query": "contributorship taxonomy CRediT authorship"},
+
+    {"id": "c6", "block": "2", "source": "crossref", "max_records": 60, "query": "native advertising disclosure typology"},
+    {"id": "c7", "block": "2", "source": "crossref", "max_records": 60, "query": "conflict of interest disclosure classification framework"},
+    {"id": "c8", "block": "2", "source": "crossref", "max_records": 60, "query": "contributorship taxonomy credit authorship"},
+    {"id": "c9", "block": "2", "source": "crossref", "max_records": 60, "query": "data citation principles metadata"},
+
+    {"id": "o16", "block": "3", "source": "openalex", "max_records": 30, "query": "\"AI Assessment Scale\" Perkins"},
+    {"id": "o17", "block": "3", "source": "openalex", "max_records": 30, "query": "CANGARU guideline generative artificial intelligence academic"},
+    {"id": "o18", "block": "3", "source": "openalex", "max_records": 30, "query": "CONSORT-AI extension reporting"},
+    {"id": "o19", "block": "3", "source": "openalex", "max_records": 30, "query": "TRIPOD+AI reporting guideline prediction"},
+    {"id": "o20", "block": "3", "source": "openalex", "max_records": 30, "query": "CLAIM checklist artificial intelligence medical imaging"},
+    {"id": "o21", "block": "3", "source": "openalex", "max_records": 30, "query": "DECIDE-AI reporting guideline decision support"},
+    {"id": "c10", "block": "3", "source": "crossref", "max_records": 30, "query": "STM recommendations classification AI use academic manuscript preparation"},
+    {"id": "a6", "block": "3", "source": "arxiv", "max_records": 30, "query": "all:\"faceted\" AND all:\"AI-assisted text\""}
+  ],
+  "known_ids": {
+    "arxiv": [
+      {"id": "2604.25346", "why": "Xexeo, faceted proposal for transparent attribution, the nearest competitor to the eight components"},
+      {"id": "2604.02760", "why": "DAISY"},
+      {"id": "2408.01904", "why": "AID Framework, Weaver"},
+      {"id": "2403.06823", "why": "El Ali et al., 5W1H disclosure obligations"},
+      {"id": "2604.26075", "why": "Australian government AI transparency statements, AITS-101"},
+      {"id": "2608.18369", "why": "van Nuenen et al., The Fabricated Front, five opacity mechanisms"},
+      {"id": "2502.18357", "why": "He, Houde and Weisz, Which Contributions Deserve Credit, CHI 2025"},
+      {"id": "2601.09620", "why": "Prajod et al., level of detail in disclosure"}
+    ],
+    "doi": [
+      {"id": "10.1101/2025.11.11.25340015", "why": "AI disclosure statements in medical education journals, the closest descriptive precedent"},
+      {"id": "10.3389/frai.2026.1815243", "why": "Licenji and Hoxha, systematic review of provenance cues in journalism"},
+      {"id": "10.1016/j.obhdp.2025.104405", "why": "Schilke and Reimann, effects only; included as a calibration item that should be excluded"},
+      {"id": "10.1108/ITP-06-2025-0813", "why": "meta-analysis of AI identity disclosure; effects only, calibration item"}
+    ]
+  },
+  "calibration": [
+    {"ref": "10.1016/j.obhdp.2025.104405", "expected": "exclude", "why": "measures effects of disclosure wording, offers no category scheme of its own"},
+    {"ref": "10.1108/ITP-06-2025-0813", "expected": "exclude", "why": "meta-analysis of effects, moderators are analytic variables and not a disclosure scheme"},
+    {"ref": "2604.25346", "expected": "include", "why": "explicit faceted scheme: Form, Generation, Evaluation, Intent, Control, Traceability"},
+    {"ref": "2408.01904", "expected": "include", "why": "named framework for AI disclosure"},
+    {"ref": "10.1101/2025.11.11.25340015", "expected": "include", "why": "content analysis of disclosure statements with a coding scheme"}
+  ],
+  "calibration_note": "Expected verdicts are never shown to a screening agent. The harness compares them afterwards. A screener that misses a calibration item is reported, not retried until it agrees."
+}
