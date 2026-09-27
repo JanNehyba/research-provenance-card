@@ -1,0 +1,120 @@
+{
+  "packet_id": "ft-035",
+  "papers": [
+    {
+      "rec_id": "484dc70614b74e7a",
+      "has_scheme": false,
+      "reason": "Lists categories of AI tools (Table 1) and names external AI reporting guidelines (CONSORT-AI, CLAIM, MINIMAR, etc.) but proposes no scheme of its own for classifying disclosure, attribution, or provenance of a produced work."
+    },
+    {
+      "rec_id": "65efdcf9bdfd7ebe",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-disclosure-peer-review-policy-coding",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.21203/rs.3.rs-9581778/v1",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "15 ofﬁcial policy documents from 10 major publishers and AI conference venues",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Policy",
+              "definition_quote": "",
+              "value_list_verbatim": ["Disclosure", "Prohibition"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Organization\nPolicy\nThreshold\nDisclosure location"
+            },
+            {
+              "dimension_label_verbatim": "Threshold",
+              "definition_quote": "the disclosure threshold (blanket requirement vs. conditional on significance)",
+              "value_list_verbatim": ["Blanket", "Conditional"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "the remaining seven disclosure venues in the corpus apply blanket requirements, removing this ambiguity by requiring disclosure regardless of how much AI was used"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure location",
+              "definition_quote": "AI disclosure to appear in the public manuscript, where it is visible to readers as well as reviewers",
+              "value_list_verbatim": ["Public", "Cover letter"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Wiley handles things differently: disclosures go in the cover letter, ensuring they remain private and visible only to the editors."
+            },
+            {
+              "dimension_label_verbatim": "Reviewer-side governance",
+              "definition_quote": "captured whether reviewer AI use was permitted, conditionally permitted, or prohibited, and whether reviewer self-disclosure was required",
+              "value_list_verbatim": ["permitted", "conditionally permitted", "prohibited"],
+              "closed_or_open": "closed_list",
+              "locator": "2.1 Corpus and analytic approach",
+              "quote": "Reviewer-side governance captured whether reviewer AI use was permitted, conditionally permitted, or prohibited"
+            },
+            {
+              "dimension_label_verbatim": "Safeguard variables",
+              "definition_quote": "recorded three reviewer-side protections: explicit penalty protection tied to author AI disclosure",
+              "value_list_verbatim": ["explicit penalty protection", "reviewer interpretive guidance", "AI-speciﬁc appeal or complaint mechanism"],
+              "closed_or_open": "closed_list",
+              "locator": "2.1 Corpus and analytic approach",
+              "quote": "Safeguard variables recorded three reviewer-side protections"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8fd4e43a646e7b89",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-usage-task-content-purpose-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2507.10422",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "not_stated",
+          "empirical_basis": "1,292 qualitatively coded mentions",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Task",
+              "definition_quote": "Which task has the GenAI tool supported or automated?",
+              "value_list_verbatim": ["writing a test case", "fixing a bug", "refactoring the code base"],
+              "closed_or_open": "closed_list",
+              "locator": "III-A Method",
+              "quote": "Tasks include, for example, writing a test case, fixing a bug, and refactoring the code base."
+            },
+            {
+              "dimension_label_verbatim": "Content",
+              "definition_quote": "Which content is the GenAI mention referring to?",
+              "value_list_verbatim": ["methods in source files", "sections in documentation files", "commit messages"],
+              "closed_or_open": "closed_list",
+              "locator": "III-A Method",
+              "quote": "Content categories include methods in source files, sections in documentation files, and commit messages."
+            },
+            {
+              "dimension_label_verbatim": "Purpose",
+              "definition_quote": "Why has the GenAI tool been mentioned?",
+              "value_list_verbatim": ["acknowledgment of usage for code generation", "regulation of usage within the project"],
+              "closed_or_open": "closed_list",
+              "locator": "III-A Method",
+              "quote": "Possible purposes include acknowledgment of usage for code generation and regulation of usage within the project."
+            },
+            {
+              "dimension_label_verbatim": "GenAI task and developer task",
+              "definition_quote": "the specific task delegated to the GenAI tool",
+              "value_list_verbatim": ["GenAI task", "developer task"],
+              "closed_or_open": "closed_list",
+              "locator": "III-A Method",
+              "quote": "we split the task-related codes into two sub-categories: GenAI task and developer task."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

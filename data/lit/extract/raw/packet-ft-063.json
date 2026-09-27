@@ -1,0 +1,163 @@
+{
+  "packet_id": "ft-063",
+  "papers": [
+    {
+      "rec_id": "861149b28ac1611f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aicid-design-requirements",
+          "scheme_name_verbatim": "AICID (AI Contributor IDentifier)",
+          "source_ref": "arXiv:2606.28756",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://aicid.net",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Human operator linkage",
+              "definition_quote": "Every AICID must be linked to at least one human ORCID.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "3.2 Design requirements",
+              "quote": "This requirement preserves the principle that a human is ultimately accountable for an AI scientist’s outputs"
+            },
+            {
+              "dimension_label_verbatim": "Uniqueness and persistence",
+              "definition_quote": "Each AICID must uniquely identify one AI authoring entity.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "3.2 Design requirements",
+              "quote": "The ultimate authority over the entity’s persistence over time is the human operator."
+            },
+            {
+              "dimension_label_verbatim": "Structured metadata",
+              "definition_quote": "Each AICID record must include structured metadata",
+              "value_list_verbatim": ["the underlying model or system name and version", "the identity of the human operator linked to the operator’s own ORCID", "a creation date"],
+              "closed_or_open": "closed_list",
+              "locator": "3.2 Design requirements",
+              "quote": "Each AICID record must include structured metadata: (a) the underlying model or system name and version"
+            },
+            {
+              "dimension_label_verbatim": "Machine-readable disclosure",
+              "definition_quote": "AICID must integrate with CrossRef, DataCite, and other metadata standards",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "3.2 Design requirements",
+              "quote": "Bibliographic databases can then filter or flag AI-authored works without reading the full text of papers."
+            },
+            {
+              "dimension_label_verbatim": "Public registry",
+              "definition_quote": "AICID records must be publicly accessible and queryable.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "3.2 Design requirements",
+              "quote": "The registry must support both human-readable display and API access for automated systems."
+            },
+            {
+              "dimension_label_verbatim": "AICID record",
+              "definition_quote": "At minimum, an AICID record should contain",
+              "value_list_verbatim": ["the AICID itself", "an agent name", "an agent type", "the base model and version", "the linked human operator", "public references to associated works such as papers, datasets, and software artifacts"],
+              "closed_or_open": "closed_list",
+              "locator": "3.3 Implementation path",
+              "quote": "At minimum, an AICID record should contain: (i) the AICID itself, (ii) an agent name, (iii) an agent type"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5e5691e45448d62a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "editage-14-role-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.34193/ei-a-5981",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "an online survey with published authors",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "contributor roles",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Source: Allen et al., 2014",
+              "quote": "The survey was a test of whether authors’ contributions could be classified using a 14-role taxonomy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1df4f4048cce6cb3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-table1-authorship-eligibility",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.2478/jdis-2024-0015",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "extracted for the period from January 1, 2018 to June 6, 2023",
+          "machine_readable_artifact": "https://zenodo.org/records/10568892",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Contributor role",
+              "definition_quote": "a comprehensive set of predefined roles that extend beyond the conventional notion of authorship",
+              "value_list_verbatim": ["conceptualization", "methodology", "data curation", "writing (original draft and review)", "Funding Acquisition", "Resources", "Supervision"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1: CRediT criteria based on whether they are sufficient on their own for authorship or not",
+              "quote": "These roles include conceptualization, methodology, data curation, writing (original draft and review), and more."
+            }
+          ]
+        },
+        {
+          "scheme_id": "plos-one-inappropriate-authorship-levels",
+          "scheme_name_verbatim": "Three levels of potential inappropriate authorship",
+          "source_ref": "doi:10.2478/jdis-2024-0015",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "publications within the journal PLOS ONE spanning the years 2018 to 2023",
+          "machine_readable_artifact": "https://zenodo.org/records/10568892",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Do not meet authorship criteria",
+              "definition_quote": "These are publications in which at least one author does not have a substantial contribution to the paper in terms of design, analysis, or writing.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Figure 2: Three levels of potential inappropriate authorship",
+              "quote": "Do not meet authorship criteria"
+            },
+            {
+              "dimension_label_verbatim": "Potential authorship by resources",
+              "definition_quote": "publications in which at least one \"author\" is considered as such solely because they have made a material and/or financial contribution",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Figure 2: Three levels of potential inappropriate authorship",
+              "quote": "Potential authorship by resources"
+            },
+            {
+              "dimension_label_verbatim": "Potential APC-ring",
+              "definition_quote": "These are publications that have no funding, but at least one author's sole role is to provide funding",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Figure 2: Three levels of potential inappropriate authorship",
+              "quote": "This type is also a subset of the previous one and consists of publications that can be classified as Potential APC-ring publications"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

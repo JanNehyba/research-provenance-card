@@ -1,0 +1,235 @@
+{
+  "packet_id": "ft-046",
+  "papers": [
+    {
+      "rec_id": "8380ed550746080f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "c2pa-manifest-structure",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "https://openalex.org/W7162902394",
+          "domain": "journalism_media",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Assertions (beweringen)",
+              "definition_quote": "een bewering heeft betrekking tot (een deel van) het mediabestand (de asset)",
+              "value_list_verbatim": ["auteursschap", "maakproces", "bewerkingen", "gebruikte technologie"],
+              "closed_or_open": "open_text",
+              "locator": "Bijlage 2 – Technische uitleg C2PA",
+              "quote": "Assertions (beweringen) – een bewering heeft betrekking tot (een deel van) het mediabestand (de asset)."
+            },
+            {
+              "dimension_label_verbatim": "Claims (verklaringen)",
+              "definition_quote": "beweringen worden aangevuld met informatie over de entiteit die deze informatie bevestigt",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Bijlage 2 – Technische uitleg C2PA",
+              "quote": "Claims (verklaringen) – beweringen worden aangevuld met informatie over de entiteit die deze informatie bevestigt."
+            },
+            {
+              "dimension_label_verbatim": "Signature (handtekening)",
+              "definition_quote": "Een claim wordt voorzien van een digitale handtekening",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Bijlage 2 – Technische uitleg C2PA",
+              "quote": "Signature (handtekening) – Een claim wordt voorzien van een digitale handtekening."
+            },
+            {
+              "dimension_label_verbatim": "Content Bindings",
+              "definition_quote": "kunnen twee soorten verbindingen gemaakt worden (Content Bindings)",
+              "value_list_verbatim": ["Hard bindings", "Soft bindings"],
+              "closed_or_open": "closed_list",
+              "locator": "Bijlage 2 – Technische uitleg C2PA",
+              "quote": "Hard bindings – cryptografische handtekeningen (hashes) die de gehele asset of een deel daarvan uniek identificeren."
+            }
+          ]
+        },
+        {
+          "scheme_id": "seal-signature-fields",
+          "scheme_name_verbatim": "Secure Evidence Attribution Label (SEAL)",
+          "source_ref": "https://openalex.org/W7162902394",
+          "domain": "journalism_media",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Technische velden",
+              "definition_quote": "technische velden als de gebruikte versleuteltechniek, versie, gebruikt hashing algoritme, etc.",
+              "value_list_verbatim": ["versleuteltechniek", "versie", "hashing algoritme"],
+              "closed_or_open": "open_text",
+              "locator": "Bijlage 4 – Secure Evidence Attribution Label (SEAL)",
+              "quote": "Technische velden – technische velden als de gebruikte versleuteltechniek, versie, gebruikt hashing algoritme, etc."
+            },
+            {
+              "dimension_label_verbatim": "Metadata",
+              "definition_quote": "velden als ‘uid’ ‘id’, ‘copyright’, ‘info’ geven de ondertekenaar de mogelijkheid om",
+              "value_list_verbatim": ["uid", "id", "copyright", "info"],
+              "closed_or_open": "open_text",
+              "locator": "Bijlage 4 – Secure Evidence Attribution Label (SEAL)",
+              "quote": "Metadata – velden als ‘uid’ ‘id’, ‘copyright’, ‘info’ geven de ondertekenaar de mogelijkheid om"
+            },
+            {
+              "dimension_label_verbatim": "Handtekening",
+              "definition_quote": "het veld ‘s’ slaat de handtekening op die met de public key uit de DNS van het domein ‘d’ geverifieerd kan worden",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Bijlage 4 – Secure Evidence Attribution Label (SEAL)",
+              "quote": "Handtekening – het veld ‘s’ slaat de handtekening op die met de public key uit de DNS van het domein ‘d’ geverifieerd kan worden."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8b81dcdf7283c058",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aimic-framework",
+          "scheme_name_verbatim": "AIMIC framework",
+          "source_ref": "doi:10.31875/2979-1081.2026.02.09",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Communicative Agency Axis",
+              "definition_quote": "describes whether AI augments or displaces human expression",
+              "value_list_verbatim": ["Augmenting systems", "Displacing systems"],
+              "closed_or_open": "closed_list",
+              "locator": "7.1. Communicative Agency Axis",
+              "quote": "The communicative agency axis describes whether AI augments or displaces human expression."
+            },
+            {
+              "dimension_label_verbatim": "Relational Transparency Axis",
+              "definition_quote": "describes whether communication partners understand the role AI played in message production",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "7.2. Relational Transparency Axis",
+              "quote": "The relational transparency axis describes whether communication partners understand the role AI played in message production."
+            },
+            {
+              "dimension_label_verbatim": "Linguistic Impact Axis",
+              "definition_quote": "describes whether AI assistance expands or narrows communicative capacity",
+              "value_list_verbatim": ["Developmental AIMIC", "Atrophying AIMIC"],
+              "closed_or_open": "closed_list",
+              "locator": "7.3. Linguistic Impact Axis",
+              "quote": "The linguistic impact axis describes whether AI assistance expands or narrows communicative capacity."
+            },
+            {
+              "dimension_label_verbatim": "Governance Dimension",
+              "definition_quote": "addresses responsibilities of platform designers, organizations, educators, and regulators",
+              "value_list_verbatim": ["disclosure infrastructure", "configurable human-review requirements", "accessibility safeguards", "protection of user voice", "corpus-level monitoring of stylistic homogenization"],
+              "closed_or_open": "open_text",
+              "locator": "7.4. Governance Dimension",
+              "quote": "The governance dimension addresses responsibilities of platform designers, organizations, educators, and regulators."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "497f5608156d826d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-journalism-ethics-codebook",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s44206-024-00151-w",
+          "domain": "journalism_media",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "interviews with journalism and AI experts, coded via deductive and inductive qualitative content analysis (intercoder Cohen's kappa = 0.83)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Trustworthiness",
+              "definition_quote": "The meta principle of trustworthiness represents the overarching goal of all media organizations.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.1 Trustworthiness: The Meta Principle",
+              "quote": "The meta principle of trustworthiness represents the overarching goal of all media organizations."
+            },
+            {
+              "dimension_label_verbatim": "Independence",
+              "definition_quote": "the category independence means that an AI \nresearches and produces journalistic content independently and even potentially",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.2  Independence",
+              "quote": "the category independence means that an AI \nresearches and produces journalistic content independently and even potentially"
+            },
+            {
+              "dimension_label_verbatim": "Objectivity",
+              "definition_quote": "defined as neutral reporting, which obliges journalists to carefully research and write articles independently of their own opinions, attitudes, or biases",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.3  Objectivity",
+              "quote": "defined as neutral reporting, which obliges journalists to carefully research and write articles independently of their own opinions, attitudes, or biases"
+            },
+            {
+              "dimension_label_verbatim": "Privacy",
+              "definition_quote": "The principle privacy refers to aspects that are relevant or conspicuous regarding data protection.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4  Privacy",
+              "quote": "The principle privacy refers to aspects that are relevant or conspicuous regarding data protection."
+            },
+            {
+              "dimension_label_verbatim": "Quality",
+              "definition_quote": "The principle quality highlights which aspects concerning the quality of the work should be considered when applying genAI in journalism.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.5  Quality",
+              "quote": "The principle quality highlights which aspects concerning the quality of the work should be considered when applying genAI in journalism."
+            },
+            {
+              "dimension_label_verbatim": "Veracity",
+              "definition_quote": "summarizes the need for the genAI to fully adopt the presentation style of journalistic articles",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.6  Veracity",
+              "quote": "The subcategory of veracity summarizes the need for the genAI to fully adopt the presentation style of journalistic articles."
+            },
+            {
+              "dimension_label_verbatim": "Transparency",
+              "definition_quote": "The transparent handling of the use of genAI technologies could be defined as the basis of this category.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.7  Transparency",
+              "quote": "The transparent handling of the use of genAI technologies could be defined as the basis of this category."
+            },
+            {
+              "dimension_label_verbatim": "Explicability",
+              "definition_quote": "Closely related to transparency is the category of explicability, which takes transpar­\nency to a practical level.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.8  Explicability",
+              "quote": "Closely related to transparency is the category of explicability, which takes transpar­\nency to a practical level."
+            },
+            {
+              "dimension_label_verbatim": "Accountability",
+              "definition_quote": "accountability includes \nthe responsibility for published articles written by genAI and their possible conse­\nquences.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.9  Accountability",
+              "quote": "accountability includes \nthe responsibility for published articles written by genAI and their possible conse­\nquences."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

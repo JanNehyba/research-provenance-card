@@ -1,0 +1,42 @@
+{
+  "packet_id": "ft-032",
+  "papers": [
+    {
+      "rec_id": "7e6658be0a480c73",
+      "has_scheme": false,
+      "reason": "literature-review thesis on generative AI and authorship in scientific publishing; it summarizes other researchers' proposals (e.g. an AI contributions taxonomy, the concept of post-authorship) and organizes its own findings into four narrative themes, but proposes no enumerable scheme of its own for disclosure, attribution, or provenance."
+    },
+    {
+      "rec_id": "70625c50a1730dbd",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "papercard-three-disclaimers",
+          "scheme_name_verbatim": "PaperCard",
+          "source_ref": "doi:10.48550/arxiv.2404.09041",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://github.com/nyanxyz/cardwriter",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "disclaimer checkboxes",
+              "definition_quote": "help encourage them to understand and consider issues regarding the license of the generated information by the machine",
+              "value_list_verbatim": ["We own the rights of the generated text and are accountable for potential conflicts.", "We believe the AI-generated texts included in this paper do not have elements that may give rise to ethical issues.", "We inspected the texts thoroughly to check for their academic accuracy and plagiarism."],
+              "closed_or_open": "closed_list",
+              "locator": "3.1 User Interface",
+              "quote": "the user selects three disclaimer checkboxes (Part 3 of Figure 2 ) that help encourage them to understand and consider issues"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2add5ead017231dd",
+      "has_scheme": false,
+      "reason": "opinion piece on the ambiguity of AI-disclosure criteria in medical writing (e.g. journals' 'edit' vs 'grammar check' distinction); it discusses other bodies' unclear criteria and gives the author's own single disclosure statement, but proposes no categorical scheme of its own."
+    }
+  ]
+}

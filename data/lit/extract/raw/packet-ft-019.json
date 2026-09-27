@@ -1,0 +1,312 @@
+{
+  "packet_id": "ft-019",
+  "papers": [
+    {
+      "rec_id": "fccbe8a5b48bed71",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "iranian-med-journals-ai-policy-checklist",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.47176/mjiri.40.47",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "411 Iranian medical science journals examined, of which 117 had a publicly accessible AI use policy",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Permission Type",
+              "definition_quote": "The policy specifies whether the use of AI is prohibited, conditionally allowed, or unrestricted.",
+              "value_list_verbatim": ["prohibited", "conditionally allowed", "unrestricted"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "The policy specifies whether the use of AI is prohibited, conditionally allowed, or unrestricted."
+            },
+            {
+              "dimension_label_verbatim": "Mandatory Disclosure",
+              "definition_quote": "Policy mandates that authors disclose any utilization of AI tools.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Policy mandates that authors disclose any utilization of AI tools."
+            },
+            {
+              "dimension_label_verbatim": "Specification of Disclosure Location",
+              "definition_quote": "The policy specifies the instances in which the use of AI must be disclosed within the manuscript.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy specifies the instances in which the use of AI must be disclosed within the manuscript."
+            },
+            {
+              "dimension_label_verbatim": "Example of Disclosure Statement",
+              "definition_quote": "The policy provides sample wording and templates for disclosing the use of AI.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy provides sample wording and templates for disclosing the use of AI."
+            },
+            {
+              "dimension_label_verbatim": "Reference to International Guidelines",
+              "definition_quote": "The policy references international standards and recommendations (e.g., COPE, ICMJE, EASE, WAME).",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy references international standards and recommendations (e.g., COPE, ICMJE, EASE, WAME)."
+            },
+            {
+              "dimension_label_verbatim": "Consequences of Policy Violation",
+              "definition_quote": "The policy outlines sanctions for non-compliance with AI usage guidelines.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy outlines sanctions for non-compliance with AI usage guidelines."
+            },
+            {
+              "dimension_label_verbatim": "Author Responsibility",
+              "definition_quote": "The policy stipulates that authors retain full responsibility for the accuracy, integrity, and originality of their manuscripts.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy stipulates that authors retain full responsibility for the accuracy, integrity, and originality of their manuscripts."
+            },
+            {
+              "dimension_label_verbatim": "AI Authorship",
+              "definition_quote": "The policy clarifies that AI tools cannot be listed as authors.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy clarifies that AI tools cannot be listed as authors."
+            },
+            {
+              "dimension_label_verbatim": "AI Use for Writing or Rewriting Text",
+              "definition_quote": "The policy addresses the use of AI for drafting, paraphrasing, or editing text.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy addresses the use of AI for drafting, paraphrasing, or editing text."
+            },
+            {
+              "dimension_label_verbatim": "AI Use for Translation",
+              "definition_quote": "Policy addresses AI use for translation",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Policy addresses AI use for translation"
+            },
+            {
+              "dimension_label_verbatim": "AI Use for Image or Table Generation",
+              "definition_quote": "The policy addresses the use of AI for the creation of figures, tables, and other visual elements.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy addresses the use of AI for the creation of figures, tables, and other visual elements."
+            },
+            {
+              "dimension_label_verbatim": "AI Use for Coding or Data Analysis",
+              "definition_quote": "The policy addresses the use of AI for programming, statistical analysis, and data modeling.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy addresses the use of AI for programming, statistical analysis, and data modeling."
+            },
+            {
+              "dimension_label_verbatim": "AI Use by Reviewers or Editors",
+              "definition_quote": "The policy addresses the use of artificial intelligence (AI) during peer review and editorial decision-making.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "The policy addresses the use of artificial intelligence (AI) during peer review and editorial decision-making."
+            },
+            {
+              "dimension_label_verbatim": "Policy Under Development or Revision",
+              "definition_quote": "Policy indicates that the guidelines are currently under review and may be subject to future updates.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "Policy indicates that the guidelines are currently under review and may be subject to future updates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2d9ea68caa38fa3b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "c2pa-manifest-provenance-scheme",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2405.12336",
+          "domain": "journalism_media",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://c2pa.org/specifications/specifications/2.0/index.html",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "assertions",
+              "definition_quote": "assertions such as asset metadata, actions performed, thumbnails, and cryptographic bindings to the content",
+              "value_list_verbatim": ["asset metadata", "actions performed", "thumbnails", "cryptographic bindings"],
+              "closed_or_open": "not_stated",
+              "locator": "Content credentials overview",
+              "quote": "C2PA metadata for an asset conveys assertions such as asset metadata, actions performed, thumbnails, and cryptographic bindings to the content."
+            },
+            {
+              "dimension_label_verbatim": "bindings",
+              "definition_quote": "There are two types of bindings supported by C2PA – hard bindings and soft bindings.",
+              "value_list_verbatim": ["hard bindings", "soft bindings"],
+              "closed_or_open": "closed_list",
+              "locator": "Hard and soft bindings",
+              "quote": "There are two types of bindings supported by C2PA – hard bindings and soft bindings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6441744ee8d156e3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-lit-course-assessment-rubric",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2604.27225",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "substantive quality",
+              "definition_quote": "accuracy, completeness, and analytical rigor of the submitted work",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "5.3 Assessment Rubrics for AI-Assisted Work",
+              "quote": "substantive quality (accuracy, completeness, and analytical rigor of the submitted work)"
+            },
+            {
+              "dimension_label_verbatim": "verification quality",
+              "definition_quote": "whether factual claims, citations, and statistics have been independently confirmed",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "5.3 Assessment Rubrics for AI-Assisted Work",
+              "quote": "verification quality (whether factual claims, citations, and statistics have been independently confirmed)"
+            },
+            {
+              "dimension_label_verbatim": "attribution completeness",
+              "definition_quote": "whether AI contributions are fully documented with the specificity the course template requires",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "5.3 Assessment Rubrics for AI-Assisted Work",
+              "quote": "attribution completeness (whether AI contributions are fully documented with the specificity the course template requires)"
+            },
+            {
+              "dimension_label_verbatim": "authorial mastery",
+              "definition_quote": "whether the student can explain, justify, and defend every element of their submission",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "5.3 Assessment Rubrics for AI-Assisted Work",
+              "quote": "authorial mastery (whether the student can explain, justify, and defend every element of their submission)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-lit-course-attribution-template",
+          "scheme_name_verbatim": "The Standardized AI Attribution Template",
+          "source_ref": "arXiv:2604.27225",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the tool and version",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.6 The Standardized AI Attribution Template",
+              "quote": "For each AI interaction, the template records the tool and version"
+            },
+            {
+              "dimension_label_verbatim": "the task purpose",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.6 The Standardized AI Attribution Template",
+              "quote": "the template records the tool and version, the task purpose"
+            },
+            {
+              "dimension_label_verbatim": "the exact prompt used",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.6 The Standardized AI Attribution Template",
+              "quote": "the task purpose, the exact prompt used"
+            },
+            {
+              "dimension_label_verbatim": "the output received",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.6 The Standardized AI Attribution Template",
+              "quote": "the exact prompt used, the output received"
+            },
+            {
+              "dimension_label_verbatim": "the verification method applied",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.6 The Standardized AI Attribution Template",
+              "quote": "the output received, the verification method applied"
+            },
+            {
+              "dimension_label_verbatim": "the error rate found",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.6 The Standardized AI Attribution Template",
+              "quote": "the verification method applied, the error rate found"
+            },
+            {
+              "dimension_label_verbatim": "how errors were corrected",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "5.6 The Standardized AI Attribution Template",
+              "quote": "the error rate found, and how errors were corrected"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-lit-course-reliance-spectrum",
+          "scheme_name_verbatim": "The Responsible Reliance Spectrum",
+          "source_ref": "arXiv:2604.27225",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "a responsible reliance spectrum",
+              "definition_quote": "",
+              "value_list_verbatim": ["minimal-concern uses", "moderate-concern uses", "high-concern uses"],
+              "closed_or_open": "closed_list",
+              "locator": "5.7 The Responsible Reliance Spectrum",
+              "quote": "Each module introduces a responsible reliance spectrum mapping common AI use patterns onto a scale from minimal-concern uses"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

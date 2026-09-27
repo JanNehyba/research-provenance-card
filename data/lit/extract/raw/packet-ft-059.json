@@ -1,0 +1,266 @@
+{
+  "packet_id": "ft-059",
+  "papers": [
+    {
+      "rec_id": "f84b79c02538830a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aiedsm-ece-minimum-field-framework",
+          "scheme_name_verbatim": "MINIMUM ECE FIELD FRAMEWORK",
+          "source_ref": "doi:10.64969/emj.mwp04.aiedsm.2026.v1.0",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Envelope control",
+              "definition_quote": "ECE identity, schema version, creation time, run, task, controller and record status",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Separates the task-bound control object from the Evidence Object"
+            },
+            {
+              "dimension_label_verbatim": "Object binding",
+              "definition_quote": "Evidence Object identifier, version, binding method and representation observation",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Establishes the exact ISA-governed object and representation used"
+            },
+            {
+              "dimension_label_verbatim": "Canonical resolution",
+              "definition_quote": "Canonical reference or controlled registry identifier, locator, resolver state and last resolution time",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Supports resolution without inventing a public URI"
+            },
+            {
+              "dimension_label_verbatim": "Source identity",
+              "definition_quote": "Originating institution, publisher or responsible actor and source locus",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Preserves attribution and institutional origin"
+            },
+            {
+              "dimension_label_verbatim": "Evidence classification",
+              "definition_quote": "Object type, category, scheme and scheme version",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Enables controlled interpretation without redefining the object"
+            },
+            {
+              "dimension_label_verbatim": "Field attribution",
+              "definition_quote": "Field state and Field Assertion Record for each assigned, mapped, derived or proposed value",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Separates values from their origin and review disposition"
+            },
+            {
+              "dimension_label_verbatim": "Provenance",
+              "definition_quote": "Source chain, acquisition, responsible actors, derivations and event references",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Makes origin and transformation inspectable"
+            },
+            {
+              "dimension_label_verbatim": "Publication, version and effectivity",
+              "definition_quote": "Native label plus separate publication, version and effective states",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Prevents status collapse"
+            },
+            {
+              "dimension_label_verbatim": "Temporal context",
+              "definition_quote": "Event, creation, publication, availability, access, ingestion, effective, retrieval and transformation times",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Supports bounded and reproducible analysis"
+            },
+            {
+              "dimension_label_verbatim": "Authority context",
+              "definition_quote": "Authority type, basis, scope and limitations",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Prevents relevance from becoming authority"
+            },
+            {
+              "dimension_label_verbatim": "Jurisdiction and applicability",
+              "definition_quote": "Jurisdiction, declared scope, applicability state, conditions and exclusions",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Preserves the conditions of use"
+            },
+            {
+              "dimension_label_verbatim": "Subject and entity links",
+              "definition_quote": "Referenced entity, activity, claim, requirement or reporting boundary",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Connects the object to the analytical subject"
+            },
+            {
+              "dimension_label_verbatim": "Relationship references",
+              "definition_quote": "AIEDSM-RV 1.0 assertion identifiers and versions",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Supports graph reconstruction without embedding ungoverned edges"
+            },
+            {
+              "dimension_label_verbatim": "Rights and access",
+              "definition_quote": "Ownership or licence, access class, permitted and prohibited uses, disclosure limits",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Separates technical access from permission"
+            },
+            {
+              "dimension_label_verbatim": "Transformation history",
+              "definition_quote": "Derived representations, methods, outputs and invalidation state",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Preserves lineage of machine artefacts"
+            },
+            {
+              "dimension_label_verbatim": "Expected Evidence Profile",
+              "definition_quote": "Applicable EEP identity, version, validation and authority, where used",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Prevents a system from self-creating a governed gap basis"
+            },
+            {
+              "dimension_label_verbatim": "Revalidation",
+              "definition_quote": "Trigger rule, next review, dependencies and change-impact state",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Prevents stale outputs from silent reuse"
+            },
+            {
+              "dimension_label_verbatim": "Limitations",
+              "definition_quote": "Unknown, unavailable, restricted, conflicting and excluded conditions",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.4 MINIMUM ECE FIELD FRAMEWORK",
+              "quote": "Prevents incomplete context from appearing complete"
+            }
+          ]
+        },
+        {
+          "scheme_id": "aiedsm-relationship-vocabulary-profile",
+          "scheme_name_verbatim": "AIEDSM RELATIONSHIP VOCABULARY PROFILE 1.0",
+          "source_ref": "doi:10.64969/emj.mwp04.aiedsm.2026.v1.0",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "SUPPORT AND PROVENANCE RELATIONSHIPS",
+              "definition_quote": "",
+              "value_list_verbatim": ["CITES", "HAS_PRIMARY_SOURCE", "SUPPORTS", "QUALIFIES", "CONTRADICTS", "DERIVED_FROM"],
+              "closed_or_open": "closed_list",
+              "locator": "SUPPORT AND PROVENANCE RELATIONSHIPS",
+              "quote": "Source explicitly references target"
+            },
+            {
+              "dimension_label_verbatim": "PUBLICATION AND VERSION RELATIONSHIPS",
+              "definition_quote": "",
+              "value_list_verbatim": ["PROPOSES", "RESPONDS_TO", "FINALISES", "REVISION_OF", "PRECEDES", "SUPERSEDES", "AMENDS", "CORRECTS", "CONSOLIDATES", "WITHDRAWS"],
+              "closed_or_open": "closed_list",
+              "locator": "PUBLICATION AND VERSION RELATIONSHIPS",
+              "quote": "Draft or consultation introduces content for consideration"
+            },
+            {
+              "dimension_label_verbatim": "INSTITUTIONAL INTERPRETATION AND APPLICABILITY RELATIONSHIPS",
+              "definition_quote": "",
+              "value_list_verbatim": ["INTERPRETS", "SUMMARISES", "IMPLEMENTS", "APPLIES_TO", "REQUIRES", "DEPENDS_ON"],
+              "closed_or_open": "closed_list",
+              "locator": "INSTITUTIONAL INTERPRETATION AND APPLICABILITY RELATIONSHIPS",
+              "quote": "Source provides an interpretation of target"
+            }
+          ]
+        },
+        {
+          "scheme_id": "aiedsm-evidence-divergence-dimensions",
+          "scheme_name_verbatim": "DIVERGENCE DIMENSIONS",
+          "source_ref": "doi:10.64969/emj.mwp04.aiedsm.2026.v1.0",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "DIVERGENCE DIMENSIONS",
+              "definition_quote": "An Evidence Divergence Signal may be generated across one or more dimensions",
+              "value_list_verbatim": ["semantic divergence", "numerical divergence", "classification divergence", "temporal divergence", "version divergence", "authority divergence", "jurisdictional divergence", "relationship divergence", "provenance divergence", "rights divergence"],
+              "closed_or_open": "closed_list",
+              "locator": "DIVERGENCE DIMENSIONS",
+              "quote": "claims appear to express materially different meanings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8ba2f7343c64bda8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "leopold-ai-editorial-standards",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1302/0301-620x.105b.bjj-2023-0272",
+          "domain": "research_publishing",
+          "artifact_type": "policy",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI applications cannot be listed as authors.",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "586",
+              "quote": "AI applications cannot be listed as authors."
+            },
+            {
+              "dimension_label_verbatim": "Whether and how AI applications were used",
+              "definition_quote": "must be described in detail in the Methods section and should be mentioned again in the Acknowledgements section",
+              "value_list_verbatim": ["Methods section", "Acknowledgements section"],
+              "closed_or_open": "closed_list",
+              "locator": "586",
+              "quote": "Whether and how AI applications were used in the research or the reporting of its findings must be described in detail in the Methods section"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ad2f808a122bba8a",
+      "has_scheme": false,
+      "reason": "qualitative interview and case-study analysis of how AI policymakers and practitioners design synthetic media disclosures; identifies disclosure goals (process transparency, harm reduction) and design tensions, but proposes or applies no enumerable category scheme for coding disclosures, attributions or provenance claims themselves"
+    }
+  ]
+}

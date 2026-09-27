@@ -1,0 +1,214 @@
+{
+  "packet_id": "ft-047",
+  "papers": [
+    {
+      "rec_id": "afe76f515cb6f661",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-emi-academic-integrity-blueprint",
+          "scheme_name_verbatim": "The GenAI Academic Integrity Policy Development Blueprint for EMI Tertiary Education",
+          "source_ref": "doi:10.1108/jme-10-2023-0102",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "nominal group technique with 14 experts across asynchronous and synchronous idea-generation and ranking stages",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Core values and principles",
+              "definition_quote": "",
+              "value_list_verbatim": ["Academic honesty", "Equitable treatment", "Ethical GenAI skills development", "Flexibility for evolving AI", "Mandatory AI disclosure", "Best practice exemplars"],
+              "closed_or_open": "closed_list",
+              "locator": "Results",
+              "quote": "Dimension \nProposed Descriptors \nStrength of Agreement \nCore values and \nprinciples \nAcademic honesty"
+            },
+            {
+              "dimension_label_verbatim": "Scope and definitions",
+              "definition_quote": "",
+              "value_list_verbatim": ["Definition of GenAI-assisted misconduct in EMI", "Use of software to detect GenAI use", "Suggestions for assessment re-design"],
+              "closed_or_open": "closed_list",
+              "locator": "Results",
+              "quote": "Definition of GenAI-assisted misconduct in \nEMI \n10 \nUse of software to detect GenAI use"
+            },
+            {
+              "dimension_label_verbatim": "Development and implementation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Inclusion of student/faculty voice in policy \ncreation", "Develop specific management framework", "Creation of educational resources to raise \nawareness", "EAP support programmes for students"],
+              "closed_or_open": "closed_list",
+              "locator": "Results",
+              "quote": "Development \nand \nimplementation \nInclusion of student/faculty voice in policy \ncreation"
+            },
+            {
+              "dimension_label_verbatim": "Compliance and management",
+              "definition_quote": "",
+              "value_list_verbatim": ["Regular internal/external policy reviews", "Establishment of oversight board", "Student/faculty orientation on GenAI \npermitted use"],
+              "closed_or_open": "closed_list",
+              "locator": "Results",
+              "quote": "Compliance and \nmanagement \nRegular internal/external policy reviews"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ed6482ac6f28eff7",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "faceted-ai-attribution-model",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2604.25346",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "paragraph",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Form",
+              "definition_quote": "describes transformations applied to a text after an initial version already exists",
+              "value_list_verbatim": ["F0: no form modification.", "F1: orthographic correction.", "F2: grammatical correction.", "F3: local stylistic refinement.", "F4: global rhetorical or structural restructuring."],
+              "closed_or_open": "closed_list",
+              "locator": "3.1 Form",
+              "quote": "For this reason, the Form facet is defined as a scale of increasing textual transformation."
+            },
+            {
+              "dimension_label_verbatim": "Generation",
+              "definition_quote": "describes how a text segment came into existence",
+              "value_list_verbatim": ["G0: fully human-authored.", "G1: AI-assisted completion.", "G2: AI-generated with a simple prompt.", "G3: AI-generated with a detailed prompt.", "G4: AI-generated through iterative conversation.", "G5: AI-generated through a structured multi-step conversational or computational pipeline."],
+              "closed_or_open": "closed_list",
+              "locator": "3.2 Generation",
+              "quote": "The Generation facet describes how a text segment came into existence."
+            },
+            {
+              "dimension_label_verbatim": "Evaluation",
+              "definition_quote": "describes how the resulting text was reviewed, checked, or validated",
+              "value_list_verbatim": ["E0: no revision.", "E1: automated review only.", "E2: partial human review.", "E3: full human review.", "E4: multi-stage or independent validation."],
+              "closed_or_open": "closed_list",
+              "locator": "3.3 Evaluation",
+              "quote": "The Evaluation facet describes how the resulting text was reviewed, checked, or validated."
+            },
+            {
+              "dimension_label_verbatim": "Intent",
+              "definition_quote": "describes why AI was used",
+              "value_list_verbatim": ["I0: no AI intent or unspecified use.", "I1: linguistic correction.", "I2: transformation of existing text.", "I3: generation of new textual content.", "I4: conceptual support, ideation, framing, or argument development."],
+              "closed_or_open": "closed_list",
+              "locator": "4.1 Intent",
+              "quote": "The Intent facet describes why AI was used."
+            },
+            {
+              "dimension_label_verbatim": "Control",
+              "definition_quote": "describes who directed the production process",
+              "value_list_verbatim": ["C0: fully human-controlled.", "C1: AI used under narrow constraints.", "C2: guided human-AI interaction.", "C3: AI-dominant production with human selection or approval.", "C4: largely autonomous pipeline."],
+              "closed_or_open": "closed_list",
+              "locator": "4.2 Control",
+              "quote": "The Control facet describes who directed the production process."
+            },
+            {
+              "dimension_label_verbatim": "Traceability",
+              "definition_quote": "describes whether the production process can be reconstructed",
+              "value_list_verbatim": ["T0: no traceability.", "T1: partial informal notes.", "T2: prompts or excerpts available.", "T3: full logs, model identification, and intermediate versions available.", "T4: independently verifiable provenance."],
+              "closed_or_open": "closed_list",
+              "locator": "4.3 Traceability",
+              "quote": "The Traceability facet describes whether the production process can be reconstructed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "59a646147416a7c2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "digital-afterlife-nine-dimension-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2511.20094",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Timing",
+              "definition_quote": "concerns whether a digital persona is \ncreated before or after the subject’s death",
+              "value_list_verbatim": ["Pre-mortem creation", "Post-mor­\ntem creation"],
+              "closed_or_open": "closed_list",
+              "locator": "Timing",
+              "quote": "The first dimension concerns whether a digital persona is \ncreated before or after the subject’s death."
+            },
+            {
+              "dimension_label_verbatim": "Consent",
+              "definition_quote": "Consent specifies who authorizes the creation and use of the \nsystem.",
+              "value_list_verbatim": ["explicit premortem \nconsent", "surrogate authorization by family members or legal \nproxies", "no authorization at all"],
+              "closed_or_open": "closed_list",
+              "locator": "Consent",
+              "quote": "Consent specifies who authorizes the creation and use of the \nsystem."
+            },
+            {
+              "dimension_label_verbatim": "Source(s) of data",
+              "definition_quote": "This dimension concerns what material is used to construct \nthe avatar.",
+              "value_list_verbatim": ["purpose-built data delib­\nerately provided by the subject", "digital traces \ngenerated for unrelated purposes"],
+              "closed_or_open": "closed_list",
+              "locator": "Source(s) of data",
+              "quote": "This dimension concerns what material is used to construct \nthe avatar."
+            },
+            {
+              "dimension_label_verbatim": "Interaction and interactivity",
+              "definition_quote": "Digital ghosts differ in both the medium (text, audio, video, \nmultimodal) and the degree of responsiveness they afford.",
+              "value_list_verbatim": ["text", "audio", "video", "multimodal"],
+              "closed_or_open": "closed_list",
+              "locator": "Interaction and interactivity",
+              "quote": "Digital ghosts differ in both the medium (text, audio, video, \nmultimodal) and the degree of responsiveness they afford."
+            },
+            {
+              "dimension_label_verbatim": "Fidelity and disclosure",
+              "definition_quote": "Fidelity refers to how closely the system emulates the sub­\nject’s voice, personality, or worldview; disclosure \nconcerns \nwhether its artificial nature is clearly signaled.",
+              "value_list_verbatim": ["high-fidelity", "low-fidelity"],
+              "closed_or_open": "closed_list",
+              "locator": "Fidelity and disclosure",
+              "quote": "A system may be high-fidelity yet ethically acceptable if accompanied by persistent and \nunambiguous disclosure, or low-fidelity yet misleading"
+            },
+            {
+              "dimension_label_verbatim": "Purpose",
+              "definition_quote": "The intended function of the system, e.g. grief support, leg­\nacy preservation, entertainment, education, legal testimony, \nor decision support, conditions its ethical evaluation.",
+              "value_list_verbatim": ["grief support", "leg­\nacy preservation", "entertainment", "education", "legal testimony", "decision support"],
+              "closed_or_open": "open_text",
+              "locator": "Purpose",
+              "quote": "The intended function of the system, e.g. grief support, leg­\nacy preservation, entertainment, education, legal testimony"
+            },
+            {
+              "dimension_label_verbatim": "Audience and access",
+              "definition_quote": "This dimension specifies who can interact with the system.",
+              "value_list_verbatim": ["private, voluntary use among \nclose relations", "publicly accessible ava­\ntars", "institutional deployments"],
+              "closed_or_open": "closed_list",
+              "locator": "Audience and access",
+              "quote": "This dimension specifies who can interact with the system."
+            },
+            {
+              "dimension_label_verbatim": "Governance and ownership",
+              "definition_quote": "Governance concerns who exercises ongoing control over \nthe system, including the power to revise, suspend, or retire \nit.",
+              "value_list_verbatim": ["Commercial platform control", "family- or estate-based \ngovernance"],
+              "closed_or_open": "closed_list",
+              "locator": "Governance and ownership",
+              "quote": "Governance concerns who exercises ongoing control over \nthe system, including the power to revise, suspend, or retire \nit."
+            },
+            {
+              "dimension_label_verbatim": "Autonomy and behavioral agency",
+              "definition_quote": "digital ghosts vary in the degree to which they \nmerely respond to prompts or exhibit initiative, simulate \nmemory, or evolve over time.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Autonomy and behavioral agency",
+              "quote": "Finally, digital ghosts vary in the degree to which they \nmerely respond to prompts or exhibit initiative, simulate \nmemory, or evolve over time."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

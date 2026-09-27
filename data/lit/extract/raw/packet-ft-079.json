@@ -1,0 +1,153 @@
+{
+  "packet_id": "ft-079",
+  "papers": [
+    {
+      "rec_id": "30e82eb7e4c5402e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "icmje-four-authorship-criteria",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.4103/picr.picr_254_25",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "IIA-2: Who Is an Author?",
+              "definition_quote": "authorship be based on the following four criteria",
+              "value_list_verbatim": [
+                "Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work",
+                "Drafting the work or reviewing it critically for important intellectual content",
+                "Final approval of the version to be published",
+                "Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "authorship be based on the following four criteria"
+            }
+          ]
+        },
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.4103/picr.picr_254_25",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "14 contributor roles",
+              "definition_quote": "categorizes contributions into 14 distinct roles",
+              "value_list_verbatim": [
+                "Conceptualization",
+                "Data curation",
+                "Formal analysis",
+                "Funding acquisition",
+                "Investigation",
+                "Methodology",
+                "Project administration",
+                "Resources",
+                "Software",
+                "Supervision",
+                "Validation",
+                "Visualization",
+                "Writing – original draft",
+                "Writing – review and editing"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "CRediT[ 7 ] categorizes contributions into 14 distinct roles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ec23a5d9c6c715fd",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ten-simple-rules-data-citation-elements",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1371/journal.pcbi.1010476",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Creator/Author",
+              "definition_quote": "Person, people, or organization(s) responsible for the intellectual work to develop a data set",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 7: Get that data citation",
+              "quote": "Creator/Author : Person, people, or organization(s) responsible for the intellectual work to develop a data set"
+            },
+            {
+              "dimension_label_verbatim": "Public Release Date",
+              "definition_quote": "When the source data was first made available for use",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 7: Get that data citation",
+              "quote": "Public Release Date : When the source data was first made available for use."
+            },
+            {
+              "dimension_label_verbatim": "Title",
+              "definition_quote": "Formal title of the data set",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 7: Get that data citation",
+              "quote": "Title : Formal title of the data set."
+            },
+            {
+              "dimension_label_verbatim": "Version ID",
+              "definition_quote": "Careful versioning and documentation of version changes are central to enabling accurate citation",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 7: Get that data citation",
+              "quote": "Version ID : Careful versioning and documentation of version changes are central to enabling accurate citation."
+            },
+            {
+              "dimension_label_verbatim": "Repository",
+              "definition_quote": "Name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the data",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 7: Get that data citation",
+              "quote": "Repository : Name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the data."
+            },
+            {
+              "dimension_label_verbatim": "Resolvable PID(s)",
+              "definition_quote": "Unique identifier that provides the ability to access the data",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 7: Get that data citation",
+              "quote": "Resolvable PID(s) : Unique identifier that provides the ability to access the data."
+            },
+            {
+              "dimension_label_verbatim": "Access Date",
+              "definition_quote": "it is important to indicate when data were accessed",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 7: Get that data citation",
+              "quote": "Access Date : Data can be dynamic and changeable in ways that are not always reflected in release dates and versions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9bf728b3a807827f",
+      "has_scheme": false,
+      "reason": "formal economic signaling model about liability contracts and provenance certification (C2PA); it discusses provenance conceptually (Proposition 5) but proposes no category scheme, checklist, or set of dimensions for describing a disclosure, attribution, or provenance claim"
+    }
+  ]
+}

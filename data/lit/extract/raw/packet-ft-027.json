@@ -1,0 +1,163 @@
+{
+  "packet_id": "ft-027",
+  "papers": [
+    {
+      "rec_id": "dbe5382ba02b60c8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "osce-five-ai-roles",
+          "scheme_name_verbatim": "A 5-AI-Role Model Across the OSCE Life Cycle",
+          "source_ref": "doi:10.2196/87830",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI role",
+              "definition_quote": "AI functions in OSCEs should be decomposed into distinct roles (“5 AI roles”) to reduce uncontrolled automation",
+              "value_list_verbatim": ["Learning assistant", "Case generator", "AI-augmented standardized patient", "Assessment assistant", "Learning analyst"],
+              "closed_or_open": "closed_list",
+              "locator": "A 5-AI-Role Model Across the OSCE Life Cycle",
+              "quote": "We refer back to Figure 1 as we outline the roles and the accompanying safeguards."
+            }
+          ]
+        },
+        {
+          "scheme_id": "osce-governance-four-pillars",
+          "scheme_name_verbatim": "Governance Pillars: Human Oversight, Transparency, Ethics and Safety, and Traceability",
+          "source_ref": "doi:10.2196/87830",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "human oversight",
+              "definition_quote": "First, human oversight ensures that AI remains advisory.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Governance Pillars: Human Oversight, Transparency, Ethics and Safety, and Traceability",
+              "quote": "First, human oversight ensures that AI remains advisory."
+            },
+            {
+              "dimension_label_verbatim": "learning process transparency",
+              "definition_quote": "learning process transparency is about showing how results were produced.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Governance Pillars: Human Oversight, Transparency, Ethics and Safety, and Traceability",
+              "quote": "For assessments, it means keeping machine-readable blueprints, station rubrics, persona cards, and logs that capture who did what, when, and on which evidence."
+            },
+            {
+              "dimension_label_verbatim": "ethics and safety",
+              "definition_quote": "ethics and safety demand deidentification, data minimization, and guardrails against clinical misinformation, scope-of-practice drift, and inappropriate content.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Governance Pillars: Human Oversight, Transparency, Ethics and Safety, and Traceability",
+              "quote": "Safety checklists and red teaming apply to AI-SP prompts and assessment assistant outputs before deployment and after significant model updates."
+            },
+            {
+              "dimension_label_verbatim": "traceability",
+              "definition_quote": "traceability links choices to evidence across time.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Governance Pillars: Human Oversight, Transparency, Ethics and Safety, and Traceability",
+              "quote": "Standardized logs connect scores to time-stamped utterances or actions, raters, and model versions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4588e91011937025",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "jhre-substantial-ai-indicators",
+          "scheme_name_verbatim": "Three practical indicators of substantial AI",
+          "source_ref": "doi:10.25259/jhre_4_2025",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Category",
+              "definition_quote": "AI use must be disclosed if it is intentional and substantial.",
+              "value_list_verbatim": ["Mandate", "Optional", "Unnecessary"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2: Three practical indicators of substantial AI",
+              "quote": "Using AI to design experiments, draft sections, translate papers, summarise or paraphrase content, analyse or visualise data, or extract systematic review data"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "084331e4d54b2069",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ppav-layered-architecture",
+          "scheme_name_verbatim": "Pre-Publication Authenticity Verification (PPAV) Model",
+          "source_ref": "doi:10.4236/ojl.2025.143020",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "P-Layer (Provenance)",
+              "definition_quote": "Validate C2PA/Content Credentials; display a public panel.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "PPAV Flow Diagram",
+              "quote": "If a manifest is malformed/forged on high-risk content, reject with rationale + appeal."
+            },
+            {
+              "dimension_label_verbatim": "W-Layer (Watermarks)",
+              "definition_quote": "Detect vendor watermarks; treat as probabilistic",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "PPAV Flow Diagram",
+              "quote": "Detect vendor watermarks; treat as probabilistic"
+            },
+            {
+              "dimension_label_verbatim": "F-Layer (Media Forensics)",
+              "definition_quote": "Image/video: demosaicing/CFA consistency,",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "PPAV Flow Diagram",
+              "quote": "Audio: spectral/phase anomalies, prosody continuity."
+            },
+            {
+              "dimension_label_verbatim": "S-Layer (Similarity & History)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "PPAV Flow Diagram",
+              "quote": "graph suspicious asset reuse."
+            },
+            {
+              "dimension_label_verbatim": "C-Layer (Semantic Claims)",
+              "definition_quote": "Extract claims from captions/overlays",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "PPAV Flow Diagram",
+              "quote": "When sources conflict or are missing, degrade gracefully (no promotion + context)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

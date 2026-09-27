@@ -1,0 +1,117 @@
+{
+  "packet_id": "ft-028",
+  "papers": [
+    {
+      "rec_id": "935ae3ba55a6f5af",
+      "has_scheme": false,
+      "reason": "cites the AI Task Assessment Scale, Process-Product Assessment Model and AI-Resistance Assessment Scale (AIAS) by name but never gives their dimensions or values; the paper's own rubric (Table 2) grades a reflective essay's ethical-reasoning quality, not AI disclosure, attribution or provenance"
+    },
+    {
+      "rec_id": "8ef4d7f2f12f2616",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "envidat-datacredit-roles",
+          "scheme_name_verbatim": "DataCRediT",
+          "source_ref": "doi:10.1371/journal.pone.0282969",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "role list",
+              "definition_quote": "",
+              "value_list_verbatim": ["collection", "validation", "curation", "software", "publication", "supervision"],
+              "closed_or_open": "closed_list",
+              "locator": "Contributorship models",
+              "quote": "own data-oriented role list called DataCRediT for environmental data, which is limited to collection, validation, curation, software, publication and supervision"
+            }
+          ]
+        },
+        {
+          "scheme_id": "hosseini-significant-threshold-test",
+          "scheme_name_verbatim": "significant threshold test",
+          "source_ref": "doi:10.1371/journal.pone.0282969",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "indispensability",
+              "definition_quote": "so important that research objectives cannot be achieved without them",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Contributorship models",
+              "quote": "which draws on the concepts of indispensability and specificity"
+            },
+            {
+              "dimension_label_verbatim": "specificity",
+              "definition_quote": "directly associated with the questions and content of research, and constructively affect the reliability, validity and the justification of the reported data, claims, results",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Contributorship models",
+              "quote": "which draws on the concepts of indispensability and specificity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5d2f6c823560c305",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "medical-ai-four-level-classification",
+          "scheme_name_verbatim": "Classification framework for medical artificial intelligence: based on clinical decision autonomy and impact on doctor–patient relationships.",
+          "source_ref": "doi:10.3389/fpubh.2025.1747635",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Clinical Decision Autonomy",
+              "definition_quote": "illustrates a continuum in clinical decision-making by AI, ranging from “fully executing instructions” to “making and implementing decisions independently”",
+              "value_list_verbatim": ["tool-type", "advisor-type", "collaborative", "autonomous"],
+              "closed_or_open": "closed_list",
+              "locator": "Establishing a four-level classification system aligned with physicians' duty to inform",
+              "quote": "the upper axis (Clinical Decision Autonomy) illustrates a continuum in clinical decision-making by AI, ranging from “fully executing instructions” to “making and implementing decisions independently”"
+            },
+            {
+              "dimension_label_verbatim": "degree of doctor–patient relationship impact",
+              "definition_quote": "Tool-type maintains status quo, Advisor-type adds duties, Collaborative-type changes the model, and Autonomous-type restructures fundamentally",
+              "value_list_verbatim": ["maintains status quo", "adds duties", "changes the model", "restructures fundamentally"],
+              "closed_or_open": "closed_list",
+              "locator": "Establishing a four-level classification system aligned with physicians' duty to inform",
+              "quote": "Each type details its role and implications: Tool-type maintains status quo, Advisor-type adds duties, Collaborative-type changes the model, and Autonomous-type restructures fundamentally."
+            },
+            {
+              "dimension_label_verbatim": "Focus of the duty to inform",
+              "definition_quote": "",
+              "value_list_verbatim": ["Routine disclosure", "Explanation and record-keeping", "Process transparency", "Specific authorization"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Routine disclosure: explain that AI is used as an auxiliary component in the workflow; special authorization is generally unnecessary."
+            },
+            {
+              "dimension_label_verbatim": "Principle of allocation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Physicians bear full responsibility.", "Dual-track allocation.", "Responsibility shifts toward patient decision-making (with adequate disclosure).", "Allocation based on scope of authorization."],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Category Principle of allocation Attribution of responsibility Example"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

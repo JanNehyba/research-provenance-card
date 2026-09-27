@@ -1,0 +1,192 @@
+{
+  "packet_id": "ft-036",
+  "papers": [
+    {
+      "rec_id": "88a15d78ceadd487",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "authorship-credit-attribution-scale",
+          "scheme_name_verbatim": "Scale of attribution levels used in our analysis.",
+          "source_ref": "arXiv:2502.18357",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "a scenario-based survey study",
+          "machine_readable_artifact": "https://aiattribution.github.io",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Categorical scale point",
+              "definition_quote": "We refer to points on the categorical scale as ratings and points on the numerical scale as scores",
+              "value_list_verbatim": ["Sole/n", "Primary/Acknowledged", "Primary/Secondary", "Equal", "Secondary/Primary", "Acknowledged/Primary", "n/Sole"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 4",
+              "quote": "Table 4 describes the scale points, their interpretation, and their numerical mappings."
+            }
+          ]
+        },
+        {
+          "scheme_id": "cocreation-contribution-nature-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2502.18357",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "a scenario-based survey study",
+          "machine_readable_artifact": "https://aiattribution.github.io",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "contribution type",
+              "definition_quote": "Participants were asked to rate the importance of contribution type, contribution amount, and initiative on a 5-point scale.",
+              "value_list_verbatim": ["Spelling & grammar", "Organization & structure", "Readability & clarity", "Fact check", "Tone & style", "Narrow scope"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 5",
+              "quote": "Contributions of content warranted more credit than contributions of form"
+            },
+            {
+              "dimension_label_verbatim": "contribution amount",
+              "definition_quote": "Participants were asked to rate the importance of contribution type, contribution amount, and initiative on a 5-point scale.",
+              "value_list_verbatim": ["No writing", "A few sentences", "equal writing"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 5",
+              "quote": "contributions of greater amounts warranted greater levels of credit, with clear differentiation"
+            },
+            {
+              "dimension_label_verbatim": "initiative",
+              "definition_quote": "Participants were asked to rate the importance of contribution type, contribution amount, and initiative on a 5-point scale.",
+              "value_list_verbatim": ["Asked for recs.", "Proactive"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 5",
+              "quote": "we observed varying effects of proactivity on authorship credit scores"
+            }
+          ]
+        },
+        {
+          "scheme_id": "aia-ai-contribution-statement-design",
+          "scheme_name_verbatim": "AI contribution statement",
+          "source_ref": "arXiv:2502.18357",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://aiattribution.github.io",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI model used",
+              "definition_quote": "a user identifies the AI model used to co-create a work",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Figure 5",
+              "quote": "This design shows a workflow in which a user identifies the AI model used to co-create a work"
+            },
+            {
+              "dimension_label_verbatim": "types of contributions",
+              "definition_quote": "the types of contributions it made",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Figure 5",
+              "quote": "the types of contributions it made"
+            },
+            {
+              "dimension_label_verbatim": "proportion of work",
+              "definition_quote": "the proportion of work it created or modified",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Figure 5",
+              "quote": "the proportion of work it created or modified"
+            },
+            {
+              "dimension_label_verbatim": "initiative it took",
+              "definition_quote": "the initiative it took in helping produce the work",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Figure 5",
+              "quote": "the initiative it took in helping produce the work"
+            },
+            {
+              "dimension_label_verbatim": "human review confirmation",
+              "definition_quote": "a user affirmation that all AI-generated content was reviewed and approved by a human",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Figure 5",
+              "quote": "The authors affirmed that all AI-generated content was reviewed and approved."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "62045bcad820902f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-role-taxonomy-review",
+          "scheme_name_verbatim": "Contributor Role Taxonomy (CRediT)",
+          "source_ref": "doi:10.1080/08989621.2022.2161049",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "CRediT roles",
+              "definition_quote": "Contributor Role Ontologies and Taxonomies (CROTs) provide a standard list of roles to specify individual contributions to publications.",
+              "value_list_verbatim": ["Conceptualization", "Funding Acquisition", "Investigation", "Methodology", "Project administration", "Visualization", "Writing – original draft", "Writing – review & editing", "Validation", "Supervision", "Funding acquisition"],
+              "closed_or_open": "closed_list",
+              "locator": "Abstract",
+              "quote": "By providing a standard list of roles to specify individual contributions to publications, CROTs aim to enhance transparency and consistency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1b7f55de4a2d4c98",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "influencemapper-industry-relationship-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1186/s12940-025-01223-1",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "2,046 studies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "study-entity relationship",
+              "definition_quote": "all disclosed relationships between each entity and the study",
+              "value_list_verbatim": ["participating in the design, coordination, analysis, or data collection of the study"],
+              "closed_or_open": "closed_list",
+              "locator": "Application of influencemapper",
+              "quote": "extracted relationships into 12 possible pre-specified study-entity relationship categories and 28 possible pre-specified author-entity relationship categories"
+            },
+            {
+              "dimension_label_verbatim": "author-entity relationship",
+              "definition_quote": "all disclosed relationships between each entity and each author name",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "Application of influencemapper",
+              "quote": "extracted relationships into 12 possible pre-specified study-entity relationship categories and 28 possible pre-specified author-entity relationship categories"
+            },
+            {
+              "dimension_label_verbatim": "Relationships to industry entities",
+              "definition_quote": "An 'industry or industry-funded entity' (hereafter referred to as 'industry entity') was defined as any non-university, non-governmental organization whose operations are (or have been) financed",
+              "value_list_verbatim": ["industry entities", "university and government entities", "entities that had either an uncertain connection to industry or were not identifiable"],
+              "closed_or_open": "closed_list",
+              "locator": "Relationships to industry entities",
+              "quote": "the keyword search identified 320 industry entities compared to 1,442 university and government entities and 1,492 entities"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

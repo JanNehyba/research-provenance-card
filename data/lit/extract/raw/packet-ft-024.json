@@ -1,0 +1,195 @@
+{
+  "packet_id": "ft-024",
+  "papers": [
+    {
+      "rec_id": "55de5b7ce85a9c35",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aldaf-framework",
+          "scheme_name_verbatim": "AI-enabled learning design and assessment framework (ALDAF)",
+          "source_ref": "doi:10.5772/intechopen.1016360",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Design focus",
+              "definition_quote": "",
+              "value_list_verbatim": ["Adult learning foundations", "Knowledge centered outcomes", "Analysis (AI strength)", "Drafting (AI strength)", "Exploration (AI strength)", "Classroom discourse", "Assessment design", "Metacognition", "Workflow efficiency", "Institutional alignment"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Design focus Curriculum/Pedagogical element Applied learning activities"
+            },
+            {
+              "dimension_label_verbatim": "ALDAF-aligned dimensions",
+              "definition_quote": "",
+              "value_list_verbatim": ["Concept Mastery", "Evidence and Verification", "Judgment and Decision Rationale", "Metacognition and AI Transparency", "Communication"],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "ALDAF-aligned dimensions such as Concept Mastery, Evidence and Verification, Judgment and Decision Rationale"
+            }
+          ]
+        },
+        {
+          "scheme_id": "aldaf-aias-application",
+          "scheme_name_verbatim": "Artificial Intelligence Assessment Scale (AIAS)",
+          "source_ref": "doi:10.5772/intechopen.1016360",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "level of AI use permitted",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 5",
+              "quote": "AIAS operationalizes this through a five-level continuum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d1f41c78f7a52150",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gastro-coi-disclosure-classification",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1136/bmjgast-2026-002390",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "13 guidelines, including 125 author appearances and 102 unique authors",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "financial COI status",
+              "definition_quote": "financial COI status as (a) reporting at least one financial relationship, (b) explicitly reporting no financial relationships, or (c) not specified",
+              "value_list_verbatim": ["reporting at least one financial relationship", "explicitly reporting no financial relationships", "not specified"],
+              "closed_or_open": "closed_list",
+              "locator": "Data extraction and COI classification",
+              "quote": "We classified financial COI status as (a) reporting at least one financial relationship"
+            },
+            {
+              "dimension_label_verbatim": "IOM Standard",
+              "definition_quote": "",
+              "value_list_verbatim": ["Standard 1", "Standard 2a", "Standard 2b"],
+              "closed_or_open": "closed_list",
+              "locator": "Transparency standard assessment",
+              "quote": "We then assessed guideline-level compliance with IOM Standards 1 and 2 using prespecified binary criteria"
+            },
+            {
+              "dimension_label_verbatim": "reporting concordance",
+              "definition_quote": "Under-reporting defined as receipt of a relevant manufacturer payment without disclosure of the corresponding manufacturer relationship",
+              "value_list_verbatim": ["Under-reporting", "Over-reporting"],
+              "closed_or_open": "closed_list",
+              "locator": "Author-level total and relevant Open Payments from manufacturers of products rec",
+              "quote": "Under-reporting defined as receipt of a relevant manufacturer payment without disclosure of the corresponding manufacturer relationship"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "50a5959b6f62ee4c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "open-science-practices-checklist-pa-bcr",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1101/2021.12.01.21267126",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "100 reports of randomised controlled trial physical activity behaviour change interventions published between 2018-2021",
+          "machine_readable_artifact": "https://osf.io/3wcu6/",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Pre-registration",
+              "definition_quote": "",
+              "value_list_verbatim": ["prospectively", "retrospectively"],
+              "closed_or_open": "closed_list",
+              "locator": "Methods",
+              "quote": "whether pre-registration was reported as carried out, where the pre-registration was hosted"
+            },
+            {
+              "dimension_label_verbatim": "Protocol sharing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Methods",
+              "quote": "Protocol sharing: whether a protocol was reported as published and what aspects of the study"
+            },
+            {
+              "dimension_label_verbatim": "Data sharing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Methods",
+              "quote": "Data sharing: whether data were reported as available, where it was available"
+            },
+            {
+              "dimension_label_verbatim": "Materials sharing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Methods",
+              "quote": "Materials sharing: whether study materials were reported as available, where they were available"
+            },
+            {
+              "dimension_label_verbatim": "Analysis script-sharing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Methods",
+              "quote": "Analysis script-sharing: whether analysis scripts were reported as available, where they were available"
+            },
+            {
+              "dimension_label_verbatim": "Replication of a previous study",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Methods",
+              "quote": "Replication of a previous study: whether the study was described as being a replication attempt"
+            },
+            {
+              "dimension_label_verbatim": "Open access publication",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Methods",
+              "quote": "Open access publication: whether the study was published as open access, assessed via the Open Access button website"
+            },
+            {
+              "dimension_label_verbatim": "Funding sources",
+              "definition_quote": "",
+              "value_list_verbatim": ["public organisations", "pharmaceutical", "activity-related", "other companies"],
+              "closed_or_open": "closed_list",
+              "locator": "Methods",
+              "quote": "Funding sources: whether funding sources were declared and if research was funded by public organisations"
+            },
+            {
+              "dimension_label_verbatim": "Conflicts of interest",
+              "definition_quote": "",
+              "value_list_verbatim": ["public organisations", "pharmaceutical", "activity-related", "other companies"],
+              "closed_or_open": "closed_list",
+              "locator": "Methods",
+              "quote": "Conflicts of interest: whether conflicts of interest were declared and whether conflicts were with public organisations"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

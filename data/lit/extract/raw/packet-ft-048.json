@@ -1,0 +1,79 @@
+{
+  "packet_id": "ft-048",
+  "papers": [
+    {
+      "rec_id": "bb0cdd907e1b8e46",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-disclosure-guidance-hpe-editors",
+          "scheme_name_verbatim": "AI Disclosure Guidance for Authors based on Editor Expectations",
+          "source_ref": "doi:10.1101/2025.07.17.25331725",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "self_report",
+          "empirical_basis": "18 semi-structured interviews with experienced editors of health professions education and general medical journals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Disclosure Basics",
+              "definition_quote": "",
+              "value_list_verbatim": ["State how you used AI.", "Be specific: tool, tasks, location.", "Add a responsibility statement.", "Put the disclosure in your \nmanuscript.", "When in doubt, disclose."],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2. AI Disclosure Guidance for Authors based on Editor Expectations",
+              "quote": "Table 2. AI Disclosure Guidance for Authors based on Editor Expectations \nDisclosure Basics \nComplexities of Sufficiency and Necessity \nState how you used AI."
+            },
+            {
+              "dimension_label_verbatim": "Complexities of Sufficiency and Necessity",
+              "definition_quote": "",
+              "value_list_verbatim": ["Distinguish between technical & intellectual use.", "Be strategic about the level of detail.", "Indicate how you verified content.", "Aim for credibility, not necessarily reproducibility.", "Don’t avoid disclosure in fear of punitive action."],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2. AI Disclosure Guidance for Authors based on Editor Expectations",
+              "quote": "Distinguish between technical & intellectual use. Intellectual uses are \nof more concern to editors and require more explanation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "0d5367e21444f3a6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "automation-level-taxonomy-forecasting",
+          "scheme_name_verbatim": "automation level taxonomy",
+          "source_ref": "doi:10.1007/978-3-031-74738-0_18",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "compared against existing forecasting services in the literature and applied to a real-world deployment (Smart East, Karlsruhe, Germany)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Automation level",
+              "definition_quote": "communicates the scope of automa-\ntion in time series forecasting using six levels",
+              "value_list_verbatim": [
+                "Automation level 0 represents fully manual design and operation.",
+                "In Automation level 1, the workﬂow is systematized",
+                "Automation level 2 enables automated design",
+                "Automation level 3 supports automated operation by monitoring the fore-\ncast during operation",
+                "In Automation level 4, the problem of missing training data (cold-start)",
+                "Automation level 5 achieves a fully autonomous system"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "3 Automation Levels for Time Series Forecasting",
+              "quote": "Automation level 0 represents fully manual design and operation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f1c9778bfdad5798",
+      "has_scheme": false,
+      "reason": "reviews AI ethics and best practices in academic writing narratively; discusses the importance of disclosing AI use in prose but proposes no named or enumerable scheme of disclosure/attribution dimensions, only a generic AI-capability classification (narrow/general/super intelligence) and a narrative list of accepted AI-use scenarios not framed as a disclosure or provenance scheme"
+    }
+  ]
+}

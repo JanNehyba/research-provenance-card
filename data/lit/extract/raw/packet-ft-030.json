@@ -1,0 +1,196 @@
+{
+  "packet_id": "ft-030",
+  "papers": [
+    {
+      "rec_id": "295d21851b327ac5",
+      "has_scheme": false,
+      "reason": "presents a large bibliometric catalogue of individual publisher/journal AI-use policies quoted verbatim (e.g. Emerald, MDPI, Nature titles) rather than the paper's own category scheme; its methodology records only a binary yes/no for whether a policy exists, with no coding taxonomy of policy content"
+    },
+    {
+      "rec_id": "6f3521d2d0a7e5d1",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "specified-latitude-evaluation-criteria",
+          "scheme_name_verbatim": "Evaluation Criteria",
+          "source_ref": "doi:10.22492/issn.2188-1162.2026.49",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "182 submissions across four sets",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Specification",
+              "definition_quote": "asks whether permitted AI operations are named in the brief at the level of the task stage",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Evaluation Criteria",
+              "quote": "asks whether permitted AI operations are named in the brief at the level of the task stage"
+            },
+            {
+              "dimension_label_verbatim": "Evidential obligation",
+              "definition_quote": "asks whether permitted use carries a requirement to produce a trace",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Evaluation Criteria",
+              "quote": "asks whether permitted use carries a requirement to produce a trace"
+            },
+            {
+              "dimension_label_verbatim": "Criterion alignment",
+              "definition_quote": "asks whether marking criteria name critical evaluation of AI output with band descriptors",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Evaluation Criteria",
+              "quote": "asks whether marking criteria name critical evaluation of AI output with band descriptors"
+            },
+            {
+              "dimension_label_verbatim": "Judgement exposure",
+              "definition_quote": "asks whether the design contains a point at which the student must select, reject or defend without AI mediation",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Evaluation Criteria",
+              "quote": "asks whether the design contains a point at which the student must select, reject or defend without AI mediation"
+            },
+            {
+              "dimension_label_verbatim": "Disciplinary anchoring",
+              "definition_quote": "asks whether the task supplies constraints against which output can be judged wrong",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Evaluation Criteria",
+              "quote": "asks whether the task supplies constraints against which output can be judged wrong"
+            },
+            {
+              "dimension_label_verbatim": "Equity",
+              "definition_quote": "asks whether the design assumes uniform prior AI access or capability",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Evaluation Criteria",
+              "quote": "asks whether the design assumes uniform prior AI access or capability"
+            }
+          ]
+        },
+        {
+          "scheme_id": "craft-framework",
+          "scheme_name_verbatim": "the CRAFT Framework",
+          "source_ref": "doi:10.22492/issn.2188-1162.2026.49",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "C: Client-anchored task",
+              "definition_quote": "Set the brief with a real external organisation, its constraints and its audience",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 6",
+              "quote": "Set the brief with a real external organisation, its constraints and its audience"
+            },
+            {
+              "dimension_label_verbatim": "R: Rule-specified latitude",
+              "definition_quote": "Name permitted AI operations by task stage rather than granting task-level permission",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 6",
+              "quote": "Name permitted AI operations by task stage rather than granting task-level permission"
+            },
+            {
+              "dimension_label_verbatim": "A: Attributable trace",
+              "definition_quote": "Oblige each permitted operation to leave submitted evidence alongside the account of its revision",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 6",
+              "quote": "Oblige each permitted operation to leave submitted evidence alongside the account of its revision"
+            },
+            {
+              "dimension_label_verbatim": "F: Forced judgement point",
+              "definition_quote": "Locate an unmediated, individually attributable moment at which the student selects, rejects and defends",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 6",
+              "quote": "Locate an unmediated, individually attributable moment at which the student selects, rejects and defends"
+            },
+            {
+              "dimension_label_verbatim": "T: Tuned criteria",
+              "definition_quote": "Write critical evaluation of AI output into marking criteria with descriptors at each band",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 6",
+              "quote": "Write critical evaluation of AI output into marking criteria with descriptors at each band"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f00a174ffc6f0632",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "daisy-disclosure-activities",
+          "scheme_name_verbatim": "DAISY",
+          "source_ref": "arXiv:2604.02760",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "user study with academic authors (N = 31)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "activities",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Ideation and brainstorming", "Coding assistance", "Analytical support",
+                "Writing and drafting", "Figures and tables", "Language editing and proofreading"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "3.3. Designing DAISY",
+              "quote": "DAISY structures disclosure around six activities: Ideation and brainstorming, Coding assistance, Analytical support, Writing and drafting, Figures and tables, and Language editing and proofreading."
+            },
+            {
+              "dimension_label_verbatim": "level of AI support",
+              "definition_quote": "",
+              "value_list_verbatim": ["none", "low", "medium", "high"],
+              "closed_or_open": "closed_list",
+              "locator": "3.3. Designing DAISY",
+              "quote": "Authors indicate the level of AI support (none, low, medium, high) for each activity"
+            }
+          ]
+        },
+        {
+          "scheme_id": "daisy-completeness-coding-scheme",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2604.02760",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "disclosure statements from N = 31 participants across three conditions",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "six elements",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "the name of the AI tool used",
+                "the version of the tool",
+                "the location of AI use within the manuscript",
+                "the purpose of AI use",
+                "the extent or level of AI involvement",
+                "an explicit statement that responsibility for the content remains with the authors"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "4.1.4. Measures",
+              "quote": "Completeness was assessed using a binary coding scheme indicating whether each disclosure statement included the following six elements"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

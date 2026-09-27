@@ -1,0 +1,173 @@
+{
+  "packet_id": "ft-054",
+  "papers": [
+    {
+      "rec_id": "dab5f009a9363982",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aigen-assessment-certification-metadata-schema",
+          "scheme_name_verbatim": "Certification Metadata Schema",
+          "source_ref": "arXiv:2604.09622",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "500 AI-generated computer science questions",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Provenance and generation context",
+              "definition_quote": "",
+              "value_list_verbatim": ["Model/version", "prompt", "timestamp", "course/context"],
+              "closed_or_open": "open_text",
+              "locator": "4 Certification Metadata Schema",
+              "quote": "1.\nProvenance and generation context,"
+            },
+            {
+              "dimension_label_verbatim": "Alignment and explainability outputs",
+              "definition_quote": "",
+              "value_list_verbatim": ["Bloom/SOLO labels", "confidence", "rationale", "attributions"],
+              "closed_or_open": "open_text",
+              "locator": "4 Certification Metadata Schema",
+              "quote": "2.\nAlignment and explainability outputs,"
+            },
+            {
+              "dimension_label_verbatim": "Human-in-the-loop review metadata",
+              "definition_quote": "",
+              "value_list_verbatim": ["Reviewer actions", "edits", "decision", "notes", "timestamps"],
+              "closed_or_open": "open_text",
+              "locator": "4 Certification Metadata Schema",
+              "quote": "3.\nHuman-in-the-loop review metadata,"
+            },
+            {
+              "dimension_label_verbatim": "Ethical and governance indicators",
+              "definition_quote": "",
+              "value_list_verbatim": ["Bias/fairness flags", "privacy notes", "risk indicators"],
+              "closed_or_open": "open_text",
+              "locator": "4 Certification Metadata Schema",
+              "quote": "4.\nEthical and governance indicators."
+            }
+          ]
+        },
+        {
+          "scheme_id": "aigen-assessment-traffic-light-certification",
+          "scheme_name_verbatim": "traffic-light certification model",
+          "source_ref": "arXiv:2604.09622",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "500 AI-generated computer science questions",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "traffic-light certification",
+              "definition_quote": "distinguishing auto-certifiable items from those requiring human review or rejection",
+              "value_list_verbatim": ["Green: auto-certify", "Yellow: human review", "Red: reject/regenerate"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 3",
+              "quote": "Green: auto-certify Yellow: human review Red: reject/regenerate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "590fef85093504e5",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "nist-digital-content-transparency-approach-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.6028/nist.ai.100-4",
+          "domain": "other",
+          "artifact_type": "policy",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Digital Content Transparency Approaches",
+              "definition_quote": "Current tools can be broken down into the following categories, as shown in Figure 2",
+              "value_list_verbatim": ["Provenance data tracking", "Synthetic content detection"],
+              "closed_or_open": "closed_list",
+              "locator": "Digital Content Transparency Approaches, Issues, and Opportunities",
+              "quote": "Current tools can be broken down into the following categories, as shown in Figure 2"
+            }
+          ]
+        },
+        {
+          "scheme_id": "nist-synthetic-content-detection-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.6028/nist.ai.100-4",
+          "domain": "other",
+          "artifact_type": "policy",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Synthetic Content Detection",
+              "definition_quote": "Synthetic content detection techniques broadly fit into three categories, which are not mutually exclusive",
+              "value_list_verbatim": ["Provenance data detection", "Automated content-based detection techniques", "Human-assisted detection"],
+              "closed_or_open": "closed_list",
+              "locator": "3.2 \nSynthetic Content Detection",
+              "quote": "Synthetic content detection techniques broadly fit into three categories, which are not mutually exclusive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a60cf66e2a492ae0",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sage-student-orchestration-levels",
+          "scheme_name_verbatim": "SAGE student orchestration levels and observable interpretations",
+          "source_ref": "doi:10.3934/steme.2026039",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "more than 1500 students",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Orchestration level",
+              "definition_quote": "The framework distinguishes AI permission \nfrom four observable task-level orchestration capabilities:",
+              "value_list_verbatim": ["Passive Acceptor", "Selective Adapter", "Balanced Integrator", "Critical Synthesiser"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Passive Acceptor, Selective Adapter,\nBalanced Integrator, and Critical Synthesiser."
+            }
+          ]
+        },
+        {
+          "scheme_id": "sage-accept-modify-reject-decision",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3934/steme.2026039",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "more than 1500 students",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "accept, modify, or reject decision",
+              "definition_quote": "Each modification \nis documented as an accept, modify, or reject decision with a brief evidence-based justification",
+              "value_list_verbatim": ["Accept", "modify", "reject"],
+              "closed_or_open": "closed_list",
+              "locator": "Step 3: Refine.",
+              "quote": "Each modification \nis documented as an accept, modify, or reject decision with a brief evidence-based justification"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

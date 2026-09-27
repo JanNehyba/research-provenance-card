@@ -1,0 +1,64 @@
+{
+  "packet_id": "ft-006",
+  "papers": [
+    {
+      "rec_id": "f98aa143440d8e4d",
+      "has_scheme": false,
+      "reason": "brief legal-opinion conference abstract arguing that copyright in AI-generated products should belong to the user; the retrieved page is mostly site navigation and citation metadata, and the paper proposes no categories, dimensions, or checklist"
+    },
+    {
+      "rec_id": "5f469621a4251ae7",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aias-integrity-equity-pedagogy",
+          "scheme_name_verbatim": "AI Assessment Scale (AIAS)",
+          "source_ref": "doi:10.1080/02602938.2026.2724300",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "we conducted five focus groups with 30 \nacademic staff across two institutions",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the dimensions of integrity, equity, and pedagogy",
+              "definition_quote": "",
+              "value_list_verbatim": ["integrity", "equity", "pedagogy"],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "provides structured guidance for embedding GenAI into assessment design across the dimensions of integrity, equity, and pedagogy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "bfecd6223ca6e57f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.1038/s41562-023-01572-2",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "specific role on a project",
+              "definition_quote": "which contains 14 categories that allow researchers to describe their specific role on a project",
+              "value_list_verbatim": ["data analysis", "visualization", "writing", "editing"],
+              "closed_or_open": "closed_list",
+              "locator": "Documenting contributions",
+              "quote": "This taxonomy, for instance, allows a researcher to indicate that they contributed to data analysis and visualization, but not writing or editing."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

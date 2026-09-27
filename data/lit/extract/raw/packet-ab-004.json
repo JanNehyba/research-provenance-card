@@ -1,0 +1,269 @@
+{
+  "packet_id": "004",
+  "papers": [
+    {
+      "rec_id": "6f677dfaa94548ae",
+      "has_scheme": false,
+      "reason": "abstract discusses LLM support for conflict-of-interest management (data collection, risk assessment, transparency) and recommends policy frameworks, but does not enumerate a category scheme for disclosure, attribution, or provenance"
+    },
+    {
+      "rec_id": "873f1354e2b5eedb",
+      "has_scheme": false,
+      "reason": "abstract enumerates several NICU AI governance tools (ethical domains, five go/no-go gates, maturity enhancers, consequence tiers, checklists) for clinical AI deployment risk management, but these describe deployment governance rather than a disclosure, attribution, or provenance scheme for a produced artifact"
+    },
+    {
+      "rec_id": "ac8da0621ae2a65c",
+      "has_scheme": false,
+      "reason": "abstract proposes a sponsorship mechanism (URI) with automatic tier computation from disclosure, but does not enumerate the tier levels or disclosure categories"
+    },
+    {
+      "rec_id": "86019c631ab2660c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ats-framework",
+          "scheme_name_verbatim": "Authorship Transparency Statement (ATS) Framework",
+          "source_ref": "doi:10.5281/zenodo.18091714",
+          "domain": "other",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://github.com/MeaningfulnessMediaGroup/ATS-Framework",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "six-tier hierarchy (ATS-0 through ATS-5)",
+              "definition_quote": "the protocol categorizes the human role across a gradient of increasing AI autonomy",
+              "value_list_verbatim": [
+                "Traditional Artisan (ATS-0)",
+                "Architect (ATS-1)",
+                "Director (ATS-3)",
+                "Systems Architect (ATS-4)"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "By defining a six-tier hierarchy (ATS-0 through ATS-5), the protocol categorizes the human role across a gradient of increasing AI autonomy"
+            },
+            {
+              "dimension_label_verbatim": "The Extent Axis (E-Scale)",
+              "definition_quote": "A quantitative modifier (E0–E4) indicating the volume of AI involvement in a work",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The Extent Axis (E-Scale): A quantitative modifier (E0–E4) indicating the volume of AI involvement in a work"
+            },
+            {
+              "dimension_label_verbatim": "The Bright Line Principle",
+              "definition_quote": "A mechanical threshold determining the boundary between reactive augmentation and generative synthesis",
+              "value_list_verbatim": [
+                "reactive augmentation",
+                "generative synthesis"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "A mechanical threshold determining the boundary between reactive augmentation and generative synthesis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "174c8a52da3e478a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "distributed-teaching-agency-typology",
+          "scheme_name_verbatim": "typology of distributed teacher–AI agency (TAI)",
+          "source_ref": "doi:10.3390/mti10040034",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "3120 students (Mexico, n = 2051; Ecuador, n = 1069)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Three configurations",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Immediate Customizer (28.8%)",
+                "Technological Literacy Facilitator (27.3%)",
+                "Operational Optimizer (43.9%)"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Three configurations emerged: Immediate Customizer (28.8%) with very high A and minimal D/G (II = 25.4)"
+            },
+            {
+              "dimension_label_verbatim": "Governance (G: disclosure, criteria, verification)",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "disclosure",
+                "criteria",
+                "verification"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Governance (G: disclosure, criteria, verification)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "358bd6419a65e385",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-assisted-writing-practice-constructs",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5281/zenodo.21398432",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "secondary learners at San Mariano National High School",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI-assisted writing practice",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "language refinement",
+                "drafting support",
+                "Information verification",
+                "disclosure of AI assistance",
+                "Revision and feedback use",
+                "idea generation",
+                "planning"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "learners demonstrated a high level of AI-assisted writing practice, particularly in language refinement and drafting support"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "31a3a4324ce36286",
+      "has_scheme": false,
+      "reason": "title refers to 'themes' in declared GenAI use, but the abstract only describes a practice of requiring students to declare and explain such use; it does not enumerate the themes found"
+    },
+    {
+      "rec_id": "5a9c67c634fd81f2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "titan-guideline-use-categories",
+          "scheme_name_verbatim": "TITAN guidelines",
+          "source_ref": "doi:10.64813/ejmr.2026.126",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "proportionate and technology neutral approach to AI reporting",
+              "definition_quote": "distinguishes minor uses, such as language assistance, from substantive applications involving research design, analysis, interpretation, or scientific content",
+              "value_list_verbatim": [
+                "minor uses",
+                "substantive applications"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "distinguishes minor uses, such as language assistance, from substantive applications involving research design, analysis, interpretation, or scientific content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "db98094e4f177cdf",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "flair-checklist-categories",
+          "scheme_name_verbatim": "FLAIR (Framework for LLM Assessment in Radiology)",
+          "source_ref": "doi:10.1148/radiol.250913",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "Of 511 screened studies, 57 were included",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "32 items across six key categories",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "general information and data input",
+                "prompting and fine-tuning",
+                "performance metrics",
+                "ethics and data transparency",
+                "implementation, risks, and limitations",
+                "further/optional aspects"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a structured checklist containing 32 items across six key categories: general information and data input; prompting and fine-tuning; performance metrics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "94e5049f33ef7e05",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "pwav-framework",
+          "scheme_name_verbatim": "Provenance-Weighted Authenticity Verification (PWAV)",
+          "source_ref": "doi:10.1080/08838151.2026.2691175",
+          "domain": "journalism_media",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "cryptographic content credentials",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a sociotechnical framework integrating cryptographic content credentials, professional verification standards, corporate expectations, and regulatory alignment"
+            },
+            {
+              "dimension_label_verbatim": "professional verification standards",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a sociotechnical framework integrating cryptographic content credentials, professional verification standards, corporate expectations, and regulatory alignment"
+            },
+            {
+              "dimension_label_verbatim": "corporate expectations",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a sociotechnical framework integrating cryptographic content credentials, professional verification standards, corporate expectations, and regulatory alignment"
+            },
+            {
+              "dimension_label_verbatim": "regulatory alignment",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a sociotechnical framework integrating cryptographic content credentials, professional verification standards, corporate expectations, and regulatory alignment"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

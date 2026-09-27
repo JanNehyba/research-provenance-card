@@ -1,0 +1,496 @@
+{
+  "packet_id": "ft-053",
+  "papers": [
+    {
+      "rec_id": "17f54bb6862a1905",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cureus-llm-governance-scope-checklist",
+          "scheme_name_verbatim": "Governance and scope checklist",
+          "source_ref": "doi:10.7759/cureus.92571",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Define LLM-assisted tasks",
+              "definition_quote": "List of allowed tasks (e.g., outlining, editing, RAG summarization) and\nexplicit exclusions",
+              "value_list_verbatim": ["Tasks enumerated; exclusions\nstated"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Define LLM-assisted tasks"
+            },
+            {
+              "dimension_label_verbatim": "Data sensitivity screening",
+              "definition_quote": "Data classification (patient PII/PHI/other sensitive), de-identification\nstatus",
+              "value_list_verbatim": ["High-risk data kept off public\ntools"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Data sensitivity screening"
+            },
+            {
+              "dimension_label_verbatim": "Legal/ethical basis",
+              "definition_quote": "Ethics review need (Y/N), legal basis (e.g., GDPR Art. 6/9 if applicable)",
+              "value_list_verbatim": ["Basis recorded; approvals filed"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Legal/ethical basis"
+            },
+            {
+              "dimension_label_verbatim": "Institutional approval and\nagreements",
+              "definition_quote": "DPA/BAA or institutional approval for chosen tool/provider",
+              "value_list_verbatim": ["Agreements in place before\nuse"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Institutional approval and\nagreements"
+            },
+            {
+              "dimension_label_verbatim": "Model identity and version",
+              "definition_quote": "Model/provider, version/date, hosting, and data residency",
+              "value_list_verbatim": ["Fully recorded"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Model identity and version"
+            },
+            {
+              "dimension_label_verbatim": "Access control",
+              "definition_quote": "Who can access the tool/corpus; authentication method",
+              "value_list_verbatim": ["Named users; role-based\naccess"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Access control"
+            },
+            {
+              "dimension_label_verbatim": "Prompt hygiene",
+              "definition_quote": "Policy to prohibit entry of protected/identifiable data into public tools",
+              "value_list_verbatim": ["Policy documented and\ncommunicated"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Prompt hygiene"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure plan",
+              "definition_quote": "Where/how AI use will be disclosed (methods/acknowledgments/cover\nletter)",
+              "value_list_verbatim": ["Location defined"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Disclosure plan"
+            },
+            {
+              "dimension_label_verbatim": "Roles and responsibilities",
+              "definition_quote": "Human owners for literature, data extraction, statistics, references",
+              "value_list_verbatim": ["Named individuals assigned"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Roles and responsibilities"
+            },
+            {
+              "dimension_label_verbatim": "Bias/fairness plan",
+              "definition_quote": "Pre-specified subgroups and fairness checks",
+              "value_list_verbatim": ["Subgroups defined"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Bias/fairness plan"
+            },
+            {
+              "dimension_label_verbatim": "Security posture",
+              "definition_quote": "Statement of security controls (encryption at rest/in transit, audit\nlogging)",
+              "value_list_verbatim": ["Controls described"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Security posture"
+            },
+            {
+              "dimension_label_verbatim": "Source restrictions",
+              "definition_quote": "Approved sources/corpora for RAG (licensed, open, institutional)",
+              "value_list_verbatim": ["Approved sources list/allow-list\ndefined"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Source restrictions"
+            },
+            {
+              "dimension_label_verbatim": "Pre-registration (if applicable)",
+              "definition_quote": "Registry/OSF/PROSPERO/SPIRIT-AI details",
+              "value_list_verbatim": ["Identifier recorded"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Pre-registration (if applicable)"
+            },
+            {
+              "dimension_label_verbatim": "Exit/opt-out (if applicable)",
+              "definition_quote": "Process to remove specific data from pipelines",
+              "value_list_verbatim": ["Documented"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2: Governance and scope checklist.",
+              "quote": "Exit/opt-out (if applicable)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "cureus-llm-literature-retrieval-checklist",
+          "scheme_name_verbatim": "Literature and retrieval checklist",
+          "source_ref": "doi:10.7759/cureus.92571",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Approved corpora",
+              "definition_quote": "List of vetted sources (databases, repositories)",
+              "value_list_verbatim": ["Approved sources list/allow-list \nused"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Approved corpora"
+            },
+            {
+              "dimension_label_verbatim": "Search strategies",
+              "definition_quote": "Full query strings, databases, dates, limits",
+              "value_list_verbatim": ["Strategies saved/exported"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Search strategies"
+            },
+            {
+              "dimension_label_verbatim": "Retrieval settings",
+              "definition_quote": "Retrieval top-k, ranking, filters, recency bounds",
+              "value_list_verbatim": ["Parameters recorded"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Retrieval settings"
+            },
+            {
+              "dimension_label_verbatim": "De-duplication and quality",
+              "definition_quote": "De-duplication method and source quality screening criteria",
+              "value_list_verbatim": ["Methods recorded"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "De-duplication and quality"
+            },
+            {
+              "dimension_label_verbatim": "Citation integrity",
+              "definition_quote": "Every claim linked to retrievable primary sources (DOI/PMID/URL)",
+              "value_list_verbatim": ["Links verified"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Citation integrity"
+            },
+            {
+              "dimension_label_verbatim": "Prompt and context logs",
+              "definition_quote": "Prompts, retrieved contexts, outputs, timestamps, source IDs",
+              "value_list_verbatim": ["Logs retained"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Prompt and context logs"
+            },
+            {
+              "dimension_label_verbatim": "Version control",
+              "definition_quote": "Output versions with change history",
+              "value_list_verbatim": ["Version control in place"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Version control"
+            },
+            {
+              "dimension_label_verbatim": "Dual verification",
+              "definition_quote": "Two-person check for critical claims/quantitative results",
+              "value_list_verbatim": ["Sign-off recorded"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Dual verification"
+            },
+            {
+              "dimension_label_verbatim": "PRISMA tracking (if review)",
+              "definition_quote": "Screening log, inclusion/exclusion reasons, PRISMA flow",
+              "value_list_verbatim": ["Complete"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "PRISMA tracking (if review)"
+            },
+            {
+              "dimension_label_verbatim": "De-identification check",
+              "definition_quote": "Confirm no protected/identifiable data in prompts/contexts",
+              "value_list_verbatim": ["Confirmed"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "De-identification check"
+            },
+            {
+              "dimension_label_verbatim": "Error log",
+              "definition_quote": "Known failure modes, hallucinations, corrective actions",
+              "value_list_verbatim": ["Log maintained"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Error log"
+            },
+            {
+              "dimension_label_verbatim": "Reproducible environment",
+              "definition_quote": "Random seeds/hyperparameters (if modelling), tool versions",
+              "value_list_verbatim": ["Environment captured"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 3: Literature and retrieval checklist.",
+              "quote": "Reproducible environment"
+            }
+          ]
+        },
+        {
+          "scheme_id": "cureus-llm-reporting-reproducibility-checklist",
+          "scheme_name_verbatim": "Reporting and reproducibility checklist",
+          "source_ref": "doi:10.7759/cureus.92571",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Map to appropriate guideline",
+              "definition_quote": "All studies",
+              "value_list_verbatim": ["Rationale for selecting CONSORT-AI, SPIRIT-AI, DECIDE-AI,\nTRIPOD+AI, PRISMA 2020"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Map to appropriate guideline"
+            },
+            {
+              "dimension_label_verbatim": "Study registration/protocol",
+              "definition_quote": "Interventional AI; systematic\nreviews",
+              "value_list_verbatim": ["Trial/PROSPERO/OSF numbers; protocol version"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Study registration/protocol"
+            },
+            {
+              "dimension_label_verbatim": "Population and setting clarity",
+              "definition_quote": "All studies",
+              "value_list_verbatim": ["Clear eligibility, setting, timeframe"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Population and setting clarity"
+            },
+            {
+              "dimension_label_verbatim": "Outcomes and metrics pre-\nspecification",
+              "definition_quote": "All studies",
+              "value_list_verbatim": ["Primary/secondary outcomes; performance metrics"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Outcomes and metrics pre-\nspecification"
+            },
+            {
+              "dimension_label_verbatim": "Model description",
+              "definition_quote": "Prediction models",
+              "value_list_verbatim": ["Model family, features, training data summary"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Model description"
+            },
+            {
+              "dimension_label_verbatim": "Validation strategy",
+              "definition_quote": "Prediction models",
+              "value_list_verbatim": ["Internal/external validation details"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Validation strategy"
+            },
+            {
+              "dimension_label_verbatim": "Calibration and uncertainty",
+              "definition_quote": "Prediction models",
+              "value_list_verbatim": ["Calibration plots; CI/PI reporting"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Calibration and uncertainty"
+            },
+            {
+              "dimension_label_verbatim": "Human factors and safety",
+              "definition_quote": "Early clinical evaluation",
+              "value_list_verbatim": ["Usability tasks, workflow fit, risk controls"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Human factors and safety"
+            },
+            {
+              "dimension_label_verbatim": "Randomization and blinding",
+              "definition_quote": "Interventional AI",
+              "value_list_verbatim": ["Randomization, blinding, allocation concealment"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Randomization and blinding"
+            },
+            {
+              "dimension_label_verbatim": "Fairness/subgroup analyses",
+              "definition_quote": "All with human data",
+              "value_list_verbatim": ["Pre-specified subgroups; disparity metrics"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Fairness/subgroup analyses"
+            },
+            {
+              "dimension_label_verbatim": "Harms and error analysis",
+              "definition_quote": "All studies",
+              "value_list_verbatim": ["Adverse events; error taxonomies"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Harms and error analysis"
+            },
+            {
+              "dimension_label_verbatim": "Data governance and privacy",
+              "definition_quote": "All with data",
+              "value_list_verbatim": ["GDPR compliance statement; data sharing limits"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Data governance and privacy"
+            },
+            {
+              "dimension_label_verbatim": "Transparency of AI use",
+              "definition_quote": "All manuscripts",
+              "value_list_verbatim": ["Location of AI use disclosure in paper"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Transparency of AI use"
+            },
+            {
+              "dimension_label_verbatim": "Reproducibility",
+              "definition_quote": "All",
+              "value_list_verbatim": ["Code/data availability (when applicable); retrieval logs"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "Limitations",
+              "definition_quote": "All",
+              "value_list_verbatim": ["Limitations and generalizability"],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 4: Reporting and reproducibility checklist.",
+              "quote": "Limitations and generalizability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e75157ea77874155",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "boerman-blog-disclosure-codebook",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "https://openalex.org/W2895853207",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "200 \nblog \nposts \nfrom \nthe \nUS \nand \nthe \nNetherlands",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Disclosure provided",
+              "definition_quote": "A disclosure is operationalized as a \nstatement with the purpose to clarify the commercial \nmotives of the blog advertising.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "We coded whether the blog post contained one or \nmore disclosures."
+            },
+            {
+              "dimension_label_verbatim": "Disclosure: Mentioned brand name",
+              "definition_quote": "We coded whether the disclosure included: brand \nname, product name, and the receiving of compensation.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Disclosure: Mentioned brand name"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure: Mentioned product name",
+              "definition_quote": "We coded whether the disclosure included: brand \nname, product name, and the receiving of compensation.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Disclosure: Mentioned product name"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure: Mentioned receiving of \ncompensation",
+              "definition_quote": "We coded whether the disclosure included: brand \nname, product name, and the receiving of compensation.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Disclosure: Mentioned receiving of \ncompensation"
+            },
+            {
+              "dimension_label_verbatim": "Size of the disclosure",
+              "definition_quote": "the size of the disclosure (i.e., \nif the disclosure was coded as smaller, the same \nsize, or larger than the text in the blog post)",
+              "value_list_verbatim": ["smaller", "the same \nsize", "larger than the text in the blog post"],
+              "closed_or_open": "closed_list",
+              "locator": "2.\t Disclosure Format",
+              "quote": "we coded the size of the disclosure (i.e., \nif the disclosure was coded as smaller, the same \nsize, or larger than the text in the blog post)"
+            },
+            {
+              "dimension_label_verbatim": "Position of disclosure",
+              "definition_quote": "the placement of the disclosure, (i.e., in title, above the \ntext, in the text, between sentences, or below the \ntext of the blog post)",
+              "value_list_verbatim": ["in title", "above the \ntext", "in the text", "between sentences", "below the \ntext of the blog post"],
+              "closed_or_open": "closed_list",
+              "locator": "2.\t Disclosure Format",
+              "quote": "the placement of the disclosure, (i.e., in title, above the \ntext, in the text, between sentences, or below the \ntext of the blog post)"
+            },
+            {
+              "dimension_label_verbatim": "Brand names mentioned in blog post",
+              "definition_quote": "a distinctive commercial term used by a firm \nto identify and/or promote itself or one or more \nof its consumer products or services",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "3.\t Brands Mentioned",
+              "quote": "We also coded whether brand names were mentioned \nin the blog post and the number of brand names \nmentioned in the post."
+            },
+            {
+              "dimension_label_verbatim": "Promotional features mentioned in blog post",
+              "definition_quote": "the \nofficial slogan of the brand, a direct link to a branded \nand/or selling website, a giveaway action, or a \ndiscount for the blog readers",
+              "value_list_verbatim": ["Discount", "Direct link to a branded and/or selling website", "Giveaway or free sample", "Slogan"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "the \nofficial slogan of the brand, a direct link to a branded \nand/or selling website, a giveaway action, or a \ndiscount for the blog readers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "602e07d792e7eecf",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "tripod-llm-research-design-task-categories",
+          "scheme_name_verbatim": "TRIPOD-LLM",
+          "source_ref": "doi:10.1038/s41591-024-03425-5",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "an expedited Delphi process and expert consensus",
+          "machine_readable_artifact": "https://tripod-llm.vercel.app/",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Research design",
+              "definition_quote": "",
+              "value_list_verbatim": ["De novo LLM \ndevelopment", "LLM methods", "LLM evaluation", "LLM evaluation in \nhealthcare settings"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Table 1 | Research design and LLM task categories for the modular TRIPOD-LLM guidelines"
+            },
+            {
+              "dimension_label_verbatim": "LLM task",
+              "definition_quote": "",
+              "value_list_verbatim": ["Text processing", "Classification", "Long-form question \nanswering", "Information retrieval", "Conversational agent \n(chatbot)", "Documentation \ngeneration", "Summarization and \nsimplification", "Machine translation", "Outcome forecasting"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Table 1 | Research design and LLM task categories for the modular TRIPOD-LLM guidelines"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "packet_id": "ab-018",
+  "papers": [
+    {
+      "rec_id": "83b58c961dab4aea",
+      "has_scheme": false,
+      "reason": "discusses AI's dual role and ethical dilemmas in scientific publishing narratively; no categories, checklist, or dimensions are enumerated"
+    },
+    {
+      "rec_id": "93755f11aa219df5",
+      "has_scheme": false,
+      "reason": "names 'a workable taxonomy of conflicts of interest in financial services firms' but the abstract discusses conditions and regulatory dynamics rather than enumerating the taxonomy's actual categories"
+    },
+    {
+      "rec_id": "1d3673f83cb43d42",
+      "has_scheme": false,
+      "reason": "reports finding six overall themes in publisher AI-use policies but does not name or enumerate the six themes individually in this abstract"
+    },
+    {
+      "rec_id": "2bd3da25b912a2eb",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "hidden-labor-framework",
+          "scheme_name_verbatim": "hidden labor",
+          "source_ref": "doi:10.2139/ssrn.6172764",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "1,064 CRediT-enabled publications from three management-of-technology and innovation journals (Research Policy, Technological Forecasting and Social Change, Technovation; 2022–2025)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "power–labor hierarchy coupling",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Two supporting constructs—power–labor hierarchy coupling and a thought-leadership ratio (TLR)—characterize the organizational conditions under which hidden labor emerges."
+            },
+            {
+              "dimension_label_verbatim": "thought-leadership ratio (TLR)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "Two supporting constructs—power–labor hierarchy coupling and a thought-leadership ratio (TLR)—characterize the organizational conditions under which hidden labor emerges."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a69c9b92e81f9ed6",
+      "has_scheme": false,
+      "reason": "empirically separates attack success from agent disclosure as two independent outcome variables in a security evaluation, but proposes no category scheme with named, enumerable values"
+    },
+    {
+      "rec_id": "db305835e8fbc2b4",
+      "has_scheme": false,
+      "reason": "states that a five-level taxonomy of AI interventions is proposed, ranging from technical-assistive tools to fully generative authorial systems, but the abstract gives only the range's endpoints and never enumerates the five levels themselves"
+    },
+    {
+      "rec_id": "6cebb1eff50bb91d",
+      "has_scheme": false,
+      "reason": "the book claims to provide an authoritative taxonomy of branded content advertising forms and formats and to map problems and mitigations, but the abstract does not enumerate the actual forms, formats, problems, or mitigations"
+    },
+    {
+      "rec_id": "6ff6f0e931268b1e",
+      "has_scheme": false,
+      "reason": "discusses the existing CRediT standard and a tool (tenzing) for recording contributions, but does not itself enumerate CRediT's roles or categories"
+    },
+    {
+      "rec_id": "2a814066fb00171f",
+      "has_scheme": false,
+      "reason": "examines project contributions and social factors as predictors of authorship versus inventorship but proposes no category scheme"
+    },
+    {
+      "rec_id": "6d74ba55a241a860",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "pandora-genai-susceptibility-rubric",
+          "scheme_name_verbatim": "PANDORA GenAI Susceptibility Rubric",
+          "source_ref": "doi:10.37074/jalt.2025.8.1.20",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "refined to include expert-informed modifications and validated through end-user application across various arts and humanities courses",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "key criteria",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "collaborative authorship",
+                "intellectual task complexity",
+                "the opportunity for creativity"
+              ],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the rubric provides educators with a structured framework to critically evaluate the validity of their assessments across key criteria, including collaborative authorship, intellectual task complexity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

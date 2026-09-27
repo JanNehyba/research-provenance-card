@@ -1,0 +1,181 @@
+{
+  "packet_id": "001",
+  "papers": [
+    {
+      "rec_id": "90879e58f4aa9759",
+      "has_scheme": false,
+      "reason": "abstract references the CONSORT-AI reporting extension by name and mentions steps along the AI lifecycle, but does not enumerate any checklist items or categories"
+    },
+    {
+      "rec_id": "6b816cec438ee5aa",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "indonesian-roadmap-tiered-ai-disclosure",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.17509/9n6vsa84",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "five leading international publishers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "tiered AI disclosure policies",
+              "definition_quote": "distinguishing language polishing (simple acknowledgment) from generative content creation (detailed documentation)",
+              "value_list_verbatim": [
+                "language polishing (simple acknowledgment)",
+                "generative content creation (detailed documentation)"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "tiered AI disclosure policies distinguishing language polishing (simple acknowledgment) from generative content creation (detailed documentation)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2bd5dffb2dff2271",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "account-ai-framework",
+          "scheme_name_verbatim": "ACCOUNT-AI framework",
+          "source_ref": "doi:10.20944/preprints202603.1787.v1",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "30 studies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI role clarification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "comprising structured domains addressing AI role clarification, clinician accountability, contextual differentiation, operational risks, secondary data governance, adaptive consent design, and transparency across the AI lifecycle"
+            },
+            {
+              "dimension_label_verbatim": "clinician accountability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "comprising structured domains addressing AI role clarification, clinician accountability, contextual differentiation, operational risks, secondary data governance, adaptive consent design, and transparency across the AI lifecycle"
+            },
+            {
+              "dimension_label_verbatim": "contextual differentiation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "comprising structured domains addressing AI role clarification, clinician accountability, contextual differentiation, operational risks, secondary data governance, adaptive consent design, and transparency across the AI lifecycle"
+            },
+            {
+              "dimension_label_verbatim": "operational risks",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "comprising structured domains addressing AI role clarification, clinician accountability, contextual differentiation, operational risks, secondary data governance, adaptive consent design, and transparency across the AI lifecycle"
+            },
+            {
+              "dimension_label_verbatim": "secondary data governance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "comprising structured domains addressing AI role clarification, clinician accountability, contextual differentiation, operational risks, secondary data governance, adaptive consent design, and transparency across the AI lifecycle"
+            },
+            {
+              "dimension_label_verbatim": "adaptive consent design",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "comprising structured domains addressing AI role clarification, clinician accountability, contextual differentiation, operational risks, secondary data governance, adaptive consent design, and transparency across the AI lifecycle"
+            },
+            {
+              "dimension_label_verbatim": "transparency across the AI lifecycle",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "comprising structured domains addressing AI role clarification, clinician accountability, contextual differentiation, operational risks, secondary data governance, adaptive consent design, and transparency across the AI lifecycle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ffdbc846d5816c69",
+      "has_scheme": false,
+      "reason": "podcast show notes discuss C2PA/CAI provenance standards and hardware attestation descriptively, but no enumerated set of categories or fields is presented"
+    },
+    {
+      "rec_id": "e5a64b5145cda816",
+      "has_scheme": false,
+      "reason": "abstract mentions six archetypal researcher profiles and a B-C-D archetype band used as reference markers on a continuum, but does not enumerate or define the archetypes"
+    },
+    {
+      "rec_id": "5f1ad4c22eea66fa",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ghost-management-capture-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1002/cesm.12011",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "37 peer‐reviewed papers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "categories of ghost‐management",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "scientific capture",
+                "professional capture",
+                "regulatory capture",
+                "media capture",
+                "market capture",
+                "technological capture",
+                "civil society capture",
+                "others"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we used categories of ghost‐management previously developed in the literature"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "52aa3f7f251da5e6",
+      "has_scheme": false,
+      "reason": "abstract names the Contributor Role Taxonomy (CRediT) as a launched project but does not enumerate its roles or categories"
+    },
+    {
+      "rec_id": "06c79b71c8c98f92",
+      "has_scheme": false,
+      "reason": "abstract names the CAIAF/AIAS framework and mentions distinctions based on educational levels and a color gradient, but does not enumerate the specific levels or categories"
+    },
+    {
+      "rec_id": "c46ae515787e22cc",
+      "has_scheme": false,
+      "reason": "abstract reports interview findings on perceived challenges and opportunities of generative visual AI in newsrooms; no category scheme for disclosure, attribution, or provenance is proposed or used"
+    },
+    {
+      "rec_id": "0e52797bda109aa7",
+      "has_scheme": false,
+      "reason": "abstract describes a conceptual framework (typed causal-evidence graph, dependency model, Minimum-Control Cost measure) for reasoning about physical provenance, but does not enumerate a category scheme of disclosure or attribution dimensions"
+    }
+  ]
+}

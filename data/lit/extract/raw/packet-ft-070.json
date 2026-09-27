@@ -1,0 +1,122 @@
+{
+  "packet_id": "ft-070",
+  "papers": [
+    {
+      "rec_id": "63c4c4c71f99c43b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "jkms-three-tier-author-disclosure",
+          "scheme_name_verbatim": "a three-tiered AI disclosure framework",
+          "source_ref": "doi:10.3346/jkms.2026.41.e318",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Tier",
+              "definition_quote": "AI use should be classified according to both its purpose and its level of influence on the research and manuscript preparation process.",
+              "value_list_verbatim": [
+                "Tier 1: Assistive (functional and linguistic support)",
+                "Tier 2: Augmentative (structural and analytical assistance)",
+                "Tier 3: Substantive (core scientific contribution)"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Implement a three-tiered AI disclosure framework",
+              "quote": "Now, we propose the following guidelines for each tier."
+            }
+          ]
+        },
+        {
+          "scheme_id": "jkms-three-tier-reviewer-disclosure",
+          "scheme_name_verbatim": "tiered reporting framework",
+          "source_ref": "doi:10.3346/jkms.2026.41.e318",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Tier",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Tier 1: Assistive (functional and linguistic support)",
+                "Tier 2: Augmentative (structural and analytical assistance)",
+                "Tier 3: Substantive (core scientific evaluation)"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Require transparent disclosure of AI use by peer reviewers",
+              "quote": "A tiered reporting framework analogous to that used for authors can be applied."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "eae3cbfc81d7440d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.4103/joacp.joacp_175_22",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "not_stated",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://casrai.org/credit/",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "roles",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "p 674 - 675",
+              "quote": "According to the Contributor Roles Taxonomy (CRediT), there are a total of 14 roles that a contributor may play in research"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6ffce2cab28fba10",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cai-cybersecurity-autonomy-levels",
+          "scheme_name_verbatim": "a 6-level taxonomy (Level 0-5)",
+          "source_ref": "doi:10.48550/arxiv.2506.23592",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Autonomy Type",
+              "definition_quote": "there’s a spectrum from no automation to true autonomy.",
+              "value_list_verbatim": [
+                "No tools",
+                "Manual",
+                "LLM-Assisted",
+                "Semi-automated",
+                "Cybersecurity AIs",
+                "Autonomous"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "I propose six levels of cybersecurity autonomy, from Level 0 (no tools) to Level 5 (autonomous):"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

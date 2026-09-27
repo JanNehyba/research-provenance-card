@@ -1,0 +1,132 @@
+{
+  "packet_id": "ft-045",
+  "papers": [
+    {
+      "rec_id": "abb9b03ffccba935",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "fair4rs-principles",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1016/j.patter.2021.100222",
+          "domain": "software",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "R1.1",
+              "definition_quote": "Software is made available with a clear and accessible software usage license",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "R1.1. Software is made available with a clear and accessible software usage license"
+            },
+            {
+              "dimension_label_verbatim": "R1.2",
+              "definition_quote": "Software is associated with detailed provenance",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "R1.2. Software is associated with detailed provenance"
+            },
+            {
+              "dimension_label_verbatim": "R1.3",
+              "definition_quote": "Software meets domain-relevant community standards",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "R1.3. Software meets domain-relevant community standards"
+            },
+            {
+              "dimension_label_verbatim": "R2",
+              "definition_quote": "Software includes qualified references to other software",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "R2. Software includes qualified references to other software"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5cec6ab058b41f0d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "eap-aias",
+          "scheme_name_verbatim": "EAP-AIAS",
+          "source_ref": "doi:10.1002/tesj.70122",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Level",
+              "definition_quote": "Our proposed EAP-AIAS builds on the original five-point scale, redefining each level to align it with typical \nEAP tasks.",
+              "value_list_verbatim": [
+                "Level 1:  \nNo AI Use",
+                "Level 2:  \nAI-Assisted \nLanguage \nInput",
+                "Level 3:  \nAI for \nLimited \nLanguage or \nskills \nPractice",
+                "Level 4:  \nAI-Assisted \nTask \nCompletion \nwith Critical \nEvaluation",
+                "Level 5: \nSelective AI \nIntegration \nfor Advanced \nSkills"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1: The EAP-AIAS",
+              "quote": "Our proposed EAP-AIAS builds on the original five-point scale, redefining each level to align it with typical \nEAP tasks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "569e9e56e9dabb45",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "three-tiered-acs-taxonomy",
+          "scheme_name_verbatim": "A three-tiered taxonomy for the classification of tasks found in the author contribution statement (ACS)",
+          "source_ref": "doi:10.1007/s11192-023-04680-y",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "self_report",
+          "empirical_basis": "4955 entries in the \nauthorship-task database",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Type of task",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Core layer task",
+                "Conception and design",
+                "Drafting article",
+                "Middle layer task",
+                "Assisting in the study design*",
+                "Assisting in drafting article*",
+                "Collecting data",
+                "Conducting experiments",
+                "Data analysis",
+                "Outer layer task",
+                "Advice, expertise or discussion",
+                "Financial support",
+                "Supervision",
+                "Technical assistance",
+                "Creating specimens/samples*"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "A three-tiered taxonomy for the classification of tasks found in the author contribution statement (ACS)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

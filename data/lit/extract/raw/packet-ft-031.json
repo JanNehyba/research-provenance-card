@@ -1,0 +1,64 @@
+{
+  "packet_id": "ft-031",
+  "papers": [
+    {
+      "rec_id": "8ddda33ac3fa2dfe",
+      "has_scheme": false,
+      "reason": "survey of student worries, disclosure behaviour, and AI usage (Worry Index, Disclosure to Teachers/Peers Index, AI Usage Index); these are exploratory measurement scales of attitudes and behaviour, not an enumerable scheme for describing a disclosure or attribution. The MInE framework and four themes it cites are attributed to other papers, not proposed by this study."
+    },
+    {
+      "rec_id": "cadc96896f05a915",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aias-five-levels",
+          "scheme_name_verbatim": "the AI Assessment Scale (AIAS)",
+          "source_ref": "doi:10.53761/q3azde36",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Scale Levels and Descriptions",
+              "definition_quote": "each level specifying the extent of allowed GenAI use and student responsibility",
+              "value_list_verbatim": ["NO AI", "AI-ASSISTED IDEA GENERATION AND STRUCTURING", "AI-ASSISTED EDITING", "AI TASK COMPLETION, HUMAN EVALUATION", "FULL AI"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "a five-point scale was developed, striking a balance between these two needs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "c27129b53f0cf3ae",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "enai-integrity-misconduct-neutral-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s10805-019-09342-4",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "212 terms included in the glossary for academic integrity",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "constituent components",
+              "definition_quote": "",
+              "value_list_verbatim": ["Integrity", "Misconduct", "Neutral"],
+              "closed_or_open": "closed_list",
+              "locator": "Findings",
+              "quote": "three separate constituents emerged – Integrity, Misconduct and Neutral"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

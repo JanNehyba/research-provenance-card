@@ -1,0 +1,323 @@
+{
+  "packet_id": "ft-055",
+  "papers": [
+    {
+      "rec_id": "b7f3fead7067ed73",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "neurology-journal-ai-policy-checklist",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/fneur.2026.1766696",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "top 100 neurology journals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI tools allowed for Authorship",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No", "Not Stated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "AI tools allowed for Authorship, n (%) Yes 0 (0.0) No 97 (97.0) Not Stated 3 (3.0)"
+            },
+            {
+              "dimension_label_verbatim": "Require authors to disclose the use of AI during submission",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No", "Not Stated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Require authors to disclose the use of AI during submission, n (%) Yes 96 (96.0) No 1 (1.0) Not Stated 3 (3.0)"
+            },
+            {
+              "dimension_label_verbatim": "AI tools allowed in Manuscript Writing",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No", "Not Stated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "AI tools allowed in Manuscript Writing, n (%) Yes 93 (93.0) No 0 (0.0) Not Stated 7 (7.0)"
+            },
+            {
+              "dimension_label_verbatim": "AI tools allowed in content generation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No", "Not Stated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "AI tools allowed in content generation, n (%) Yes 77 (77.0) No 16 (16.0) Not Stated 7 (7.0)"
+            },
+            {
+              "dimension_label_verbatim": "AI tools allowed in image generation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No", "Not Stated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "AI tools allowed in image generation, n (%) Yes 37 (37.0) No 39 (39.0) Not Stated 24 (24.0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "86d24577fcbc7ca9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-to-learn-deliverable-package",
+          "scheme_name_verbatim": "The AI to Learn deliverable package",
+          "source_ref": "arXiv:2604.19751",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "coursework substitution, a symbolic-regression governance contrast, teacher-audited national-exam practice forms, and a self-hosted lecture-to-quiz pipeline",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Distilled artifact",
+              "definition_quote": "The black-box-free artifact intended for routine use: for example, an audited codebase, explicit equation, rule set, checklist, lesson material, form system, or documented procedure.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "The black-box-free artifact intended for routine use: for example, an audited codebase, explicit equation, rule set, checklist, lesson material, form system, or documented procedure."
+            },
+            {
+              "dimension_label_verbatim": "Provenance / audit record",
+              "definition_quote": "Which AI tools were used, for what purpose, what classes of data were exposed, what humans accepted or rejected, and what verification was performed.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Which AI tools were used, for what purpose, what classes of data were exposed, what humans accepted or rejected, and what verification was performed."
+            },
+            {
+              "dimension_label_verbatim": "Validity-domain statement",
+              "definition_quote": "Intended use, assumptions, regime of applicability, out-of-scope cases, and known limitations.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Intended use, assumptions, regime of applicability, out-of-scope cases, and known limitations."
+            },
+            {
+              "dimension_label_verbatim": "Failure / escalation rule",
+              "definition_quote": "Known failure modes, warning signs, uncertainty triggers, withdrawal criteria, and when to escalate to human review.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Known failure modes, warning signs, uncertainty triggers, withdrawal criteria, and when to escalate to human review."
+            },
+            {
+              "dimension_label_verbatim": "Operational resource note",
+              "definition_quote": "Runtime dependencies, cloud or local execution assumptions, access requirements, cost or energy implications, and low-resource fallback if relevant.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Runtime dependencies, cloud or local execution assumptions, access requirements, cost or energy implications, and low-resource fallback if relevant."
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-to-learn-maturity-rubric",
+          "scheme_name_verbatim": "AI to Learn 2.0 maturity rubric",
+          "source_ref": "arXiv:2604.19751",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "coursework substitution, a symbolic-regression governance contrast, teacher-audited national-exam practice forms, and a self-hosted lecture-to-quiz pipeline",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Residual opacity in the final deliverable",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Does routine use still depend on the original opaque AI component?"
+            },
+            {
+              "dimension_label_verbatim": "Human sovereignty and release authority",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Who has the authority and responsibility to accept, reject, revise, and release the deliverable?"
+            },
+            {
+              "dimension_label_verbatim": "Auditability and stabilization trace",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Can a competent third party reconstruct how the artifact was stabilized and checked?"
+            },
+            {
+              "dimension_label_verbatim": "Validity-domain and failure awareness",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Does the package say where the artifact applies, where it fails, and when to escalate?"
+            },
+            {
+              "dimension_label_verbatim": "Information protection",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "What information reached opaque AI, and were appropriate protections used?"
+            },
+            {
+              "dimension_label_verbatim": "Energy and resource proportionality",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Did opaque AI remain as a heavyweight runtime dependency, or was it distilled away?"
+            },
+            {
+              "dimension_label_verbatim": "Third-party usability and handoff readiness",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Can a competent third party use, maintain, and hand off the deliverable without privileged creator knowledge?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e9430d81522ae711",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "consort-ai-checklist",
+          "scheme_name_verbatim": "CONSORT-AI checklist",
+          "source_ref": "doi:10.1038/s41467-024-45355-3",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "editorial_requirement",
+          "empirical_basis": "65 RCTs met the inclusion criteria and were included in the final analysis",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "1a,b (i)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Indicate that the intervention involves artiﬁcial intelligence/machine learning in the title and/or abstract and specify the type of model."
+            },
+            {
+              "dimension_label_verbatim": "1a,b (ii)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "State the intended use of the AI intervention within the trial in the title and/or abstract."
+            },
+            {
+              "dimension_label_verbatim": "2a (i)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Explain the intended use of the AI intervention in the context of the clinical pathway, including its purpose and its intended users"
+            },
+            {
+              "dimension_label_verbatim": "4a (i)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "State the inclusion and exclusion criteria at the level of participants."
+            },
+            {
+              "dimension_label_verbatim": "4a (ii)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "State the inclusion and exclusion criteria at the level of the input data."
+            },
+            {
+              "dimension_label_verbatim": "4b",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Describe how the AI intervention was integrated into the trial setting, including any onsite or offsite requirements."
+            },
+            {
+              "dimension_label_verbatim": "5 (i)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "State which version of the AI algorithm was used."
+            },
+            {
+              "dimension_label_verbatim": "5 (ii)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Describe how the input data were acquired and selected for the AI intervention."
+            },
+            {
+              "dimension_label_verbatim": "5 (iii)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Describe how poor quality or unavailable input data were assessed and handled."
+            },
+            {
+              "dimension_label_verbatim": "5 (iv)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Specify whether there was human–AI interaction in the handling of the input data, and what level of expertise was required of users."
+            },
+            {
+              "dimension_label_verbatim": "5 (v)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Specify the output of the AI intervention."
+            },
+            {
+              "dimension_label_verbatim": "5 (vi)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Explain how the AI intervention’s outputs contributed to decision-making or other elements of clinical practice."
+            },
+            {
+              "dimension_label_verbatim": "19",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Describe results of any analysis of performance errors and how errors were identiﬁed, where applicable."
+            },
+            {
+              "dimension_label_verbatim": "25",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "State whether and how the AI intervention and/or its code can be accessed, including any restrictions to access or re-use."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

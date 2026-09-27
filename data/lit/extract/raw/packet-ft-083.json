@@ -1,0 +1,134 @@
+{
+  "packet_id": "ft-083",
+  "papers": [
+    {
+      "rec_id": "0e3e7dcd58754fd5",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "c2pa-watermark-conflict-matrix",
+          "scheme_name_verbatim": "conflict matrix",
+          "source_ref": "doi:10.48550/arxiv.2603.02378",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "3,500 test images spanning four conflict-matrix states and three realistic perturbation conditions",
+          "machine_readable_artifact": "https://github.com/ANCP2021/integrity-clash",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "conflict matrix",
+              "definition_quote": "we define a conflict matrix over two binary dimensions: whether a valid C2PA manifest is present, and whether an AI-origin watermark is detected.",
+              "value_list_verbatim": ["Q1 (Silent Zone)", "Q2 (Fragile Provenance)", "Q3 (Authenticated Content)", "Q4a (Verified Synthetic)", "Q4b (Authenticated Fake)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Q4a (Verified Synthetic) if the manifest discloses AI generation, and Q4b (Authenticated Fake) if it does not."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "c29fbddac4bb8ae0",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "drm-ai-licensing-primary-domains",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.17863/cam.134189",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "a catalogue of 60 organisations",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Primary domain",
+              "definition_quote": "",
+              "value_list_verbatim": ["1. Provenance", "2. Rights Registries & Identifiers", "3. Attribution", "4. Rights Management, Licensing & Databases", "5. Payment & Digital Infrastructure", "6. Enforcement & Monitoring", "7. AI-Native Platforms & Models"],
+              "closed_or_open": "closed_list",
+              "locator": "Table A1",
+              "quote": "positioning them across seven domains and three sectors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "fec436f23d71b0e7",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "agu-availability-statement-recommended-elements",
+          "scheme_name_verbatim": "Availability statement recommended elements",
+          "source_ref": "doi:10.1038/s41597-023-02491-7",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Description of the Type(s) of data and/or software",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Availability statement recommended elements",
+              "quote": "Description of the Type(s) of data and/or software - [Required]"
+            },
+            {
+              "dimension_label_verbatim": "Repository Name(s) where the data/software are deposited",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Availability statement recommended elements",
+              "quote": "Repository Name(s) where the data/software are deposited - [Best Practice]"
+            },
+            {
+              "dimension_label_verbatim": "URL/link to the data/software, preferably Persistent Identifier (e.g., DOI) and resolves",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Availability statement recommended elements",
+              "quote": "URL/link to the data/software, preferably Persistent Identifier (e.g., DOI) and resolves - [Required]"
+            },
+            {
+              "dimension_label_verbatim": "Access Conditions",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Availability statement recommended elements",
+              "quote": "Access Conditions - [Best Practice]"
+            },
+            {
+              "dimension_label_verbatim": "English Translation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Availability statement recommended elements",
+              "quote": "English Translation - [Required]"
+            },
+            {
+              "dimension_label_verbatim": "Licensing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Availability statement recommended elements",
+              "quote": "Licensing - [Best Practice]"
+            },
+            {
+              "dimension_label_verbatim": "In-text Citation where possible",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Availability statement recommended elements",
+              "quote": "In-text Citation where possible - [Best Practice]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

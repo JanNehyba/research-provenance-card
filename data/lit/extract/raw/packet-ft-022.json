@@ -1,0 +1,96 @@
+{
+  "packet_id": "ft-022",
+  "papers": [
+    {
+      "rec_id": "5e1a3773eccbec62",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "rasmussen-authorship-policy-depth-coding",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s11948-020-00273-7",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "64 university authorship policies (of 266 universities examined)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "specifying authorship criteria",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Results",
+              "quote": "specifying authorship criteria"
+            },
+            {
+              "dimension_label_verbatim": "recommendations for when to discuss authorship",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Data Analysis",
+              "quote": "recommendations for when to discuss authorship"
+            },
+            {
+              "dimension_label_verbatim": "mentioning dispute resolution",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Results",
+              "quote": "mentioning dispute resolution"
+            },
+            {
+              "dimension_label_verbatim": "discussion of student-faculty collaboration",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Data Analysis",
+              "quote": "discussion of student-faculty collaboration"
+            },
+            {
+              "dimension_label_verbatim": "consulting others",
+              "definition_quote": "",
+              "value_list_verbatim": ["department chair", "ombuds", "Dean", "Provost", "Research Integrity Office"],
+              "closed_or_open": "closed_list",
+              "locator": "Methods",
+              "quote": "We coded whether the policy recommended resolving the dispute within the author team and/or consulting others"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6ce7d972b6d5f5ce",
+      "has_scheme": false,
+      "reason": "offers a risk taxonomy for synthetic-image harms (domain x common-artifact x harm-pathway x best-control) and a capability-weighted risk formula, but no scheme for describing disclosure, attribution, or provenance claims about the AI-generated content itself"
+    },
+    {
+      "rec_id": "f3bf5805acd415d6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aias-five-levels",
+          "scheme_name_verbatim": "Artificial Intelligence Assessment Scale (AIAS)",
+          "source_ref": "doi:10.53761/rrm4y757",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "level of the scale",
+              "definition_quote": "",
+              "value_list_verbatim": ["NO AI", "AI-ASSISTED IDEA GENERATION AND STRUCTURING", "AI-ASSISTED EDITING", "AI TASK COMPLETION, HUMAN EVALUATION", "AI Exploration"],
+              "closed_or_open": "closed_list",
+              "locator": "Practitioner Notes",
+              "quote": "educators to select the appropriate level of the scale based on learning outcomes and context"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

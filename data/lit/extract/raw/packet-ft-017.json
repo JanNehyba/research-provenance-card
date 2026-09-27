@@ -1,0 +1,163 @@
+{
+  "packet_id": "ft-017",
+  "papers": [
+    {
+      "rec_id": "73aab2ab6c5c5ea7",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "chatgpt-ai-levels-of-contribution",
+          "scheme_name_verbatim": "AI levels of contributions",
+          "source_ref": "doi:10.1108/arj-07-2023-0184",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI levels of contributions",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "very strong dishonesty",
+                "strong dishonesty",
+                "moderate, low dishonesty",
+                "authentic learning"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "this particular classification provided by the Advance HE is contrasted with the advice found in the literature on the acknowledgement of AI contributions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "dfe2430fb44ea51a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "llm-literacy-scoring-rubric",
+          "scheme_name_verbatim": "Generative AI (LLM) Literacy Scoring Rubric",
+          "source_ref": "doi:10.1177/23821205261442106",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "50 submissions",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI Use Documentation (AD)",
+              "definition_quote": "clarity and traceability of LLM use in the submitted materials",
+              "value_list_verbatim": ["Misleading", "Partial", "Adequate", "Traceable"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "AI Use\nDocumentation (AD)\nMisleading: Tool/provider not stated or wrong; transcript missing/irrelevant"
+            },
+            {
+              "dimension_label_verbatim": "Prompt Generation (P)",
+              "definition_quote": "task alignment, specificity, and actionability of prompts for proposal-relevant outputs",
+              "value_list_verbatim": ["Vague", "General", "Task-focused", "Precise"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Prompt Generation (P)\nVague: Off-task or generic prompts; missing context/constraints; AI must guess what is needed."
+            },
+            {
+              "dimension_label_verbatim": "Verification (V)",
+              "definition_quote": "observable evidence-seeking and challenge of LLM outputs within the submitted chat and/or reflected in the written proposal",
+              "value_list_verbatim": ["Passive", "Superficial", "Evidence-seeking", "Active verification"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Verification (V)\nPassive: Accepts outputs as true; no questioning; no source/evidence requests."
+            },
+            {
+              "dimension_label_verbatim": "Integration (I)",
+              "definition_quote": "effective adaptation and incorporation of LLM-supported content into the proposal in a coherent, value-adding manner",
+              "value_list_verbatim": ["Copy", "Light edit", "Adapt", "Deep integrate"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Integration (I)\nCopy: Direct copy-paste or unmodified insertion; no adjustment to context; poor fit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1ebc6920a4ea435b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-assessment-scale-aias",
+          "scheme_name_verbatim": "the AI Assessment Scale (AIAS)",
+          "source_ref": "doi:10.35542/osf.io/387bt_v1",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "implementation feedback from global adoption across both the K-12 and higher education contexts",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "five distinct levels of GenAI integration in assessment",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "No AI",
+                "AI-Assisted Planning",
+                "AI-Assisted Task Completion",
+                "Full AI",
+                "AI Exploration"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Abstract",
+              "quote": "The scale maintains five distinct levels of GenAI integration in assessment, from \"No AI\" to \"AI Exploration\""
+            }
+          ]
+        },
+        {
+          "scheme_id": "pearce-chiavaroli-assisted-unassisted",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.35542/osf.io/387bt_v1",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "'assisted' and 'unassisted' dichotomy",
+              "definition_quote": "",
+              "value_list_verbatim": ["assisted", "unassisted"],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "Pearce & Chiavaroli (2023) suggest that medical education rely on an 'assisted' and 'unassisted' dichotomy, one which allows external resources including GenAI and one which"
+            }
+          ]
+        },
+        {
+          "scheme_id": "liu-bridgeman-two-lane-approach",
+          "scheme_name_verbatim": "two-lane approach",
+          "source_ref": "doi:10.35542/osf.io/387bt_v1",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "two-lane approach",
+              "definition_quote": "",
+              "value_list_verbatim": ["lane 1", "lane 2"],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "They proposed that assessments should be divided between secured 'lane 1' assessments that assure learning outcomes, and 'lane 2' assessments that embrace human-AI collaboration."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

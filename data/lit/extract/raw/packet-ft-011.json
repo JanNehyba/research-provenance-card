@@ -1,0 +1,136 @@
+{
+  "packet_id": "ft-011",
+  "papers": [
+    {
+      "rec_id": "05945105bf11bb94",
+      "has_scheme": false,
+      "reason": "discusses whether GenAI hallucinated citations meet the OSTP fabrication/falsification/plagiarism definition of research misconduct; cites that existing legal taxonomy to make its argument but does not propose or use a scheme for describing AI provenance, attribution, or disclosure"
+    },
+    {
+      "rec_id": "907da3f0fe170539",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "coreq-llm-charting-framework",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1186/s12874-026-02913-1",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "75 studies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "characteristics of the LLM models used",
+              "definition_quote": "(type and version)",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction",
+              "quote": "(1) characteristics of the LLM models used (type and version)"
+            },
+            {
+              "dimension_label_verbatim": "qualitative research methods applied",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction",
+              "quote": "(2) qualitative research methods applied"
+            },
+            {
+              "dimension_label_verbatim": "purposes and stages of LLM integration",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction",
+              "quote": "(3) purposes and stages of LLM integration"
+            },
+            {
+              "dimension_label_verbatim": "technical configuration and parameter settings",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction",
+              "quote": "(4) technical configuration and parameter settings"
+            },
+            {
+              "dimension_label_verbatim": "deployment characteristics",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction",
+              "quote": "(5) deployment characteristics"
+            },
+            {
+              "dimension_label_verbatim": "prompting strategies",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction",
+              "quote": "(6) prompting strategies"
+            },
+            {
+              "dimension_label_verbatim": "ethical considerations",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction",
+              "quote": "(7) ethical considerations"
+            },
+            {
+              "dimension_label_verbatim": "patterns of human–AI interaction",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction",
+              "quote": "(8) patterns of human–AI interaction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ca721d23044d053a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-writing-transparency-accountability-technical-support",
+          "scheme_name_verbatim": "three-dimensional regulatory framework of “transparency, accountability, and technical support.”",
+          "source_ref": "doi:10.3389/frai.2025.1546064",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "transparency",
+              "definition_quote": "an AI usage registration system is required to ensure the traceability of the creative process",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.3 Construction of regulatory mechanisms",
+              "quote": "In the transparency dimension, an AI usage registration system is required to ensure the traceability of the creative process."
+            },
+            {
+              "dimension_label_verbatim": "accountability",
+              "definition_quote": "the focus is on clearly defining responsibility boundaries and establishing violation-handling mechanisms",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.3 Construction of regulatory mechanisms",
+              "quote": "In the accountability dimension, the focus is on clearly defining responsibility boundaries and establishing violation-handling mechanisms."
+            },
+            {
+              "dimension_label_verbatim": "technical support",
+              "definition_quote": "Developing AI content detection tools and building intelligent monitoring and early warning systems is necessary in the technical support dimension",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.3 Construction of regulatory mechanisms",
+              "quote": "Developing AI content detection tools and building intelligent monitoring and early warning systems is necessary in the technical support dimension."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

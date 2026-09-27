@@ -1,0 +1,102 @@
+{
+  "packet_id": "ft-001",
+  "papers": [
+    {
+      "rec_id": "2165992a7ac77c0e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "disclosure-stage-purpose-boundaries",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.55982/openpraxis.18.3.1149",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the stage of use",
+              "definition_quote": "",
+              "value_list_verbatim": ["outlining", "translation", "editing"],
+              "closed_or_open": "open_text",
+              "locator": "Introduction",
+              "quote": "must \nbe openly declared—specifying the stage of use (e.g., outlining, translation, editing), the \npurpose, and the boundaries."
+            },
+            {
+              "dimension_label_verbatim": "purpose",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Introduction",
+              "quote": "must \nbe openly declared—specifying the stage of use (e.g., outlining, translation, editing), the \npurpose, and the boundaries."
+            },
+            {
+              "dimension_label_verbatim": "boundaries",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Introduction",
+              "quote": "must \nbe openly declared—specifying the stage of use (e.g., outlining, translation, editing), the \npurpose, and the boundaries."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "cdc6a3221d71629b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.1038/s41467-023-37039-1",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "not_stated",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "possible tasks",
+              "definition_quote": "",
+              "value_list_verbatim": ["Conceptualization", "Data curation", "Formal analysis", "Funding acquisition", "Investigation", "Methodology", "Project adminis-\ntration", "Resources", "Software", "Supervision", "Validation", "Visualiza-\ntion", "Writing—original draft", "Writing—review & editing"],
+              "closed_or_open": "closed_list",
+              "locator": "Background",
+              "quote": "authors’ contributions are speciﬁed across 14\npossible tasks (‘Conceptualization’, ‘Data curation’, ‘Formal analysis’,\n‘Funding acquisition’, ‘Investigation’, ‘Methodology’"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "c93d487856684f75",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aias-efl-adapted-levels",
+          "scheme_name_verbatim": "AI Assessment Scale (AIAS)",
+          "source_ref": "doi:10.48550/arxiv.2501.00964",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "levels of the updated AIAS",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI Planning", "AI Collaboration", "AI and Human Evaluation", "Full AI", "AI Exploration"],
+              "closed_or_open": "closed_list",
+              "locator": "Introducing the AIAS",
+              "quote": "the AIAS has been updated to replace the fourth level (AI and Human Evaluation) with the previous fifth level (Full AI)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

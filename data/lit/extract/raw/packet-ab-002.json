@@ -1,0 +1,322 @@
+{
+  "packet_id": "002",
+  "papers": [
+    {
+      "rec_id": "24c41c21e1d51450",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-disclosure-rendering-conditions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/00913367.2026.2731565",
+          "domain": "advertising",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "distinct rendering conditions",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "declarative",
+                "regulatory",
+                "infrastructural"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the paper develops a conceptual framework that differentiates declarative, regulatory, and infrastructural disclosure as distinct rendering conditions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "fa6b5c00f5ab1ece",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "substantial-creative-direction-criterion",
+          "scheme_name_verbatim": "substantial creative direction",
+          "source_ref": "doi:10.3390/laws14060084",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "effective control over the generative process",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "defined through three essential elements: effective control over the generative process, verifiable creative input, and identifiable expressive intent"
+            },
+            {
+              "dimension_label_verbatim": "verifiable creative input",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "defined through three essential elements: effective control over the generative process, verifiable creative input, and identifiable expressive intent"
+            },
+            {
+              "dimension_label_verbatim": "identifiable expressive intent",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "defined through three essential elements: effective control over the generative process, verifiable creative input, and identifiable expressive intent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5d5feb8393e2d14b",
+      "has_scheme": false,
+      "reason": "abstract states a taxonomy of technology-led 'steering' interactions and a disclosure protocol were proposed and applied to case studies, but does not enumerate the taxonomy's categories"
+    },
+    {
+      "rec_id": "405f4ea34c019d90",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "delphi-consensus-guidance-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1016/j.bja.2026.01.029",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "59 statements",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "guidance for authors, editors, reviewers, and publishers",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "authors",
+                "editors",
+                "reviewers",
+                "publishers"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "59 statements were generated and categorised into guidance for authors, editors, reviewers, and publishers with a particular attention to LLM disclosure practices"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "cf3694cc7b5b2651",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "transport-ethics-model-checkpoints",
+          "scheme_name_verbatim": "Transport–Ethics Model",
+          "source_ref": "doi:10.1016/j.chbah.2026.100344",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "A (disclosure and role clarity)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "four governance checkpoints: A (disclosure and role clarity), B (calibrated anthropomorphism), C (explainability and audit trails), and D (accountability and redress)"
+            },
+            {
+              "dimension_label_verbatim": "B (calibrated anthropomorphism)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "four governance checkpoints: A (disclosure and role clarity), B (calibrated anthropomorphism), C (explainability and audit trails), and D (accountability and redress)"
+            },
+            {
+              "dimension_label_verbatim": "C (explainability and audit trails)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "four governance checkpoints: A (disclosure and role clarity), B (calibrated anthropomorphism), C (explainability and audit trails), and D (accountability and redress)"
+            },
+            {
+              "dimension_label_verbatim": "D (accountability and redress)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "four governance checkpoints: A (disclosure and role clarity), B (calibrated anthropomorphism), C (explainability and audit trails), and D (accountability and redress)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "fca3511b0d46d885",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "three-branch-genai-assessment-framework",
+          "scheme_name_verbatim": "three-branch multi-level model",
+          "source_ref": "doi:10.3390/info16060472",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "three key stakeholders (branches)",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "instructors",
+                "students",
+                "control authorities"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "structured around the needs and responsibilities of three key stakeholders (branches): instructors, students, and control authorities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d303c5c440d0bcbb",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aiast-disclosure",
+          "scheme_name_verbatim": "AIast disclosure",
+          "source_ref": "doi:10.5281/zenodo.20721120",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "which AI systems were used",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a compact, controlled-vocabulary record of which AI systems were used, what each did, and how the work was checked, backed by producible evidence"
+            },
+            {
+              "dimension_label_verbatim": "what each did",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a compact, controlled-vocabulary record of which AI systems were used, what each did, and how the work was checked, backed by producible evidence"
+            },
+            {
+              "dimension_label_verbatim": "how the work was checked",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a compact, controlled-vocabulary record of which AI systems were used, what each did, and how the work was checked, backed by producible evidence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "59763c6b03c6c465",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "logos-framework-five-levels",
+          "scheme_name_verbatim": "LOGOS Framework",
+          "source_ref": "doi:10.35542/osf.io/9gw5d_v1",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "five-level taxonomy of human cognitive agency",
+              "definition_quote": "qualitatively distinct modes of cognitive relationship between the student and AI",
+              "value_list_verbatim": [
+                "Lone",
+                "Operated",
+                "Guided",
+                "Orchestrated",
+                "Systemic"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The five levels—Lone, Operated, Guided, Orchestrated, and Systemic—describe qualitatively distinct modes of cognitive relationship between the student and AI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "7764e739756e55d4",
+      "has_scheme": false,
+      "reason": "abstract describes a five-step best-practice procedure and a detailed contributorship taxonomy but does not enumerate the five steps or the taxonomy's categories"
+    },
+    {
+      "rec_id": "bced2695a6a988a5",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "rpt-test",
+          "scheme_name_verbatim": "RPT test (Reasoning–Process–Traceability)",
+          "source_ref": "doi:10.1002/leap.2066",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Reasoning",
+              "definition_quote": "authors can defend the reasoning behind claims",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "The proposed RPT test (Reasoning–Process–Traceability) asks whether authors can defend the reasoning behind claims"
+            },
+            {
+              "dimension_label_verbatim": "Process",
+              "definition_quote": "clarify how AI entered the writing process",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "asks whether authors can defend the reasoning behind claims, clarify how AI entered the writing process"
+            },
+            {
+              "dimension_label_verbatim": "Traceability",
+              "definition_quote": "trace substantive claims to identifiable sources",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "clarify how AI entered the writing process, and trace substantive claims to identifiable sources"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

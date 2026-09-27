@@ -1,0 +1,141 @@
+{
+  "packet_id": "ft-037",
+  "papers": [
+    {
+      "rec_id": "5e948a61aad9bb76",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aiprov-vocabulary",
+          "scheme_name_verbatim": "aiprov",
+          "source_ref": "doi:10.5281/zenodo.21667684",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "The paper is its own case study.",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "agent classes",
+              "definition_quote": "",
+              "value_list_verbatim": ["HumanAgent", "AIAgent", "ToolAgent"],
+              "closed_or_open": "closed_list",
+              "locator": "Section IV",
+              "quote": "aiprov extends PROV-O with three agent classes\n( HumanAgent , AIAgent , ToolAgent )"
+            },
+            {
+              "dimension_label_verbatim": "activity classes",
+              "definition_quote": "",
+              "value_list_verbatim": ["AuthoringPass", "AuditPass", "Build", "Repair"],
+              "closed_or_open": "closed_list",
+              "locator": "Section IV",
+              "quote": "four\nactivity classes ( AuthoringPass , AuditPass ,\nBuild , Repair )"
+            },
+            {
+              "dimension_label_verbatim": "entity classes",
+              "definition_quote": "",
+              "value_list_verbatim": ["artefacts", "claims", "sources", "transcripts", "prompts"],
+              "closed_or_open": "closed_list",
+              "locator": "Section IV",
+              "quote": "and entity classes for artefacts,\nclaims, sources, transcripts, and prompts"
+            },
+            {
+              "dimension_label_verbatim": "the verification ladder",
+              "definition_quote": "Rungs answer who\nchecked what",
+              "value_list_verbatim": ["unverified", "needs-research", "reference-resolved", "ai-confirmed", "source-vendored", "human-confirmed", "human-read"],
+              "closed_or_open": "closed_list",
+              "locator": "Table I",
+              "quote": "TABLE I: The verification ladder. Positions are machine-readable\n( aiprov:ladderPosition )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8a70a4ee96f4223e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aius-five-levels",
+          "scheme_name_verbatim": "Artificial Intelligence Utilization Scale (AIUS) Framework",
+          "source_ref": "doi:10.18178/ijiet.2025.15.10.2420",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Level",
+              "definition_quote": "research writing, ranging from no AI involvement to \nextensive collaboration.",
+              "value_list_verbatim": ["NO AI", "AI-IDEA GENERATION", "AI-EDITING ASSITANCE", "AI-TASK COMPLETION", "FULL AI COLLABORATION"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 8",
+              "quote": "Table 8 categorizes AI integration into five levels, ranging \nfrom no AI involvement to full AI collaboration."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a59809f34c4c5160",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "radiobiology-policy-classification",
+          "scheme_name_verbatim": "Policy classification framework",
+          "source_ref": "doi:10.18231/j.pjms.15788.1785929118",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "Thirty English-language peer-reviewed journals were selected\nacross three domains: oncology (n=10), radiotherapy/radiation\noncology (n=10), and medical physics (n=10).",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "General AI Governance Components",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Explicit prohibition of AI as manuscript\nauthor",
+                "Requirement for AI usage disclosure in methods\nor\nacknowledgments",
+                "Reference to AI\ndetection tools\nor screening processes",
+                "Integration with plagiarism\ndetection platforms"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "2.3. Data extraction protocol",
+              "quote": "The policy elements were\nextracted and categorized as (i) General AI Governance\nComponents"
+            },
+            {
+              "dimension_label_verbatim": "Computational Research Safeguards",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Requirements for statistical analysis transparency",
+                "Mandatory\ncode or analysis script submission",
+                "Data sharing or deposition\nrequirements",
+                "Reproducibility attestation statements",
+                "Model parameter reporting standards"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "2.3. Data extraction protocol",
+              "quote": "(ii) Computational Research Safeguards:\nRequirements for statistical analysis transparency"
+            },
+            {
+              "dimension_label_verbatim": "governance tiers",
+              "definition_quote": "adapting established approaches\nfor rating journal policies against standardized criteria",
+              "value_list_verbatim": [
+                "Level 1 – Textual Integrity Model",
+                "Level 2 – Disclosure-Based AI Governance",
+                "Level 3 – Computational Integrity Governance"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "2.4. Policy classification framework",
+              "quote": "Journals were categorized into three governance tiers based on\nidentified policy components"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

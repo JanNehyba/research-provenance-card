@@ -1,0 +1,138 @@
+{
+  "packet_id": "ft-066",
+  "papers": [
+    {
+      "rec_id": "93fac5819088cace",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "family-med-ai-use-guiding-principles",
+          "scheme_name_verbatim": "Guiding principles for using artificial intelligence (AI) in family medicine research and publishing",
+          "source_ref": "doi:10.1136/fmch-2024-003238",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "For authors",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Disclose any use of AI or large language model (LLM) in the",
+                "Be accountable to ensure that their work is original and accurate.",
+                "Understand the limitations of LLMs (eg, erroneous citations).",
+                "Be aware of the potential for AI or LLMs to perpetuate bias."
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "For authors",
+              "quote": "Be accountable to ensure that their work is original and accurate."
+            },
+            {
+              "dimension_label_verbatim": "For journals and editorial teams",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Explore ways AI can streamline the publication process at various",
+                "Develop clear, transparent guidelines for authors and reviewers",
+                "Do not allow LLMs to be cited as authors on manuscripts.",
+                "Develop a method to accurately evaluate the use of LLMs in the"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "For journals and editorial teams",
+              "quote": "Do not allow LLMs to be cited as authors on manuscripts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a5ba7e43012dbb8c",
+      "has_scheme": false,
+      "reason": "doctrinal review of EU copyright law and CJEU case law on whether AI-assisted output qualifies as a protected work and who can be its author; discusses concepts of work, originality, and human authorship narratively but proposes no enumerable coding scheme, checklist, or classification for AI attribution or disclosure"
+    },
+    {
+      "rec_id": "2cd168f69cfe86ed",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-scientific-discovery-guidelines",
+          "scheme_name_verbatim": "guidelines for the ethical use of AI in the design of scientific proposals",
+          "source_ref": "doi:10.1016/j.xinn.2025.101144",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Address bias and fairness",
+              "definition_quote": "bias and fairness must be systematically addressed to avoid reinforcing inequities in research",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "(1) Address bias and fairness: bias and fairness must be systematically addressed to avoid reinforcing inequities in research."
+            },
+            {
+              "dimension_label_verbatim": "Transparency requirements",
+              "definition_quote": "transparency is essential for maintaining trust. Researchers should carefully document input parameters, training data, and decision pathways used by LLMs",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "(2) Transparency requirements: transparency is essential for maintaining trust."
+            },
+            {
+              "dimension_label_verbatim": "Implement attribution policies",
+              "definition_quote": "attribution policies must be clearly defined to ensure acknowledgment of source materials and address biases embedded in training data",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "(3) Implement attribution policies: attribution policies must be clearly defined to ensure acknowledgment of source materials"
+            },
+            {
+              "dimension_label_verbatim": "Ensure accountability and credit",
+              "definition_quote": "accountability remains a cornerstone of scientific integrity",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "(4) Ensure accountability and credit: accountability remains a cornerstone of scientific integrity."
+            },
+            {
+              "dimension_label_verbatim": "Safeguarding transformational research",
+              "definition_quote": "the risk of LLMs reinforcing incremental projects at the expense of breakthroughs must be addressed",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "(5) Safeguarding transformational research: the risk of LLMs reinforcing incremental projects at the expense of breakthroughs must be addressed."
+            },
+            {
+              "dimension_label_verbatim": "The future role of scientists",
+              "definition_quote": "as AI becomes embedded in research, scientists must cultivate intuition, ethical judgment, and long-term vision",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "(6) The future role of scientists: as AI becomes embedded in research, scientists must cultivate intuition, ethical judgment, and long-term"
+            },
+            {
+              "dimension_label_verbatim": "Dynamic governance for emergent risks",
+              "definition_quote": "because LLMs evolve rapidly, static regulation is insufficient",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "(7) Dynamic governance for emergent risks: because LLMs evolve rapidly, static regulation is insufficient."
+            },
+            {
+              "dimension_label_verbatim": "Mitigate systemic vulnerability and dependency",
+              "definition_quote": "widespread integration of LLMs into research workflows may create systemic dependencies on proprietary models and centralized infrastructures",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Main text",
+              "quote": "(8) Mitigate systemic vulnerability and dependency: widespread integration of LLMs into research workflows may create systemic dependencies"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "packet_id": "ft-026",
+  "papers": [
+    {
+      "rec_id": "572af3df9394c3f2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "plos-ten-rules-committee-criteria",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1371/journal.pcbi.1012296",
+          "domain": "workplace",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Technical competency in the creation, management, and use of data and/or software",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 5: Develop clear guidelines for committee members",
+              "quote": "Technical competency in the creation, management, and use of data and/or software"
+            },
+            {
+              "dimension_label_verbatim": "Innovation in the technology, design, or approaches employed to create, manage, and use data and/or software",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 5: Develop clear guidelines for committee members",
+              "quote": "Innovation in the technology, design, or approaches employed to create, manage, and use data and/or software"
+            },
+            {
+              "dimension_label_verbatim": "Service as part of professional organizations, groups, journals, or committees that support and promote open practices for data and software",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 5: Develop clear guidelines for committee members",
+              "quote": "Service as part of professional organizations, groups, journals, or committees that support and promote open practices"
+            },
+            {
+              "dimension_label_verbatim": "Teaching, training, outreach, and other community activities to advance best practices in open data and open-source software",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Rule 5: Develop clear guidelines for committee members",
+              "quote": "Teaching, training, outreach, and other community activities to advance best practices in open data and open-source software"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6eb29a18538036ad",
+      "has_scheme": false,
+      "reason": "an ML explainability paper for fake-news detection; the manipulation-type labels (image forgery, fact/entity/event inconsistency) are ground-truth classifier categories, not a disclosure, attribution, or provenance scheme applied to describe how content discloses its own production"
+    },
+    {
+      "rec_id": "4a9869464081b6f8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "wjds-authenticity-facets",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.34669/wi.wjds/6.2.3",
+          "domain": "journalism_media",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "Weighted country means for authenticity rankings",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "What do you consider authentic journalistic content?",
+              "definition_quote": "",
+              "value_list_verbatim": ["that is based on facts and reality", "where it is easy to identify the source of origin", "that follows established journalistic values, such as impartiality or accuracy", "that is written by a human being", "that expresses the writers´ character or beliefs"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "Please rank the following from 1 to 5, where 1 is the least authentic and 5 is most authentic."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

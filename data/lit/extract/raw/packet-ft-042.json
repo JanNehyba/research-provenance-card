@@ -1,0 +1,86 @@
+{
+  "packet_id": "ft-042",
+  "papers": [
+    {
+      "rec_id": "f1d630a753281f6e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "icmje-ai-policy-criteria",
+          "scheme_name_verbatim": "Summary of ICMJE-Based Criteria Used to Evaluate AI Policy in Scientific Journals",
+          "source_ref": "doi:10.1016/j.ahjo.2025.100586",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "213 journals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "ICMJE-Based Criteria",
+              "definition_quote": "This table outlines the key domains assessed when reviewing AI-related policies in scientific journals.",
+              "value_list_verbatim": ["Disclosure of AI Usage at Submission", "Description of AI Usage in Cover Letter, Acknowledgment Section, or Methods", "AI-Assisted Technologies Authorship", "Human Responsibility for Accuracy and Originality", "Review and Editing of AI-generated content", "Assertion of No Plagiarism, Including AI Content"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Criteria were adapted from the International Committee of Medical Journal Editors (ICMJE) recommendations and include requirements for disclosure of AI use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "746a72614be5667d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "provenance-not-prohibition-six-principles",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1002/lio2.70487",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "principle",
+              "definition_quote": "",
+              "value_list_verbatim": ["Separate capability from accountability", "Provenance beats perfection", "Do not build policy around prohibitions you cannot verify", "Pair disclosure with verification", "Govern outcomes, not tool lists", "Build culture, not surveillance"],
+              "closed_or_open": "closed_list",
+              "locator": "Six principles follow",
+              "quote": "Six principles follow, offered less as rules than as a framework for examining our institutional reflexes before they harden into policy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b6e2f0c5692ed28f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-advertising-influence-tiers",
+          "scheme_name_verbatim": "A Taxonomy of Generative AI Advertising",
+          "source_ref": "doi:10.48550/arxiv.2605.18673",
+          "domain": "advertising",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "influence tier",
+              "definition_quote": "These tiers correspond to interventions on progressively more latent variables in the generative process",
+              "value_list_verbatim": ["product mentions (Tier 1)", "content framing (Tier 2)", "behavioral redirection (Tier 3)", "long-term preference shaping (Tier 4)"],
+              "closed_or_open": "closed_list",
+              "locator": "3 A Taxonomy of Generative AI Advertising",
+              "quote": "A taxonomy of generative AI advertising organized by influence tier: product mentions (Tier 1), content framing (Tier 2), behavioral redirection (Tier 3)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

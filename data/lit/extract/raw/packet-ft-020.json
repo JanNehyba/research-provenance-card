@@ -1,0 +1,74 @@
+{
+  "packet_id": "ft-020",
+  "papers": [
+    {
+      "rec_id": "4422ed2cd8f960a5",
+      "has_scheme": false,
+      "reason": "proposes a tripartite conceptual framework (ethical governance, symbiotic human-AI collaboration, equitable innovation) for balancing AI adoption with academic integrity; no enumerable categories or dimensions describing a disclosure, attribution, or provenance claim, just high-level principles and recommendations"
+    },
+    {
+      "rec_id": "6444caa470af8582",
+      "has_scheme": false,
+      "reason": "proposes a Human-in-the-Loop Professional Adaptation Framework (four layers) and a core competency framework for lecturers (feedback literacy, rubric/content validation, data interpretation and equity, integrity and clarity); these describe professional roles and institutional layers, not categories, fields, or values used to classify a disclosure, attribution, or provenance claim about produced work"
+    },
+    {
+      "rec_id": "c332c2f28e222204",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "esl-ai-use-disclosure-statement",
+          "scheme_name_verbatim": "AI Use Disclosure Statement",
+          "source_ref": "doi:10.32038/lter.2026.04.03",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "one ESL academic writing course, practitioner-inquiry design in a single instructor's classroom",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "What AI tool(s) have you used?",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage Three: Drafting an AI Use Disclosure Statement",
+              "quote": "1. What AI tool(s) have you used?"
+            },
+            {
+              "dimension_label_verbatim": "What prompts did you draft when using AI?",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage Three: Drafting an AI Use Disclosure Statement",
+              "quote": "2. What prompts did you draft when using AI?"
+            },
+            {
+              "dimension_label_verbatim": "What feedback did AI provide?",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage Three: Drafting an AI Use Disclosure Statement",
+              "quote": "3. What feedback did AI provide?"
+            },
+            {
+              "dimension_label_verbatim": "How did you evaluate the AI-generated feedback?",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage Three: Drafting an AI Use Disclosure Statement",
+              "quote": "4. How did you evaluate the AI-generated feedback?"
+            },
+            {
+              "dimension_label_verbatim": "What made you decide to accept, modify or reject AI's suggestions?",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage Three: Drafting an AI Use Disclosure Statement",
+              "quote": "5. What made you decide to accept, modify or reject AI"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

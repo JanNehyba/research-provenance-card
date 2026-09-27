@@ -1,0 +1,269 @@
+{
+  "packet_id": "ab-006",
+  "papers": [
+    {
+      "rec_id": "d6f6cd93f62746f3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aci-content-form-two-dimension",
+          "scheme_name_verbatim": "Artificial Intelligence Contribution Index (ACI)",
+          "source_ref": "doi:10.2139/ssrn.6463686",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "content",
+              "definition_quote": "AI contributed primarily to idea generation and conceptual organization",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "ACI distinguishes between two independent dimensions of contribution – content and form"
+            },
+            {
+              "dimension_label_verbatim": "form",
+              "definition_quote": "linguistic and stylistic expression",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "assigns each a four-level scale, from no AI involvement to substantial AI-driven production"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "23d38e9b020e3429",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "citizen-preferred-ai-disclosure-formats",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1145/3771882.3771899",
+          "domain": "journalism_media",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "focus group interviews with Dutch citizens (N=21)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "form",
+              "definition_quote": "",
+              "value_list_verbatim": ["source references", "visual indicators (logos/watermarks)"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "citizens predominantly favor disclosures of AI usage in journalistic content, in the form of (1) source references, (2) visual indicators (logos/watermarks)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "623343a5562dfb01",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "petmalu-ai-nine-domains",
+          "scheme_name_verbatim": "PETMALU-AI (Principles for Ensuring Transparency in Machine-assisted Authorship, Logging, and Use of Artificial Intelligence)",
+          "source_ref": "doi:10.3390/educsci16071127",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "modified Delphi-based expert validation involving an interdisciplinary panel",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "disclosure",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "human accountability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "system transparency",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "prompting and interaction processes",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "data provenance",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "validation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "ethics",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "limitations",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            },
+            {
+              "dimension_label_verbatim": "reproducibility",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "a 33-item checklist organized across nine domains: disclosure, human accountability, system transparency, prompting and interaction processes, data provenance, validation, ethics, limitations, and reproducibility"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b7acfbf17cc268db",
+      "has_scheme": false,
+      "reason": "retrieved text file contains only a placeholder character; no abstract content was retrievable to extract from"
+    },
+    {
+      "rec_id": "58a40e45add6a5f2",
+      "has_scheme": false,
+      "reason": "game-theoretic model of whether AI-use disclosure improves research oversight; no categories, dimensions or checklist proposed or used"
+    },
+    {
+      "rec_id": "e9b070f9bd091c9b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "synthetic-data-disclosure-recommendation",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s43681-024-00493-8",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "which parts of the data are synthetic",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "indicate which parts of the data are synthetic"
+            },
+            {
+              "dimension_label_verbatim": "label the synthetic data",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "clearly label the synthetic data"
+            },
+            {
+              "dimension_label_verbatim": "how the data were generated",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "describe how the data were generated"
+            },
+            {
+              "dimension_label_verbatim": "how and why the data were used",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "explain how and why the data were used"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d982f890e8a3c420",
+      "has_scheme": false,
+      "reason": "introduces a forthcoming Self-Assessment Model and Governance Framework for AI use in EU grant preparation, but the abstract does not enumerate any categories, dimensions or items"
+    },
+    {
+      "rec_id": "29aeeee2614dd53c",
+      "has_scheme": false,
+      "reason": "discusses attribution of AI-assisted academic work and chatbot detection as ethical issues but proposes no categories, dimensions or checklist"
+    },
+    {
+      "rec_id": "baf75b937220c24e",
+      "has_scheme": false,
+      "reason": "measures the carbon footprint of GenAI use in HCI research and notes under-reporting of GenAI use; no disclosure or attribution category scheme proposed or used"
+    },
+    {
+      "rec_id": "a9d15a8dbd8805dc",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "augmented-inventorship-directability-traceability",
+          "scheme_name_verbatim": "augmented inventorship",
+          "source_ref": "doi:10.2139/ssrn.6961279",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "directability",
+              "definition_quote": "independent and substantive human intellectual judgment steering model behavior or selection",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the framework identifies two design criteria—directability (independent and substantive human intellectual judgment steering model behavior or selection) and traceability"
+            },
+            {
+              "dimension_label_verbatim": "traceability",
+              "definition_quote": "a reviewable, claim-centered record linking human reasons to claim elements",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "traceability (a reviewable, claim-centered record linking human reasons to claim elements)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

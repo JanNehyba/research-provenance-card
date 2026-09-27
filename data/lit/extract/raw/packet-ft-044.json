@@ -1,0 +1,223 @@
+{
+  "packet_id": "ft-044",
+  "papers": [
+    {
+      "rec_id": "646aeaa7c56bb8ca",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aid-framework",
+          "scheme_name_verbatim": "Artificial Intelligence Disclosure (AID) Framework",
+          "source_ref": "doi:10.5860/crln.85.10.407",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Artificial Intelligence Tool(s)",
+              "definition_quote": "The selection of tool or tools and versions of those \ntools used and dates of use.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The selection of tool or tools and versions of those \ntools used and dates of use."
+            },
+            {
+              "dimension_label_verbatim": "Conceptualization",
+              "definition_quote": "The development of the research idea or hypothesis including \nframing or revision of research questions and hypotheses.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The development of the research idea or hypothesis including \nframing or revision of research questions and hypotheses."
+            },
+            {
+              "dimension_label_verbatim": "Methodology",
+              "definition_quote": "The planning for the execution of the study including all direct con-\ntributions to the study design.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The planning for the execution of the study including all direct con-\ntributions to the study design."
+            },
+            {
+              "dimension_label_verbatim": "Information Collection",
+              "definition_quote": "The use of AI to surface patterns in existing literature and \nidentify information relevant to the framing, development, or design of the study.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The use of AI to surface patterns in existing literature and \nidentify information relevant to the framing, development, or design of the study."
+            },
+            {
+              "dimension_label_verbatim": "Data Collection Method",
+              "definition_quote": "The development or design of software or instruments used \nin the study.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The development or design of software or instruments used \nin the study."
+            },
+            {
+              "dimension_label_verbatim": "Execution",
+              "definition_quote": "The direct conduct of research procedures or tasks (e.g. AI web scraping, \nsynthetic surveys, etc.)",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The direct conduct of research procedures or tasks (e.g. AI web scraping, \nsynthetic surveys, etc.)"
+            },
+            {
+              "dimension_label_verbatim": "Data Curation",
+              "definition_quote": "The management and organization of those data.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The management and organization of those data."
+            },
+            {
+              "dimension_label_verbatim": "Data Analysis",
+              "definition_quote": "The performance of statistical or mathematical analysis, regressions, \ntext analysis, and more using AI tools.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The performance of statistical or mathematical analysis, regressions, \ntext analysis, and more using AI tools."
+            },
+            {
+              "dimension_label_verbatim": "Privacy and Security",
+              "definition_quote": "The ways in which data privacy and security were upheld in \nalignment with the expectations of ethical conduct of research, disciplinary guidelines, and \ninstitutional policies.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The ways in which data privacy and security were upheld in \nalignment with the expectations of ethical conduct of research, disciplinary guidelines, and \ninstitutional policies."
+            },
+            {
+              "dimension_label_verbatim": "Interpretation",
+              "definition_quote": "The use of AI tools to categorize, summarize, or manipulate data and \nsuggest associated conclusions.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The use of AI tools to categorize, summarize, or manipulate data and \nsuggest associated conclusions."
+            },
+            {
+              "dimension_label_verbatim": "Visualization",
+              "definition_quote": "The creation of visualizations or other graphical representations of \nthe data.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The creation of visualizations or other graphical representations of \nthe data."
+            },
+            {
+              "dimension_label_verbatim": "Writing—Review & Editing",
+              "definition_quote": "The revision and editing of the manuscript.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The revision and editing of the manuscript."
+            },
+            {
+              "dimension_label_verbatim": "Writing—Translation",
+              "definition_quote": "The use of AI to translate text across languages at any point \nin the drafting process.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "The use of AI to translate text across languages at any point \nin the drafting process."
+            },
+            {
+              "dimension_label_verbatim": "Project Administration",
+              "definition_quote": "Any administrative tasks related to the study, including \nmanaging budgets, timelines, and communications.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Artificial Intelligence Disclosure (AID) Framework",
+              "quote": "Any administrative tasks related to the study, including \nmanaging budgets, timelines, and communications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "83dd045063fe9dd8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "atml-human-supervision-tier-model",
+          "scheme_name_verbatim": "four-level human supervision\ntier model",
+          "source_ref": "arXiv:2606.19116",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the degree\nof human involvement in its production",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Level 0 — No human oversight",
+                "Level 1 — Human edited",
+                "Level 2 — AI assisted",
+                "Level 3 — Fully human authored"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Human Supervision Requirements",
+              "quote": "We propose a four-level human supervision\ntier model that classifies content by the degree\nof human involvement in its production"
+            }
+          ]
+        },
+        {
+          "scheme_id": "atml-provenance-certificate",
+          "scheme_name_verbatim": "Provenance Chain Architecture",
+          "source_ref": "arXiv:2606.19116",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "cryptographic provenance certificate",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "The identity of the publishing entity,\nverified against a public key infrastructure",
+                "The supervision level declared, signed\nby the publishing entity",
+                "A hash of the content body at time of\npublication, enabling verification that\ncontent has not been modified post-publication",
+                "A chain of derived-from references,\neach with its own provenance certificate,\nenabling agents to trace the epistemic\nlineage of a claim back to primary sources"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Provenance Chain Architecture",
+              "quote": "each ATML document carries a\ncryptographic provenance certificate that\nencodes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "22ddee4118f31b0c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "disclose-ai-framework",
+          "scheme_name_verbatim": "DISCLOSE-AI",
+          "source_ref": "doi:10.3389/fdgth.2026.1826808",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the level of risk",
+              "definition_quote": "The \nframework has four tiers.",
+              "value_list_verbatim": [
+                "Tier 2"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "I propose a framework, DISCLOSE-AI, \nthat matches disclosure with the level of risk (Figure 1)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

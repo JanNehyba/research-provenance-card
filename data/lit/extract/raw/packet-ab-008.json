@@ -1,0 +1,239 @@
+{
+  "packet_id": "ab-008",
+  "papers": [
+    {
+      "rec_id": "737e12526684e135",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "icmje-ahp-authorship-components",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.2147/amep.s328648",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "Sixty-six decision-making medical editors completed the survey",
+          "machine_readable_artifact": "https://tinyurl.com/eyu86y96",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "conception",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "design",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "data acquisition",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "data analysis",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "interpretation of data",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "draft",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "revision",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "final approval",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "accountability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "the nine authorship components of conception, design, data acquisition, data analysis, interpretation of data, draft, revision, final approval and accountability"
+            },
+            {
+              "dimension_label_verbatim": "perceived effort/capability grade",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The AHP priority weights were multiplied against a four-level perceived effort/capability grade to calculate an authorship score"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9ead76d3a31a55de",
+      "has_scheme": false,
+      "reason": "mentions providing a checklist for resolving publication-ethics conflicts but the abstract does not enumerate its items"
+    },
+    {
+      "rec_id": "b1004388df20d5d9",
+      "has_scheme": false,
+      "reason": "describes translating the fourteen CRediT contributor roles into thirty-six languages but the abstract does not itself enumerate the role names or descriptions"
+    },
+    {
+      "rec_id": "2639860a7287cf9b",
+      "has_scheme": false,
+      "reason": "empirically examines the accuracy of the corresponding-author metadata field in Web of Science and Scopus; proposes no category scheme"
+    },
+    {
+      "rec_id": "d90e693446bfadc9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-writing-tools-generative-assistive",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1145/3821966.3821984",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "143 Scopus-indexed empirical studies examining AI-assisted writing tools across education, STEM, social sciences, business, and health sciences",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Tools",
+              "definition_quote": "",
+              "value_list_verbatim": ["generative (producing new text, e.g., ChatGPT, GPT-4)", "assistive (correcting or enhancing existing text, e.g., Grammarly, QuillBot)"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Tools are classified as generative (producing new text, e.g., ChatGPT, GPT-4) or assistive (correcting or enhancing existing text, e.g., Grammarly, QuillBot)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2c5c3c5d5f0455a5",
+      "has_scheme": false,
+      "reason": "outlines that editorial policies on generative AI use in authorship, peer review, and editorial processing exist, but the abstract does not enumerate their categories"
+    },
+    {
+      "rec_id": "0eb6425f3ad7fe50",
+      "has_scheme": false,
+      "reason": "examines display patterns of commercial content by influencer follower-size groups on Instagram; no disclosure or attribution category scheme is proposed or used"
+    },
+    {
+      "rec_id": "c6a52734132eba75",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "addiction-scholarship-ai-materiality-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1177/29767342261471638",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI used in the conduct of research",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI used in the conduct of research", "AI used in manuscript preparation"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "We distinguish AI used in the conduct of research from AI used in manuscript preparation"
+            },
+            {
+              "dimension_label_verbatim": "assistive, intermediate, and generative AI",
+              "definition_quote": "mapped onto 6 escalating levels of involvement",
+              "value_list_verbatim": ["assistive", "intermediate", "generative"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "propose a practical taxonomy of assistive, intermediate, and generative AI mapped onto 6 escalating levels of involvement"
+            },
+            {
+              "dimension_label_verbatim": "the intellectual content, interpretation, argument, or presentation of a manuscript",
+              "definition_quote": "",
+              "value_list_verbatim": ["intellectual content", "interpretation", "argument", "presentation"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "disclosure should be required when AI materially contributes to the conduct of research or to the intellectual content, interpretation, argument, or presentation of a manuscript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2bfbfb0236110e9c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "nonfinancial-disclosure-entry-exit-hybrid",
+          "scheme_name_verbatim": "hybrid model",
+          "source_ref": "doi:10.55057/ijbtm.2025.7.9.5",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "analysed the extant literature pertaining to non-financial disclosure standards",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "entry",
+              "definition_quote": "a theoretical framework that places significant emphasis on the principles of formal bookkeeping",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "which emphasizes the concept of \"entry\""
+            },
+            {
+              "dimension_label_verbatim": "exit",
+              "definition_quote": "This emphasis focuses on the 'output' (information) of corporate activities",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "with a view to confirming the fundamental stance adopted in the generation of such information, which emphasizes 'exit'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "143194f097437361",
+      "has_scheme": false,
+      "reason": "identifies three core governance dimensions (democracy, transparency, accountability) for professional sports leagues; these are organizational governance principles, not a disclosure, attribution, or provenance scheme about a produced work"
+    }
+  ]
+}

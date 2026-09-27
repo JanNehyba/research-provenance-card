@@ -1,0 +1,229 @@
+{
+  "packet_id": "ab-016",
+  "papers": [
+    {
+      "rec_id": "74e053ea1e0bce9c",
+      "has_scheme": false,
+      "reason": "abstract describes career archetypes (leader, specialized, supporting) derived by clustering author contribution statements; this is an empirical finding about scientists' career patterns, not a category scheme proposed for disclosing or attributing a produced work"
+    },
+    {
+      "rec_id": "1fcab1fd0325f61e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "youtube-transparency-typology",
+          "scheme_name_verbatim": "typology of transparency markers",
+          "source_ref": "doi:10.1177/0163443719846613",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "routines",
+              "definition_quote": "",
+              "value_list_verbatim": ["transparency", "authenticity", "independence"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "employ a mix of routines of transparency, authenticity and independence, which they perform simultaneously, constructing themselves as trustworthy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "86b807063683ebf8",
+      "has_scheme": false,
+      "reason": "single sentence stating the manifesto espouses principles of citable open data; no principles or categories are enumerated"
+    },
+    {
+      "rec_id": "d0eb045fdb68761c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cam-contributor-attribution-model",
+          "scheme_name_verbatim": "Contributor Attribution Model (CAM)",
+          "source_ref": "doi:10.1080/08989621.2020.1779591",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the role that they played",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "relates the contributor to research objects via the role that they played, as well as the provenance of the information"
+            },
+            {
+              "dimension_label_verbatim": "the provenance of the information",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "relates the contributor to research objects via the role that they played, as well as the provenance of the information"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "32986e041892696b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sage-ap-staged-process",
+          "scheme_name_verbatim": "Structured AI-Guided Education Assessment Policy (SAGE-AP)",
+          "source_ref": "doi:10.3390/educsci16060986",
+          "domain": "education_assessment",
+          "artifact_type": "policy",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "begin from their own understanding",
+                "engage with AI critically",
+                "document evaluative decisions",
+                "refine outputs responsibly",
+                "defend the reasoning represented in the final submission"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "students begin from their own understanding, engage with AI critically, document evaluative decisions, refine outputs responsibly, and defend the reasoning represented in the final submission"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2e10652848cf907a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "developmental-assessment-genai-framework",
+          "scheme_name_verbatim": "developmental assessment framework",
+          "source_ref": "doi:10.1080/02602938.2026.2620055",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "aligning learning outcomes with assessment tasks",
+                "unpacking constructs",
+                "identifying capabilities",
+                "mapping observable indicators to AI use"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The framework guides educators through aligning learning outcomes with assessment tasks, unpacking constructs, identifying capabilities and mapping observable indicators to AI use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1efe9e4722b17881",
+      "has_scheme": false,
+      "reason": "introduces causal authorship and distributed authorship as theoretical concepts for discussing human-machine authorship; no categories, dimensions or values are enumerated"
+    },
+    {
+      "rec_id": "a467cc1e765e5a01",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "chart-checklist",
+          "scheme_name_verbatim": "CHART",
+          "source_ref": "doi:10.1001/jamanetworkopen.2025.30220",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "modified asynchronous Delphi consensus process of 531 stakeholders, 3 synchronous panel consensus meetings of 48 stakeholders, and subsequent pilot testing of the checklist",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "items",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "title",
+                "abstract or summary",
+                "background",
+                "model identifiers",
+                "model details",
+                "prompt engineering",
+                "query strategy",
+                "performance evaluation",
+                "sample size",
+                "data analysis",
+                "results",
+                "discussion",
+                "disclosures",
+                "funding",
+                "ethics",
+                "protocol",
+                "data availability"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "CHART includes 12 items and 39 subitems to promote transparent and comprehensive reporting of CHA studies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2fdd0f05e66ca137",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "minimar-minimum-information",
+          "scheme_name_verbatim": "MINIMAR (MINimum Information for Medical AI Reporting)",
+          "source_ref": "doi:10.1093/jamia/ocaa088",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the minimum information necessary to understand",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "intended predictions",
+                "target populations",
+                "hidden biases",
+                "the ability to generalize these emerging technologies"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a proposal describing the minimum information necessary to understand intended predictions, target populations, and hidden biases, and the ability to generalize these emerging technologies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d76daed32b8ae05d",
+      "has_scheme": false,
+      "reason": "reports survey findings on researchers' generative AI practices and says results informed field-specific guidelines, but the abstract does not enumerate those guidelines' categories"
+    }
+  ]
+}

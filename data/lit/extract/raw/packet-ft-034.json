@@ -1,0 +1,198 @@
+{
+  "packet_id": "ft-034",
+  "papers": [
+    {
+      "rec_id": "aaa398e5e5ab7c66",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sciencedata-ml-documentation-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1038/s41597-025-04402-4",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "4041 open access data papers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Recommended uses",
+              "definition_quote": "Recommended uses and gaps the dataset intends to fill",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Recommended uses Recommended uses and gaps the dataset intends to fill"
+            },
+            {
+              "dimension_label_verbatim": "Generalization limits",
+              "definition_quote": "Non-recommended uses and data generalization limits",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Generalization limits Non-recommended uses and data generalization limits"
+            },
+            {
+              "dimension_label_verbatim": "Social concerns",
+              "definition_quote": "If represent people: biases, sensitivity and privacy issues",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Social concerns If represent people: biases, sensitivity and privacy issues"
+            },
+            {
+              "dimension_label_verbatim": "Policies",
+              "definition_quote": "Maintainers & policies (erratum, updates, deprecation)",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Policies Maintainers & policies (erratum, updates, deprecation)"
+            },
+            {
+              "dimension_label_verbatim": "Tested using an ML approach",
+              "definition_quote": "Models and metrics the dataset have been tested on",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Tested using an ML approach Models and metrics the dataset have been tested on"
+            },
+            {
+              "dimension_label_verbatim": "Description",
+              "definition_quote": "Description of the process and its categorization",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Collection Description Description of the process and its categorization"
+            },
+            {
+              "dimension_label_verbatim": "Profile of the collection team",
+              "definition_quote": "Profile of the gathering team",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Profile of the collection team Profile of the gathering team"
+            },
+            {
+              "dimension_label_verbatim": "Profile of the collection target",
+              "definition_quote": "If represent people, their demographic profile",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Profile of the collection target If represent people, their demographic profile"
+            },
+            {
+              "dimension_label_verbatim": "Speech context in language datasets",
+              "definition_quote": "If language datasets, contextual information of the spoken language",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Speech context in language datasets If language datasets, contextual information of the spoken language"
+            },
+            {
+              "dimension_label_verbatim": "Collection sources & infrastructure",
+              "definition_quote": "The source of the data and the infrastructure used to collect it",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Collection sources & infrastructure The source of the data and the infrastructure used to collect it"
+            },
+            {
+              "dimension_label_verbatim": "Description",
+              "definition_quote": "Description of the process and its categorization",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Annotation Description Description of the process and its categorization"
+            },
+            {
+              "dimension_label_verbatim": "Profile of the annotator team",
+              "definition_quote": "Profile of annotation the team",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Profile of the annotator team Profile of annotation the team"
+            },
+            {
+              "dimension_label_verbatim": "Annotation infrastructure",
+              "definition_quote": "The tools used to annotate the data",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Annotation infrastructure The tools used to annotate the data"
+            },
+            {
+              "dimension_label_verbatim": "Annotation validation",
+              "definition_quote": "Validation methods applied over the annotations",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Annotation validation Validation methods applied over the annotations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "c3bde96bd86b4813",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "human-provenance-labor-infrastructure-roles",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2605.03210",
+          "domain": "workplace",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Type of labor",
+              "definition_quote": "We disaggregate performative humanity into three distinct types: relational presence labor, aesthetic provenance labor, and accountability labor",
+              "value_list_verbatim": ["Relational presence", "Aesthetic provenance", "Accountability"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Table 1: Types of human-presence value and their associated verification challenges."
+            },
+            {
+              "dimension_label_verbatim": "Human-role attestations for hybrid work",
+              "definition_quote": "provenance systems should specify who exercised final judgment, who bore liability, who supplied relational labor, and which stages of production were synthetic",
+              "value_list_verbatim": ["human authors", "human reviewers", "accountable parties", "relational participants"],
+              "closed_or_open": "closed_list",
+              "locator": "8 Provenance Design Requirements for Labor Infrastructure",
+              "quote": "A labor-infrastructural system should at minimum distinguish human authors, human reviewers, accountable parties, and relational participants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "bbc72b7bd177f1a4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-disclosure-usecase-risk-hybrid-canada",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "https://openalex.org/W7158432461",
+          "domain": "law_regulation",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "20 issuer-year filings",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Use-Case Disclosure vs. Risk-Based Disclosure",
+              "definition_quote": "disclosures tend to fall into one of three categories",
+              "value_list_verbatim": ["use-case focused", "risk-focused", "hybrid"],
+              "closed_or_open": "closed_list",
+              "locator": "(ii) Use-Case Disclosure vs. Risk-Based Disclosure",
+              "quote": "Where AI is discussed, disclosures tend to fall into one of three categories: (i) use-case focused, (ii) risk-focused, or (iii) hybrid."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "packet_id": "ft-010",
+  "papers": [
+    {
+      "rec_id": "ac204998e2afd1d1",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "provenance-disclosure-cue-codebook",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/frai.2026.1815243",
+          "domain": "journalism_media",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "47 studies with retrievable full texts were included",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "how AI involvement was operationalised",
+              "definition_quote": "",
+              "value_list_verbatim": ["automated/algorithmic/robot journalism", "AI-generated", "AI-assisted/LLM-assisted writing", "human-AI collaboration"],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction and coding",
+              "quote": "Provenance coding captured how AI involvement was operationalised (e.g., automated/algorithmic/robot journalism; AI-generated; AI-assisted/LLM-assisted writing; human-AI collaboration)"
+            },
+            {
+              "dimension_label_verbatim": "content differences or attribution-only differences",
+              "definition_quote": "identical content with different authorship/provenance information",
+              "value_list_verbatim": ["content differences", "attribution-only differences"],
+              "closed_or_open": "closed_list",
+              "locator": "Data extraction and coding",
+              "quote": "whether conditions implied content differences or attribution-only differences (i.e., identical content with different authorship/provenance information)"
+            },
+            {
+              "dimension_label_verbatim": "cue type",
+              "definition_quote": "",
+              "value_list_verbatim": ["label", "AI byline", "disclosure/disclaimer statement"],
+              "closed_or_open": "closed_list",
+              "locator": "Data extraction and coding",
+              "quote": "cue type (label, AI byline, and/or disclosure/disclaimer statement)"
+            },
+            {
+              "dimension_label_verbatim": "wording",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI-generated", "AI-assisted"],
+              "closed_or_open": "open_text",
+              "locator": "Data extraction and coding",
+              "quote": "wording (e.g., “AI-generated” vs. “AI-assisted”)"
+            },
+            {
+              "dimension_label_verbatim": "framing",
+              "definition_quote": "",
+              "value_list_verbatim": ["neutral informational", "warning-like language"],
+              "closed_or_open": "closed_list",
+              "locator": "Data extraction and coding",
+              "quote": "framing (neutral informational vs. warning-like language)"
+            },
+            {
+              "dimension_label_verbatim": "placement/prominence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Data extraction and coding",
+              "quote": "framing (neutral informational vs. warning-like language), placement/prominence, timing (pre-exposure vs. concurrent vs. post-exposure)"
+            },
+            {
+              "dimension_label_verbatim": "timing",
+              "definition_quote": "",
+              "value_list_verbatim": ["pre-exposure", "concurrent", "post-exposure"],
+              "closed_or_open": "closed_list",
+              "locator": "Data extraction and coding",
+              "quote": "timing (pre-exposure vs. concurrent vs. post-exposure)"
+            },
+            {
+              "dimension_label_verbatim": "whether the cue communicated human oversight or editorial accountability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Data extraction and coding",
+              "quote": "whether the cue communicated human oversight or editorial accountability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "bf8727a1035348e6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "medwriting-ai-disclosure-elements",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.20885/jkki.vol17.iss1.art1",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the extent of AI involvement",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Editorial",
+              "quote": "These should include explicit reporting of the extent of AI involvement, the specific tools used, their versions, and other relevant parameters."
+            },
+            {
+              "dimension_label_verbatim": "the specific tools used",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Editorial",
+              "quote": "These should include explicit reporting of the extent of AI involvement, the specific tools used, their versions, and other relevant parameters."
+            },
+            {
+              "dimension_label_verbatim": "their versions",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Editorial",
+              "quote": "These should include explicit reporting of the extent of AI involvement, the specific tools used, their versions, and other relevant parameters."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "519fc37b8d63bc86",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "endo-journals-ai-policy-four-areas",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/fendo.2026.1767254",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "top 100 endocrinology journals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI-generated content", "AI-generated images", "AI authorship inclusion", "AI-assisted manuscript writing"],
+              "closed_or_open": "closed_list",
+              "locator": "2.8 Data synthesis",
+              "quote": "focusing on four key areas: (1) AI-generated content, (2) AI-generated images, (3) AI authorship inclusion, and (4) AI-assisted manuscript writing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

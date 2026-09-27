@@ -1,0 +1,219 @@
+{
+  "packet_id": "ft-021",
+  "papers": [
+    {
+      "rec_id": "cd9043a0449a1561",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cord19-software-citation-coding-scheme",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.7717/peerj-cs.1022",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "not_stated",
+          "empirical_basis": "a stratified sample of software mentions automatically extracted from the CORD-19 corpus, covering 155 distinct pieces of software, annotated with 93.3% inter-annotator agreement",
+          "machine_readable_artifact": "https://github.com/caifand/cord19-sw-analysis",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Functions of software mentions",
+              "definition_quote": "Do software mentions enable the identification and discovery of software and its versions?",
+              "value_list_verbatim": [
+                "enable the identification and discovery of software and its versions",
+                "credit its contributors",
+                "provide further configuration detail that facilitates reuse"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Functions of software mentions",
+              "quote": "Do software mentions enable the identification and discovery of software and its versions? Do software mentions credit its contributors?"
+            },
+            {
+              "dimension_label_verbatim": "Types of software mentions",
+              "definition_quote": "Types of software mentions that serve different functions.",
+              "value_list_verbatim": ["informal mentions", "formal citations"],
+              "closed_or_open": "closed_list",
+              "locator": "Functions of software mentions",
+              "quote": "Types of software mentions that serve different functions."
+            },
+            {
+              "dimension_label_verbatim": "source code modifiable",
+              "definition_quote": "had both source code available and permission to modify it, such as an open source license",
+              "value_list_verbatim": ["accessible online", "free access", "source code available", "source code modifiable"],
+              "closed_or_open": "closed_list",
+              "locator": "Functions of software mentions",
+              "quote": "a statement of waived copyrights (as the \"source code modifiable\" category in Fig. 9 )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ff1ecf872c78b05a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "The Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.14742/ajet.7980",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "fourteen contributor roles",
+              "definition_quote": "a way to standardise and record contributions to research by proposing specific roles a contributor can claim",
+              "value_list_verbatim": [
+                "conceptualization", "data curation", "formal analysis", "funding acquisition", "investigation",
+                "methodology", "project administration", "resources", "software", "supervision", "validation",
+                "visualization", "writing – original draft", "writing – review and editing"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Authorship Guidelines",
+              "quote": "The fourteen contributor roles in the taxonomy are: \nconceptualization, data curation, formal analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "c1c4a137aec687b2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "fair-biors-guidelines",
+          "scheme_name_verbatim": "FAIR Biomedical Research Software (FAIR-BioRS) guidelines",
+          "source_ref": "doi:10.1038/s41597-023-02463-x",
+          "domain": "software",
+          "artifact_type": "reporting_guideline",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "a review of 39 resources deemed relevant to fulfilling the FAIR4RS principles",
+          "machine_readable_artifact": "http://github.com/FAIR-BioRS",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Category 1: Develop software following standards and best practices",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Category 1: Develop software following standards and best practices",
+              "quote": "Category 1: Develop software following standards and best practices"
+            },
+            {
+              "dimension_label_verbatim": "Category 2: Include metadata",
+              "definition_quote": "a recommendation of metadata files and ontologies to use for research software",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Category 2: Include metadata",
+              "quote": "Category 2: Include metadata"
+            },
+            {
+              "dimension_label_verbatim": "Category 3: Provide a license",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Overview",
+              "quote": "Category 3: Provide a license"
+            },
+            {
+              "dimension_label_verbatim": "Category 4: Share software in a repository",
+              "definition_quote": "sharing each version of a software on a deployment repository",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Category 4: Share software in a repository",
+              "quote": "Category 4: Share software in a repository"
+            },
+            {
+              "dimension_label_verbatim": "Category 5: Register in a registry",
+              "definition_quote": "register the software on bio.tools",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Category 5: Register on a registry",
+              "quote": "Category 5: Register on a registry"
+            }
+          ]
+        },
+        {
+          "scheme_id": "fair-biors-metadata-fields",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1038/s41597-023-02463-x",
+          "domain": "software",
+          "artifact_type": "reporting_guideline",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "review of 39 resources on software metadata practices, combined with the authors' internal assessment and external community suggestions",
+          "machine_readable_artifact": "https://codemeta.github.io/codemeta-generator",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Software name",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Category 2: Include metadata",
+              "quote": "Software name (“name”)"
+            },
+            {
+              "dimension_label_verbatim": "Software description/abstract",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Category 2: Include metadata",
+              "quote": "Software description/abstract (“description”)"
+            },
+            {
+              "dimension_label_verbatim": "Unique identifier",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Category 2: Include metadata",
+              "quote": "Unique identifier (“identifier”)"
+            },
+            {
+              "dimension_label_verbatim": "Authors",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Category 2: Include metadata",
+              "quote": "Authors (“givenName”, “familyName”) with their organization name (“affiliation”)"
+            },
+            {
+              "dimension_label_verbatim": "Keywords",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Category 2: Include metadata",
+              "quote": "Keywords (“keywords”)"
+            },
+            {
+              "dimension_label_verbatim": "Programming Language",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Category 2: Include metadata",
+              "quote": "Programming Language (“programmingLanguage”)"
+            },
+            {
+              "dimension_label_verbatim": "First and current release date",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Category 2: Include metadata",
+              "quote": "First and current release date (“dataPublished” and “dateModified”)"
+            },
+            {
+              "dimension_label_verbatim": "License used",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Category 2: Include metadata",
+              "quote": "License used (“license”)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "packet_id": "ft-073",
+  "papers": [
+    {
+      "rec_id": "223769dfb4b5ec29",
+      "has_scheme": false,
+      "reason": "outlines actors (governments, industry, academia, civil society, citizens) and shared/actor-specific governance activities (SCUMIA/FACTI) plus a traditional-vs-adaptive comparison table (speed, content, actors); this is a general AI governance framework, not a scheme describing a disclosure, attribution, or provenance claim about a produced artifact"
+    },
+    {
+      "rec_id": "31ae39a50b7c64e4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "chart-checklist",
+          "scheme_name_verbatim": "CHART",
+          "source_ref": "doi:10.1370/afm.250386",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "137 eligible articles",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "title",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "title (subitem 1a)"
+            },
+            {
+              "dimension_label_verbatim": "abstract/summary",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "abstract/summary (subitem \n1b)"
+            },
+            {
+              "dimension_label_verbatim": "background",
+              "definition_quote": "State the scientific background, rationale, and healthcare context for evaluating the generative \nAI-driven chatbot(s)",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "State the scientific background, rationale, and healthcare context for evaluating the generative \nAI-driven chatbot(s)"
+            },
+            {
+              "dimension_label_verbatim": "model identifiers",
+              "definition_quote": "State the name and version identifier(s) of the generative AI model(s) and chatbot(s) under \nevaluation",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "State the name and version identifier(s) of the generative AI model(s) and chatbot(s) under \nevaluation"
+            },
+            {
+              "dimension_label_verbatim": "model details",
+              "definition_quote": "State whether the generative AI model was a base model or a novel base \nmodel, tuned \nmodel, or fine-tuned model.",
+              "value_list_verbatim": ["base model", "novel base \nmodel", "tuned \nmodel", "fine-tuned model"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "State whether the generative AI model was a base model or a novel base \nmodel, tuned \nmodel, or fine-tuned model."
+            },
+            {
+              "dimension_label_verbatim": "prompt engineering",
+              "definition_quote": "Describe the evolution of study prompt development.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "Describe the evolution of study prompt development."
+            },
+            {
+              "dimension_label_verbatim": "query strategy",
+              "definition_quote": "State route of access to generative AI model.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "State route of access to generative AI model."
+            },
+            {
+              "dimension_label_verbatim": "performance evaluation",
+              "definition_quote": "their definition of suc-\ncessful model or bot performance, and the process behind \nperformance evaluation",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Copyright Protections and Fair Use Doctrine",
+              "quote": "the process behind \nperformance evaluation (item 5, item 7)"
+            },
+            {
+              "dimension_label_verbatim": "sample size",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "sample size (subitem 8)"
+            },
+            {
+              "dimension_label_verbatim": "data analysis",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "data analysis (subitem 9a)"
+            },
+            {
+              "dimension_label_verbatim": "results",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "results \n(subitems 10a-c)"
+            },
+            {
+              "dimension_label_verbatim": "discussion",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "discussion (subitems 11a-c)"
+            },
+            {
+              "dimension_label_verbatim": "disclosures",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "disclosures (subitem 12a)"
+            },
+            {
+              "dimension_label_verbatim": "funding",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "funding (subitem \n12b)"
+            },
+            {
+              "dimension_label_verbatim": "ethics",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "ethics (subitem 12c)"
+            },
+            {
+              "dimension_label_verbatim": "protocol",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "protocol (subitem 12d)"
+            },
+            {
+              "dimension_label_verbatim": "data availability",
+              "definition_quote": "share their code and training data \nsets to optimize transparency and mitigate uncertainty over \ndata provenance",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Copyright Protections and Fair Use Doctrine",
+              "quote": "share their code and training data \nsets to optimize transparency and mitigate uncertainty over \ndata provenance (item 12e)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "dc86ae55a8395005",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "matheson-four-step-framework",
+          "scheme_name_verbatim": "Four-step framework for evaluating journal articles",
+          "source_ref": "doi:10.20529/ijme.2022.023",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Setting, context, \nperspective",
+              "definition_quote": "The location where the content is \npublished, and its characteristics.",
+              "value_list_verbatim": ["Location:  journal, supplement, online \nmaterial", "Relationships: article is one of a series, \nor part of a publication plan, or linked \nto non-journal activities", "Article’s \ncontext \nand \nresearcher’s \nperspective: eg with respect to research \ncontroversies, \ncommercial \nagenda, \nlegal issues etc"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1. Four-step framework for evaluating journal articles",
+              "quote": "1. Setting, context, \nperspective"
+            },
+            {
+              "dimension_label_verbatim": "Stakeholders and \ncontributors",
+              "definition_quote": "Every individual, collective entity and \ncompany who has an interest in the \narticle or the research it describes",
+              "value_list_verbatim": ["Byline authors and their institutions", "Corporate authors, e.g. pharmaceutical \ncompanies", "Journals, their editors and \nproprietors", "Trial participants", "Readers and \npatients"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1. Four-step framework for evaluating journal articles",
+              "quote": "2. Stakeholders and \ncontributors"
+            },
+            {
+              "dimension_label_verbatim": "Content",
+              "definition_quote": "The full content of the article, the data on \nwhich is based, and the process by which \nthe study was conducted",
+              "value_list_verbatim": ["Scientific question", "Experimental \ndesign", "Trial conduct", "Data analysis", "Data \navailability", "Results reported", "Interpretation of results", "Style and \nRhetoric", "Parties responsible for each \nstep"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1. Four-step framework for evaluating journal articles",
+              "quote": "3. Content"
+            },
+            {
+              "dimension_label_verbatim": "Attribution",
+              "definition_quote": "Everything that is conveyed to the reader \nabout the origin and development of the \ncontent, including the names of all parties \ninvolved",
+              "value_list_verbatim": ["Author selection", "Author order", "contributor \nlistings", "author \ndisclosures", "acknowledgements", "contributor listings", "descriptions of commercial parties and \nroles", "use of corporate authorship", "use of \ntitle", "labeling"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1. Four-step framework for evaluating journal articles",
+              "quote": "4. Attribution\nEverything that is conveyed to the reader"
+            },
+            {
+              "dimension_label_verbatim": "contributor roles",
+              "definition_quote": "currently \nseeking \nto \nestablish \na \nstandardised \nclassification \nof \ncontributor roles",
+              "value_list_verbatim": ["conceptualisation", "data curation", "formal analysis", "funding \nacquisition", "investigation", "methodology", "project \nadministration", "resources", "software", "supervision", "validation", "visualisation", "writing — original draft", "writing — review and \nediting"],
+              "closed_or_open": "closed_list",
+              "locator": "Can standardising contributorship reduce credit \nbias?",
+              "quote": "The \nCRediT taxonomy captures 14 specific contributions, which are \nas follows: conceptualisation, data curation, formal analysis"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

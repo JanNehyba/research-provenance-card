@@ -1,0 +1,195 @@
+{
+  "packet_id": "ft-051",
+  "papers": [
+    {
+      "rec_id": "aa3e7f75355e774f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "icmje-authorship-criteria-honorary-definition",
+          "scheme_name_verbatim": "ICMJE criteria",
+          "source_ref": "doi:10.1136/bmjopen-2020-036899",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "conception or design of the work",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "INTRODUCTION",
+              "quote": "Honorary authors are those who did not contribute substantially to the conception or design of the work"
+            },
+            {
+              "dimension_label_verbatim": "acquisition, analysis or interpretation of the data for the work",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "INTRODUCTION",
+              "quote": "the acquisition, analysis or interpretation of the data for the work"
+            },
+            {
+              "dimension_label_verbatim": "the writing of the article",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "INTRODUCTION",
+              "quote": "or the writing of the article"
+            },
+            {
+              "dimension_label_verbatim": "public responsibility for the work",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "INTRODUCTION",
+              "quote": "unable to take public responsibility for the work"
+            }
+          ]
+        },
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy-mention",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy",
+          "source_ref": "doi:10.1136/bmjopen-2020-036899",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "roles",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "CRediT has 14 different roles within the taxonomy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "83dff180cd97bdec",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gaf-standardized-authorship-model",
+          "scheme_name_verbatim": "GAF model",
+          "source_ref": "doi:10.5534/wjmh.250303",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Documentation of individual contributions (qualitative and quantitative)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Documentation of individual contributions (qualitative and quantitative)"
+            },
+            {
+              "dimension_label_verbatim": "rationale for author order",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "rationale for author order"
+            },
+            {
+              "dimension_label_verbatim": "ethical approvals ( e.g. , IRB)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "ethical approvals ( e.g. , IRB)"
+            },
+            {
+              "dimension_label_verbatim": "study registration",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "study registration"
+            },
+            {
+              "dimension_label_verbatim": "citation verification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "citation verification"
+            },
+            {
+              "dimension_label_verbatim": "plagiarism screening",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "plagiarism screening"
+            },
+            {
+              "dimension_label_verbatim": "COI disclosures",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "COI disclosures"
+            },
+            {
+              "dimension_label_verbatim": "ORCID identifiers",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "ORCID identifiers"
+            },
+            {
+              "dimension_label_verbatim": "AI use disclosur",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "AI use disclosur"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "535aa2cad9fe2285",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "journal-data-sharing-policy-strength-classification",
+          "scheme_name_verbatim": "Classification criteria for data sharing policy strength",
+          "source_ref": "doi:10.1038/s41597-025-06434-2",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "220 high-impact journals were surveyed",
+          "machine_readable_artifact": "10.6084/m9.figshare.29984809",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "policy strength",
+              "definition_quote": "the strength of the requirement was classified into four categories, according to the criteria listed in Table 1",
+              "value_list_verbatim": ["require", "recommend", "accept", "no policy"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Policy requirements were classified into four categories based on their strength: require, recommend, accept, or no policy."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

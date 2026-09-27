@@ -1,0 +1,269 @@
+{
+  "packet_id": "ab-007",
+  "papers": [
+    {
+      "rec_id": "cde684fbdbfc7448",
+      "has_scheme": false,
+      "reason": "identifies three broad open-science practice areas (contributorship, pre-registration, open data) as topics the review discusses, not a category scheme for describing a disclosure, attribution, or provenance claim"
+    },
+    {
+      "rec_id": "f2365c0a63419e5c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-marketing-impact-cycle-framework",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1177/07439156241309874",
+          "domain": "advertising",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "GenAI impact",
+              "definition_quote": "",
+              "value_list_verbatim": ["human enhancement", "human replacement"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "a conceptual framework along two dimensions: (1) GenAI impact (i.e., human enhancement, human replacement)"
+            },
+            {
+              "dimension_label_verbatim": "the marketing cycle stage",
+              "definition_quote": "",
+              "value_list_verbatim": ["marketing research", "marketing strategy formulation", "marketing actions related to the marketing mix instruments"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "the marketing cycle stage (i.e., marketing research, marketing strategy formulation, marketing actions related to the marketing mix instruments)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8a1d75ab975b621f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "euia-six-levels",
+          "scheme_name_verbatim": "Escala de Uso de la IA (EUIA; Scale of AI Use)",
+          "source_ref": "doi:10.47408/jldhe.vi39.1664",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "piloted with participants in the 'CAIE2X Strategies for the Integration of AI in Assessment' module",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "levels of interaction",
+              "definition_quote": "provides adaptable assignment instructions, design examples, and an overview of the digital skills developed at that stage",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The framework consists of six levels of interaction for Generative AI (GenAI) in assessment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "030b108982e2bc26",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "mds-aimt-considerations",
+          "scheme_name_verbatim": "Minimum Disclosure Standard for AI-mediated translation (MDS-AIMT)",
+          "source_ref": "doi:10.1177/10497323261458992",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the selection and use of translation tools",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "specifying considerations for authors regarding the selection and use of translation tools, the languages involved, the verification processes employed"
+            },
+            {
+              "dimension_label_verbatim": "the languages involved",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "the languages involved, the verification processes employed, data governance protocols"
+            },
+            {
+              "dimension_label_verbatim": "the verification processes employed",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "the verification processes employed, data governance protocols, the alignment of analysis methodologies"
+            },
+            {
+              "dimension_label_verbatim": "data governance protocols",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "data governance protocols, the alignment of analysis methodologies, and the incorporation of AI-specific reflexivity"
+            },
+            {
+              "dimension_label_verbatim": "the alignment of analysis methodologies",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "the alignment of analysis methodologies, and the incorporation of AI-specific reflexivity in their work"
+            },
+            {
+              "dimension_label_verbatim": "the incorporation of AI-specific reflexivity",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "abstract",
+              "quote": "the incorporation of AI-specific reflexivity in their work"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "65fccd2b793d1a49",
+      "has_scheme": false,
+      "reason": "recommends structured reflexivity statements accompany manuscripts from international partnerships but the abstract states this recommendation without enumerating the specific questions or categories those statements must address"
+    },
+    {
+      "rec_id": "d6c166dd0c9cb34c",
+      "has_scheme": false,
+      "reason": "the review's own analytical lens splits into two populations (student use, lecturer use of AI) for the purpose of its critical discourse analysis; this is the review's organizing structure, not a disclosure, attribution, or provenance category scheme"
+    },
+    {
+      "rec_id": "26824988c12d9cff",
+      "has_scheme": false,
+      "reason": "applies an existing AI Assessment Scale (AIAS) to classify course syllabi, but the abstract does not enumerate the AIAS levels themselves"
+    },
+    {
+      "rec_id": "5fdea57bb32ad25f",
+      "has_scheme": false,
+      "reason": "states that guiding principles for data citation exist but the abstract does not enumerate them"
+    },
+    {
+      "rec_id": "2b55a63fc55c7615",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gaidet-research-domains",
+          "scheme_name_verbatim": "Generative AI Delegation Taxonomy (GAIDeT)",
+          "source_ref": "doi:10.1080/08989621.2025.2544331",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "conceptualization",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It classifies research activities into key domains - conceptualization, literature review, methodology, data analysis, writing, supervision, and ethical review"
+            },
+            {
+              "dimension_label_verbatim": "literature review",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It classifies research activities into key domains - conceptualization, literature review, methodology, data analysis, writing, supervision, and ethical review"
+            },
+            {
+              "dimension_label_verbatim": "methodology",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It classifies research activities into key domains - conceptualization, literature review, methodology, data analysis, writing, supervision, and ethical review"
+            },
+            {
+              "dimension_label_verbatim": "data analysis",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It classifies research activities into key domains - conceptualization, literature review, methodology, data analysis, writing, supervision, and ethical review"
+            },
+            {
+              "dimension_label_verbatim": "writing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It classifies research activities into key domains - conceptualization, literature review, methodology, data analysis, writing, supervision, and ethical review"
+            },
+            {
+              "dimension_label_verbatim": "supervision",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It classifies research activities into key domains - conceptualization, literature review, methodology, data analysis, writing, supervision, and ethical review"
+            },
+            {
+              "dimension_label_verbatim": "ethical review",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It classifies research activities into key domains - conceptualization, literature review, methodology, data analysis, writing, supervision, and ethical review"
+            },
+            {
+              "dimension_label_verbatim": "macro and corresponding micro levels",
+              "definition_quote": "specifying the degree of human oversight required",
+              "value_list_verbatim": ["macro", "micro"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It categorizes GAI's contributions at macro and corresponding micro levels, specifying the degree of human oversight required"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "bbdbe520a4f9c339",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sponsored-content-credibility-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "https://openalex.org/W2231920214",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "kirjallisuuskatsaus, jossa käydään läpi tieteellisissä journaaleissa julkaistuja vertaisarvioituja artikkeleita",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "ulottuvuudet",
+              "definition_quote": "",
+              "value_list_verbatim": ["Luotettavuus (trustworthiness)", "asiantuntijuus (expertise)", "esteettisyys (aesthetics)"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Luotettavuus (trustworthiness), asiantuntijuus (expertise) ja esteettisyys (aesthetics) ovat sen ulottuvuudet"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

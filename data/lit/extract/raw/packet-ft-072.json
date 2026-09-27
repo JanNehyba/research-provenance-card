@@ -1,0 +1,150 @@
+{
+  "packet_id": "ft-072",
+  "papers": [
+    {
+      "rec_id": "b57eeb4f559685c6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "von-mettenheim-wiedmann-influencer-transgressions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/17577632.2024.2361517",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "three broadly equivalent groups",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "misinformation and lie-based transgressions",
+                "offensive language",
+                "violations of virtual property and privacy"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "From fame to faux pas: mapping out SMI missteps and infractions",
+              "quote": "categorising inﬂuencer transgressions into three broadly equivalent groups"
+            }
+          ]
+        },
+        {
+          "scheme_id": "antoniou-smi-malpractice-four-themes",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/17577632.2024.2361517",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "systematic analysis of the UK advertising watchdog's (ASA) rulings involving social media influencers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Four overarching themes",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "promo-masquerade",
+                "risk-ﬂuence",
+                "mone-trapment",
+                "stereo-scripting"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Behind the posts: unmasking SMI malpractice through advertising standards",
+              "quote": "the fourth addresses stereotypical and damaging societal constructs, termed 'stereo-scripting'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "bc316987dba32004",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "hosseini-genai-writing-assistance-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1177/17470161251345499",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "specific uses of GenAI in writing assistance",
+              "definition_quote": "a taxonomy similar to the CRediT taxonomy of contributions can be developed to highlight specific uses of GenAI in writing assistance",
+              "value_list_verbatim": [
+                "Grammar Check",
+                "Style Enhancement",
+                "Content Summarization",
+                "Finding Examples to Improve Comprehension"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Toward a voluntary disclosure approach",
+              "quote": "Examples could include Grammar Check, Style Enhancement, Content Summarization, and Finding Examples to Improve Comprehension."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4b115792823cde21",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "bleher-braun-responsibility-attribution-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s43681-022-00135-x",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "three dimensions of the attribution of responsibility",
+              "definition_quote": "three dimensions of the attribution of responsibility, the causal, moral, and legal dimension, enabling us to systematically locate responsibility diffusions.",
+              "value_list_verbatim": [
+                "causal",
+                "moral",
+                "legal"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "1 Introduction",
+              "quote": "We will subsequently discuss three dimensions of the attribution of responsibility"
+            }
+          ]
+        },
+        {
+          "scheme_id": "bleher-braun-responsibility-management-factors",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s43681-022-00135-x",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "three factors",
+              "definition_quote": "we further propose an emphasis on three factors when approaching decision-making and the attribution of responsibility in light of diffusions",
+              "value_list_verbatim": [
+                "controllability options",
+                "participation",
+                "fault management"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 2",
+              "quote": "these factors are controllability options, participation, and fault management"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

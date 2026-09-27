@@ -1,0 +1,107 @@
+{
+  "packet_id": "ft-041",
+  "papers": [
+    {
+      "rec_id": "9ebe852de9607b1b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-assistance-depth-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.11114/jets.v15i1.9173",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "497 applicants with recorded AI involvement (editing only in 173, idea generation in 180, substantive generation in 144)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI depth",
+              "definition_quote": "AI assistance can be arranged along a functional continuum",
+              "value_list_verbatim": ["Editing", "idea generation", "substantive generation"],
+              "closed_or_open": "closed_list",
+              "locator": "2.2 A Functional Threshold in AI Assistance",
+              "quote": "Editing modifies expression without necessarily altering the underlying claim; idea generation proposes themes, structures or examples while the applicant composes the substantive content"
+            }
+          ]
+        },
+        {
+          "scheme_id": "disclosure-route-conditions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.11114/jets.v15i1.9173",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "disclosure route",
+              "definition_quote": "A usable classification would separate at least five conditions, ordered by the strength of the expectation placed on the applicant",
+              "value_list_verbatim": ["no identifiable route", "a general additional-information section", "AI disclosure invited but optional", "a dedicated mandatory AI question", "an attestation that the work is the applicant's own"],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "no identifiable route; a general additional-information section; AI disclosure invited but optional; a dedicated mandatory AI question"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "88509ce86abe3be9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "al-isnad-framework-knowledge-attribution",
+          "scheme_name_verbatim": "Al Isnād Framework for Knowledge Attribution",
+          "source_ref": "doi:10.6007/ijarbss/v15-i9/26451",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI isnād layer",
+              "definition_quote": "",
+              "value_list_verbatim": ["provenance", "transformation", "human-oversight metadata"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 2",
+              "quote": "embeds provenance, transformation, and human-oversight metadata"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "246cfec6664f2c92",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "trust-framework-doctoral-genai",
+          "scheme_name_verbatim": "TRUST framework",
+          "source_ref": "doi:10.67317/ijmsrt26sep073",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Element",
+              "definition_quote": "It translates the review findings into five governance principles that preserve human accountability and researcher agency",
+              "value_list_verbatim": ["Transparency", "Responsibility", "Understanding", "Supervision", "Tiered Use"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1. TRUST Framework for Responsible Generative AI in Doctoral Education",
+              "quote": "Transparency, Responsibility, \nUnderstanding, Supervision, and Tiered Use"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

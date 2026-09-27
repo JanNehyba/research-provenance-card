@@ -1,0 +1,118 @@
+{
+  "packet_id": "ft-065",
+  "papers": [
+    {
+      "rec_id": "5487b6040c5b5b3b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sensor-fused-ethics-design-space",
+          "scheme_name_verbatim": "The Ethical Design Space for Sensor-Fused LLMs",
+          "source_ref": "arXiv:2604.06203",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "1. Data Disclosure",
+              "definition_quote": "Granularity of revealed data",
+              "value_list_verbatim": ["Implicit (Context only)", "Explicit (Raw Signals)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Data disclosure determines the granularity of sensor-based information presented to users"
+            },
+            {
+              "dimension_label_verbatim": "2. Monitoring Temporality",
+              "definition_quote": "Timing of feedback",
+              "value_list_verbatim": ["On-Demand", "Continuous (Real-time)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "2. Monitoring Temporality\nTiming of feedback"
+            },
+            {
+              "dimension_label_verbatim": "3. Interpretation Framing",
+              "definition_quote": "Rhetorical mode of message",
+              "value_list_verbatim": ["Reflective (Inquiry)", "Suggestive (Directive)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "3. Interpretation Framing\nRhetorical mode of message"
+            },
+            {
+              "dimension_label_verbatim": "4. AI Stance",
+              "definition_quote": "Displayed confidence and role",
+              "value_list_verbatim": ["Humble (Uncertain)", "Authoritative (Objective)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "4. AI Stance\nDisplayed confidence and role"
+            },
+            {
+              "dimension_label_verbatim": "5. Contestability",
+              "definition_quote": "User’s ability to correct",
+              "value_list_verbatim": ["Fixed (Fact)", "Correctable (Negotiable)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Contestability is a fundamental safety mechanism, not merely a UI option, enabling users to reflect, revise, or reject interpretations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "df5413b4348f741a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cem-art109-industry-relationship-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5935/2238-3182.20160143",
+          "domain": "law_regulation",
+          "artifact_type": "policy",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "declarar relações com a indústria de medicamentos, órteses, próteses, equipamentos, implantes de qualquer natureza",
+              "definition_quote": "",
+              "value_list_verbatim": ["medicamentos", "órteses", "próteses", "equipamentos", "implantes"],
+              "closed_or_open": "open_text",
+              "locator": "CEM, art. 109",
+              "quote": "declarar relações com a indústria de medicamentos, órteses, próteses, equipamentos, implantes de qualquer natureza e outras que possam configurar conflitos de interesses"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "dc875a57deee3636",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "zkp-image-provenance-claim-types",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2608.07063",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "image-provenance use cases",
+              "definition_quote": "",
+              "value_list_verbatim": ["Location privacy", "Likeness provenance", "Fingerprint-based recovery"],
+              "closed_or_open": "closed_list",
+              "locator": "Introduction",
+              "quote": "We demonstrated this idea across three image-provenance use cases"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

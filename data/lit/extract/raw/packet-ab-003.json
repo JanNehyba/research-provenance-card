@@ -1,0 +1,163 @@
+{
+  "packet_id": "003",
+  "papers": [
+    {
+      "rec_id": "24f33da82cb9cdc4",
+      "has_scheme": false,
+      "reason": "abstract enumerates three framing/reframing/preframing practices for classifying influencer-marketing 'gift' exchanges, but these describe marketing/tax framing practices, not a disclosure, attribution, or provenance scheme for a produced artifact"
+    },
+    {
+      "rec_id": "3ff322e1f8e97e28",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "deepfake-regulation-four-inquiries",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.66856/ijlpsr.2026.8.3.8150",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "four inquiries",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Source",
+                "Identity",
+                "Context",
+                "Circulation"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "It argues for an integrated framework based on four inquiries: Source, Identity, Context and Circulation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ce5cc472aaa6d09d",
+      "has_scheme": false,
+      "reason": "abstract mentions a taxonomy of AI assistance and a checklist for separating exposition from genuine mathematical progress but does not enumerate their categories or items"
+    },
+    {
+      "rec_id": "355bb6e7b68aaf0a",
+      "has_scheme": false,
+      "reason": "abstract names the CRediT (Contributor Roles Taxonomy) as a machine-readable standard but does not enumerate its contributor roles"
+    },
+    {
+      "rec_id": "1cb5a51a720d76af",
+      "has_scheme": false,
+      "reason": "abstract uses the existing AI Assessment Scale (AIAS) as a lens for studying student critical-evaluation skills but does not enumerate the scale's levels"
+    },
+    {
+      "rec_id": "c21de1c9843129ae",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "graduated-ai-disclosure-framework-biomedical",
+          "scheme_name_verbatim": "graduated disclosure framework for AI contributions in biomedical publications",
+          "source_ref": "doi:10.1097/io9.0000000000000370",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "guidance documents and editorials published between 2023 and early 2026",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the level of AI involvement in research and writing",
+              "definition_quote": "the level of disclosure should be proportional to the impact of AI on the contents of the manuscript",
+              "value_list_verbatim": [
+                "Level 1 (minimal)",
+                "Level 2 (standard)",
+                "Level 3 (enhanced)",
+                "Level 4 (critical)",
+                "Never"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we outline a system of graduated levels of disclosure regarding the use of AI (Table 2 and the flowchart shown in Figure 1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e520b9128ec4f86c",
+      "has_scheme": false,
+      "reason": "abstract examines how graduate educators experience selecting a level on the existing AI Assessment Scale (AIAS), but does not enumerate the scale's levels"
+    },
+    {
+      "rec_id": "3d07a116d5ba53db",
+      "has_scheme": false,
+      "reason": "abstract states the AIAS scale maintains five distinct levels of GenAI integration in assessment but the text is cut off before naming the levels"
+    },
+    {
+      "rec_id": "39ed67caaab6599b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-pgm-levels",
+          "scheme_name_verbatim": "AI principled governance matrix (AI-PGM)",
+          "source_ref": "doi:10.17705/1jais.00863",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "different levels",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "the author-researcher team",
+                "the organization",
+                "the industry",
+                "government regulation"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "countermeasures for risks can be employed at the levels of the author-researcher team, the organization, the industry, and by government regulation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "990ee4c262f022a8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "voice-attribution-verification-gaps",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/23311983.2026.2696098",
+          "domain": "journalism_media",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "two synthetic-audio incidents in the United Kingdom",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "three verification gaps",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "attribution",
+                "source",
+                "response"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "develops a framework of three verification gaps: attribution, source, and response"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

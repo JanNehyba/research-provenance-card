@@ -1,0 +1,139 @@
+{
+  "packet_id": "ft-062",
+  "papers": [
+    {
+      "rec_id": "337c1779e0f83fc8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-check-contributor-roles",
+          "scheme_name_verbatim": "CASRAI Contributor Role Taxonomy (CRediT)",
+          "source_ref": "https://openalex.org/W3011339332",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "contributor roles",
+              "definition_quote": "",
+              "value_list_verbatim": ["writing", "analysis", "supplying study resources", "project admin"],
+              "closed_or_open": "closed_list",
+              "locator": "Page 1 of 4",
+              "quote": "It lists 14 contributor roles, some of which you might expect (writing, analysis) and some of which you might not"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "fa75517b16e0c7d8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "tadirah-taxonomy-of-activities",
+          "scheme_name_verbatim": "Taxonomy of Digital Research Activities in the Humanities (TaDiRAH)",
+          "source_ref": "doi:10.63744/y8k37tvthgms",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://github.com/dhtaxonomy/TaDiRAH/blob/master/reference/activities.md",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "taxonomy of activities",
+              "definition_quote": "",
+              "value_list_verbatim": ["community_building", "teaching_and_learning"],
+              "closed_or_open": "closed_list",
+              "locator": "Narrative / History / Taxonomy",
+              "quote": "TaDIRAH includes “community_building” and “teaching_and_learning” in the taxonomy of activities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4deb8b802ccf64af",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-aligned-assessment-framework",
+          "scheme_name_verbatim": "AI-Aligned Assessment Framework",
+          "source_ref": "doi:10.33422/icate.v3i1.2114",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "a systematic literature review, following PRISMA guidelines (Page et al., 2021)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Critical Judgement",
+              "definition_quote": "AI-aligned assessment should require students to interpret information, compare alternatives, and justify decisions",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.1 Principle One: Critical Judgement",
+              "quote": "Can students justify and defend their conclusions?"
+            },
+            {
+              "dimension_label_verbatim": "Ethical AI Use",
+              "definition_quote": "Operationalising this principle requires assessment-specific guidance on permitted and prohibited uses, student AI-use declarations, responsibility for verifying AI-generated content, and clearly communicated consequences",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.2 Principle Two: Ethical AI Use",
+              "quote": "Prohibition is not a sustainable response to widespread GenAI use."
+            },
+            {
+              "dimension_label_verbatim": "Scenario-Based Application",
+              "definition_quote": "Scenario-Based Application requires students to apply disciplinary knowledge within situated problems involving incomplete information and competing constraints.",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.3 Principle Three: Scenario-Based Application",
+              "quote": "Can students apply knowledge under uncertainty and competing constraints?"
+            },
+            {
+              "dimension_label_verbatim": "Learning Process Visibility",
+              "definition_quote": "Evidence of learning development",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2: Summary of the AI-Aligned Assessment Framework",
+              "quote": "Can the development of the student’s thinking be observed?"
+            },
+            {
+              "dimension_label_verbatim": "Transparent Student–AI Collaboration",
+              "definition_quote": "Critical AI literacy",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2: Summary of the AI-Aligned Assessment Framework",
+              "quote": "Can students explain, evaluate and take responsibility for their AI use?"
+            }
+          ]
+        },
+        {
+          "scheme_id": "aias-ai-assessment-scale",
+          "scheme_name_verbatim": "AI Assessment Scale (AIAS)",
+          "source_ref": "doi:10.33422/icate.v3i1.2114",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "levels of AI use",
+              "definition_quote": "a structured, non-hierarchical approach ranging from no AI use to full AI exploration",
+              "value_list_verbatim": ["no AI use", "full AI exploration"],
+              "closed_or_open": "closed_list",
+              "locator": "4.2 Principle Two: Ethical AI Use",
+              "quote": "where the AIAS specifies acceptable levels of AI use, the AI-Aligned Assessment Framework specifies the characteristics"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "packet_id": "ab-017",
+  "papers": [
+    {
+      "rec_id": "936c5a37489481d1",
+      "has_scheme": false,
+      "reason": "applies the existing CRediT criteria to AI authorship, stating AI satisfied 3 of the 14 criteria, but the abstract does not enumerate the criteria themselves; no new scheme is proposed"
+    },
+    {
+      "rec_id": "a33efc0d2f143413",
+      "has_scheme": false,
+      "reason": "the retrieved text file is truncated mid-sentence after roughly one sentence; no categories or scheme content are present in the available text"
+    },
+    {
+      "rec_id": "3140532921e3d03c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "elm-effectiveness-legitimacy-matrix",
+          "scheme_name_verbatim": "Effectiveness–Legitimacy Matrix (ELM)",
+          "source_ref": "doi:10.1080/02642069.2026.2702956",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "effectiveness",
+              "definition_quote": "the fit between technological capabilities and research task characteristics",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "effectiveness (the fit between technological capabilities and research task characteristics) and legitimacy (the alignment with institutional rules and professional norms)"
+            },
+            {
+              "dimension_label_verbatim": "legitimacy",
+              "definition_quote": "the alignment with institutional rules and professional norms",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "effectiveness (the fit between technological capabilities and research task characteristics) and legitimacy (the alignment with institutional rules and professional norms)"
+            },
+            {
+              "dimension_label_verbatim": "configurations",
+              "definition_quote": "",
+              "value_list_verbatim": ["aligned", "misguided", "norm-breaking", "dead-end use"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "The ELM identifies four configurations (aligned, misguided, norm-breaking, and dead-end use), each associated with distinct methodological and governance implications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "973ce0b90ae361d9",
+      "has_scheme": false,
+      "reason": "abstract states compliance is scored across 20 disclosure elements and 11 regulatory jurisdictions but only names 4 example jurisdictions (EU AI Act, GDPR, CCPA, China's Generative AI Provisions) and never enumerates the 20 disclosure elements themselves"
+    },
+    {
+      "rec_id": "8bad1b1dff87d322",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gaidet-generative-ai-delegation-taxonomy-policy",
+          "scheme_name_verbatim": "GAIDeT (Generative AI Delegation Taxonomy)",
+          "source_ref": "doi:10.5281/zenodo.17184208",
+          "domain": "research_publishing",
+          "artifact_type": "policy",
+          "granularity": "not_stated",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "tools",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "ensuring consistent reporting of tools, versions, and delegated tasks"
+            },
+            {
+              "dimension_label_verbatim": "versions",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "ensuring consistent reporting of tools, versions, and delegated tasks"
+            },
+            {
+              "dimension_label_verbatim": "delegated tasks",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "ensuring consistent reporting of tools, versions, and delegated tasks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "bbccc2771428ef53",
+      "has_scheme": false,
+      "reason": "names and describes the purpose and development roadmap of the GAIDeT taxonomy but does not enumerate its categories or dimensions in this abstract"
+    },
+    {
+      "rec_id": "9cf2a5fbc99391c1",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "tiktok-commercial-content-ways",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/1369118x.2025.2588348",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "ethnographic content analysis of 1,390 TikTok videos published by 30 influencers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "ways",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "playful portraits",
+                "informative tutorials",
+                "product testing and recommendations",
+                "commercialized lifestyles"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "we identify four dominant ways in which commercial messages are presented: (1) playful portraits, (2) informative tutorials, (3) product testing and recommendations, and (4) commercialized lifestyles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "41b6c6ad4667a7c7",
+      "has_scheme": false,
+      "reason": "this is a protocol describing the six-stage methodology to develop the future STARD-AI checklist; the checklist's own reporting items are not yet enumerated in this abstract"
+    },
+    {
+      "rec_id": "148e2c07ce025e19",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "hpe-journals-ai-guidance-themes",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1080/0142159x.2026.2712427",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "corpus of texts relating to the use of AI in HPE journals from 22 HPE journals, 6 respective publishers and the Committee on Publication Ethics (COPE) policies in January 2026",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "themes",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Accountable governance",
+                "Protection of ethical standards",
+                "Safeguarding of research integrity",
+                "Maintenance of human oversight",
+                "Balancing of opportunities and risk"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Five main themes were identified from the analysis: 1) Accountable governance, 2) Protection of ethical standards, 3) Safeguarding of research integrity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "883fae5a5a9313f1",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "honorary-authorship-modalities",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3390/medicina56030123",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "modalities of honorary authorship",
+              "definition_quote": "",
+              "value_list_verbatim": ["gift authorship", "guest authorship", "coercive authorship"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "Three different modalities of honorary authorship were distinguished: gift authorship, guest authorship, and coercive authorship."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

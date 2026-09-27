@@ -1,0 +1,166 @@
+{
+  "packet_id": "ft-080",
+  "papers": [
+    {
+      "rec_id": "9781e8e63c72887f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "fair-practices-table3-repository-comparison",
+          "scheme_name_verbatim": "FAIR practices across data repositories",
+          "source_ref": "doi:10.3389/fninf.2023.1276407",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "five large brain repositories where the principal investigators have been active through the INCF",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {"dimension_label_verbatim": "F1. Globally unique identifier", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "F1. Globally unique identifier"},
+            {"dimension_label_verbatim": "F2. Rich metadata", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "F2. Rich metadata"},
+            {"dimension_label_verbatim": "A1. Retrievable by identifier", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "A1. Retrievable by identifier"},
+            {"dimension_label_verbatim": "A1.1 Free, open, universal retrieval protocol", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "A1.1 Free, open, universal retrieval protocol"},
+            {"dimension_label_verbatim": "F4. Registered in a searchable resource", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "F4. Registered in a searchable resource"},
+            {"dimension_label_verbatim": "A1.2: Authentication and authorization", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "A1.2: Authentication and authorization"},
+            {"dimension_label_verbatim": "R1.1: Clear data usage license", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "R1.1: Clear data usage license"},
+            {"dimension_label_verbatim": "R1.3: Community standards", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "R1.3: Community standards"},
+            {"dimension_label_verbatim": "F3: Metadata contains identifier", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "F3: Metadata contains identifier"},
+            {"dimension_label_verbatim": "I1: Formal knowledge representation language", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "I1: Formal knowledge representation language"},
+            {"dimension_label_verbatim": "R1: Plurality of relevant attributes", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "R1: Plurality of relevant attributes"},
+            {"dimension_label_verbatim": "I2: FAIR vocabularies", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "I2: FAIR vocabularies"},
+            {"dimension_label_verbatim": "I3: Qualified references to other metadata", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "I3: Qualified references to other metadata"},
+            {"dimension_label_verbatim": "R1.2: Provenance", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "R1.2: Provenance"},
+            {"dimension_label_verbatim": "A2: Metadata persistence", "definition_quote": "", "value_list_verbatim": [], "closed_or_open": "not_stated", "locator": "Table 3", "quote": "A2: Metadata persistence"}
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "704d2cd8fac44707",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "two-lane-approach-ai-assessment",
+          "scheme_name_verbatim": "the two-lane approach",
+          "source_ref": "doi:10.1007/s40979-025-00207-5",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the two-lane approach",
+              "definition_quote": "regulate AI use in assessment",
+              "value_list_verbatim": ["first lane", "second lane"],
+              "closed_or_open": "closed_list",
+              "locator": "Redefining plagiarism in the era of GenAI",
+              "quote": "In the first lane, students are less likely to use AI in assessment tasks"
+            }
+          ]
+        },
+        {
+          "scheme_id": "traffic-light-approach-ai-use",
+          "scheme_name_verbatim": "the traffic light approach",
+          "source_ref": "doi:10.1007/s40979-025-00207-5",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "traffic light system",
+              "definition_quote": "different colors indicate varying levels of AI use",
+              "value_list_verbatim": [
+                "red prohibits the use of AI tools",
+                "green allows to use AI",
+                "yellow represents the limited use of AI tools"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Redefining plagiarism in the era of GenAI",
+              "quote": "red prohibits the use of AI tools, green allows to use AI, and yellow represents the limited use of AI tools"
+            }
+          ]
+        },
+        {
+          "scheme_id": "aias-five-levels",
+          "scheme_name_verbatim": "AI assessment scale (AIAS)",
+          "source_ref": "doi:10.1007/s40979-025-00207-5",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "piloted in a university in Vietnam",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "five levels",
+              "definition_quote": "categorizing AI usage into five levels",
+              "value_list_verbatim": [
+                "no AI use",
+                "AI only for idea generation",
+                "AI only for editing",
+                "human evaluation of AI-assisted tasks",
+                "full AI use"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Redefining plagiarism in the era of GenAI",
+              "quote": "a more detailed framework with five AI assessment scales has been introduced"
+            }
+          ]
+        },
+        {
+          "scheme_id": "vietnamese-chatgpt-plagiarism-coding-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1007/s40979-025-00207-5",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "self_report",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "initial coding categories",
+              "definition_quote": "identifying key concepts or variables that serve as initial coding categories",
+              "value_list_verbatim": ["plagiarism", "citation and reference", "reasons for not citing ChatGPT"],
+              "closed_or_open": "closed_list",
+              "locator": "Data analysis",
+              "quote": "with the data systematically coded into categories such as plagiarism"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b94b3275148d756b",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "distinctly-human-contributions-two-categories",
+          "scheme_name_verbatim": "distinctly human contributions",
+          "source_ref": "doi:10.1093/reseval/rvag020",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "distinctly human contributions",
+              "definition_quote": "indispensable to research, but which are inadequately captured by metrics",
+              "value_list_verbatim": ["the epistemic-ethical category", "the socio-relational category"],
+              "closed_or_open": "closed_list",
+              "locator": "Abstract",
+              "quote": "the epistemic-ethical category, encompassing situated judgment under accountability"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

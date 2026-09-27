@@ -1,0 +1,181 @@
+{
+  "packet_id": "ft-029",
+  "papers": [
+    {
+      "rec_id": "2d3c150cf3c174e9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "bobier-ai-policy-consensus-practices",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1186/s12910-025-01239-9",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "50 bioethics and health humanities journals (54 identified, 4 excluded)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "not_stated",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "AI does not meet the standards of authorship and accordingly cannot be listed as an author",
+                "authors are responsible for the content of their submission",
+                "authors should declare their use of AI to the editors as well as acknowledge it in the manuscript itself",
+                "reli-\nance upon AI should not be substantial"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Discussion",
+              "quote": "First, AI does not meet the standards of authorship and accordingly cannot be listed as an author."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "553aeb9388d97d01",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "jmv-ai-policy-comparison",
+          "scheme_name_verbatim": "COMPARATIVE OVERVIEW OF AI POLICIES IN SCHOLARLY PUBLISHING",
+          "source_ref": "doi:10.57019/jmv.1899774",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI Use by Authors",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Limited use for language editing",
+                "Limited use for editing support",
+                "Limited use for language editing",
+                "Limited use for language improvement and technical assistance",
+                "Limited use for language refinement and editorial assistance"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE II",
+              "quote": "AI Use by Authors"
+            },
+            {
+              "dimension_label_verbatim": "AI in Peer Review",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Strong caution regarding use in peer review",
+                "Advised against uploading manuscripts to AI systems",
+                "Prohibits uploading manuscripts to AI systems",
+                "Peer reviewers must not rely on AI for generating review reports",
+                "AI allowed for administrative support under human supervision"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE II",
+              "quote": "AI in Peer Review"
+            },
+            {
+              "dimension_label_verbatim": "AI Authorship Policy",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "AI cannot be credited as an author",
+                "AI cannot be credited as an author",
+                "AI cannot be credited as an author",
+                "AI cannot be credited as an author",
+                "AI cannot be an author"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE II",
+              "quote": "AI Authorship Policy"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure Requirement",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Disclosure encouraged",
+                "Mandatory disclosure of AI assistance",
+                "Disclosure required",
+                "Disclosure required",
+                "Mandatory AI-use declaration"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE II",
+              "quote": "Disclosure Requirement"
+            },
+            {
+              "dimension_label_verbatim": "Key Governance Principle",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Human accountability & transparency",
+                "Responsibility remains with human authors",
+                "Protection of confidentiality and research integrity",
+                "Transparency and editorial oversight",
+                "Human-in-the-loop \ngovernance and domain-\nspecific safeguards"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE II",
+              "quote": "Key Governance Principle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "0578b998ad26e7f4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.48550/arxiv.2504.02769",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "roles",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "conceptualization", "data curation", "formal analysis", "funding acquisition",
+                "investigation", "methodology", "project administration", "resource management",
+                "software development", "supervision", "validation", "visualization", "writing", "revising"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "I Introduction",
+              "quote": "CRediT recommends that anyone involved in one of the 14 roles, including conceptualization, data curation, formal analysis, funding acquisition"
+            }
+          ]
+        },
+        {
+          "scheme_id": "fibonacci-credit-allocation",
+          "scheme_name_verbatim": "Fibonacci-adjusted contributions",
+          "source_ref": "doi:10.48550/arxiv.2504.02769",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "citation datasets by field (e.g., Mathematics, Biology)",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Rank",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "1.0000", "1.0000", "0.5000", "0.3333", "0.2000", "0.1250", "0.0769",
+                "0.0476", "0.0294", "0.0182", "0.0112", "0.0069", "0.0042"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE II",
+              "quote": "Table II shows credits allocated by the reciprocals of the Fibonacci numbers for an example publication with 13 authors."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

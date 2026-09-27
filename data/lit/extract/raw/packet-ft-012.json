@@ -1,0 +1,126 @@
+{
+  "packet_id": "ft-012",
+  "papers": [
+    {
+      "rec_id": "a0520d8cc86001ff",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "critical-incident-authorship-problems",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1371/journal.pone.0023477",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "not_stated",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "problems with or misuse of authorship",
+              "definition_quote": "",
+              "value_list_verbatim": ["taking other’s ideas or manuscripts", "failure to give credit", "giving unwarranted credit"],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "Taking other’s ideas or manuscripts, failure to give credit and giving unwarranted credit were identified as most important problems in faculty-student collaboration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "c55da1a1abbb336d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aspph-ai-policy-thematic-codebook",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/fpubh.2026.1796810",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "18 policies",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI Use in the Classroom",
+              "definition_quote": "This theme primarily concerns governing AI use in learning environments in addition to considerations for instructors developing or enforcing AI use policies",
+              "value_list_verbatim": ["Tiered Usage Policies", "Instructor-Driven Policies", "Transparency", "Practicality", "Privacy Risk Transparency"],
+              "closed_or_open": "closed_list",
+              "locator": "Thematic analysis",
+              "quote": "This theme primarily concerns governing AI use in learning environments in addition to considerations for instructors developing or enforcing AI use policies."
+            },
+            {
+              "dimension_label_verbatim": "Misconduct Involving AI Use",
+              "definition_quote": "This theme concerns faculty enforcement of policies enforcing ethical and integrity-driven use of generative AI",
+              "value_list_verbatim": ["Broad Disciplinary Guidelines", "Established Processes", "Using AI Software to Determine AI Misuse", "Policies Governing AI Detection Use"],
+              "closed_or_open": "closed_list",
+              "locator": "Thematic analysis",
+              "quote": "This theme concerns faculty enforcement of policies enforcing ethical and integrity-driven use of generative AI, in addition to stipulations on the use of AI detection software."
+            },
+            {
+              "dimension_label_verbatim": "AI Use and Academic Integrity",
+              "definition_quote": "This theme primarily dealt with the broad governance of student AI use",
+              "value_list_verbatim": ["Prohibition Sans Instructor Approval", "Prohibition Sans Human Involvement", "All AI Use Must be Cited", "Student Accountability and Responsibility"],
+              "closed_or_open": "closed_list",
+              "locator": "Thematic analysis",
+              "quote": "This theme primarily dealt with the broad governance of student AI use."
+            },
+            {
+              "dimension_label_verbatim": "Sensitive Data Governance",
+              "definition_quote": "This theme concerned preventing violations of data privacy and security via regulation of data entry into LLMs",
+              "value_list_verbatim": ["Blanket Bans to Sensitive Data Input", "Tiered Bans to Sensitive Data Input", "Software Procurement"],
+              "closed_or_open": "closed_list",
+              "locator": "Thematic analysis",
+              "quote": "This theme concerned preventing violations of data privacy and security via regulation of data entry into LLMs."
+            },
+            {
+              "dimension_label_verbatim": "Ethical Implications of AI Use in the University Setting",
+              "definition_quote": "This theme focused on the intersection of research integrity and AI use as a complex and potentially problematic subject",
+              "value_list_verbatim": ["Research Integrity", "Intellectual Property Concerns", "Funding Agency Guidelines"],
+              "closed_or_open": "closed_list",
+              "locator": "Thematic analysis",
+              "quote": "This theme focused on the intersection of research integrity and AI use as a complex and potentially problematic subject."
+            },
+            {
+              "dimension_label_verbatim": "Extra-Institutional Considerations",
+              "definition_quote": "",
+              "value_list_verbatim": ["Aligning with Federal and State Law", "Onus of Responsibility on the Individual", "Potential for Harm as a Result of AI Use"],
+              "closed_or_open": "closed_list",
+              "locator": "Thematic analysis",
+              "quote": "“Extra-Institutional Considerations” contained two subthemes and two categories with all stakeholders as an audience"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f17b6d8d1f311029",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "claim-checklist-underreported-items",
+          "scheme_name_verbatim": "Checklist for Artificial Intelligence in Medical Imaging",
+          "source_ref": "doi:10.4274/dir.2025.243182",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "CLAIM items",
+              "definition_quote": "the CLAIM featured a 42-item checklist to help authors and reviewers achieve clear, comprehensive, and reproducible reporting in AI studies",
+              "value_list_verbatim": ["de-identification methods (item#12)", "missing data handling (item#13)", "sample size determination (item#19)", "statistical significance and uncertainty (item#29)", "explainability methods (item#31)", "participant flow (item#33)", "demographic data (item#34)", "diagnostic accuracy estimates (item#36)", "failure analysis (item#37)", "registration details (item#40)", "protocol access (item#41)"],
+              "closed_or_open": "closed_list",
+              "locator": "449",
+              "quote": "Eleven items were underreported in ≥50% of studies: de-identification methods (item#12), missing data handling (item#13)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "packet_id": "ft-018",
+  "papers": [
+    {
+      "rec_id": "8f208865a611e030",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "editorial-ai-disclosure-coding-fields",
+          "scheme_name_verbatim": "Data Extraction and Coding Fields",
+          "source_ref": "doi:10.37226/rcp.v10i1.17451",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "19 included",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Metadata",
+              "definition_quote": "",
+              "value_list_verbatim": ["Issuing entity", "URL/DOI", "date/version"],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "Metadata \nIssuing entity; URL/DOI; date/version \nFree text + ISO 8601 date"
+            },
+            {
+              "dimension_label_verbatim": "Authorship",
+              "definition_quote": "Is AI allowed as an author?",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Authorship \nIs AI allowed as an author? \nYes/No (with citation of policy)"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure",
+              "definition_quote": "Is disclosure mandatory or optional?",
+              "value_list_verbatim": ["Yes", "No", "Not specified"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Disclosure \nIs disclosure mandatory or optional? \nYes/No/Not specified"
+            },
+            {
+              "dimension_label_verbatim": "Location",
+              "definition_quote": "Where the disclosure should appear",
+              "value_list_verbatim": ["Methods", "Acknowledgments", "Dedicated section", "Submission form"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Location \nWhere the disclosure should appear \nMethods / Acknowledgments / Dedicated \nsection / Submission form"
+            },
+            {
+              "dimension_label_verbatim": "Level of Detail",
+              "definition_quote": "",
+              "value_list_verbatim": ["Present", "Absent"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Level of Detail \nTool and provider; version/date; tasks performed; \nprompts/parameters; human verification and oversight \nPresent / Absent (with text examples)"
+            },
+            {
+              "dimension_label_verbatim": "Images/Figures",
+              "definition_quote": "Generation or alteration by AI",
+              "value_list_verbatim": ["Prohibited", "Permitted with conditions", "Not stated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Images/Figures \nGeneration or alteration by AI \nProhibited / Permitted with conditions / Not stated"
+            },
+            {
+              "dimension_label_verbatim": "Code and Data",
+              "definition_quote": "AI-generated or assisted code/data",
+              "value_list_verbatim": ["Permitted with conditions", "Prohibited", "Not stated"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Code and Data \nAI-generated or assisted code/data \nPermitted with conditions / Prohibited / Not stated"
+            },
+            {
+              "dimension_label_verbatim": "Peer Review",
+              "definition_quote": "Use of AI by reviewers/editors",
+              "value_list_verbatim": ["Prohibited", "Permitted with conditions"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Peer Review \nUse of AI by reviewers/editors \nProhibited / Permitted with conditions"
+            },
+            {
+              "dimension_label_verbatim": "Confidentiality & IP",
+              "definition_quote": "Rules on privacy, licensing, and intellectual property",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "Confidentiality & IP Rules on privacy, licensing, and intellectual property \nRepresentative literal excerpt"
+            },
+            {
+              "dimension_label_verbatim": "Cross-References",
+              "definition_quote": "Related guidelines (e.g., EQUATOR)",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "Cross-References \nRelated guidelines (e.g., EQUATOR) \nURL"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-use-12-instrument",
+          "scheme_name_verbatim": "AI Use Disclosure for Research Articles (AI-Use-12)",
+          "source_ref": "doi:10.37226/rcp.v10i1.17451",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "19 included",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Tool and provider",
+              "definition_quote": "Commercial name and company (e.g., ChatGPT, OpenAI)",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Tool and provider \nCommercial name and company (e.g., ChatGPT, OpenAI)"
+            },
+            {
+              "dimension_label_verbatim": "Version and date of use",
+              "definition_quote": "System version and time of access",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Version and date of use \nSystem version and time of access"
+            },
+            {
+              "dimension_label_verbatim": "Purpose of use",
+              "definition_quote": "Purpose (e.g., linguistic editing, organization, code, tables)",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Purpose of use \nPurpose (e.g., linguistic editing, organization, code, tables)"
+            },
+            {
+              "dimension_label_verbatim": "Scope / Sections affected",
+              "definition_quote": "Parts of the manuscript where AI was applied",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Scope / Sections affected \nParts of the manuscript where AI was applied"
+            },
+            {
+              "dimension_label_verbatim": "Human oversight",
+              "definition_quote": "Who reviewed and approved the AI-assisted content",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Human oversight \nWho reviewed and approved the AI-assisted content"
+            },
+            {
+              "dimension_label_verbatim": "Fact and reference verification",
+              "definition_quote": "How accuracy and citations were verified",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Fact and reference verification \nHow accuracy and citations were verified"
+            },
+            {
+              "dimension_label_verbatim": "Relevant prompts/parameters",
+              "definition_quote": "Only if they affect results, figures, or code; include in supplement",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Relevant prompts/parameters \nOnly if they affect results, figures, or code; include in supplement"
+            },
+            {
+              "dimension_label_verbatim": "Images/Figures",
+              "definition_quote": "Whether any image/figure was generated or modified with AI and under what conditions",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Images/Figures \nWhether any image/figure was generated or modified with AI and under \nwhat conditions"
+            },
+            {
+              "dimension_label_verbatim": "Code and data",
+              "definition_quote": "Whether synthetic code/data were generated and how they were verified",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Code and data \nWhether synthetic code/data were generated and how they were verified"
+            },
+            {
+              "dimension_label_verbatim": "Privacy/Confidentiality",
+              "definition_quote": "Confirmation that no sensitive material was uploaded to unapproved AI services",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Privacy/Confidentiality \nConfirmation that no sensitive material was uploaded to unapproved AI \nservices"
+            },
+            {
+              "dimension_label_verbatim": "Intellectual property and licensing",
+              "definition_quote": "How rights and licenses for AI-generated material were handled",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Intellectual property and licensing \nHow rights and licenses for AI-generated material were handled"
+            },
+            {
+              "dimension_label_verbatim": "Compliance with journal policy",
+              "definition_quote": "Confirmation that disclosure complies with journal rules and that AI was not used in peer review",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 4",
+              "quote": "Compliance with journal policy \nConfirmation that disclosure complies with journal rules and that AI was \nnot used in peer review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6ec826f8a112e53a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "pharmacology-source-checking-rubric",
+          "scheme_name_verbatim": "Proposed analytic rubric aligned with the five-step framework",
+          "source_ref": "doi:10.3389/fmed.2026.1910543",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Define the task and record AI use",
+              "definition_quote": "task definition and AI-use record",
+              "value_list_verbatim": ["Low", "Developing", "Satisfactory"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 5",
+              "quote": "1. Define the task and record AI use Tool, prompt or retained output is missing; purpose of use is unclear."
+            },
+            {
+              "dimension_label_verbatim": "Check drug claims with defined sources",
+              "definition_quote": "source checking",
+              "value_list_verbatim": ["Low", "Developing", "Satisfactory"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 5",
+              "quote": "2. Check drug claims with defined sources Important drug claims are unchecked, sources are inappropriate or fabricated, or discrepancies are ignored."
+            },
+            {
+              "dimension_label_verbatim": "Rebuild the pharmacological mechanism",
+              "definition_quote": "mechanism reconstruction",
+              "value_list_verbatim": ["Low", "Developing", "Satisfactory"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 5",
+              "quote": "3. Rebuild the pharmacological mechanism Mechanism is copied as prose or contains major pharmacological errors."
+            },
+            {
+              "dimension_label_verbatim": "Test the answer against patient context",
+              "definition_quote": "patient-context appraisal",
+              "value_list_verbatim": ["Low", "Developing", "Satisfactory"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 5",
+              "quote": "4. Test the answer against patient context Patient variables are absent or merely listed."
+            },
+            {
+              "dimension_label_verbatim": "Revise with feedback and justification",
+              "definition_quote": "revision with justification",
+              "value_list_verbatim": ["Low", "Developing", "Satisfactory"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 5",
+              "quote": "5. Revise with feedback and justification No meaningful revision or rationale is provided."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "14535bd05a651eb2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "documentation-adequacy-framework",
+          "scheme_name_verbatim": "documentation-adequacy framework",
+          "source_ref": "arXiv:2511.08639",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "five transparency elements",
+              "definition_quote": "operationalises Meaningful Human Control through five transparency elements",
+              "value_list_verbatim": [
+                "declaration",
+                "navigation",
+                "documentation account",
+                "process documentation",
+                "development records"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Abstract",
+              "quote": "We develop a documentation-adequacy framework that operationalises Meaningful Human Control through five transparency elements — declaration, navigation, documentation account, process documentation, and development records"
+            }
+          ]
+        },
+        {
+          "scheme_id": "jme-genai-use-declaration-tiers",
+          "scheme_name_verbatim": "Generative AI Use Declaration",
+          "source_ref": "arXiv:2511.08639",
+          "domain": "research_publishing",
+          "artifact_type": "policy",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "tiered options",
+              "definition_quote": "",
+              "value_list_verbatim": ["no use", "limited use of a specified kind", "substantial use"],
+              "closed_or_open": "closed_list",
+              "locator": "4. Why Existing AI-Disclosure Formats Don’t Fit Philosophy",
+              "quote": "The Journal of Medical Ethics now requires a structured Generative AI Use Declaration before the reference list, with tiered options"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

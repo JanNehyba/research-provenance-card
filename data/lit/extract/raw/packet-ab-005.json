@@ -1,0 +1,218 @@
+{
+  "packet_id": "005",
+  "papers": [
+    {
+      "rec_id": "3a4e6970a73a5b31",
+      "has_scheme": false,
+      "reason": "abstract names the GAIDeT (Generative AI Delegation Taxonomy) framework for delegation-based AI disclosure but does not enumerate its categories"
+    },
+    {
+      "rec_id": "ef01194b52a51b8b",
+      "has_scheme": false,
+      "reason": "abstract reports qualitative interview findings on data-sharing credit and authorship concerns; no category scheme is proposed or used"
+    },
+    {
+      "rec_id": "5edff4a6d812beb0",
+      "has_scheme": false,
+      "reason": "abstract lists key research themes (credibility and trust, human-machine collaboration, newsroom adoption, transparency and disclosure, ethical/regulatory challenges) from a literature review, but these are descriptive review themes, not a category scheme applied to disclosure, attribution, or provenance of a produced artifact"
+    },
+    {
+      "rec_id": "73f26a6a40081181",
+      "has_scheme": false,
+      "reason": "abstract states CRediT has 14 roles but does not enumerate the individual role names"
+    },
+    {
+      "rec_id": "c22c27a6743fa4ac",
+      "has_scheme": false,
+      "reason": "abstract names several existing frameworks (the 4As, Human-AI-Human 'Sandwich' model, TPACK, ACFI, AI Assessment Scale) without enumerating any of their categories or levels"
+    },
+    {
+      "rec_id": "ef7f74de3d60d146",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "dermatology-journals-genai-policy-characteristics",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1159/000550366",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "editorial_requirement",
+          "empirical_basis": "92 dermatology journals indexed in the 2024 Journal Citation Reports",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "GenAI-related policies",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "GenAI authorship",
+                "author accountability",
+                "ICMJE guidance",
+                "Disclosure of GenAI use",
+                "specification of tool version",
+                "manufacturer",
+                "GenAI image generation",
+                "ChatGPT",
+                "COPE membership",
+                "COPE AI guidance"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "GenAI-specific guidance was found in 82.6% of journals, with 60.5% linking to publisher-level policies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "bbeced6e4defaaf5",
+      "has_scheme": false,
+      "reason": "commentary on implementing the existing AI Assessment Scale (AIAS); lists implementation recommendations, not enumerated AIAS levels or a new category scheme"
+    },
+    {
+      "rec_id": "d6593d3647e23552",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "functional-taxonomy-ai-mediated-instruction",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.2139/ssrn.7419579",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "two of the only four studies an independent audit identified as meeting basic standards for causal interpretation",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "terminal objective",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "classifies any AI-mediated instructional arrangement along four dimensions — terminal objective, operation type, support persistence, and locus of responding"
+            },
+            {
+              "dimension_label_verbatim": "operation type",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "classifies any AI-mediated instructional arrangement along four dimensions — terminal objective, operation type, support persistence, and locus of responding"
+            },
+            {
+              "dimension_label_verbatim": "support persistence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "classifies any AI-mediated instructional arrangement along four dimensions — terminal objective, operation type, support persistence, and locus of responding"
+            },
+            {
+              "dimension_label_verbatim": "locus of responding",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "classifies any AI-mediated instructional arrangement along four dimensions — terminal objective, operation type, support persistence, and locus of responding"
+            },
+            {
+              "dimension_label_verbatim": "four outcomes",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "assisted performance",
+                "independent acquisition",
+                "AI-integrated performance",
+                "transfer"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "distinguishes four outcomes routinely conflated in this literature: assisted performance, independent acquisition, AI-integrated performance, and transfer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e497d3e10d534367",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "verifiable-vs-declared-integrity-questions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.17605/osf.io/tna23",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "two classes",
+              "definition_quote": "those a record can settle — sources retrieved, dates, parameters, tool and data versions — and those no record can reach",
+              "value_list_verbatim": [
+                "those a record can settle",
+                "those no record can reach"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "those a record can settle — sources retrieved, dates, parameters, tool and data versions — and those no record can reach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8a30cd4f5b13003f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "gait-2024-guidance",
+          "scheme_name_verbatim": "Generative AI Transparency (GAIT) guidance",
+          "source_ref": "doi:10.62463/surgery.134",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "124 participants from 46 countries",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "GAI use should be reported in a GAIT statement",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "(1) GAI use should be reported in a GAIT statement"
+            },
+            {
+              "dimension_label_verbatim": "GAI use should be mapped using the Contributor Roles Taxonomy",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "(2) GAI use should be mapped using the Contributor Roles Taxonomy"
+            },
+            {
+              "dimension_label_verbatim": "specific prompts used should be reported",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "(3) specific prompts used should be reported"
+            },
+            {
+              "dimension_label_verbatim": "authors should retain final responsibility for their work",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "abstract",
+              "quote": "(4) authors should retain final responsibility for their work"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

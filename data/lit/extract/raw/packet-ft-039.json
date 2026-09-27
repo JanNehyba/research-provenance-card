@@ -1,0 +1,85 @@
+{
+  "packet_id": "ft-039",
+  "papers": [
+    {
+      "rec_id": "c11f134f1a94aabf",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "chart-reporting-checklist",
+          "scheme_name_verbatim": "Chatbot Assessment Reporting Tool (CHART)",
+          "source_ref": "doi:10.1093/bjs/znaf142",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "an international, multidisciplinary, modified, asynchronous Delphi consensus process of 531 stakeholders, three synchronous panel consensus meetings of 48 stakeholders, and subsequent pilot testing of the checklist",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "items",
+              "definition_quote": "",
+              "value_list_verbatim": ["title", "abstract/summary", "background", "model identifiers", "model details", "prompt engineering", "query strategy", "performance evaluation", "sample size", "data analysis", "results", "discussion", "disclosures", "funding", "ethics", "protocol", "data availability"],
+              "closed_or_open": "closed_list",
+              "locator": "Abstract",
+              "quote": "CHART includes 12 items and 39 subitems to promote transparent and comprehensive reporting of chatbot health advice studies."
+            },
+            {
+              "dimension_label_verbatim": "fair use doctrine",
+              "definition_quote": "This principle is the first of four according to the fair use doctrine",
+              "value_list_verbatim": [
+                "purpose and character of use",
+                "nature of the original training data",
+                "amount and substantiality of original material used to train the generative AI model",
+                "impact on original work"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Copyright protections and fair use doctrine",
+              "quote": "This principle is the first of four according to the fair use doctrine, which are addressed throughout the CHART checklist"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1d3ad79d0e72e986",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "clear-radiomics-checklist",
+          "scheme_name_verbatim": "CheckList for EvaluAtion of Radiomics research (CLEAR)",
+          "source_ref": "doi:10.1186/s13244-023-01415-8",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "Prepared and revised by an international group  \nof experts using a modified Delphi method",
+          "machine_readable_artifact": "https://clearchecklist.github.io/clear_checklist/CLEAR.html",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Section",
+              "definition_quote": "",
+              "value_list_verbatim": ["Title", "Abstract", "Keywords", "Introduction", "Method", "Data", "Segmentation", "Pre-processing", "Feature extraction", "Data preparation", "Modeling", "Evaluation", "Results", "Discussion", "Open Science"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Table 1  CheckList for EvaluAtion of Radiomics research (CLEAR checklist)\nSection"
+            },
+            {
+              "dimension_label_verbatim": "Terminology used",
+              "definition_quote": "This checklist uses the following terminology to be con-\nsistent.",
+              "value_list_verbatim": ["training set", "validation set", "test set", "Instance"],
+              "closed_or_open": "closed_list",
+              "locator": "Terminology used",
+              "quote": "The terms “training set” and “validation set” are \nused for the data partitions with which the algorithm \nis trained and tuned, respectively."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "cd3c8ae3b34cdf9f",
+      "has_scheme": false,
+      "reason": "studies how three facets of human-AI collaboration (type of collaboration: ensemble vs. delegation; type of invocation: AI-invoked vs. human-invoked; quality of AI output: higher vs. lower) affect human perceptions, intentions, and knowledge experimentally; these are manipulated variables in behavioral experiments, not a scheme for disclosing or attributing AI involvement in a produced artifact"
+    }
+  ]
+}

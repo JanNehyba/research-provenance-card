@@ -1,0 +1,223 @@
+{
+  "packet_id": "ft-033",
+  "papers": [
+    {
+      "rec_id": "ce87746820da54ac",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "imrad-aligned-codebook",
+          "scheme_name_verbatim": "IMRaD-aligned codebook",
+          "source_ref": "doi:10.11591/ijere.v15i4.38930",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "36 sources",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "IMRaD traceability requirements",
+              "definition_quote": "",
+              "value_list_verbatim": ["problem framing", "methodological transparency", "result presentation", "interpretation", "conclusion claims"],
+              "closed_or_open": "closed_list",
+              "locator": "2.3.  Data extraction and coding",
+              "quote": "IMRaD traceability requirements (problem framing, methodological transparency, result presentation, interpretation, and conclusion claims)"
+            },
+            {
+              "dimension_label_verbatim": "AI-related integrity considerations",
+              "definition_quote": "",
+              "value_list_verbatim": ["disclosure", "verification", "confidentiality", "accountability"],
+              "closed_or_open": "closed_list",
+              "locator": "2.3.  Data extraction and coding",
+              "quote": "AI-related integrity considerations (disclosure, verification, confidentiality, and accountability)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "credit-contributor-roles-taxonomy",
+          "scheme_name_verbatim": "Contributor Roles Taxonomy (CRediT)",
+          "source_ref": "doi:10.11591/ijere.v15i4.38930",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "section",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "individual author contributions",
+              "definition_quote": "",
+              "value_list_verbatim": ["Conceptualization", "Methodology", "Software", "Validation", "Formal analysis", "Investigation", "Resources", "Data Curation", "Writing - Original Draft", "Writing - Review & Editing", "Visualization", "Supervision", "Project administration", "Funding acquisition"],
+              "closed_or_open": "closed_list",
+              "locator": "AUTHOR CONTRIBUTIONS STATEMENT",
+              "quote": "This journal uses the Contributor Roles Taxonomy (CRediT) to recognize individual author contributions, reduce authorship disputes, and facilitate collaboration."
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-use-audit-trail-log",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.11591/ijere.v15i4.38930",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "disclosure wording",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.4.5. Maintaining an audit trail for AI-assisted writing",
+              "quote": "Keep the exact disclosure wording used in the manuscript."
+            },
+            {
+              "dimension_label_verbatim": "human verification step",
+              "definition_quote": "",
+              "value_list_verbatim": ["source check", "recalculation", "re-analysis"],
+              "closed_or_open": "open_text",
+              "locator": "3.4.5. Maintaining an audit trail for AI-assisted writing",
+              "quote": "Record the human verification step taken (source check, recalculation, re-analysis)."
+            },
+            {
+              "dimension_label_verbatim": "prompt purpose and date",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.4.5. Maintaining an audit trail for AI-assisted writing",
+              "quote": "Note the prompt purpose and date (a short description is sufficient)."
+            },
+            {
+              "dimension_label_verbatim": "task category",
+              "definition_quote": "",
+              "value_list_verbatim": ["language editing", "summarizing", "outlining", "code assistance"],
+              "closed_or_open": "closed_list",
+              "locator": "3.4.5. Maintaining an audit trail for AI-assisted writing",
+              "quote": "State the task category (language editing, summarizing, outlining, code assistance)."
+            },
+            {
+              "dimension_label_verbatim": "tool name/version",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "3.4.5. Maintaining an audit trail for AI-assisted writing",
+              "quote": "Log the tool name/version and access mode (local vs cloud)."
+            },
+            {
+              "dimension_label_verbatim": "access mode",
+              "definition_quote": "",
+              "value_list_verbatim": ["local", "cloud"],
+              "closed_or_open": "closed_list",
+              "locator": "3.4.5. Maintaining an audit trail for AI-assisted writing",
+              "quote": "Log the tool name/version and access mode (local vs cloud)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5603879c3be9aea3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "llm-risk-tier-taxonomy",
+          "scheme_name_verbatim": "risk-tier taxonomy",
+          "source_ref": "doi:10.1177/17562848261441693",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "clinical proximity and actionability",
+              "definition_quote": "",
+              "value_list_verbatim": ["administrative support", "decision support", "autonomous actions"],
+              "closed_or_open": "closed_list",
+              "locator": "LLM-enabled workflows: A risk-tier taxonomy proposal",
+              "quote": "clinical proximity and actionability (administrative support vs decision support vs autonomous actions)"
+            },
+            {
+              "dimension_label_verbatim": "severity and reversibility of potential harm",
+              "definition_quote": "",
+              "value_list_verbatim": ["documentation errors", "unsafe treatment recommendations"],
+              "closed_or_open": "closed_list",
+              "locator": "LLM-enabled workflows: A risk-tier taxonomy proposal",
+              "quote": "severity and reversibility of potential harm (documentation errors vs unsafe treatment recommendations)"
+            },
+            {
+              "dimension_label_verbatim": "degree of autonomy and opportunity for human oversight",
+              "definition_quote": "",
+              "value_list_verbatim": ["draft-only with mandatory review", "direct-to-patient", "automated execution"],
+              "closed_or_open": "closed_list",
+              "locator": "LLM-enabled workflows: A risk-tier taxonomy proposal",
+              "quote": "degree of autonomy and opportunity for human oversight (draft-only with mandatory review vs direct-to-patient vs automated execution)"
+            },
+            {
+              "dimension_label_verbatim": "data sensitivity",
+              "definition_quote": "",
+              "value_list_verbatim": ["no patient data", "limited PHI", "full electronic health record (EHR) context"],
+              "closed_or_open": "closed_list",
+              "locator": "LLM-enabled workflows: A risk-tier taxonomy proposal",
+              "quote": "data sensitivity (no patient data vs limited PHI vs full electronic health record (EHR) context)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "manuscript-ai-disclosure-checklist",
+          "scheme_name_verbatim": "Manuscript AI-disclosure checklist",
+          "source_ref": "doi:10.1177/17562848261441693",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Identify all AI tools used",
+              "definition_quote": "",
+              "value_list_verbatim": ["assistive (grammar)", "generative (content creation)"],
+              "closed_or_open": "closed_list",
+              "locator": "Box 3. Manuscript AI-disclosure checklist.",
+              "quote": "Identify all AI tools used (name, version, date accessed) and whether they were assistive (grammar) or generative (content creation)."
+            },
+            {
+              "dimension_label_verbatim": "Describe where AI was used",
+              "definition_quote": "",
+              "value_list_verbatim": ["drafting", "summarization", "translation", "coding"],
+              "closed_or_open": "open_text",
+              "locator": "Box 3. Manuscript AI-disclosure checklist.",
+              "quote": "Describe where AI was used (e.g., drafting, summarization, translation, coding) and what human verification steps were performed."
+            },
+            {
+              "dimension_label_verbatim": "Check for plagiarism",
+              "definition_quote": "",
+              "value_list_verbatim": ["plagiarism (unintended reproduction)", "fabricated citations"],
+              "closed_or_open": "closed_list",
+              "locator": "Box 3. Manuscript AI-disclosure checklist.",
+              "quote": "Check for plagiarism (unintended reproduction) and fabricated citations."
+            },
+            {
+              "dimension_label_verbatim": "Ensure confidentiality",
+              "definition_quote": "",
+              "value_list_verbatim": ["patient-identifiable information", "proprietary data"],
+              "closed_or_open": "closed_list",
+              "locator": "Box 3. Manuscript AI-disclosure checklist.",
+              "quote": "Ensure confidentiality: confirm no patient-identifiable information or proprietary data were entered into non-compliant systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "9fb46b2cc15e5449",
+      "has_scheme": false,
+      "reason": "technical paper proposing a two-level SGD/stylometric classifier for Arabic authorship attribution; it categorizes linguistic features (lexical, syntactical, structural, content-specific) for its classifier, but this is a feature taxonomy for a prediction model, not a scheme for describing a disclosure, attribution, or provenance claim."
+    }
+  ]
+}

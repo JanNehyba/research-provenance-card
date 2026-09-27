@@ -1,0 +1,115 @@
+{
+  "packet_id": "ft-015",
+  "papers": [
+    {
+      "rec_id": "b02e0aa5d3384b47",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-use-reporting-aspects",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.4103/sjmms.sjmms_10_26",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "aspects of AI use",
+              "definition_quote": "",
+              "value_list_verbatim": ["grammar, spelling, punctuation, and syntax checks", "substantially modify sentences and structure", "content/image generation", "assistance with literature review", "gathering of references", "data analysis/interpretation"],
+              "closed_or_open": "closed_list",
+              "locator": "Why, when, and how should AI use be reported",
+              "quote": "its use should be reported for content/image generation, assistance with literature review, gathering of references, and data analysis/interpretation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "3b4a923fd3352a01",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "codes-of-ethics-transparency-typology",
+          "scheme_name_verbatim": "nine types of codes of ethics",
+          "source_ref": "doi:10.1080/1553118x.2016.1252917",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "40 codes of ethics",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "transparency",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Results",
+              "quote": "The guidelines were divided by two main dimensions: how 1)  transparency  and 2) sponsored content are discussed."
+            },
+            {
+              "dimension_label_verbatim": "sponsored content",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Results",
+              "quote": "The guidelines were divided by two main dimensions: how 1)  transparency  and 2) sponsored content are discussed."
+            }
+          ]
+        },
+        {
+          "scheme_id": "sponsored-content-coding-frame",
+          "scheme_name_verbatim": "the coding frame",
+          "source_ref": "doi:10.1080/1553118x.2016.1252917",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "40 codes of ethics",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the coding frame",
+              "definition_quote": "",
+              "value_list_verbatim": ["Online ad functions", "Advertiser and sales staff in edit process", "Edit staff working with ads", "Using repurposed edit material", "Publisher control with ads and sponsored \ncontent", "Process and terms of service", "Miscellaneous"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "Figure 1. Three top levels of categories of the coding frame."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8c913049a85debd3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "k12-aias-framework",
+          "scheme_name_verbatim": "Proposed K-12 AIAS Framework",
+          "source_ref": "doi:10.21203/rs.3.rs-8800271/v1",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "K-12 AIAS\nFrameworkLevel",
+              "definition_quote": "",
+              "value_list_verbatim": ["Foundational Skills Development (All Grades)", "Guided AI Introduction (Elementary-\nSecondary Progression)", "Collaborative AI Use (Middle-High School)", "Advanced AI Integration (High School based\non Competency)", "AI Innovation and Experimentation (Advanced\nHigh School based on Competency)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Table 1 Proposed K-12 AIAS Framework"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "packet_id": "ft-064",
+  "papers": [
+    {
+      "rec_id": "f77ad668d14b1ef2",
+      "has_scheme": false,
+      "reason": "editorial narratively contrasts the traditional byline-based authorship model with the contributorship model and its guarantor role; it proposes no named, enumerable set of categories or dimensions for classifying contributions"
+    },
+    {
+      "rec_id": "f07f5efc9dd22790",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "llm-tiered-disclosure",
+          "scheme_name_verbatim": "tiered disclosure system",
+          "source_ref": "doi:10.3346/jkms.2026.41.e306",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Tiered disclosure standards",
+              "definition_quote": "",
+              "value_list_verbatim": ["Tier 1: Assistive use", "Tier 2: Augmentative use", "Tier 3: Substantive use"],
+              "closed_or_open": "closed_list",
+              "locator": "Tiered disclosure standards",
+              "quote": "A more informative framework would adopt a tiered disclosure system, standardized across journals through coordination among ICMJE, COPE, WAME, and regional editorial associations"
+            }
+          ]
+        },
+        {
+          "scheme_id": "editorial-ai-policy-divergence-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3346/jkms.2026.41.e306",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "editorial policies across major medical journals and publishers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the scope of permissible AI use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Synthesis: common ground and critical divergences",
+              "quote": "First, the scope of permissible AI use ranges from narrow"
+            },
+            {
+              "dimension_label_verbatim": "the specificity of disclosure requirements",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Synthesis: common ground and critical divergences",
+              "quote": "Second, the specificity of disclosure requirements varies substantially"
+            },
+            {
+              "dimension_label_verbatim": "policies governing reviewer and editor use of AI",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Synthesis: common ground and critical divergences",
+              "quote": "Third, policies governing reviewer and editor use of AI remain conspicuously underdeveloped"
+            },
+            {
+              "dimension_label_verbatim": "enforcement mechanisms",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Synthesis: common ground and critical divergences",
+              "quote": "Fourth, enforcement mechanisms are largely absent across all surveyed entities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "10220360ff54a193",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "atomic-sentence-metadata",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.2196/98343",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "self_report",
+          "empirical_basis": "18 health care professionals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Author",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage 3: The AS Method (Core)",
+              "quote": "Each unit was tagged with metadata: Author | Year | Page | Functional role (Background/Method/Finding/Limitation)"
+            },
+            {
+              "dimension_label_verbatim": "Year",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage 3: The AS Method (Core)",
+              "quote": "Each unit was tagged with metadata: Author | Year | Page | Functional role (Background/Method/Finding/Limitation)"
+            },
+            {
+              "dimension_label_verbatim": "Page",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Stage 3: The AS Method (Core)",
+              "quote": "Each unit was tagged with metadata: Author | Year | Page | Functional role (Background/Method/Finding/Limitation)"
+            },
+            {
+              "dimension_label_verbatim": "Functional role",
+              "definition_quote": "",
+              "value_list_verbatim": ["Background", "Method", "Finding", "Limitation"],
+              "closed_or_open": "closed_list",
+              "locator": "Stage 3: The AS Method (Core)",
+              "quote": "Each unit was tagged with metadata: Author | Year | Page | Functional role (Background/Method/Finding/Limitation)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

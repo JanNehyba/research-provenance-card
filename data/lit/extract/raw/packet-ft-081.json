@@ -1,0 +1,214 @@
+{
+  "packet_id": "ft-081",
+  "papers": [
+    {
+      "rec_id": "5c723e61006a60e1",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cost-of-honesty-stack",
+          "scheme_name_verbatim": "Cost-of-Honesty Stack",
+          "source_ref": "arXiv:2608.21671",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "a documented two-stage workshop method",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "five layers",
+              "definition_quote": "a diagnostic framework for locating where AI disclosure is demanded, interpreted, recorded, and enforced within a sociotechnical system",
+              "value_list_verbatim": [
+                "Governance/public layer",
+                "Infrastructure layer",
+                "Institution/platform layer",
+                "Evaluation layer",
+                "User labor layer"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "5. The Cost-of-Honesty Stack",
+              "quote": "Figure 2 presents its five layers and the questions asked at each."
+            }
+          ]
+        },
+        {
+          "scheme_id": "cost-of-honesty-design-suggestions",
+          "scheme_name_verbatim": "Provisional design suggestions",
+          "source_ref": "arXiv:2608.21671",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Design suggestion",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Purpose-limited",
+                "Least-revealing",
+                "Differentiate assistance and substitution",
+                "Protect refusal and contextualization",
+                "Make disclosure reciprocal",
+                "Support explanation, not confession"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "6. Applying the Stack: Provisional Design Suggestions",
+              "quote": "Table 2. Provisional design suggestions and illustrative domain applications."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "ff81526ee44f9fd9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sr-ai-disclosure-extraction-variables",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1186/s12874-026-02796-2",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "188 SRs explicitly reported use of LLM-based and non-LLM automation tools",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "type of AI tool",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "LLMs (not AI-assisted tools)",
+                "AI-assisted tools (not LLMs)",
+                "both AI-assisted tools and LLMs"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Descriptive statistics on the use of LLM-based and non-LLM automation tools",
+              "quote": "reported the use of LLMs (not AI-assisted tools) in a designated statement"
+            },
+            {
+              "dimension_label_verbatim": "name of AI tool",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data collection process, data items and variables",
+              "quote": "name of AI tool"
+            },
+            {
+              "dimension_label_verbatim": "review stage where the AI tool was used",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Data collection process, data items and variables",
+              "quote": "review stage where the AI tool was used"
+            },
+            {
+              "dimension_label_verbatim": "purpose of AI use",
+              "definition_quote": "",
+              "value_list_verbatim": ["proofreading and writing assistance"],
+              "closed_or_open": "open_text",
+              "locator": "Highlights",
+              "quote": "used solely for proofreading and writing assistance, predominantly via ChatGPT"
+            },
+            {
+              "dimension_label_verbatim": "description of AI tool",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data collection process, data items and variables",
+              "quote": "description of AI tool"
+            },
+            {
+              "dimension_label_verbatim": "AI prompts disclosure/prompt sharing",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data collection process, data items and variables",
+              "quote": "AI prompts disclosure/prompt sharing"
+            },
+            {
+              "dimension_label_verbatim": "validation of AI content",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data collection process, data items and variables",
+              "quote": "validation of AI content"
+            },
+            {
+              "dimension_label_verbatim": "human involvement",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Data collection process, data items and variables",
+              "quote": "human involvement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "7ef27c622323eae6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "crot-ethical-extension-three-steps",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1002/leap.1496",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "three steps",
+              "definition_quote": "Our vision for this process to be ethical and inclusive involves three steps",
+              "value_list_verbatim": [
+                "Identification of candidate roles",
+                "Deciding what roles to include/exclude in CROTs’ standard list",
+                "Integrating new roles to the existing list of roles"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "ETHICAL EXTENSION OF ROLES",
+              "quote": "Our vision for this process to be ethical and inclusive involves three steps"
+            }
+          ]
+        },
+        {
+          "scheme_id": "credit-roles-applied-to-this-papers-authors",
+          "scheme_name_verbatim": "CRediT roles",
+          "source_ref": "doi:10.1002/leap.1496",
+          "domain": "research_publishing",
+          "artifact_type": "technical_standard",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "CRediT roles",
+              "definition_quote": "Contributor Role Ontologies and Taxonomies (CROTs) are standard vocabularies to describe individual contributions to a scholarly project or research output",
+              "value_list_verbatim": [
+                "Conceptualization",
+                "investigation",
+                "methodology",
+                "project administration",
+                "writing—original draft, review & editing",
+                "Validation",
+                "funding acquisition",
+                "supervision"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "AUTHOR CONTRIBUTIONS",
+              "quote": "Mohammad Hosseini [CRediT roles: Conceptualization, investigation, methodology, project administration, writing—original draft, review & editing]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

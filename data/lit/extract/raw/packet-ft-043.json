@@ -1,0 +1,194 @@
+{
+  "packet_id": "ft-043",
+  "papers": [
+    {
+      "rec_id": "34c7dcde9c24b4a9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "jkms-table1-ai-use-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3346/jkms.2026.41.e298",
+          "domain": "research_publishing",
+          "artifact_type": "policy",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "6 different high-impact journals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Category of AI use",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Grammar and spell-check",
+                "Writing assistance (drafting, text generation)",
+                "Part of a research (data analysis, statistics, code generation)"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Category of AI use The New England Journal of Medicine (NEJM Group) JAMA (American Medical Association) The Lancet (Elsevier) Nature (Springer Nature)"
+            }
+          ]
+        },
+        {
+          "scheme_id": "jkms-coi-disclosure-expansion",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3346/jkms.2026.41.e298",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "disclosure frameworks",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "participation in AI model development",
+                "ownership or management of training datasets",
+                "participation in algorithm design",
+                "intellectual property rights",
+                "technology transfer agreements",
+                "the institution’s commercial interests"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "CONFLICTS OF INTEREST IN THE AGE OF AI",
+              "quote": "future disclosure frameworks need to be expanded beyond traditional financial interests to include participation in AI model development, ownership or management of training datasets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d66a95fcea0c2cfc",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "spirit-ai-consort-ai-new-items",
+          "scheme_name_verbatim": "SPIRIT-AI and CONSORT-AI guidelines",
+          "source_ref": "doi:10.1186/s13063-020-04951-6",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "elements\nthat require detailed and specific reporting",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "the algorithm version",
+                "the procedure for\nacquiring the input data",
+                "the criteria for inclu-\nsion at the level of the input data in addition to the level\nof participants"
+              ],
+              "closed_or_open": "open_text",
+              "locator": "Background",
+              "quote": "Examples of elements\nthat require detailed and specific reporting include, but\nare not limited to, the algorithm version, the procedure for\nacquiring the input data"
+            },
+            {
+              "dimension_label_verbatim": "new items",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "clear descriptions of the AI interven-\ntion, including instructions and skills required for use",
+                "the study setting in which the AI intervention is inte-\ngrated",
+                "the handling of inputs and outputs of the AI\nintervention",
+                "the human-AI interaction",
+                "the analysis\nof error cases"
+              ],
+              "closed_or_open": "open_text",
+              "locator": "Background",
+              "quote": "The SPIRIT-AI [20–22] and CONSORT-AI [23–25]\nguidelines include 15 and 14 new items, respectively"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1f4e79e95dc1130a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "structuring-transparency-writing-focused",
+          "scheme_name_verbatim": "Writing-focused declaration structure",
+          "source_ref": "doi:10.48550/arxiv.2606.13389",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "activity categories",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Planning & Structure",
+                "Textual Content Generation",
+                "Research & Analysis",
+                "Revision & Polish",
+                "Visual Content",
+                "Evaluation & Feedback"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Writing-focused declaration structure",
+              "quote": "we designed a declaration form organised around six activity categories, where for each category students (1) state whether GenAI was used"
+            },
+            {
+              "dimension_label_verbatim": "the extent of use",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Minor",
+                "Moderate",
+                "Extensive"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Writing-focused declaration structure",
+              "quote": "specify the extent of use ( Minor, Moderate, Extensive )"
+            }
+          ]
+        },
+        {
+          "scheme_id": "structuring-transparency-coding-focused",
+          "scheme_name_verbatim": "Coding-focused declaration structure",
+          "source_ref": "doi:10.48550/arxiv.2606.13389",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "activity categories",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Planning & Design",
+                "Code Generation",
+                "Code Improvement",
+                "Understanding & Learning",
+                "Documentation & Reporting"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Coding-focused declaration structure",
+              "quote": "The form includes five activity categories listed below and,\nsimilarly to the writing-focused structure, students indicate whether GenAI was used and to what extent"
+            },
+            {
+              "dimension_label_verbatim": "extent scale",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Minor",
+                "Moderate",
+                "Extensive"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Design choices and intended use",
+              "quote": "Across both declaration structures, we intentionally retained a consistent pattern: the same extent scale ( Minor, Moderate, Extensive )"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

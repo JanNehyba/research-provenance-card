@@ -1,0 +1,136 @@
+{
+  "packet_id": "ft-094",
+  "papers": [
+    {
+      "rec_id": "75b39a7786e910f6",
+      "has_scheme": false,
+      "reason": "review essay tracing theoretical debates (poststructuralism, digital humanities, posthumanism) about AI, authorship and creativity in English literature; proposes no named categories, dimensions, or checklist for attribution or provenance"
+    },
+    {
+      "rec_id": "7e8714ade6d2a6d3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "cotrace-goal-level-attribution",
+          "scheme_name_verbatim": "CoTrace",
+          "source_ref": "arXiv:2605.21363",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "sentence",
+          "authority": "self_report",
+          "empirical_basis": "638 real-world collaboration logs",
+          "machine_readable_artifact": "https://github.com/rladmstn1714/CoTrace",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "level of specificity",
+              "definition_quote": "Parent goals (the overall objective, e.g., “full-day Manhattan NYC itinerary”) and Child goals (specific sub-tasks, e.g., “afternoon activity plan”)",
+              "value_list_verbatim": ["Parent goals", "Child goals"],
+              "closed_or_open": "closed_list",
+              "locator": "Desideratum 1: Goals as Outcome–Requirement Tuples.",
+              "quote": "we also organize goals hierarchically according to their level of specificity into Parent goals"
+            },
+            {
+              "dimension_label_verbatim": "role",
+              "definition_quote": "each assigned a role: Shaper (proposes goals, ideas, or requirements), Executor (carries out actions or produces output), or Other",
+              "value_list_verbatim": ["Shaper", "Executor", "Other"],
+              "closed_or_open": "closed_list",
+              "locator": "Pipeline Overview.",
+              "quote": "each assigned a role: Shaper (proposes goals, ideas, or requirements), Executor (carries out actions or produces output), or Other"
+            },
+            {
+              "dimension_label_verbatim": "Create, Revise, and Delete operations",
+              "definition_quote": "",
+              "value_list_verbatim": ["Create", "Revise", "Delete"],
+              "closed_or_open": "closed_list",
+              "locator": "Pipeline Overview.",
+              "quote": "tracked through Create , Revise , and Delete operations, which yields a versioned history of the collaboration"
+            },
+            {
+              "dimension_label_verbatim": "Influence Labeling",
+              "definition_quote": "",
+              "value_list_verbatim": ["direct connection", "implicit connection", "no connection"],
+              "closed_or_open": "closed_list",
+              "locator": "Pipeline Overview.",
+              "quote": "evaluated by an LLM-as-judge as direct connection , implicit connection , or no connection"
+            },
+            {
+              "dimension_label_verbatim": "categories of indirect influence",
+              "definition_quote": "Observed types of indirect influence in human–LLM collaboration",
+              "value_list_verbatim": ["underspecified intent", "artifact-triggered elaboration", "problem-triggered revision", "interactional steering"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "grouped into four broader categories of indirect influence (Table 2 ): underspecified intent , artifact-triggered elaboration , problem-triggered revision , and interactional steering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "387ee6bd5500b17f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "chart-checklist",
+          "scheme_name_verbatim": "Chatbot Assessment Reporting Tool (CHART)",
+          "source_ref": "doi:10.1186/s12916-025-04274-w",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "editorial_requirement",
+          "empirical_basis": "531 stakeholders, three synchronous panel consensus meetings of 48 stakeholders",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Title & Abstract",
+              "definition_quote": "",
+              "value_list_verbatim": ["Title", "Abstract/Summary"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2 CHART Checklist",
+              "quote": "Title & Abstract Title 1a State that the study is assessing one or more generative AI-driven chatbots for clinical evidence or health advice."
+            },
+            {
+              "dimension_label_verbatim": "Introduction",
+              "definition_quote": "",
+              "value_list_verbatim": ["Background"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2 CHART Checklist",
+              "quote": "Introduction Background 2a State the scientific background, rationale, and healthcare context for evaluating the generative AI-driven chatbot(s), referencing relevant literature when applicable."
+            },
+            {
+              "dimension_label_verbatim": "Methods",
+              "definition_quote": "",
+              "value_list_verbatim": ["Model Identifiers", "Model Details", "Prompt Engineering", "Query Strategy", "Performance Evaluation", "Sample Size", "Data Analysis"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2 CHART Checklist",
+              "quote": "Methods Model Identifiers 3a State the name and version identifier(s) of the generative AI model(s) and chatbot(s) under evaluation"
+            },
+            {
+              "dimension_label_verbatim": "Results",
+              "definition_quote": "",
+              "value_list_verbatim": ["10a", "10b", "10c"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2 CHART Checklist",
+              "quote": "Results 10a Report the performance evaluation undertaken including the alignment between generative AI-driven chatbot output and ground truth or reference standard"
+            },
+            {
+              "dimension_label_verbatim": "Discussion",
+              "definition_quote": "",
+              "value_list_verbatim": ["11a", "11b", "11c"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2 CHART Checklist",
+              "quote": "Discussion 11a Interpret study findings in the context of relevant evidence."
+            },
+            {
+              "dimension_label_verbatim": "Open Science",
+              "definition_quote": "",
+              "value_list_verbatim": ["Disclosures", "Funding", "Ethics", "Protocol", "Data availability"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2 CHART Checklist",
+              "quote": "Open Science Disclosures 12a Report any relevant conflicts of interest for all authors."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

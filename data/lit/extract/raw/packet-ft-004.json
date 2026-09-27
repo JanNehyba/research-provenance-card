@@ -1,0 +1,104 @@
+{
+  "packet_id": "ft-004",
+  "papers": [
+    {
+      "rec_id": "98a1b52a5bea4d26",
+      "has_scheme": false,
+      "reason": "systematic review and quality appraisal of 27 existing AI reporting checklists/guidelines using the AGREE II Tool's six generic guideline-quality domains (scope and purpose, stakeholder involvement, rigor of development, clarity of presentation, applicability, editorial independence); this paper does not itself propose or enumerate a disclosure or attribution content scheme, only rates other checklists' methodological quality"
+    },
+    {
+      "rec_id": "2af4a152fb99f4d0",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "lingard-disclosure-guidance",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5334/pme.2326",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "We \nconducted \nindividual, \nsemi-structured \nZoom \ninterviews lasting 30–50 minutes.",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Be specific: tool, tasks, location.",
+              "definition_quote": "Include at minimum: the tool name, version or date \n(if known), the tasks performed, and the manuscript \nsection(s) affected.",
+              "value_list_verbatim": ["the tool name, version or date \n(if known)", "the tasks performed", "the manuscript \nsection(s) affected"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Be specific: tool, tasks, location."
+            },
+            {
+              "dimension_label_verbatim": "Be strategic about the level of detail.",
+              "definition_quote": "More detail is not always better or feasible.",
+              "value_list_verbatim": ["Scale down details for technical use (e.g., \nediting grammar)", "scale up for more intellectual use (e.g., creating interview prompts)"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Be strategic about the level of detail."
+            },
+            {
+              "dimension_label_verbatim": "Add a responsibility statement.",
+              "definition_quote": "Attest that you are accountable for the content.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "Add a responsibility statement."
+            },
+            {
+              "dimension_label_verbatim": "Indicate how you verified content.",
+              "definition_quote": "Verification is a process, not a promise.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 3",
+              "quote": "Indicate how you verified content."
+            },
+            {
+              "dimension_label_verbatim": "Put the disclosure in your manuscript.",
+              "definition_quote": "Editors prefer this in the Methods or other section as \nrelevant, rather than in Acknowledgements.",
+              "value_list_verbatim": ["Methods", "Acknowledgements"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Put the disclosure in your manuscript."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "1de4034cc0ff2626",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "bmj-ai-tool-task-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1101/2025.10.24.25338574",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "A total of 25,114 eligible submissions were analysed (Table 1).",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "types of AI tools used",
+              "definition_quote": "taxonomy that grouped tools according to their \nprimary purpose within the manuscript.",
+              "value_list_verbatim": ["AI Chatbots", "Writing assistant tools", "Visual/image Processing Tools", "Evidence Synthesis Tools", "Predictive Analytics Models", "AI powered translators", "AI-powered data analysis tools", "AI-powered markdown editors", "Automatic Speech Recognition Systems", "Other", "Type not disclosed"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Categories included: AI Chatbots, Writing Assistants, Visual/Image Processing Tools, Evidence Synthesis Tools, Predictive Analytics Models"
+            },
+            {
+              "dimension_label_verbatim": "Tasks AI tools assisted with",
+              "definition_quote": "Table 3 reveals how self-disclosed AI use is being utilized to assist with various tasks.",
+              "value_list_verbatim": ["improve the quality of writing", "translation", "generating data and output", "literature searches", "analyzing or collecting data", "image processing", "code writing", "managing references", "To detect originality of text", "Task not disclosed"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "The predominant use of AI was to improve the quality of writing (87%, 1248)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "packet_id": "ft-005",
+  "papers": [
+    {
+      "rec_id": "a3d1411695d8789b",
+      "has_scheme": false,
+      "reason": "editorial introducing a special issue's five papers on software citation, indexing, and discoverability; it summarises existing frameworks (FORCE11 checklists, CodeMeta, CITATION.cff, FAIR4RS principles) via citation and describes other papers' contributions, but proposes no category scheme of its own"
+    },
+    {
+      "rec_id": "b12fdb9fee8bfa18",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-governance-regime-matrix",
+          "scheme_name_verbatim": "Discursive governance matrix across twenty-Two syllabi",
+          "source_ref": "doi:10.3389/feduc.2026.1827251",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "twenty-two syllabi",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Governance \nRegime",
+              "definition_quote": "",
+              "value_list_verbatim": ["Prohibitionist Integrity", "Conditional Authorization", "Generative Boundary", "Integration-as-Pedagogy"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE 1",
+              "quote": "Governance \nRegime"
+            },
+            {
+              "dimension_label_verbatim": "AI Ontology",
+              "definition_quote": "",
+              "value_list_verbatim": ["Contamination", "Risky but manageable \ntool", "Stratiﬁed tool", "Socio-technical \ninfrastructure"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE 1",
+              "quote": "AI Ontology"
+            },
+            {
+              "dimension_label_verbatim": "Student \nPosition",
+              "definition_quote": "",
+              "value_list_verbatim": ["Potential violator", "Responsible discloser", "Protected intellectual \nagent", "Reﬂective practitioner"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE 1",
+              "quote": "Student \nPosition"
+            },
+            {
+              "dimension_label_verbatim": "Instructor \nAuthority",
+              "definition_quote": "",
+              "value_list_verbatim": ["Enforcement authority", "Case-by-case sovereign", "Boundary architect", "Learning facilitator"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE 1",
+              "quote": "Instructor \nAuthority"
+            },
+            {
+              "dimension_label_verbatim": "Primary Risk \nFraming",
+              "definition_quote": "",
+              "value_list_verbatim": ["Authorship fraud", "Misuse/overreliance", "Erosion of analytic labor", "Ethical complexity"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE 1",
+              "quote": "Primary Risk \nFraming"
+            },
+            {
+              "dimension_label_verbatim": "Regulatory \nMechanism",
+              "definition_quote": "",
+              "value_list_verbatim": ["Ban + Detection \n+sanctions", "Permission \n+disclosure", "Attribution \n+scope limits", "Structured experimentation"],
+              "closed_or_open": "closed_list",
+              "locator": "TABLE 1",
+              "quote": "Regulatory \nMechanism"
+            }
+          ]
+        },
+        {
+          "scheme_id": "genai-student-construction-dimensions",
+          "scheme_name_verbatim": "Student constructions of AI use and their governance implications",
+          "source_ref": "doi:10.3389/feduc.2026.1827251",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "eleven semi-structured \ninterviews with doctoral students",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI as supportive but bounded tool",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "TABLE 2",
+              "quote": "“It’s never something I depend on.”"
+            },
+            {
+              "dimension_label_verbatim": "Intellectual Authorship \nBoundary",
+              "definition_quote": "Language support acceptable; analytic \nreasoning must remain human",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2",
+              "quote": "“Ideas are still mine.”"
+            },
+            {
+              "dimension_label_verbatim": "Policy Interpretation",
+              "definition_quote": "Expectations vary across courses",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2",
+              "quote": "“Ideas are still mine.”"
+            },
+            {
+              "dimension_label_verbatim": "Symbolic Risk \nAwareness",
+              "definition_quote": "Concern about appearing illegitimate or \ndependent",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2",
+              "quote": "“If AI can do most of it, how do \nI position myself?”"
+            },
+            {
+              "dimension_label_verbatim": "Equity Function \n(Multilingual)",
+              "definition_quote": "AI reduces language barriers but may \nincrease stigma anxiety",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "TABLE 2",
+              "quote": "“It mainly reduces the language \nbarrier.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "60b1188ea0e06f19",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-pipeline-human-role-shift",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48550/arxiv.2604.13109",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "eleven published algorithm implementations spanning eleven distinct research domains",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the evolving role of human researchers",
+              "definition_quote": "we examine what the pipeline reveals about the evolving role of human researchers",
+              "value_list_verbatim": ["domain selectors", "novelty evaluators", "impact assessors", "resource providers", "experimental verifiers", "communicators"],
+              "closed_or_open": "closed_list",
+              "locator": "abstract",
+              "quote": "not as coders, but as domain selectors, novelty evaluators, impact assessors, resource providers, experimental verifiers, and communicators."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "packet_id": "ft-038",
+  "papers": [
+    {
+      "rec_id": "b5bc905a3cde4896",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "calculauthor-rubric",
+          "scheme_name_verbatim": "CalculAuthor",
+          "source_ref": "doi:10.1186/s13104-023-06597-4",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "Our team successfully piloted the CalculAuthor on 10 \ndifferent research papers (including the current arti-\ncle) which had a total of 128 authors.",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Determining Creditable Criteria for Authorship",
+              "definition_quote": "A \nlist of criteria, encompassing all the aspects of the \nresearch project.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Approach and outcomes",
+              "quote": "Determining Creditable Criteria for Authorship: A \nlist of criteria, encompassing all the aspects of the \nresearch project."
+            },
+            {
+              "dimension_label_verbatim": "Levels of Contribution",
+              "definition_quote": "Levels of contribution must \nbe decided as the most appropriate for a specific pro-\nject",
+              "value_list_verbatim": ["Major", "Minor/Moderate", "No Contribution"],
+              "closed_or_open": "closed_list",
+              "locator": "Approach and outcomes",
+              "quote": "At our institution, we have successfully used Major \n(100% of points i.e., a multiplication factor = 1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5a9999c6dbc4365e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aquaculture-genai-policy-domains",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.48045/001c.166391",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "nine journals popularly used by authors publishing research in \naquaculture and aquatic animal diseases.",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Policy status",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No explicit statement"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplementary Table 1",
+              "quote": "Is there a statement or policy for use of GenAI by authors? \nYes – Statement or policy apparent"
+            },
+            {
+              "dimension_label_verbatim": "Scope and permissions",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "Implicitly permitted", "Prohibited", "No explicit statement"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplementary Table 1",
+              "quote": "Is GenAI use permitted? \nYes – Statement apparent that permits this"
+            },
+            {
+              "dimension_label_verbatim": "Author Responsibilities",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No", "No explicit statement"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplementary Table 1",
+              "quote": "Is disclosing GenAI use mandatory? \nYes – Statement apparent that requires this"
+            },
+            {
+              "dimension_label_verbatim": "Accountability",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No", "No explicit statement"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplementary Table 1",
+              "quote": "Are GenAI authors prohibited? \nYes – Statement apparent that prohibits this"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "263cbfb1149611a0",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "transcription-generation-typology",
+          "scheme_name_verbatim": "a three-category typology",
+          "source_ref": "doi:10.1007/s40979-026-00234-w",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "a three-category typology",
+              "definition_quote": "A precise definition of ‘generation’ is necessary to draw the policy boundary clearly.",
+              "value_list_verbatim": [
+                "Category A: Novel content production",
+                "Category B: Error-correcting reconstruction",
+                "Category C: Format conversion"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Defining ‘generation’: a three-category typology",
+              "quote": "This paper proposes \na three-category typology that decision-makers could \napply"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

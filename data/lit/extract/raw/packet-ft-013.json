@@ -1,0 +1,294 @@
+{
+  "packet_id": "ft-013",
+  "papers": [
+    {
+      "rec_id": "bde2bc5c0131a3f6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ofct-policy-space-dimensions",
+          "scheme_name_verbatim": "OFCT: Open, FAIR, Citable and Trustworthy",
+          "source_ref": "doi:10.1371/journal.pone.0253538",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "eight biomedical community repositories",
+          "machine_readable_artifact": "http://trees.scicrunch.io/models/dkNET-DRP/start",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "StudyLinkage",
+              "definition_quote": "Type of linkage between the published dataset and the paper that accompanied it",
+              "value_list_verbatim": ["none", "freeText", "textualMetadata", "machineReadableMetadata"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "StudyLinkage none:0 freeText:6 textualMetadata:1 machineReadableMetadata:1 Type of linkage between the published dataset and the paper that accompanied it"
+            },
+            {
+              "dimension_label_verbatim": "formalMetadataVocabularyOK",
+              "definition_quote": "Do the metadata use a formal, accessible, shared and broadly applicable language for knowledge representation?",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "formalMetadataVocabularyOK no:5 yes:3 Do the metadata use a formal, accessible, shared and broadly applicable language for knowledge representation?"
+            },
+            {
+              "dimension_label_verbatim": "fairMetadataOK",
+              "definition_quote": "Do the metadata use vocabularies that follow FAIR principles?",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "fairMetadataOK no:3 yes:5 Do the metadata use vocabularies that follow FAIR principles? (any answer except \"minimal\")"
+            },
+            {
+              "dimension_label_verbatim": "qualifiedMetadataReferencesOK",
+              "definition_quote": "Do the metadata include qualified references to other (meta)data?",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "qualifiedMetadataReferencesOK no:3 yes:5 Do the metadata include qualified references to other (meta)data? (any answer except \"worst\")"
+            },
+            {
+              "dimension_label_verbatim": "studyLinkageOK",
+              "definition_quote": "Linkage between the published dataset and the paper that accompanied it is \"good\" or \"best\".",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "studyLinkageOK no:6 yes:2 Linkage between the published dataset and the paper that accompanied it is \"good\" or \"best\"."
+            },
+            {
+              "dimension_label_verbatim": "MetadataReferenceQuality",
+              "definition_quote": "Type of qualified references to other (meta)data, included in the (meta)data stored in the repository",
+              "value_list_verbatim": ["freeText", "informal", "formal"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "MetadataReferenceQuality freeText:3 informal:3 formal:2 Type of qualified references to other (meta)data, included in the (meta)data stored in the repository"
+            },
+            {
+              "dimension_label_verbatim": "DocumentationLevel",
+              "definition_quote": "Level of support offered by the repository for documentation that aids in proper (re)-use of the data",
+              "value_list_verbatim": ["lacking", "adequate", "good", "full"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "DocumentationLevel lacking:4 adequate:3 good:1 full:0 Level of support offered by the repository for documentation that aids in proper (re)-use of the data"
+            },
+            {
+              "dimension_label_verbatim": "MetadataProvenance",
+              "definition_quote": "Are the (meta)data associated with detailed provenance?",
+              "value_list_verbatim": ["unclear", "adequate", "full"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "MetadataProvenance unclear:0 adequate:5 full:3 Are the (meta)data associated with detailed provenance?"
+            },
+            {
+              "dimension_label_verbatim": "documentationOK",
+              "definition_quote": "Does the repository require or support documentation that aids in proper (re)-use of the data?",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "documentationOK no:4 yes:4 Does the repository require or support documentation that aids in proper (re)-use of the data? (any answer except \"worst\")"
+            },
+            {
+              "dimension_label_verbatim": "dkNetMetadataOK",
+              "definition_quote": "Does the repository accept metadata that is applicable to the dkNET community disciplines?",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "dkNetMetadataOK no:5 yes:3 Does the repository accept metadata that is applicable to the dkNET community disciplines? (any answer except \"worst\")"
+            },
+            {
+              "dimension_label_verbatim": "communityStandard",
+              "definition_quote": "Does the repository enforce or allow the use of community standards for data format or metadata?",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "communityStandard no:3 yes:5 Does the repository enforce or allow the use of community standards for data format or metadata?"
+            },
+            {
+              "dimension_label_verbatim": "generalMetadata",
+              "definition_quote": "Does the repository use a recognized community standard for representing basic metadata?",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "generalMetadata no:4 yes:4 Does the repository use a recognized community standard for representing basic metadata?"
+            },
+            {
+              "dimension_label_verbatim": "metadataProvenanceOK",
+              "definition_quote": "Are the (meta)data associated with detailed provenance? (any answer except \"worst\")",
+              "value_list_verbatim": ["no", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "metadataProvenanceOK no:0 yes:8 Are the (meta)data associated with detailed provenance? (any answer except \"worst\")"
+            },
+            {
+              "dimension_label_verbatim": "DkNetMetadataLevel",
+              "definition_quote": "Does the repository accept metadata that is applicable to the dkNET community disciplines?",
+              "value_list_verbatim": ["none", "dataset", "datasetAndSubject"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "DkNetMetadataLevel none:5 dataset:1 datasetAndSubject:2 Does the repository accept metadata that is applicable to the dkNET community disciplines?"
+            },
+            {
+              "dimension_label_verbatim": "ReuseLicense",
+              "definition_quote": "Level at which the repository provides a clear license for reuse of the data",
+              "value_list_verbatim": ["none", "repositoryLevel", "datasetLevel"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "ReuseLicense none:3 repositoryLevel:0 datasetLevel:5 Level at which the repository provides a clear license for reuse of the data"
+            },
+            {
+              "dimension_label_verbatim": "MachineReadableLandingPage",
+              "definition_quote": "Level of machine-readability of the dataset landing page (if any) provided by the repository",
+              "value_list_verbatim": ["none", "exists", "supportsDataCitation"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "MachineReadableLandingPage none:1 exists:5 supportsDataCitation:2 Level of machine-readability of the dataset landing page (if any) provided by the repository"
+            },
+            {
+              "dimension_label_verbatim": "CitationMetadataLevel",
+              "definition_quote": "Does the repository provide the required metadata for supporting data citation?",
+              "value_list_verbatim": ["none", "partial", "full"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "CitationMetadataLevel none:2 partial:3 full:3 Does the repository provide the required metadata for supporting data citation?"
+            },
+            {
+              "dimension_label_verbatim": "OrcidAssociation",
+              "definition_quote": "Does the repository allow the authors to associate their ORCID ID with a dataset?",
+              "value_list_verbatim": ["none", "supported", "required"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "OrcidAssociation none:6 supported:2 required:0 Does the repository allow the authors to associate their ORCID ID with a dataset?"
+            },
+            {
+              "dimension_label_verbatim": "GovernanceTransparency",
+              "definition_quote": "Transparency level of the repository governance",
+              "value_list_verbatim": ["opaque", "partial", "full"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "GovernanceTransparency opaque:2 partial:5 full:1 Transparency level of the repository governance"
+            },
+            {
+              "dimension_label_verbatim": "SourceOpen",
+              "definition_quote": "Is the code that runs the data infrastructure covered under an open source license?",
+              "value_list_verbatim": ["no", "partially", "yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "SourceOpen no:5 partially:0 yes:3 Is the code that runs the data infrastructure covered under an open source license?"
+            },
+            {
+              "dimension_label_verbatim": "StakeholderGovernance",
+              "definition_quote": "Level of control stakeholders have in the repository’s governance",
+              "value_list_verbatim": ["none", "weak", "good", "full"],
+              "closed_or_open": "closed_list",
+              "locator": "Ratings for each OFCT property and flag.",
+              "quote": "StakeholderGovernance none:0 weak:2 good:2 full:2 Level of control stakeholders have in the repository’s governance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "97fba93e73ed6cdf",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "publisher-ai-policy-comparative-dimensions",
+          "scheme_name_verbatim": "Comparative analysis of publisher AI policies",
+          "source_ref": "doi:10.3389/frma.2026.1740510",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "Four publishers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI as author",
+              "definition_quote": "",
+              "value_list_verbatim": ["No"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "AI as author No No No No Universal consensus that AI lacks accountability and cannot hold authorship responsibility."
+            },
+            {
+              "dimension_label_verbatim": "Disclosure mandatory",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Disclosure mandatory\nYes Yes Yes Yes Strong alignment across publishers, indicating transparency as a foundational principle."
+            },
+            {
+              "dimension_label_verbatim": "Literature review",
+              "definition_quote": "",
+              "value_list_verbatim": ["Conditional", "Conditional and should be disclosed"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Literature review\nConditional Conditional Conditional Conditional and should be disclosed Variation reflects differing tolerance levels for AI-assisted synthesis of knowledge."
+            },
+            {
+              "dimension_label_verbatim": "Image generation",
+              "definition_quote": "",
+              "value_list_verbatim": ["Conditional", "Prohibited"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Image generation\nConditional Conditional Prohibited Conditional Increasing caution due to risks of fabricated or misleading visual outputs."
+            },
+            {
+              "dimension_label_verbatim": "Data analysis",
+              "definition_quote": "",
+              "value_list_verbatim": ["Conditional"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Data analysis\nConditional Conditional Conditional Conditional Uniform caution suggests recognition of AI's potential, but the need for oversight."
+            },
+            {
+              "dimension_label_verbatim": "Peer review use",
+              "definition_quote": "",
+              "value_list_verbatim": ["Prohibited"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Peer review use\nProhibited Prohibited Prohibited Prohibited Uniformity shows the importance of the restriction on peer review."
+            },
+            {
+              "dimension_label_verbatim": "Enforcement",
+              "definition_quote": "",
+              "value_list_verbatim": ["Described"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Enforcement\nDescribed Described Described Described Publishers emphasize governance structures, though enforcement rigor may vary."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2ad76156e9305295",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "jamo-metadata-classes",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1038/s41597-024-04049-7",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "over 3,000 distinct metadata fields in JAMO across approximately 400 product, pipeline, and file types",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "several classes",
+              "definition_quote": "",
+              "value_list_verbatim": ["operational data", "project and proposal information", "genomic classifications", "data ownership", "data usability", "internally produced public identifiers", "external public identifiers"],
+              "closed_or_open": "closed_list",
+              "locator": "JGI source data: JAMO",
+              "quote": "The metadata in JAMO can be broken down into several classes: operational data, project and proposal information, genomic classifications, data ownership, data usability"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "packet_id": "ft-003",
+  "papers": [
+    {
+      "rec_id": "5cd5b5faa215faa0",
+      "has_scheme": false,
+      "reason": "an overview/guide to help authors select among existing external reporting guidelines (CHART, TRIPOD-LLM, GAMER, CANGARU, ELEVATE-GenAI, COREQ-LLM); the paper itself does not propose, apply, or analyze a category scheme for disclosure, attribution, or provenance -- it only summarizes which existing guideline fits which research aim"
+    },
+    {
+      "rec_id": "96d221d2b05dfa41",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "eu-ai-act-art50-ii-transparency-requirements",
+          "scheme_name_verbatim": "Art. 50 II",
+          "source_ref": "doi:10.63317/5hwpjzkvb4wf",
+          "domain": "law_regulation",
+          "artifact_type": "policy",
+          "granularity": "asset",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "requirements of Art. 50 II",
+              "definition_quote": "",
+              "value_list_verbatim": ["human-understandability", "machine-readability", "effectiveness", "interoperability", "robustness", "reliability"],
+              "closed_or_open": "closed_list",
+              "locator": "1. Introduction",
+              "quote": "Which requirements of Art. 50 II (human-understandability, machine-readability, effectiveness, interoperability, robustness, and reliability) can be technically implemented"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f681f2920dd386a4",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "freelance-ai-use-policy-levels",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2603.07459",
+          "domain": "workplace",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "clients’ stated policies and expectations in Study 2 with workers’ interpretations in Study 3",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Policy Type",
+              "definition_quote": "",
+              "value_list_verbatim": ["No AI", "Use AI for minor tasks", "Use AI for major tasks", "Use AI as much as possible", "Use AI to automate work"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 4",
+              "quote": "five possible interpretations: No AI, Use AI for minor tasks, Use AI for major tasks, Use AI as much as possible"
+            },
+            {
+              "dimension_label_verbatim": "the five most frequently mentioned task categories",
+              "definition_quote": "we highlight the five most frequently mentioned task categories and summarize where perceptions aligned or diverged.",
+              "value_list_verbatim": ["Written Communication", "Research", "Data analysis", "Idea generation", "Text editing"],
+              "closed_or_open": "closed_list",
+              "locator": "Figure 1",
+              "quote": "Written Communication. Workers consistently viewed communication tasks, particularly drafting or preparing emails, as minor."
+            }
+          ]
+        },
+        {
+          "scheme_id": "freelance-worker-ai-disclosure-practice-types",
+          "scheme_name_verbatim": "Five types of workers’ AI disclosure practice",
+          "source_ref": "arXiv:2603.07459",
+          "domain": "workplace",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "41 freelancers",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Type of disclosure practice",
+              "definition_quote": "we identified five common approaches to AI disclosure, summarized in Table 1",
+              "value_list_verbatim": ["Non-Disclosure or Avoidance", "Passive Disclosure (Disclose only if asked)", "Situational or Conditional Disclosure", "Qualified or Framed Disclosure", "Proactive or Full Transparency"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "The most prevalent was Passive Disclosure , in which workers revealed AI use only when clients explicitly asked."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

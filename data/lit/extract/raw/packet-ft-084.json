@@ -1,0 +1,85 @@
+{
+  "packet_id": "ft-084",
+  "papers": [
+    {
+      "rec_id": "a8c38c652ac02845",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-video-t2v-generation-pathways",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/fpubh.2026.1921115",
+          "domain": "education_assessment",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "10 articles that met the inclusion criteria",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "pathways for AI-generated text-to-video (T2V) production",
+              "definition_quote": "These pathways represent an author-developed analytical framework rather than an established taxonomy",
+              "value_list_verbatim": ["Open-Source Commercial T2V", "Closed-Source Professional T2V", "Closed-Source Entry-Level T2V", "Stepwise Generation", "Enhanced Generation"],
+              "closed_or_open": "closed_list",
+              "locator": "Charting the data",
+              "quote": "we synthesized five pathways for AI-generated text-to-video (T2V) production"
+            }
+          ]
+        },
+        {
+          "scheme_id": "ai-video-quality-evaluation-tools",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3389/fpubh.2026.1921115",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "10 articles that met the inclusion criteria",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "evaluation tools",
+              "definition_quote": "",
+              "value_list_verbatim": ["Global Quality Score (GQS)", "Modified DISCERN (mDISCERN)", "Journal of the American Medical Association (JAMA) benchmark criteria", "self-developed scales", "intraclass correlation coefficient (ICC)"],
+              "closed_or_open": "closed_list",
+              "locator": "Charting the data",
+              "quote": "quality and content, including Global Quality Score (GQS)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "028077321a2efc60",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "c2pa-manifest-validation-states",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.36244/icj.2026.1.7",
+          "domain": "software",
+          "artifact_type": "technical_standard",
+          "granularity": "asset",
+          "authority": "technical_standard",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://spec.c2pa.org/\nspecifications/specifications/2.2/specs/C2PA_Specification.html",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "state",
+              "definition_quote": "the manifest can be assigned a \nstate such as valid, trusted, well-formed, or unknown",
+              "value_list_verbatim": ["valid", "trusted", "well-formed", "unknown"],
+              "closed_or_open": "closed_list",
+              "locator": "The C2PA Trust Model",
+              "quote": "Depending on the \nresults of the integrity checks, the manifest can be assigned a \nstate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5ab501f655e21db9",
+      "has_scheme": false,
+      "reason": "an audience-engagement study of sponsored Instagram posts; disclosure status is coded only as one of several post attributes (alongside format, likes, hashtags) with no enumerated disclosure or provenance category scheme, and no categories describing attribution or provenance of produced content are proposed or used"
+    }
+  ]
+}

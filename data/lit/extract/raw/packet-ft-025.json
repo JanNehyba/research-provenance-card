@@ -1,0 +1,142 @@
+{
+  "packet_id": "ft-025",
+  "papers": [
+    {
+      "rec_id": "8f7d681719f26472",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "medlit-disclosure-content-analysis",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.5334/pme.2431",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "paragraph",
+          "authority": "not_stated",
+          "empirical_basis": "2,046 articles, 2.5% (n = 51) had an AI disclosure statement",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Nature of AI Use",
+              "definition_quote": "",
+              "value_list_verbatim": ["Editing", "Transcription", "Analysis", "Drafting", "Literature Review: Article Screening"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 4",
+              "quote": "We characterized the use of AI into six types based on the language in the disclosures"
+            },
+            {
+              "dimension_label_verbatim": "Location of Disclosure Statements",
+              "definition_quote": "",
+              "value_list_verbatim": ["acknowledgements section", "dedicated AI-use disclosure section", "methods", "the methods and a dedicated AI disclosure section", "discussion"],
+              "closed_or_open": "closed_list",
+              "locator": "Location of Disclosure Statements",
+              "quote": "Placement of disclosure statements varied."
+            },
+            {
+              "dimension_label_verbatim": "the name of AI tool(s) used",
+              "definition_quote": "",
+              "value_list_verbatim": ["ChatGPT", "Otter", "Negative AI Disclosure", "Unspecified", "Editage", "Claude", "Curie", "ASReview", "ClusterBot", "Consensus.app", "Copilot", "DeepL", "Grammarly", "Gemini", "Hawk", "Open Evidence", "POE AI Tools", "RapidMiner", "Rev.com"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Disclosure-specific extractions focused on the name of AI tool(s) used, purpose of AI use, location of the disclosure statement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "d20385c4807cb63d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "patience2019-nih-25-activities",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1371/journal.pone.0198117",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "We retained 5781 responses of 6604 researchers that participated in the survey.",
+          "machine_readable_artifact": "https://doi.org/10.7910/DVN/0DQROQ",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Supervision",
+              "definition_quote": "Supervision includes preparing grants, mentoring subordinates, and securing funding",
+              "value_list_verbatim": ["Securing funding", "Establishing the team", "Coordinating tests", "Proposing ideas", "Providing resources (laboratory space, analytical, time)"],
+              "closed_or_open": "closed_list",
+              "locator": "Supervision",
+              "quote": "Q1 Securing funding"
+            },
+            {
+              "dimension_label_verbatim": "Experimental design (equipment)",
+              "definition_quote": "Designing, operating, and maintaining experimental equipment are essential to generate data.",
+              "value_list_verbatim": ["Setting up experimental equipment, writing programs", "Designing equipment, writing programs", "Operating instruments and equipment, running programs", "Modifying, maintaining equipment and programs", "Troubleshooting mechanical failures"],
+              "closed_or_open": "closed_list",
+              "locator": "Experimental design (equipment)",
+              "quote": "Together with approving the final manuscript, any one of the five activities merits authorship: almost never"
+            },
+            {
+              "dimension_label_verbatim": "Sample manipulation",
+              "definition_quote": "Researchers generate, analyze and share samples with others for further analysis.",
+              "value_list_verbatim": ["Identifying necessary samples for the program", "Generating samples for external analysis (by collaborators or third parties)", "Supplying samples, computer programs", "Analysis of samples by third parties (that you pay for)", "Discuss results of samples, viability, reliability, error"],
+              "closed_or_open": "closed_list",
+              "locator": "Sample manipulation",
+              "quote": "Q11 Identifying necessary samples for the program"
+            },
+            {
+              "dimension_label_verbatim": "Data reduction",
+              "definition_quote": "",
+              "value_list_verbatim": ["Developing an experimental plan (DOE)", "Collecting/measuring experimental data, executing programs", "Consolidating experimental data", "Analyzing data, identifying trends", "Interpreting results, modelling, deriving correlations"],
+              "closed_or_open": "closed_list",
+              "locator": "Data reduction",
+              "quote": "Q19 Analyzing data, identifying trends"
+            },
+            {
+              "dimension_label_verbatim": "Writing",
+              "definition_quote": "Writing papers includes adding text to sections, revising the document and responding to",
+              "value_list_verbatim": ["Major role in drafting document", "Commenting on scientific content", "Correcting language, grammar, sentence structure", "Proofreading and suggesting substantial modifications", "Responding to reviewers/editors comments"],
+              "closed_or_open": "closed_list",
+              "locator": "Writing",
+              "quote": "Q21 Major role in drafting document"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "62970ab0bccb68de",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ijsra-disclosure-taxonomy",
+          "scheme_name_verbatim": "Disclosure taxonomy and testable compliance criteria",
+          "source_ref": "doi:10.30574/ijsra.2023.10.2.1099",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Disclosure Types",
+              "definition_quote": "Effective provenance frameworks require distinguishing among modes of creative production rather than treating all outputs as equivalent",
+              "value_list_verbatim": ["Human-Only", "AI-Assisted", "AI-Generated", "Co-Authored"],
+              "closed_or_open": "closed_list",
+              "locator": "3.1. Disclosure Types: Human-Only, AI-Assisted, AI-Generated, and Co-Authored",
+              "quote": "Human-only works are produced entirely by a natural person through manual or digital tools"
+            },
+            {
+              "dimension_label_verbatim": "Minimum Attributable Fields",
+              "definition_quote": "Disclosure must include metadata fields that are technically collectible and legally meaningful",
+              "value_list_verbatim": ["Model ID", "Prompts", "Human Contribution", "Timestamp", "Signature"],
+              "closed_or_open": "closed_list",
+              "locator": "3.2. Minimum Attributable Fields: Model ID, Prompts, Human Contribution, Timestamp, Signature",
+              "quote": "At minimum, systems must record the model identifier and version, as outputs vary across training iterations"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

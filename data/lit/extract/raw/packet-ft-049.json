@@ -1,0 +1,115 @@
+{
+  "packet_id": "ft-049",
+  "papers": [
+    {
+      "rec_id": "8630293fd1cff44a",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ekila-ora-triangle",
+          "scheme_name_verbatim": "Ownership-Rights-Attribution (ORA) Triangle",
+          "source_ref": "arXiv:2304.04639",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Ownership",
+              "definition_quote": "The NFT encodes ownership and ownership history and references the asset via URI",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "3.2.1 The ORA Triangle",
+              "quote": "Ownership The NFT encodes ownership and ownership history and references the asset via URI"
+            },
+            {
+              "dimension_label_verbatim": "Rights",
+              "definition_quote": "The rights contract issues rights tokens owned by rightsholders",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "3.2.1 The ORA Triangle",
+              "quote": "Rights The rights contract issues rights tokens owned by rightsholders"
+            },
+            {
+              "dimension_label_verbatim": "Attribution",
+              "definition_quote": "The C2PA manifest embedded in the asset expresses an immutable connection to the underlying content and its provenance history of creation",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "3.2.1 The ORA Triangle",
+              "quote": "Attribution. The C2PA manifest embedded in the asset expresses an immutable connection to the underlying content and its provenance history of creation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "771ec927d338c63d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "icmje-authorship-criteria-survey-items",
+          "scheme_name_verbatim": "ICMJE authorship criteria",
+          "source_ref": "doi:10.1007/s10805-022-09465-1",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "conception or design of the work",
+              "definition_quote": "without having made a substantial contribution to any of the following: conception or design of the work",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "a. without having made a substantial contribution to any of the following: conception or design of the work"
+            },
+            {
+              "dimension_label_verbatim": "drafted the first version of the paper or revised it critically for important intellectual content",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "b. without having drafted the first version of the paper or revised it critically for important intellectual content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "4c945cd4b3bef4ad",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "tiered-ai-disclosure-framework-scientific-writing",
+          "scheme_name_verbatim": "Proposed Four-Level AI Disclosure Framework for Scientific Writing",
+          "source_ref": "doi:10.2147/nss.s568375",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Level",
+              "definition_quote": "we propose a tiered disclosure framework that categorizes assistance into four distinct levels",
+              "value_list_verbatim": [
+                "Level 1 (No Disclosure)",
+                "Level 2 (Simple Acknowledgment)",
+                "Level 3 (Detailed Disclosure)",
+                "Level 4 (Comprehensive Disclosure)"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "A Tiered Transparency Framework",
+              "quote": "Our proposed tiered framework addresses this limitation by categorizing AI assistance according to intellectual contribution"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

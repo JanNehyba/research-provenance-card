@@ -1,0 +1,109 @@
+{
+  "packet_id": "ft-040",
+  "papers": [
+    {
+      "rec_id": "9626b72df7d5d020",
+      "has_scheme": false,
+      "reason": "proposes a six-area strategic framework for institutional AI integration in doctoral education (governance, training, supervision, ethics, infrastructure, inclusion) and generic policy recommendations (mandatory disclosure, rejection of AI authorship), but does not enumerate dimensions or values for classifying a disclosure, attribution, or provenance claim about a produced work"
+    },
+    {
+      "rec_id": "fbefbdbe9067a941",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "coding-framework-cited-evidence",
+          "scheme_name_verbatim": "Coding framework for cited evidence",
+          "source_ref": "doi:10.1136/bmjgh-2021-006176",
+          "domain": "government",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "26 submissions from UPFI actors to WHO consultations, 114 factual claims",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Independence",
+              "definition_quote": "",
+              "value_list_verbatim": ["Industry-­funded", "Industry-­linked", "Appears independent", "Clearly independent"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Coding framework for cited evidence\nCategory\nCodes\nDescription\nIndependence"
+            },
+            {
+              "dimension_label_verbatim": "Nature of evidence",
+              "definition_quote": "",
+              "value_list_verbatim": ["research", "opinion", "strategy documents", "raw data"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "The nature of evidence was categorised as research, opinion, strategy documents or raw data."
+            },
+            {
+              "dimension_label_verbatim": "publication route",
+              "definition_quote": "",
+              "value_list_verbatim": ["peer-­reviewed journals and other academic outlets", "intergovernmental organisations and governments", "publications by private companies and organisations"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "we categorised the publication route as either peer-­reviewed journals and other academic outlets, intergovernmental organisations and governments, or publications by private companies and organisations"
+            }
+          ]
+        },
+        {
+          "scheme_id": "evidential-strategies-industry-practices",
+          "scheme_name_verbatim": "Analytical framework for use of scientific evidence",
+          "source_ref": "doi:10.1136/bmjgh-2021-006176",
+          "domain": "government",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "3 responses from one organisation (ICBA) citing peer-reviewed research",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Industry practice",
+              "definition_quote": "",
+              "value_list_verbatim": ["Misleading quoting of evidence", "Mimicked scientific critique", "Evidential landscaping"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "Misleading quoting of evidence Inaccurate reporting from published scientific research, including misquoting, selective quoting or misinterpretation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "3d9a4337b4e16fb5",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "advertising-styles-taxonomy-llms",
+          "scheme_name_verbatim": "a taxonomy of advertising styles for LLMs",
+          "source_ref": "doi:10.48550/arxiv.2603.04925",
+          "domain": "advertising",
+          "artifact_type": "empirical_study",
+          "granularity": "asset",
+          "authority": "self_report",
+          "empirical_basis": "WGNA 25 dataset, 30,731 RAG responses",
+          "machine_readable_artifact": "https://anonymous.4open.science/r/detecting-rag-advertising-styles/",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "level of explicitness",
+              "definition_quote": "distinguishing between covert and overt advertising",
+              "value_list_verbatim": ["covert", "overt"],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "The first dimension of our taxonomy is the level of explicitness , distinguishing between covert and overt advertising."
+            },
+            {
+              "dimension_label_verbatim": "type of appeal",
+              "definition_quote": "that can be either emotional or rational",
+              "value_list_verbatim": ["emotional", "rational"],
+              "closed_or_open": "closed_list",
+              "locator": "not_stated",
+              "quote": "The taxonomy’s second dimension is the type of appeal , that can be either emotional or rational"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

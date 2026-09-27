@@ -1,0 +1,88 @@
+{
+  "packet_id": "ft-060",
+  "papers": [
+    {
+      "rec_id": "a19d7223136d251e",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "crowdfunding-substantive-rhetorical-disclosure-signals",
+          "scheme_name_verbatim": "Research Framework",
+          "source_ref": "arXiv:2602.15698",
+          "domain": "other",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "20,514",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI involvement",
+              "definition_quote": "Substantive signals provide information about the underlying production process, including the resources, capabilities, and effort contributing to an output.",
+              "value_list_verbatim": ["high", "low"],
+              "closed_or_open": "closed_list",
+              "locator": "3. RESEARCH FRAMEWORK",
+              "quote": "substantive signals concern the extent of AI involvement"
+            },
+            {
+              "dimension_label_verbatim": "explicitness (logos)",
+              "definition_quote": "referring to the level of detail provided",
+              "value_list_verbatim": ["high", "low"],
+              "closed_or_open": "closed_list",
+              "locator": "3. RESEARCH FRAMEWORK",
+              "quote": "explicitness (logos), referring to the level of detail provided"
+            },
+            {
+              "dimension_label_verbatim": "authenticity (ethos)",
+              "definition_quote": "referring to the perceived credibility and trustworthiness",
+              "value_list_verbatim": ["high", "low"],
+              "closed_or_open": "closed_list",
+              "locator": "3. RESEARCH FRAMEWORK",
+              "quote": "authenticity (ethos), referring to the perceived credibility and trustworthiness"
+            },
+            {
+              "dimension_label_verbatim": "emotional tone (pathos)",
+              "definition_quote": "referring to the degree of positivity conveyed in the disclosure",
+              "value_list_verbatim": ["high", "low"],
+              "closed_or_open": "closed_list",
+              "locator": "3. RESEARCH FRAMEWORK",
+              "quote": "emotional tone (pathos), referring to the degree of positivity conveyed in the disclosure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "42a625c06900a994",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sankar-levels-of-ai-involvement",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.25259/ijdvl_1974_2025",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "levels of AI involvement",
+              "definition_quote": "provide clear, field-specific guidelines distinguishing levels of AI involvement",
+              "value_list_verbatim": ["minimal assistance", "substantive assistance"],
+              "closed_or_open": "closed_list",
+              "locator": "Viewpoint",
+              "quote": "provide clear, field-specific guidelines distinguishing levels of AI involvement: minimal assistance (e.g., grammar, summarisation), substantive assistance (e.g., drafting literature reviews, methodology),"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e6c2d04ec36586e6",
+      "has_scheme": false,
+      "reason": "exploratory qualitative survey of journal editors on AI-assisted scholarship; reports three emergent governance themes (policy fragmentation, authorship ambiguity, metric distortion) and three institutional-alignment principles, but proposes no enumerable category scheme for coding disclosures, attributions or provenance claims themselves"
+    }
+  ]
+}

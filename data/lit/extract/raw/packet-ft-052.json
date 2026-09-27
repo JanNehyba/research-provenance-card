@@ -1,0 +1,143 @@
+{
+  "packet_id": "ft-052",
+  "papers": [
+    {
+      "rec_id": "da5424c7b95a0777",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "vietnam-aigc-policy-coding-scheme",
+          "scheme_name_verbatim": "Policy coding scheme (used for document analysis)",
+          "source_ref": "doi:10.18623/rvd.v23.n1.4029",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "five Vietnam-affiliated publishing contexts",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Authorship rule",
+              "definition_quote": "Is AI explicitly prohibited as (co-\n)author?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Authorship rule \nIs AI explicitly prohibited as (co-\n)author?"
+            },
+            {
+              "dimension_label_verbatim": "Permitted uses",
+              "definition_quote": "What AI uses are allowed?",
+              "value_list_verbatim": ["Language \nediting", "translation", "idea \nstructuring"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "Permitted uses \nWhat AI uses are allowed?"
+            },
+            {
+              "dimension_label_verbatim": "Disclosure \nrequirement",
+              "definition_quote": "Is disclosure required, and where?",
+              "value_list_verbatim": ["Methods", "Acknowledgements", "dedicated \nstatement"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "Disclosure \nrequirement \nIs disclosure required, and where?"
+            },
+            {
+              "dimension_label_verbatim": "Citation policy",
+              "definition_quote": "Can \nAI \ntools \nbe \ncited \nas \nsources/authors?",
+              "value_list_verbatim": ["Prohibition on citing ChatGPT as an \nauthor"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "Citation policy \nCan \nAI \ntools \nbe \ncited \nas \nsources/authors?"
+            },
+            {
+              "dimension_label_verbatim": "Peer \nreview \nrestriction",
+              "definition_quote": "Are reviewers/editors restricted from \nAI tool use?",
+              "value_list_verbatim": ["Prohibition due to confidentiality"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "Peer \nreview \nrestriction \nAre reviewers/editors restricted from \nAI tool use?"
+            },
+            {
+              "dimension_label_verbatim": "Images/data \nmanipulation",
+              "definition_quote": "Are \nAI-generated \nimages/data \nallowed?",
+              "value_list_verbatim": ["Prohibition or conditional allowance"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "Images/data \nmanipulation \nAre \nAI-generated \nimages/data \nallowed?"
+            },
+            {
+              "dimension_label_verbatim": "Enforcement \n& \nsanctions",
+              "definition_quote": "Are consequences specified?",
+              "value_list_verbatim": ["Desk rejection", "retraction", "reporting"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "Enforcement \n& \nsanctions \nAre consequences specified?"
+            }
+          ]
+        },
+        {
+          "scheme_id": "vietnam-disclosure-statement-template",
+          "scheme_name_verbatim": "Template disclosure statement (authors)",
+          "source_ref": "doi:10.18623/rvd.v23.n1.4029",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "section",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Section title",
+              "definition_quote": "",
+              "value_list_verbatim": ["“Declaration of Generative AI Use”"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Section title \n“Declaration of Generative AI Use”"
+            },
+            {
+              "dimension_label_verbatim": "Tool \nidentification",
+              "definition_quote": "",
+              "value_list_verbatim": ["“During the preparation of this manuscript, the authors used [Tool/Model name, version \nif known]…”"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Tool \nidentification \n“During the preparation of this manuscript, the authors used [Tool/Model name, version \nif known]…”"
+            },
+            {
+              "dimension_label_verbatim": "Purpose",
+              "definition_quote": "",
+              "value_list_verbatim": ["“…to support [language editing/translation/structuring]…”"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Purpose \n“…to support [language editing/translation/structuring]…”"
+            },
+            {
+              "dimension_label_verbatim": "Human \noversight",
+              "definition_quote": "",
+              "value_list_verbatim": ["“All outputs were reviewed and edited by the authors, who take full responsibility for \naccuracy and integrity.”"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Human \noversight \n“All outputs were reviewed and edited by the authors, who take full responsibility for \naccuracy and integrity.”"
+            },
+            {
+              "dimension_label_verbatim": "Boundaries",
+              "definition_quote": "",
+              "value_list_verbatim": ["“The tool was not used to generate research data, interpret results, or produce \nconclusions.”"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 4",
+              "quote": "Boundaries \n“The tool was not used to generate research data, interpret results, or produce \nconclusions.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a2dd5076c9312d4f",
+      "has_scheme": false,
+      "reason": "the nine-dimension comparison framework (input modality, task, data requirements, validation level, interpretability, failure modes, clinical readiness, regulatory considerations, human-oversight need) classifies AI model families for a technology review; it does not categorize disclosures, attributions, or provenance claims about produced content"
+    },
+    {
+      "rec_id": "da50cbd0341d768c",
+      "has_scheme": false,
+      "reason": "proposes four design principles (pedagogical primacy, human-in-the-loop, transparency by design, equity-first) and an implementation roadmap for adaptive-learning AI systems; these are system-design principles and adoption phases, not categories for disclosure, attribution, or provenance of AI-produced content"
+    }
+  ]
+}

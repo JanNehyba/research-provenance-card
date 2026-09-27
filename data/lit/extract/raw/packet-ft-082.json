@@ -1,0 +1,158 @@
+{
+  "packet_id": "ft-082",
+  "papers": [
+    {
+      "rec_id": "6766dfe55666def8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "datacite-four-extraction-conditions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.18653/v1/2025.wasp-main.8",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "paragraph",
+          "authority": "technical_standard",
+          "empirical_basis": "601 paragraph-URL pairs",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Identiﬁer for research data",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.3",
+              "quote": "1. Identiﬁer for research data"
+            },
+            {
+              "dimension_label_verbatim": "Name of research data",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.3",
+              "quote": "2. Name of research data"
+            },
+            {
+              "dimension_label_verbatim": "Information about the type of research data",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.3",
+              "quote": "3. Information about the type of research data"
+            },
+            {
+              "dimension_label_verbatim": "Information related to the creation of the re-\nsearch data",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "2.3",
+              "quote": "4. Information related to the creation of the re-\nsearch data"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "970671926be03952",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "vietnam-advertising-reform-taxonomy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.62225/2583049x.2026.6.3.6356",
+          "domain": "advertising",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "illustrative descriptive dataset on advertising violations",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "legal taxonomy of advertising actors",
+              "definition_quote": "",
+              "value_list_verbatim": ["advertisers", "advertising service providers", "content creators", "influencers", "publishers", "ad-tech intermediaries", "digital platforms"],
+              "closed_or_open": "closed_list",
+              "locator": "Policy Recommendations",
+              "quote": "Vietnam should clarify the legal taxonomy of advertising actors"
+            },
+            {
+              "dimension_label_verbatim": "claim substantiation duty",
+              "definition_quote": "",
+              "value_list_verbatim": ["quality", "origin", "performance", "safety", "health effects", "financial benefit", "environmental impact"],
+              "closed_or_open": "closed_list",
+              "locator": "Policy Recommendations",
+              "quote": "Any objective advertising claim about quality, origin, performance, safety, health effects, financial benefit or environmental impact"
+            },
+            {
+              "dimension_label_verbatim": "sponsored-content transparency",
+              "definition_quote": "",
+              "value_list_verbatim": ["Paid endorsements", "affiliate marketing", "livestream promotions", "native advertising", "product placements"],
+              "closed_or_open": "closed_list",
+              "locator": "Policy Recommendations",
+              "quote": "Paid endorsements, affiliate marketing, livestream promotions, native advertising and product placements should be clearly labeled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "8b0127f9be42c14d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "genai-sp-transparency-design-dimensions",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2604.17270",
+          "domain": "software",
+          "artifact_type": "empirical_study",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "21 semi-structured interviews",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Modality",
+              "definition_quote": "",
+              "value_list_verbatim": ["Interactive", "Static"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "S&P information formats that support on-demand user interaction."
+            },
+            {
+              "dimension_label_verbatim": "Granularity",
+              "definition_quote": "",
+              "value_list_verbatim": ["High", "Low"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Highly detailed information or control types."
+            },
+            {
+              "dimension_label_verbatim": "explainability and reflectiveness",
+              "definition_quote": "",
+              "value_list_verbatim": ["Explainability", "Reflectiveness"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "How clearly the interface communicates what an S&P option means and what it enables."
+            },
+            {
+              "dimension_label_verbatim": "Findability",
+              "definition_quote": "",
+              "value_list_verbatim": ["High"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "S&P information and controls are highlighted and easily located with textual, visual, or multimodal cues."
+            },
+            {
+              "dimension_label_verbatim": "Timing",
+              "definition_quote": "",
+              "value_list_verbatim": ["Repeated", "One-Time", "Persistent"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "S&P information is repeatedly presented."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

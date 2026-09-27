@@ -1,0 +1,141 @@
+{
+  "packet_id": "ft-061",
+  "papers": [
+    {
+      "rec_id": "b1c0364bac9dc13e",
+      "has_scheme": false,
+      "reason": "proposes five ethical design principles (RAF) and a table of design tensions for AI journaling apps; these classify app design choices along user-led vs system-led poles, not a scheme for disclosure, attribution, or provenance of a produced artifact. One row, 'TM-2: AI Disclosure', touches disclosure but is a single line inside a broader design-tension table, not itself an offered scheme."
+    },
+    {
+      "rec_id": "76d5d51cf9c95aba",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "feynman-honesty-standard",
+          "scheme_name_verbatim": "Feynman Honesty Standard",
+          "source_ref": "doi:10.3389/fdgth.2026.1819411",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "the empirical evidence through which this framework is stress-tested addresses primarily autism and ADHD",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Scope clarity",
+              "definition_quote": "Systems must provide explicit, user-facing statements of what they are not designed or validated to do",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Toward a Feynman honesty standard for AI in digital mental health",
+              "quote": "excluding clinical diagnosis, risk determination without human oversight, or therapeutic intervention from stated capabilities"
+            },
+            {
+              "dimension_label_verbatim": "Population-limit disclosure",
+              "definition_quote": "Systems must document and disclose the demographic, neurological, linguistic, and developmental characteristics of training and validation populations",
+              "value_list_verbatim": ["neurodivergent", "gender-diverse", "minority-language", "non-Western", "paediatric or adolescent"],
+              "closed_or_open": "closed_list",
+              "locator": "Toward a Feynman honesty standard for AI in digital mental health",
+              "quote": "including neurodivergent, gender-diverse, minority-language, non-Western, and paediatric or adolescent users"
+            },
+            {
+              "dimension_label_verbatim": "Uncertainty communication",
+              "definition_quote": "Outputs relevant to risk, prognosis, or clinical decision-making must be accompanied by user-intelligible uncertainty indicators",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Toward a Feynman honesty standard for AI in digital mental health",
+              "quote": "plain-language expressions of what the system does not know and the range of error associated with its outputs"
+            },
+            {
+              "dimension_label_verbatim": "Role integrity",
+              "definition_quote": "System design, interface language, and documentation must maintain clear distinctions between support, triage, and treatment.",
+              "value_list_verbatim": ["support", "triage", "treatment"],
+              "closed_or_open": "closed_list",
+              "locator": "Toward a Feynman honesty standard for AI in digital mental health",
+              "quote": "audits of product materials against a documented function statement; alignment with Software as a Medical Device (SaMD) classification frameworks"
+            },
+            {
+              "dimension_label_verbatim": "Participatory co-development",
+              "definition_quote": "Neurodivergent individuals and other affected communities must be structurally involved—not merely consulted—in defining acceptable uncertainty",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Toward a Feynman honesty standard for AI in digital mental health",
+              "quote": "This criterion can be operationalised using the GRIPP2 checklist ( 34 ) for standardised reporting of patient and public involvement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "5ddd731c2a7d7a76",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "biorxiv-disclosure-tier-scale",
+          "scheme_name_verbatim": "four-tier disclosure granularity variable",
+          "source_ref": "doi:10.1016/j.patter.2026.101585",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "10,000 bioRxiv preprints from 2024 to 2025",
+          "machine_readable_artifact": "https://doi.org/10.5281/zenodo.19712572",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "disclosure granularity",
+              "definition_quote": "disclose not merely that AI was used, but how it was used.",
+              "value_list_verbatim": ["tier 0", "tier 1", "tier 2", "tier 3"],
+              "closed_or_open": "closed_list",
+              "locator": "Does more granular disclosure track more strongly with open science?",
+              "quote": "tier 0 denotes no detectable AI disclosure; tier 1 denotes a general reference"
+            }
+          ]
+        },
+        {
+          "scheme_id": "biorxiv-four-disclosure-elements",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1016/j.patter.2026.101585",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "tool name and version",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Building on what works: Four recommendations for the next phase",
+              "quote": "policy can take a concrete next step by requiring disclosure of four specific elements: tool name and version"
+            },
+            {
+              "dimension_label_verbatim": "stage of use",
+              "definition_quote": "",
+              "value_list_verbatim": ["writing", "programming", "data analysis", "literature review"],
+              "closed_or_open": "open_text",
+              "locator": "Building on what works: Four recommendations for the next phase",
+              "quote": "stage of use (e.g., writing, programming, data analysis, literature review)"
+            },
+            {
+              "dimension_label_verbatim": "scope of use",
+              "definition_quote": "",
+              "value_list_verbatim": ["whole manuscript", "specific sections", "specific tasks"],
+              "closed_or_open": "open_text",
+              "locator": "Building on what works: Four recommendations for the next phase",
+              "quote": "scope of use (e.g., whole manuscript, specific sections, specific tasks)"
+            },
+            {
+              "dimension_label_verbatim": "the extent of human review and verification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Building on what works: Four recommendations for the next phase",
+              "quote": "and the extent of human review and verification"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

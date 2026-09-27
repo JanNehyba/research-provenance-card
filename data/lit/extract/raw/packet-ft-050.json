@@ -1,0 +1,90 @@
+{
+  "packet_id": "ft-050",
+  "papers": [
+    {
+      "rec_id": "ca846086f6264dec",
+      "has_scheme": false,
+      "reason": "describes a five-phase human-AI collaboration workflow and decision heuristics for drafting biology assessment rubrics; no categories, dimensions or scale for disclosing or attributing AI involvement in the produced rubric are proposed"
+    },
+    {
+      "rec_id": "b46c20a4a831ac81",
+      "has_scheme": false,
+      "reason": "announces the planned PRISMA-AI reporting-guideline extension and its development process (literature review, Delphi survey, consensus meeting, piloting); the guideline's actual checklist items or categories do not yet exist in this piece"
+    },
+    {
+      "rec_id": "d751b83b36a79c20",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aitdi-transparency-disclosure-index",
+          "scheme_name_verbatim": "Artificial Intelligence Transparency and Disclosure Index",
+          "source_ref": "doi:10.2196/90588",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "tool identity",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Quality Assessment Instruments",
+              "quote": "which includes 6 domains, namely tool identity, stage of use, model version, prompting or configuration details, human verification, and data-privacy or ethical statements"
+            },
+            {
+              "dimension_label_verbatim": "stage of use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Quality Assessment Instruments",
+              "quote": "which includes 6 domains, namely tool identity, stage of use, model version, prompting or configuration details, human verification, and data-privacy or ethical statements"
+            },
+            {
+              "dimension_label_verbatim": "model version",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Quality Assessment Instruments",
+              "quote": "which includes 6 domains, namely tool identity, stage of use, model version, prompting or configuration details, human verification, and data-privacy or ethical statements"
+            },
+            {
+              "dimension_label_verbatim": "prompting or configuration details",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Quality Assessment Instruments",
+              "quote": "which includes 6 domains, namely tool identity, stage of use, model version, prompting or configuration details, human verification, and data-privacy or ethical statements"
+            },
+            {
+              "dimension_label_verbatim": "human verification",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Quality Assessment Instruments",
+              "quote": "which includes 6 domains, namely tool identity, stage of use, model version, prompting or configuration details, human verification, and data-privacy or ethical statements"
+            },
+            {
+              "dimension_label_verbatim": "data-privacy or ethical statements",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Quality Assessment Instruments",
+              "quote": "which includes 6 domains, namely tool identity, stage of use, model version, prompting or configuration details, human verification, and data-privacy or ethical statements"
+            },
+            {
+              "dimension_label_verbatim": "AI-related limitations",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Quality Assessment Instruments",
+              "quote": "along with a recommended nonscored domain addressing AI-related limitations (eg, hallucinations or model drift)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

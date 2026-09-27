@@ -1,0 +1,318 @@
+{
+  "packet_id": "ft-056",
+  "papers": [
+    {
+      "rec_id": "c4122ed25020a375",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "consort-ai-checklist",
+          "scheme_name_verbatim": "CONSORT-AI checklist",
+          "source_ref": "doi:10.1038/s41591-020-1034-x",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "editorial_requirement",
+          "empirical_basis": "103 responses were received for the first Delphi round, and 91 responses",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "1a,b (i)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Indicate that the intervention involves artificial intelligence/machine learning in the title and/or abstract and specify the type of model."
+            },
+            {
+              "dimension_label_verbatim": "1a,b (ii)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "State the intended use of the AI intervention within the trial in the title and/or abstract."
+            },
+            {
+              "dimension_label_verbatim": "2a (i)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Explain the intended use of the AI intervention in the context of the clinical pathway, including its purpose and its intended users"
+            },
+            {
+              "dimension_label_verbatim": "4a (i)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "State the inclusion and exclusion criteria at the level of participants."
+            },
+            {
+              "dimension_label_verbatim": "4a (ii)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "State the inclusion and exclusion criteria at the level of the input data."
+            },
+            {
+              "dimension_label_verbatim": "4b",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Describe how the AI intervention was integrated into the trial setting, including any onsite or offsite requirements."
+            },
+            {
+              "dimension_label_verbatim": "5 (i)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "State which version of the AI algorithm was used."
+            },
+            {
+              "dimension_label_verbatim": "5 (ii)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Describe how the input data were acquired and selected for the AI intervention."
+            },
+            {
+              "dimension_label_verbatim": "5 (iii)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Describe how poor quality or unavailable input data were assessed and handled."
+            },
+            {
+              "dimension_label_verbatim": "5 (iv)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Specify whether there was human–AI interaction in the handling of the input data, and what level of expertise was required of users."
+            },
+            {
+              "dimension_label_verbatim": "5 (v)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Specify the output of the AI intervention"
+            },
+            {
+              "dimension_label_verbatim": "5 (vi)",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Explain how the AI intervention’s outputs contributed to decision-making or other elements of clinical practice."
+            },
+            {
+              "dimension_label_verbatim": "19",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Describe results of any analysis of performance errors and how errors were identified, where applicable."
+            },
+            {
+              "dimension_label_verbatim": "25",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "State whether and how the AI intervention and/or its code can be accessed, including any restrictions to access or re-use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "b40f902b303c5e58",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "decide-ai-checklist",
+          "scheme_name_verbatim": "DECIDE-AI checklist",
+          "source_ref": "doi:10.1038/s41591-022-01772-9",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "section",
+          "authority": "editorial_requirement",
+          "empirical_basis": "123 experts participated in the first round of Delphi, 138 in the second, 16 in the consensus meeting, and 16 in the qualitative evaluation",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Title",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Identify the study as early clinical evaluation of a decision support system based on AI or machine learning, specifying the problem addressed"
+            },
+            {
+              "dimension_label_verbatim": "Intended use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Describe the targeted medical condition(s) and problem(s), including the current standard practice, and the intended patient population(s)"
+            },
+            {
+              "dimension_label_verbatim": "Participants",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Describe how patients were recruited, stating the inclusion and exclusion criteria at both patient and data level"
+            },
+            {
+              "dimension_label_verbatim": "Al system",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Briefly describe the AI system, specifying its version and type of underlying algorithm used."
+            },
+            {
+              "dimension_label_verbatim": "Implementation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Describe the settings in which the AI system was evaluated"
+            },
+            {
+              "dimension_label_verbatim": "Safety and errors",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Provide a description of how significant errors/malfunctions were defined and identified"
+            },
+            {
+              "dimension_label_verbatim": "Human factors",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Describe the human factors tools, methods or frameworks used, the use cases considered, and the users involved"
+            },
+            {
+              "dimension_label_verbatim": "Ethics",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Describe whether specific methodologies were utilised to fulfil an ethics-related goal (such as algorithmic fairness) and their rationale"
+            },
+            {
+              "dimension_label_verbatim": "Participants",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Describe the baseline characteristics of the patients included in the study, and report on input data missingness"
+            },
+            {
+              "dimension_label_verbatim": "Implementation",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Report on the user exposure to the AI system, on the number of instances the AI system was used"
+            },
+            {
+              "dimension_label_verbatim": "Modifications",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Report any changes made to the AI system or its hardware platform during the study."
+            },
+            {
+              "dimension_label_verbatim": "Human-computer agreement",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Report on the user agreement with the AI system."
+            },
+            {
+              "dimension_label_verbatim": "Safety and errors",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "List any significant errors/malfunctions related to: AI system recommendations, supporting software/hardware, or users."
+            },
+            {
+              "dimension_label_verbatim": "Human factors",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Report on the usability evaluation, according to recognised standards or frameworks"
+            },
+            {
+              "dimension_label_verbatim": "Support for intended use",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Discuss whether the results obtained support the intended use of the AI system in clinical settings"
+            },
+            {
+              "dimension_label_verbatim": "Safety and errors",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Discuss what the results indicate about the safety profile of the AI system."
+            },
+            {
+              "dimension_label_verbatim": "Data availability",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 2",
+              "quote": "Disclose if and how data and relevant code are available"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "0a694e18d2a470bf",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ipe-institutional-coursework-use-policy",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.62177/chst.v2i3.599",
+          "domain": "education_assessment",
+          "artifact_type": "policy",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "17 instructors",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "coursework uses",
+              "definition_quote": "",
+              "value_list_verbatim": ["permitted", "restricted", "prohibited"],
+              "closed_or_open": "closed_list",
+              "locator": "Theme 6: Governance and accountability",
+              "quote": "An internal policy listed permitted, restricted, and prohibited coursework uses."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

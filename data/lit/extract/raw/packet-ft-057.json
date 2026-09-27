@@ -1,0 +1,206 @@
+{
+  "packet_id": "ft-057",
+  "papers": [
+    {
+      "rec_id": "5fb4e6d754f55de8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "korean-journal-gai-guideline-items",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1101/2024.03.08.24303960",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "18 guidelines with GAI-related content",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "No authorship is allowed for generative artificial intelligence",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "No authorship is allowed for generative artificial intelligence"
+            },
+            {
+              "dimension_label_verbatim": "Emphasis on responsibility for human authors on AI generated content",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Emphasis on responsibility for human authors on AI generated content"
+            },
+            {
+              "dimension_label_verbatim": "Prohibits AI usage other than language improvement",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Prohibits AI usage other than language improvement"
+            },
+            {
+              "dimension_label_verbatim": "Use of AI must be disclosed in some form",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Use of AI must be disclosed in some form"
+            },
+            {
+              "dimension_label_verbatim": "Specific technical details of the AI model used should be declared",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Specific technical details of the AI model used should be declared"
+            },
+            {
+              "dimension_label_verbatim": "AI declaration template provided",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "AI declaration template provided"
+            },
+            {
+              "dimension_label_verbatim": "Discourage AI usage for content generation, such as text, figure, images",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Discourage AI usage for content generation, such as text, figure, images"
+            },
+            {
+              "dimension_label_verbatim": "Non-disclosure consequences are mentioned",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Non-disclosure consequences are mentioned"
+            },
+            {
+              "dimension_label_verbatim": "Basic tools for grammar, spelling, references do not require disclosure",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Basic tools for grammar, spelling, references do not require disclosure"
+            },
+            {
+              "dimension_label_verbatim": "Use of AI must be declared in the cover letter",
+              "definition_quote": "",
+              "value_list_verbatim": ["YES", "NO", "UNSURE"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Use of AI must be declared in the cover letter"
+            },
+            {
+              "dimension_label_verbatim": "Use of AI must be declared in the main manuscript",
+              "definition_quote": "",
+              "value_list_verbatim": ["acknowledgement", "materials and methods", "specific section", "not specified"],
+              "closed_or_open": "closed_list",
+              "locator": "Supplemental information",
+              "quote": "Use of AI must be declared in the main manuscript (If YES, specify which section: ex: acknowledgement, materials and methods, specific section, not specified."
+            },
+            {
+              "dimension_label_verbatim": "Provide any other relevant information",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Supplemental information",
+              "quote": "Provide any other relevant information from the author guidelines related to the use of AI or language models that doesn't fit into the items above."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "3627c0540e5c23b6",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "literary-hr-communication-model-layers",
+          "scheme_name_verbatim": "Literary HR Communication Model",
+          "source_ref": "doi:10.69671/socialprism.2.2.2025.43",
+          "domain": "workplace",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "storycraft",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Discussion",
+              "quote": "Layer A is storycraft. Specify plot, character, conflict, arc, motif, and tone, and write in plain language."
+            },
+            {
+              "dimension_label_verbatim": "the engagement lever set",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Discussion",
+              "quote": "Layer B is the engagement lever set. Design for meaning, voice, recognition, belonging, and efficacy"
+            },
+            {
+              "dimension_label_verbatim": "channels and cadence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Discussion",
+              "quote": "Layer C is channels and cadence. Choose short video, audio, or interactive posts when the goal is reach"
+            },
+            {
+              "dimension_label_verbatim": "the AI workflow",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Discussion",
+              "quote": "Layer D is the AI workflow. Use assistive tools for ideation, captioning, and localization, while assigning a named human editor as story steward"
+            },
+            {
+              "dimension_label_verbatim": "governance and ethics",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Discussion",
+              "quote": "Layer E is governance and ethics. Disclose assistance, secure consent and likeness rights, adopt provenance and accessibility standards"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "f99f8b73633ff14c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "distant-writing-ai-involvement-vocabulary",
+          "scheme_name_verbatim": "a taxonomy of AI involvement",
+          "source_ref": "doi:10.18535/ijsshi/v12i05.04",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "nuanced vocabulary for describing the ways in which LLMs contribute to the writing process",
+              "definition_quote": "",
+              "value_list_verbatim": ["lexical assistance", "stylistic augmentation", "narrative generation", "thematic innovation"],
+              "closed_or_open": "closed_list",
+              "locator": "AI, Plagiarism, and the Norms of Attribution",
+              "quote": "it is helpful to develop a nuanced vocabulary for describing the ways in which LLMs contribute to the writing process."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

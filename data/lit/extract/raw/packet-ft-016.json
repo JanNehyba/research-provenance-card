@@ -1,0 +1,139 @@
+{
+  "packet_id": "ft-016",
+  "papers": [
+    {
+      "rec_id": "f8d5f9321c22da8c",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "plos-contributorship-five-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1177/0306312716650046",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "87,002 documents in which contributorship statements are found",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "type of contribution",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Analyzed the data",
+                "Conceived and designed the experiments",
+                "Contributed reagents/materials/analysis tools",
+                "Performed the experiments",
+                "Wrote the paper"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2",
+              "quote": "Table 2. Number and percentage of articles and of authorships (author-paper combinations), by type of contribution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "6f9069bb04dddda8",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "stard-ai-checklist-sections",
+          "scheme_name_verbatim": "The STARD-AI checklist",
+          "source_ref": "doi:10.1038/s41591-025-03953-8",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "more than 240 international participants",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Section and topic",
+              "definition_quote": "",
+              "value_list_verbatim": [
+                "Title or abstract",
+                "Analysis",
+                "Results",
+                "Participants and dataset",
+                "Test results",
+                "Discussion",
+                "Other information"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Table 2 | The STARD-AI checklist",
+              "quote": "the checklist contains items relating to the title or abstract (item 1), abstract (item 2), introduction (items 3 and 4), methods (items 5–23),"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e21d237ecdf1ea1f",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "sport-pedagogy-discipline-specific-ethical-framework",
+          "scheme_name_verbatim": "A discipline-specific ethical framework",
+          "source_ref": "doi:10.3389/fpubh.2026.1812516",
+          "domain": "other",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Human responsibility",
+              "definition_quote": "Human researchers and qualified coaches retain ultimate accountability for research design, instructional decisions, and interpretive judgments.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Human responsibility",
+              "quote": "Human researchers and qualified coaches retain ultimate accountability for research design, instructional decisions, and interpretive judgments."
+            },
+            {
+              "dimension_label_verbatim": "Transparency",
+              "definition_quote": "All GenAI use should be transparently disclosed in ethics applications and scholarly publications.",
+              "value_list_verbatim": [
+                "the tool used",
+                "its functional role",
+                "the stage of the research process in which it was used",
+                "the extent of human verification applied to its outputs"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Transparency",
+              "quote": "At minimum, disclosure should specify the tool used, its functional role, the stage of the research process in which it was used"
+            },
+            {
+              "dimension_label_verbatim": "Data protection",
+              "definition_quote": "researchers should additionally document data storage location, third-party processing exposure, retention period, and participant consent language specific to AI-supported analysis.",
+              "value_list_verbatim": [
+                "data storage location",
+                "third-party processing exposure",
+                "retention period",
+                "participant consent language"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Data protection",
+              "quote": "researchers should additionally document data storage location, third-party processing exposure, retention period, and participant consent language specific to AI-supported analysis."
+            },
+            {
+              "dimension_label_verbatim": "Pedagogical validity",
+              "definition_quote": "the alignment between AI-supported instructional processes and empirically grounded motor learning principles",
+              "value_list_verbatim": [
+                "Attentional Focus Appropriateness",
+                "Autonomy Support",
+                "Context Sensitivity",
+                "Movement Variability Support"
+              ],
+              "closed_or_open": "closed_list",
+              "locator": "Pedagogical validity",
+              "quote": "We define pedagogical validity as the alignment between AI-supported instructional processes and empirically grounded motor learning principles, operationalized through four interrelated dimensions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

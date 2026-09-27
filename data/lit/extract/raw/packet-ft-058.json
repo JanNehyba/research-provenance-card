@@ -1,0 +1,307 @@
+{
+  "packet_id": "ft-058",
+  "papers": [
+    {
+      "rec_id": "177dd051ce29bbb7",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "tregai-checklist",
+          "scheme_name_verbatim": "Transparent Reporting of Ethics for Generative Artificial Intelligence (TREGAI) checklist",
+          "source_ref": "doi:10.48550/arxiv.2311.02107",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "193 articles",
+          "machine_readable_artifact": "https://github.com/nliulab/GenAI-Ethics-Checklist",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Accountability",
+              "definition_quote": "The explicit clarifications of to whom and to what extent responsibility and/or legal liability fall.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The explicit clarifications of to whom and to what extent responsibility and/or legal liability fall."
+            },
+            {
+              "dimension_label_verbatim": "Autonomy",
+              "definition_quote": "The preservation and fostering of patients' dignity, rights for self- determination and capacity to make informed decisions.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The preservation and fostering of patients' dignity, rights for self- determination and capacity to make informed decisions."
+            },
+            {
+              "dimension_label_verbatim": "Equity",
+              "definition_quote": "The use of generative AI to promote equity according to some notion of fairness (e.g., equality of opportunity, outcomes, etc.) in health",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The use of generative AI to promote equity according to some notion of fairness (e.g., equality of opportunity, outcomes, etc.) in health"
+            },
+            {
+              "dimension_label_verbatim": "Integrity (in medical education and quality of clinical research)",
+              "definition_quote": "The commitment to intellectual honesty, and personal responsibility to abide by responsible research conduct, including data integrity, to establish accountability and prevent harm.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The commitment to intellectual honesty, and personal responsibility to abide by responsible research conduct, including data integrity, to establish accountability and prevent harm."
+            },
+            {
+              "dimension_label_verbatim": "Non-maleficence",
+              "definition_quote": "The prevention of harm and potential risks to patients associated with generative AI use in healthcare.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The prevention of harm and potential risks to patients associated with generative AI use in healthcare."
+            },
+            {
+              "dimension_label_verbatim": "Privacy",
+              "definition_quote": "The protection of patients' information from illegitimate access, and of confidentiality of personal sensitive information.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The protection of patients' information from illegitimate access, and of confidentiality of personal sensitive information."
+            },
+            {
+              "dimension_label_verbatim": "Security",
+              "definition_quote": "The protection of health data integrity and safety, through careful assessments of vulnerabilities in data systems and the prevention of data breaches, cyberattacks or other",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The protection of health data integrity and safety, through careful assessments of vulnerabilities in data systems and the prevention of data breaches, cyberattacks or other"
+            },
+            {
+              "dimension_label_verbatim": "Transparency",
+              "definition_quote": "The full-disclosure and thorough documentation of information regarding generative AI development, including its data set and evaluation of performance.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The full-disclosure and thorough documentation of information regarding generative AI development, including its data set and evaluation of performance."
+            },
+            {
+              "dimension_label_verbatim": "Trust",
+              "definition_quote": "The confidence of users in generative AI and/or its developers, and expectations that the model is competent in performing its pre-specified tasks and behave in",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Box 1",
+              "quote": "The confidence of users in generative AI and/or its developers, and expectations that the model is competent in performing its pre-specified tasks and behave in"
+            },
+            {
+              "dimension_label_verbatim": "Beneficence",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 2",
+              "quote": "the additional important principle of Beneficence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "940ac2683546eab9",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "hryciw-ai-involvement-classification",
+          "scheme_name_verbatim": "Classification system for AI involvement",
+          "source_ref": "doi:10.3389/frai.2023.1283353",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "level of AI involvement",
+              "definition_quote": "the level of AI involvement is classified based on the highest level of usage",
+              "value_list_verbatim": ["Proofreading", "Restructuring", "Drafting", "Autonomous Writing"],
+              "closed_or_open": "closed_list",
+              "locator": "Classification system for AI involvement",
+              "quote": "At this initial level of involvement, the human author is exclusively responsible for the written content."
+            }
+          ]
+        },
+        {
+          "scheme_id": "hryciw-guidelines-reporting-ai-involvement",
+          "scheme_name_verbatim": "Guidelines for reporting AI involvement",
+          "source_ref": "doi:10.3389/frai.2023.1283353",
+          "domain": "research_publishing",
+          "artifact_type": "reporting_guideline",
+          "granularity": "document",
+          "authority": "self_report",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Specify the level of AI assistance",
+              "definition_quote": "Clearly state the extent of AI involvement, ranging from proofreading to, perhaps eventually, full manuscript generation.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Guidelines for reporting AI involvement",
+              "quote": "Clearly state the extent of AI involvement, ranging from proofreading to, perhaps eventually, full manuscript generation."
+            },
+            {
+              "dimension_label_verbatim": "Detail human involvement and oversight",
+              "definition_quote": "Specify the degree of human involvement and oversight throughout the manuscript development process, including editing, revising, and validating AI-generated content.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Guidelines for reporting AI involvement",
+              "quote": "Specify the degree of human involvement and oversight throughout the manuscript development process, including editing, revising, and validating AI-generated content."
+            },
+            {
+              "dimension_label_verbatim": "Describe the AI tool or model",
+              "definition_quote": "Provide a brief description of the AI tool or model utilized, including the software name and version number where appropriate, the LLM or",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Guidelines for reporting AI involvement",
+              "quote": "Provide a brief description of the AI tool or model utilized, including the software name and version number where appropriate, the LLM or"
+            },
+            {
+              "dimension_label_verbatim": "Address ethical considerations",
+              "definition_quote": "Disclose any ethical considerations related to the use of AI in manuscript development, such as potential biases relevant to the subject matter.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Guidelines for reporting AI involvement",
+              "quote": "Disclose any ethical considerations related to the use of AI in manuscript development, such as potential biases relevant to the subject matter."
+            },
+            {
+              "dimension_label_verbatim": "Acknowledge limitations",
+              "definition_quote": "Recognize the limitations of AI use, including potential biases, inaccuracies, or misinterpretations that may arise from AI-generated content.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Guidelines for reporting AI involvement",
+              "quote": "Recognize the limitations of AI use, including potential biases, inaccuracies, or misinterpretations that may arise from AI-generated content."
+            },
+            {
+              "dimension_label_verbatim": "Disclose conflicts of interest",
+              "definition_quote": "Reveal any potential conflicts of interest, particularly when using commercial AI tools, to maintain transparency and avoid potential biases.",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Guidelines for reporting AI involvement",
+              "quote": "Reveal any potential conflicts of interest, particularly when using commercial AI tools, to maintain transparency and avoid potential biases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "2d7158090729afb5",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "baminiwatta-ai-policy-elements",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.3897/ese.2025.e165365",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "200 journals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "AI policy inclusion",
+              "definition_quote": "Is policy on AI included in the guidelines?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Is policy on AI included in the guidelines?"
+            },
+            {
+              "dimension_label_verbatim": "Source guideline",
+              "definition_quote": "Do the guidelines cite any other guideline on the use of AI? If so, which of these guidelines? (For example, ICMJE, COPE, or WAME)",
+              "value_list_verbatim": ["ICMJE", "COPE", "WAME"],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "Do the guidelines cite any other guideline on the use of AI? If so, which of these guidelines? (For example, ICMJE, COPE, or WAME)"
+            },
+            {
+              "dimension_label_verbatim": "Policy on AI tool as an author",
+              "definition_quote": "Is authorship for AI tools allowed or prohibited?",
+              "value_list_verbatim": ["allowed", "prohibited"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Is authorship for AI tools allowed or prohibited?"
+            },
+            {
+              "dimension_label_verbatim": "Author accountability",
+              "definition_quote": "Do the guidelines state that authors should be accountable for any AI-generated content in the manuscript?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Do the guidelines state that authors should be accountable for any AI-generated content in the manuscript?"
+            },
+            {
+              "dimension_label_verbatim": "Transparency and disclosure",
+              "definition_quote": "Do the author guidelines require disclosure of the use of AI? If so, in which section or part of the manuscript should this disclosure be",
+              "value_list_verbatim": ["the methods section", "a separate section", "the acknowledgements", "the cover letter"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Do the author guidelines require disclosure of the use of AI? If so, in which section or part of the manuscript should this disclosure be"
+            },
+            {
+              "dimension_label_verbatim": "Research integrity",
+              "definition_quote": "Do the author guidelines flag the potential risks of AI use on the quality and integrity of the work? Are authors required to discuss",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Do the author guidelines flag the potential risks of AI use on the quality and integrity of the work? Are authors required to discuss"
+            },
+            {
+              "dimension_label_verbatim": "Adaptability of policies",
+              "definition_quote": "Do the guidelines state that the AI policies may be updated or revised in the future? If so, are updates to be expected at regular",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Do the guidelines state that the AI policies may be updated or revised in the future? If so, are updates to be expected at regular"
+            },
+            {
+              "dimension_label_verbatim": "Constraints and exclusions",
+              "definition_quote": "Does the policy explicitly prohibit the use of AI?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Does the policy explicitly prohibit the use of AI?"
+            },
+            {
+              "dimension_label_verbatim": "AI-generated images",
+              "definition_quote": "What is the journal's policy on the submission of images (figures, photographs, etc.) created by generative AI?",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "What is the journal's policy on the submission of images (figures, photographs, etc.) created by generative AI?"
+            },
+            {
+              "dimension_label_verbatim": "AI-assisted copy editing",
+              "definition_quote": "What is the journal's policy on AI-assisted improvements to human- generated texts for readability, style, grammar, and spelling?",
+              "value_list_verbatim": [],
+              "closed_or_open": "open_text",
+              "locator": "Table 1",
+              "quote": "What is the journal's policy on AI-assisted improvements to human- generated texts for readability, style, grammar, and spelling?"
+            },
+            {
+              "dimension_label_verbatim": "Peer review policy",
+              "definition_quote": "Does the journal allow or prohibit peer reviewers to use AI?",
+              "value_list_verbatim": ["allow", "prohibit"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Does the journal allow or prohibit peer reviewers to use AI?"
+            },
+            {
+              "dimension_label_verbatim": "AI detection tools",
+              "definition_quote": "Does the journal use any AI detection tools to screen submissions for AI-generated content?",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Table 1",
+              "quote": "Does the journal use any AI detection tools to screen submissions for AI-generated content?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

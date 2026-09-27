@@ -1,0 +1,267 @@
+{
+  "packet_id": "ft-014",
+  "papers": [
+    {
+      "rec_id": "9a47eab2bce6e6b2",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-policy-minimum-dataset",
+          "scheme_name_verbatim": "AI Policy Minimum Dataset",
+          "source_ref": "doi:10.3389/fonc.2026.1717048",
+          "domain": "research_publishing",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "editorial_requirement",
+          "empirical_basis": "60 oncology journals",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Explicit prohibition of AI tools as authors",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Variables of interest",
+              "quote": "Explicit prohibition of AI tools as authors (Yes/No)"
+            },
+            {
+              "dimension_label_verbatim": "Mandatory disclosure of AI usage",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Variables of interest",
+              "quote": "Mandatory disclosure of AI usage (Yes/No)"
+            },
+            {
+              "dimension_label_verbatim": "Speciﬁcation of permissible uses of AI",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Variables of interest",
+              "quote": "Speciﬁcation of permissible uses of AI (Yes/No; details\nif available)"
+            },
+            {
+              "dimension_label_verbatim": "Presence of enforcement policy or sanctions for non-\ncompliance",
+              "definition_quote": "",
+              "value_list_verbatim": ["Yes", "No"],
+              "closed_or_open": "closed_list",
+              "locator": "Variables of interest",
+              "quote": "Presence of enforcement policy or sanctions for non-\ncompliance (Yes/No; description if available)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "007e9a5191d80ac3",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aias-five-levels",
+          "scheme_name_verbatim": "Artificial Intelligence Assessment Scale (AIAS)",
+          "source_ref": "doi:10.14742/ajet.9434",
+          "domain": "education_assessment",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "approximately 2500 students",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "the AIAS",
+              "definition_quote": "ranging from “no AI” to “full AI,”",
+              "value_list_verbatim": ["No AI", "AI-assisted idea generation and structuring", "AI-assisted editing", "AI task completion, human evaluation", "Full AI"],
+              "closed_or_open": "closed_list",
+              "locator": "The AIAS",
+              "quote": "The following is a summary of the five levels of \nthe AIAS, with brief examples."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "a3102b0ea8fb5447",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "content-transparency-coding-categories",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "arXiv:2606.28331",
+          "domain": "law_regulation",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "regulatory",
+          "empirical_basis": "49 total documents",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Document type",
+              "definition_quote": "",
+              "value_list_verbatim": ["Bill (passed into law)", "Bill (rejected)", "Web article"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Document type\nBill (passed into law), Bill (rejected), Web article"
+            },
+            {
+              "dimension_label_verbatim": "Author category",
+              "definition_quote": "Background of author",
+              "value_list_verbatim": ["Government official", "Government Entity", "Academic expert"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Author category\nBackground of author\nGovernment official, Government Entity, Academic expert"
+            },
+            {
+              "dimension_label_verbatim": "Broader primitive",
+              "definition_quote": "How do documents describe content transparency mechanisms and their hierarchy?",
+              "value_list_verbatim": ["Focus on specific examples", "Acknowledge a broader primitive"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Broader primitive\nHow do documents describe content transparency mechanisms and their hierarchy?"
+            },
+            {
+              "dimension_label_verbatim": "Use cases",
+              "definition_quote": "Describes the set of use cases the document mentions with respect to watermarks.",
+              "value_list_verbatim": ["Misinformation", "NCII", "Deepfakes", "Election Integrity"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Use cases\nDescribes the set of use cases the document mentions with respect to watermarks."
+            },
+            {
+              "dimension_label_verbatim": "Mechanisms",
+              "definition_quote": "Describes the set of mechanisms the document specifically mentions",
+              "value_list_verbatim": ["Invisible watermarks", "Cryptographic/Digital Signatures", "Metadata tagging"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Mechanisms\nDescribes the set of mechanisms the document specifically mentions"
+            },
+            {
+              "dimension_label_verbatim": "Mechanism presentation",
+              "definition_quote": "How documents describe the relationship of content transparency mechanisms they mention.",
+              "value_list_verbatim": ["Examples", "exhaustive list"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Mechanism presentation\nHow documents describe the relationship of content transparency mechanisms they mention."
+            },
+            {
+              "dimension_label_verbatim": "Coordination with model developers",
+              "definition_quote": "How does the document describe coordination with model developers for adding content transparency?",
+              "value_list_verbatim": ["Does not discuss", "Require model developer", "Not applicable"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Coordination with model developers\nHow does the document describe coordination with model developers for adding content transparency?"
+            },
+            {
+              "dimension_label_verbatim": "Detection process",
+              "definition_quote": "How does the document describe the detection process of a mechanism?",
+              "value_list_verbatim": ["Acknowledges detection process", "Provides implementation details", "Does not acknowledge", "Not applicable"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Detection process\nHow does the document describe the detection process of a mechanism?"
+            },
+            {
+              "dimension_label_verbatim": "Distinguishing verifiers and tool providers",
+              "definition_quote": "How does the document describe the relationship between verifiers and tool providers?",
+              "value_list_verbatim": ["Acknowledges that verifiers differ from providers", "Does not address"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Distinguishing verifiers and tool providers\nHow does the document describe the relationship between verifiers and tool providers?"
+            },
+            {
+              "dimension_label_verbatim": "Trust",
+              "definition_quote": "Who are verifiers required to trust with content transparency mechanisms?",
+              "value_list_verbatim": ["Not mentioned", "model providers", "detection-tool providers"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Trust\nWho are verifiers required to trust with content transparency mechanisms?"
+            },
+            {
+              "dimension_label_verbatim": "Properties mentioned",
+              "definition_quote": "The properties of mechanisms mentioned in document.",
+              "value_list_verbatim": ["Adversarial Robustness", "Honest Robustness", "Quality", "Completeness", "Unforgeability", "Soundness"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Properties mentioned\nThe properties of mechanisms mentioned in document."
+            },
+            {
+              "dimension_label_verbatim": "Calls to action",
+              "definition_quote": "Calls to action made by the document.",
+              "value_list_verbatim": ["Model providers must add watermarks", "No person should remove watermarks", "Model providers should provide detection tools"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Calls to action\nCalls to action made by the document."
+            },
+            {
+              "dimension_label_verbatim": "Assertiveness",
+              "definition_quote": "A measure of the assertiveness in the document’s call to action.",
+              "value_list_verbatim": ["Suggestion", "strong suggestion", "legal mandate", "N/A"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 1",
+              "quote": "Assertiveness\nA measure of the assertiveness in the document’s call to action."
+            }
+          ]
+        },
+        {
+          "scheme_id": "content-transparency-bill-anatomy",
+          "scheme_name_verbatim": "anatomy of a content transparency bill",
+          "source_ref": "arXiv:2606.28331",
+          "domain": "law_regulation",
+          "artifact_type": "empirical_study",
+          "granularity": "document",
+          "authority": "regulatory",
+          "empirical_basis": "forty-three legislative documents",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "P1\ncontent scope",
+              "definition_quote": "What is the scope of AI-generated content?",
+              "value_list_verbatim": ["Unqualified usage of AI tools", "Qualified usage of AI tools (quantitative)", "Qualified usage of AI tools (qualitative)", "Not defined"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "P1\ncontent scope\nUnqualified usage of AI tools\n17\nQualified usage of AI tools (quantitative)"
+            },
+            {
+              "dimension_label_verbatim": "P2\nuse cases",
+              "definition_quote": "What AI use cases is the bill applicable to?",
+              "value_list_verbatim": ["General", "Specific", "Exceptions"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "P2\nuse cases\nGeneral\n20\nSpecific\n23\nExceptions\n6"
+            },
+            {
+              "dimension_label_verbatim": "P3\nmandates",
+              "definition_quote": "What is being mandated from whom?",
+              "value_list_verbatim": ["Model providers must add disclosures", "Model users must proactively disclosure", "Disclosures must not be removed", "Gov’t agencies must establish standards"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "P3\nmandates\nModel providers must add disclosures\n14\nModel users must proactively disclosure\n26"
+            },
+            {
+              "dimension_label_verbatim": "P4\ndisc. mech.",
+              "definition_quote": "What disclosure mechanisms are in scope of the mandates?",
+              "value_list_verbatim": ["Broad", "Specific"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "P4\ndisc. mech.\nBroad\n38\nSpecific\n5"
+            },
+            {
+              "dimension_label_verbatim": "P5\nrequirements on\ndisc. mech.",
+              "definition_quote": "requirements imposed on these mechanisms",
+              "value_list_verbatim": ["No requirements", "Qualitative requirements", "Specific requirements"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "P5\nrequirements on\ndisc. mech.\nNo requirements\n7\nQualitative requirements\n26"
+            },
+            {
+              "dimension_label_verbatim": "P6\npenalties",
+              "definition_quote": "penalties and consequences for violations",
+              "value_list_verbatim": ["Monetary penalties", "Violation of existing statute", "No penalties mentioned"],
+              "closed_or_open": "closed_list",
+              "locator": "Table 3",
+              "quote": "P6\npenalties\nMonetary penalties\n13\nViolation of existing statute\n8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

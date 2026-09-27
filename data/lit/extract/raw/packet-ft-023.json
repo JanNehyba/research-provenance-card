@@ -1,0 +1,174 @@
+{
+  "packet_id": "ft-023",
+  "papers": [
+    {
+      "rec_id": "333a09b1fde9f6e5",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "ai-sr-conceptual-framework",
+          "scheme_name_verbatim": "not_stated",
+          "source_ref": "doi:10.1016/j.gloepi.2026.100282",
+          "domain": "research_publishing",
+          "artifact_type": "normative_proposal",
+          "granularity": "document",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "Transparency",
+              "definition_quote": "transparency is not an additional reporting consideration but a prerequisite for methodological validity",
+              "value_list_verbatim": ["AI tool name", "developer/provider", "model/version", "date of use", "access route", "systematic review stage(s) where AI was used", "task performed by AI"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Transparency AI tool name; developer/provider; model/version; date of use; access route"
+            },
+            {
+              "dimension_label_verbatim": "Reproducibility",
+              "definition_quote": "Reproducibility, defined here as consistency of results across reviewers or repeated runs, is a core pillar of SR methodology",
+              "value_list_verbatim": ["Prompts or prompt structure", "parameters/settings when available", "input materials", "output format", "software configuration", "archived prompts, outputs, or code where possible"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Reproducibility Prompts or prompt structure; parameters/settings when available; input materials"
+            },
+            {
+              "dimension_label_verbatim": "Validity",
+              "definition_quote": "",
+              "value_list_verbatim": ["Human verification procedures", "source traceability", "proportion of AI outputs checked", "duplicate or independent verification", "discrepancy resolution", "criteria for accepting, modifying, or rejecting AI outputs"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Validity Human verification procedures; source traceability; proportion of AI outputs checked"
+            },
+            {
+              "dimension_label_verbatim": "Human oversight and accountability",
+              "definition_quote": "",
+              "value_list_verbatim": ["Reviewer roles", "reviewer expertise", "decision authority", "documentation of overrides", "responsibility for final decisions", "procedures for resolving disagreement between AI and human reviewers"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Human oversight and accountability Reviewer roles; reviewer expertise; decision authority"
+            },
+            {
+              "dimension_label_verbatim": "Interpretation and impact on conclusions",
+              "definition_quote": "",
+              "value_list_verbatim": ["Whether AI contributed to narrative synthesis, certainty statements, conclusions, or discussion text", "how AI-assisted interpretations were checked", "whether AI use was considered as a limitation"],
+              "closed_or_open": "not_stated",
+              "locator": "Table 3",
+              "quote": "Interpretation and impact on conclusions Whether AI contributed to narrative synthesis, certainty statements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "e65339c3aa60b90d",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "governability-by-design-requirements",
+          "scheme_name_verbatim": "Governability-by-Design",
+          "source_ref": "doi:10.66144/phqkeco",
+          "domain": "software",
+          "artifact_type": "normative_proposal",
+          "granularity": "not_stated",
+          "authority": "not_stated",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "none",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "identity, provenance, and logging",
+              "definition_quote": "meaningful autonomous actions should be linked to persistent deployment identities and recorded in auditable logs",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Governability-by-Design Would Require",
+              "quote": "The first design requirement is identity, provenance, and logging"
+            },
+            {
+              "dimension_label_verbatim": "bounded autonomy and policy steerability",
+              "definition_quote": "Agentic systems operating in public-facing digital contexts should not have unconstrained capacity to replicate themselves",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Governability-by-Design Would Require",
+              "quote": "A second requirement is bounded autonomy and policy steerability"
+            },
+            {
+              "dimension_label_verbatim": "oversight and interruptibility",
+              "definition_quote": "In our hypothetical scenario, meaningful interruptibility would allow human review or automatic throttling",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Governability-by-Design Would Require",
+              "quote": "A third requirement is oversight and interruptibility"
+            },
+            {
+              "dimension_label_verbatim": "ecosystem-facing interoperability",
+              "definition_quote": "Digital harms propagate across services, so governability cannot end at the system boundary",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "Governability-by-Design Would Require",
+              "quote": "A fourth requirement is ecosystem-facing interoperability"
+            },
+            {
+              "dimension_label_verbatim": "operational metrics of governability",
+              "definition_quote": "",
+              "value_list_verbatim": ["attribution integrity", "intervention latency", "traceability across services", "robustness under adversarial evasion"],
+              "closed_or_open": "closed_list",
+              "locator": "Governability-by-Design Would Require",
+              "quote": "Such metrics must minimally include attribution integrity, intervention latency, traceability across services"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rec_id": "0210180366d37379",
+      "has_scheme": true,
+      "schemes": [
+        {
+          "scheme_id": "aigc-risk-tiered-governance",
+          "scheme_name_verbatim": "Risk-Tiered, Multi-Stakeholder Governance Model",
+          "source_ref": "doi:10.54097/rapga220",
+          "domain": "law_regulation",
+          "artifact_type": "normative_proposal",
+          "granularity": "asset",
+          "authority": "regulatory",
+          "empirical_basis": "none",
+          "machine_readable_artifact": "https://spec.c2pa.org/specifications/specifications/2.1/specs/_attachments/C2PA_Specification.pdf",
+          "dimensions": [
+            {
+              "dimension_label_verbatim": "mandatory labelling of AIGC",
+              "definition_quote": "mandatory labelling of AIGC should be introduced on major platforms in cooperation with interoperable provenance standards such as C2PA",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.3 Toward a Risk-Tiered, Multi-Stakeholder Governance Model",
+              "quote": "First, mandatory labelling of AIGC should be introduced on major platforms"
+            },
+            {
+              "dimension_label_verbatim": "risk groups",
+              "definition_quote": "Synthetic entertainment content, artistic filters, political deepfakes and AI-generated news should be regulated differently according to their potential harm",
+              "value_list_verbatim": ["Low-risk AIGC", "Medium-risk content", "High-risk content"],
+              "closed_or_open": "closed_list",
+              "locator": "4.3 Toward a Risk-Tiered, Multi-Stakeholder Governance Model",
+              "quote": "Low-risk AIGC, such as entertainment filters and clearly fictional creative works, may only need basic labelling"
+            },
+            {
+              "dimension_label_verbatim": "multi-stakeholder governance system",
+              "definition_quote": "",
+              "value_list_verbatim": ["AI developers", "platform operators", "regulators", "civil society organizations", "academic researchers", "user representatives"],
+              "closed_or_open": "closed_list",
+              "locator": "4.3 Toward a Risk-Tiered, Multi-Stakeholder Governance Model",
+              "quote": "Third, a multi-stakeholder governance system should be established to build an adaptive rule-making system"
+            },
+            {
+              "dimension_label_verbatim": "cross-border coordination",
+              "definition_quote": "",
+              "value_list_verbatim": [],
+              "closed_or_open": "not_stated",
+              "locator": "4.3 Toward a Risk-Tiered, Multi-Stakeholder Governance Model",
+              "quote": "Fourth, building on the OECD AI principles and the global partnership on AI"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
