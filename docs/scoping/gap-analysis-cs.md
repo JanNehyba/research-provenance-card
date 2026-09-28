@@ -149,3 +149,118 @@ kde člověk říká, jak je si jistý textem, který podepisuje, skoro ne.
 - **Dva záznamy vypadly kvůli jazyku** až po extrakci, nizozemská zpráva o C2PA
   a portugalský formulář o střetu zájmů. Pravidlo protokolu o angličtině a
   češtině je vylučuje a screeneři je propustili. Dotýká se to osmi řádků.
+
+---
+
+## 5. Lingvistická vrstva: „ručí" za co?
+
+Tenhle oddíl vznikl z otázky, kterou první čtyři neodpovídaly. Když AI napíše
+„Jan Nehyba za to ručí", **chybí tam předmět**. Za co ručí? Co to slovo vůbec
+znamená? Jaká další slovesa se v té pozici objevují? A jak se ten úsek jmenuje?
+
+Oddíly 1 až 4 o tom nic neříkají, protože popisují **osy**, kterými schémata
+přiznání klasifikují, ne **výpovědi**, které lidé skutečně píšou. To je jiná
+vrstva. Tady je, co k ní v datech je.
+
+### 5.1 Předmět u „ručí" je v reálných formulacích téměř vždy celý artefakt
+
+Ve korpusu 38 skutečných formulací (anglicky, vědecké články a softwarové
+projekty) se predikát ručení objevuje **jen v 5 z 38 položek**. A ve všech pěti
+je předmět vyplněný:
+
+| Kolikrát | Předmět |
+|---:|---|
+| 2 | for the content of the publication |
+| 1 | for the content of the submitted manuscript |
+| 1 | for the final publication |
+| 1 | for the final content |
+
+Všech pět je šablona vydavatele. **Volné formulace ten nárok nedělají vůbec**,
+místo prázdného předmětu ho prostě vynechají. Předmět je tedy vždy **celek**
+(obsah publikace, finální verze), nikdy část. Nikde není „ručím za fakta" nebo
+„ručím za závěry, ne za formulace".
+
+Ta věta, která vás vyprovokovala, „za to ručí", je tedy ještě slabší než šablona:
+šablona alespoň pojmenuje, co je předmětem, i když hrubě.
+
+### 5.2 Co udělal člověk: v reálných datech dvě slovesa
+
+Inventář sloves, kterými se v těch 38 formulacích popisuje lidský úkon:
+
+| Kolikrát | Sloveso |
+|---:|---|
+| 6 | reviewed |
+| 4 | edited |
+
+To je všechno. Obojí pochází z jedné šablonové formulace „the authors reviewed
+and edited the content as needed". Žádné „read", „verified", „checked",
+„recalculated". V tomhle malém korpusu existuje jen jeden úkon, a je to úkon
+šablony.
+
+### 5.3 Schémata nabízejí bohatší inventář, ale předmět v něm není proměnná
+
+Schémata předepisují víc. Nejdelší pojmenovaný výčet je „the verification ladder"
+ze schématu F(AI)²R, sedm příček:
+
+`unverified` → `needs-research` → `reference-resolved` → `ai-confirmed` →
+`source-vendored` → `human-confirmed` → `human-read`
+
+Jiná schémata nabízejí `source check / recalculation / re-analysis`, nebo
+`accept / modify / reject`, nebo stupnici `E0 no revision / E1 automated review
+only / E2 partial human review / E3 full human review / E4 multi-stage or
+independent validation`.
+
+Ale u samotného ručení je to jinak. Když se prohlédne, co ve schématech stojí
+jako **hodnoty** dimenze ručení, rozpadá se to na čtyři úplně různé věci, které
+se všechny jmenují stejně:
+
+1. **Kdo** ručí: `developer / vendor / hospital / clinician` (řetěz stran)
+2. **Jestli** je to řečeno: `Yes / No / No explicit statement`, `required / not required`
+3. **Jaký druh** odpovědnosti to je: `causal / moral / legal` (Bleher a Braun)
+4. **Co ten člověk musí udělat**: `No responsibility stated / Human remains accountable /
+   Must explain-justify the work / Must review-test-validate before submit` (TRACE)
+
+**Ani jeden z těch výčtů nevyplňuje předmět.** Nikde ve 429 schématech není
+„ručím za X" jako pole, kde by se X dalo vybrat. To je přesně ta mezera
+z oddílu 2, ale teď vyslovená jako věta o jazyce: **ručení je ve schématech buď
+identita, nebo binární příznak, nebo typologie práva, nebo povinnost. Nikdy
+predikát s doplnitelným předmětem.**
+
+### 5.4 Jak se ten úsek jmenuje
+
+Nejednotně. Ve schématech nese nejčastěji jméno `accountability` nebo
+`responsibility`, u vydavatelů „responsibility statement", v konzultaci
+k Vancouverskému standardu „attestation".
+
+Pojmenované inventáře variant jsou dva a jsou ve skutečnosti o různých věcech:
+
+- **attestation → review → audit → replication** (Vancouver, session 4.B): stupňuje
+  sílu úkonu ověření.
+- **the verification ladder**, sedm příček výše (F(AI)²R): stupňuje, co po tom
+  úkonu zůstane dohledatelné.
+
+Pro to, co se stupňuje u vašeho příkladu, tedy **rozsah nároku samotného**, žádné
+pojmenování v datech není.
+
+### 5.5 Co na tuhle otázku nemám
+
+Tohle je třeba říct rovnou, protože z 5.1 a 5.2 by se dala vyčíst čísla, která
+nesnesou váhu:
+
+- **Korpus má 38 položek, jen anglicky, a jen dva žánry.** Na lingvistické
+  tvrzení je to málo. Ta čísla ukazují metodu a naznačují tvar, netvrdí nic
+  o populaci.
+- **Česky nemám nic.** Váš příklad je česky, a čeština v korpusu není zastoupená
+  ani jednou položkou. O tom, jak se „ručí" chová v českých formulacích, tahle
+  data neříkají nic.
+- **Data nejsou kódovaná na predikátové úrovni.** Extrakce zaznamenávala, jakou
+  dimenzi schéma nabízí, ne jaký slovesný akt formulace provádí. Na to, co chcete,
+  je potřeba jiné kódování: u každé formulace podmět, predikát, předmět, rozsah
+  nároku, a jestli je předmět vyplněný, prázdný deiktický („za to"), nebo chybí.
+  To je práce na korpusu, ne na schématech.
+
+**Co by to vyžadovalo:** dotáhnout korpus (ten běží ve druhém vlákně, zatím 38 ze
+300 položek, česká část zatím nulová) a postavit kódovací knihu na predikátové
+struktuře vedle osmi složek. Tohle je myslím ten vlastní výzkumný krok, a
+rešerše k němu dala jednu užitečnou věc: ukázala, že ve 429 schématech ta
+struktura chybí, takže se nedá vypůjčit a je potřeba ji postavit.
