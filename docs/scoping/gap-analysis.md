@@ -40,14 +40,19 @@ Both exist because extraction worked paper by paper and could not know this.
 
 | Component | Labels | Dimensions | Verdict |
 |---|---:|---:|---|
-| 2. Share of AI | 83 | 2 | widely modelled |
-| 3. What the human did | 74 | 4 | widely modelled |
-| 4. Accountability | 56 | 2 | **widely modelled, claim withdrawn** |
-| 1. Role of AI | 55 | 3 | widely modelled |
+| 2. Share of AI | 75 | 2 | widely modelled |
+| 3. What the human did | 71 | 4 | widely modelled |
+| 4. Accountability | 54 | 2 | **widely modelled, claim withdrawn** |
+| 1. Role of AI | 54 | 3 | widely modelled |
 | 8. Placement | 52 | 3 | widely modelled |
 | 5. Certainty | 15 | 4 | thinly modelled, and displaced onto the machine |
 | 7. Recipient expectation | 6 | 4 | modelled only in system design |
 | 6. State of the output | 2 | 1 | **not modelled** |
+
+The label counts **exclude the 15 schemes the merge judged out of scope** (41 of
+1703 rows, mostly taxonomies of AI system autonomy). The first pass included them
+and the figures were 1 to 7 higher. Neither the ordering nor the verdicts change,
+and for the three thin components nothing changes at all.
 
 Five of the eight are well attested. The three the project singled out are not
 one finding but three different ones.
