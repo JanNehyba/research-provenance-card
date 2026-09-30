@@ -108,38 +108,37 @@ PRIKLAD = {
 # Šest bloků. Název je otázka, na kterou v přiznání odpovídáte. Věta pod ním
 # říká, co tam má stát. Dvojice špatně/lépe je konkrétní příklad. Text je můj,
 # čísla nejsou.
+# Pět bloků v pořadí, ve kterém tyto části stojí ve skutečných formulacích.
+# Pořadí je z korpusu, ne z mého úsudku: rozsah před nástrojem 6:1, nástroj před
+# prací 13:0, práce před kontrolou 4:0, kontrola před ručením 4:0. Průměrná
+# pozice ve větě 0.11, 0.69, 0.75, 0.80, 0.87, tedy schody. Počáteční písmena
+# anglických názvů v tomto pořadí dávají STAIR.
+# Šestá osa, role lidí, do věty nepatří a je vyřízená na straně 3.
 BLOKY = [
-    ("extent-of-ai-involvement",
-     "Kolik z textu je od stroje",
+    ("S", "Scope", "extent-of-ai-involvement",
+     "Kolik z toho je od stroje?",
      "Podíl, nebo jmenovitě ta část. Jde o množství, ne o druh práce. Tohle je "
      "osa, kterou žádá nejvíc schémat ze všech.",
-     "Text vznikl s pomocí AI.", "První koncept třetí kapitoly."),
-    ("ai-tool-identity-and-version",
-     "Jaký nástroj a jaká verze",
+     "Text vznikl s pomocí AI.", "Zhruba polovina textu."),
+    ("T", "Tool", "ai-tool-identity-and-version",
+     "Která AI a jaká verze?",
      "Přesný název i verze. Samotné „AI“ za rok neřekne nikomu nic, protože "
      "modely se mění a jmenují se pořád stejně.",
      "Použil jsem AI.", "Claude Opus 5 (Anthropic)."),
-    ("contribution-role-taxonomy",
-     "Kdo z lidí co dělal",
-     "Rozdělení práce mezi lidi. Tohle není o AI a nevejde se do jedné věty, "
-     "patří do seznamu přispěvatelů. Je to ale nejcitovanější schéma v celé "
-     "rešerši (CRediT) a nástroj se do něj dopisuje jako nástroj, ne jako autor.",
-     "Na článku jsme pracovali společně.",
-     "Data sbírala K. N., analýzu dělal J. N."),
-    ("task-or-function-of-ai-use",
-     "Jakou práci nástroj udělal",
+    ("A", "Action", "task-or-function-of-ai-use",
+     "Jakou práci udělal?",
      "Sloveso a předmět. Druh práce, ne míra pomoci. „Pomohl“ není druh práce.",
-     "AI mi s tím pomohla.", "Přeložila abstrakt z češtiny do angličtiny."),
-    ("verification-of-ai-output",
-     "Co se na výstupu ověřilo",
+     "AI mi s tím pomohla.", "Napsal první koncept."),
+    ("I", "Inspection", "verification-of-ai-output",
+     "Co jsem ověřil?",
      f"Konkrétní úkon, který by někdo mohl zopakovat. „Zkontroloval jsem to“ se "
      f"ověřit nedá, protože neříká co. Hotové stupnice jsou na straně {P_ZEBRICKY}.",
      "Vše jsem zkontroloval.",
-     "Každou citaci jsem otevřel a porovnal s originálem."),
-    ("accountability-for-the-work",
-     "Kdo za výsledek ručí",
-     "Jméno toho, kdo za výsledek odpovídá. Schémata se ptají jen na tohle. "
-     "Pole „za co“ nemá ani jedno z nich, takže druhou půlku si musíte dopsat sami.",
+     "Každou citaci jsem porovnal s originálem."),
+    ("R", "Responsibility", "accountability-for-the-work",
+     "Za co ručím?",
+     "Ne kdo ručí, ale za co. Schémata se ptají jen na to první. Pole „za co“ "
+     "nemá ani jedno z nich, takže druhou půlku si musíte dopsat sami.",
      "Autor za to ručí.", "Ručím za fakta a závěry, ne za formulace."),
 ]
 
@@ -340,31 +339,47 @@ c.showPage()
 
 # ===================================================================== page 2
 y = H - 56
-y = h1(y, "Šest bloků: co do přiznání napsat",
-       "Prvních šest os z předchozí strany. U každé je, co tam má stát, a dvojice "
-       "příkladů. Barvy se vracejí na další straně, kde je vidět, která část věty "
-       "je který blok.")
+y = h1(y, "STAIR: pět otázek v pořadí, v jakém se píšou",
+       "Pět otázek, na které přiznání odpovídá, v pořadí, ve kterém je lidé "
+       "opravdu píšou. Čtyřikrát se ptáme „co“ a jednou „která“, a to není "
+       "náhoda: odpovědí je vždycky předmět.")
+
+bh0 = 54
+c.setFillColor(ACCL)
+c.roundRect(M, y - bh0, W - 2 * M, bh0, 5, stroke=0, fill=1)
+c.setFillColor(ACC); c.rect(M, y - bh0, 3.6, bh0, stroke=0, fill=1)
+c.setFont("UISB", 9.2); c.setFillColor(ACC)
+c.drawString(M + 18, y - 17, "PRAVIDLO, KTERÉ NAHRAZUJE VŠECHNA OSTATNÍ")
+c.setFont("UIB", 14); c.setFillColor(INK)
+c.drawString(M + 18, y - 35, "Ke každému slovesu doplňte předmět.")
+c.setFont("UI", 8.8); c.setFillColor(GREY)
+c.drawString(M + 18, y - 47, "„AI pomohla“ s čím  ·  „zkontroloval jsem to“ co  "
+                             "·  „ručím za to“ za co. Jedna vada, ne tři.")
+y = y - bh0 - 14
 
 colw = W - 2 * M
-for i, (d, name, what, bad, good) in enumerate(BLOKY):
+for i, (letter, eng, d, name, what, bad, good) in enumerate(BLOKY):
     n = schemes_per_dim[d]
     lw = wrap(what, "UI", 9.4, colw - 58)
     exw = (colw - 58 - 14) / 2
     lb = wrap(bad, "UI", 9.2, exw - 20)
     lg = wrap(good, "UI", 9.2, exw - 20)
     exh = 16 + max(len(lb), len(lg)) * 11.8
-    hb = 36 + len(lw) * 12.2 + exh + 8
+    hb = 34 + len(lw) * 12 + exh + 7
     c.setFillColor(PALE); c.roundRect(M, y - hb, colw, hb, 4, stroke=0, fill=1)
     c.setFillColor(BCOL[i]); c.rect(M, y - hb, 3.4, hb, stroke=0, fill=1)
-    dot(M + 26, y - 20, str(i + 1), BCOL[i], 9.4, 9.6)
+    dot(M + 26, y - 20, letter, BCOL[i], 9.4, 10.6)
+    c.setFont("UISB", 9); c.setFillColor(BCOL[i])
+    c.drawString(M + 44, y - 24, eng.upper())
+    ew = pdfmetrics.stringWidth(eng.upper(), "UISB", 9) + 11
     c.setFont("UISB", 11.6); c.setFillColor(INK)
-    c.drawString(M + 44, y - 24, name)
+    c.drawString(M + 44 + ew, y - 24, name)
     c.setFont("UISB", 8.6); c.setFillColor(BCOL[i])
     c.drawRightString(W - M - 14, y - 24, f"{n} schémat")
     yy = y - 40
     c.setFont("UI", 9.4); c.setFillColor(GREY)
     for ln in lw:
-        c.drawString(M + 44, yy, ln); yy -= 12.2
+        c.drawString(M + 44, yy, ln); yy -= 12
     yy -= 6
     ex_y = yy
     c.setFillColor(BADL); c.roundRect(M + 44, ex_y - exh + 14, exw, exh, 3, stroke=0, fill=1)
@@ -379,25 +394,44 @@ for i, (d, name, what, bad, good) in enumerate(BLOKY):
     t = ex_y - 11
     for ln in lg:
         c.drawString(M + 68 + exw, t, ln); t -= 11.8
-    y -= hb + 7
+    y -= hb + 5
 
-foot(P_BLOKY, "Bloky z dat, texty moje")
+y -= 2
+y = rule(y)
+c.setFillColor(MISSL)
+c.roundRect(M, y - 34, W - 2 * M, 34, 3, stroke=0, fill=1)
+dot(M + 22, y - 17, "+", MISS, 8.4, 10)
+c.setFont("UISB", 9.6); c.setFillColor(INK)
+c.drawString(M + 38, y - 13, "Šestá osa do věty nepatří: kdo z lidí co dělal "
+             f"({schemes_per_dim['contribution-role-taxonomy']} schémat)")
+c.setFont("UI", 8.8); c.setFillColor(GREY)
+c.drawString(M + 38, y - 26, "Patří do seznamu přispěvatelů vedle jmen autorů. "
+             f"Proč, je na straně {P_VETA}.")
+y -= 46
+y = para(M, y, "Pořadí písmen není vymyšlené kvůli slovu, je to naopak. V korpusu "
+               "stojí rozsah před nástrojem 6:1, nástroj před prací 13:0, práce před "
+               "kontrolou 4:0, kontrola před ručením 4:0. Průměrná pozice ve větě "
+               "stoupá 0,11 → 0,69 → 0,75 → 0,80 → 0,87. Jsou to schody a ručení "
+               "je nahoře, ne na začátku. Pořadí podle počtu schémat je jiné a je "
+               "na straně 1.", W - 2 * M, "UI", 9.2, 12.4)
+
+foot(P_BLOKY, "Pořadí z korpusu, texty moje")
 c.showPage()
 
 # ===================================================================== page 3
 y = H - 56
 y = h1(y, "Ta věta rozebraná po částech",
-       "Jedna věta, ve které je pět z šesti bloků. Barva a číslo říkají, který "
-       "úsek je který blok.")
+       "Věta v pořadí STAIR. Barva a písmeno říkají, který úsek je která otázka.")
 
 SEG = [
-    ("První koncept třetí kapitoly", 0),
-    ("napsal", 3),
-    ("Claude Opus 5.", 1),
-    ("Každou citaci jsem otevřel a porovnal s originálem.", 4),
-    ("Ručím", 5),
+    ("Zhruba polovina textu", 0),
+    ("je od Claude Opus 5:", 1),
+    ("napsal první koncept.", 2),
+    ("Každou citaci jsem porovnal s originálem.", 3),
+    ("Ručím", 4),
     ("za fakta a závěry, ne za formulace.", None),
 ]
+LET = ["S", "T", "A", "I", "R"]
 
 FS, LEAD = 12.8, 34
 xa, xb = M + 8, W - M - 8
@@ -435,7 +469,7 @@ for ln in lines:
         c.roundRect(x0, ty - 6, x1 - x0, FS + 8, 3, stroke=0, fill=1)
         c.setFillColor(col); c.rect(x0, ty - 6, x1 - x0, 2.2, stroke=0, fill=1)
         if not (k == 0 and tag == prev_tag):
-            dot(x0 + 1, ty + FS + 4, str(tag + 1) if tag is not None else "?", col, 6.4, 7)
+            dot(x0 + 1, ty + FS + 4, LET[tag] if tag is not None else "?", col, 6.4, 7.6)
         if j == len(ln) - 1:
             prev_tag = tag
         k = j + 1
@@ -446,20 +480,20 @@ for ln in lines:
 y -= boxh + 18
 
 y = h2(y, "Legenda")
-LEG = [(0, "První koncept třetí kapitoly", "kolik z textu je od stroje"),
-       (3, "napsal", "jakou práci nástroj udělal"),
-       (1, "Claude Opus 5", "jaký nástroj a jaká verze"),
-       (4, "Každou citaci jsem otevřel a porovnal", "co se na výstupu ověřilo"),
-       (5, "Ručím", "kdo za výsledek ručí"),
-       (None, "za fakta a závěry, ne za formulace", "za co se ručí")]
+LEG = [(0, "Zhruba polovina textu", "Scope · Kolik z toho je od stroje?"),
+       (1, "je od Claude Opus 5", "Tool · Která AI a jaká verze?"),
+       (2, "napsal první koncept", "Action · Jakou práci udělal?"),
+       (3, "Každou citaci jsem porovnal", "Inspection · Co jsem ověřil?"),
+       (4, "Ručím", "Responsibility · zatím jen sloveso"),
+       (None, "za fakta a závěry, ne za formulace", "předmět, který schémata nemají")]
 for tag, span, what in LEG:
     col = BCOL[tag] if tag is not None else MISS
-    dot(M + 8, y - 4, str(tag + 1) if tag is not None else "?", col, 7.4, 8)
+    dot(M + 8, y - 4, LET[tag] if tag is not None else "?", col, 7.4, 8.6)
     c.setFont("UISB", 9.6); c.setFillColor(INK)
     c.drawString(M + 24, y - 7.6, "„" + span + "“")
     c.setFont("UI", 9.6); c.setFillColor(GREY)
     c.drawString(M + 300, y - 7.6, what)
-    y -= 19
+    y -= 18
 y -= 6
 
 c.setFillColor(MISSL)
@@ -472,18 +506,18 @@ para(M + 40, y - 31, f"„Kdo ručí“ řeší {schemes_per_dim['accountability
      f"o co opřít.", W - 2 * M - 56, "UI", 8.8, 11.4, GREY)
 y -= 64
 
-c.setFillColor(BTINT[2])
+c.setFillColor(MISSL)
 c.roundRect(M, y - 40, W - 2 * M, 40, 4, stroke=0, fill=1)
-dot(M + 22, y - 18, "3", BCOL[2], 8.6, 9)
+dot(M + 22, y - 18, "+", MISS, 8.6, 10)
 c.setFont("UISB", 9.6); c.setFillColor(INK)
-c.drawString(M + 40, y - 15, "Třetí blok ve větě není, a to schválně")
+c.drawString(M + 40, y - 15, "Šestá osa ve větě není, a to schválně")
 para(M + 40, y - 28, "„Kdo z lidí co dělal“ se do jedné věty nevejde. Patří do "
      "seznamu přispěvatelů vedle jmen autorů, ne do přiznání o nástroji.",
      W - 2 * M - 56, "UI", 8.8, 11.4, GREY)
 y -= 54
 
 y = rule(y)
-y = h2(y, "Pět otázek, než to pošlete")
+y = h2(y, "Pět otázek nad hotovým textem")
 for q in ["Je tam jméno nástroje a verze, ne jen „AI“?",
           "Je tam, co přesně udělal, ne že „pomohl“?",
           "Je tam, co jste ověřili vy, ne jen že jste ověřili?",
@@ -493,7 +527,10 @@ for q in ["Je tam jméno nástroje a verze, ne jen „AI“?",
     c.rect(M + 2, y - 9.6, 10.4, 10.4, stroke=1, fill=0)
     c.setFont("UI", 10.2); c.setFillColor(INK)
     c.drawString(M + 24, y - 9, q)
-    y -= 18.5
+    y -= 17.5
+y -= 2
+y = para(M, y, "Druhá, třetí a čtvrtá otázka jsou tatáž otázka: má to sloveso "
+               "předmět?", W - 2 * M, "UI", 9.2, 12.4)
 y -= 8
 y = rule(y)
 y = h2(y, "Na pořadí záleží")
