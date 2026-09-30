@@ -137,8 +137,9 @@ BLOKY = [
      "Každou citaci jsem porovnal s originálem."),
     ("R", "Responsibility", "accountability-for-the-work",
      "Za co ručím?",
-     "Ne kdo ručí, ale za co. Schémata se ptají jen na to první. Pole „za co“ "
-     "nemá ani jedno z nich, takže druhou půlku si musíte dopsat sami.",
+     f"Ne kdo ručí, ale za co. Schémata se ptají jen na to první. Pole „za co“ "
+     f"nemá ani jedno z nich, takže druhou půlku si musíte dopsat sami. Není to "
+     f"totéž co ověření o řádek výš; proč, je na straně {P_ZEBRICKY}.",
      "Autor za to ručí.", "Ručím za fakta a závěry, ne za formulace."),
 ]
 
@@ -616,7 +617,7 @@ LAD = [
      ["neověřeno", "nutno dohledat", "odkaz rozřešen", "potvrzeno AI",
       "doloženo zdrojem", "potvrdil člověk", "člověk to četl"],
      "Sedm příček. Neptá se, jak pečlivě jste kontrolovali, ale co by po vás mohl "
-     "zkontrolovat někdo další."),
+     "ověřit někdo další."),
     ("Jak hluboká byla lidská revize", "arXiv:2604.25346",
      ["E0", "E1", "E2", "E3", "E4"],
      ["žádná revize", "jen automatická", "částečná lidská", "plná lidská",
@@ -626,13 +627,11 @@ LAD = [
     ("Co jste s výstupem udělali", "doi:10.1007/s12525-026-00915-x",
      ["accept", "modify (light)", "modify (substantial)", "reject"],
      ["přijmout", "lehce upravit", "podstatně upravit", "zamítnout"],
-     "Čtyři možnosti. Použitelné u každého jednotlivého výstupu zvlášť, ne za celý "
-     "text najednou."),
+     "Čtyři možnosti, použitelné u každého výstupu zvlášť."),
     ("Jaký úkon kontroly to byl", "doi:10.11591/ijere.v15i4.38930",
      ["source check", "recalculation", "re-analysis"],
      ["kontrola zdroje", "přepočet", "nová analýza"],
-     "Tři konkrétní úkony. Nejjednodušší způsob, jak nahradit prázdné „zkontroloval "
-     "jsem to“ něčím ověřitelným."),
+     "Tři úkony. Nejjednodušší náhrada za prázdné „zkontroloval jsem to“."),
 ]
 for title, ident, terms, cz, note in LAD:
     c.setFont("UISB", 11); c.setFillColor(INK); c.drawString(M, y, title)
@@ -666,17 +665,14 @@ y = rule(y)
 y = h2(y, "Dvě zkratky, které se snadno spletou")
 TWO = [
     ("F(AI)²R", "arXiv:2607.25637 · doi:10.5281/zenodo.21667684",
-     "„Who Did What, and Who Checked? Verifiable AI Provenance as an Executable "
-     "Skill.“ Přesně ta otázka, o které je tenhle list. Do rešerše z něj vstoupily "
-     "čtyři osy: třídy aktérů (HumanAgent, AIAgent, ToolAgent), třídy činností "
-     "(AuthoringPass, AuditPass, Build, Repair), třídy entit (artefakty, tvrzení, "
-     "zdroje, přepisy, prompty) a ten sedmistupňový žebříček nahoře.", ACCL, ACC),
+     "„Who Did What, and Who Checked?“ Přesně ta otázka, o které je tenhle "
+     "list. Do rešerše z něj vstoupily čtyři osy: třídy aktérů, činností a entit, "
+     "a ten sedmistupňový žebříček nahoře.", ACCL, ACC),
     ("FAIR", "bez vztahu k předchozímu",
-     "Findable, Accessible, Interoperable, Reusable. Dohledatelné, dostupné, "
-     "propojitelné, znovu použitelné. O sdílení dat a softwaru. V rešerši je silně, "
-     "čtrnáct os o vlastnostech artefaktu: trvalý identifikátor, licence, formát, "
-     "metadata. Odpovídá ale na jinou otázku: jestli s tou věcí může pracovat "
-     "někdo další, ne jestli ji někdo zkontroloval.", PALE, GREY),
+     "Findable, Accessible, Interoperable, Reusable. O sdílení dat a softwaru: "
+     "identifikátor, licence, formát, metadata. Odpovídá na jinou otázku, jestli "
+     "s tou věcí může pracovat někdo další, ne jestli ji někdo zkontroloval.",
+     PALE, GREY),
 ]
 for name, ident, body, fill, col in TWO:
     lb = wrap(body, "UI", 9, W - 2 * M - 30)
@@ -691,6 +687,49 @@ for name, ident, body, fill, col in TWO:
     for ln in lb:
         c.drawString(M + 15, yy, ln); yy -= 11.8
     y -= hb + 10
+y -= 4
+y = rule(y)
+y = h2(y, "Ověření a ručení nejsou totéž")
+y = para(M, y, "Ověření je zpráva o tom, co jste udělal: skutek, dá se doložit. "
+               "Ručení je závazek: vyzkouší se, až když se něco pokazí. Kontrolu "
+               "jde zopakovat, ručení jen vymáhat. A rozcházejí se na obě strany.",
+         W - 2 * M, "UI", 9.4, 12.6)
+y -= 10
+
+cw5 = (W - 2 * M - 14) / 2
+PAIR5 = [
+    ("OVĚŘIL, ALE NERUČÍ", GOODL, GOOD,
+     "„Přečetl jsem celý text a opravil, co jsem našel. Za čísla v tabulce 3 "
+     "ale neručím, statistiku dělal někdo jiný.“",
+     "Kontrola proběhla, závazek je užší. Poctivé a běžné."),
+    ("RUČÍ, ALE NEOVĚŘIL", BADL, BAD,
+     "„AI-assisted language editing was used to improve the readability of this "
+     "manuscript; the authors take full responsibility for the final content.“",
+     f"Z korpusu, doslova. Jedna z {len(resp)}: nárok na odpovědnost, před "
+     f"kterým nestojí žádná kontrola."),
+]
+hb5 = 0
+for _, _, _, ex, note in PAIR5:
+    hb5 = max(hb5, 30 + len(wrap(ex, "UISB", 8.8, cw5 - 26)) * 11.6
+              + len(wrap(note, "UI", 8.4, cw5 - 26)) * 10.8 + 8)
+bx5 = M
+for title, fill, col, ex, note in PAIR5:
+    c.setFillColor(fill); c.roundRect(bx5, y - hb5, cw5, hb5, 4, stroke=0, fill=1)
+    c.setFont("UISB", 8.4); c.setFillColor(col)
+    c.drawString(bx5 + 13, y - 15, title)
+    yy = y - 30
+    c.setFont("UISB", 8.8); c.setFillColor(INK)
+    for ln in wrap(ex, "UISB", 8.8, cw5 - 26):
+        c.drawString(bx5 + 13, yy, ln); yy -= 11.6
+    yy -= 5
+    c.setFont("UI", 8.4); c.setFillColor(GREY)
+    for ln in wrap(note, "UI", 8.4, cw5 - 26):
+        c.drawString(bx5 + 13, yy, ln); yy -= 10.8
+    bx5 += cw5 + 14
+y -= hb5 + 8
+y = para(M, y, "A rozsah bývá jiný. Ověřil jsem citace, ručím za závěry. Nejsou to "
+               "dvě jména pro jednu množinu.", W - 2 * M, "UI", 9.4, 12.6)
+
 foot(P_ZEBRICKY)
 c.showPage()
 
