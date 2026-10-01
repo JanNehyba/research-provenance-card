@@ -7,3 +7,11 @@ site/out/
 
 # Retrieved third-party full texts. Copyrighted, never committed to a public repo.
 data/lit/fulltext/
+
+# Candidate windows handed to the extraction agents and the screening batches.
+# Both quote long passages of third-party papers, which the protocol keeps out of
+# git. Both are regenerated from the local fulltext cache and records.jsonl:
+#   python -m src.lit.extract prepare
+#   python -m src.lit.screen batch
+data/lit/extract/packets/
+data/lit/screen/batches/

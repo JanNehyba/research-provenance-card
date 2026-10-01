@@ -266,3 +266,35 @@ Appended only. Nothing above this line changes after the first search.
   abstract in front of them, and it cannot rescue a record whose title says
   nothing. Records excluded by both screeners on a title alone remain a stated
   risk of under-inclusion; this reduces it, it does not remove it.
+
+- 2026-10-01: **candidate windows and screening batches removed from git, and a
+  limit stated for what may stay.** Section 10 says the repository carries the
+  locator, the hash and quotes of up to 25 words, never the retrieved text. Two
+  directories broke that and nobody noticed until the branch was about to be
+  published for the first time. `data/lit/extract/packets/` held 137 files with
+  892,648 words of verbatim third-party text, the longest single passage 1,949
+  words; `data/lit/screen/batches/` held another 55 files of titles and
+  abstracts. Both are now in `.gitignore` and both were removed from the whole
+  history of the branch with `git filter-branch`, before the first push rather
+  than after it. Nothing is lost: `extract prepare` rebuilds the packets from
+  the local full-text cache and `screen prepare` rebuilds the batches from
+  `records.jsonl`, and both were rebuilt to the same counts to prove it.
+  **What stays and why.** `records.jsonl` keeps the abstract of each record. An
+  abstract exceeds the 25-word limit, so this is a stated exception rather than
+  an oversight: abstracts are index metadata, redistributed as such by Crossref,
+  OpenAlex and Europe PMC, they are not the body of the work, and without them
+  the screening cannot be repeated from the frozen file. The exception is stated
+  at its true size rather than as a word: 2268 records carry an abstract, median
+  205 words, 95th percentile 400, but 113 run past 400 words, 23 past 600 and
+  the longest is 5007. The long ones are not abstracts in any ordinary sense;
+  they are what the index returned in the abstract field, which for some
+  publishers and for Zenodo deposits is the whole description of the document.
+  They are kept because they are the field the screeners actually read and
+  because the indexes serve them publicly, not because they are short. `extract/raw/` keeps
+  what the extraction agents returned, whose longest string is 60 words, as the
+  audit trail behind every row in `schemes.jsonl`. `screen/verdicts/` keeps the
+  verdicts and their one-line notes, which carry no source text.
+  This was found by a scan for third-party text before the first push. The audit
+  of 2026-09-29 missed it: it tested file extensions and the passages were inside
+  JSON. That audit's claim that no third-party full text was committed was wrong
+  when it was written.

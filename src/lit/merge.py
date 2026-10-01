@@ -270,16 +270,32 @@ def check() -> int:
     print(f"scheme ids in the data     : {len(all_ids)}")
     print(f"canonical schemes          : {len(merge.get('canonical_schemes', []))}")
     print(f"marked out of scope        : {len(out_of_scope)}")
+    # A canonical scheme none of whose members appear in the data would be
+    # counted among the merged schemes while standing for nothing. That is the
+    # failure worth catching; a single stale member alongside live ones is not.
+    empty = sorted(group["canonical_id"] for group in merge.get("canonical_schemes", [])
+                   if not (set(group.get("members", [])) & all_ids))
+
     for label, items in (("UNASSIGNED", unassigned), ("ASSIGNED TWICE", doubled),
-                         ("NOT IN THE DATA", unknown),
-                         ("BOTH MERGED AND OUT OF SCOPE", both)):
+                         ("BOTH MERGED AND OUT OF SCOPE", both),
+                         ("CANONICAL SCHEME WITH NO MEMBER IN THE DATA", empty)):
         if items:
             print(f"\n{label} ({len(items)}):")
             for item in list(items)[:30]:
                 print(f"  {item}")
-    if unassigned or doubled or unknown or both:
+    if unknown:
+        # Reported, not fatal, for the same reason crosswalk.py keeps stale
+        # labels: these ids were renamed when three packets were extracted
+        # again, and dropping them would erase where the merge came from.
+        print(f"\nIn the merge but no longer in the data ({len(unknown)}). Stale ids "
+              f"from before a re-extraction, kept for provenance; each belongs to a "
+              f"canonical scheme that does have a live member:")
+        for item in unknown[:30]:
+            print(f"  {item}")
+    if unassigned or doubled or both or empty:
         return 1
-    print("\nmerge is complete and one to one")
+    print(f"\nmerge is complete: every id in the data is assigned exactly once, and "
+          f"every canonical scheme has at least one member in the data")
     return 0
 
 

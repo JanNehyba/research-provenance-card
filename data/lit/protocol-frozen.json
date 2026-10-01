@@ -1,8 +1,8 @@
 {
-  "frozen_at": "2026-09-27",
+  "frozen_at": "2026-10-01",
   "protocol": {
     "path": "docs/scoping/protocol.md",
-    "sha256": "d98a865f429729a7e7b6d38ae631c3e20486cbe8ae3f0dca5f1976ea1a28e481"
+    "sha256": "6c8ac7db16191088b0198d6a5c2f472b6ea31c18ef216a03e7a869b49372d730"
   },
   "queries": {
     "path": "data/lit/queries.json",
@@ -23,6 +23,20 @@
       "queries_sha256": "2c648a4a9129e7af4472c5d2b87b91b287f6b64c68df8d1fcc36a7befb46bd0b",
       "superseded_on": "2026-09-27",
       "superseded_because": "safety net for records with no abstract, logged in protocol section 11"
+    },
+    {
+      "frozen_at": "2026-09-27",
+      "protocol_sha256": "d98a865f429729a7e7b6d38ae631c3e20486cbe8ae3f0dca5f1976ea1a28e481",
+      "queries_sha256": "2c648a4a9129e7af4472c5d2b87b91b287f6b64c68df8d1fcc36a7befb46bd0b",
+      "superseded_on": "2026-10-01",
+      "superseded_because": "deviation 2026-10-01: candidate windows and screening batches removed from git and from the branch history before first push; limit restated for what the repository may carry"
+    },
+    {
+      "frozen_at": "2026-10-01",
+      "protocol_sha256": "9be23329a9bebb82017bc01a65b326d4e069e9ecf6d43823c4275a9800fcfcc0",
+      "queries_sha256": "2c648a4a9129e7af4472c5d2b87b91b287f6b64c68df8d1fcc36a7befb46bd0b",
+      "superseded_on": "2026-10-01",
+      "superseded_because": "deviation 2026-10-01 amended: the abstract exception stated at its true size"
     }
   ]
 }
