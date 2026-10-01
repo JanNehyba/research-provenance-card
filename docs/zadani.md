@@ -34,6 +34,23 @@ in different genres, what components these formulations consist of, and how
 they affect perceived responsibility and trust. This perceived gap must be
 verified, not assumed (see the literature review step below).
 
+**Updated 2026-10-01, after the scoping review.** The gap check has run; it is
+in `docs/scoping/` on branch `lit/schemes`. 429 category schemes were assembled
+from 400 papers, with 1703 extracted dimension rows, each carrying a verbatim
+quote verified against the retrieved text.
+
+Accountability **is** modelled. 36 schemes carry a field for who vouches for the
+work, so that part of the claim is withdrawn here rather than defended. State of
+the output is effectively absent: three schemes carry a maturity level, but of a
+system or a rubric, never of the text being handed over. Recipient expectation
+exists only as a property of an interface, never as a sentence an author writes.
+
+The surviving claim is narrower and sharper than the one it replaces: every
+scheme that models accountability models **who** vouches, and not one offers a
+field for **what** they vouch for. The pilot coding of real formulations points
+the same way. The object of the responsibility claim is present in all five
+cases that make one, and in all five it is the whole publication.
+
 ## Eight components (a starting guide, not a finished typology)
 
 1. **Role of AI:** proofreading, suggestion, entire text, summary, analysis
