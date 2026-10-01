@@ -16,15 +16,23 @@ sandbox proxy.
 
 from __future__ import annotations
 
+import os
 import time
 
 import requests
 
-CONTACT = "CONTACT_REMOVED"
+# Crossref, OpenAlex and Unpaywall all give faster, more reliable service to
+# requests that name a contact address, so the pipeline sends one. It is read
+# from the environment rather than written here, because this repository is
+# public and an address committed to it is an address published. Set
+# RPC_CONTACT before a run; without it the requests still work, they just go
+# through the anonymous pool and may be slower or rate limited.
+CONTACT = os.environ.get("RPC_CONTACT", "")
 USER_AGENT = (
     "ai-disclosure-framing-research/0.1 "
-    f"(academic scoping review; mailto:{CONTACT}; "
-    "https://github.com/JanNehyba/research-provenance-card)"
+    + (f"(academic scoping review; mailto:{CONTACT}; " if CONTACT
+       else "(academic scoping review; ")
+    + "https://github.com/JanNehyba/research-provenance-card)"
 )
 
 # Minimum seconds between two requests to the same host. arXiv asks for 3
